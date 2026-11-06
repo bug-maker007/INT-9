@@ -1,0 +1,125 @@
+{
+ "sha256_hash": "e9630dd62cb4a53f759d620884205b2c6a1fec90cb65f2c34334488cc826ee9d",
+ "sha3_384_hash": "ef5fdd92cd55b7fdee4fff811f0449aaba92546de60a4b545ae8fa2615d8fe2088054f1895d6c028638eafa8767553ab",
+ "sha1_hash": "0e72fa76e864903bb449b8bb51ed9d73ceafcb41",
+ "md5_hash": "f6dc569118ecaca1615db75a5b10b8b3",
+ "first_seen": "2026-03-15 07:30:21",
+ "last_seen": null,
+ "file_name": "mparivahanextgen1801.apk",
+ "file_size": 20964324,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1882733A1114F3EA3F15211323475619B574A36C7F88552CBFE7582AF9860341F32AFBA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:bGoXWG+MxyCMU6b2wUK1Vo/WWD0V6MVnRQqWeA8L+JjBS6oOYdAxaA:bG+WGrl6R3VKWNpVnRRaJdoDAL",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Dropper",
+  "GOI",
+  "Malware",
+  "mParivahan",
+  "Riskware",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Packed.57464.18799.31057.UNOFFICIAL"
+  ],
+  "downloads": "296",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "dependsonpythonailib",
+   "author": "Tim Brown",
+   "description": "Hunts for dependencies on Python AI libraries",
+   "reference": null
+  },
+  {
+   "rule_name": "elf_arm_mips_ko_so",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/e9630dd62cb4a53f759d620884205b2c6a1fec90cb65f2c34334488cc826ee9d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260315-jb4d7aew9j/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-09-18 16:44:18",
+   "scanner_count": "36",
+   "scanner_match": "4",
+   "scanner_percent": "11.11"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69b6601a4ec2f522cc49d020/reports/cea1afc3-880a-437d-8380-0730598fea5a/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-09-18T11:28:00Z",
+   "last_seen": "2025-09-18T12:00:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/e9630dd62cb4a53f759d620884205b2c6a1fec90cb65f2c34334488cc826ee9d/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

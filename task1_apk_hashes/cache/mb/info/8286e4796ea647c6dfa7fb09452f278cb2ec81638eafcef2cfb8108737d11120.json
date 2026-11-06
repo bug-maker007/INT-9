@@ -1,0 +1,154 @@
+{
+ "sha256_hash": "8286e4796ea647c6dfa7fb09452f278cb2ec81638eafcef2cfb8108737d11120",
+ "sha3_384_hash": "477e919a80ea977f045fb047f5625a5bfbe298566e92cb522f3fccba5dc0dff299f054dfd1d3f0c9d98087716d574299",
+ "sha1_hash": "8b242327de59b6c7d0063719bd6a7a63f3cb2c17",
+ "md5_hash": "d61e9a3a30c95a29ac2c89f2df2377ce",
+ "first_seen": "2026-08-27 13:59:41",
+ "last_seen": null,
+ "file_name": "NextGen_mParivahan_Official.apk",
+ "file_size": 5260341,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "DK",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T192362382F75D582FC0BB963A0D9A4B7167568E07CA83A307A468332C7D772D44F96BC1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:I8wZoomzBlAAERcvJsSLypPofQQFA2xjqXJCvOLLGS:pzzBSA6cBs1SfE2+Ca",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "65.0% (.APK) Android Package (27000/1/5)",
+  "25.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Dropper",
+  "GOI",
+  "Malware",
+  "mParivahan",
+  "Riskware",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.PUA.IMG.PossibleMalware.11739745.UNOFFICIAL",
+   "SecuriteInfo.com.PUA.IMG.PossibleMalware.12655914.UNOFFICIAL",
+   "SecuriteInfo.com.PUA.IMG.PossibleMalware.13588294.UNOFFICIAL",
+   "SecuriteInfo.com.PUA.IMG.PossibleMalware.14315436.UNOFFICIAL",
+   "SecuriteInfo.com.PUA.IMG.PossibleMalware.14552463.UNOFFICIAL",
+   "SecuriteInfo.com.PUA.IMG.PossibleMalware.16316625.UNOFFICIAL",
+   "SecuriteInfo.com.PUA.IMG.PossibleMalware.16531126.UNOFFICIAL",
+   "SecuriteInfo.com.PUA.IMG.PossibleMalware.17274272.UNOFFICIAL",
+   "SecuriteInfo.com.PUA.IMG.PossibleMalware.18413146.UNOFFICIAL",
+   "SecuriteInfo.com.PUA.IMG.PossibleMalware.18739414.UNOFFICIAL",
+   "SecuriteInfo.com.PUA.IMG.PossibleMalware.18952184.UNOFFICIAL",
+   "SecuriteInfo.com.PUA.IMG.PossibleMalware.18983143.UNOFFICIAL",
+   "SecuriteInfo.com.PUA.IMG.PossibleMalware.19191779.UNOFFICIAL",
+   "SecuriteInfo.com.PUA.IMG.PossibleMalware.19439915.UNOFFICIAL",
+   "SecuriteInfo.com.PUA.IMG.PossibleMalware.21357251.UNOFFICIAL",
+   "SecuriteInfo.com.PUA.IMG.PossibleMalware.22352365.UNOFFICIAL",
+   "SecuriteInfo.com.PUA.IMG.PossibleMalware.2379313"
+  ],
+  "downloads": "380",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Jeevan_Malware_Rewards",
+   "author": "ShriTiger",
+   "description": "Detects JeevanReward variants using Technical, Anti-Analysis, and Indian SE keywords",
+   "reference": null
+  },
+  {
+   "rule_name": "RIPEMD160_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for RIPEMD-160 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "SHA1_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for SHA1 constants",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8286e4796ea647c6dfa7fb09452f278cb2ec81638eafcef2cfb8108737d11120/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260827-ra7zzsaj31/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-08-25 08:45:29",
+   "scanner_count": "22",
+   "scanner_match": "4",
+   "scanner_percent": "18.18"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a9042f9bf67f8b635653a98/reports/da478bc1-c3fe-4f90-8622-4d53d6e763c6/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-25T03:01:00Z",
+   "last_seen": "2026-08-28T05:50:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/8286e4796ea647c6dfa7fb09452f278cb2ec81638eafcef2cfb8108737d11120/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": [
+  {
+   "id": "453595",
+   "date_added": "2026-08-29 05:00:49",
+   "twitter_handle": null,
+   "display_name": null,
+   "comment": "Is there any way we could get into contact? I'm curious about your process for finding these samples. \n\nMy email is techdomloser@gmail.com \n\nFeel free to shoot a message :)"
+  }
+ ]
+}

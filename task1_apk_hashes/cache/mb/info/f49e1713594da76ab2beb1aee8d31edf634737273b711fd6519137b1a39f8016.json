@@ -1,0 +1,132 @@
+{
+ "sha256_hash": "f49e1713594da76ab2beb1aee8d31edf634737273b711fd6519137b1a39f8016",
+ "sha3_384_hash": "b4563ed1160a4b067c4dffa7521f22219f5c98150cea2ccc0fad0be54b679f6fe9946c2692271a105305ceaed23a6f3d",
+ "sha1_hash": "d13884961583fb324db6740678521fe049cb5fba",
+ "md5_hash": "0dddfbb03cd2c25201f93c9fcf1484a6",
+ "first_seen": "2023-07-19 12:02:24",
+ "last_seen": null,
+ "file_name": "BawagSecurity.apk",
+ "file_size": 4895531,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T166363306A66A10A5C7DC36728AEB47D5E94C6F8C4502D527133375B81C7BEC02BEBCAD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:3WqRJg9+njZ2Va7Al01oWcwWWIy0pP0AAfNfhZm9DcVlZ:3WqdjUVa7Al0KWcwUy0FGlhZm9DcTZ",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android_hydra",
+  "apk",
+  "hydra",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.11270.9077.15558.UNOFFICIAL"
+  ],
+  "downloads": "467",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/f49e1713594da76ab2beb1aee8d31edf634737273b711fd6519137b1a39f8016/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Hydra",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/f49e1713594da76ab2beb1aee8d31edf634737273b711fd6519137b1a39f8016",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/230719-n7116aec36/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "7"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Anubis",
+   "status": "MALICIOUS",
+   "first_seen": "2023-06-27 18:49:00",
+   "scanner_count": "25",
+   "scanner_match": "13",
+   "scanner_percent": "52.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/64b7d0f82ad0f7418d6a2ac6/reports/096c9fd4-4403-41fd-b3e8-9d1a7ce6e58f/overview"
+  }
+ },
+ "comments": null
+}

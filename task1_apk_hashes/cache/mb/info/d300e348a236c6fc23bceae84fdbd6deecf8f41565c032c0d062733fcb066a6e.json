@@ -1,0 +1,261 @@
+{
+ "sha256_hash": "d300e348a236c6fc23bceae84fdbd6deecf8f41565c032c0d062733fcb066a6e",
+ "sha3_384_hash": "a569f8dd820431b4dd8f0676bb07fac0ffec59d94747f10f19c8102f478f436817ef1baea9a6a46498993e07aff5bc08",
+ "sha1_hash": "af23b7ba2519413606ce5fcc97453ffb6104b725",
+ "md5_hash": "cac86d5d2fb145096d2fef5b0bc7e804",
+ "first_seen": "2026-07-20 12:39:37",
+ "last_seen": null,
+ "file_name": "bawag.apk",
+ "file_size": 6464527,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T1BF56336446C64717FDF3BFF55AF9928A8ABC8D89C2C6C99A052C763638FB5D11F00482",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:4kLipe0/65Kh2SAwxKFzNPy4Qvu0rwd6xnDZyzzBpY017J+euA3dUne9EWzrfG3W:fLz0SJZ+AzVy4qCzjn1AzA3dU6Ecs4",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Cybersecurity",
+   "issuer_cn": "Cybersecurity",
+   "algorithm": "sha384WithRSAEncryption",
+   "valid_from": "2026-07-18T10:02:08Z",
+   "valid_to": "2027-07-18T10:02:08Z",
+   "serial_number": "6445bbdb0f392739",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "f01396ab58b70c9f72af37f4ad83f499b1c09ddca3abd27d98c75f7e39053fc4",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SMS-10.UNOFFICIAL"
+  ],
+  "downloads": "411",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "apk_flubot_w0",
+   "author": "Thomas Barabosch, Telekom Security",
+   "description": "matches on dumped, decrypted V/DEX files of Flubot version > 4.2",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "FreddyBearDropper",
+   "author": "Dwarozh Hoshiar",
+   "description": "Freddy Bear Dropper is dropping a malware through base63 encoded powershell scrip.",
+   "reference": null
+  },
+  {
+   "rule_name": "html_auto_download_b64",
+   "author": "Tdawg",
+   "description": "html auto download",
+   "reference": null
+  },
+  {
+   "rule_name": "HydraDexManifestApk_strings",
+   "author": "Alberto Segura",
+   "description": "Detects Hydra Android Banking malware (AndroidManifest.xml strings)",
+   "reference": null
+  },
+  {
+   "rule_name": "HydraManifestApk_strings",
+   "author": "Alberto Segura",
+   "description": "Detects Hydra Android Banking malware (AndroidManifest.xml strings)",
+   "reference": null
+  },
+  {
+   "rule_name": "MD5_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for MD5 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "NET",
+   "author": "malware-lu",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "RIPEMD160_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for RIPEMD-160 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "SHA1_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for SHA1 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "strrat_jar_v1",
+   "author": "RandomMalware",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "WIN_WebSocket_Base64_C2_20250726",
+   "author": "dogsafetyforeverone",
+   "description": "Detects configuration strings used by malware to specify WebSocket command-and-control endpoints inside Base64-encoded data. It looks for prefixes such as '#ws://' or '#wss://' that were found in QuasarRAT configuration data.",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d300e348a236c6fc23bceae84fdbd6deecf8f41565c032c0d062733fcb066a6e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/260720-pwlb1aav5q/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "infostealer",
+    "persistence",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Family: Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Hydra payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Contacts third-party web service commonly abused for C2",
+     "score": "6"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ravartar",
+   "status": "MALICIOUS",
+   "first_seen": "2026-07-18 18:01:01",
+   "scanner_count": "38",
+   "scanner_match": "14",
+   "scanner_percent": "36.84"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a5e174fa42ac81879614ee4/reports/a550daf5-18eb-470f-9d1c-dcc7f46f3f62/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-18T12:20:00Z",
+   "last_seen": "2026-07-21T17:25:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/d300e348a236c6fc23bceae84fdbd6deecf8f41565c032c0d062733fcb066a6e/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

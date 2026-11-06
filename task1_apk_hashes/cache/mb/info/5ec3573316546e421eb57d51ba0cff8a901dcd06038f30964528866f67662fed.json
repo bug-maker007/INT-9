@@ -1,0 +1,97 @@
+{
+ "sha256_hash": "5ec3573316546e421eb57d51ba0cff8a901dcd06038f30964528866f67662fed",
+ "sha3_384_hash": "4ef0f384c65f92973baad4d4812cc8a787ad1b24876cecfda2cfd5bcde17d13b875767a1bfb9a015ebc795c0d4e5efef",
+ "sha1_hash": "d681a3b734ab8d144b8b33087dd2985cf6723648",
+ "md5_hash": "675ec856ba8d761e56ce593c28b382d8",
+ "first_seen": "2023-07-19 11:28:37",
+ "last_seen": null,
+ "file_name": "1-aligned-signed_en.apk",
+ "file_size": 4044036,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T162163341F0E1AA42E8FA4B764EA2418041757D86CB9D770B3146FA0C29B3DE1CF99B6D",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:QEJklN+K2iCqoSEjvjAioVxNT7yMLBTEI9HJNvjwaGGL8WTpKEk:bGrC9/zjAioVx5mMLNL/wa0WTcEk",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android_hydra",
+  "apk",
+  "hydra"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.14643.30952.14536.UNOFFICIAL"
+  ],
+  "downloads": "289",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5ec3573316546e421eb57d51ba0cff8a901dcd06038f30964528866f67662fed/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Hydra",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/5ec3573316546e421eb57d51ba0cff8a901dcd06038f30964528866f67662fed",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "3",
+   "link": "https://tria.ge/reports/230719-nlkgaaed4x/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.BankerAgent",
+   "status": "MALICIOUS",
+   "first_seen": "2023-07-18 19:01:00",
+   "scanner_count": "25",
+   "scanner_match": "8",
+   "scanner_percent": "32.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/64b7c900fd9e198dc1160cd6/reports//overview"
+  }
+ },
+ "comments": null
+}

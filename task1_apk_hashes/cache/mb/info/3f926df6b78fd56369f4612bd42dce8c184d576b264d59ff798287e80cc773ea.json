@@ -1,0 +1,126 @@
+{
+ "sha256_hash": "3f926df6b78fd56369f4612bd42dce8c184d576b264d59ff798287e80cc773ea",
+ "sha3_384_hash": "f3e61e2bcd3ac1b4a60619af2e8b3837b0ba6d37668fcefe5b753b0bd0ff02bb6cc8542160aaaf88c2986f48bb05f938",
+ "sha1_hash": "bff397741b8ee906907c276126c6f3e86003c36b",
+ "md5_hash": "4d574bae5fff5bd09b824d761f8956a5",
+ "first_seen": "2023-11-03 08:18:24",
+ "last_seen": null,
+ "file_name": "LoveLand.apk",
+ "file_size": 4877389,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1C3362353F6779897CCB1C372A1751A35613B0E19D787B64A2A1C73BEA4FB9E807802D0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:b8XlDkkrXNsfSQngGz7PFiRzuhemEw/xuXnBwKIRs+FvHdlQ4+pT:bIlD/9a5zrFiRahemEwx/dHdlQl",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.5799.9278.23285.UNOFFICIAL"
+  ],
+  "downloads": "189",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2727422/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3f926df6b78fd56369f4612bd42dce8c184d576b264d59ff798287e80cc773ea/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/3f926df6b78fd56369f4612bd42dce8c184d576b264d59ff798287e80cc773ea",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/231103-j7t6dsgd94/",
+   "tags": [
+    "family:irata",
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyAgent",
+   "status": "MALICIOUS",
+   "first_seen": "2023-11-03 08:19:05",
+   "scanner_count": "22",
+   "scanner_match": "10",
+   "scanner_percent": "45.45"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6544ad03bc703e36b098ffd4/reports/9d0952e3-ee76-4b6e-8d96-247bc68d91bc/overview"
+  }
+ },
+ "comments": null
+}

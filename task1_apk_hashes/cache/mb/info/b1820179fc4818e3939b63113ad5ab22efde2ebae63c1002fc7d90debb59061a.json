@@ -1,0 +1,131 @@
+{
+ "sha256_hash": "b1820179fc4818e3939b63113ad5ab22efde2ebae63c1002fc7d90debb59061a",
+ "sha3_384_hash": "cd6c783f9e0fa9c64c75dfd7a34a3f06eb3fddd883f1549b78502b007dbcdb2c75a36b43c4e7ceb7034c2fe6430ae736",
+ "sha1_hash": "ca97d89de7334b9c4b1bb7c6329ae40619edaea0",
+ "md5_hash": "c5d68490bbda4773ea03caff9f264428",
+ "first_seen": "2023-10-07 00:22:33",
+ "last_seen": null,
+ "file_name": "sahamedalat.apk",
+ "file_size": 3118599,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1FEE533D1E882D431F92B0537C195D0B3ABD480FA1A49EB266F5C809D5CE6C925B3FF86",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:NPagnrYa6oETBHR8HpolpZRh6zLI/ZwvRZswTxFavs9h3vWyPgLYMJvAkldZHs/p:NPn1zETBRcilzR7gmQqvs9hwJvAk7p1K",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.Lydia.7.21586.25021.UNOFFICIAL"
+  ],
+  "downloads": "175",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2717787/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b1820179fc4818e3939b63113ad5ab22efde2ebae63c1002fc7d90debb59061a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/b1820179fc4818e3939b63113ad5ab22efde2ebae63c1002fc7d90debb59061a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/231007-apgb5sag69/",
+   "tags": [
+    "family:irata",
+    "android",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SmsAgent",
+   "status": "MALICIOUS",
+   "first_seen": "2023-10-07 00:23:06",
+   "scanner_count": "22",
+   "scanner_match": "10",
+   "scanner_percent": "45.45"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6520a4e7426c8727d6f1d70b/reports/5048151b-71a9-43c7-afb3-b531d7e534cf/overview"
+  }
+ },
+ "comments": null
+}

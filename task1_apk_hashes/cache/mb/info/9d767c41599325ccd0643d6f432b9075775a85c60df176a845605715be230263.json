@@ -1,0 +1,164 @@
+{
+ "sha256_hash": "9d767c41599325ccd0643d6f432b9075775a85c60df176a845605715be230263",
+ "sha3_384_hash": "182e443389135ba861ef9200836949f3cbe7475851478d5787cd3387c3d6948fdc24a867f379ae03d09f6d7591962143",
+ "sha1_hash": "f79d044fc0530484ddd092a961d58146049ed368",
+ "md5_hash": "02e231f85558f37da6802142440736f6",
+ "first_seen": "2025-01-13 06:52:20",
+ "last_seen": null,
+ "file_name": "krep.itmtd.ywtjexf-1.apk",
+ "file_size": 824755,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Alonso168957071",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "BankBot",
+ "imphash": null,
+ "tlsh": "T1C405237A24C41F65D8AFC37048DBD8B362F1355F8297E037A5850CCBE495B809A6F8E6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:1ZhvlM2/04y+2vtiqvtisvti9vtiYvtivvtiacIoIeyQ0OqnV9xJKcQaVGbnAh/W:vhdwXzcIoIdrrKZAh/R8S8",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "52.4% (.APK) Android Package (27000/1/5)",
+  "26.2% (.JAR) Java Archive (13500/1/2)",
+  "13.5% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "7.7% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "BankBot",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Hjdhojk Lnckroko",
+   "issuer_cn": "Hjdhojk Lnckroko",
+   "algorithm": "md5WithRSAEncryption",
+   "valid_from": "2016-05-20T22:35:29Z",
+   "valid_to": "2021-04-24T22:35:29Z",
+   "serial_number": "3c2f34d9",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "897580539713e42039b16cb68781b53212d5f073edbc209e53e37bce4ebd730a",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.230.origin.27824.24630.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Spy.AndroidOS.SberBanker.20763.2002.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Spy.AndroidOS.SberBanker.8541.24642.UNOFFICIAL"
+  ],
+  "downloads": "352",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "html_auto_download_b64",
+   "author": "Tdawg",
+   "description": "html auto download",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/9d767c41599325ccd0643d6f432b9075775a85c60df176a845605715be230263/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Trojan",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/9d767c41599325ccd0643d6f432b9075775a85c60df176a845605715be230263",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/250113-hnmfrstmgn/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence",
+    "privilege_escalation"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the unique device ID (IMEI, MEID, IMSI)",
+     "score": "6"
+    },
+    {
+     "signature": "Tries to add a device administrator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyAgent",
+   "status": "MALICIOUS",
+   "first_seen": "2016-05-25 01:57:00",
+   "scanner_count": "38",
+   "scanner_match": "14",
+   "scanner_percent": "36.84"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6784b8551a94ed9a9c7fda77/reports/b615bdf0-db6c-4b7c-8001-263b61c428de/overview"
+  }
+ },
+ "comments": null
+}

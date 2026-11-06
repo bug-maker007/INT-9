@@ -1,0 +1,118 @@
+{
+ "sha256_hash": "fbd8b50d4c36272586ce75a99b775d1322cabf6076d8b2f28e4fce718b7dca0c",
+ "sha3_384_hash": "3889115ff158137a0bf13515c67d2578c78e640313ff2d25d9dd95602a3376f9127da1ec4d88f588fa0eb6770b9d3901",
+ "sha1_hash": "bb51fb4a156faa908ca79fa061b5e19d8c7a8f7c",
+ "md5_hash": "528ec7bb07e59a9b95ed6217430ad5c2",
+ "first_seen": "2026-08-19 12:07:48",
+ "last_seen": null,
+ "file_name": "release.apk",
+ "file_size": 21715831,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1C527238BFB05A8ABD0F743B6053A572441470C268B83DBC7AE54317C59BB5E03F9A6D8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:+TTQ7Qf+T4JocwZE2Lj3cpqiPMHj8sTelWi/N4aQHNTyyVjcsyVgqi/:nsf1icwEJPMHQsTelWQ4aQHNTyyiXhC",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "46.2% (.VYM) VYM Mind Map (12500/1/3)",
+  "38.8% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "14.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Malware",
+  "Riskware",
+  "SpyAgent",
+  "TikTok",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "240",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.05"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260819-pa5hraap2z/",
+   "tags": [
+    "android",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-08-19 12:09:41",
+   "scanner_count": "38",
+   "scanner_match": "6",
+   "scanner_percent": "15.79"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a859cbd553aa87fab985703/reports/11cb9718-df78-4d0b-a291-c36f84ea9102/overview"
+  }
+ },
+ "comments": null
+}

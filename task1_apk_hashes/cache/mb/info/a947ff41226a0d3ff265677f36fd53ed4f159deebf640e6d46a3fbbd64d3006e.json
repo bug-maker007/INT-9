@@ -1,0 +1,132 @@
+{
+ "sha256_hash": "a947ff41226a0d3ff265677f36fd53ed4f159deebf640e6d46a3fbbd64d3006e",
+ "sha3_384_hash": "0926fc94c55efad982f53f8a28ba4bd207af0548b17ef76221acfa8e568d931562331e3dcfe8f3e045101e91367c457d",
+ "sha1_hash": "54704e235df091aad794d38c99dae68ce0987c04",
+ "md5_hash": "b78918c80c39ece17143a34f751e2a21",
+ "first_seen": "2023-10-03 22:36:31",
+ "last_seen": null,
+ "file_name": "KissHub.apk",
+ "file_size": 3455879,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T13AF5AD97F395696BC4F38372817613A5514B4C228F83AFC76D28763C28BB5D42E49BC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:MT3Bl9eu6gLCrgPoSNwYfa9Gn2XIMQuKyN:MTvBoS+Ma06IMQuKU",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "43.9% (.APK) Android Package (32500/1/6)",
+  "18.2% (.JAR) Java Archive (13500/1/2)",
+  "16.8% (.VYM) VYM Mind Map (12500/1/3)",
+  "14.1% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.1088.origin.15955.15778.UNOFFICIAL"
+  ],
+  "downloads": "178",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a947ff41226a0d3ff265677f36fd53ed4f159deebf640e6d46a3fbbd64d3006e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/a947ff41226a0d3ff265677f36fd53ed4f159deebf640e6d46a3fbbd64d3006e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/231003-2jslrsfh4v/",
+   "tags": [
+    "family:irata",
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SmsAgent",
+   "status": "MALICIOUS",
+   "first_seen": "2023-10-03 22:37:06",
+   "scanner_count": "23",
+   "scanner_match": "10",
+   "scanner_percent": "43.48"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.25",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/651c978f40343f27c6717bb6/reports/46a38488-8bcc-4be7-b3dc-845ce90d4eb8/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,143 @@
+{
+ "sha256_hash": "2b44a106dc5ace546ffca7e9d2baf52326894e2ed3f5714115f72c6e45c6bc49",
+ "sha3_384_hash": "6be8cde6209d95141a0a920a01e74306bbb3d7b97d8c4c210efc834c2cb2ab4b37c5d2815724aac736ff362ad2b00a4c",
+ "sha1_hash": "8bb220eddbd6a7ec5b69ff598ec5f966be49bf0a",
+ "md5_hash": "bae760f6f41071d6607d215262cadd2b",
+ "first_seen": "2023-04-08 16:37:03",
+ "last_seen": null,
+ "file_name": "Lion Voice Changer_2.0.1_Apkpure.apk",
+ "file_size": 35568912,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "HK",
+ "anonymous": 1,
+ "signature": "Harly",
+ "imphash": null,
+ "tlsh": "T125772357E39496AEC4F343724E3A2272421B4C35AB8397976838733C16B79E80B5DBC5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "786432:9JyNcfAqB3U+IZa8UWgcwBpS5Ye4CKoflTMqaLN5QnHHA9vzuun3Pb6g:WN2AqNyadWlbYeJKeTahmAhuun3Pb/",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "48.1% (.APK) Android Package (38500/1/9)",
+  "16.8% (.JAR) Java Archive (13500/1/2)",
+  "15.6% (.VYM) VYM Mind Map (12500/1/3)",
+  "13.1% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.0% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "harly",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2023-02-09T07:06:40Z",
+   "valid_to": "2053-02-09T07:06:40Z",
+   "serial_number": "c4d83473e909908a63649c30b99084536b16a534",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "2884a43ada1184034fa83e13a46bf8b40f1250669e40ee9a5be3d15c37ecb256",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "309",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/sh1shk0va/status/1644239583784124416"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/2b44a106dc5ace546ffca7e9d2baf52326894e2ed3f5714115f72c6e45c6bc49",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "harly",
+   "score": "10",
+   "link": "https://tria.ge/reports/230408-t4tesseb63/",
+   "tags": [
+    "family:harly",
+    "android",
+    "evasion",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Harly",
+     "score": "10"
+    },
+    {
+     "signature": "Checks Android system properties for emulator presence.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2023-04-07 05:24:30",
+   "scanner_count": "24",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "0.8333333333333333",
+   "report_link": "https://www.filescan.io/uploads/643198361500380d2ab6a0cb/reports/ef8b2425-9918-4970-b4d3-af139a9ffcc5/overview"
+  }
+ },
+ "comments": null
+}

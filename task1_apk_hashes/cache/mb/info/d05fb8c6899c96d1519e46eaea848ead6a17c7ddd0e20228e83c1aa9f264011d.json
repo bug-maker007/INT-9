@@ -1,0 +1,96 @@
+{
+ "sha256_hash": "d05fb8c6899c96d1519e46eaea848ead6a17c7ddd0e20228e83c1aa9f264011d",
+ "sha3_384_hash": "0475e677467fa9047a84b8449eed8febd69621de15a62a93729f6190d98a504823974e7f47e8f4a53d852f287da99a77",
+ "sha1_hash": "e09fd3dc9e6090aaafde5fadb9390646b633aabf",
+ "md5_hash": "60d9c2095ed150373a6b1fa0221d016e",
+ "first_seen": "2022-03-04 09:44:14",
+ "last_seen": "2022-11-24 08:01:49",
+ "file_name": "Powerful Cleaner Antivirus_v1.9.apk",
+ "file_size": 14808743,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "500mk500",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "SharkBot",
+ "imphash": null,
+ "tlsh": "T101E6128BFB98CA1EC8332132C827423372970E155A4297B76615F72C29B7DD14F56BCA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:j9XnFH5macX7X52NWdXJq2TNhMXw6zpMrfum7h:J1ZqgY5D2qh",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SharkBot"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "591",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/ReBensk/status/1499680943178543105"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "Android Sharkbot"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d05fb8c6899c96d1519e46eaea848ead6a17c7ddd0e20228e83c1aa9f264011d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.30"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/d05fb8c6899c96d1519e46eaea848ead6a17c7ddd0e20228e83c1aa9f264011d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220304-lq3gjsfggl/",
+   "tags": [
+    "android",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks Qemu related system properties.",
+     "score": "7"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2022-03-04 09:45:36",
+   "scanner_count": "27",
+   "scanner_match": "4",
+   "scanner_percent": "14.81"
+  }
+ },
+ "comments": null
+}

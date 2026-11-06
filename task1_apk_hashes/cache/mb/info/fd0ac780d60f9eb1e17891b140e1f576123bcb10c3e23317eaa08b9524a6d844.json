@@ -1,0 +1,200 @@
+{
+ "sha256_hash": "fd0ac780d60f9eb1e17891b140e1f576123bcb10c3e23317eaa08b9524a6d844",
+ "sha3_384_hash": "76221a0dc58b1b3675846663cd1a842422bfabbc5d0c3a05b37f6beb884db7d0f773068b00701b494e5d3188ba120946",
+ "sha1_hash": "8e25e3895708dbf359592afd9254563a7df6a4d6",
+ "md5_hash": "84359f46a88c564df7798527661cd17e",
+ "first_seen": "2025-09-06 14:11:42",
+ "last_seen": null,
+ "file_name": "Swift+Text+Messages_0.1.9.apk",
+ "file_size": 12255408,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "KR",
+ "anonymous": 1,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T1EAC6F1ABBB1CF92BC43A5033C6567132716B8E215E4297B3780C730C68B75E94B55BCA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:C6yHFPs0u9beWJzKQF8j1AiwT2s8O9xNztZw5nhLeTSpfJXtQUXVVpFarLm:C6ss0u9begzKbAfTRN5ZwNVNpgcVpFX",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "44.2% (.APK) Android Package (27000/1/5)",
+  "20.4% (.VYM) VYM Mind Map (12500/1/3)",
+  "17.2% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "11.4% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "6.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Bill Fraud",
+  "Joker",
+  "Malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "149",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://play.google.com/store/apps/details?id=com.messages.text.message.smsbox"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_AllMal_Detector",
+   "author": "DiegoAnalytics",
+   "description": "CrossPlatform All Malwares Detector: Detect PE, ELF, Mach-O, scripts, archives; overlay, obfuscation, encryption, spoofing, hiding, high entropy, network communication",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/fd0ac780d60f9eb1e17891b140e1f576123bcb10c3e23317eaa08b9524a6d844/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/fd0ac780d60f9eb1e17891b140e1f576123bcb10c3e23317eaa08b9524a6d844",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "antidot",
+   "score": "10",
+   "link": "https://tria.ge/reports/250906-rh8lgsfp3t/",
+   "tags": [
+    "family:antidot",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation)",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-09-06 09:13:09",
+   "scanner_count": "38",
+   "scanner_match": "2",
+   "scanner_percent": "5.26"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68bc415ba64010de766eb9a1/reports/3e10e722-ce99-4afd-9562-2c494c1cbcb7/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-09-06T13:39:00Z",
+   "last_seen": "2025-09-06T13:39:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/fd0ac780d60f9eb1e17891b140e1f576123bcb10c3e23317eaa08b9524a6d844/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

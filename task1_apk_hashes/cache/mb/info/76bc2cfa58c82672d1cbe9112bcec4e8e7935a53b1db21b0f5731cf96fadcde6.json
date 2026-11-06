@@ -1,0 +1,112 @@
+{
+ "sha256_hash": "76bc2cfa58c82672d1cbe9112bcec4e8e7935a53b1db21b0f5731cf96fadcde6",
+ "sha3_384_hash": "21872ef9732334fd2aa798d34c203f5ef7082c7db4addf45ae25ca7b66581d8ff56a2ccb0b0385ba9655a1df1825db87",
+ "sha1_hash": "860da3ef07eef55ffab4685574690343cb11ba9c",
+ "md5_hash": "e8d387c552c63596797ec59d17c5b08d",
+ "first_seen": "2026-07-29 21:24:12",
+ "last_seen": null,
+ "file_name": "imobile.apk",
+ "file_size": 14629762,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T17FE63306F92D4C6DD8B635783D14C34638327CA98B12C28B3561B37EBEF3AD1976A161",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:RzKkFcynFDsD/e0yUsoO9EwDb6wxLL9MQF:RzfFPnFQD/Hx53QLLN",
+ "magika": "zip",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Dropper",
+  "ICICI Bank",
+  "iMobile",
+  "Riskware",
+  "SpyAgent"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "311",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/76bc2cfa58c82672d1cbe9112bcec4e8e7935a53b1db21b0f5731cf96fadcde6/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260729-z8961ashrf/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-03-29 00:52:41",
+   "scanner_count": "24",
+   "scanner_match": "2",
+   "scanner_percent": "8.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a6a6f8e6ad5550b3c7bbe7f/reports/d0d57fb4-dc7a-410f-a8c7-ea2fc7fefe55/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-03-28T19:55:00Z",
+   "last_seen": "2026-07-30T19:43:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/76bc2cfa58c82672d1cbe9112bcec4e8e7935a53b1db21b0f5731cf96fadcde6/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

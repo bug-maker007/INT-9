@@ -1,0 +1,113 @@
+{
+ "sha256_hash": "26cb0b0f54eab56761961deb3354e1a68035b28237c2ff919535b1fcab520ca4",
+ "sha3_384_hash": "c6a8ca9820fbda132447387b10749a0e3cf34e6e08d51e44fed51ce9cded1aff9df7d9831becd69d593d5b61df51ca4b",
+ "sha1_hash": "3fc7511b04fe2df9a5000d14c8fe4c637dda7164",
+ "md5_hash": "036ade790c7e769b48f30ef01f425789",
+ "first_seen": "2023-07-09 12:30:49",
+ "last_seen": null,
+ "file_name": "26CB0B0F54EAB56761961DEB3354E1A68035B28237C2FF919535B1FCAB520CA4.apk",
+ "file_size": 8914180,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ReBensk",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T18E963392B2D1495ACCA7C8373C6D57A5C59B1E24861AD3D27E1237AA20FBAC40FC7DD0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:iaFf/I5mrEQiYWRVUCIzL25Fptn8GQa0VRf/xdE2dH/w3Oyng86lGOh4Sko4:fUuWRVUnL25FvnxQpnBTd/jyclGOhBkD",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Joker",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "233",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/ReBensk/status/1677954049533001728"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/26cb0b0f54eab56761961deb3354e1a68035b28237c2ff919535b1fcab520ca4/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/26cb0b0f54eab56761961deb3354e1a68035b28237c2ff919535b1fcab520ca4",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/230709-pp2emsda24/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-07-08 16:25:42",
+   "scanner_count": "23",
+   "scanner_match": "5",
+   "scanner_percent": "21.74"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/64aaa887eb53f729af5b511a/reports/398342d2-b1bd-4aa3-b508-556c15cd99f2/overview"
+  }
+ },
+ "comments": null
+}

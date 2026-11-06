@@ -1,0 +1,127 @@
+{
+ "sha256_hash": "55a0620136e283d47d3cc32858af08bb23ba77a70c7541c75e1150825906402b",
+ "sha3_384_hash": "1f84fa3b8464f54ee9e2976b53bb5ded6da0f677feeb1ad6e331ff18e0cefcb1979e8a58186f1cc5f643616bfffd4dfb",
+ "sha1_hash": "5e2998aeef95949af21832a4c23db480b405d084",
+ "md5_hash": "5d0ee6b683c4c5f663cb094434bd0c6b",
+ "first_seen": "2026-08-19 12:50:22",
+ "last_seen": null,
+ "file_name": "SеxiHub.apk",
+ "file_size": 6794931,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T18A662281EF45D82EC4BB90371A960B32662A9D1EC697D30789EC76285D372D80FDDEC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:Kjh6c9dLzbXfEyhd/PBZWcvnaQg+3rs7cN:KjhP9xnPEyvXz7vn9VN",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Banker",
+  "Malware",
+  "Riskware",
+  "signed",
+  "SmsSpy",
+  "TikTok"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.Mamont.287.origin.11459.27605.UNOFFICIAL"
+  ],
+  "downloads": "326",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "SUSP_XORed_Mozilla_Oct19",
+   "author": "Florian Roth",
+   "description": "Detects suspicious single byte XORed keyword 'Mozilla/5.0' - it uses yara's XOR modifier and therefore cannot print the XOR key. You can use the CyberChef recipe linked in the reference field to brute force the used key.",
+   "reference": "https://gchq.github.io/CyberChef/#recipe=XOR_Brute_Force()"
+  },
+  {
+   "rule_name": "SUSP_XORed_Mozilla_RID2DB4",
+   "author": "Florian Roth",
+   "description": "Detects suspicious XORed keyword - Mozilla/5.0",
+   "reference": "Internal Research"
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/55a0620136e283d47d3cc32858af08bb23ba77a70c7541c75e1150825906402b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260819-p28pgsbk9y/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-08-19 12:51:32",
+   "scanner_count": "23",
+   "scanner_match": "5",
+   "scanner_percent": "21.74"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a85a69cb5a5221aeae64be4/reports/58748871-a252-4ddf-90f3-5ad1e4a48d95/overview"
+  }
+ },
+ "comments": null
+}

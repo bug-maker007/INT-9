@@ -1,0 +1,132 @@
+{
+ "sha256_hash": "13e537945c4c4cd720ee5d2f2de723ecb6c9a6f09760b47a4ffd3212e0430d56",
+ "sha3_384_hash": "5ac78a1c4c8aa3f504459989f11d76bd7d4134c53ee94afe57b52bcfda52ab3cbf3e86ef9cd99bfc63e3fc878ea311a0",
+ "sha1_hash": "907472edd1b460665ba8dc2fdd466c3d1590613e",
+ "md5_hash": "38fabad4c2be5856016e16f9c5738ff5",
+ "first_seen": "2025-03-08 14:32:16",
+ "last_seen": null,
+ "file_name": "Install-Pro.apk",
+ "file_size": 22803149,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T19337D15A37418F39E46D2931C04F13274117BE055EA152D729AAF20CE93FAF36EF5A82",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:uNQrhAIf5LZ3SBsVtYArvZVGQAyiRuLWuaVEmDel:UQpfH3iWtYav6QAyi8iuaVEh",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "https://mega.nz/file/UhRyDB4a#C_2m6ExY82mxfFtOP9aQnyQNi6xhuv-6cRx0cOccF4I/utmPass/Svm0MmaXbH/token/hUuv/date/1741443457/8",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Coper",
+  "Octo"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "2909",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/250308-rpe8hsylw8/behavioral1"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Linux_Trojan_Generic_5420d3e7",
+   "author": "Elastic Security",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/13e537945c4c4cd720ee5d2f2de723ecb6c9a6f09760b47a4ffd3212e0430d56",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/250308-rwxq5sytb1/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "privilege_escalation",
+    "rat",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://40fec89163387f097cbabf4077c91bf7.top"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-03-08 14:33:16",
+   "scanner_count": "38",
+   "scanner_match": "4",
+   "scanner_percent": "10.53"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67cc55273c5f644bd94918f6/reports/9818a4e5-eca0-47f7-9887-c8b248efbaab/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,274 @@
+{
+ "sha256_hash": "fb153d829c414c598d4e8368f2340cc477e16926f778b3b51a0867435ded9885",
+ "sha3_384_hash": "53eeb6005c5ef3071a45970958d94c0846c950e1d74fa506ade9c160d95f97c1b66a3132f2c67bd2f844338cd170f7d5",
+ "sha1_hash": "da9b571b4493d078d081ccc8e710beb9411183bc",
+ "md5_hash": "e13bbf8c068e1d7c95cac4ee1d4aeb7a",
+ "first_seen": "2025-01-29 13:35:38",
+ "last_seen": null,
+ "file_name": "Chrome.apk",
+ "file_size": 9653478,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T1A4A6BF03F74A8D3AD9DDBB3A91A76B216B306848AB8353DB2505D1609C537E9DF387C0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:zUbX6SIJfFWM1n6cgRjBk3X/VKAo5iSRGBGkLO0w4AB7eCJxv8bkyb/6isZXJPJT:AbX9S6723X/UBrQLO0wrJxkItvBRj",
+ "magika": "jar",
+ "dhash_icon": null,
+ "trid": [
+  "30.0% (.APK) Android Package (27000/1/5)",
+  "22.2% (.DAZIP) Dragon Age: Origins game data (20000/1/6)",
+  "15.0% (.JAR) Java Archive (13500/1/2)",
+  "11.6% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "8.8% (.XPI) Mozilla Firefox browser extension (8000/1/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Coper",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Siggen.Susp.18589.9728.32507.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.13285.24767.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.14675.18786.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.32377.7405.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.7037.28560.UNOFFICIAL"
+  ],
+  "downloads": "404",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3418549/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseapps2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise apps",
+   "reference": null
+  },
+  {
+   "rule_name": "F01_s1ckrule",
+   "author": "s1ckb017",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "ldpreload",
+   "author": "xorseed",
+   "description": null,
+   "reference": "https://stuff.rop.io/"
+  },
+  {
+   "rule_name": "Linux_Trojan_Generic_5420d3e7",
+   "author": "Elastic Security",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "OBFUS_PowerShell_Common_Replace",
+   "author": "SECUINFRA Falcon Team",
+   "description": "Detects the common usage of replace for obfuscation",
+   "reference": null
+  },
+  {
+   "rule_name": "octo2_packer_s",
+   "author": "Alberto Segura",
+   "description": "Detects Octo2 Packer's code (native library! .so) -- This rule only looks for strings! code depends on arch.. x86, x86_64, armeabi-v7a, arm64-v8a",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "test_Malaysia",
+   "author": "rectifyq",
+   "description": "Detects file containing malaysia string",
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/fb153d829c414c598d4e8368f2340cc477e16926f778b3b51a0867435ded9885/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/fb153d829c414c598d4e8368f2340cc477e16926f778b3b51a0867435ded9885",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/250129-qv8xcaxnbk/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo family",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the unique device ID (IMEI, MEID, IMSI)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://cb632af8136448066872e5778f636789.shop"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2024-09-19 08:07:14",
+   "scanner_count": "37",
+   "scanner_match": "11",
+   "scanner_percent": "29.73"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/679a2ec610cf6ef7c3835794/reports/c371bd19-ed35-4393-b861-cfa2747722da/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "9e3302825187d85b9970590094e74c4e578fd90dcb0bc9b0deec0d99d7263a50",
+ "sha3_384_hash": "146bcdb1194a5721370b78c96dc8161382e26336258cef1eafc44e25db88173d1eaf8728c5a0a65ad841e106f4f4bebe",
+ "sha1_hash": "511c2923949071a38327f2f04c770171b0ddff0d",
+ "md5_hash": "36d74856aa40cd158ece4c8a0d368c46",
+ "first_seen": "2024-04-28 23:08:53",
+ "last_seen": null,
+ "file_name": "KosLand.apk",
+ "file_size": 2541948,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1D1C53367E7BE4EDAFEC3017256320A7100B724BA5203D92A32C01D5D847FA96974B5FB",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:mf2dml99KMTSHh5dAaPlagmJe4JcXKX1evz1blNP6/7h9RQ/Y0eYNToY:jAZTSHh5/TScXKAblNPiVQ/z",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "56.0% (.APK) Android Package (32500/1/6)",
+  "23.2% (.JAR) Java Archive (13500/1/2)",
+  "12.0% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "6.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2021-05-22T04:58:32Z",
+   "valid_to": "2120-09-04T04:58:32Z",
+   "serial_number": "0c11d603",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e702de593abce6259624b294b47a16a0239caa17322c3285b6d1c8acf7fbf30d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "385",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/9e3302825187d85b9970590094e74c4e578fd90dcb0bc9b0deec0d99d7263a50/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/9e3302825187d85b9970590094e74c4e578fd90dcb0bc9b0deec0d99d7263a50",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240428-244jrsbe23/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-04-28 00:14:54",
+   "scanner_count": "23",
+   "scanner_match": "6",
+   "scanner_percent": "26.09"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/662ed70fd2fc149e41262e61/reports/faf8bd09-5f59-4d99-a811-710c0985888f/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,131 @@
+{
+ "sha256_hash": "a959108ec8f93ee4c71e588236788d17372f9d61b8f71a509a776f097889f36b",
+ "sha3_384_hash": "0ec33238f03711c349c5a669a09d22f1e1b8673b76f9f7b2894f37b9fd2c5971316672a5d716eb25cad89093a8442ab7",
+ "sha1_hash": "1b24cb57faf69c2a955f1c10c911f1b16238a12c",
+ "md5_hash": "3a0db08d86d3d57edea7d52843f32761",
+ "first_seen": "2022-02-04 14:27:25",
+ "last_seen": null,
+ "file_name": "DHLApp.apk",
+ "file_size": 5252497,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "PlaySta28753913",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "FluBot",
+ "imphash": null,
+ "tlsh": "T1C536231ABCAED22AD403D334EE25C5D74804449C6A34F65B2636429C6DFFCC4A7CBE99",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:b3tpB+92T+4CL6FCWFwonRhI1PMmkic+E:b3F+HL6gwwAhIutig",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": "SMS Courier Spam",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "FluBot",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.10484.21414.16973.UNOFFICIAL"
+  ],
+  "downloads": "519",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/a959108ec8f93ee4c71e588236788d17372f9d61b8f71a509a776f097889f36b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "flubot",
+   "score": "10",
+   "link": "https://tria.ge/reports/220204-rsz24abaf2/",
+   "tags": [
+    "family:flubot",
+    "android",
+    "banker",
+    "infostealer",
+    "ransomware",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "FluBot",
+     "score": "10"
+    },
+    {
+     "signature": "FluBot Payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2022-02-04 14:28:37",
+   "scanner_count": "23",
+   "scanner_match": "9",
+   "scanner_percent": "39.13"
+  }
+ },
+ "comments": null
+}

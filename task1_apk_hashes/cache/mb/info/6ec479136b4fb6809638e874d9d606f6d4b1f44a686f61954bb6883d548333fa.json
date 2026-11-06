@@ -1,0 +1,268 @@
+{
+ "sha256_hash": "6ec479136b4fb6809638e874d9d606f6d4b1f44a686f61954bb6883d548333fa",
+ "sha3_384_hash": "db279626534afad4050883bbc499c6a9bbdca7de11205817f2d95d324663176b00c9ee04d729340b84dc4af4493fbe39",
+ "sha1_hash": "2177f38ea94616dcfc8bba07f0652b33d45a2103",
+ "md5_hash": "2041ab20010bf162bb5619cce06f324e",
+ "first_seen": "2026-02-03 06:56:28",
+ "last_seen": "2026-02-03 07:43:51",
+ "file_name": "cc3fe1e_foto_9W",
+ "file_size": 1172699,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "kranxmob",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T14F4512C4F699CA23E4EB2B344E6783A46A307D41DF1152177D8977AD0D723C4DE22A2A",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:kAnlNFgYUY+g+NtxxEMuyIURWNwLAV0QKPtycVS5kqZMMFrQmkvn5:kUNFgLY+jxxDvI6WeLAOPtyp+IM1mSn5",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Coper",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": [
+   "Unix.Dropper.Fakeapp-10014994-0"
+  ],
+  "downloads": "198",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "elf_arm_mips_ko_so",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/6ec479136b4fb6809638e874d9d606f6d4b1f44a686f61954bb6883d548333fa/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/6ec479136b4fb6809638e874d9d606f6d4b1f44a686f61954bb6883d548333fa",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/260203-hs7x9sfy7h/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo family",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://64.89.163.37/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://46.151.182.213/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://a93f6d2b7SDSGx0k1m9q4r8s5v.com/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://h6d23bsdgsdsgsd8d7f1qk4m5x.com/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://5f46236sdgagjkkfhfhdxzh1k9m8s7q4x.com/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://34g9s7b6sdgjkkjkhjkgdsg0f6k1m8q5x.com/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://344d9g3sdgsgs8d1kjhjfjghdkhk7m5f2x.com/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://54sdf7sdskjjghgfkmdg3b6a0d1k9m8q.com/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://546d9g3safghasfasfgs8d1kjhjfjghdkhk7m5f2x.com/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://64.89.161.32/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://54klaksodslsdfssapoalldshk7m5f2x.com/ZWFlY2Q1NjdmZmI3/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.AVerseFalc",
+   "status": "MALICIOUS",
+   "first_seen": "2026-02-02 15:54:40",
+   "scanner_count": "24",
+   "scanner_match": "11",
+   "scanner_percent": "45.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69819d8c930564ff3c86030a/reports/cf93a02e-b90a-46b6-848a-94a7872bf7c8/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-02-02T13:44:00Z",
+   "last_seen": "2026-02-04T10:45:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/6ec479136b4fb6809638e874d9d606f6d4b1f44a686f61954bb6883d548333fa/results?tab=lookup",
+   "detections": [
+    "HEUR:Trojan-Banker.AndroidOS.Coper.c",
+    "HEUR:Trojan-Banker.AndroidOS.Agent.eq",
+    "HEUR:Trojan-Dropper.AndroidOS.Agent.sm"
+   ]
+  }
+ },
+ "comments": null
+}

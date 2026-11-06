@@ -1,0 +1,118 @@
+{
+ "sha256_hash": "2dbcfb3b86ef108709d44d6a9213c095bb2ea51797ad5ff3e0e61bc99e8e0326",
+ "sha3_384_hash": "b737055f0d9d9f1e914a3153e230c778b6112267814ec5b915e5cf44055cdfad7652512593b04eefb434d3140bf018e6",
+ "sha1_hash": "3c986235a024ed7bcd940ad5e4d7e058b024a660",
+ "md5_hash": "af4f258ac12ccb0a932f12511775d96e",
+ "first_seen": "2026-08-28 12:05:00",
+ "last_seen": null,
+ "file_name": "base_temp.apk",
+ "file_size": 7603117,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1DC76DF76E7B2DD5DF4F3633998B53221A7074C158BA7828B0CED323968375D40A4AED8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:mWRKNRiKknuO0pRAMf+dgF58t93GX9cShYd:mWRKHiznGpRF+SmLWXfS",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Mparivahan",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "editor",
+   "issuer_cn": "editor",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-01-10T08:03:09Z",
+   "valid_to": "2115-12-17T08:03:09Z",
+   "serial_number": "231bc320",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "6215f00baa4bf18bab5792fc796bfc5555917240f14f7c7e672d956888d75c96",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "238",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2dbcfb3b86ef108709d44d6a9213c095bb2ea51797ad5ff3e0e61bc99e8e0326/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260828-n9fg8scg53/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.AVerseFalc",
+   "status": "MALICIOUS",
+   "first_seen": "2026-08-21 04:49:00",
+   "scanner_count": "24",
+   "scanner_match": "8",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a91798aaca45ecc3ae3d74d/reports/8bc8c401-ab11-4c3b-8290-bf272294013b/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Adware",
+   "file_type": "apk",
+   "first_seen": "2026-08-19T11:17:00Z",
+   "last_seen": "2026-08-29T20:03:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/2dbcfb3b86ef108709d44d6a9213c095bb2ea51797ad5ff3e0e61bc99e8e0326/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

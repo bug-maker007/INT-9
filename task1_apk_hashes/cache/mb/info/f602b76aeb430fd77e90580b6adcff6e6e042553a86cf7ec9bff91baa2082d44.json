@@ -1,0 +1,182 @@
+{
+ "sha256_hash": "f602b76aeb430fd77e90580b6adcff6e6e042553a86cf7ec9bff91baa2082d44",
+ "sha3_384_hash": "a2104db6afdef64aa297701e5f85ca1a508f3cd1595af5d10606d9da4d2a20016f64867ffe244c3902d2ce1bcf69a3d3",
+ "sha1_hash": "12a0339a2af98e56bd6ddc89c6ded3a6a30974c4",
+ "md5_hash": "57f99a915216533982ca524996da615e",
+ "first_seen": "2026-07-28 11:46:26",
+ "last_seen": "2026-07-28 11:59:44",
+ "file_name": "edlir.apk",
+ "file_size": 2899212,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "GB",
+ "anonymous": 1,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1EAD52383F771A85BC8EAC3371164263A147A5D258343F78A2D5833FE68F79E84B856C4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:RCrvquSctoH+NeMveyCMg93kbbafPQ85O4rPnIl+kENcbFkiS5d63+heel7p5nrw:RCDFgeNeMv2eb6L5O4D/kMUVasOh995Y",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Obfuscapk",
+   "issuer_cn": "Obfuscapk",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2019-08-15T18:58:38Z",
+   "valid_to": "2049-08-07T18:58:38Z",
+   "serial_number": "5f122eb3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "ed1399b288d3aac9ef9d43fcd9fbf90c7662b3ed0050b08f3c2988d24a8a42c9",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "204",
+  "uploads": "3",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "apk_flubot_w0",
+   "author": "Thomas Barabosch, Telekom Security",
+   "description": "matches on dumped, decrypted V/DEX files of Flubot version > 4.2",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "test_Malaysia",
+   "author": "rectifyq",
+   "description": "Detects file containing malaysia string",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/f602b76aeb430fd77e90580b6adcff6e6e042553a86cf7ec9bff91baa2082d44/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260728-qjnr2aal2s/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-07-26 12:48:43",
+   "scanner_count": "24",
+   "scanner_match": "7",
+   "scanner_percent": "29.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a68abfa5c61a8ea0def82ec/reports/87ae6b8e-e807-46d0-94b7-637f36b89e1c/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-26T07:31:00Z",
+   "last_seen": "2026-07-26T13:27:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/f602b76aeb430fd77e90580b6adcff6e6e042553a86cf7ec9bff91baa2082d44/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,135 @@
+{
+ "sha256_hash": "7c805f51ee3b2994e742d73954e51d7c2c24c76455b0b9a1b44d61cb4e280502",
+ "sha3_384_hash": "8e34fa2c0256e6afe7c7bba65aee38299a538fabadc6cfc2f831b32ccb109d8237f3fc56352281e604f67d884f33e511",
+ "sha1_hash": "322bfcfc2f2cfcfb759bc61b021a498c1955937b",
+ "md5_hash": "74b8956dc35fd8a5eb2f7a5d313e60ca",
+ "first_seen": "2022-08-12 07:34:51",
+ "last_seen": "2022-09-05 06:14:34",
+ "file_name": "7C805F51EE3B2994E742D73954E51D7C2C24C76455B0B9A1B44D61CB4E280502.apk",
+ "file_size": 4146369,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "f3d__",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Sova",
+ "imphash": null,
+ "tlsh": "T1E9160241FF89A45FD8F38E3856BAC2864206AE55CA13E34B0E54753D1E779C02F52EE8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:zQEneeg1QRd7c43GVDssvvO9h9CwfLyEefawrQ:zQEnzg2RD2Vjgfzyzawk",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "57.0% (.APK) Android Package (38500/1/9)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "15.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "banker",
+  "signed",
+  "sova"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.13156.2642.22229.UNOFFICIAL"
+  ],
+  "downloads": "545",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7c805f51ee3b2994e742d73954e51d7c2c24c76455b0b9a1b44d61cb4e280502/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/7c805f51ee3b2994e742d73954e51d7c2c24c76455b0b9a1b44d61cb4e280502",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/220812-jen4nschf5/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2022-08-12 07:35:31",
+   "scanner_count": "26",
+   "scanner_match": "12",
+   "scanner_percent": "46.15"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62f602a9e4e65a67c4a1357f/reports/135a0258-1f86-4b0e-950c-a0d0f80e0a24/overview"
+  }
+ },
+ "comments": null
+}

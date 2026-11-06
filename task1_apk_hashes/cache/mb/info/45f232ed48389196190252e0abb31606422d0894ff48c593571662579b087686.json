@@ -1,0 +1,137 @@
+{
+ "sha256_hash": "45f232ed48389196190252e0abb31606422d0894ff48c593571662579b087686",
+ "sha3_384_hash": "d6006b47fb71dace7652002a24f40097577b62502573c215dca9434ff3a03a06270e8d58c13a89446e4feb80fd132d50",
+ "sha1_hash": "db52ec6dd748ae82ddd11d15717db396e54071d5",
+ "md5_hash": "7446a65ebe4690a8bcc1ef0235b05d3b",
+ "first_seen": "2026-08-21 20:01:57",
+ "last_seen": null,
+ "file_name": "flclash-android-armeabi-v7a.apk",
+ "file_size": 51356865,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Hosien_G",
+ "origin_country": "NL",
+ "anonymous": 0,
+ "signature": "Gentlemen",
+ "imphash": null,
+ "tlsh": "T159B733C1F741AA2FE0B66232481B866827A1DD11CA46564FF09C33586A737EC4F72BD7",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "786432:hwkRHTtB6Tq9mtHhm4zXy2/N9UYNtRp2H8uo/+S6TlXeEEhH4uDD0daZ1z:KktTtkTq2Hhm6NXXjb/F4lX1yH4O0dO5",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "65.0% (.APK) Android Package (27000/1/5)",
+  "25.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Gentlemen"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "284",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://x.com/KirkDerpca/status/2090456445959454807"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "gentlemen",
+   "score": "10",
+   "link": "https://tria.ge/reports/260821-yscp5a1sfx/",
+   "tags": [
+    "family:gentlemen",
+    "android",
+    "defense_evasion",
+    "discovery",
+    "execution",
+    "persistence",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-06-22 09:24:03",
+   "scanner_count": "36",
+   "scanner_match": "1",
+   "scanner_percent": "2.78"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a88aed3c11f9d5650fde78c/reports/3a202a74-51b8-41c2-b78b-141ae1ac40a2/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,103 @@
+{
+ "sha256_hash": "ad2053bc0cf1cc54c5a0f7e6de4653b8012ba349219ac56b27e26e6cf2b96077",
+ "sha3_384_hash": "8d4172d6a609fbeac6674283555897d2fca620404d8f9c1ac30ea280e2f96df958d36e864a063289bf186f92e6182250",
+ "sha1_hash": "baf73bca4e730cfe9f4ca2704d2da88073fb9224",
+ "md5_hash": "dc030efa5973ba809bad2f544d9b18d2",
+ "first_seen": "2021-07-29 10:36:27",
+ "last_seen": null,
+ "file_name": "694271_Telegram_Buratino-T.apk",
+ "file_size": 1385715,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Anubis",
+ "imphash": null,
+ "tlsh": "T13F55BE46F7D8AD2FCC77D1330BA60A3611468D0ACA42E7475569B36C6CBBAC44F85BC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:Jn/4FMK94P8y791TTrgZXOhljSJKOOlI9heaRYictN2yDMipa1Xx7k:VKaPD59ThQATIf3RX0N2yAipa1BY",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "188.225.33.92",
+  "android",
+  "Anubis",
+  "apk",
+  "banker",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Luky",
+   "issuer_cn": "Luky",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2020-11-11T16:26:23Z",
+   "valid_to": "2045-11-05T16:26:23Z",
+   "serial_number": "76fe4306",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "005b5af04fa996bb7d03087a0763a1f4e69f810b4fa63f6711f15870496312e8",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "Andr.Trojan.Anubis-6692604-3"
+  ],
+  "downloads": "413",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1489625/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/ad2053bc0cf1cc54c5a0f7e6de4653b8012ba349219ac56b27e26e6cf2b96077",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210729-b2bknx72hs/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Anubis",
+   "status": "MALICIOUS",
+   "first_seen": "2021-07-29 10:37:10",
+   "scanner_count": "28",
+   "scanner_match": "15",
+   "scanner_percent": "53.57"
+  }
+ },
+ "comments": null
+}

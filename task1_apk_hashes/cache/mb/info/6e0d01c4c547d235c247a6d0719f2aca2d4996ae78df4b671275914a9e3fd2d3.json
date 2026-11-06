@@ -1,0 +1,133 @@
+{
+ "sha256_hash": "6e0d01c4c547d235c247a6d0719f2aca2d4996ae78df4b671275914a9e3fd2d3",
+ "sha3_384_hash": "4a1aaa11e7b16075253511d7845cbb6f37e1a18665e1cbafc085ab874a5d3891c3f681b7a7f571f5a5c1e3444fbc4e70",
+ "sha1_hash": "ed6b9ce8013ca13678a77e1ce53100ddff392c92",
+ "md5_hash": "dfb59aa18633530f29a7fb27cb156187",
+ "first_seen": "2023-05-16 11:06:14",
+ "last_seen": null,
+ "file_name": "MarMuzik.mp3indir.apk",
+ "file_size": 4577162,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ssmmalware",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "GodFather",
+ "imphash": null,
+ "tlsh": "T15626E046FB44AC7BC4F3833246355626553BCD298B43D6875A5C327C18B7ADC8B8ABC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:k4Y9fsk3NdWLn5JuhaSjYVMvbAukWlpbmdyEdGzfrX4oD:k6cNdWLn5AhBOMvbAtWllmdyQuD",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "52.8% (.APK) Android Package (32500/1/6)",
+  "21.9% (.JAR) Java Archive (13500/1/2)",
+  "17.0% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "6.5% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.6% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Godfather",
+  "novirus",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Obfuscapk",
+   "issuer_cn": "Obfuscapk",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2019-08-15T18:58:38Z",
+   "valid_to": "2049-08-07T18:58:38Z",
+   "serial_number": "5f122eb3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "ed1399b288d3aac9ef9d43fcd9fbf90c7662b3ed0050b08f3c2988d24a8a42c9",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.1036.origin.11854.528.UNOFFICIAL"
+  ],
+  "downloads": "368",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/6e0d01c4c547d235c247a6d0719f2aca2d4996ae78df4b671275914a9e3fd2d3/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/6e0d01c4c547d235c247a6d0719f2aca2d4996ae78df4b671275914a9e3fd2d3",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "godfather",
+   "score": "10",
+   "link": "https://tria.ge/reports/230516-m7zbwsad75/",
+   "tags": [
+    "family:godfather",
+    "android",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "7"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "godfather",
+     "c2": "https://t.me/falerominoterax"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-01-19 01:39:23",
+   "scanner_count": "37",
+   "scanner_match": "7",
+   "scanner_percent": "18.92"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/646363d71865ea590a014b8e/reports/11121253-696b-478a-bd3b-5c5e8aacb291/overview"
+  }
+ },
+ "comments": null
+}

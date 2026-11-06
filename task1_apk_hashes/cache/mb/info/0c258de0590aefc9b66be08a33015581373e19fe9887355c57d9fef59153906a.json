@@ -1,0 +1,117 @@
+{
+ "sha256_hash": "0c258de0590aefc9b66be08a33015581373e19fe9887355c57d9fef59153906a",
+ "sha3_384_hash": "e8460b75a39fb43d9f5e854088553a4bd3e59cf1ab942ec525efb1859f7a89111f13e1895f344fd7bd3592e3e8f62366",
+ "sha1_hash": "24ce953908301191ca374fd2f22ec4c711318fce",
+ "md5_hash": "96f61672380f906ba7504e6a5e46e728",
+ "first_seen": "2025-02-21 23:38:52",
+ "last_seen": null,
+ "file_name": "build.apk",
+ "file_size": 271472,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "skocherhan",
+ "origin_country": "GB",
+ "anonymous": 0,
+ "signature": "AhMyth",
+ "imphash": null,
+ "tlsh": "T1DD4423BECDA6A666C0F2D933C252C7B274B446E062359C75351FD068F0CB8E939692F1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:rNT+90Ymw9O7qVE34L/7YjvUvcBHUpp8xx:89yw9iqVE34AQEBj",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": "http://103.146.202.41:22533/build.apk",
+ "archive_pw": null,
+ "tags": [
+  "AhMyth",
+  "apk",
+  "L3MON"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.5215.10724.16269.UNOFFICIAL"
+  ],
+  "downloads": "259",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3442233/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/0c258de0590aefc9b66be08a33015581373e19fe9887355c57d9fef59153906a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/0c258de0590aefc9b66be08a33015581373e19fe9887355c57d9fef59153906a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "ahmyth",
+   "score": "10",
+   "link": "https://tria.ge/reports/250221-3nclsatlen/",
+   "tags": [
+    "family:ahmyth",
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "ahmyth",
+     "c2": "http://zoonux.nontonlah.site:22222"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ahmythspy",
+   "status": "MALICIOUS",
+   "first_seen": "2025-02-16 21:18:03",
+   "scanner_count": "38",
+   "scanner_match": "14",
+   "scanner_percent": "36.84"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67b90ea23afc3763bec0c358/reports/e4904540-88df-4c64-a337-b0cfe0ec39b3/overview"
+  }
+ },
+ "comments": null
+}

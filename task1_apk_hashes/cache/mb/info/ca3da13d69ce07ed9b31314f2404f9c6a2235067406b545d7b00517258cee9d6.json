@@ -1,0 +1,227 @@
+{
+ "sha256_hash": "ca3da13d69ce07ed9b31314f2404f9c6a2235067406b545d7b00517258cee9d6",
+ "sha3_384_hash": "ca3e383a10eb1772f2695bd2c544445941629d5c52a70eb5187bcf3ed603b24f77240f51adb2f58cb380591f5e87ffab",
+ "sha1_hash": "332d36caeb01f594c739cdaeb5c5fe4c648b7a40",
+ "md5_hash": "97e1e1b53f1797dd648aa8cc40b57d2b",
+ "first_seen": "2024-07-23 13:05:51",
+ "last_seen": null,
+ "file_name": "97e1e1b53f1797dd648aa8cc40b57d2b",
+ "file_size": 521311,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "Octo",
+ "imphash": null,
+ "tlsh": "T18EB42372D15A9AC3DD8B0D7328DD33104BB6389253BF97268E49394E6F65CE2D387242",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:LPhrWdn73GDTgpZzrT1UBUonEi2LibthEQWF+J7:LpwnrHVGBPn52yt4F+1",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "coper",
+  "Octo",
+  "Octo2",
+  "signed",
+  "zip"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "Unix.Dropper.Fakeapp-10014994-0"
+  ],
+  "downloads": "402",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ca3da13d69ce07ed9b31314f2404f9c6a2235067406b545d7b00517258cee9d6/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ca3da13d69ce07ed9b31314f2404f9c6a2235067406b545d7b00517258cee9d6",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/240723-qhs1csvclh/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the unique device ID (IMEI, MEID, IMSI)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests accessing notifications (often used to intercept notifications before users become aware).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests modifying system settings.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://selamcanoonaber.site/ZDljMGYyZTQ3YWRi/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://hava540derece.com/ZDljMGYyZTQ3YWRi/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://cehennemdirloo34.com/ZDljMGYyZTQ3YWRi/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://sicaktanbayilcam52.com/ZDljMGYyZTQ3YWRi/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://otururkenterliyorum42.com/ZDljMGYyZTQ3YWRi/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://sicakdanbeynimyandii2.com/ZDljMGYyZTQ3YWRi/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-07-21 14:36:35",
+   "scanner_count": "38",
+   "scanner_match": "19",
+   "scanner_percent": "50.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/669faacd7b9add553eda6edc/reports//overview"
+  }
+ },
+ "comments": null
+}

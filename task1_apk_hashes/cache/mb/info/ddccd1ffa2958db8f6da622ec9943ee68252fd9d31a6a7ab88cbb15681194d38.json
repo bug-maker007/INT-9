@@ -1,0 +1,113 @@
+{
+ "sha256_hash": "ddccd1ffa2958db8f6da622ec9943ee68252fd9d31a6a7ab88cbb15681194d38",
+ "sha3_384_hash": "bcb4ae548bdfa59c22698b125493dbf2c988afb3198ec7a3588e3c2c018918a9e676756fed86550ca67d8f30ada7d1f5",
+ "sha1_hash": "d039f1f57088dc74c6383658b399f3731b89e039",
+ "md5_hash": "9b9c24a02ab0050a2a44116c7ee6a448",
+ "first_seen": "2026-10-19 23:39:58",
+ "last_seen": null,
+ "file_name": "koi_cfgh20.apk",
+ "file_size": 26625951,
+ "file_type_mime": "application/vnd.android.package-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Darkfibr",
+ "origin_country": "RO",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1B3472381FF94D96EC477A33BE9DB523221906C1CB64196C7A4D8732D1AF6ED41E8238C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "786432:eTQ414UZAe/Ys4RdCZrm+oZJR6fE2jL+bOAdS:eswyeAREhwZn05uOAdS",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "65.0% (.APK) Android Package (27000/1/5)",
+  "25.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": null,
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "203",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "JP_Lure_Content_Hunt",
+   "author": "sumeshi",
+   "description": "Hunts for files containing Japanese kana text or common Japanese lure terminology",
+   "reference": null
+  },
+  {
+   "rule_name": "MULTI_Malware_Unknown_ForgeAuto_fb8491f3_Extrait",
+   "author": "Marjoriefort",
+   "description": "Detects Unknown (inconnu, etat extrait)",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "test_rule_vldslv",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/261019-3p11rsswdz/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-10-19 05:07:39",
+   "scanner_count": "38",
+   "scanner_match": "6",
+   "scanner_percent": "15.79"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-10-15T06:30:00Z",
+   "last_seen": "2026-10-15T12:35:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/ddccd1ffa2958db8f6da622ec9943ee68252fd9d31a6a7ab88cbb15681194d38/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

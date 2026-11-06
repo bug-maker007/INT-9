@@ -1,0 +1,118 @@
+{
+ "sha256_hash": "50a728cd81dbc8a0fb27d8b19ef4ec730c6e14a728f36c90ec98ef8effd9a00e",
+ "sha3_384_hash": "36fa891ab7eb2b1477fb2f4b83c438dc0ef62cebde6d2933ac09780cada1780fd5ad1406cb827557503e3b0f54200307",
+ "sha1_hash": "1acc7918d0e4752cee9b70cc6fde36993ce73221",
+ "md5_hash": "95f3f01622a19d87f605f1fe20f44616",
+ "first_seen": "2023-01-27 16:29:14",
+ "last_seen": null,
+ "file_name": "hdfc-rewards.apk",
+ "file_size": 5893848,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "500mk500",
+ "origin_country": "UA",
+ "anonymous": 0,
+ "signature": "BankBot",
+ "imphash": null,
+ "tlsh": "T13456F087EFD4DC5BCC368132CB66453B32979E194686C637919CB31C38776829AC1ACB",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:EKRgoaIzzSzhJOmtatJR+FZWb9bOoXq15zTVe8weTaF4E5JaU+FbcQRdFaKsk8iz:EbtIzCh0mWJT5b7uJI87aKYlZA7B8i7P",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "57.0% (.APK) Android Package (38500/1/9)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "15.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "bankbot",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2022-10-18T06:43:48Z",
+   "valid_to": "2052-10-10T06:43:48Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c153672477258192fcce415e56960bbb1805faa8b115c0727ade57425f5cd2e6",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "303",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/ReBensk/status/1618919756756836353"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "Android Bankbot"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/50a728cd81dbc8a0fb27d8b19ef4ec730c6e14a728f36c90ec98ef8effd9a00e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/50a728cd81dbc8a0fb27d8b19ef4ec730c6e14a728f36c90ec98ef8effd9a00e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/230127-tzsygade5t/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2023-01-26 20:22:24",
+   "scanner_count": "26",
+   "scanner_match": "2",
+   "scanner_percent": "7.69"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/63d3fc0b1c9cbf7d6253870d/reports/fe9ba8d1-cf50-482b-b582-ad1af00df9fa/overview"
+  }
+ },
+ "comments": null
+}

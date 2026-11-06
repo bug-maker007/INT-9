@@ -1,0 +1,104 @@
+{
+ "sha256_hash": "9cf1ad53db4a31e4be0cfba7bf15f1e414cdf12327063a419be6cdea4700adfd",
+ "sha3_384_hash": "c01b89c7ce695f6b849613fe8e23f1461cafc8f1070a3fd337850fb8aec9175feea79ccefb881a216f679323c87b1ac4",
+ "sha1_hash": "e88adaa5066d4e19f2f89d7cd732dc0e4861b629",
+ "md5_hash": "2a1c7dd7e54a4423071185006a4c9cb1",
+ "first_seen": "2024-02-04 11:10:10",
+ "last_seen": null,
+ "file_name": "chrome.apk",
+ "file_size": 4166220,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "500mk500",
+ "origin_country": "UA",
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T16A16338074A9C147D9F91B344EBB85C905796F64DF4196337821376C8CBBACA0F26ABC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:O7oPTXMG+wd4RCFWW7UkEjLBoLDmaF51Siu5lHPV+Lp:BXH+wd2CFnwPUSy1Bu5JIp",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "46.7% (.APK) Android Package (32500/1/6)",
+  "19.4% (.JAR) Java Archive (13500/1/2)",
+  "15.1% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "11.5% (.XPI) Mozilla Firefox browser extension (8000/1/1)",
+  "5.7% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Bankbot",
+  "Hydra"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.14643.9886.16949.UNOFFICIAL"
+  ],
+  "downloads": "886",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/banthisguy9349/status/1754092828932575616"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/9cf1ad53db4a31e4be0cfba7bf15f1e414cdf12327063a419be6cdea4700adfd/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/9cf1ad53db4a31e4be0cfba7bf15f1e414cdf12327063a419be6cdea4700adfd",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240204-m99kmsabhk/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Badpack",
+   "status": "MALICIOUS",
+   "first_seen": "2024-02-04 05:40:00",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/65bf70c80b80a4072890eb86/reports//overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,122 @@
+{
+ "sha256_hash": "71c78101f7792fe879a082e323fed89c5e4a43132d01d3f79ed02afd8db45497",
+ "sha3_384_hash": "ebe02b8cf771724023cf4d43a1481522013f4d00246dbdee56260a2abd910e53e0788f1835244749555e275a6fc21f84",
+ "sha1_hash": "3d7e48669307cc962f18de5639ae0697ed950d1e",
+ "md5_hash": "425ca585e1689771f69c442036192d78",
+ "first_seen": "2022-11-24 09:52:46",
+ "last_seen": null,
+ "file_name": "com.pagnotto28.sellsourcecode.alpha-5-apktada.com.apk",
+ "file_size": 14243578,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "SharkBot",
+ "imphash": null,
+ "tlsh": "T1EFE6228BFB98C51FD9771632C917413372A31E082492ABBA2315F32819B7D425F56BCE",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:C9wxkH5macX7X52NWdXJq2TNhyWfwcVpMrfum77:C9wxkZqgY5Uvaq7",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "34.7% (.VYM) VYM Mind Map (12500/1/3)",
+  "29.1% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "22.2% (.XPI) Mozilla Firefox browser extension (8000/1/1)",
+  "11.1% (.ZIP) ZIP compressed archive (4000/1)",
+  "2.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "sharkbot"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.DownLoader.1069.origin.10781.19435.UNOFFICIAL"
+  ],
+  "downloads": "439",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/71c78101f7792fe879a082e323fed89c5e4a43132d01d3f79ed02afd8db45497/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.60"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/71c78101f7792fe879a082e323fed89c5e4a43132d01d3f79ed02afd8db45497",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "sharkbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/221124-lwmnaafa25/",
+   "tags": [
+    "family:sharkbot",
+    "android",
+    "banker",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "sharkbot",
+     "c2": "http://statscodicefiscale.xyz/stats/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Sharkbot",
+   "status": "MALICIOUS",
+   "first_seen": "2022-02-09 19:09:16",
+   "scanner_count": "25",
+   "scanner_match": "16",
+   "scanner_percent": "64.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/637f3f00536377388865bf73/reports/a28773f5-7e29-4f45-b8a5-3f845b8d4f45/overview"
+  }
+ },
+ "comments": null
+}

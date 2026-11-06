@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "8734e2533ae53516b46667a930e58df201e97ea03562b444fa50c19965cab4b9",
+ "sha3_384_hash": "c0bde73f34b54013f9d84a2c2ef5cce1e6867cb6c51df47d12443c93508466efd1c92ea12adc6d2e700351c78cdfd13f",
+ "sha1_hash": "a05fb565d6855e63de2e6090729ed9b22fb40cff",
+ "md5_hash": "f3cadf0f29fb5af5f4550c5506fc132d",
+ "first_seen": "2023-02-28 16:24:50",
+ "last_seen": null,
+ "file_name": "com.pude.archo.aiart.apk",
+ "file_size": 7248797,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "500mk500",
+ "origin_country": "UA",
+ "anonymous": 0,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T19976128BF318646FC9B7913249BA622112570C674983EBD73D45B22C1ABB5C05F6EFC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:rVxS0w+rH9l4uu3sLv2LSEfEf8bmVQs1gfE:rVg6rdXu30GEkbmVQs1gfE",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "57.0% (.APK) Android Package (38500/1/9)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "15.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "harly",
+  "joker",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2022-12-06T07:42:36Z",
+   "valid_to": "2052-12-06T07:42:36Z",
+   "serial_number": "f567a245bf6d9b4414d83988db4a6ce8f3bd7e24",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "52edd0e9b53890bf8e5c532bd3f84cfbecd0a6f228970eff823e2715b0e0bef3",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "324",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/sh1shk0va/status/1630600697119928331"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8734e2533ae53516b46667a930e58df201e97ea03562b444fa50c19965cab4b9/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/8734e2533ae53516b46667a930e58df201e97ea03562b444fa50c19965cab4b9",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/230228-twydsacb85/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Binary.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-01-26 00:25:00",
+   "scanner_count": "25",
+   "scanner_match": "3",
+   "scanner_percent": "12.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/63fe2ae028117780c29648c8/reports/a1996545-6d3a-42d1-a37e-af9a43d9f612/overview"
+  }
+ },
+ "comments": null
+}

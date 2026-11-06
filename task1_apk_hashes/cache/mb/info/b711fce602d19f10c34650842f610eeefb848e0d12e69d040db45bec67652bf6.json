@@ -1,0 +1,86 @@
+{
+ "sha256_hash": "b711fce602d19f10c34650842f610eeefb848e0d12e69d040db45bec67652bf6",
+ "sha3_384_hash": "f1ff40377e9ce4612b8ea782ae7856c4c808528e63e8f96116cef570c04e289dbd9dacc48d1eafdf861987195a143f4d",
+ "sha1_hash": "5891fe3d91d2e9c7ad4141b54776ca86d0650218",
+ "md5_hash": "a7c8ad14f45770ee7890ebcf327a85f3",
+ "first_seen": "2021-09-03 10:35:12",
+ "last_seen": null,
+ "file_name": "b711fce602d19f10c34650842f610eeefb848e0d12e69d040db45bec67652bf6.apk",
+ "file_size": 3273664,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "alberto__segura",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "FluBot",
+ "imphash": null,
+ "tlsh": "T17DE51209FEADE626D107E138A139ECD6DC0844494F09FA5F2AA5918C4EFAC44974BFDC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:axHruWjsJTBVAnZ7Yc0UavlSLz+Cq1z6SYsQ97MqKE2WhOhzOeNw1AIRyFc1KEOJ:axXyQZU5Sex68QLKVyh1ZcQ/O0A78GL",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": "#Flubot 4.8\r\n\r\nFresh download from: https://www.sciencepowerbd.com/d.php",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "flubot",
+  "v4.8"
+ ],
+ "code_sign": null,
+ "delivery_method": "email_link",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Adware.Android.Deng-1.UNOFFICIAL"
+  ],
+  "downloads": "354",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b711fce602d19f10c34650842f610eeefb848e0d12e69d040db45bec67652bf6/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/b711fce602d19f10c34650842f610eeefb848e0d12e69d040db45bec67652bf6",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210903-mm9bcsgbaq/",
+   "tags": [
+    "android",
+    "obfuscation"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2021-09-03 10:36:08",
+   "scanner_count": "39",
+   "scanner_match": "4",
+   "scanner_percent": "10.26"
+  }
+ },
+ "comments": null
+}

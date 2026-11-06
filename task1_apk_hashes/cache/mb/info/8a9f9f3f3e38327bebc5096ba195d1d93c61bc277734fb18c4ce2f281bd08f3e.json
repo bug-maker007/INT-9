@@ -1,0 +1,129 @@
+{
+ "sha256_hash": "8a9f9f3f3e38327bebc5096ba195d1d93c61bc277734fb18c4ce2f281bd08f3e",
+ "sha3_384_hash": "505e322f0214226fe1e82bdc9e0dd21e0df35485eec3e2b6f6f527c49726a85cedce7f8d146bc3a458e9d31bb6806ed5",
+ "sha1_hash": "73770f486f96e103010dc0d4d94677a5c4edf9ce",
+ "md5_hash": "b1aff26dd5a0d1d4677475c6397ca1f0",
+ "first_seen": "2026-07-10 14:52:08",
+ "last_seen": null,
+ "file_name": "nexuspay.apk",
+ "file_size": 7686843,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1747602CAF7C8992BC4735032C57A56F2454B4D1A8E83DF876A14360C6CBBAD44F4ABC9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:67VQLc7rx9QYHxZyMPtWR8rz1DAmYtXs4f3KFL0W6wvZW33S3gq6:L4r3QYHHyMPBLYOg3fwA3S8",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "40.0% (.APK) Android Package (27000/1/5)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "18.5% (.VYM) VYM Mind Map (12500/1/3)",
+  "15.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Banker",
+  "NexusPay",
+  "signed",
+  "SpyAgent"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "348",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8a9f9f3f3e38327bebc5096ba195d1d93c61bc277734fb18c4ce2f281bd08f3e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260710-r8zq9sdx3z/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-07-10 14:53:47",
+   "scanner_count": "24",
+   "scanner_match": "10",
+   "scanner_percent": "41.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a510727719e23bd47e23387/reports/a78faae1-616d-4f45-a27b-e828418d886c/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-10T11:24:00Z",
+   "last_seen": "2026-07-11T22:01:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/8a9f9f3f3e38327bebc5096ba195d1d93c61bc277734fb18c4ce2f281bd08f3e/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

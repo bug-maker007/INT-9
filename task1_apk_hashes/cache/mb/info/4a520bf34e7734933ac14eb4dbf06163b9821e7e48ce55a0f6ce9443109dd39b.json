@@ -1,0 +1,139 @@
+{
+ "sha256_hash": "4a520bf34e7734933ac14eb4dbf06163b9821e7e48ce55a0f6ce9443109dd39b",
+ "sha3_384_hash": "e37db9647aa935a61ea34b7b348d6b42a3ba8b40a8c684c77a9f51a1842c8e167a043662aa5a9e19b6e767149a52b820",
+ "sha1_hash": "17c1b657cbd86f617e59e66a2238ad363c5f7f23",
+ "md5_hash": "c776be185e9aa397c688f1ff107477a8",
+ "first_seen": "2025-01-15 20:16:41",
+ "last_seen": null,
+ "file_name": "Triada-5.26.apk",
+ "file_size": 5961685,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Alonso168957071",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T193560251F7ACA927C873D43242A48A36429ACD948A03B757390CB7AC6FBFDD44E41BC5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:UMKGZlV7OqvHWWqO4JMSKZhUh5bNsTBgVyud41hFiiFoy0Zdp8W:EqVXPWWwJgZ2bNGBgtdmhF4ySr8W",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Fedor Pugovkin",
+   "issuer_cn": "Fedor Pugovkin",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2014-01-09T18:01:16Z",
+   "valid_to": "2034-01-04T18:01:16Z",
+   "serial_number": "12d9461e",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "b548dccbdf047c427835bd3a5baab00059d54075370452d143f0c1f5baeeee8f",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "Sanesecurity.Foxhole.JS_Zip_21.UNOFFICIAL",
+   "SecuriteInfo.com.FileRepMalware.12497.29452.UNOFFICIAL"
+  ],
+  "downloads": "253",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/4a520bf34e7734933ac14eb4dbf06163b9821e7e48ce55a0f6ce9443109dd39b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Triada",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/4a520bf34e7734933ac14eb4dbf06163b9821e7e48ce55a0f6ce9443109dd39b",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/250115-y2n5hsvnfk/",
+   "tags": [
+    "android",
+    "discovery",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2018-08-06 08:25:07",
+   "scanner_count": "38",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/678817cbf0aaa44f901233a0/reports/fdd34d06-6983-48ae-8189-f8f449ca8e3d/overview"
+  }
+ },
+ "comments": null
+}

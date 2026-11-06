@@ -1,0 +1,110 @@
+{
+ "sha256_hash": "39cf634622d15b5139c8646de73d0e69191cc89c4ff3fe6ebfbe71c672a2200f",
+ "sha3_384_hash": "01fd28e87d072479ab399b36f3102e721eb14e64a58497f7177bbd589819e909b713d54ec028c88f9a5af299af89111a",
+ "sha1_hash": "1914ed2287d6b65823218c667b0e3eb4b296c6aa",
+ "md5_hash": "28690b255ab84b168b0df6b9f05d8454",
+ "first_seen": "2026-09-01 19:28:57",
+ "last_seen": null,
+ "file_name": "Tiktok18.apk",
+ "file_size": 20852033,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1ED273396FB40969EF8B58A3398714671D1C38E758F87C287384473BC68376E84F16AD8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:CtccCO+el0wCMNwavUCFq1aRflpfXESBeiZm/UPnrfCENIrcYW10Jfh:Ctc0pv7vUCFUYL/ESBeOPnFNIrXt3",
+ "magika": "zip",
+ "dhash_icon": null,
+ "trid": [
+  "66.6% (.WIDGET) Konfabulator widget (8000/1/2)",
+  "33.3% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Dropper",
+  "Malware",
+  "Riskware",
+  "TikTok",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "472",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "3",
+   "link": "https://tria.ge/reports/260901-x7azeaee48/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-09-01 19:29:47",
+   "scanner_count": "38",
+   "scanner_match": "11",
+   "scanner_percent": "28.95"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a9727876a3c0e0c34a28f10/reports/b367839f-48f1-42ea-b7f6-ef65c701bc63/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-01T18:01:00Z",
+   "last_seen": "2026-09-02T16:40:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/39cf634622d15b5139c8646de73d0e69191cc89c4ff3fe6ebfbe71c672a2200f/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

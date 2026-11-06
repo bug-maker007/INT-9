@@ -1,0 +1,104 @@
+{
+ "sha256_hash": "f190490e91eb684d52be5dc2882d686da2bb71067b9ddbee887540761fe44acc",
+ "sha3_384_hash": "fc2a7bf49159e14dc6f2dc120492b4d4c235c8b410088b15b55d9fe24d99ff6f1461050484f30c7a13c627a4269b507e",
+ "sha1_hash": "0a8ba60b846e96daf15f962ba57462ac9516e8a4",
+ "md5_hash": "a0a5141bc040dac4328736d1e384e167",
+ "first_seen": "2024-12-14 14:02:51",
+ "last_seen": null,
+ "file_name": "0a8ba60b846e96daf15f962ba57462ac9516e8a4.apk",
+ "file_size": 85837985,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "NDA0E",
+ "origin_country": "RO",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T12318126BE72C9FCBC0A3D2326A39C092106B1CAC574BD2A72C2C797907B75C7570A9D5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:iJASQ83z1MM7Q7natuKy2Jj3iCfdCW0iETX1bmkXK38jZ:iJbQ8i9OtuKT3nfd4llbmkayZ",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "26.4% (.APK) Android Package (27000/1/5)",
+  "21.0% (.OXT) OpenOffice Extension (21500/1/3)",
+  "14.2% (.LBX) P-touch Editor Label (14500/1/2)",
+  "13.2% (.JAR) Java Archive (13500/1/2)",
+  "10.7% (.CATROBAT) Pocket Code/Catroid Catrobat Project (11000/1/2)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "1",
+  "apk",
+  "self-signed",
+  "signed",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "1",
+   "issuer_cn": "1",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2022-06-30T10:12:14Z",
+   "valid_to": "2047-06-24T10:12:14Z",
+   "serial_number": "147879ed",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "401ab06b67995ddc22f68ff95a34b07db899d6a991715ce31fcfa32b793b06e9",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "177",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/f190490e91eb684d52be5dc2882d686da2bb71067b9ddbee887540761fe44acc",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "triada",
+   "score": "10",
+   "link": "https://tria.ge/reports/241214-rcpanatqgs/",
+   "tags": [
+    "family:triada",
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Triada",
+   "status": "MALICIOUS",
+   "first_seen": "2024-12-14 04:16:51",
+   "scanner_count": "38",
+   "scanner_match": "6",
+   "scanner_percent": "15.79"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/675d901a49a3171a94274cb6/reports/336e05d9-c0e7-4a3a-9e92-fe5676f6f52d/overview"
+  }
+ },
+ "comments": null
+}

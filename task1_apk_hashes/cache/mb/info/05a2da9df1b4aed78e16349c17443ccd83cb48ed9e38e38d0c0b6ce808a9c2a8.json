@@ -1,0 +1,114 @@
+{
+ "sha256_hash": "05a2da9df1b4aed78e16349c17443ccd83cb48ed9e38e38d0c0b6ce808a9c2a8",
+ "sha3_384_hash": "d73aa35b616c380bb50b1f120262f4e8a26ec011f404a1a89c235b556df26ba33e495924cc97a6a7c5b7c7dde3a594f9",
+ "sha1_hash": "17837f97ffae693637fa08aa09692e605612ff48",
+ "md5_hash": "eb554018315541ad53fd0cb705e4d0b1",
+ "first_seen": "2026-07-02 21:15:55",
+ "last_seen": null,
+ "file_name": "src_0.apk",
+ "file_size": 9021604,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T1A696E143FB49CA97D9AA83F26B270F992A170F04C742AAD34555367E2D7B1C20DC5ACC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:wUlOOEzBDTimzR0tbqBtoRTA2GPda9yJhmjcZe:wOUNzubmCREJa9yJowZe",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "48.2% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "37.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "14.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Spynote"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.4801.14219.UNOFFICIAL"
+  ],
+  "downloads": "371",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/05a2da9df1b4aed78e16349c17443ccd83cb48ed9e38e38d0c0b6ce808a9c2a8/"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260702-z5dzdsbz6p/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-07-02 21:18:43",
+   "scanner_count": "24",
+   "scanner_match": "3",
+   "scanner_percent": "12.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a46d575d92bbb63bb94347c/reports/703fdd75-0230-460b-8263-bfad82081b11/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-02T21:21:00Z",
+   "last_seen": "2026-07-04T17:07:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/05a2da9df1b4aed78e16349c17443ccd83cb48ed9e38e38d0c0b6ce808a9c2a8/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

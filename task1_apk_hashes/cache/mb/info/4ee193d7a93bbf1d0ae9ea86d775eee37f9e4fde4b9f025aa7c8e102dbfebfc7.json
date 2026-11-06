@@ -1,0 +1,110 @@
+{
+ "sha256_hash": "4ee193d7a93bbf1d0ae9ea86d775eee37f9e4fde4b9f025aa7c8e102dbfebfc7",
+ "sha3_384_hash": "0abcb1210a987c6214b9e3497dc139d358289a6deb5d0f56867f030dd548feda7bcf5ec1f4f71ab7026ef959d8a8ac06",
+ "sha1_hash": "7e0ddc97f948d5aee4042a62d82b89131a063f02",
+ "md5_hash": "eaaa603ceed4c9a3d707b552b6a895a3",
+ "first_seen": "2021-08-19 19:47:23",
+ "last_seen": null,
+ "file_name": "75140_Video_Oynatıcı.apk",
+ "file_size": 3504903,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T128F533D5B9209195D29BA1B34062CC8EE42C099D2D0BE43F8F55461868F1FD88F6FDEE",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:f59Wa3YxQjLWETO2eN/lAbOanVclzzbMI0sp6s:fPWRmL9Ttcan6DMI0y6s",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "hydra"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "218",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1547138/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1547141/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/4ee193d7a93bbf1d0ae9ea86d775eee37f9e4fde4b9f025aa7c8e102dbfebfc7/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.03"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/4ee193d7a93bbf1d0ae9ea86d775eee37f9e4fde4b9f025aa7c8e102dbfebfc7",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/210819-mfytjnxpa2/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hydra",
+     "c2": "http://jannatedge58.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Bian",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-19 19:48:13",
+   "scanner_count": "28",
+   "scanner_match": "8",
+   "scanner_percent": "28.57"
+  }
+ },
+ "comments": null
+}

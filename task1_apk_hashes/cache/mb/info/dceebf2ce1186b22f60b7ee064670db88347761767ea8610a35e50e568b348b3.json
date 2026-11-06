@@ -1,0 +1,171 @@
+{
+ "sha256_hash": "dceebf2ce1186b22f60b7ee064670db88347761767ea8610a35e50e568b348b3",
+ "sha3_384_hash": "1c4c432462b8e45c9d13b1dda91cb88c326d8c405992ae809c2eb34fbe3ab6dc5c70403fc4a5c71d381015c9b1242a10",
+ "sha1_hash": "ed3e8ead24e98fbe6377ce7e672500c3a4aa1d23",
+ "md5_hash": "ee9ccb349a01601bafe3bc010a0f97e9",
+ "first_seen": "2026-07-03 22:51:10",
+ "last_seen": null,
+ "file_name": "output.apk",
+ "file_size": 5226279,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T12A36CE4DB7F4DE2AC43A40362866523E625B9F478B428F43B944771D3BBB5E40E49BC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:dXO8ftRrowY3PFw0ba6Qdhb5x1vakE5FqXSh6BMUEy/:dzeFnba6cBokdMQ",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "46.2% (.VYM) VYM Mind Map (12500/1/3)",
+  "38.8% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "14.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Banker",
+  "Indusind Credit Card"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "193",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "Jeevan_Malware_Rewards",
+   "author": "ShriTiger",
+   "description": "Detects JeevanReward variants using Technical, Anti-Analysis, and Indian SE keywords",
+   "reference": null
+  },
+  {
+   "rule_name": "ldpreload",
+   "author": "xorseed",
+   "description": null,
+   "reference": "https://stuff.rop.io/"
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/dceebf2ce1186b22f60b7ee064670db88347761767ea8610a35e50e568b348b3/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260703-2s6jzsds2n/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Reads the content of SMS inbox messages.",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Autopay",
+   "status": "MALICIOUS",
+   "first_seen": "2026-07-03 22:52:39",
+   "scanner_count": "38",
+   "scanner_match": "9",
+   "scanner_percent": "23.68"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a483d08a4254f99f84d6cd5/reports/b05e25d5-6ec1-42cb-90cb-75ed3b3c1a4e/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-03T20:53:00Z",
+   "last_seen": "2026-07-05T11:01:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/dceebf2ce1186b22f60b7ee064670db88347761767ea8610a35e50e568b348b3/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

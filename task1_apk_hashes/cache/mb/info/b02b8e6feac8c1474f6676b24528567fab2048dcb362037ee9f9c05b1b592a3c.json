@@ -1,0 +1,160 @@
+{
+ "sha256_hash": "b02b8e6feac8c1474f6676b24528567fab2048dcb362037ee9f9c05b1b592a3c",
+ "sha3_384_hash": "b230a1a39bfdc18bfab2f80db4998351d8f18436440b4d970324624049f4f27f2a80dd288b511e75c8e623586e73b4b6",
+ "sha1_hash": "a4d13581644f0208d8382ecda079e1a992769fe4",
+ "md5_hash": "56529d9bb1eca98804bb312c99af34e1",
+ "first_seen": "2026-09-01 19:08:50",
+ "last_seen": null,
+ "file_name": "TikTok18+.apk",
+ "file_size": 1119250,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T14535E03C44C424A0D35C9FF34D4A1B1ACD76238B5A4B672A7E35A1560DCFA8706A27FB",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:ekQwU8gIhNQrAHqD8YiN6HK/CLdLcBVPdARo6Sx7/:pxUyQAHjYimK/Wc666a",
+ "magika": "jar",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Banker",
+  "Dropper",
+  "Malware",
+  "signed",
+  "TikTok",
+  "Trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "APK Signer",
+   "issuer_cn": "APK Signer",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2019-09-03T23:03:24Z",
+   "valid_to": "2049-10-25T23:03:24Z",
+   "serial_number": "29be297b",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "b6da01480eefd5fbf2cd3771b8d1021ec791304bdd6c4bf41d3faabad48ee5e1",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.Mamont.309.origin.10018.14001.UNOFFICIAL",
+   "SecuriteInfo.com.Android.Banker.Mamont.309.origin.16587.15695.UNOFFICIAL"
+  ],
+  "downloads": "347",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "apk_flubot_w0",
+   "author": "Thomas Barabosch, Telekom Security",
+   "description": "matches on dumped, decrypted V/DEX files of Flubot version > 4.2",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "FreddyBearDropper",
+   "author": "Dwarozh Hoshiar",
+   "description": "Freddy Bear Dropper is dropping a malware through base63 encoded powershell scrip.",
+   "reference": null
+  },
+  {
+   "rule_name": "test_rule_vldslv",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b02b8e6feac8c1474f6676b24528567fab2048dcb362037ee9f9c05b1b592a3c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260901-xtv3eszya1/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "impact"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ravartar",
+   "status": "MALICIOUS",
+   "first_seen": "2026-08-31 20:10:44",
+   "scanner_count": "21",
+   "scanner_match": "5",
+   "scanner_percent": "23.81"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a9722db6a3c0e0c34a27f13/reports/7d8ddff5-1622-45ae-b17a-53152ff95e82/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-31T05:55:00Z",
+   "last_seen": "2026-09-02T18:00:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/b02b8e6feac8c1474f6676b24528567fab2048dcb362037ee9f9c05b1b592a3c/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

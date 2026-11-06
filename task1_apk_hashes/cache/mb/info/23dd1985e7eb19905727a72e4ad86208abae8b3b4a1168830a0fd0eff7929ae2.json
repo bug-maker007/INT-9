@@ -1,0 +1,142 @@
+{
+ "sha256_hash": "23dd1985e7eb19905727a72e4ad86208abae8b3b4a1168830a0fd0eff7929ae2",
+ "sha3_384_hash": "13b9e0afa027686130172ea458a8093b93f73a84b3a379a1e4f96f73dbebfdc2a95a83aff586ca1c7eb034a4268885e0",
+ "sha1_hash": "5685e11ced8021bc52c085b9f3d445acddfec349",
+ "md5_hash": "0d8b8627d66dddd7a4bb95875e9bb048",
+ "first_seen": "2022-08-16 14:17:09",
+ "last_seen": null,
+ "file_name": "صیغه یاب هلو (2).apk",
+ "file_size": 2309714,
+ "file_type_mime": "application/octet-stream",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T11FB5F143E79698AFC8F783390A76072942879D668747C3978978733C78BB9C05E91EC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:zj4fGSkR2MIVgvlBhdv7qda4FyEn6x2EaRhRWBfUbNKho/o41BV:zj4CIMIyvl1OYiyE6QEGhTNKCQSV",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "99.6% (.NULL) null bytes (2048000/1)",
+  "0.2% (.ATN) Photoshop Action (5007/6/1)",
+  "0.0% (.BIN/MACBIN) MacBinary 1 (1033/5)",
+  "0.0% (.ABR) Adobe PhotoShop Brush (1002/3)",
+  "0.0% (.SMT) Memo File Apollo Database Engine (88/84)"
+ ],
+ "comment": "android.spyware.IranPhishing",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "iran",
+  "IRATA",
+  "signed",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan.AndroidOS.Piom.aiuj.11612.2779.UNOFFICIAL"
+  ],
+  "downloads": "400",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "spyware"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "android.spyware.IranPhishing"
+  },
+  {
+   "context": "dropped_by_malware",
+   "value": "smsspy"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/23dd1985e7eb19905727a72e4ad86208abae8b3b4a1168830a0fd0eff7929ae2/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": null,
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "3",
+   "link": "https://tria.ge/reports/220816-wvbjqsfdb6/",
+   "tags": [],
+   "signatures": [
+    {
+     "signature": "Enumerates physical storage devices",
+     "score": "3"
+    },
+    {
+     "signature": "Modifies registry class",
+     "score": null
+    },
+    {
+     "signature": "Suspicious use of SetWindowsHookEx",
+     "score": null
+    },
+    {
+     "signature": "Suspicious use of WriteProcessMemory",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Piom",
+   "status": "MALICIOUS",
+   "first_seen": "2022-08-16 14:18:18",
+   "scanner_count": "40",
+   "scanner_match": "3",
+   "scanner_percent": "7.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62fba71e9013ab2e3d04d5b3/reports/23d870dd-1918-48a6-ad2e-29e2ff5b453f/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,153 @@
+{
+ "sha256_hash": "5362c4101f153eedaca5344cdec4897af155b364dd1609ad19a495af745fcc50",
+ "sha3_384_hash": "0be5f34d8b5ec9d54d41462fa6dd49d8e403036846dffbccf963646563ba0ff5653cc53f1aa7d97b7edd97d9b4dbc0dd",
+ "sha1_hash": "127189e4f2efecae6f6048a1570c34244556cbc3",
+ "md5_hash": "f2df9aa1333fbcf975ff620388d4005d",
+ "first_seen": "2023-12-14 12:23:35",
+ "last_seen": null,
+ "file_name": "base.apk",
+ "file_size": 1716416,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "TR",
+ "anonymous": 1,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1EB8533701D12D59EDA2ACCB24A6FDB6C5A3507524380F9E7C983824D78A7CD70BB8ED4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:27co4M12w8TNZGeLO/Gw0LNO+Gr2unYcb5qj:WOM12tw0LI+GKwY4+",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.3830.21103.7345.UNOFFICIAL"
+  ],
+  "downloads": "631",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/5362c4101f153eedaca5344cdec4897af155b364dd1609ad19a495af745fcc50/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/5362c4101f153eedaca5344cdec4897af155b364dd1609ad19a495af745fcc50",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/231214-pk183sdedq/",
+   "tags": [
+    "family:alienbot",
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "rat",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Cerberus payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "8"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://addictedlong.site"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Anubis",
+   "status": "MALICIOUS",
+   "first_seen": "2020-08-12 07:00:23",
+   "scanner_count": "37",
+   "scanner_match": "10",
+   "scanner_percent": "27.03"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/657af3ea5937bfdbca11365c/reports/0cd49507-c6bf-4005-83fc-a524156434b2/overview"
+  }
+ },
+ "comments": null
+}

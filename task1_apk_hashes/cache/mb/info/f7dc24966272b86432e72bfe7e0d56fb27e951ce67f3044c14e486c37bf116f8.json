@@ -1,0 +1,125 @@
+{
+ "sha256_hash": "f7dc24966272b86432e72bfe7e0d56fb27e951ce67f3044c14e486c37bf116f8",
+ "sha3_384_hash": "0564d4cb053cd256c1e93f32d3dda204a3a71fbd4757f9e8e9deb14fddfd297367b58003c4f7c6875f9079fe9c62a4c1",
+ "sha1_hash": "ef0d1de181fa64d1b384bcbba57ca6f22d193e21",
+ "md5_hash": "132ed179024b0cc0d18e4377591a5379",
+ "first_seen": "2026-05-06 09:17:26",
+ "last_seen": null,
+ "file_name": "KOTAK 811.apk",
+ "file_size": 11978868,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T12AC612D6FBD8492AC8778072C96A12F1215B4D528B935F877904360C38B76E84FDABDC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:uavXX2LthRaFOd7ZgIXd2Pqj3Hzbm+UidQjAkNVLWZx1zINP:JotjaFOd7ZQqjz6HOQj73evzG",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "40.0% (.APK) Android Package (27000/1/5)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "18.5% (.VYM) VYM Mind Map (12500/1/3)",
+  "15.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "KOTAK",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "170",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/f7dc24966272b86432e72bfe7e0d56fb27e951ce67f3044c14e486c37bf116f8/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/f7dc24966272b86432e72bfe7e0d56fb27e951ce67f3044c14e486c37bf116f8",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260506-k9r99aas4r/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Requests dangerous framework permissions",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2026-05-06 10:26:00",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fb072e2fcb905ec2826431/reports/3f064c71-8c8b-4422-8c40-77e446e665db/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-06T07:57:00Z",
+   "last_seen": "2026-05-08T02:50:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/f7dc24966272b86432e72bfe7e0d56fb27e951ce67f3044c14e486c37bf116f8/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,109 @@
+{
+ "sha256_hash": "495a3ffa51f6e92b8467195d5c4117f652c60b15371a9db765322e293eb6205b",
+ "sha3_384_hash": "c3dd75bde941cc7168a71497d8c44ce9306560d488943de45744018893f2193480aee60ef17d225e85560ccd5c6b31ac",
+ "sha1_hash": "57e052bc8f3fd9512c0b609ad402fb5e4b956151",
+ "md5_hash": "2fe3f42baa6afbb37fb248fda79e96c7",
+ "first_seen": "2023-11-04 02:43:26",
+ "last_seen": null,
+ "file_name": "orchrome signed.apk",
+ "file_size": 1492642,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mitseralove",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "Hook",
+ "imphash": null,
+ "tlsh": "T17165D061E7A9642EFCF3C3364B76091A44029D1AC793DA975C5472BC1CB76C09E8AFC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:j2s/PxSgSujtMnHjO2ANUmkTyh9XjConLe3dC9LKDWCr8eVdhQY/6lzaCQJWTx5x:3SgSgmnHjO2A+mkuhRjPGtDWCr8Adh7C",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "44.2% (.APK) Android Package (32500/1/6)",
+  "18.3% (.JAR) Java Archive (13500/1/2)",
+  "16.3% (.UBOX) Universe Sandbox simulation (12006/4/1)",
+  "14.2% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hook",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "245",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/495a3ffa51f6e92b8467195d5c4117f652c60b15371a9db765322e293eb6205b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/495a3ffa51f6e92b8467195d5c4117f652c60b15371a9db765322e293eb6205b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/231104-c755bsca2y/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Badpack",
+   "status": "MALICIOUS",
+   "first_seen": "2023-11-04 02:44:05",
+   "scanner_count": "24",
+   "scanner_match": "8",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/6545aff3993fbf888b63b050/reports//overview"
+  }
+ },
+ "comments": null
+}

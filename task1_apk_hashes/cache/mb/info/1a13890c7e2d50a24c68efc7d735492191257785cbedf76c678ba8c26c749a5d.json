@@ -1,0 +1,158 @@
+{
+ "sha256_hash": "1a13890c7e2d50a24c68efc7d735492191257785cbedf76c678ba8c26c749a5d",
+ "sha3_384_hash": "6e3a3889faf1cd8ccfa40701b29e48623ced5a889993f9e2503f767f351c30b069087b1068a82e4ba0f2853925e29203",
+ "sha1_hash": "fc9527d2d59dff2755ed4fa975e1569050ff6ffb",
+ "md5_hash": "530346c3e81d8b9802883bfb119cc5c2",
+ "first_seen": "2025-11-07 03:33:47",
+ "last_seen": null,
+ "file_name": "Big Keys Keyboard_2.0.8.apk",
+ "file_size": 11980498,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "JP",
+ "anonymous": 1,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T1D6C6128BBB08D93FC4369133C5A6123732B7DD1258935B73751CB20829B35899F5ABCA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:3emzvrRfLkTjV+fe5NT37aSkRPXERlXaejHLNUJvWvYpuoBqR/nr3:NXRzEgWPTGH8laeTR7vH1r",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "43.5% (.APK) Android Package (27000/1/5)",
+  "20.1% (.VYM) VYM Mind Map (12500/1/3)",
+  "16.9% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "12.9% (.XPI) Mozilla Firefox browser extension (8000/1/1)",
+  "6.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Bill Fraud",
+  "Joker",
+  "Malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "184",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://play.google.com/store/apps/details?id=com.bigkey.keyboardbutton"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1a13890c7e2d50a24c68efc7d735492191257785cbedf76c678ba8c26c749a5d/"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/251107-d4xt8azmem/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-11-07 03:34:24",
+   "scanner_count": "24",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/690d68bffad650b0c9979101/reports/3433337d-408f-46ef-b5ae-895aaaa7e7c0/overview"
+  },
+  "Kaspersky": {
+   "verdict": "NotCategorized",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/1a13890c7e2d50a24c68efc7d735492191257785cbedf76c678ba8c26c749a5d/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

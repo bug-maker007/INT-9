@@ -1,0 +1,171 @@
+{
+ "sha256_hash": "4bf114ce1eb36ad5e430e7e78e49bf21e8386f71e56bdaac0630723f44358d47",
+ "sha3_384_hash": "e89e423b54b4ad7351ba4f857d31963fa7966b21f4f9656db1e518929b6227960de1475fe9a3ebc535de3db91883bcb7",
+ "sha1_hash": "67aee926b6eab5924328ce5722ca8a15199400f5",
+ "md5_hash": "c234c225fd240323b299dacd34f69fa8",
+ "first_seen": "2025-05-19 20:42:01",
+ "last_seen": null,
+ "file_name": "GBWhatsApp-202505192157-R50755853.apk",
+ "file_size": 87275477,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T19318238BF74C991AC4F322315D5A167362494D174A0EB75B2947320D28B3AD8BF7EBC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:7uKeqFkm84MvMFuQ6ZaFnSQ+eVycRKd2x+2hbNjjmap:7uKeq/85MAZZ0SOVycRL+2hbN39p",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "https://gbwhtsapps.com/es/descargar-gb-whatsapp-pro-version-mas-reciente/ => https://kwitacson.site/url/8qO68pKeZvN => https://gbnew02.b-cdn.net/GBWhatsApp-202505192157-R50755853.apk\r\n\r\nPossible C2: gbnew02.hasuaki.xyz",
+ "archive_pw": null,
+ "tags": [
+  "Antidot",
+  "apk",
+  "signed",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Common Name",
+   "issuer_cn": "Common Name",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2023-06-09T19:28:26Z",
+   "valid_to": "2050-10-25T19:28:26Z",
+   "serial_number": "b38a11ea8242a872",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "53c8030f3a42345458d528a2a7f06e201edd528740186875307f125ffc43cf09",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "1812",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/250519-zayejsyps4/behavioral3"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/4bf114ce1eb36ad5e430e7e78e49bf21e8386f71e56bdaac0630723f44358d47",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "triada",
+   "score": "10",
+   "link": "https://tria.ge/reports/250519-zg8tvsyp18/",
+   "tags": [
+    "family:antidot",
+    "family:triada",
+    "android",
+    "banker",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "infostealer",
+    "persistence",
+    "trojan",
+    "upx"
+   ],
+   "signatures": [
+    {
+     "signature": "Antidot",
+     "score": "10"
+    },
+    {
+     "signature": "Antidot family",
+     "score": "10"
+    },
+    {
+     "signature": "Antidot payload",
+     "score": "10"
+    },
+    {
+     "signature": "Patched UPX-packed file",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "UPX packed file",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-05-19 20:43:30",
+   "scanner_count": "24",
+   "scanner_match": "1",
+   "scanner_percent": "4.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/682b97b6c609634bd7c9de26/reports/9e0c4960-b735-42d7-bcf5-8a594871495a/overview"
+  }
+ },
+ "comments": null
+}

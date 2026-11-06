@@ -1,0 +1,222 @@
+{
+ "sha256_hash": "ae5483625f278378e9d8930562c3be0dc41c9132fbcaad3894c78b76eb986141",
+ "sha3_384_hash": "0b690affc737b36527317e3de680f6745ecdaec04c50e174d5e557aa01b4d9614c5e4f6f20a44db8e68be7603fd34b42",
+ "sha1_hash": "d4c06a93bf521416afe4e132eb19f6469bff797c",
+ "md5_hash": "e407477ec67f390c7be2cab2d79d3fae",
+ "first_seen": "2026-10-29 14:53:15",
+ "last_seen": null,
+ "file_name": "ae548362_h_143.244.144.70_epson.apk",
+ "file_size": 497575,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "deepfield",
+ "origin_country": "FR",
+ "anonymous": 0,
+ "signature": "KATARU",
+ "imphash": null,
+ "tlsh": "T127B42384BEFD7E6FF52F14B48994593343E0B9B506A87D198B46C202BE07BF05694F48",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:dYjeujVq5rDZ+dCcigapheUPuYC8mTnR+cb/JPyJ85b1W:ujeMyDZ+dagaPrGr8mTn0khPv/W",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "ddos",
+  "kataru",
+  "Mirai",
+  "signed",
+  "unknown"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2026-09-16T05:26:49Z",
+   "valid_to": "2056-09-08T05:26:49Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1bb3d5063af5231781ed880b410843905ae6fc357ee4e1614be0ce22dca8cccf",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": [
+   "Sanesecurity.Malware.30435.LC.UNOFFICIAL",
+   "Sanesecurity.Malware.32144.LX.BOT.UNOFFICIAL",
+   "SecuriteInfo.com.Linux.Mirai-44.UNOFFICIAL"
+  ],
+  "downloads": "252",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "elf_arm_mips_ko_so",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "ELF_IoT_Persistence_Hunt",
+   "author": "4r4",
+   "description": "Hunts for ELF files with persistence and download capabilities",
+   "reference": null
+  },
+  {
+   "rule_name": "ELF_Packer_Dropper_Fileless_Armhf",
+   "author": "Serhii Kocherhan",
+   "description": "Detects obfuscated Linux ELF packers/droppers featuring ChaCha20/RC4 decryption, memfd_create/execveat fileless execution capabilities, and unique binary artifacts.",
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseapps2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise apps",
+   "reference": null
+  },
+  {
+   "rule_name": "exploit_any_poppopret",
+   "author": "Jeff White [karttoon@gmail.com] @noottrak",
+   "description": "Identify POP -> POP -> RET opcodes for quick ROP Gadget creation in target binaries.",
+   "reference": null
+  },
+  {
+   "rule_name": "EXPL_HKTL_LNX_DirtyFragShellcode_May26",
+   "author": "Pezier Pierre-Henri (Nextron Systems)",
+   "description": "Detects a shellcode observed in dirtyfrag, a local privilege escalation exploit for Linux.",
+   "reference": "https://github.com/V4bel/dirtyfrag/tree/master"
+  },
+  {
+   "rule_name": "EXPL_LNX_DirtyFrag_ForensicArtefacts_May26",
+   "author": "Florian Roth",
+   "description": "Detects DirtyFrag exploit code POC usage in Linux environments",
+   "reference": "https://github.com/V4bel/dirtyfrag/tree/master"
+  },
+  {
+   "rule_name": "MIRAI_OHSHIT_payload",
+   "author": "AfterPacket",
+   "description": "MIRAI_OHSHIT ELF payload -- compiled-in C2 set, all architectures",
+   "reference": "https://github.com/Afterpacket/drosera-threat-intel"
+  },
+  {
+   "rule_name": "NSVPS_Hydra_SSH_Bruteforce",
+   "author": "sanad (NSVPS-SOC)",
+   "description": "Hydra SSH brute-force campaign credentials pattern from NSVPS honeypot",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "setsockopt",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for setsockopt() red flags",
+   "reference": null
+  },
+  {
+   "rule_name": "SHA512_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for SHA384/SHA512 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ae5483625f278378e9d8930562c3be0dc41c9132fbcaad3894c78b76eb986141/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "Triage": {
+   "malware_family": "mirai",
+   "score": "10",
+   "link": "https://tria.ge/reports/261029-r9z4esdy9k/",
+   "tags": [
+    "family:mirai",
+    "botnet"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Linux.Exploit.CVE-2026-43284",
+   "status": "MALICIOUS",
+   "first_seen": "2026-10-29 14:54:21",
+   "scanner_count": "23",
+   "scanner_match": "16",
+   "scanner_percent": "69.57"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/6ae35e1f451f265196e45547/reports//overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-10-29T13:36:00Z",
+   "last_seen": "2026-10-30T17:47:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/ae5483625f278378e9d8930562c3be0dc41c9132fbcaad3894c78b76eb986141/results?tab=lookup",
+   "detections": [
+    "HEUR:Exploit.Linux.DirtyFrag.c",
+    "HEUR:Exploit.Linux.CVE-2026-43284.a",
+    "HEUR:Exploit.Linux.CVE-2026-31431.c",
+    "HEUR:Backdoor.Linux.Mirai.mu",
+    "HEUR:Backdoor.Linux.Gafgyt.bj",
+    "HEUR:Backdoor.AndroidOS.Mirai.w"
+   ]
+  }
+ },
+ "comments": null
+}

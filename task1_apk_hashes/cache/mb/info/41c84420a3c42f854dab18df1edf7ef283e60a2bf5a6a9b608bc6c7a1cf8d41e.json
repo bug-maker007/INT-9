@@ -1,0 +1,122 @@
+{
+ "sha256_hash": "41c84420a3c42f854dab18df1edf7ef283e60a2bf5a6a9b608bc6c7a1cf8d41e",
+ "sha3_384_hash": "c86406849812d815a68fc188a5290b1274db9aee6b44222863d16312491322c67adc3a8577411cedf9f49d5c260f1005",
+ "sha1_hash": "f5939f3243f2c8bbf9397f4e7ed6920a8f68bdda",
+ "md5_hash": "20e116b9581eb7190aa22e5144358b9c",
+ "first_seen": "2025-06-18 07:18:28",
+ "last_seen": null,
+ "file_name": "tmp.apk",
+ "file_size": 1751233,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "CyberMAN_noBODY",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "BankBot",
+ "imphash": null,
+ "tlsh": "T18C850142F766AA5FC8F3D3321936527520328C16CF439687B81537BE64BBAE84F512E4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:cLvtJNDD+XkmV/W3g4hK9yPTpo4Riad00dGnx4XlOIHsPidN:+zJyXksW3g4hKoTpBd/dG00idN",
+ "magika": "jar",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "bankbot",
+  "banker",
+  "signed",
+  "trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "southhollandconstruction.nl",
+   "issuer_cn": "southhollandconstruction.nl",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2025-01-01T14:41:44Z",
+   "valid_to": "2026-01-01T14:41:44Z",
+   "serial_number": "7b8db585a6bd881b36c25532465c4a94f8e48879",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "664a9201b17531de31e3130ec23732274df6507c6051fa23dbe28626fe36f5df",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "2753",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/41c84420a3c42f854dab18df1edf7ef283e60a2bf5a6a9b608bc6c7a1cf8d41e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/41c84420a3c42f854dab18df1edf7ef283e60a2bf5a6a9b608bc6c7a1cf8d41e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/250618-h5px8aytev/",
+   "tags": [
+    "android",
+    "discovery"
+   ],
+   "signatures": [
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2025-06-17 11:10:19",
+   "scanner_count": "23",
+   "scanner_match": "9",
+   "scanner_percent": "39.13"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/6852688be336a33801ec4577/reports//overview"
+  }
+ },
+ "comments": null
+}

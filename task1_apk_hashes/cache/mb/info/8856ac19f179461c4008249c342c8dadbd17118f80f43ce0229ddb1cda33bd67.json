@@ -1,0 +1,151 @@
+{
+ "sha256_hash": "8856ac19f179461c4008249c342c8dadbd17118f80f43ce0229ddb1cda33bd67",
+ "sha3_384_hash": "0f55d24b4ef89f084d8ef909abd3e5e7efb27affc02a3483ce9e0473dbe043d25c64dd5e6ce4b17c59b1ea11aa6f4aa1",
+ "sha1_hash": "dfc40fe8a1985c0c9aff42ee4a05831e992efe9f",
+ "md5_hash": "67edbd8e6de9f4355b2657416d382e94",
+ "first_seen": "2022-09-25 14:11:03",
+ "last_seen": null,
+ "file_name": "8856AC19F179461C4008249C342C8DADBD17118F80F43CE0229DDB1CDA33BD67.apk",
+ "file_size": 3375300,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "myonium1",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "TeaBot",
+ "imphash": null,
+ "tlsh": "T1EEF53340E7122881EE66FE7C68F869F787171B9601D0B9AC8A0771D605B3C991F36DF8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:XncQpaxkUhdGd56gzm6JIOvv9/XCjGfg/IDxIP:XnzpaxkUhIZgOvv0ogcu",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Anatsa",
+  "apk",
+  "signed",
+  "Teabot"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "np",
+   "issuer_cn": "np",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2021-04-25T09:03:56Z",
+   "valid_to": "3020-08-26T09:03:56Z",
+   "serial_number": "045ff9a3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "492682f877607ee99df2ddd2bd5953fd727bdf6e19d397de9dbbafd582bcad75",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.10484.26584.22546.UNOFFICIAL"
+  ],
+  "downloads": "467",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8856ac19f179461c4008249c342c8dadbd17118f80f43ce0229ddb1cda33bd67/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/8856ac19f179461c4008249c342c8dadbd17118f80f43ce0229ddb1cda33bd67",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "teabot",
+   "score": "10",
+   "link": "https://tria.ge/reports/220925-rhbazsgbhq/",
+   "tags": [
+    "family:teabot",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "TeaBot",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "teabot",
+     "c2": "http://51.38.166.153:80/api/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2022-04-28 18:36:23",
+   "scanner_count": "40",
+   "scanner_match": "10",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/633061d2d2599dea2743baa2/reports/b98555fb-31da-4b05-b9da-f6d9c21e5222/overview"
+  }
+ },
+ "comments": null
+}

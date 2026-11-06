@@ -1,0 +1,125 @@
+{
+ "sha256_hash": "49d69ac875a07acf7aa353a52d5ff75fac3e39401ab051f1f2804ecb2c336a0a",
+ "sha3_384_hash": "93a7662b0011ec53d171e0934051bce465ceab957d05765fb0e140e75588e7ccc5e8772d1b28f224347bf702e2cef7cd",
+ "sha1_hash": "3183e82c86cfcdf77404c69ad44e689329310138",
+ "md5_hash": "0bb89bd490d74428e30545a7c60e595c",
+ "first_seen": "2022-01-06 13:52:51",
+ "last_seen": null,
+ "file_name": "59126_Video_Oynatıcı.apk",
+ "file_size": 2635054,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T141C52342FE62AA82DCFB1135041781E225236D4AAF426F973B5DBB7C3B335E09B17911",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:CJkFTRB01gyffpieIqojGz5wVMC9JsVzbO+wlcFue6r3sFLvRucAIAj+DnlDzgYn:CJkFdjyfBiedojfTubO+HFue6r3kLRuO",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "330",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1953156/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1953155/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/49d69ac875a07acf7aa353a52d5ff75fac3e39401ab051f1f2804ecb2c336a0a/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/49d69ac875a07acf7aa353a52d5ff75fac3e39401ab051f1f2804ecb2c336a0a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/220106-q6y7aabffm/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Hydra Payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hydra",
+     "c2": "http://viveklees437.website"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Bian",
+   "status": "MALICIOUS",
+   "first_seen": "2022-01-06 14:15:29",
+   "scanner_count": "27",
+   "scanner_match": "12",
+   "scanner_percent": "44.44"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61d6f44802e388f9fdaffe6e/reports/48a56ac0-6de2-4e9a-9044-c8f4d88c9093/overview"
+  }
+ },
+ "comments": null
+}

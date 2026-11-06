@@ -1,0 +1,128 @@
+{
+ "sha256_hash": "c49c0246f033656fd50717c6f984345bdeee1918e83f9dd2ea59d75196a9ab6e",
+ "sha3_384_hash": "376ee760321c164aa9c5596fb7e4d0d653b0822f4544e68e9ec9ea994edf7322c79a242eab66640083771cf8134dffb8",
+ "sha1_hash": "fd6ae3a8b10e080a53abfd60591380fc6caa7c20",
+ "md5_hash": "7cfec1b1c793d5a12df0d6b9e84dfef5",
+ "first_seen": "2022-07-09 11:20:59",
+ "last_seen": null,
+ "file_name": "gen_signed.apk",
+ "file_size": 3486360,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T12AF512AFE3CA6613DEE7D134C11A088AEF188C74F150D7B92341B4999EB2A7E5011F6D",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:Xzavrbvld73uCm9NgJvlvyvSvsvDvFvHvCvbvtvCvBvbvCvx:XOvfP3u50vlvyvSvsvDvFvHvCvbvtvCg",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "Apk.spyware.IranPhishing",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "iran",
+  "malware",
+  "Phishing",
+  "signed",
+  "smsspy",
+  "spy",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SmsSpy.10966.18668.19952.UNOFFICIAL"
+  ],
+  "downloads": "452",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "spyware"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "Apk.spyware.IranPhishing"
+  },
+  {
+   "context": "dropped_by_malware",
+   "value": "smsspy"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c49c0246f033656fd50717c6f984345bdeee1918e83f9dd2ea59d75196a9ab6e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c49c0246f033656fd50717c6f984345bdeee1918e83f9dd2ea59d75196a9ab6e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220709-nfzn1sgdg7/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2022-07-08 16:35:30",
+   "scanner_count": "25",
+   "scanner_match": "15",
+   "scanner_percent": "60.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62c964dc76fa5a599450df1d/reports/4c85e5f6-2614-4fe6-9544-6c92e88d80b6/overview"
+  }
+ },
+ "comments": null
+}

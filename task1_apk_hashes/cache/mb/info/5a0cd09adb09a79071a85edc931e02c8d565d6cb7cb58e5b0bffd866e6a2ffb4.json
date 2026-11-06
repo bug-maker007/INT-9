@@ -1,0 +1,105 @@
+{
+ "sha256_hash": "5a0cd09adb09a79071a85edc931e02c8d565d6cb7cb58e5b0bffd866e6a2ffb4",
+ "sha3_384_hash": "d5cce699fccf7a114df5f2f74136fd70867c8aff055a215fead9526703453a2a4baf4e7a90b7c84c8b89ede759d33d3c",
+ "sha1_hash": "1dd2af3c6af766e55adc1ddfeb78942a7e70a9eb",
+ "md5_hash": "9e9dfd410224885c4b1b94155f64c667",
+ "first_seen": "2026-05-08 09:35:30",
+ "last_seen": "2026-05-08 09:39:10",
+ "file_name": "IDFC FIRST BANK (4).apk",
+ "file_size": 20238745,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T14D17DF63F244699ACDE6A230F4E703D132260D154783A76A571FF136BDB31DD8E26AC2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:kCGsAFjTxJtLhOAESbKUjf5tOBUUc/uenBN:3AdJ4A7bKUbHU8TBN",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "IDFC",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "168",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/5a0cd09adb09a79071a85edc931e02c8d565d6cb7cb58e5b0bffd866e6a2ffb4",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-lk5dysat8j/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-08 09:36:47",
+   "scanner_count": "24",
+   "scanner_match": "5",
+   "scanner_percent": "20.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fdae917d31ad7bba4f5649/reports/78275cd8-7054-448d-ab05-3f44cb32298d/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-08T07:23:00Z",
+   "last_seen": "2026-05-08T17:19:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/5a0cd09adb09a79071a85edc931e02c8d565d6cb7cb58e5b0bffd866e6a2ffb4/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

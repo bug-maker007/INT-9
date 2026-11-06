@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "ed9e9efbcf6b8cf981f808be10435db5aeb27d1c7671fe5076a669b19b4fc8fd",
+ "sha3_384_hash": "ead36f28be19349e4b96ef88c8b0ff893c3b1dd0c210df00c170672283409bf3ec1356c81b43594f1d7e2639bf8227f7",
+ "sha1_hash": "bfc76e74a4ad7ffbbff2093520f652ef6c2fcc5e",
+ "md5_hash": "3d025bef37dbdf0733e915b621ea20e1",
+ "first_seen": "2024-04-17 03:18:39",
+ "last_seen": null,
+ "file_name": "KosLand.apk",
+ "file_size": 3543849,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1B0F51283E346586ED9F3833A46BA076A45874C668743D3538AA5B73C6CBB9C44F81FC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:WRj4qCml99KMTSHh5dAudMMz3ZOrXmslJftF3tCMuUCY/H9q:WZZTSHh5fN3ZWXDJftFdCvJYf9q",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "52.8% (.APK) Android Package (32500/1/6)",
+  "21.9% (.JAR) Java Archive (13500/1/2)",
+  "17.0% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "6.5% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.6% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2021-05-22T04:58:32Z",
+   "valid_to": "2120-09-04T04:58:32Z",
+   "serial_number": "0c11d603",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e702de593abce6259624b294b47a16a0239caa17322c3285b6d1c8acf7fbf30d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "438",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ed9e9efbcf6b8cf981f808be10435db5aeb27d1c7671fe5076a669b19b4fc8fd/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ed9e9efbcf6b8cf981f808be10435db5aeb27d1c7671fe5076a669b19b4fc8fd",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240417-dt6z5scc49/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-04-17 03:19:06",
+   "scanner_count": "24",
+   "scanner_match": "8",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/661f3fa675339da04f93fd29/reports//overview"
+  }
+ },
+ "comments": null
+}

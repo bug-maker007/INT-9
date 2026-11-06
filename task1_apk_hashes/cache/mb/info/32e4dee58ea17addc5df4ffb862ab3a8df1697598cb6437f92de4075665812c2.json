@@ -1,0 +1,156 @@
+{
+ "sha256_hash": "32e4dee58ea17addc5df4ffb862ab3a8df1697598cb6437f92de4075665812c2",
+ "sha3_384_hash": "6b183cc396108a680ad7b44ee839f033371409983902d4f9ee2d0f4e0b1db94d04281a64fdf891a05755b0e39b4b8dba",
+ "sha1_hash": "c60756e85bc596c61fdd4caf3fec9a0d995c4274",
+ "md5_hash": "d59a4848b584fdd93eb3d0b554a8df58",
+ "first_seen": "2024-05-01 19:23:16",
+ "last_seen": null,
+ "file_name": "d59a4848b584fdd93eb3d0b554a8df58",
+ "file_size": 1499475,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "zbetcheckin",
+ "origin_country": "FR",
+ "anonymous": 0,
+ "signature": "Ermac",
+ "imphash": null,
+ "tlsh": "T1A365E182F716592FC8B784324D6A073526169E13CB83974B98A8372C7C7B7C84F89BD5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:UsMX7QNP9BBPhW70qVZybbQe7mPbDYxNR18jregpfOV/4zgdfw:UjodEIqqXQe7ag/8regpfWzd4",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.7% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "25.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "6.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Ermac",
+  "zip"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.Ermac.6.origin.3716.26506.UNOFFICIAL"
+  ],
+  "downloads": "395",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2834084/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/32e4dee58ea17addc5df4ffb862ab3a8df1697598cb6437f92de4075665812c2/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "Triage": {
+   "malware_family": "ermac",
+   "score": "10",
+   "link": "https://tria.ge/reports/240502-a5r4ksca2s/",
+   "tags": [
+    "family:ermac",
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about the current Wi-Fi connection",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "7"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ermak",
+   "status": "MALICIOUS",
+   "first_seen": "2024-05-01 19:24:09",
+   "scanner_count": "24",
+   "scanner_match": "10",
+   "scanner_percent": "41.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "0.875",
+   "report_link": "https://www.filescan.io/uploads/663296dffe18f197f0ca72ef/reports/f05f62e9-7987-45df-81e2-c67a73c7aa6a/overview"
+  }
+ },
+ "comments": [
+  {
+   "id": "92872",
+   "date_added": "2024-05-01 19:23:16",
+   "twitter_handle": "zbetcheckin",
+   "display_name": "zbet",
+   "comment": "url : hxxp://37.60.238.252:8085/getfile.php?download=YXBwLXJlbGVhc2UtMi5hcGs="
+  }
+ ]
+}

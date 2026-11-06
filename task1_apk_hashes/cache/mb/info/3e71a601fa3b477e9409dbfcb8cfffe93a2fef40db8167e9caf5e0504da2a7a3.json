@@ -1,0 +1,101 @@
+{
+ "sha256_hash": "3e71a601fa3b477e9409dbfcb8cfffe93a2fef40db8167e9caf5e0504da2a7a3",
+ "sha3_384_hash": "aca197dd412198e12fa8d257eec187bbcf1af93a6ec52b596bc3b9bcb240585d61d2fdc548566edbec5c2a5817317769",
+ "sha1_hash": "ee9a606c0e8d20492fd0ead13609f34cd8322f22",
+ "md5_hash": "dbe0e706e74c552da6228b6650cb95be",
+ "first_seen": "2026-09-26 21:55:43",
+ "last_seen": null,
+ "file_name": "3e71a601fa3b477e9409dbfcb8cfffe93a2fef40db8167e9caf5e0504da2a7a3.bin",
+ "file_size": 23162467,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Tuxxin",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T15E37D05AB70DF92BEDC6F0FC8D1800A274163D164965C0A97991C34EFD83BD64A68FE2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:LvrMECfJ5d9AHR3fe+utZ7lTSBHDblJsqQw3AK5FB8tZjzLv50sM/tsshzWz4oQ5:/QjdyBe3t5lTSNDbAqQw3AK5FB8tZjzO",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "87.0% (.APK) Android Package (27000/1/5)",
+  "12.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "zip"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "88",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "ldpreload",
+   "author": "xorseed",
+   "description": null,
+   "reference": "https://stuff.rop.io/"
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-09-27 07:05:26",
+   "scanner_count": "23",
+   "scanner_match": "1",
+   "scanner_percent": "4.35"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6ab8c02c7d8220ab08376273/reports/028a0568-dcd3-4e76-adea-3e71d4231838/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-24T16:59:00Z",
+   "last_seen": "2026-09-28T02:35:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/3e71a601fa3b477e9409dbfcb8cfffe93a2fef40db8167e9caf5e0504da2a7a3/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

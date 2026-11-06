@@ -1,0 +1,80 @@
+{
+ "sha256_hash": "808f0c09e176834a8f3c0750677fbe9f6ec10caab55067cbec5c98dee300e151",
+ "sha3_384_hash": "97a8f63fed20034e82386cd04b11eac3efa6604c3d3fc5fa0b8e3533cf4d68e94fa959163c25e7b8c059e694f659e525",
+ "sha1_hash": "8b8b98c2245e32d29b0f2774693ea5b92c556fec",
+ "md5_hash": "cd9cc2c288b39d58324c96eedda21831",
+ "first_seen": "2021-08-21 10:37:29",
+ "last_seen": null,
+ "file_name": "Android-Update.apk",
+ "file_size": 3275111,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T141E5339F9BC6494DC47B4333950236076205205CC1CEBB3E0AF6445758ABDADEF6AEB2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:ujfprLUanrvhUaeohPgThMtdugD2n/gBvPYb:+rnrZeohIThMt0gDIgB0",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.ScytheSCF.GG.27198.11014.UNOFFICIAL"
+  ],
+  "downloads": "238",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1551422/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/808f0c09e176834a8f3c0750677fbe9f6ec10caab55067cbec5c98dee300e151/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/808f0c09e176834a8f3c0750677fbe9f6ec10caab55067cbec5c98dee300e151",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210821-vvlqecvcce/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Boogr",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-21 10:38:07",
+   "scanner_count": "27",
+   "scanner_match": "10",
+   "scanner_percent": "37.04"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,207 @@
+{
+ "sha256_hash": "614a23807e2a423323bbd768b6eaaa95005c3f60bc5450bd7640d0f0013dd75a",
+ "sha3_384_hash": "32ba245e411f566f74de74c3412cc4647da5cc0be6190ef2e6fdd5b8799022c811159665033c0c62477c2f8067c3f078",
+ "sha1_hash": "c1b657cc9be2db8cb1ac1a996a9391b92fe36f91",
+ "md5_hash": "8fba6b029eb489afe21fdc648e9bfa66",
+ "first_seen": "2025-07-11 01:56:19",
+ "last_seen": "2025-07-11 01:57:59",
+ "file_name": "app9.apk",
+ "file_size": 4083402,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "motmaenbash",
+ "origin_country": "IR",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1A916DF47FB84892AC8F78732857A536111470C668F83D7877958737C28B7AC84F9AADC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:EU5XOrjheYcVCkJiEhivUkya9BGml6aExVgHXi06lMj:EZX+JRUU3a9BGTdxtMj",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "iran",
+  "IRATA",
+  "malware",
+  "phishing",
+  "signed",
+  "trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "206",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Lib_Packer",
+   "author": "R3R0K",
+   "description": "Android.Lib_Packer",
+   "reference": null
+  },
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/614a23807e2a423323bbd768b6eaaa95005c3f60bc5450bd7640d0f0013dd75a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/614a23807e2a423323bbd768b6eaaa95005c3f60bc5450bd7640d0f0013dd75a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/250711-cdc7fssks7/",
+   "tags": [
+    "family:irata",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-07-11 01:57:17",
+   "scanner_count": "38",
+   "scanner_match": "5",
+   "scanner_percent": "13.16"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68706f7780b46be06e9efc20/reports/863c723a-154c-46d3-bee2-551751a42367/overview"
+  }
+ },
+ "comments": null
+}

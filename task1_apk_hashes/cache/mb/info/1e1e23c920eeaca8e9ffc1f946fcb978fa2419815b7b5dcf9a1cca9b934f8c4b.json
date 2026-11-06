@@ -1,0 +1,157 @@
+{
+ "sha256_hash": "1e1e23c920eeaca8e9ffc1f946fcb978fa2419815b7b5dcf9a1cca9b934f8c4b",
+ "sha3_384_hash": "6ddf5822c461b2468748c902627f0c27591a4abf7f5e570a7df527e7af97ff6806433b47932e3c99de4545054a6904a0",
+ "sha1_hash": "92750f9fcc351cb81da89e0fd0c0714a652ea385",
+ "md5_hash": "caca3ea76d9d6ee87e940dc1f59be0a2",
+ "first_seen": "2024-03-09 09:23:37",
+ "last_seen": null,
+ "file_name": "flash_light-aligned.apk",
+ "file_size": 7442279,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "e24111111154168",
+ "origin_country": "GR",
+ "anonymous": 0,
+ "signature": "AhMyth",
+ "imphash": null,
+ "tlsh": "T14876F187F788A95BC0F39332897656A640074C268B43DB876F58737D18B7AD44F4ABC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:JufylomtfNdXosThdl9TJbYX2kkJslp9y3gU:J08nf7d3lDbYX290U",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "39.6% (.APK) Android Package (32500/1/6)",
+  "16.4% (.JAR) Java Archive (13500/1/2)",
+  "15.2% (.VYM) VYM Mind Map (12500/1/3)",
+  "12.8% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "9.7% (.XPI) Mozilla Firefox browser extension (8000/1/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Ahmyth",
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.986.origin.25149.12765.UNOFFICIAL"
+  ],
+  "downloads": "399",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2778362/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2778438/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2778440/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2778443/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2778442/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1e1e23c920eeaca8e9ffc1f946fcb978fa2419815b7b5dcf9a1cca9b934f8c4b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "AhMyth",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/1e1e23c920eeaca8e9ffc1f946fcb978fa2419815b7b5dcf9a1cca9b934f8c4b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/240309-lc2yvsee63/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation)",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Ahmyth",
+   "status": "MALICIOUS",
+   "first_seen": "2024-03-09 09:24:15",
+   "scanner_count": "24",
+   "scanner_match": "7",
+   "scanner_percent": "29.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65ec2ab687137159d4379702/reports/07e69a45-47df-4905-9c95-be0579bf13a0/overview"
+  }
+ },
+ "comments": null
+}

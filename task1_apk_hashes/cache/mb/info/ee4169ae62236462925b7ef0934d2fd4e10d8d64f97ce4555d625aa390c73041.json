@@ -1,0 +1,125 @@
+{
+ "sha256_hash": "ee4169ae62236462925b7ef0934d2fd4e10d8d64f97ce4555d625aa390c73041",
+ "sha3_384_hash": "18241df8dde17557b3ffdee0dab424755f1d3dca3702221a53e4c910b3ca785bc937c5078da4ec525bd3bd63ad07622c",
+ "sha1_hash": "5e353a4eaad8d448cd288b92e69f561af57a126a",
+ "md5_hash": "9791ad718e91c69e6802f529bfd1b110",
+ "first_seen": "2026-07-10 14:12:10",
+ "last_seen": null,
+ "file_name": "mparivahan.apk",
+ "file_size": 4326109,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T12C1633163799E23DC876513A6C6FA2B27B61BC638D4282577441332F7EB32E04F11DA9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:xnkJz8YZAq7bdol+UiUJs/+SI2MadhTHVgQwVElPx:iJz8VO89RjSDHMfElJ",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Banker",
+  "Dropper",
+  "GOI",
+  "mParivahan",
+  "Riskware",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Mazharul Islam",
+   "issuer_cn": "Mazharul Islam",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2019-04-18T20:56:40Z",
+   "valid_to": "2044-04-11T20:56:40Z",
+   "serial_number": "6b6db14f",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c71d2bf85a0e9f46d7f96a4a251ddbbca60b76ca66c972ca73dc703d89c315f2",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SpyMax.103.origin.634.27150.UNOFFICIAL"
+  ],
+  "downloads": "295",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ee4169ae62236462925b7ef0934d2fd4e10d8d64f97ce4555d625aa390c73041/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260710-rh3egaaz3l/",
+   "tags": [
+    "android",
+    "banker",
+    "discovery"
+   ],
+   "signatures": [
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.AVerseFalc",
+   "status": "MALICIOUS",
+   "first_seen": "2026-07-09 09:12:23",
+   "scanner_count": "37",
+   "scanner_match": "6",
+   "scanner_percent": "16.22"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a50fdcb719e23bd47e221e4/reports/5f98c915-fd6a-47cf-b0f0-aba66892bdbf/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-09T03:53:00Z",
+   "last_seen": "2026-07-11T22:01:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/ee4169ae62236462925b7ef0934d2fd4e10d8d64f97ce4555d625aa390c73041/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

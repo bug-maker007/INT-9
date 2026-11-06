@@ -1,0 +1,186 @@
+{
+ "sha256_hash": "909332d884fb5233ead6b7a574251fefcd12a98491562f267275359967bb72f3",
+ "sha3_384_hash": "a888fd8217df861a8d33ec716302bcca8c13f58b5896ff4e8ec8b667dbc2db662cd9e3a378e3c01c94838b3bc51966a3",
+ "sha1_hash": "e17fcc6afb9245a2558650fc5610d857dcbe3e34",
+ "md5_hash": "72235834e3cb7e468edb8252d5ed634b",
+ "first_seen": "2026-08-24 12:33:38",
+ "last_seen": null,
+ "file_name": "V6.apk",
+ "file_size": 6072924,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "IN",
+ "anonymous": 1,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1D556DF47F784992EC0F7A37105791332160B4C26CB539A87B95C727C3AB7AE41E8A6DC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:s4NCQrudiw4ULDD8bJunxQbQyYU8n3pyn0o3wsjmuwcdnmy/RtCXaHM5Bo:lwQrud1RDgexQbQT3py0o3wsznmyuo",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SHAPARAK",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "186",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "BlackGuard_Rule",
+   "author": "Jiho Kim",
+   "description": "Yara rule for BlackGuarad Stealer v1.0 - v3.0",
+   "reference": "https://www.virustotal.com/gui/file/67843d45ba538eca29c63c3259d697f7e2ba84a3da941295b9207cdb01c85b71/detection"
+  },
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/909332d884fb5233ead6b7a574251fefcd12a98491562f267275359967bb72f3/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260824-prvd4sgl6x/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Reads the content of SMS inbox messages.",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-08-24 12:34:22",
+   "scanner_count": "38",
+   "scanner_match": "5",
+   "scanner_percent": "13.16"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a8c3a458ff8bfd3d5142664/reports/0bec84b6-5751-45c4-834e-f6cc7e5a4c6f/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-24T11:26:00Z",
+   "last_seen": "2026-08-25T23:28:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/909332d884fb5233ead6b7a574251fefcd12a98491562f267275359967bb72f3/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

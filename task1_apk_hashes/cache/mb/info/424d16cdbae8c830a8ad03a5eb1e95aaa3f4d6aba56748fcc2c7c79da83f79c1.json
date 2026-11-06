@@ -1,0 +1,168 @@
+{
+ "sha256_hash": "424d16cdbae8c830a8ad03a5eb1e95aaa3f4d6aba56748fcc2c7c79da83f79c1",
+ "sha3_384_hash": "2b2a442173bf9f9a520d0b0f57d45d4de14828d735805382e0afbd8f8ef28e8a060a733b5d14220e44692579a4ddb40b",
+ "sha1_hash": "b359c2fd4d54a4c7c4d4c61b9f6f5e97182b94d5",
+ "md5_hash": "0acc2b176b7fbcea07230b467554dad0",
+ "first_seen": "2026-07-29 06:06:37",
+ "last_seen": null,
+ "file_name": "424d16cdbae8c830a8ad03a5eb1e95aaa3f4d6aba56748fcc2c7c79da83f79c1.apk",
+ "file_size": 9702115,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "Copybara",
+ "imphash": null,
+ "tlsh": "T1CBA63377B35ACA9AE47A8E369D25629400353D04CFA38A17A512737C28F9DD0CF19FE1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:bIS1wWwPLCLH+QN4ut1eMSuzQIqdjYFYEscbN2WwOMX2acZA1wj3GL:/1xwPmLH+luHeFeqj1M8WwOMYSwq",
+ "magika": "jar",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "37-148-161-44",
+  "apk",
+  "Copybara"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "205",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_CMD_Powershell_Usage",
+   "author": "XiAnzheng",
+   "description": "May Contain(Obfuscated or no) Powershell or CMD Command that can be abused by threat actor(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "tico_android",
+   "author": "Alberto Segura",
+   "description": "Detects tico Android bots files",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/424d16cdbae8c830a8ad03a5eb1e95aaa3f4d6aba56748fcc2c7c79da83f79c1/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "copybara",
+   "score": "10",
+   "link": "https://tria.ge/reports/260729-gvlmdaysdt/",
+   "tags": [
+    "family:copybara",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about the current Wi-Fi connection",
+     "score": "6"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation)",
+     "score": "5"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "copybara",
+     "c2": "37.148.161.44"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-04-15 02:22:37",
+   "scanner_count": "38",
+   "scanner_match": "5",
+   "scanner_percent": "13.16"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a6998ac3eeff871572b5fc8/reports/37ba6a04-14ab-4cba-bbe0-dc31d8024565/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-04-14T17:06:00Z",
+   "last_seen": "2026-07-30T09:59:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/424d16cdbae8c830a8ad03a5eb1e95aaa3f4d6aba56748fcc2c7c79da83f79c1/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

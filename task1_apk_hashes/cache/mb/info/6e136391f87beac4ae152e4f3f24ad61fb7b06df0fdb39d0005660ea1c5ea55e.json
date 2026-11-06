@@ -1,0 +1,186 @@
+{
+ "sha256_hash": "6e136391f87beac4ae152e4f3f24ad61fb7b06df0fdb39d0005660ea1c5ea55e",
+ "sha3_384_hash": "57ae97050c8e2a34a934c9ae80d3f8a63a4e685a5e6e200592fae0645b5c95d6242e0393382e45ff0aa61c476704bd89",
+ "sha1_hash": "5e6cc3932bb168879a117765c541040afe922fc0",
+ "md5_hash": "ad8c877da8ddb70a2d90ad98fe48a86e",
+ "first_seen": "2026-10-24 21:17:19",
+ "last_seen": null,
+ "file_name": "llx.apk",
+ "file_size": 320808,
+ "file_type_mime": "application/vnd.android.package-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "tipo_deincognito",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Mirai",
+ "imphash": null,
+ "tlsh": "T136642337A71A5E03FDDF75B89A9EED61C241A2148436E6351E30A5D07E09760C322BFD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:agEsdPl3M6ig3Au1UMk51chrQi6hc829J6JuwL9hLJasFiqMnc50Uu:KC9DZUMe1c+i6hc8298TnFFFiqMn20Uu",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "AISURU/ADB Android persistence loader APK (\"Google Play Services Update\"; com.google.android.llx.kontol). Bundles AISURU AArch64 and ARMv7 liblx.so; extracts to /data/local/tmp/liblx.so and executes it. Boot/accessibility/notification/job-service persistence. C2 manzzkontolaktolakan.my.id:8001; payload host http://129.121.115.43:9163/llx.apk.",
+ "archive_pw": null,
+ "tags": [
+  "adb",
+  "aisuru",
+  "apk",
+  "loader",
+  "mirai",
+  "persistence",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2026-10-24T13:10:40Z",
+   "valid_to": "2056-10-16T13:10:40Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "0e79661a74ee83ba5c22070e7dbf3e14af910f8bd1ef0c9348c014d074db6516",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "Sanesecurity.Malware.31075.LX.BOT.UNOFFICIAL",
+   "SecuriteInfo.com.Linux.Mirai-50.UNOFFICIAL",
+   "SecuriteInfo.com.Linux.Mirai-52.UNOFFICIAL",
+   "SecuriteInfo.com.Linux.Mirai-54.UNOFFICIAL",
+   "Unix.Dropper.Mirai-7135828-0",
+   "Unix.Dropper.Mirai-7135872-0",
+   "Unix.Dropper.Mirai-7135893-0",
+   "Unix.Dropper.Mirai-7135900-0",
+   "Unix.Dropper.Mirai-7135951-0",
+   "Unix.Trojan.Gafgyt-6735924-0",
+   "Unix.Trojan.Gafgyt-6981160-0",
+   "Unix.Trojan.Gafgyt-9876285-0",
+   "Unix.Trojan.Gafgyt-9876369-0",
+   "Unix.Trojan.Gafgyt-9940653-0",
+   "Unix.Trojan.Mirai-10004218-0",
+   "Unix.Trojan.Mirai-7759336-0",
+   "Unix.Trojan.Mirai-7772538-0",
+   "Unix.Trojan.Mirai-8041689-0",
+   "Unix.Trojan.Mirai-9885259-0",
+   "Unix.Trojan.Mirai-9885284-0",
+   "Unix.Trojan.Mirai-9924065-0",
+   "Unix.Trojan.Mirai-9933849-0",
+   "Unix.Trojan.Mirai-9951089-0"
+  ],
+  "downloads": "294",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3994411/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "deepfield_aisuru_ddos_botnet",
+   "author": "Nokia Deepfield ERT",
+   "description": "Aisuru DDoS botnet - Mirai derivative with custom crypto",
+   "reference": "https://blog.xlab.qianxin.com/aisuru-botnet-en/"
+  },
+  {
+   "rule_name": "elf_arm_mips_ko_so",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseapps2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise apps",
+   "reference": null
+  },
+  {
+   "rule_name": "Jeevan_Malware_Rewards",
+   "author": "ShriTiger",
+   "description": "Detects JeevanReward variants using Technical, Anti-Analysis, and Indian SE keywords",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/6e136391f87beac4ae152e4f3f24ad61fb7b06df0fdb39d0005660ea1c5ea55e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.05"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/261024-z5p2naxscy/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Linux.Worm.Mirai",
+   "status": "MALICIOUS",
+   "first_seen": "2026-10-24 21:18:31",
+   "scanner_count": "38",
+   "scanner_match": "21",
+   "scanner_percent": "55.26"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6add20974428170d57188c57/reports/e65894a6-5d2f-4c89-89ce-9c48427793d7/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-10-24T20:46:00Z",
+   "last_seen": "2026-10-26T18:37:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/6e136391f87beac4ae152e4f3f24ad61fb7b06df0fdb39d0005660ea1c5ea55e/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": [
+  {
+   "id": "514933",
+   "date_added": "2026-10-24 22:31:10",
+   "twitter_handle": null,
+   "display_name": null,
+   "comment": "Static APK extraction confirms exact embedded-payload relationships: lib/arm64-v8a/liblx.so SHA256 a51f6d785ad9d1952603177b431918fab29e969e4946b8baf9d9cffb1f8c92d9; lib/armeabi-v7a/liblx.so SHA256 66d809ab37751057afa220c80f31325357c8078780d6e35580e2b6f3a7b59a94. Both are stripped static PIE ELF executables despite their .so filenames. DEX references /data/local/tmp/liblx.so and com.google.android.llx.kontol persistence components. No sample executed. Distribution URL http://129.121.115.43:9163/llx.apk returned HTTP 200 and the same APK SHA256 at 2026-10-24 22:30 UTC."
+  }
+ ]
+}

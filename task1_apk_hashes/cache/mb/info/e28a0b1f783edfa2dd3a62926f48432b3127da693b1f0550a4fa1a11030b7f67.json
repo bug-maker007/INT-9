@@ -1,0 +1,104 @@
+{
+ "sha256_hash": "e28a0b1f783edfa2dd3a62926f48432b3127da693b1f0550a4fa1a11030b7f67",
+ "sha3_384_hash": "fb94b425b5d7997e7e5a91ea38d305d20609e8adc3b5fa8f3f0f73fd9d7f132174d1b7ed553c5e54f5dca2f36071574b",
+ "sha1_hash": "bd7a4f16a231ba753338db0eff6ab8d8e9666d70",
+ "md5_hash": "d916fa338fe4e997dc94b5ddb90ce1f4",
+ "first_seen": "2021-09-04 14:41:37",
+ "last_seen": null,
+ "file_name": "Chrome712176.apk",
+ "file_size": 3247820,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T1F2E50111EB968426F1424830B14AB64361540FA73109F81B16B7B49F2FA7FB41E7ADFB",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:npu1OJ+uLCIi9yY+8UpyEEDQfSZSn6FL++VAp6GQD//f2ssqARD5trcR0ze:npHuIUythpyQSZSYzD3esBAJUse",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.PUA.DebugKey.27886.13961.UNOFFICIAL"
+  ],
+  "downloads": "387",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1591886/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e28a0b1f783edfa2dd3a62926f48432b3127da693b1f0550a4fa1a11030b7f67/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/e28a0b1f783edfa2dd3a62926f48432b3127da693b1f0550a4fa1a11030b7f67",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210904-r22maaecd7/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://ufxvwmqhoim1w3mfw94q.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2021-09-04 14:42:09",
+   "scanner_count": "28",
+   "scanner_match": "10",
+   "scanner_percent": "35.71"
+  }
+ },
+ "comments": null
+}

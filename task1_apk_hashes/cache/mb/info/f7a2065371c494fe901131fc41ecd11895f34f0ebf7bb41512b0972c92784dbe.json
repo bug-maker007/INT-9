@@ -1,0 +1,113 @@
+{
+ "sha256_hash": "f7a2065371c494fe901131fc41ecd11895f34f0ebf7bb41512b0972c92784dbe",
+ "sha3_384_hash": "c1b77f263ac6acba174d42fe81925eeebdb33c620e20ea27b639f92addc59b4b71aa2122c7701c18c82d85ec0abdb102",
+ "sha1_hash": "8c3485192bb7bbaf00ba942097067de1696d7a97",
+ "md5_hash": "d8d350a851b553a6b02a952a0307b7eb",
+ "first_seen": "2021-08-21 11:30:03",
+ "last_seen": "2021-08-21 12:19:24",
+ "file_name": "TURK_IFSA_VIDEOLARI.apk",
+ "file_size": 3448503,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T151F5338EA7C5850ED93B57318043533337A8976C82C93D2E1426609474EBFA8DF1BEAD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:pBuGlUYQH6KLIjknS752gSytBS8BHTh+9fAeWFBe9tt/15OCewLVbUFJPGmkAprS:nfQHHu75PftbZSoeWF4ZNUf+mkA3Y",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "alien",
+  "alienbot",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.PUA.DebugKey.11657.8009.UNOFFICIAL"
+  ],
+  "downloads": "304",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1551545/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1551633/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/f7a2065371c494fe901131fc41ecd11895f34f0ebf7bb41512b0972c92784dbe/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/f7a2065371c494fe901131fc41ecd11895f34f0ebf7bb41512b0972c92784dbe",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210821-mgwp3l7xd2/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads name of network operator",
+     "score": "6"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "https://instagrambuyukprofil.com"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-08-21 11:30:07",
+   "scanner_count": "27",
+   "scanner_match": "6",
+   "scanner_percent": "22.22"
+  }
+ },
+ "comments": null
+}

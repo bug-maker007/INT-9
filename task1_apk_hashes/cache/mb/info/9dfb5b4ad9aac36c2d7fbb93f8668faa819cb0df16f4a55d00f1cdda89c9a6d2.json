@@ -1,0 +1,123 @@
+{
+ "sha256_hash": "9dfb5b4ad9aac36c2d7fbb93f8668faa819cb0df16f4a55d00f1cdda89c9a6d2",
+ "sha3_384_hash": "dc55891905fae26a27219b8d1d47e13d8f148cdd03ad3bb35aa862c92d218056a54c15ee2b1246e54850dc7d12bbd71c",
+ "sha1_hash": "3d74ce909e34f4e995363e0f079666de17f51d30",
+ "md5_hash": "735ede5f45394a36d3a44c9eba738925",
+ "first_seen": "2023-02-01 07:32:13",
+ "last_seen": null,
+ "file_name": "2.apk",
+ "file_size": 12008461,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "HK",
+ "anonymous": 1,
+ "signature": "GodFather",
+ "imphash": null,
+ "tlsh": "T142C63396E78AE96FEDF783325B79029A19066C95C783D3578950B23C0DFB5C44E80EC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:vNQ+EyaHv2Dl1bbi/49K6MoJzMHWjffv7dbDflUlCTcDBj2o8kLdvb:v4DHv2vfe04HafXRDfilCTcDBj2ZkLFb",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "39.4% (.APK) Android Package (38500/1/9)",
+  "30.7% (.SPE) SPSS Extension (30000/1/7)",
+  "13.8% (.JAR) Java Archive (13500/1/2)",
+  "10.7% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "4.1% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "banking",
+  "Godfather",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "md5WithRSAEncryption",
+   "valid_from": "2008-04-15T22:40:50Z",
+   "valid_to": "2035-09-01T22:40:50Z",
+   "serial_number": "b3998086d056cffa",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.1006.origin.16918.12797.UNOFFICIAL",
+   "SecuriteInfo.com.Android.Hidden.11489.2658.25062.UNOFFICIAL"
+  ],
+  "downloads": "411",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/9dfb5b4ad9aac36c2d7fbb93f8668faa819cb0df16f4a55d00f1cdda89c9a6d2/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/9dfb5b4ad9aac36c2d7fbb93f8668faa819cb0df16f4a55d00f1cdda89c9a6d2",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/230201-jdhv9scd36/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SAgnt",
+   "status": "MALICIOUS",
+   "first_seen": "2022-09-11 00:50:28",
+   "scanner_count": "39",
+   "scanner_match": "14",
+   "scanner_percent": "35.90"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/63da15af2d4f6d560e23e940/reports/5d41fa96-c71f-4b5f-a3a8-0905b8566455/overview"
+  }
+ },
+ "comments": null
+}

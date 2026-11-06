@@ -1,0 +1,134 @@
+{
+ "sha256_hash": "4d814fdfb79b50f4da1cdcc3aca7fbcc4c9c1826cdbdcce86cfd72906dbe8f8f",
+ "sha3_384_hash": "5c0330c2699ab4eece81fe25f915cb0d13c3cf78bc550ee34b7c83957efbec0b5a2e273f1c5dd0509bc5b50f8ff3986f",
+ "sha1_hash": "b85c58aed2f9325fb321f81dc145ddcbb2680940",
+ "md5_hash": "09fc1c65994d64385ba46a3b1790c355",
+ "first_seen": "2025-03-23 03:12:00",
+ "last_seen": null,
+ "file_name": "Ahmyth-aligned-debugSigned.apk",
+ "file_size": 300055,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "AhMyth",
+ "imphash": null,
+ "tlsh": "T18A54F187BB02E455EBD28532493B42D3513B3EA48F971A937E46772C08F6BC0DB39958",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:lcwyKqVeYYij0Vd8qhDALYi98qLjLNDTPVbfftk:agy/jYVd8G0Lz86ZDThm",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "AhMyth",
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "2570",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/4d814fdfb79b50f4da1cdcc3aca7fbcc4c9c1826cdbdcce86cfd72906dbe8f8f/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/4d814fdfb79b50f4da1cdcc3aca7fbcc4c9c1826cdbdcce86cfd72906dbe8f8f",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "ahmyth",
+   "score": "10",
+   "link": "https://tria.ge/reports/250323-dp8cea1rz7/",
+   "tags": [
+    "family:ahmyth",
+    "android",
+    "defense_evasion",
+    "impact",
+    "persistence",
+    "privilege_escalation"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Tries to add a device administrator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "ahmyth",
+     "c2": "http://192.168.8.187:42474"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Ahmyth",
+   "status": "MALICIOUS",
+   "first_seen": "2025-03-12 23:26:57",
+   "scanner_count": "24",
+   "scanner_match": "12",
+   "scanner_percent": "50.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67df7c0da175d3177345484a/reports/68f46097-7a0f-4903-abde-a8298a181495/overview"
+  }
+ },
+ "comments": null
+}

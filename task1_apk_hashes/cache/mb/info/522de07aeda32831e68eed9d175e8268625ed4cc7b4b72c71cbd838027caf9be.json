@@ -1,0 +1,130 @@
+{
+ "sha256_hash": "522de07aeda32831e68eed9d175e8268625ed4cc7b4b72c71cbd838027caf9be",
+ "sha3_384_hash": "4778b4f0a31e3ca363b5fb26041b424ffd50015d4147f84152df5cbeaa51a591a7c16f83c7b5146259d957a24d4db0ed",
+ "sha1_hash": "2495285fb62ff492687d13f14379690f9c058b13",
+ "md5_hash": "dbdb5c1102dd3fd83eccb39adc963492",
+ "first_seen": "2025-04-15 14:42:36",
+ "last_seen": "2025-04-15 16:07:41",
+ "file_name": "lnterbank Seguridad.apk",
+ "file_size": 8531107,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "US",
+ "anonymous": 1,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T12186120BEB05DB57C869C3F49E635D915B171F04CA936AAB8128376D3D732E28DC1A8C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:XnAzKSyNRQ8Yq7lIyXvaLEh4eXIDyyuowI9jC:IKrNtYBUqNx3eI9e",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "48.2% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "37.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "14.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "spynote,, spymax",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SpyNote"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "2465",
+  "uploads": "3",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Android_Admin_And_Accessibility",
+   "author": "Buga :3",
+   "description": "This detects apps which request access to both device admin and the Android accessibility suite.",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/522de07aeda32831e68eed9d175e8268625ed4cc7b4b72c71cbd838027caf9be/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/522de07aeda32831e68eed9d175e8268625ed4cc7b4b72c71cbd838027caf9be",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250415-r9yklazwcv/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyMax",
+   "status": "MALICIOUS",
+   "first_seen": "2025-04-15 14:54:18",
+   "scanner_count": "38",
+   "scanner_match": "12",
+   "scanner_percent": "31.58"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67fe7317e9c1e2579799db8d/reports/203b0116-6806-43dc-a245-a245f552eda9/overview"
+  }
+ },
+ "comments": null
+}

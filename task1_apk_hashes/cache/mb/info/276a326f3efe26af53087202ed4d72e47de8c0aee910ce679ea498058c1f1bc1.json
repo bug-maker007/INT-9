@@ -1,0 +1,105 @@
+{
+ "sha256_hash": "276a326f3efe26af53087202ed4d72e47de8c0aee910ce679ea498058c1f1bc1",
+ "sha3_384_hash": "430f33fa163038a706aa65e42b32509fa61f84ea4f01318609313e0e24abecc0e589c89fc2b40b4aeb818c57d86dc383",
+ "sha1_hash": "4b3e635ddb78300ab083251a0fad0c517fafcd77",
+ "md5_hash": "e92683234c4b91448a210f007b2506f4",
+ "first_seen": "2026-09-17 17:12:32",
+ "last_seen": null,
+ "file_name": "tiktok18.apk",
+ "file_size": 20900180,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "GB",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1FF27339BBB809686C8F7563B59B16631161B8CB94FD382D36810B33C683B5E50F56ECC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:+BmW3eC/56gpwW/B1HJZXr6AUQvYYwgDr8CA/WeEimp9Wg:+Bm0ee6gKApZXr6PdYwuuW",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Dropper",
+  "Malware",
+  "Riskware",
+  "TikTok",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "229",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": null,
+   "link": "https://tria.ge/reports/260917-vrgqxatela/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-09-17 17:13:16",
+   "scanner_count": "38",
+   "scanner_match": "8",
+   "scanner_percent": "21.05"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6aac1fa872b2ed306a167109/reports/d7e024be-1dda-4cf1-a39e-1a447713f202/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-17T17:18:00Z",
+   "last_seen": "2026-09-17T18:04:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/276a326f3efe26af53087202ed4d72e47de8c0aee910ce679ea498058c1f1bc1/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,134 @@
+{
+ "sha256_hash": "48a3b6c524705875ab2e74b1d5f6072f48fe7796ece88cb7f642f8f662c41242",
+ "sha3_384_hash": "e75213854bda151146f702992358fc59e7a8d1664b25dd95a0441933a1edb8f04192f98c741df2b5057d5b802f63415a",
+ "sha1_hash": "f6f359ed4165f6ffe19a30439b2208658ded6aa6",
+ "md5_hash": "bbf26f8786c0e8d381cd6edafd14978b",
+ "first_seen": "2026-05-08 09:14:52",
+ "last_seen": "2026-05-08 09:16:30",
+ "file_name": "iMobile Lite(10).apk",
+ "file_size": 16274080,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T177F6220BF308A86AD9F35335BD3A437765171D264F83C68B6860723DA9B36D04A6DBD0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:adOwmtFLh2T2vdXeYTW3mzvhyw0UJPKgPSCtFtzd9ptTgwQRxBGwvPH8ILNbDtAl:vy8gwoCnzhdyzbLhftANGtfbox",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "46.6% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "35.5% (.WIDGET) Konfabulator widget (8000/1/2)",
+  "17.7% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "ICICI",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "150",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "has_telegram_urls",
+   "author": "Aaron DeVera<aaron@backchannel.re>",
+   "description": "Detects Telegram URLs",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_CMD_Powershell_Usage",
+   "author": "XiAnzheng",
+   "description": "May Contain(Obfuscated or no) Powershell or CMD Command that can be abused by threat actor(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/48a3b6c524705875ab2e74b1d5f6072f48fe7796ece88cb7f642f8f662c41242/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/48a3b6c524705875ab2e74b1d5f6072f48fe7796ece88cb7f642f8f662c41242",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-la41faas7r/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-08 09:16:29",
+   "scanner_count": "38",
+   "scanner_match": "3",
+   "scanner_percent": "7.89"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fda9c62fcb905ec287fe21/reports/ab0fa65e-524d-459e-b89b-e7fb2ca12476/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-08T07:23:00Z",
+   "last_seen": "2026-05-08T16:33:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/48a3b6c524705875ab2e74b1d5f6072f48fe7796ece88cb7f642f8f662c41242/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "4d134bc0f0ba1e53c46da971679bf81c7af18c598c2ceb03dde87278f8c08aba",
+ "sha3_384_hash": "deaf115b5eeaf28472860687876bf428f0c6e804cae017f0a4d5112f7c6de7448ffcc7974ea86bb9449ec5be5d1c80b4",
+ "sha1_hash": "876514c6aba563bf950d2d5ecd6c3407748edf5c",
+ "md5_hash": "efbe3849e02619b969a76bb82182fbd0",
+ "first_seen": "2022-03-08 10:14:59",
+ "last_seen": null,
+ "file_name": "sabadell.apk",
+ "file_size": 1492676,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T1CB65E081B7C5BC2FCC7384364FBA8A6AA5464C468746D71359B1B62C4EFBAC04E45FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:fdPbpZPBtAUR5rLpvAkqRnt/qIGDYXzWiSpWmxwQJSxJpw3ePq920qYaOL1R+O0k:FPbpZP7AUXlxq1t/qIKGzDSpOwuS9jqG",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "coper",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.PUA.DebugKey.15133.10055.UNOFFICIAL"
+  ],
+  "downloads": "274",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/4d134bc0f0ba1e53c46da971679bf81c7af18c598c2ceb03dde87278f8c08aba/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/4d134bc0f0ba1e53c46da971679bf81c7af18c598c2ceb03dde87278f8c08aba",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/220308-l99d7sgcfn/",
+   "tags": [
+    "android",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Checks Android system properties for emulator presence.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2022-03-08 10:15:19",
+   "scanner_count": "27",
+   "scanner_match": "11",
+   "scanner_percent": "40.74"
+  }
+ },
+ "comments": null
+}

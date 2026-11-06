@@ -1,0 +1,139 @@
+{
+ "sha256_hash": "cb0dd3d4234c701c0dc146f557ad3f77af82cfa9f5d7f4518bd358951b3b8d8e",
+ "sha3_384_hash": "79654e45c758faf77fef870a0482256a0e17a312574187f7fbfdec004062d3c8401ed282d2c39465d68ede3d0e0a2f1c",
+ "sha1_hash": "75dbbab416f5fa2ffb8be97585d1d2857faa881f",
+ "md5_hash": "70873b6393810701c5febb099cb9a907",
+ "first_seen": "2022-06-15 03:19:10",
+ "last_seen": null,
+ "file_name": "Rat.apk",
+ "file_size": 129472,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T167C3F1962AE8CC1BD2B86D7C6F05241FD4A057ECCA9474E29CCD03A665EF2313A85F4D",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1536:gFKgrLSJmolmwCL+UmolmwCL+UmolmwCL+5molmwCL+iNE:gFKgrGUo8b4o8bqo8bPo8b/NE",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "72.9% (.JAR) Java Archive (13500/1/2)",
+  "21.6% (.ZIP) ZIP compressed archive (4000/1)",
+  "5.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "iran",
+  "malware",
+  "Phishing",
+  "signed",
+  "sms",
+  "smsspy",
+  "spy",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "editor",
+   "issuer_cn": "editor",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-01-10T08:03:09Z",
+   "valid_to": "2115-12-17T08:03:09Z",
+   "serial_number": "231bc320",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "6215f00baa4bf18bab5792fc796bfc5555917240f14f7c7e672d956888d75c96",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SmsSpy.830.origin.6789.9345.UNOFFICIAL"
+  ],
+  "downloads": "487",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2238518/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2239287/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "exploit_any_poppopret",
+   "author": "Jeff White [karttoon@gmail.com] @noottrak",
+   "description": "Identify POP -> POP -> RET opcodes for quick ROP Gadget creation in target binaries.",
+   "reference": ""
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/cb0dd3d4234c701c0dc146f557ad3f77af82cfa9f5d7f4518bd358951b3b8d8e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.30"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/cb0dd3d4234c701c0dc146f557ad3f77af82cfa9f5d7f4518bd358951b3b8d8e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220615-dvra3seff6/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SmsThief",
+   "status": "MALICIOUS",
+   "first_seen": "2022-06-15 03:20:06",
+   "scanner_count": "26",
+   "scanner_match": "14",
+   "scanner_percent": "53.85"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62a94fb64d1ff31e31bfc1a9/reports/687f6179-e078-4192-b08d-94d53be86002/overview"
+  }
+ },
+ "comments": [
+  {
+   "id": "51575",
+   "date_added": "2022-06-15 03:23:39",
+   "twitter_handle": "onecert_ir",
+   "display_name": "OneCert Cyber ​​Security",
+   "comment": "Apk.SMSspy.IranPhishing"
+  }
+ ]
+}

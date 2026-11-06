@@ -1,0 +1,150 @@
+{
+ "sha256_hash": "7060f7df266dffbfd5a63a9fcdaf14af020d90ba267c3a45ec44ea972e6936a5",
+ "sha3_384_hash": "28c2477fb119b92f46296d6fcc2988b70b54c81ee3ab60524b4cb49f8eb9369b7615e5915fa2515e517b2edf77954fb8",
+ "sha1_hash": "619bbc99ffc9e140eef6f6013710de6dfcf2e2a6",
+ "md5_hash": "ec2b445e20891ae731a0b71293e6a8fd",
+ "first_seen": "2026-05-08 09:07:14",
+ "last_seen": null,
+ "file_name": "ІnԁusΙոԁ Credіt Cɑrԁ.apk",
+ "file_size": 14327880,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1BAE6020EE29E4F5EC8F786773B2E137122192E245B03C127E671B23965FBCD48A1A5D1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:7dh0qWQiGCHShu0rUzhvgfmrmOY/XwJTF7uEGG/558VrNA/xVW8/YxnJSb5Zc:iS5Sufma1/Xmr/55H/xf/Yyb5Zc",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "42.8% (.APK) Android Package (27000/1/5)",
+  "21.4% (.JAR) Java Archive (13500/1/2)",
+  "16.6% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "12.6% (.WIDGET) Konfabulator widget (8000/1/2)",
+  "6.3% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "IndusInd",
+  "malware",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "np",
+   "issuer_cn": "np",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2021-04-25T09:03:56Z",
+   "valid_to": "3020-08-26T09:03:56Z",
+   "serial_number": "045ff9a3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "492682f877607ee99df2ddd2bd5953fd727bdf6e19d397de9dbbafd582bcad75",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "160",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "has_telegram_urls",
+   "author": "Aaron DeVera<aaron@backchannel.re>",
+   "description": "Detects Telegram URLs",
+   "reference": null
+  },
+  {
+   "rule_name": "ldpreload",
+   "author": "xorseed",
+   "description": null,
+   "reference": "https://stuff.rop.io/"
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7060f7df266dffbfd5a63a9fcdaf14af020d90ba267c3a45ec44ea972e6936a5/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/7060f7df266dffbfd5a63a9fcdaf14af020d90ba267c3a45ec44ea972e6936a5",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-k3mfese161/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Autopay",
+   "status": "MALICIOUS",
+   "first_seen": "2026-05-08 09:08:33",
+   "scanner_count": "38",
+   "scanner_match": "8",
+   "scanner_percent": "21.05"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fda7ce2fcb905ec287f978/reports/f1cbcdda-1d00-4daa-bd79-6b484cd24efa/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-08T07:22:00Z",
+   "last_seen": "2026-05-08T17:19:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/7060f7df266dffbfd5a63a9fcdaf14af020d90ba267c3a45ec44ea972e6936a5/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

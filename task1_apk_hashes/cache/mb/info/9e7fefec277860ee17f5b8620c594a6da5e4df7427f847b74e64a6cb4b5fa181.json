@@ -1,0 +1,100 @@
+{
+ "sha256_hash": "9e7fefec277860ee17f5b8620c594a6da5e4df7427f847b74e64a6cb4b5fa181",
+ "sha3_384_hash": "224deb94947a99475060b75b525c1c65546a3a458d210192440e01b60cc1c17ff7294e911a7ad4d5be45fedbd840b13c",
+ "sha1_hash": "9037b6b58dc3e9db8c27f04b5b088c773541c421",
+ "md5_hash": "84748c49423f80e95e87d89f616d191d",
+ "first_seen": "2026-09-18 20:24:11",
+ "last_seen": null,
+ "file_name": "9e7fefec277860ee17f5b8620c594a6da5e4df7427f847b74e64a6cb4b5fa181.apk",
+ "file_size": 28071078,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "smica83",
+ "origin_country": "HU",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T192572357FFC4A97AC4F2833208769725694B9C318BA396C79914323D68F72D01F89ED8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "786432:ZAS4oKrnv8+V3QXEJI10fZmzu4cd+YlELzg:ZAS4ZnU+dfIYmKrllELzg",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "RatHat"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "246",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "ANDROID_Sample_Unique_5be608a5",
+   "author": "Marjoriefort",
+   "description": "Specimen unique (soumission Bazaar) - strings distinctifs propres au sample",
+   "reference": "5be608a563a02c94dbf3b1812b3aa0685a6f8228b5dc74c773cc3c912adef7ba.apk"
+  },
+  {
+   "rule_name": "vmdetect",
+   "author": "nex",
+   "description": "Possibly employs anti-virtualization techniques",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": null,
+   "link": "https://tria.ge/reports/260918-y6s92a1hjc/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-09-18 20:25:39",
+   "scanner_count": "24",
+   "scanner_match": "1",
+   "scanner_percent": "4.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6aad9df18be1ecf1ca4a7f95/reports/ef824eca-27af-41c2-84d8-6bb1131f375f/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-03T04:25:00Z",
+   "last_seen": "2026-09-19T22:26:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/9e7fefec277860ee17f5b8620c594a6da5e4df7427f847b74e64a6cb4b5fa181/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

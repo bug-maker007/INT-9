@@ -1,0 +1,128 @@
+{
+ "sha256_hash": "5ce41f4ecbfa8fa2855689ec3cfc1015ccf17f00ad28fa3bd26b4b8c86c56ad9",
+ "sha3_384_hash": "02c4908ddeb16355eb577a43f07df5d9954d8e09fb0692d225b9ec6747634325e4add452875c5e6f8a94e7f79f91895e",
+ "sha1_hash": "dc93b4458efebbc4a15a330840f0c92359e4de95",
+ "md5_hash": "6ebeb85ffe32db161606a7c53722b890",
+ "first_seen": "2021-08-12 08:42:02",
+ "last_seen": "2021-08-12 08:42:26",
+ "file_name": "38157_Video_Oynatıcı.apk",
+ "file_size": 3115783,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T1E4E533696D9AD02DD70B6C7048108817B26756E83E905E9F0C725A843EB1FEC4BA3D7F",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:92UEyQygv2WCra6iKmRxdehYOE82PNSKpekboCtEQeiem9b5oZ9kw6PZzjC:92Qgv2WSa6ir8sSb6oCN5d7Pc",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "214",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/unidentified0xc/status/1425731726630924291?s=20"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1527304/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1527310/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5ce41f4ecbfa8fa2855689ec3cfc1015ccf17f00ad28fa3bd26b4b8c86c56ad9/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/5ce41f4ecbfa8fa2855689ec3cfc1015ccf17f00ad28fa3bd26b4b8c86c56ad9",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/210812-n13gr32lps/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hydra",
+     "c2": "http://miguelgonzales123.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Bian",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-12 08:43:07",
+   "scanner_count": "46",
+   "scanner_match": "9",
+   "scanner_percent": "19.57"
+  }
+ },
+ "comments": null
+}

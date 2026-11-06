@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "ef04b246dc6c3ba619994cdbbaf010833d7164ef98d3ef04696223a132b793da",
+ "sha3_384_hash": "84a5d68d72688ec526943fe3184b9be6be9686e93f4f756c31eff549dc9bff71c8bca004fdf7d6cdbf421a334375fdd5",
+ "sha1_hash": "81cdbcd19bab7f236f4bf2f9984a9f73b28bb8cf",
+ "md5_hash": "48f6a07a3841963459290834c2210907",
+ "first_seen": "2024-07-09 07:45:44",
+ "last_seen": null,
+ "file_name": "McAfee_Security.apk",
+ "file_size": 4095458,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "Vultur",
+ "imphash": null,
+ "tlsh": "T10816120AF959CC3ADD7A7439638B6325A73178688321C3C35B516E196F932E1CF3A9C1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:Qe3ISOzst8qeCZ7w0+Ht3YIAQfvpIWAkoYXgC1PkxLHQfCHG3+FJNPbZA1v8SXT:Qe3ISOzAI6w0kIgfvVA9IPhfCHM8Sj",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "80.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "20.0% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "vultur"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.MulDrop.1266.21460.4441.UNOFFICIAL"
+  ],
+  "downloads": "385",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "maldoc_getEIP_method_1",
+   "author": "Didier Stevens (https://DidierStevens.com)",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "meth_get_eip",
+   "author": "Willi Ballenthin",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ef04b246dc6c3ba619994cdbbaf010833d7164ef98d3ef04696223a132b793da/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ef04b246dc6c3ba619994cdbbaf010833d7164ef98d3ef04696223a132b793da",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/240709-jly78awcjg/",
+   "tags": [
+    "android",
+    "banker",
+    "discovery",
+    "impact"
+   ],
+   "signatures": [
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Vultur",
+   "status": "MALICIOUS",
+   "first_seen": "2024-05-05 14:18:07",
+   "scanner_count": "38",
+   "scanner_match": "8",
+   "scanner_percent": "21.05"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/668ceabebb965284a1c5cb75/reports/5a2c3f82-3ece-41d8-a036-3dbaf916e0fa/overview"
+  }
+ },
+ "comments": null
+}

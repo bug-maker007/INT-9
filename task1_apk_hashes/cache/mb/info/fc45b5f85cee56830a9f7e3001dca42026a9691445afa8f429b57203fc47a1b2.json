@@ -1,0 +1,81 @@
+{
+ "sha256_hash": "fc45b5f85cee56830a9f7e3001dca42026a9691445afa8f429b57203fc47a1b2",
+ "sha3_384_hash": "e329b6b1febe31047a6b7d65bd36d3bdacdce4697201887b0fc0b8632b2eae5594b5ede76aa4cc0a58d867e4c25fb473",
+ "sha1_hash": "a0ab0777891553d9c1dced5fdafe2b9e1d5b341e",
+ "md5_hash": "af9f032aecbb2c3a4f5eed9b5f675419",
+ "first_seen": "2021-09-03 12:20:04",
+ "last_seen": null,
+ "file_name": "fc45b5f85cee56830a9f7e3001dca42026a9691445afa8f429b57203fc47a1b2.apk",
+ "file_size": 3457984,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "alberto__segura",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "FluBot",
+ "imphash": null,
+ "tlsh": "T1A7F52216FEDEE91AD087E13CD1649897440844484A08FF1B9B2692DC8FFAD44AB87FDD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:Q7KGt3ZuI7y690JAD/oD4bSMI6/LTdCH93:QeGfuI7y2oDbV",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": "#Flubot 4.8\r\n\r\nFresh sample from: https://dejananaturally.com/k.php",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "flubot",
+  "v4.8"
+ ],
+ "code_sign": null,
+ "delivery_method": "email_link",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Adware.Android.Deng-1.UNOFFICIAL"
+  ],
+  "downloads": "417",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/fc45b5f85cee56830a9f7e3001dca42026a9691445afa8f429b57203fc47a1b2/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/fc45b5f85cee56830a9f7e3001dca42026a9691445afa8f429b57203fc47a1b2",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210903-phs5pagbgp/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-09-03 12:20:12",
+   "scanner_count": "40",
+   "scanner_match": "6",
+   "scanner_percent": "15.00"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,134 @@
+{
+ "sha256_hash": "49f8eb9779b3096ca81339c7a6d3cad6a8fc20b3d91ffe103c19935d330ad0aa",
+ "sha3_384_hash": "f8d81a814385527175ddba37b3e1235d322eaedd9de45d543cc087e2a49926e351b14a2df4b454dad9532e186452a524",
+ "sha1_hash": "b041daf9f96b284f51561d8532e76ba52687a50b",
+ "md5_hash": "4dbb47ed77c9ae9d22c0e7ff1661b910",
+ "first_seen": "2024-03-17 15:10:37",
+ "last_seen": null,
+ "file_name": "Eydaneh.apk",
+ "file_size": 5096121,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1B536586EDF014D2DC9A4CF7140AB05F6621817444E42EA3D1BBBA0A53867DE83771EBB",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:ATVUJ7O9MqXehCX5XWkkuGjTf6EE1P61T:ATmJ70tbmiShiP61T",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Anywhere Software",
+   "issuer_cn": "Anywhere Software",
+   "algorithm": "dsaWithSHA1",
+   "valid_from": "2016-08-24T08:23:07Z",
+   "valid_to": "2054-12-23T08:23:07Z",
+   "serial_number": "58118218",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "32752470a35a7bb0a2991180f02baff49a41b9d6b2b5e44e8aa7cb736752e003",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.Lydia.10.4700.12000.UNOFFICIAL"
+  ],
+  "downloads": "369",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "BitcoinAddress",
+   "author": "Didier Stevens (@DidierStevens)",
+   "description": "Contains a valid Bitcoin address",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/49f8eb9779b3096ca81339c7a6d3cad6a8fc20b3d91ffe103c19935d330ad0aa/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/49f8eb9779b3096ca81339c7a6d3cad6a8fc20b3d91ffe103c19935d330ad0aa",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240317-skk4msha77/",
+   "tags": [
+    "family:irata",
+    "android",
+    "discovery"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-03-17 15:11:07",
+   "scanner_count": "23",
+   "scanner_match": "6",
+   "scanner_percent": "26.09"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65f70808204403ca94d56cc2/reports/0670f67f-1650-4d7a-85f5-5741e5e1a77b/overview"
+  }
+ },
+ "comments": null
+}

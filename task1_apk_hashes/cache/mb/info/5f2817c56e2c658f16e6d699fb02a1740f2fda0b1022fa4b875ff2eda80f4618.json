@@ -1,0 +1,138 @@
+{
+ "sha256_hash": "5f2817c56e2c658f16e6d699fb02a1740f2fda0b1022fa4b875ff2eda80f4618",
+ "sha3_384_hash": "9075b2c173083414a8a4d02ac254b96f1f32c490a32d392797c996e676152e09117a2eef36d56416700168cb3afc259c",
+ "sha1_hash": "e72975d68012911647f30fc88fc1299c1596f6ee",
+ "md5_hash": "588eb0188cb3cbe38d274734c68db49e",
+ "first_seen": "2025-01-12 10:53:09",
+ "last_seen": null,
+ "file_name": "app-webview.apk",
+ "file_size": 9649988,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T11FA60186F768A92FCC3390320DA9123552570C968E83EB977904771C29BB6D85F99FCC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:/6YUiqa0n1xBNpmX6lsGdSSve8tUYy2z+s4U:/6niA1xNGOve86YTqst",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "citibank",
+  "malware",
+  "signed",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2020-11-04T08:21:10Z",
+   "valid_to": "2050-10-28T08:21:10Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "0f416b09ed612c614d2021b2af0e290d2d09605f8fa93dc87e2f727a7d950ae6",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "259",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5f2817c56e2c658f16e6d699fb02a1740f2fda0b1022fa4b875ff2eda80f4618/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/5f2817c56e2c658f16e6d699fb02a1740f2fda0b1022fa4b875ff2eda80f4618",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/250112-mzjlga1rgm/",
+   "tags": [
+    "android",
+    "discovery",
+    "evasion",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Anubis",
+   "status": "MALICIOUS",
+   "first_seen": "2025-01-10 00:29:37",
+   "scanner_count": "24",
+   "scanner_match": "8",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67839f4bdef63eec17663794/reports/3624e607-de72-4e19-b5bb-d0b00b5954ad/overview"
+  }
+ },
+ "comments": null
+}

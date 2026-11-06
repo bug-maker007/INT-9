@@ -1,0 +1,151 @@
+{
+ "sha256_hash": "7a65b831c9f781e49c47393345bbe2ffff6859a608b9a5413d7f3b76683ff178",
+ "sha3_384_hash": "1d1832a4ece0de463246da2c206a18497a0800d44877a04e0c49e0388c7cb4e66c0eea2ab08726442573db9f33c65865",
+ "sha1_hash": "89ee06f706c25921dc4025078f08bf1f8b270343",
+ "md5_hash": "dea6771be19c050e11694df90336d400",
+ "first_seen": "2023-06-14 14:13:20",
+ "last_seen": null,
+ "file_name": "EBA (1).apk",
+ "file_size": 2402916,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "KAAN",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1C8B523D3458CE17BC935563E70EBE091F99200A39DB2912BAFC1CD55E8E7DD32272889",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:GsUhzGTzpUllkhrr+0lDbk2Ta+RJA0dzGUDUOcCB310TwcxfWZehr6cBSoLFVMtx:1pXCloH+0BbE+RJjzGUDhIwqfbrxLQtx",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "EBA (1).apk",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker",
+  "Cerberus",
+  "dropper",
+  "signed",
+  "trojan.hqwar",
+  "trojen"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.8180.826.16486.UNOFFICIAL"
+  ],
+  "downloads": "516",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "BitcoinAddress",
+   "author": "Didier Stevens (@DidierStevens)",
+   "description": "Contains a valid Bitcoin address",
+   "reference": null
+  },
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7a65b831c9f781e49c47393345bbe2ffff6859a608b9a5413d7f3b76683ff178/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/7a65b831c9f781e49c47393345bbe2ffff6859a608b9a5413d7f3b76683ff178",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "9",
+   "link": "https://tria.ge/reports/230614-rjzd7shh99/",
+   "tags": [
+    "android",
+    "evasion",
+    "linux",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Renames multiple (160) files with added filename extension",
+     "score": "9"
+    },
+    {
+     "signature": "Renames multiple (162) files with added filename extension",
+     "score": "9"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2021-03-04 23:45:53",
+   "scanner_count": "37",
+   "scanner_match": "10",
+   "scanner_percent": "27.03"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6489cb2b42c89170f6ec4b76/reports/eab8b784-83a2-45b5-8c2c-1279f1e4ce36/overview"
+  }
+ },
+ "comments": null
+}

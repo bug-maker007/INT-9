@@ -1,0 +1,141 @@
+{
+ "sha256_hash": "6ede7eff0e9a353d18c4b8a093a1e3382b0c619be41f342fe2bf1a491c20aab2",
+ "sha3_384_hash": "5a8dd821ff5529d12c9cc22b6c6c5eaa2a1850198590e02826a1c6f4a2d1832d32b4f81a0c15fb2e22ca4be9f6a8ec27",
+ "sha1_hash": "88b67628bfcce1ba2071a84aaca6f7774f68c2eb",
+ "md5_hash": "fd00ad95e0e69f688e946771e5d229d5",
+ "first_seen": "2023-10-27 08:37:26",
+ "last_seen": null,
+ "file_name": "saham.apk",
+ "file_size": 4506751,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T15026CECAFBD89C2FCC7714B5CA5A53B1122A5C068342DF836A14372C69776E84F5ABC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:k6FUpHbBQ25ucpdBsRakE1QCbzohDOz0fiBSoTYrZR9GG:dU99fFdgVhDOztBY9v",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "43.9% (.APK) Android Package (32500/1/6)",
+  "18.2% (.JAR) Java Archive (13500/1/2)",
+  "16.8% (.VYM) VYM Mind Map (12500/1/3)",
+  "14.1% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-09-23T11:57:06Z",
+   "valid_to": "3015-01-25T11:57:06Z",
+   "serial_number": "333a0b9b",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "022a1ed9feb0e6c9826df99c58350b7789a71ad51f142f40449f91d58c0278c1",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "188",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2726251/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2726247/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "maldoc_getEIP_method_1",
+   "author": "Didier Stevens (https://DidierStevens.com)",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "meth_get_eip",
+   "author": "Willi Ballenthin",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/6ede7eff0e9a353d18c4b8a093a1e3382b0c619be41f342fe2bf1a491c20aab2/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/6ede7eff0e9a353d18c4b8a093a1e3382b0c619be41f342fe2bf1a491c20aab2",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/231027-kjp27seh26/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-10-27 08:38:06",
+   "scanner_count": "23",
+   "scanner_match": "8",
+   "scanner_percent": "34.78"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.25",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/653b76eb0ca0b01851704b91/reports/e65fa025-c6cc-4822-86e9-1a431bfc476d/overview"
+  }
+ },
+ "comments": null
+}

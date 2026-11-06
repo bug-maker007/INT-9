@@ -1,0 +1,141 @@
+{
+ "sha256_hash": "58d335b2fd86126ab18cfbecd117c7700d154a2473cc1bdd507c0f57fa7052e3",
+ "sha3_384_hash": "f2ed78ca9b9bbd9ae2ffd354541ea4dd41686670bc0e23b6e7f6fd8aaac946938243fe11e40b003ed16d5bfa8e0d05b2",
+ "sha1_hash": "f16438e740ddaa90ce092ddfe4eb8a1e0ac2c35a",
+ "md5_hash": "d430e3f797339ea4b988671d84b9eb47",
+ "first_seen": "2025-02-26 03:01:08",
+ "last_seen": null,
+ "file_name": "58d335b2fd86126ab18cfbecd117c7700d154a2473cc1bdd507c0f57fa7052e3.apk",
+ "file_size": 4857283,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "GodFather",
+ "imphash": null,
+ "tlsh": "T1F2261287EB19EC6EC5F382394676072A5502AC168783C7479A5D733C2EBB9C04F95EC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:57w2qmtgcS64stlR+oWEJ0y1/c7nPBjSpcetm3ZZpwx66dFDW:9XqmtrSWlkoWyP/6pjCtMEx66bW",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Godfather",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "sito",
+   "issuer_cn": "sito",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2024-07-14T08:06:48Z",
+   "valid_to": "2025-07-14T08:06:48Z",
+   "serial_number": "20f20d8d",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "98698815ea0c2f9482a488b87c0c205c652aa855a6b9ecc1358966755868c26b",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.GodFather.3.15445.30401.UNOFFICIAL"
+  ],
+  "downloads": "3270",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Suspicious_Latam_MSI_and_ZIP_Files",
+   "author": "eremit4, P4nd3m1cb0y",
+   "description": "Detects suspicious .msi and .zip files used in Latam banking trojan campaigns.",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/58d335b2fd86126ab18cfbecd117c7700d154a2473cc1bdd507c0f57fa7052e3/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/58d335b2fd86126ab18cfbecd117c7700d154a2473cc1bdd507c0f57fa7052e3",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "godfather",
+   "score": "10",
+   "link": "https://tria.ge/reports/250226-dhz3fstp12/",
+   "tags": [
+    "family:godfather",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "godfather",
+     "c2": "https://t.me/trinomazkonera"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-12-13 12:10:00",
+   "scanner_count": "37",
+   "scanner_match": "9",
+   "scanner_percent": "24.32"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67be83fb3afc3763bec6e700/reports/5bffc549-e270-47dd-a5a7-ea91ccbc2147/overview"
+  }
+ },
+ "comments": null
+}

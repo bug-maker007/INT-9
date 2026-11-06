@@ -1,0 +1,233 @@
+{
+ "sha256_hash": "4256c320578bdf2d3a60bf991313dd0156933560a1d5e79ae21ca3f37e4348ed",
+ "sha3_384_hash": "e9997fdf773727b4e2e4597285acaefb18b802acb78705973b72ff40faf3a9cc9af1132a8868311b93b040172e8ad810",
+ "sha1_hash": "3bc9fd553da001babfc898fd5883c2c876d7e36d",
+ "md5_hash": "9f0d7f64ee36e0ba1fba146816ca0813",
+ "first_seen": "2025-09-20 06:32:16",
+ "last_seen": null,
+ "file_name": "Chrome .apk",
+ "file_size": 297299,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "CyberMAN_noBODY",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T167540124F104C737EA7D63B09969E2C52238BF04DF655493B10A7B1C96BBAC90FAE106",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:3jYD1TCKEuLNy7B16Tj42dQAc038J1rVxq9sS+:kD1jlgIPr0JpVY9sS+",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "bankbot",
+  "banker",
+  "Coper",
+  "malware",
+  "trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan-Banker.AndroidOS.Octo-1.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.32672.1523.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan.Generic.35243918.12742.18135.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan.Generic.35358880.26987.19779.UNOFFICIAL"
+  ],
+  "downloads": "358",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Android_Admin_And_Accessibility",
+   "author": "Buga :3",
+   "description": "This detects apps which request access to both device admin and the Android accessibility suite.",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_AllMal_Detector",
+   "author": "DiegoAnalytics",
+   "description": "CrossPlatform All Malwares Detector: Detect PE, ELF, Mach-O, scripts, archives; overlay, obfuscation, encryption, spoofing, hiding, high entropy, network communication",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "elf_arm_mips_ko_so",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "MATCH_INTERNAL_000001",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/4256c320578bdf2d3a60bf991313dd0156933560a1d5e79ae21ca3f37e4348ed/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/4256c320578bdf2d3a60bf991313dd0156933560a1d5e79ae21ca3f37e4348ed",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/250920-havj8azydx/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo family",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests accessing notifications (often used to intercept notifications before users become aware).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests modifying system settings.",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://196.251.115.6:7117/gate/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Coper",
+   "status": "MALICIOUS",
+   "first_seen": "2025-08-25 17:55:02",
+   "scanner_count": "36",
+   "scanner_match": "19",
+   "scanner_percent": "52.78"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/68ce4a7c73af424b47e85bec/reports//overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-08-25T15:50:00Z",
+   "last_seen": "2025-08-25T15:50:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/4256c320578bdf2d3a60bf991313dd0156933560a1d5e79ae21ca3f37e4348ed/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

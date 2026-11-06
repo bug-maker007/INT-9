@@ -1,0 +1,142 @@
+{
+ "sha256_hash": "a7151099e1c44a2a7e6695e3c0d135012cbae04390bb52d1a56f8c2818a6f6a0",
+ "sha3_384_hash": "ea4e5de7227de07b8175570dbdbeb0c5aaf7526f02adacf40d205ed22c6d8e00d3a5c79494e36024ea84f23e164ae256",
+ "sha1_hash": "ec498c5d85f61a9ba6a6a04a2ef249c109a1d065",
+ "md5_hash": "3f9c00569fffe07ae2d92aa597f6cd7f",
+ "first_seen": "2022-07-06 09:09:37",
+ "last_seen": null,
+ "file_name": "base.apk",
+ "file_size": 1839169,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1138523C3F751C0ABCEEBAA31D522114150369E269D475A873D65F73D4EB3FC8A70AA80",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:Gva5sy/NXeHjAQkLbqS/uPN+XtjNbZSJ/0i:Gv6EHjPsqQuMb08i",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "Apk.spyware.IranPhishing",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "iran",
+  "malware",
+  "Phishing",
+  "signed",
+  "smsspy",
+  "spy",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "multiple",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SmsSpy.11058.37.27098.UNOFFICIAL"
+  ],
+  "downloads": "354",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "spyware"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "Apk.spyware.IranPhishing"
+  },
+  {
+   "context": "dropped_by_malware",
+   "value": "smsspy"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a7151099e1c44a2a7e6695e3c0d135012cbae04390bb52d1a56f8c2818a6f6a0/"
+  },
+  "YOROI_YOMI": {
+   "detection": "SMSspy",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/a7151099e1c44a2a7e6695e3c0d135012cbae04390bb52d1a56f8c2818a6f6a0",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220706-k42azachg3/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Realrat",
+   "status": "MALICIOUS",
+   "first_seen": "2022-07-06 09:21:18",
+   "scanner_count": "26",
+   "scanner_match": "13",
+   "scanner_percent": "50.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62c5516c783441cda10cd1e4/reports/3f285458-f066-4887-b61c-474088c172f4/overview"
+  }
+ },
+ "comments": null
+}

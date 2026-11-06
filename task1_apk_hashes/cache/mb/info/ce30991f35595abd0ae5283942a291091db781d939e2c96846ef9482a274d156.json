@@ -1,0 +1,174 @@
+{
+ "sha256_hash": "ce30991f35595abd0ae5283942a291091db781d939e2c96846ef9482a274d156",
+ "sha3_384_hash": "e01735845f89ab6825c533680f675e5c20a1a7ed6c1b56e0a416622d69839804836043e0ca2e399443892cdd02a481f7",
+ "sha1_hash": "aa70b5a0db6b45e1e26332122f2540e62be552cc",
+ "md5_hash": "4ce78163eef9d470b76e70676bf6f7b9",
+ "first_seen": "2025-04-05 17:11:27",
+ "last_seen": null,
+ "file_name": "Cinema_V4.0.1.apk",
+ "file_size": 36454343,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "shubho2",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1938702DDE64DA60FD0FEB0F76E4A00A1735C7D0A4A11DC932527B96ABC723890E267C5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "786432:kinwGm5ymxNHbcRFEg+PVzJLVbJa25EG5+pxQCTAY8hT:kiPOFN7alMVzLbJhEG4pxHTa",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "40.0% (.APK) Android Package (27000/1/5)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "18.5% (.VYM) VYM Mind Map (12500/1/3)",
+  "15.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "BankSpy",
+  "Remotecode",
+  "signed",
+  "Spyware",
+  "Trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "1091",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "ldpreload",
+   "author": "xorseed",
+   "description": null,
+   "reference": "https://stuff.rop.io/"
+  },
+  {
+   "rule_name": "maldoc_getEIP_method_1",
+   "author": "Didier Stevens (https://DidierStevens.com)",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "meth_get_eip",
+   "author": "Willi Ballenthin",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "SHA512_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for SHA384/SHA512 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Trojan",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/ce30991f35595abd0ae5283942a291091db781d939e2c96846ef9482a274d156",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/250405-vq136avnw6/",
+   "tags": [
+    "android",
+    "discovery",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Legitimate hosting services abused for malware hosting/C2",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SAgnt",
+   "status": "MALICIOUS",
+   "first_seen": "2024-10-19 05:18:00",
+   "scanner_count": "35",
+   "scanner_match": "9",
+   "scanner_percent": "25.71"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67f164772d430c849e083204/reports/5c041d14-d8c0-47f1-bb22-f5ee41961160/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,107 @@
+{
+ "sha256_hash": "e71cb65de592d4bb93dd3fd515185f4078c8cf845e8bd36cdd02520a7db728be",
+ "sha3_384_hash": "4cc5bee4e83907575e5020eaa7dfcaa77f475624935c844e9b1da104c2bd62a77c3f74887ae3b7999c58aad7edd34985",
+ "sha1_hash": "11c6eea00095e8b926a083f9f8a1c02e43edc4f8",
+ "md5_hash": "3bc4be5020a6cfb26eaf8f61f011557c",
+ "first_seen": "2026-03-14 00:35:34",
+ "last_seen": null,
+ "file_name": "Axis Credit Card.apk",
+ "file_size": 15716982,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T188F6BC23F50529AADDC6A134F5E7179177301E440793A329261FF02AFDB25DECA27AC2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:Am9qbSWGe5U6V2v2lAazmUEmvgsP+aRtcOY6J:B9qWWR512ulu9cgmBR2m",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Axis Bank"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "208",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e71cb65de592d4bb93dd3fd515185f4078c8cf845e8bd36cdd02520a7db728be/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/e71cb65de592d4bb93dd3fd515185f4078c8cf845e8bd36cdd02520a7db728be",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260314-ax2m2set6w/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-03-13 19:01:20",
+   "scanner_count": "24",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69b4ad81493cb7d62dfc351e/reports/419b3c32-0b39-4ecd-beb4-f8e5a63f0f6e/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/e71cb65de592d4bb93dd3fd515185f4078c8cf845e8bd36cdd02520a7db728be/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

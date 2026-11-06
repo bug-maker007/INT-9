@@ -1,0 +1,156 @@
+{
+ "sha256_hash": "f042f4222e2117e309121b18da92c7402103e3b3af15cba7745e4b8f96e65d1b",
+ "sha3_384_hash": "ec35ae8cb6b7ea53da11de2ddb78fe18a5de3eed1ebe397e1df3a0383c2ace5e8eccc3d25921ea8028a6967504b115ab",
+ "sha1_hash": "23008a93cefc885a2902ddf531a57daf2b013170",
+ "md5_hash": "591a0153cc7dd276f071889334cdddf8",
+ "first_seen": "2025-04-07 02:34:35",
+ "last_seen": null,
+ "file_name": "app.apk",
+ "file_size": 2056830,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "moh53n",
+ "origin_country": "NL",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1A3951203F379A817C976C1B22144177A615B4D29C643FB8E3A4437EA38BBDEC4B85AC5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:EsKkkpeXX1so8N2Pp2vsbaHy3CmmhRym9bELa:kkkIXWpl4CRym92a",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "IRATA",
+  "IRN",
+  "KalaBarg",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Anywhere Software",
+   "issuer_cn": "Anywhere Software",
+   "algorithm": "dsaWithSHA1",
+   "valid_from": "2016-08-24T08:23:07Z",
+   "valid_to": "2054-12-23T08:23:07Z",
+   "serial_number": "58118218",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "32752470a35a7bb0a2991180f02baff49a41b9d6b2b5e44e8aa7cb736752e003",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "5970",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "apk_flubot_w0",
+   "author": "Thomas Barabosch, Telekom Security",
+   "description": "matches on dumped, decrypted V/DEX files of Flubot version > 4.2",
+   "reference": null
+  },
+  {
+   "rule_name": "irata_b4a_string_ping",
+   "author": "Alberto Segura",
+   "description": "Detects IRATA Android Malware (B4A Variant)",
+   "reference": null
+  },
+  {
+   "rule_name": "irata_b4a_string_responses",
+   "author": "Alberto Segura",
+   "description": "Detects IRATA Android Malware (B4A Variant)",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/f042f4222e2117e309121b18da92c7402103e3b3af15cba7745e4b8f96e65d1b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.44"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/f042f4222e2117e309121b18da92c7402103e3b3af15cba7745e4b8f96e65d1b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/250407-c23r1syjz4/",
+   "tags": [
+    "android",
+    "discovery"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyAgent",
+   "status": "MALICIOUS",
+   "first_seen": "2024-03-29 18:38:25",
+   "scanner_count": "36",
+   "scanner_match": "11",
+   "scanner_percent": "30.56"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/67f339dfb070fb3f945f8fd7/reports//overview"
+  }
+ },
+ "comments": [
+  {
+   "id": "102152",
+   "date_added": "2025-04-07 02:50:54",
+   "twitter_handle": null,
+   "display_name": null,
+   "comment": "Originally discovered on March 2024"
+  }
+ ]
+}

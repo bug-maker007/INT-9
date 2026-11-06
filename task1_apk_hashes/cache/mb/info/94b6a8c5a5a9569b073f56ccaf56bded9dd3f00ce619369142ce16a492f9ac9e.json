@@ -1,0 +1,163 @@
+{
+ "sha256_hash": "94b6a8c5a5a9569b073f56ccaf56bded9dd3f00ce619369142ce16a492f9ac9e",
+ "sha3_384_hash": "ab42e3e59c12c3e133d78ccfb10acc30dd093f45ae4e5e2aee6edbe598767eaa69cb8366adae46e8139231be7c65d92d",
+ "sha1_hash": "cf884fc59242b046723b8cc966bf716d80392b9c",
+ "md5_hash": "c7a796090f861078921ece931e014368",
+ "first_seen": "2026-02-19 13:33:07",
+ "last_seen": null,
+ "file_name": "94b6a8c5a5a9569b073f56ccaf56bded9dd3f00ce619369142ce16a492f9ac9e.apk",
+ "file_size": 7573236,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T191762343FBC84839FCF783358B7A562661164C97C3539287A854763D68B7AC08BC6BD8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:rHpyqusSefCylu4Jx0HloVDy564BrSXaqRz:rJyqhfflXwaDy56GSX/",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SpyMax.582.16602.12556.UNOFFICIAL",
+   "SecuriteInfo.com.Android.SpyMax.582.7507.28830.UNOFFICIAL"
+  ],
+  "downloads": "201",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "dependsonpythonailib",
+   "author": "Tim Brown",
+   "description": "Hunts for dependencies on Python AI libraries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Warp",
+   "author": "Seth Hardy",
+   "description": "Warp",
+   "reference": null
+  },
+  {
+   "rule_name": "WarpStrings",
+   "author": "Seth Hardy",
+   "description": "Warp Identifying Strings",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/94b6a8c5a5a9569b073f56ccaf56bded9dd3f00ce619369142ce16a492f9ac9e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/94b6a8c5a5a9569b073f56ccaf56bded9dd3f00ce619369142ce16a492f9ac9e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260219-qtlqeshx5d/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-02-18 21:53:56",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6997111c97feb4afd64c64e0/reports/f9ef8717-1554-43f2-8b9b-7e680d943ed0/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/94b6a8c5a5a9569b073f56ccaf56bded9dd3f00ce619369142ce16a492f9ac9e/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

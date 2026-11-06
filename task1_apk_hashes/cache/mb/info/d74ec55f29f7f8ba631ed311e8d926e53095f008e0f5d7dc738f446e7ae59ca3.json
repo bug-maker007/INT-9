@@ -1,0 +1,141 @@
+{
+ "sha256_hash": "d74ec55f29f7f8ba631ed311e8d926e53095f008e0f5d7dc738f446e7ae59ca3",
+ "sha3_384_hash": "d0de58001de90e94ad9f492a505e6cb25a8eb78d77ad70841bbe63f6475326fc6b3e31347ed3b673146eb82055401644",
+ "sha1_hash": "e10413333efc173369a8a6545416e5456a426e87",
+ "md5_hash": "45ff8ceae357e32ec2dd175b9537844f",
+ "first_seen": "2025-05-27 08:56:16",
+ "last_seen": null,
+ "file_name": "Azure Club.apk",
+ "file_size": 4689175,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "rev0x1337",
+ "origin_country": "RU",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T16426F103FB48DB87E4BD93F26F230DAA2A171F05CA025AD34555766E2E771C11EC6A8C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:klBzBrT2mzqU0tTu4s+j30Z00DeRuDRKSQV/rS:KBzmTu450SMRKhVzS",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "48.2% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "37.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "14.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SpyNote"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SpyMax.37.origin.2476.16056.UNOFFICIAL"
+  ],
+  "downloads": "10309",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d74ec55f29f7f8ba631ed311e8d926e53095f008e0f5d7dc738f446e7ae59ca3/"
+  },
+  "YOROI_YOMI": {
+   "detection": "SpyNote",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/d74ec55f29f7f8ba631ed311e8d926e53095f008e0f5d7dc738f446e7ae59ca3",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250527-kzjv5a1yc1/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "execution",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-05-27 04:19:00",
+   "scanner_count": "38",
+   "scanner_match": "11",
+   "scanner_percent": "28.95"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68357fa0e336a33801debc6b/reports/0fada2cd-23df-499b-8ea9-4a89654dd52d/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,155 @@
+{
+ "sha256_hash": "cd051057732036e1d73355304b9563e738a7799402967bf5441f791ddb891085",
+ "sha3_384_hash": "00ab3fd1d7f06d42866d882edac07686ce2fb001f1d7ec2c4175939c4cf85ce2c01d34fe444aa6dd0c9babb073823d33",
+ "sha1_hash": "36b2ae2b1134b85aac94435b1154ee6755634c30",
+ "md5_hash": "12d45436117cb7fabc6e1a74085a7933",
+ "first_seen": "2025-10-05 17:28:37",
+ "last_seen": null,
+ "file_name": "HDFC-KYC.apk",
+ "file_size": 4551432,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T19C26EF86B758592FCC7714321DAA523126974DC68E839B837844372C6DBB6E80F9DBCC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:ad0GU2K1kTVGTgtr+L4+nyQVMPra1iuC6+n7EsrfPxr:spU2eWVG+rClnytPmG6+jxr",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "HDFC Bank",
+  "infostealer",
+  "KYC",
+  "signed",
+  "spyware",
+  "Trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-09-23T11:57:06Z",
+   "valid_to": "3015-01-25T11:57:06Z",
+   "serial_number": "333a0b9b",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "022a1ed9feb0e6c9826df99c58350b7789a71ad51f142f40449f91d58c0278c1",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "308",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_AllMal_Detector",
+   "author": "DiegoAnalytics",
+   "description": "CrossPlatform All Malwares Detector: Detect PE, ELF, Mach-O, scripts, archives; overlay, obfuscation, encryption, spoofing, hiding, high entropy, network communication",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/cd051057732036e1d73355304b9563e738a7799402967bf5441f791ddb891085/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.54"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/cd051057732036e1d73355304b9563e738a7799402967bf5441f791ddb891085",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/251005-v2thfsxsgy/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Icici",
+   "status": "MALICIOUS",
+   "first_seen": "2024-11-12 06:39:32",
+   "scanner_count": "35",
+   "scanner_match": "9",
+   "scanner_percent": "25.71"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68e2aaee5a3bccf09eb8a353/reports/2fce1c10-e145-419d-9224-134473271feb/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2024-11-13T07:26:00Z",
+   "last_seen": "2025-10-05T19:31:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/cd051057732036e1d73355304b9563e738a7799402967bf5441f791ddb891085/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

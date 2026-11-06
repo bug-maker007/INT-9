@@ -1,0 +1,197 @@
+{
+ "sha256_hash": "9973133dcdaeea5a7d519359ba2272db5de9e9bb5759d169e0454632c3d91401",
+ "sha3_384_hash": "284a6d61e38201c3040e0e004958ef9b615ff44f32b779174cd57918b7d74ce662bfad059c1bd275519f790168fac1c1",
+ "sha1_hash": "b49dc371e7651ef34fe2b06e52408c522f617c89",
+ "md5_hash": "3b07862da0b78632d8e4486444adbbfd",
+ "first_seen": "2025-01-13 17:45:23",
+ "last_seen": null,
+ "file_name": "9973133dcdaeea5a7d519359ba2272db5de9e9bb5759d169e0454632c3d91401.apk",
+ "file_size": 755969,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Alonso168957071",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T152F423D141F52837F2F23BF063A6DC51A82FBAC6873BB8A02011354D7D587055A99FEA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:Cg47vc0jQXDXhAFrfGMkyxMtjDAcMjW8YMfKNtKV4nVB1Bg5y86McvyajA4/oKS5:O7k0jkm5GMfWtjscMjW8/KNtKSX1nxXo",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "abda",
+   "issuer_cn": "abda",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2016-10-24T09:17:54Z",
+   "valid_to": "2126-05-01T09:17:54Z",
+   "serial_number": "580dd1c2",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "f5d20d5792e6dbe2860090abe60bb6d6a76105c4395432be41be3a945721930d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Andr.SpyAgent-F.23287.13010.UNOFFICIAL",
+   "SecuriteInfo.com.Android.Backdoor.200.origin.32547.31210.UNOFFICIAL"
+  ],
+  "downloads": "564",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "elf_arm_mips_ko_so",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseapps2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise apps",
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseunix2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise UNIX",
+   "reference": null
+  },
+  {
+   "rule_name": "F01_s1ckrule",
+   "author": "s1ckb017",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "ldpreload",
+   "author": "xorseed",
+   "description": null,
+   "reference": "https://stuff.rop.io/"
+  },
+  {
+   "rule_name": "linux_generic_ipv6_catcher",
+   "author": "@_lubiedo",
+   "description": "ELF samples using IPv6 addresses",
+   "reference": null
+  },
+  {
+   "rule_name": "MD5_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for MD5 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "setsockopt",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for setsockopt() red flags",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/9973133dcdaeea5a7d519359ba2272db5de9e9bb5759d169e0454632c3d91401/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.14"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/9973133dcdaeea5a7d519359ba2272db5de9e9bb5759d169e0454632c3d91401",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/250113-wb9x7a1nez/",
+   "tags": [
+    "android",
+    "discovery"
+   ],
+   "signatures": [
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about the current Wi-Fi connection",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Backdoor.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2016-12-16 15:53:00",
+   "scanner_count": "38",
+   "scanner_match": "16",
+   "scanner_percent": "42.11"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6785515a29aa5532fbe36b50/reports/2f7489b1-ccc5-4caa-b96b-1dbd37d5ba16/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,156 @@
+{
+ "sha256_hash": "e336fdc9fb561d17dc9b7864b4c7ac2af7995e86906118e4934f32b922140ce4",
+ "sha3_384_hash": "c9d48de98a8e8b22940a777ac81335cb1fbc13d711c453a976b9d7c381a07eed3bf1940c527988f9040bee13546b9885",
+ "sha1_hash": "77c8229f2d1715cb7c0b43c9aa27e67d83ca43fe",
+ "md5_hash": "6838e0fd81c8fbf5687e33b3afe51e29",
+ "first_seen": "2026-10-01 13:11:38",
+ "last_seen": null,
+ "file_name": "e336fdc9fb561d17dc9b7864b4c7ac2af7995e86906118e4934f32b922140ce4.bin",
+ "file_size": 3725833,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Tuxxin",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1E306BE4AF7489B6AC0F3533A4C355A62411B9CE68F83E6837D54773C58BB9C11E1AACC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:Tjwm2qTv9ls7YqMGJFAxUf7Ei+Tc1ij3Xden:/wmp7qYqMGALiJh",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "zip"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2026-09-30T16:44:02Z",
+   "valid_to": "2054-02-15T16:44:02Z",
+   "serial_number": "208649d19bed52e7",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "23e0cb29654ec2004fe95d2a3597fedd1fd8a6f1fc1ac522c0517f5ea11c412c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "177",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "ANDROID_Sample_Unique_5be608a5",
+   "author": "Marjoriefort",
+   "description": "Specimen unique (soumission Bazaar) - strings distinctifs propres au sample",
+   "reference": "5be608a563a02c94dbf3b1812b3aa0685a6f8228b5dc74c773cc3c912adef7ba.apk"
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e336fdc9fb561d17dc9b7864b4c7ac2af7995e86906118e4934f32b922140ce4/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/261001-qt7yna1zfw/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.NGate",
+   "status": "MALICIOUS",
+   "first_seen": "2026-10-01 13:34:22",
+   "scanner_count": "38",
+   "scanner_match": "10",
+   "scanner_percent": "26.32"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/6abe61606577ebc7cd081f02/reports//overview"
+  },
+  "Kaspersky": {
+   "verdict": "NotCategorized",
+   "file_type": "apk",
+   "first_seen": "2026-10-01T18:36:00Z",
+   "last_seen": "2026-10-01T18:44:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/e336fdc9fb561d17dc9b7864b4c7ac2af7995e86906118e4934f32b922140ce4/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

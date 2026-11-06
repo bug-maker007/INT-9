@@ -1,0 +1,121 @@
+{
+ "sha256_hash": "20116083565a50f6b2db59011e9994e9a9f5db5994703d53233b8b202a5ad2f3",
+ "sha3_384_hash": "40495bc660e38abea325e8bdb70c7a385b7c613e62fc1acfc3cff3c3eb6da3ff29eb65dac12e6c05aa13dab4a9b09b80",
+ "sha1_hash": "e07c99492f803c23fafa3cb27dc49bf2183c67f3",
+ "md5_hash": "8a4c5cac12adc46ea3fc7dfb4c818642",
+ "first_seen": "2024-01-22 15:06:29",
+ "last_seen": null,
+ "file_name": "Chrome.apk",
+ "file_size": 5061037,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "g0njxa",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "GodFather",
+ "imphash": null,
+ "tlsh": "T14136F046F744A97BC4F343324275926A21BBCC268B83D2971D5D323C58BB6D84F5AEC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:9rr9leGyg2u+TxqR0+lBVtvHeL3BkH8dCq1Q8riv0Ua7zfroZHR6RHwvGHEf:9rr9lkg/iGTLHeLRkBq1Xr0ap5wvGO",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "43.9% (.APK) Android Package (32500/1/6)",
+  "18.2% (.JAR) Java Archive (13500/1/2)",
+  "16.8% (.VYM) VYM Mind Map (12500/1/3)",
+  "14.1% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Godfather",
+  "PrivateloaderAPK",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "md5WithRSAEncryption",
+   "valid_from": "2008-04-15T22:40:50Z",
+   "valid_to": "2035-09-01T22:40:50Z",
+   "serial_number": "b3998086d056cffa",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.GodFather.9.origin.12138.13467.UNOFFICIAL"
+  ],
+  "downloads": "499",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "godfather",
+   "link": "https://mwdb.cert.pl/sample/20116083565a50f6b2db59011e9994e9a9f5db5994703d53233b8b202a5ad2f3/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/20116083565a50f6b2db59011e9994e9a9f5db5994703d53233b8b202a5ad2f3",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/240122-shaj5ahdhm/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-01-10 14:05:30",
+   "scanner_count": "23",
+   "scanner_match": "5",
+   "scanner_percent": "21.74"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65ae849647de2264dd5fee18/reports/1565dbb9-b3b9-4890-8435-0a09eaad3074/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,99 @@
+{
+ "sha256_hash": "b2a9b559af64f0261647281f32400a7b181ba66fc0e7a0c17f937dc9a204336a",
+ "sha3_384_hash": "497fb2b6d5969a3b839b9bc8fbc5fe031e9c1728d862fbcd4ec641487c782e2aa7402a2e44d133109433abfbcfe7c2c2",
+ "sha1_hash": "dd3196f6c015f85b76c7e4e28f4611c5649bd313",
+ "md5_hash": "2882ad87e8c3a6d21d6496c58749f8dd",
+ "first_seen": "2025-08-15 17:17:43",
+ "last_seen": null,
+ "file_name": "b2a9b559af64f0261647281f32400a7b181ba66fc0e7a0c17f937dc9a204336a",
+ "file_size": 7772155,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "AntiSkidding",
+ "origin_country": "FR",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T17B76F147FB485D2FC87B11B659AE423162674C068B83CB431D087A6CBC776E46F99BC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:g/O/VTnfvFFR9gxgDfA/nwJFG3q8YJdDkeqZW3DovmpPbMhheo/KrhS:5VT1FRyiunj7YZovgo",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "36.2% (.APK) Android Package (27000/1/5)",
+  "18.1% (.JAR) Java Archive (13500/1/2)",
+  "16.7% (.VYM) VYM Mind Map (12500/1/3)",
+  "14.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.3% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "dropper",
+  "signed",
+  "spynote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Unknown",
+   "issuer_cn": "Unknown",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2025-08-15T08:11:49Z",
+   "valid_to": "2052-12-31T08:11:49Z",
+   "serial_number": "a4407da8c3e2501f",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "df917ba19a7f7ee755f086eb985e514aed74c35f269770cf7dedc647985f2b74",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "245",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "botnet_plaintext_c2",
+   "author": "cip",
+   "description": "Attempts to match at least some of the strings used in some botnet variants which use plaintext communication protocols.",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/b2a9b559af64f0261647281f32400a7b181ba66fc0e7a0c17f937dc9a204336a",
+   "details": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2025-08-15 17:26:20",
+   "scanner_count": "37",
+   "scanner_match": "11",
+   "scanner_percent": "29.73"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ]
+ },
+ "comments": null
+}

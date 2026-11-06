@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "27b8eeb5d1b46e1afa170b998830fe0958f08a2a9dfe7130df607c86ad42fb33",
+ "sha3_384_hash": "03fd369df5d2c7129acbae9b042efc8ba4a61d8d2a69c03ea2ac6f8a6dcb7a45c4ddfbff75b9b23c0831e7827af64bb9",
+ "sha1_hash": "a167f044dead6edd96343a749a8dd513d828bfb3",
+ "md5_hash": "58bff3237a289a244078f7eb50d74fb9",
+ "first_seen": "2026-03-15 07:13:55",
+ "last_seen": null,
+ "file_name": "mParivhaan 2.apk",
+ "file_size": 5448803,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T18A46F191BBED64D7DC72A1BC6A14D9683A528D349FC09303E5E43B1C9633B484D8CBDA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:aE/FEciD0KF7vabcd1R9qmObJlB27sSX9Bd1vTI54V:aE/FEcTYaod1XqTJlB27sSXzd1Oa",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "65.0% (.APK) Android Package (27000/1/5)",
+  "25.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "GOI",
+  "Malware",
+  "mParivahan",
+  "Riskware",
+  "SpyNote",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "351",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/27b8eeb5d1b46e1afa170b998830fe0958f08a2a9dfe7130df607c86ad42fb33/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/27b8eeb5d1b46e1afa170b998830fe0958f08a2a9dfe7130df607c86ad42fb33",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260315-h2rbwaew91/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Autopay",
+   "status": "MALICIOUS",
+   "first_seen": "2026-02-12 17:09:00",
+   "scanner_count": "36",
+   "scanner_match": "10",
+   "scanner_percent": "27.78"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69b65c462000fc76c3dea866/reports/eecb3525-4981-400b-9be8-b1a5ca7f6184/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-02-12T20:01:00Z",
+   "last_seen": "2026-02-12T20:15:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/27b8eeb5d1b46e1afa170b998830fe0958f08a2a9dfe7130df607c86ad42fb33/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

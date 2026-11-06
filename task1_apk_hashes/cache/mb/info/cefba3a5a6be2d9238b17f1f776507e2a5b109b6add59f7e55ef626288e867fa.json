@@ -1,0 +1,152 @@
+{
+ "sha256_hash": "cefba3a5a6be2d9238b17f1f776507e2a5b109b6add59f7e55ef626288e867fa",
+ "sha3_384_hash": "2680951e57af315146d66ed9285408a3e7433c1cf058bdbca503541656021ab7292a9a01f6af6e313a48241524d9387a",
+ "sha1_hash": "c6bc827d698785c1b9d816fbaaa83eadf30da4ae",
+ "md5_hash": "30751570c38db542435ca911744fa15b",
+ "first_seen": "2025-09-14 09:26:41",
+ "last_seen": null,
+ "file_name": "cefba3a5a6be2d9238b17f1f776507e2a5b109b6add59f7e55ef626288e867fa.apk",
+ "file_size": 11225366,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ReBensk",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T184B6029AFF1CF86BD87E0572CA6AD12332679E054A425737350CB2086A334D96F85FC6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:aNJy7ZEk2zmPJgkAdnmOWNrIGWdIqv1KqU1DrIk0i7/7NonWkTQ:aNkn2KPJgTnAhOxnGIk0i7anWT",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "50.0% (.APK) Android Package (27000/1/5)",
+  "23.1% (.VYM) VYM Mind Map (12500/1/3)",
+  "19.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Joker"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "no reply from clamd"
+  ],
+  "downloads": "160",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "botnet_plaintext_c2",
+   "author": "cip",
+   "description": "Attempts to match at least some of the strings used in some botnet variants which use plaintext communication protocols.",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_AllMal_Detector",
+   "author": "DiegoAnalytics",
+   "description": "CrossPlatform All Malwares Detector: Detect PE, ELF, Mach-O, scripts, archives; overlay, obfuscation, encryption, spoofing, hiding, high entropy, network communication",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/cefba3a5a6be2d9238b17f1f776507e2a5b109b6add59f7e55ef626288e867fa/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/cefba3a5a6be2d9238b17f1f776507e2a5b109b6add59f7e55ef626288e867fa",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/250914-lflfaafn3t/",
+   "tags": [
+    "android",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-09-13 16:13:40",
+   "scanner_count": "24",
+   "scanner_match": "3",
+   "scanner_percent": "12.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68c68ab50d1238ff0aaba578/reports/48190ae7-8045-43df-8bf2-586a0a1a2b84/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-09-13T17:55:00Z",
+   "last_seen": "2025-09-13T17:55:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/cefba3a5a6be2d9238b17f1f776507e2a5b109b6add59f7e55ef626288e867fa/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

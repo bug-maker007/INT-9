@@ -1,0 +1,206 @@
+{
+ "sha256_hash": "a52d2105d680d029f9cc5c9c77f639e47ae520e41ce7294bbad77b8f2931796a",
+ "sha3_384_hash": "a83e43e7dd4d21559a9e0c57c6edf4780c6f1e25704ea3cd22a6c929ec43c9bd8044bcf188895d76060b29b7f57c7a6d",
+ "sha1_hash": "213506113a6d73dcb8d632a85470688a682fb026",
+ "md5_hash": "bcdb634ff9ab3e08e47dcf1caf89abd2",
+ "first_seen": "2025-02-11 02:21:10",
+ "last_seen": null,
+ "file_name": "a52d2105d680d029f9cc5c9c77f639e47ae520e41ce7294bbad77b8f2931796a.apk",
+ "file_size": 2408259,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T172B533FBCEE929D0C2E98D33FBAC27E272E60516557B0123453758C84D88F5A6AE4437",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:fpZjJBuD3wv+ugforIlCNTbKOcsXtffdVpbhRW0zB:hRuDfunIImOcsxfdjW01",
+ "magika": "unknown",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "apk",
+  "Cerberus",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.3313.27461.24323.UNOFFICIAL"
+  ],
+  "downloads": "3007",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Suspicious_Latam_MSI_and_ZIP_Files",
+   "author": "eremit4, P4nd3m1cb0y",
+   "description": "Detects suspicious .msi and .zip files used in Latam banking trojan campaigns.",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a52d2105d680d029f9cc5c9c77f639e47ae520e41ce7294bbad77b8f2931796a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/a52d2105d680d029f9cc5c9c77f639e47ae520e41ce7294bbad77b8f2931796a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/250211-cs71davmdj/",
+   "tags": [
+    "family:alienbot",
+    "family:cerberus",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "infostealer",
+    "persistence",
+    "rat",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Alienbot family",
+     "score": "10"
+    },
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Cerberus family",
+     "score": "10"
+    },
+    {
+     "signature": "Cerberus payload",
+     "score": "10"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries account information for other applications stored on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://217.8.117.30"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Banbra",
+   "status": "MALICIOUS",
+   "first_seen": "2025-01-21 14:41:47",
+   "scanner_count": "38",
+   "scanner_match": "11",
+   "scanner_percent": "28.95"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ]
+ },
+ "comments": null
+}

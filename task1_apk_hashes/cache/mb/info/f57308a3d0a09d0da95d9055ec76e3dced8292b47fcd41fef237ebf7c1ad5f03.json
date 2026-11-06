@@ -1,0 +1,116 @@
+{
+ "sha256_hash": "f57308a3d0a09d0da95d9055ec76e3dced8292b47fcd41fef237ebf7c1ad5f03",
+ "sha3_384_hash": "a7391f50ec9b9cc5e3e5580320c1b96d7c5113ca55eb9982acd0dd29f54dcef9f6a13b4acec6d88a2087875f39a85b45",
+ "sha1_hash": "7e025e21d445be9b6b12a9181ada4bab3db5819c",
+ "md5_hash": "9f806ea426470da5ee1082a9fdc61371",
+ "first_seen": "2023-05-14 18:39:04",
+ "last_seen": null,
+ "file_name": "f57308a3d0a09d0da95d9055ec76e3dced8292b47fcd41fef237ebf7c1ad5f03.apk",
+ "file_size": 1244121,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JaffaCakes118",
+ "origin_country": "GB",
+ "anonymous": 0,
+ "signature": "Anubis",
+ "imphash": null,
+ "tlsh": "T10345C081F7C8EC2FCD77803A4BB64BBA11464D6AC546DA938561B23C49BB9C05F85FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:gDHNCpzZcoydWZolkSf4ekHmaRkiMJf4emfNGFnsgvYTohERacZJ:WGZZc3kSSfRjMJkU+gvYkhE0C",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "52.8% (.APK) Android Package (32500/1/6)",
+  "21.9% (.JAR) Java Archive (13500/1/2)",
+  "17.0% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "6.5% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.6% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Anubis",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2018-12-26T16:58:27Z",
+   "valid_to": "2048-12-26T16:58:27Z",
+   "serial_number": "5331bb647d74097f86f5d5d8697c0048781bc268",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "877921f0b01015578d1fcf6d7c3e57cc72e8fc8bdac7a16c131633e3ed8f29a3",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.DownLoader.855.origin.10335.5715.UNOFFICIAL"
+  ],
+  "downloads": "313",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/f57308a3d0a09d0da95d9055ec76e3dced8292b47fcd41fef237ebf7c1ad5f03/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.39"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/f57308a3d0a09d0da95d9055ec76e3dced8292b47fcd41fef237ebf7c1ad5f03",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/230514-xa3yxsdb49/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2019-01-18 19:06:46",
+   "scanner_count": "37",
+   "scanner_match": "13",
+   "scanner_percent": "35.14"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/64612b1b91c3774f72e3b95f/reports/9eca1620-f28d-4a4a-b103-cb1af5ded07f/overview"
+  }
+ },
+ "comments": null
+}

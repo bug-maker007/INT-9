@@ -1,0 +1,103 @@
+{
+ "sha256_hash": "afbe6751d339fbc5b7bddd29429a11740e82fef935a61acaf2fe5487444dbed4",
+ "sha3_384_hash": "1bf98ca9a74cde8bbdfd2bbcbbae5828c51a0a9520162bf4de495e41abbc205a88eb4ab598916fc42ca5e66734632ef6",
+ "sha1_hash": "faf180d3c26db7b724a6f6c307282417dbed16a6",
+ "md5_hash": "8559091709db25c061b856921f55e0eb",
+ "first_seen": "2026-01-28 21:02:39",
+ "last_seen": "2026-01-29 15:25:42",
+ "file_name": "afbe6751d339fbc5b7bddd29429a11740e82fef935a61acaf2fe5487444dbed4",
+ "file_size": 2703466,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T116C5CF89BB48662FC87B11370DEA923212578D478E8397437848376C79B76E80F59BCD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:BR7C830FOWZB7oeMzsO/moi477H0mgW2y3KfzCg2MQ5o6C7C4VSyYlyYs:BEe0F5B7oeosO/moi47j2y3KLCg2MQ5q",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "38-47-213-197",
+  "apk",
+  "banker",
+  "nfc",
+  "NFCShare",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Supportazzouz",
+   "issuer_cn": "Supportazzouz",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2026-01-23T05:30:32Z",
+   "valid_to": "2050-01-17T05:30:32Z",
+   "serial_number": "259c3656",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "f540cecce74c4ab47344912210bceb243b92a3cfe5f4ad9e6d4229944e5038b7",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "115",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/afbe6751d339fbc5b7bddd29429a11740e82fef935a61acaf2fe5487444dbed4",
+   "details": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Bank",
+   "status": "MALICIOUS",
+   "first_seen": "2026-01-28 20:42:30",
+   "scanner_count": "38",
+   "scanner_match": "5",
+   "scanner_percent": "13.16"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-01-28T14:13:00Z",
+   "last_seen": "2026-01-30T17:09:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/afbe6751d339fbc5b7bddd29429a11740e82fef935a61acaf2fe5487444dbed4/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

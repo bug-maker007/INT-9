@@ -1,0 +1,117 @@
+{
+ "sha256_hash": "8b5cfe53c6b30897bed06d794d73c0bb499620ca1e0128f18b1ae91a197d8548",
+ "sha3_384_hash": "9a9cdef5988591bb8a49b231b1b9571b8ba5be7ba311a36353b1d589a5835345b7490d036002b5ed73076513305136aa",
+ "sha1_hash": "22d7cdc828b9c6f7dbec5832f571e15c11e635be",
+ "md5_hash": "3e2d6fc730e50cc34b87d942a9424728",
+ "first_seen": "2025-07-01 12:04:00",
+ "last_seen": null,
+ "file_name": "VIDEO_27_03_2025.MP4.apk",
+ "file_size": 2574289,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "abubakr",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "Ajina",
+ "imphash": null,
+ "tlsh": "T1DFC5E086FF49A52FC8B644320BAA437536538D128E83A7477894372C6C776D84F5AFC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:jdWAgMnMCM9BbNJ/3fAdQta0DaSeN7tgZsr+q:5tgMnMCM9/dfAdQ80DatEsr+q",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Ajina",
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Tashkent syvoqubpirb",
+   "issuer_cn": "Tashkent syvoqubpirb",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2025-03-25T10:36:16Z",
+   "valid_to": "2027-03-25T10:36:16Z",
+   "serial_number": "1f92cc53c310e8ea",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e5371c59f3800597891ff92e97e80d42c53f12c8393746109c15bd6687b28d83",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "167",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8b5cfe53c6b30897bed06d794d73c0bb499620ca1e0128f18b1ae91a197d8548/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "ajina",
+   "score": "10",
+   "link": "https://tria.ge/reports/250701-n8q8cawkw7/",
+   "tags": [
+    "family:ajina",
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "ajina",
+     "c2": "185.147.124.206:8080"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-03-31 08:21:29",
+   "scanner_count": "35",
+   "scanner_match": "7",
+   "scanner_percent": "20.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6863cecf7423ff017c39605d/reports/d93f0ee5-67cb-4f74-bbf8-ca23c37336a1/overview"
+  }
+ },
+ "comments": null
+}

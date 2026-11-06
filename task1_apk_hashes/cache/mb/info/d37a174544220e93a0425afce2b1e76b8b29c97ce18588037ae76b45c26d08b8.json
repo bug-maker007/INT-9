@@ -1,0 +1,164 @@
+{
+ "sha256_hash": "d37a174544220e93a0425afce2b1e76b8b29c97ce18588037ae76b45c26d08b8",
+ "sha3_384_hash": "46750bf1b88d3fdb600500db9a6a0378767c98313545977eabe2d5603b980e3fc3bf4b3e956faabaebf000740e080f99",
+ "sha1_hash": "41e25c4c13458e192828b45bd764e3847dbef92a",
+ "md5_hash": "86eb8c78cf477ddc6638da4f4271bba7",
+ "first_seen": "2024-05-01 19:23:38",
+ "last_seen": null,
+ "file_name": "86eb8c78cf477ddc6638da4f4271bba7",
+ "file_size": 1144704,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "zbetcheckin",
+ "origin_country": "FR",
+ "anonymous": 0,
+ "signature": "Hook",
+ "imphash": null,
+ "tlsh": "T19335DF82FBEA6D2FCCB780360FAB463516529E57C643D74784A4762D683B2C44F49BC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:zD3rm/4IsL8HQfIjPjSv9AzC2M3jXdiV551DOup6U/Ujy1Zg/g56wQ0:nOS8HQfIn1zvM3ZiV/P/L1Zg/50",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.7% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "25.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "6.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hook",
+  "zip"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.Ermac.6.origin.18013.10344.UNOFFICIAL"
+  ],
+  "downloads": "371",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2834073/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d37a174544220e93a0425afce2b1e76b8b29c97ce18588037ae76b45c26d08b8/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "Triage": {
+   "malware_family": "hook",
+   "score": "10",
+   "link": "https://tria.ge/reports/240502-a7g2dseb93/",
+   "tags": [
+    "family:ermac",
+    "family:hook",
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hook",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "8"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about the current Wi-Fi connection",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "7"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ermak",
+   "status": "MALICIOUS",
+   "first_seen": "2024-05-01 19:24:13",
+   "scanner_count": "23",
+   "scanner_match": "10",
+   "scanner_percent": "43.48"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "0.875",
+   "report_link": "https://www.filescan.io/uploads/663296e60694596be92dd980/reports/1df97889-46a0-449a-9f54-1cb5ab835f33/overview"
+  }
+ },
+ "comments": [
+  {
+   "id": "92877",
+   "date_added": "2024-05-01 19:23:39",
+   "twitter_handle": "zbetcheckin",
+   "display_name": "zbet",
+   "comment": "url : hxxp://54.36.113.159:8082/getfile.php?download=YXBwLXJlbGVhc2UtNi5hcGs="
+  }
+ ]
+}

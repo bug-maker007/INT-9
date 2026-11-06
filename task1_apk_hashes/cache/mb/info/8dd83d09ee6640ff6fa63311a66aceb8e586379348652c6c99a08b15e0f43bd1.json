@@ -1,0 +1,163 @@
+{
+ "sha256_hash": "8dd83d09ee6640ff6fa63311a66aceb8e586379348652c6c99a08b15e0f43bd1",
+ "sha3_384_hash": "6cc64a251a060cb0675a2c9e5736de1dbbb7701dce6d0747a8b77624dc8629d1079b9a4eae1b3c5415ae5b706133f858",
+ "sha1_hash": "eaefbe6db13b6798e72f8448d64ed303dd8e17c1",
+ "md5_hash": "3a9a687825fc36cea69d8a6039c030c4",
+ "first_seen": "2025-09-30 06:10:43",
+ "last_seen": null,
+ "file_name": "SBI証券.apk",
+ "file_size": 6171218,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1495623D2E7E4892FC87744324DAB4330676A9E4686929707A758F23CAC732D44F5AFC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:NThIe9ZA+S2ohfjbjsWPUsdbAARsmifbIEyChvZXHDDY7OtbrcbudsvOmNywYeVA:NThFFoZ7Hb/Rs9fbIEdE8bgbWQOmNIz",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Malware",
+  "SBI Securities",
+  "signed",
+  "Spyware",
+  "Trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "vvvv",
+   "issuer_cn": "vvvv",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2021-06-18T15:56:01Z",
+   "valid_to": "2046-06-12T15:56:01Z",
+   "serial_number": "3e7e91e2",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a2146890906d91d5bae3a29500d41aa8a5feef2967206d0e7cf06d3ab967579b",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "278",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_AllMal_Detector",
+   "author": "DiegoAnalytics",
+   "description": "CrossPlatform All Malwares Detector: Detect PE, ELF, Mach-O, scripts, archives; overlay, obfuscation, encryption, spoofing, hiding, high entropy, network communication",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8dd83d09ee6640ff6fa63311a66aceb8e586379348652c6c99a08b15e0f43bd1/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.39"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/8dd83d09ee6640ff6fa63311a66aceb8e586379348652c6c99a08b15e0f43bd1",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/250930-gxwv5avkx3/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation)",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Siggen",
+   "status": "MALICIOUS",
+   "first_seen": "2025-09-30 06:11:35",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68db749b74e5a28989999480/reports/56d02b04-8b1a-4122-bd18-9adb7e5f4291/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-09-30T04:31:00Z",
+   "last_seen": "2025-09-30T04:31:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/8dd83d09ee6640ff6fa63311a66aceb8e586379348652c6c99a08b15e0f43bd1/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

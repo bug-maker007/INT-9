@@ -1,0 +1,139 @@
+{
+ "sha256_hash": "fc341a1770ea2e616a604f1c301dde223b19409da8f9584fe3fc94ecf59c86e0",
+ "sha3_384_hash": "3a7ebffd9c4ea678222649f1efd8eb05d78704e7e72a5c5eda5cfe656230bd4010b43b4c3257f4252d395a8b861f9419",
+ "sha1_hash": "b57d28648bb048ec133356d1065a6bfce9f41ea1",
+ "md5_hash": "35b2d781134a7bf705a357ec3b314910",
+ "first_seen": "2026-09-05 11:26:22",
+ "last_seen": null,
+ "file_name": "Invitation card.apk",
+ "file_size": 6100369,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Xenofic",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1DE563348ADA1F323C086C3F9D5279053FA33C66BA0410DD69B7A23F93BAE5D185172D9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:gi41xfhbb4z96P6KdGvtvvlhrLA6ldV/QkNABCmrm/VDwsyBptO8:gR1xfAUuhrnlH/QkiQ//V6Hk8",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "Dropper APK disguised as wedding invitation. Package: com.batch.helper, Label: Wedding-Ceremoney. Contains encrypted payload at assets/main_bg.png which decrypts to com.batch.android.runtime RAT. Targets Indian banking apps (Paytm, PhonePe, GPay, BHIM) and UPI payments. C2: api.agenticera.club",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "BankingTrojan",
+  "India",
+  "RAT",
+  "signed",
+  "Wedding-Ceremony"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "UrbanCraft Apps",
+   "issuer_cn": "UrbanCraft Apps",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2026-09-04T13:11:55Z",
+   "valid_to": "2055-03-17T13:11:55Z",
+   "serial_number": "b1def268d2cca9ca",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "7285d838ab5ab387388a6ebaae202d34f82eb85d620b76ba69a1eb7266b662fe",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "285",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://api.agenticera.club"
+  },
+  {
+   "context": "dropping_sha256",
+   "value": "01227a8b5dca01ecac7177051e6d2a3cf5e12ce7ca9cbb06040d8bcb9cfcc6a2"
+  },
+  {
+   "context": "dropping_md5",
+   "value": "3c53caa2fd562d12dcf22bd5b396a2ed"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/fc341a1770ea2e616a604f1c301dde223b19409da8f9584fe3fc94ecf59c86e0/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260905-nkkewsbl8x/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-09-05 11:27:25",
+   "scanner_count": "38",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a9bfc94ac16cf6bf4031b39/reports/a29f709a-e3c7-49c1-863b-92c5ee870b02/overview"
+  },
+  "Kaspersky": {
+   "verdict": "NoThreats",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/fc341a1770ea2e616a604f1c301dde223b19409da8f9584fe3fc94ecf59c86e0/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

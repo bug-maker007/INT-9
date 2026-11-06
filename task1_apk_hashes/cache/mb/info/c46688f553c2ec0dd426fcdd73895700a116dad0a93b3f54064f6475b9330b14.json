@@ -1,0 +1,127 @@
+{
+ "sha256_hash": "c46688f553c2ec0dd426fcdd73895700a116dad0a93b3f54064f6475b9330b14",
+ "sha3_384_hash": "e26d6491cb013d8786f9c7634216a9ab8f6c3d9a54515b0ca9851e93a246459b7e28456a8e58bd8c5fc858e298f5c7b5",
+ "sha1_hash": "eaf0156f784132e64d778e58263b7986bd520c32",
+ "md5_hash": "8fe07d87ac4e73fc8403297682563812",
+ "first_seen": "2026-05-08 09:55:22",
+ "last_seen": null,
+ "file_name": "_play-2_Net@flix_Plus_Unlocked__2.3.8.apk",
+ "file_size": 39317665,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1C48723A6F389EF6BC1F78B3246796256655A4C25C783D783090172382AF3BD0C949FC9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "786432:mUVNkhTZOOOah2qMOq+FxiTpTzPMDDAjp80BSQpLkndkyfM:9NKOOOah2ZUxCuDDC80o/ndkyfM",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "33.1% (.APK) Android Package (27000/1/5)",
+  "17.1% (.GDTB) gretl Binary Data (14000/1/2)",
+  "16.5% (.JAR) Java Archive (13500/1/2)",
+  "15.3% (.VYM) VYM Mind Map (12500/1/3)",
+  "12.8% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "malware",
+  "Netflix",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "file",
+   "issuer_cn": "file",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2022-09-02T08:18:57Z",
+   "valid_to": "2122-08-09T08:18:57Z",
+   "serial_number": "215a714a",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c926a5dc999fed2e9023775223d96e4eb39395772581cd1de5ec637a33da3608",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "310",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.69"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c46688f553c2ec0dd426fcdd73895700a116dad0a93b3f54064f6475b9330b14",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-lztwrsfw3z/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-02-12 23:14:01",
+   "scanner_count": "24",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fdb34a7d31ad7bba4f57d2/reports/1c0fa107-4c62-4ece-b35d-e181fe0f683c/overview"
+  },
+  "Kaspersky": {
+   "verdict": "NotCategorized",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/c46688f553c2ec0dd426fcdd73895700a116dad0a93b3f54064f6475b9330b14/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

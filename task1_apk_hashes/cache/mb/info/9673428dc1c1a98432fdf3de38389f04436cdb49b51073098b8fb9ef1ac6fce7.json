@@ -1,0 +1,130 @@
+{
+ "sha256_hash": "9673428dc1c1a98432fdf3de38389f04436cdb49b51073098b8fb9ef1ac6fce7",
+ "sha3_384_hash": "516578018a4b0aa3b9f9c331fcf098637bf0c2d4240a32a34dab2a678ba14b217cc96421c4692d348cb8793c5bb1f1dd",
+ "sha1_hash": "66e8f5862c8556ddc1c6ec41a433b536c1955618",
+ "md5_hash": "c1cb0afe2c087bb815a7dc507df40def",
+ "first_seen": "2026-05-06 09:36:45",
+ "last_seen": null,
+ "file_name": "app (10).apk",
+ "file_size": 21296972,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T12C272393D7448C4EC0B3C23146AA077F563E8C27552BA3A7268A7528EF7A1F50F6578C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:vescWN0pK5VR+I+dg+lieCaEnT0LP1XIBYlFPTyVn16RX:mNP0ZA2WJMY7Ph",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "malware",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "33ae6df8",
+   "issuer_cn": "33ae6df8",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2025-11-25T15:53:29Z",
+   "valid_to": "2125-11-01T15:53:29Z",
+   "serial_number": "50f2f597",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "d539a05d629253fdac25e0d7f23ae4e5054943498369f0dc6404f120f1ebe734",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "150",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "MoleBoxv20",
+   "author": "malware-lu",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_CMD_Powershell_Usage",
+   "author": "XiAnzheng",
+   "description": "May Contain(Obfuscated or no) Powershell or CMD Command that can be abused by threat actor(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/9673428dc1c1a98432fdf3de38389f04436cdb49b51073098b8fb9ef1ac6fce7",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260506-llrjgsat5n/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2025-11-26 23:25:55",
+   "scanner_count": "24",
+   "scanner_match": "11",
+   "scanner_percent": "45.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fb0bdd792fe2d217ac82e6/reports/e013bf8f-f710-4e18-9f5e-98095561d833/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-11-26T18:29:00Z",
+   "last_seen": "2026-05-08T00:00:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/9673428dc1c1a98432fdf3de38389f04436cdb49b51073098b8fb9ef1ac6fce7/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

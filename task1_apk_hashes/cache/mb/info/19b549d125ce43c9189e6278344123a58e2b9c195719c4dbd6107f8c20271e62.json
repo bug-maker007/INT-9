@@ -1,0 +1,129 @@
+{
+ "sha256_hash": "19b549d125ce43c9189e6278344123a58e2b9c195719c4dbd6107f8c20271e62",
+ "sha3_384_hash": "728698d01104034ac2e43b3d32bc7bfe9ee1af478a944e550ff5d39cdb0cc9940520ce2895666ec0fa4ec5485c6a2bcf",
+ "sha1_hash": "b1961101fa60e8cc6da1107c06c89b214d11d3ee",
+ "md5_hash": "3f4e36b82b3a30d2a9f8029e190a4cf8",
+ "first_seen": "2026-02-23 13:29:50",
+ "last_seen": null,
+ "file_name": "CaixaBank Pagos.apk",
+ "file_size": 2744694,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T134C5BE9AFB49966AC4F752360D354A6251078CA68F8BE7837814773C58BB9C00F4AFCD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:GPsx2DMulrNsOLmbpxa4aLILsJb5SEVwILM7gm2y3H2S5ro6CYm:dgAufsCmbaVskb5VweO2y3H2SpoZYm",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "91-92-136-110",
+  "apk",
+  "banker",
+  "nfc",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "G5gDy1Xnom",
+   "issuer_cn": "G5gDy1Xnom",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2026-01-29T15:45:53Z",
+   "valid_to": "2053-06-16T15:45:53Z",
+   "serial_number": "1e749a4a",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "281420fcd3b2b2543998e1187a10f26822173248f13f61a749ba16644d041ca4",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.NGate.45.origin.17941.2802.UNOFFICIAL",
+   "SecuriteInfo.com.Android.Banker.NGate.45.origin.452.5332.UNOFFICIAL"
+  ],
+  "downloads": "182",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/19b549d125ce43c9189e6278344123a58e2b9c195719c4dbd6107f8c20271e62/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/19b549d125ce43c9189e6278344123a58e2b9c195719c4dbd6107f8c20271e62",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260223-qr1fssdz4e/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Etset",
+   "status": "MALICIOUS",
+   "first_seen": "2026-02-22 00:45:38",
+   "scanner_count": "37",
+   "scanner_match": "13",
+   "scanner_percent": "35.14"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/699c567097feb4afd653cd4d/reports/db9d9fd9-ecff-419e-862b-720a2363e685/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/19b549d125ce43c9189e6278344123a58e2b9c195719c4dbd6107f8c20271e62/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

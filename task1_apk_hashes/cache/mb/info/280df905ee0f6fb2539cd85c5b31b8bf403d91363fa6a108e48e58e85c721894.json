@@ -1,0 +1,116 @@
+{
+ "sha256_hash": "280df905ee0f6fb2539cd85c5b31b8bf403d91363fa6a108e48e58e85c721894",
+ "sha3_384_hash": "edb4bc75b4c804e9f5d223d8a1e5863c6503601cd7c3eb0048ea21b6990a771703ca3f6423f3019e8cd3d264c3f8c1ef",
+ "sha1_hash": "fd4834ce7d90de1c7b478e3fd8a49314af2fa71f",
+ "md5_hash": "d2d37dae312f062d49a448198dec706e",
+ "first_seen": "2026-05-06 09:42:04",
+ "last_seen": null,
+ "file_name": "dmart (7).apk",
+ "file_size": 2110520,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1F7A512226285D453C4FBF9F0CAD68B7791A663DF9952A217EE240BA03E33BD0D723550",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:Wj3IBw0iJh6y88/xs5c1rq/qoz0ViBxrfP6llC9IH0iafP:WjIlM6y88/+Ur6JrrfP6rHrk",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Dmart",
+  "malware",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "DMart Smart ",
+   "issuer_cn": "DMart Smart ",
+   "algorithm": "sha384WithRSAEncryption",
+   "valid_from": "2025-02-14T20:38:00Z",
+   "valid_to": "4070-10-06T20:38:00Z",
+   "serial_number": "19c0964e",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "8258f3d2e0b3dd3d61d69e3dcecd728ac552824618afd3bdfb5a17965d605fd0",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "156",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/280df905ee0f6fb2539cd85c5b31b8bf403d91363fa6a108e48e58e85c721894/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/280df905ee0f6fb2539cd85c5b31b8bf403d91363fa6a108e48e58e85c721894",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260506-lpjcaaex3w/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-03-11 16:14:42",
+   "scanner_count": "24",
+   "scanner_match": "2",
+   "scanner_percent": "8.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fb0cff2fcb905ec2827131/reports/c7665e99-9217-43bf-819b-8642fc447cf3/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-06T06:57:00Z",
+   "last_seen": "2026-05-08T00:00:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/280df905ee0f6fb2539cd85c5b31b8bf403d91363fa6a108e48e58e85c721894/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

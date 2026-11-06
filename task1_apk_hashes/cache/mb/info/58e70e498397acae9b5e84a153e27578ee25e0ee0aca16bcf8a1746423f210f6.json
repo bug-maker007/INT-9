@@ -1,0 +1,146 @@
+{
+ "sha256_hash": "58e70e498397acae9b5e84a153e27578ee25e0ee0aca16bcf8a1746423f210f6",
+ "sha3_384_hash": "b801ddc09c5775ba597192ae78577a82d203efb4b874dec0e4a542cee0b26be316981339d4b67a1d9f9e69e0cea5d5e3",
+ "sha1_hash": "4a56b4968f2559459d98ab35a01a6b7b946d6ab8",
+ "md5_hash": "ad6ede2e93230802568b59b5bab52bd8",
+ "first_seen": "2025-01-13 18:42:55",
+ "last_seen": null,
+ "file_name": "58e70e498397acae9b5e84a153e27578ee25e0ee0aca16bcf8a1746423f210f6.apk",
+ "file_size": 1743056,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Alonso168957071",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T123850191E309A827CD77C93A41BA0B7606888C55999BE7170895F37C9DFFAC04E94FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:HtF3HaDzA7kLXGXVZcyC47VzYC1Sq2Fi5wc1+DcDvjQprNBJgIdgNrd:NYzmkDGFZnYCwqeuN+D67UrvWIdgN5",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-04-02T10:50:40Z",
+   "valid_to": "2046-03-26T10:50:40Z",
+   "serial_number": "59cb4eb3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fba48e348504ef7c43771ec50f0ae761f4b531a46d3d3b699a51652506d16b30",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.327.origin.30489.10936.UNOFFICIAL"
+  ],
+  "downloads": "475",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/58e70e498397acae9b5e84a153e27578ee25e0ee0aca16bcf8a1746423f210f6/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/58e70e498397acae9b5e84a153e27578ee25e0ee0aca16bcf8a1746423f210f6",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/250113-xcwmmavqaj/",
+   "tags": [
+    "android",
+    "collection",
+    "discovery",
+    "evasion",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Queries account information for other applications stored on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Reads the contacts stored on the device.",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2016-11-21 03:38:00",
+   "scanner_count": "38",
+   "scanner_match": "19",
+   "scanner_percent": "50.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67855ef3db0a7f3fe4ef1b72/reports/f2751e8c-6186-4c73-afe3-e53b0221f836/overview"
+  }
+ },
+ "comments": null
+}

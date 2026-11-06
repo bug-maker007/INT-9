@@ -1,0 +1,150 @@
+{
+ "sha256_hash": "138551cd967622832f8a816ea1697a5d08ee66c379d32d8a6bd7fca9fdeaecc4",
+ "sha3_384_hash": "2c42a4bf16b2b14912549d1261a0428b99c2ef52f2858d1f8c9836347f7031ff0319d5e47e472b5ca0d684bca16d6248",
+ "sha1_hash": "e2757e1edd96238202862ba5e7f926f5a3911e17",
+ "md5_hash": "c685ca051d3ca0cdee08f5a33a548031",
+ "first_seen": "2023-02-01 07:32:55",
+ "last_seen": null,
+ "file_name": "3.apk",
+ "file_size": 6103659,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "HK",
+ "anonymous": 1,
+ "signature": "GodFather",
+ "imphash": null,
+ "tlsh": "T15256F042FB44AC7BC8F783324675163A563BCC658B43D287295C327C59B79DC4B8AAC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:R/eo4hMLS/ppS5HjEoPkB49NLcJ7FJfWememnetVbIhXicG9bL+cLudyETyzfr9E:R/eo4t/jvqchnZCetVby09bCQudyMMH2",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "57.0% (.APK) Android Package (38500/1/9)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "15.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "banking",
+  "Godfather",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "md5WithRSAEncryption",
+   "valid_from": "2008-04-15T22:40:50Z",
+   "valid_to": "2035-09-01T22:40:50Z",
+   "serial_number": "b3998086d056cffa",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.1024.origin.12429.29552.UNOFFICIAL"
+  ],
+  "downloads": "491",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/138551cd967622832f8a816ea1697a5d08ee66c379d32d8a6bd7fca9fdeaecc4/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/138551cd967622832f8a816ea1697a5d08ee66c379d32d8a6bd7fca9fdeaecc4",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "godfather",
+   "score": "10",
+   "link": "https://tria.ge/reports/230201-jdjgsscd37/",
+   "tags": [
+    "family:godfather",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "ransomware",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "GodFather",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "7"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "godfather",
+     "c2": "https://t.me/varezotukomirza"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Godfather",
+   "status": "MALICIOUS",
+   "first_seen": "2022-12-17 01:27:52",
+   "scanner_count": "39",
+   "scanner_match": "11",
+   "scanner_percent": "28.21"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "0.8",
+   "report_link": "https://www.filescan.io/uploads/63da15b396add6d1cf4965a2/reports/791dc30a-5302-48c4-ac45-a116366d63d4/overview"
+  }
+ },
+ "comments": null
+}

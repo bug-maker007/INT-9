@@ -1,0 +1,112 @@
+{
+ "sha256_hash": "683cb0dfa656f86e5b078856d3aaac46f7cb99e800dc22de381e2c93595d2760",
+ "sha3_384_hash": "2ee922e48a8551d4b2b1aa4c747abf23068f631dfe208df56229262b1201f40446c0e3a08748abf6d4e63660fb038ab0",
+ "sha1_hash": "526cc397b66f3f6e43dd1bfefdf5db1610fe5713",
+ "md5_hash": "c5b48702478c4b064e9289d4125adc26",
+ "first_seen": "2024-05-06 12:08:00",
+ "last_seen": null,
+ "file_name": "Application.apk",
+ "file_size": 3984935,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T19906BEDAF7D4A95BC4F79332C17A52A5414B4C268B87DFC36904763C29BB6D00F4AAC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:uioJok9SdtyqLFBwQ8ToTwr5Lx7C1honnmYxtIqq:o9EyqhQKunnm+S",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "43.9% (.APK) Android Package (32500/1/6)",
+  "18.2% (.JAR) Java Archive (13500/1/2)",
+  "16.8% (.VYM) VYM Mind Map (12500/1/3)",
+  "14.1% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2021-05-22T04:58:32Z",
+   "valid_to": "2120-09-04T04:58:32Z",
+   "serial_number": "0c11d603",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e702de593abce6259624b294b47a16a0239caa17322c3285b6d1c8acf7fbf30d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.709.origin.2485.6981.UNOFFICIAL"
+  ],
+  "downloads": "464",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/683cb0dfa656f86e5b078856d3aaac46f7cb99e800dc22de381e2c93595d2760/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.09"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240506-pawkvaed43/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Acll",
+   "status": "MALICIOUS",
+   "first_seen": "2024-04-29 02:15:06",
+   "scanner_count": "38",
+   "scanner_match": "9",
+   "scanner_percent": "23.68"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6638c827b8652ad994a054a4/reports/d71b376b-cfc9-4a72-a96c-c3ebb3761dc1/overview"
+  }
+ },
+ "comments": null
+}

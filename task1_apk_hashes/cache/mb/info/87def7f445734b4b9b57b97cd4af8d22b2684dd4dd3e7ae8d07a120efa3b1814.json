@@ -1,0 +1,167 @@
+{
+ "sha256_hash": "87def7f445734b4b9b57b97cd4af8d22b2684dd4dd3e7ae8d07a120efa3b1814",
+ "sha3_384_hash": "9b06d13f29751fdb431576f19a5a16dfef7fefebdae73abb8b19b2185d65e9e923479f8cbeac143ce579caa50c3bd7cf",
+ "sha1_hash": "6161ddfe1a25e8a9d48b507941a865c6837477a2",
+ "md5_hash": "8845d6b3792a5cebdd94c1c5a1c92a75",
+ "first_seen": "2026-04-28 10:46:57",
+ "last_seen": null,
+ "file_name": "ready.apk",
+ "file_size": 704893,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "AntiAbuseSheild",
+ "origin_country": "UA",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T153E413837F07EC79E776107ACA8D82C6663F5F694D41D2EB1E5B720D48366C0AB84E84",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:kJjp1YM6sXm0En2uu+8zcX9pFsgILK2njBRLIusT3cgtN0F/+6Rq217gY3JtWDkf:sN1Fk0E2uKzctAgGQHT3SF/+GNUi2kf",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "spynote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Meta",
+   "issuer_cn": "Meta",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2022-01-14T18:51:07Z",
+   "valid_to": "4050-09-09T18:51:07Z",
+   "serial_number": "3b80a3b7",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "159777041b3b2f5d0464c87c3194f08070aa0744895695f960b3dbacceb2f020",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "multiple",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan.AndroidOS.dav.12724.UNOFFICIAL"
+  ],
+  "downloads": "450",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "any_run",
+   "value": "https://app.any.run/tasks/3fd932d1-0369-4b29-a7b8-bc61d72095e5"
+  },
+  {
+   "context": "links",
+   "value": "https://opentip.kaspersky.com/87def7f445734b4b9b57b97cd4af8d22b2684dd4dd3e7ae8d07a120efa3b1814/results"
+  },
+  {
+   "context": "links",
+   "value": "https://www.virustotal.com/gui/file/87def7f445734b4b9b57b97cd4af8d22b2684dd4dd3e7ae8d07a120efa3b1814/detection"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Weedhack_Family_Generic",
+   "author": "jlab",
+   "description": "Generic Weedhack family detection",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/87def7f445734b4b9b57b97cd4af8d22b2684dd4dd3e7ae8d07a120efa3b1814/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.09"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/87def7f445734b4b9b57b97cd4af8d22b2684dd4dd3e7ae8d07a120efa3b1814",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/260428-mvqtzsgw4w/",
+   "tags": [
+    "family:spynote",
+    "banker",
+    "infostealer",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.AVerseFalc",
+   "status": "MALICIOUS",
+   "first_seen": "2026-04-28 10:34:33",
+   "scanner_count": "23",
+   "scanner_match": "12",
+   "scanner_percent": "52.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69f0903d594172aacc4f567d/reports/13556611-73e7-4ad7-9214-d5b9fdab9a5c/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-04-28T07:39:00Z",
+   "last_seen": "2026-04-30T01:42:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/87def7f445734b4b9b57b97cd4af8d22b2684dd4dd3e7ae8d07a120efa3b1814/results?tab=lookup",
+   "detections": [
+    "HEUR:Trojan-Spy.AndroidOS.SpyNote.bi",
+    "HEUR:Trojan-Spy.AndroidOS.SpyNote.aw",
+    "HEUR:Trojan-Spy.AndroidOS.SpyNote.as",
+    "HEUR:Trojan-Spy.AndroidOS.SpyNote.et",
+    "HEUR:Trojan-Spy.AndroidOS.SpyNote.ea",
+    "HEUR:Trojan-Spy.AndroidOS.SpyNote.cb"
+   ]
+  }
+ },
+ "comments": null
+}

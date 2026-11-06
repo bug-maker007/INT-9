@@ -1,0 +1,135 @@
+{
+ "sha256_hash": "77ffe8b7b3efa39fa35daaee1f70f560079c96c680f9d9d85997d658e2b367a9",
+ "sha3_384_hash": "cbbc03c17d430768b60b15cec76bb8d5c189c66fc70ed3f318f1dde06c4188fc633315435094f46b9965abb0e5f6c9f8",
+ "sha1_hash": "1f1768518de92846b15ebcdc4233942dc24af3f9",
+ "md5_hash": "c1bee6cb18a7125995e675c787b95baf",
+ "first_seen": "2025-11-29 12:42:15",
+ "last_seen": null,
+ "file_name": "test.apk",
+ "file_size": 10230,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BlinkzSec",
+ "origin_country": "SK",
+ "anonymous": 0,
+ "signature": "Metasploit",
+ "imphash": null,
+ "tlsh": "T1F822AF74E38A11B0F1917EBB816977A9883E36159AB96A4FE4443FD10E73F81071E298",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "192:ELt7+5NmmTTxRuk1NY1nD/SMhNF3tT+ogccNiqtBfiioSUfo3OAG8p:ELttmTbuiY1nrSkTd6og9N5B6ioSqo+m",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Metasploit",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2024-10-03T22:31:37Z",
+   "valid_to": "2036-09-16T12:22:33Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "acfa590241f7eacdf058f27715ff18c26bba5172f5b144c2c088c628bf059561",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Andr.Bckdr-RXK.17683.18760.UNOFFICIAL",
+   "SecuriteInfo.com.Application.GenericKD.4498629.10203.18129.26189.UNOFFICIAL"
+  ],
+  "downloads": "228",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "urlhaus",
+   "value": "https://urlhaus.abuse.ch/url/3720323/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/77ffe8b7b3efa39fa35daaee1f70f560079c96c680f9d9d85997d658e2b367a9/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/77ffe8b7b3efa39fa35daaee1f70f560079c96c680f9d9d85997d658e2b367a9",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "metasploit",
+   "score": "10",
+   "link": "https://tria.ge/reports/251129-px1s3syrgq/",
+   "tags": [
+    "family:metasploit",
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "metasploit",
+     "c2": "tcp://249security.com:4444"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Hacktool.MetaSploit",
+   "status": "MALICIOUS",
+   "first_seen": "2025-11-29 12:43:15",
+   "scanner_count": "24",
+   "scanner_match": "14",
+   "scanner_percent": "58.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/692aea621b65ca0bb9275cd9/reports/5f377b44-705e-4e4f-ad64-860894f26ab8/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-11-29T10:11:00Z",
+   "last_seen": "2025-11-30T16:43:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/77ffe8b7b3efa39fa35daaee1f70f560079c96c680f9d9d85997d658e2b367a9/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

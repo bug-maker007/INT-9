@@ -1,0 +1,84 @@
+{
+ "sha256_hash": "745fb34e97309e78e98860e858b7183dc13884827c7e76dee833609851e5c2a9",
+ "sha3_384_hash": "7173acaed594246f5a5f663754e75e6c2ea24df5fbc97d4d2a597fcef702a78eeefe6f27437ab81d904f6123d08fa448",
+ "sha1_hash": "01d1871c60db0b16b2494f599569b929fc25bf29",
+ "md5_hash": "bf4cfc83a97f112f529b343538321161",
+ "first_seen": "2021-09-06 18:47:18",
+ "last_seen": null,
+ "file_name": "Android_Guncelleme_build.apk",
+ "file_size": 136608,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T18ED3F19317D4086EF03BDD30196C93676A764EA9BBF8E3D3280490589DA73672F4CE05",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1536:rc7eACXqq8XUt4FxCwTsPcWlLDIB8Ae5oIEAWOEaI201uLuIyPy5fXrfXZqL1wqy:YKqqKRTPULD1bEzOp/01uLuIQ2XzXcvG",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.8705.7927.3350.UNOFFICIAL"
+  ],
+  "downloads": "251",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/745fb34e97309e78e98860e858b7183dc13884827c7e76dee833609851e5c2a9/"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/745fb34e97309e78e98860e858b7183dc13884827c7e76dee833609851e5c2a9",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210906-xfr4lseehm/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks Android system properties for emulator presence.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2021-09-06 18:48:05",
+   "scanner_count": "43",
+   "scanner_match": "13",
+   "scanner_percent": "30.23"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,110 @@
+{
+ "sha256_hash": "cfd3f39dacfe9d64b5925eb639d1a87246df01f85c9609caff48de170092f5e0",
+ "sha3_384_hash": "61695e6b302839c7468a9cde394547b28adaf0ba15ed3fa2105213f442cf0bcdfda5b174a4175e867ea580ac03e5edc1",
+ "sha1_hash": "92150d3e1b04bff5e1d2872c52822d0b361edb84",
+ "md5_hash": "9f61cbbc07215bdd03fdaf853844b911",
+ "first_seen": "2021-09-30 06:39:40",
+ "last_seen": null,
+ "file_name": "94270_Video_Oynatıcı.apk",
+ "file_size": 4008795,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T11706332A4B9C0175D8079EB2C6E78686A01D4B790778CE1EC2502F0A5DF6FEC938F55E",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:tNC/8rGcFS7Oosy79x3U6BRexLXHorGwyxrrSY7HaNT:tSKSyMx3UecxDHGzyNrNbaNT",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "233",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1648893/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/cfd3f39dacfe9d64b5925eb639d1a87246df01f85c9609caff48de170092f5e0/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/cfd3f39dacfe9d64b5925eb639d1a87246df01f85c9609caff48de170092f5e0",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/210930-he8bwagggj/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads name of network operator",
+     "score": "6"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hydra",
+     "c2": "http://lolamaefarmer5823.online"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Bian",
+   "status": "MALICIOUS",
+   "first_seen": "2021-09-30 06:40:21",
+   "scanner_count": "45",
+   "scanner_match": "9",
+   "scanner_percent": "20.00"
+  }
+ },
+ "comments": null
+}

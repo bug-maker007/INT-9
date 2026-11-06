@@ -1,0 +1,129 @@
+{
+ "sha256_hash": "3b4d55a0aaf3ea759e6aaf5229b7b87bd870ee37863d10b1d2f286c742e0add0",
+ "sha3_384_hash": "f8cfc2c74ea02b41c404fa170266d9ff417b08339637cd309eb2da5af171c7ac9e2c9f7f3afc1543d319c998f0729d91",
+ "sha1_hash": "749412b843bfd62210b8ef47e5ee4527c7d97abe",
+ "md5_hash": "5e8fbf5138cb86522cfc8891f637af8b",
+ "first_seen": "2021-08-10 15:03:08",
+ "last_seen": null,
+ "file_name": "Porn_Tube.apk",
+ "file_size": 3070916,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T117E533AD5B43AC4EEB5B63F28103596BA937271C0D966E3F603412DA2853F64C311DBE",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:lbBRZhP56mpt9MADbnfK/tP6QJmV8WZ7HFmE670F9m/3ehYRDxoupSHNVEBQTHme:lvP56EWADbniw8D70avehWDxZpSHNVE+",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "alienbot",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.PUA.DebugKey.17718.25172.UNOFFICIAL"
+  ],
+  "downloads": "270",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1522351/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/3b4d55a0aaf3ea759e6aaf5229b7b87bd870ee37863d10b1d2f286c742e0add0/"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/3b4d55a0aaf3ea759e6aaf5229b7b87bd870ee37863d10b1d2f286c742e0add0",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210810-ykywam3pya/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads name of network operator",
+     "score": "6"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://194.163.136.78"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-10 15:04:05",
+   "scanner_count": "45",
+   "scanner_match": "8",
+   "scanner_percent": "17.78"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ]
+ },
+ "comments": [
+  {
+   "id": "21526",
+   "date_added": "2021-08-10 15:33:00",
+   "twitter_handle": "unidentified0xc",
+   "display_name": "unidentified ",
+   "comment": "c2 http://194.163.136.78\n"
+  }
+ ]
+}

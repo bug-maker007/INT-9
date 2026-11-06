@@ -1,0 +1,162 @@
+{
+ "sha256_hash": "278424a5e7ad01b8f3f91f3379674dc62ecde2737738fb51ab89632b129732ce",
+ "sha3_384_hash": "c88a503ad8d8f2705e554988516e179ab7bc1ce14c752f3dacb1e1aa1bd2774ddc6d7aaaa7c1798b6a1651dcc10eae8b",
+ "sha1_hash": "f4eef281e5b42d0f2ec0288f349acc0444a63d42",
+ "md5_hash": "b4e5539867a7afbd510811ee57bba213",
+ "first_seen": "2025-09-01 03:29:39",
+ "last_seen": null,
+ "file_name": "Play Music Keyboard_2.7.apk",
+ "file_size": 31239428,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "HK",
+ "anonymous": 1,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T1B8672382EF94D52AF47A1032CDA34127F2966E19459247F7B79CF3242B736025F81BCA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "786432:mSooxNpbihcUNFRXI1Ue+Pse0XTT6/vDXUU4tGoLfx:xooxNpbihcUNFZGn+ga/rXt5sx",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "65.0% (.APK) Android Package (27000/1/5)",
+  "25.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Bill Fraud",
+  "Joker",
+  "Malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "165",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://play.google.com/store/apps/details?id=com.pianor.rhymes.kidspiano"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "BitcoinAddress",
+   "author": "Didier Stevens (@DidierStevens)",
+   "description": "Contains a valid Bitcoin address",
+   "reference": null
+  },
+  {
+   "rule_name": "botnet_plaintext_c2",
+   "author": "cip",
+   "description": "Attempts to match at least some of the strings used in some botnet variants which use plaintext communication protocols.",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_AllMal_Detector",
+   "author": "DiegoAnalytics",
+   "description": "CrossPlatform All Malwares Detector: Detect PE, ELF, Mach-O, scripts, archives; overlay, obfuscation, encryption, spoofing, hiding, high entropy, network communication",
+   "reference": null
+  },
+  {
+   "rule_name": "maldoc_indirect_function_call_3",
+   "author": "Didier Stevens (https://DidierStevens.com)",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/278424a5e7ad01b8f3f91f3379674dc62ecde2737738fb51ab89632b129732ce",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/250901-d2x27svzdy/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Legitimate hosting services abused for malware hosting/C2",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-08-30 06:00:51",
+   "scanner_count": "35",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68b5137539a6221faa77f2aa/reports/88fe6156-da4a-48f0-95ad-e9732dfd05c2/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Clean",
+   "file_type": "apk",
+   "first_seen": "2025-09-01T05:26:00Z",
+   "last_seen": "2025-09-01T05:26:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/278424a5e7ad01b8f3f91f3379674dc62ecde2737738fb51ab89632b129732ce/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

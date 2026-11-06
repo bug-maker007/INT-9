@@ -1,0 +1,114 @@
+{
+ "sha256_hash": "d1edc721c513ec629ee83034b9232579705ed05e234c3aae5422675e570bb184",
+ "sha3_384_hash": "4dc41b8ec8982e3b4f5ea9e927a847e28de05da9f95631d203464720ddae1cf24b0a8e71c7104a8995fc76b6c15b55b6",
+ "sha1_hash": "3678df843234f4a91b3851826a84299ab8571b08",
+ "md5_hash": "83b1c3a87a43bb43fa670376b6fb7e53",
+ "first_seen": "2024-03-24 11:41:32",
+ "last_seen": null,
+ "file_name": "KissLands.apk",
+ "file_size": 3602558,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T121F52347F256DA2BCDF2C3331239027611364D25CB43AB8E2A4877BE24FB9D84B956D4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:M9Nw8Mrtb7ml99KMTSHh5dAr/EebNX8hWh0DHSfdBxieMz7+vVt3y7IcPNztn:+Nw7R+ZTSHh5yEeb4Wh0+lC7+T3y3PNt",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2021-05-22T04:58:32Z",
+   "valid_to": "2120-09-04T04:58:32Z",
+   "serial_number": "0c11d603",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e702de593abce6259624b294b47a16a0239caa17322c3285b6d1c8acf7fbf30d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "391",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d1edc721c513ec629ee83034b9232579705ed05e234c3aae5422675e570bb184/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/d1edc721c513ec629ee83034b9232579705ed05e234c3aae5422675e570bb184",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240324-ntz7psfa51/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-03-24 11:42:06",
+   "scanner_count": "24",
+   "scanner_match": "8",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6600118b7e414bfaaec008dc/reports/803ac881-4fde-4b61-9262-f69a63db7875/overview"
+  }
+ },
+ "comments": null
+}

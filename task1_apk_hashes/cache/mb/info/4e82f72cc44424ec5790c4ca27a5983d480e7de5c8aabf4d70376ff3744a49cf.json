@@ -1,0 +1,200 @@
+{
+ "sha256_hash": "4e82f72cc44424ec5790c4ca27a5983d480e7de5c8aabf4d70376ff3744a49cf",
+ "sha3_384_hash": "15fb55ba12081d3c2e0370cb05e994d849755fde386a79f7697482798158bcc6e5c3cb476995f4093910cbc22ed9c0da",
+ "sha1_hash": "64518554557251239416b9df450cd1bf75e4675d",
+ "md5_hash": "7a3853ac9f13986b08afc31409d7e221",
+ "first_seen": "2025-02-11 06:05:53",
+ "last_seen": null,
+ "file_name": "Speech Translator_1.45.apk",
+ "file_size": 13732387,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "500mk500",
+ "origin_country": "UA",
+ "anonymous": 0,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T1D8D601C9F398FE2AC437607249691336054A4C26AA43D7A3692C771E38B79E44F8DFD4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:1LHqwISYMBS6WdbMdHvQabwPt5z4ttnpY7ZtCttiRfd4TeZm+KE6W8KMij:1muYMBEbMdHvQabeme7ZtCwF4y8+yij",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "40.0% (.APK) Android Package (27000/1/5)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "18.5% (.VYM) VYM Mind Map (12500/1/3)",
+  "15.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Joker",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2025-02-10T03:16:48Z",
+   "valid_to": "2055-02-10T03:16:48Z",
+   "serial_number": "d5abbf5e1d06ba04b24ab1756be2e15862aee8e5",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "986c60043ee03ef1dde7fb08802f53d041110648ab9c16f338d43fa9d4e35a05",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "334",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://x.com/ReBensk/status/1889187927604789531"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "Warp",
+   "author": "Seth Hardy",
+   "description": "Warp",
+   "reference": null
+  },
+  {
+   "rule_name": "WarpStrings",
+   "author": "Seth Hardy",
+   "description": "Warp Identifying Strings",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/4e82f72cc44424ec5790c4ca27a5983d480e7de5c8aabf4d70376ff3744a49cf/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/4e82f72cc44424ec5790c4ca27a5983d480e7de5c8aabf4d70376ff3744a49cf",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/250211-gtvhwsynds/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Checks Android system properties for emulator presence.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation)",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-02-11 06:06:15",
+   "scanner_count": "24",
+   "scanner_match": "2",
+   "scanner_percent": "8.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ]
+ },
+ "comments": null
+}

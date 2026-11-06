@@ -1,0 +1,786 @@
+{
+ "popular_threat_classification": {
+  "popular_threat_name": [
+   {
+    "count": 4,
+    "value": "hqwar"
+   },
+   {
+    "count": 1,
+    "value": "abtrojan"
+   },
+   {
+    "count": 1,
+    "value": "apprisk"
+   }
+  ],
+  "popular_threat_category": [
+   {
+    "count": 12,
+    "value": "trojan"
+   },
+   {
+    "count": 6,
+    "value": "dropper"
+   },
+   {
+    "count": 1,
+    "value": "banker"
+   }
+  ],
+  "suggested_threat_label": "trojan.hqwar/abtrojan"
+ },
+ "last_modification_date": 1793372583,
+ "filecondis": {
+  "dhash": "000000000f060400",
+  "raw_md5": "f7f1e7fe8cadf0f84873db52672e3003"
+ },
+ "bundle_info": {
+  "highest_datetime": "2025-11-03 18:08:28",
+  "lowest_datetime": "2025-11-03 18:08:28",
+  "num_children": 752,
+  "extensions": {
+   "xml": 503,
+   "dex": 6,
+   "fs": 2,
+   "version": 38,
+   "arsc": 1,
+   "kotlin_module": 1,
+   "html": 1,
+   "JPG": 2,
+   "plist": 1,
+   "apk": 1,
+   "json": 1,
+   "vs": 1,
+   "vec": 2,
+   "properties": 1,
+   "png": 191
+  },
+  "file_types": {
+   "XML": 503,
+   "unknown": 73,
+   "HTML": 1,
+   "PNG": 173,
+   "ZIP": 1
+  },
+  "type": "APK",
+  "uncompressed_size": 12684432
+ },
+ "type_tags": [
+  "executable",
+  "mobile",
+  "android",
+  "apk"
+ ],
+ "trid": [
+  {
+   "file_type": "Android Package",
+   "probability": 65.0
+  },
+  {
+   "file_type": "Sweet Home 3D Design (generic)",
+   "probability": 25.3
+  },
+  {
+   "file_type": "ZIP compressed archive",
+   "probability": 9.6
+  }
+ ],
+ "type_tag": "android",
+ "md5": "12215a810e34537734e8802673a35c2d",
+ "type_description": "Android",
+ "total_votes": {
+  "harmless": 0,
+  "malicious": 2
+ },
+ "unique_sources": 9,
+ "ssdeep": "196608:kAD11ar8RAb2GWt/HM/Gqniw1kdRDcCekj1y6n7c4:n1ar8/GRniwwws5y+7c4",
+ "last_analysis_date": 1792886451,
+ "sha256": "6ca691c97ab0028ce9acade5d079289668b1d0339ad330181c84fc7e7114c509",
+ "last_analysis_results": {
+  "Lionic": {
+   "method": "blacklist",
+   "engine_name": "Lionic",
+   "engine_version": "8.16",
+   "engine_update": "20261024",
+   "category": "malicious",
+   "result": "Trojan.AndroidOS.Hqwar.C!c"
+  },
+  "MicroWorld-eScan": {
+   "method": "blacklist",
+   "engine_name": "MicroWorld-eScan",
+   "engine_version": "14.0.409.0",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "ClamAV": {
+   "method": "blacklist",
+   "engine_name": "ClamAV",
+   "engine_version": "1.5.4.0",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "CTX": {
+   "method": "blacklist",
+   "engine_name": "CTX",
+   "engine_version": "2024.8.29.1",
+   "engine_update": "20261025",
+   "category": "undetected",
+   "result": null
+  },
+  "CAT-QuickHeal": {
+   "method": "blacklist",
+   "engine_name": "CAT-QuickHeal",
+   "engine_version": "22.00",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "Skyhigh": {
+   "method": "blacklist",
+   "engine_name": "Skyhigh",
+   "engine_version": "v2021.2.0+4045",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "Malwarebytes": {
+   "method": "blacklist",
+   "engine_name": "Malwarebytes",
+   "engine_version": "3.1.0.291",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "Zillya": {
+   "method": "blacklist",
+   "engine_name": "Zillya",
+   "engine_version": "2.0.0.5715",
+   "engine_update": "20261023",
+   "category": "undetected",
+   "result": null
+  },
+  "Sangfor": {
+   "method": "blacklist",
+   "engine_name": "Sangfor",
+   "engine_version": "2.22.3.0",
+   "engine_update": "20261023",
+   "category": "undetected",
+   "result": null
+  },
+  "K7AntiVirus": {
+   "method": "blacklist",
+   "engine_name": "K7AntiVirus",
+   "engine_version": "14.86.61244",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "BitDefender": {
+   "method": "blacklist",
+   "engine_name": "BitDefender",
+   "engine_version": "7.2",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "K7GW": {
+   "method": "blacklist",
+   "engine_name": "K7GW",
+   "engine_version": "14.86.61244",
+   "engine_update": "20261024",
+   "category": "malicious",
+   "result": "Trojan ( 005d02a71 )"
+  },
+  "Trustlook": {
+   "method": "blacklist",
+   "engine_name": "Trustlook",
+   "engine_version": "1.0",
+   "engine_update": "20261025",
+   "category": "malicious",
+   "result": "Android.Malware.Trojan"
+  },
+  "VirIT": {
+   "method": "blacklist",
+   "engine_name": "VirIT",
+   "engine_version": "9.5.1324",
+   "engine_update": "20261023",
+   "category": "undetected",
+   "result": null
+  },
+  "SymantecMobileInsight": {
+   "method": "blacklist",
+   "engine_name": "SymantecMobileInsight",
+   "engine_version": "2.0",
+   "engine_update": "20260123",
+   "category": "malicious",
+   "result": "AppRisk:Generisk"
+  },
+  "Symantec": {
+   "method": "blacklist",
+   "engine_name": "Symantec",
+   "engine_version": "1.22.0.0",
+   "engine_update": "20261024",
+   "category": "malicious",
+   "result": "Trojan.Gen.2"
+  },
+  "ESET-NOD32": {
+   "method": "blacklist",
+   "engine_name": "ESET-NOD32",
+   "engine_version": "18.2.18.0",
+   "engine_update": "20261024",
+   "category": "malicious",
+   "result": "Android/TrojanDropper.Agent.NAA trojan"
+  },
+  "TrendMicro-HouseCall": {
+   "method": "blacklist",
+   "engine_name": "TrendMicro-HouseCall",
+   "engine_version": "24.550.0.1002",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "Avast": {
+   "method": "blacklist",
+   "engine_name": "Avast",
+   "engine_version": "23.9.8494.0",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "Cynet": {
+   "method": "blacklist",
+   "engine_name": "Cynet",
+   "engine_version": "4.0.3.4",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "Kaspersky": {
+   "method": "blacklist",
+   "engine_name": "Kaspersky",
+   "engine_version": "22.0.1.28",
+   "engine_update": "20261024",
+   "category": "malicious",
+   "result": "HEUR:Trojan-Dropper.AndroidOS.Hqwar.gy"
+  },
+  "Alibaba": {
+   "method": "blacklist",
+   "engine_name": "Alibaba",
+   "engine_version": "0.3.0.5",
+   "engine_update": "20190527",
+   "category": "malicious",
+   "result": "TrojanDropper:Android/Hqwar.227347eb"
+  },
+  "NANO-Antivirus": {
+   "method": "blacklist",
+   "engine_name": "NANO-Antivirus",
+   "engine_version": "1.0.170.26895",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "SUPERAntiSpyware": {
+   "method": "blacklist",
+   "engine_name": "SUPERAntiSpyware",
+   "engine_version": "5.6.0.1032",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "Tencent": {
+   "method": "blacklist",
+   "engine_name": "Tencent",
+   "engine_version": "1.0.0.1",
+   "engine_update": "20261025",
+   "category": "malicious",
+   "result": "a.privacy.BankBotSteal"
+  },
+  "Sophos": {
+   "method": "blacklist",
+   "engine_name": "Sophos",
+   "engine_version": "3.6.2.0",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "F-Secure": {
+   "method": "blacklist",
+   "engine_name": "F-Secure",
+   "engine_version": "18.10.1547.307",
+   "engine_update": "20261024",
+   "category": "malicious",
+   "result": "Trojan:Android/Corrupted.BA"
+  },
+  "DrWeb": {
+   "method": "blacklist",
+   "engine_name": "DrWeb",
+   "engine_version": "7.0.76.8280",
+   "engine_update": "20261024",
+   "category": "malicious",
+   "result": "Android.MulDrop.1439"
+  },
+  "VIPRE": {
+   "method": "blacklist",
+   "engine_name": "VIPRE",
+   "engine_version": "6.0.0.35",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "TrendMicro": {
+   "method": "blacklist",
+   "engine_name": "TrendMicro",
+   "engine_version": "24.550.0.1002",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "McAfeeD": {
+   "method": "blacklist",
+   "engine_name": "McAfeeD",
+   "engine_version": "1.2.0.16534",
+   "engine_update": "20261025",
+   "category": "malicious",
+   "result": "ti!6CA691C97AB0"
+  },
+  "SentinelOne": {
+   "method": "blacklist",
+   "engine_name": "SentinelOne",
+   "engine_version": "7.8.0.2",
+   "engine_update": "20260924",
+   "category": "undetected",
+   "result": null
+  },
+  "CMC": {
+   "method": "blacklist",
+   "engine_name": "CMC",
+   "engine_version": "2.4.2022.1",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "Emsisoft": {
+   "method": "blacklist",
+   "engine_name": "Emsisoft",
+   "engine_version": "2024.8.0.61147",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "Ikarus": {
+   "method": "blacklist",
+   "engine_name": "Ikarus",
+   "engine_version": "6.5.4.0",
+   "engine_update": "20261024",
+   "category": "malicious",
+   "result": "Trojan-Dropper.AndroidOS.Agent"
+  },
+  "Avast-Mobile": {
+   "method": "blacklist",
+   "engine_name": "Avast-Mobile",
+   "engine_version": "261024-00",
+   "engine_update": "20261024",
+   "category": "malicious",
+   "result": "APK:CRepMalware [Trj]"
+  },
+  "Jiangmin": {
+   "method": "blacklist",
+   "engine_name": "Jiangmin",
+   "engine_version": "16.0.100",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "Webroot": {
+   "method": "blacklist",
+   "engine_name": "Webroot",
+   "engine_version": "1.9.0.8",
+   "engine_update": "20250227",
+   "category": "undetected",
+   "result": null
+  },
+  "Varist": {
+   "method": "blacklist",
+   "engine_name": "Varist",
+   "engine_version": "6.6.1.3",
+   "engine_update": "20261024",
+   "category": "malicious",
+   "result": "ABTrojan.YQOQ"
+  },
+  "Avira": {
+   "method": "blacklist",
+   "engine_name": "Avira",
+   "engine_version": "8.3.3.24",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "Antiy-AVL": {
+   "method": "blacklist",
+   "engine_name": "Antiy-AVL",
+   "engine_version": "3.0",
+   "engine_update": "20261024",
+   "category": "malicious",
+   "result": "Trojan[Dropper]/Android.Hqwar"
+  },
+  "Kingsoft": {
+   "method": "blacklist",
+   "engine_name": "Kingsoft",
+   "engine_version": "None",
+   "engine_update": "20261024",
+   "category": "malicious",
+   "result": "Win32.Troj.Undef.a"
+  },
+  "Microsoft": {
+   "method": "blacklist",
+   "engine_name": "Microsoft",
+   "engine_version": "1.26090",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "Gridinsoft": {
+   "method": "blacklist",
+   "engine_name": "Gridinsoft",
+   "engine_version": "1.0.258.174",
+   "engine_update": "20261024",
+   "category": "malicious",
+   "result": "Trojan.U.Gen.tr"
+  },
+  "Xcitium": {
+   "method": "blacklist",
+   "engine_name": "Xcitium",
+   "engine_version": "39059",
+   "engine_update": "20261023",
+   "category": "undetected",
+   "result": null
+  },
+  "Arcabit": {
+   "method": "blacklist",
+   "engine_name": "Arcabit",
+   "engine_version": "2025.0.0.23",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "ViRobot": {
+   "method": "blacklist",
+   "engine_name": "ViRobot",
+   "engine_version": "2026-10-25.00",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "ZoneAlarm": {
+   "method": "blacklist",
+   "engine_name": "ZoneAlarm",
+   "engine_version": "6.28-119762087",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "GData": {
+   "method": "blacklist",
+   "engine_name": "GData",
+   "engine_version": "GD:27.46472AVA:64.32123",
+   "engine_update": "20261025",
+   "category": "undetected",
+   "result": null
+  },
+  "Google": {
+   "method": "blacklist",
+   "engine_name": "Google",
+   "engine_version": "1792882867",
+   "engine_update": "20261025",
+   "category": "undetected",
+   "result": null
+  },
+  "BitDefenderFalx": {
+   "method": "blacklist",
+   "engine_name": "BitDefenderFalx",
+   "engine_version": "2.0.936",
+   "engine_update": "20261022",
+   "category": "malicious",
+   "result": "Android.Riskware.Dropper.AKE"
+  },
+  "AhnLab-V3": {
+   "method": "blacklist",
+   "engine_name": "AhnLab-V3",
+   "engine_version": "3.30.2.10713",
+   "engine_update": "20261024",
+   "category": "malicious",
+   "result": "Trojan/Android.Banker.1222754"
+  },
+  "Acronis": {
+   "method": "blacklist",
+   "engine_name": "Acronis",
+   "engine_version": "1.2.0.121",
+   "engine_update": "20240328",
+   "category": "undetected",
+   "result": null
+  },
+  "VBA32": {
+   "method": "blacklist",
+   "engine_name": "VBA32",
+   "engine_version": "5.7.1",
+   "engine_update": "20261024",
+   "category": "malicious",
+   "result": "APK.BadPack"
+  },
+  "TACHYON": {
+   "method": "blacklist",
+   "engine_name": "TACHYON",
+   "engine_version": "2026-10-24.02",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "Zoner": {
+   "method": "blacklist",
+   "engine_name": "Zoner",
+   "engine_version": "2.2.2.0",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "Rising": {
+   "method": "blacklist",
+   "engine_name": "Rising",
+   "engine_version": "25.0.0.28",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "Yandex": {
+   "method": "blacklist",
+   "engine_name": "Yandex",
+   "engine_version": "5.5.2.24",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "TrellixENS": {
+   "method": "blacklist",
+   "engine_name": "TrellixENS",
+   "engine_version": "6.0.6.653",
+   "engine_update": "20261024",
+   "category": "malicious",
+   "result": "Artemis!12215A810E34"
+  },
+  "huorong": {
+   "method": "blacklist",
+   "engine_name": "huorong",
+   "engine_version": "b4e1e2d:b4e1e2d:712189a:712189a",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "Fortinet": {
+   "method": "blacklist",
+   "engine_name": "Fortinet",
+   "engine_version": "7.0.48.0",
+   "engine_update": "20261024",
+   "category": "malicious",
+   "result": "Android/Agent.NAA!tr"
+  },
+  "AVG": {
+   "method": "blacklist",
+   "engine_name": "AVG",
+   "engine_version": "23.9.8494.0",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "Panda": {
+   "method": "blacklist",
+   "engine_name": "Panda",
+   "engine_version": "4.6.4.2",
+   "engine_update": "20261024",
+   "category": "undetected",
+   "result": null
+  },
+  "CrowdStrike": {
+   "method": "blacklist",
+   "engine_name": "CrowdStrike",
+   "engine_version": "1.0",
+   "engine_update": "20251219",
+   "category": "undetected",
+   "result": null
+  },
+  "Bkav": {
+   "method": "blacklist",
+   "engine_name": "Bkav",
+   "engine_version": null,
+   "engine_update": "20261024",
+   "category": "timeout",
+   "result": null
+  },
+  "MaxSecure": {
+   "method": "blacklist",
+   "engine_name": "MaxSecure",
+   "engine_version": "1.0.0.1",
+   "engine_update": "20261023",
+   "category": "timeout",
+   "result": null
+  },
+  "ALYac": {
+   "method": "blacklist",
+   "engine_name": "ALYac",
+   "engine_version": "2.0.0.10",
+   "engine_update": "20261024",
+   "category": "failure",
+   "result": null
+  },
+  "tehtris": {
+   "method": "blacklist",
+   "engine_name": "tehtris",
+   "engine_version": "v0.1.4",
+   "engine_update": "20261025",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "DeepInstinct": {
+   "method": "blacklist",
+   "engine_name": "DeepInstinct",
+   "engine_version": "5.0.0.8",
+   "engine_update": "20260614",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "APEX": {
+   "method": "blacklist",
+   "engine_name": "APEX",
+   "engine_version": "6.833",
+   "engine_update": "20261022",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "Paloalto": {
+   "method": "blacklist",
+   "engine_name": "Paloalto",
+   "engine_version": "0.9.0.1003",
+   "engine_update": "20261025",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "Trapmine": {
+   "method": "blacklist",
+   "engine_name": "Trapmine",
+   "engine_version": "4.0.16.0",
+   "engine_update": "20260921",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "Cylance": {
+   "method": "blacklist",
+   "engine_name": "Cylance",
+   "engine_version": "3.0.0.0",
+   "engine_update": "20261022",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "Elastic": {
+   "method": "blacklist",
+   "engine_name": "Elastic",
+   "engine_version": "4.0.293",
+   "engine_update": "20261021",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "alibabacloud": {
+   "method": "blacklist",
+   "engine_name": "alibabacloud",
+   "engine_version": "2.2.0",
+   "engine_update": "20250321",
+   "category": "type-unsupported",
+   "result": null
+  }
+ },
+ "androguard": {
+  "certificate": {
+   "Subject": {
+    "DN": "C:US, CN:Wikimedia Foundation, L:San Francisco, O:Wikimedia Foundation, ST:California, OU:Mobile",
+    "C": "US",
+    "CN": "Wikimedia Foundation",
+    "L": "San Francisco",
+    "O": "Wikimedia Foundation",
+    "ST": "California",
+    "OU": "Mobile"
+   },
+   "validto": "2115-08-11 04:16:41",
+   "serialnumber": "5716e195",
+   "thumbprint": "69fc6d6d250a14bceb3e82dc7b547855888de57e",
+   "validfrom": "2015-08-11 04:16:41",
+   "Issuer": {
+    "DN": "C:US, CN:Wikimedia Foundation, L:San Francisco, O:Wikimedia Foundation, ST:California, OU:Mobile",
+    "C": "US",
+    "CN": "Wikimedia Foundation",
+    "L": "San Francisco",
+    "O": "Wikimedia Foundation",
+    "ST": "California",
+    "OU": "Mobile"
+   }
+  },
+  "VTAndroidInfo": 2.0,
+  "AndroidApplication": 1,
+  "AndroidApplicationError": false,
+  "StringsInformation": [
+   "http://10.0.2.2:3000/",
+   "https://api.braintreegateway.com/",
+   "https://api.sandbox.braintreegateway.com/",
+   "https://gateway.unityads.unity3d.com/v1"
+  ],
+  "AndroguardVersion": "4.1.2",
+  "AndroidApplicationInfo": "APK"
+ },
+ "magic": "Zip archive data, at least v2.0 to extract, compression method=deflate",
+ "first_seen_itw_date": 1762519778,
+ "times_submitted": 9,
+ "picklescan": {
+  "contains_invalid_pickle": false,
+  "issues_count": 0,
+  "globals": []
+ },
+ "reputation": -12,
+ "size": 8711027,
+ "tags": [
+  "apk",
+  "obfuscated",
+  "reflection",
+  "encrypted",
+  "telephony",
+  "detect-debug-environment",
+  "checks-gps",
+  "android",
+  "checks-cpu-name"
+ ],
+ "magika": "APK",
+ "names": [
+  "3GKnDjyv.exe",
+  "59qxl5h8k.exe",
+  "7ec62d3c50d033b0857fe6f7e1e09de219001cf3bcc25fe5ddac25596b0c2922.apk",
+  "6ca691c97ab0028ce9acade5d079289668b1d0339ad330181c84fc7e7114c509.apk",
+  "Ultraviewer.apk",
+  "unknown"
+ ],
+ "first_submission_date": 1762216289,
+ "sha1": "47c3a8e85e57a263a911c9f670e014b420866722",
+ "type_extension": "apk",
+ "last_analysis_stats": {
+  "malicious": 23,
+  "suspicious": 0,
+  "undetected": 41,
+  "harmless": 0,
+  "timeout": 2,
+  "confirmed-timeout": 0,
+  "failure": 1,
+  "type-unsupported": 8
+ },
+ "last_submission_date": 1780782656,
+ "vhash": "c5279f76cebf18cf4c3adaaec53ec76c",
+ "meaningful_name": "3GKnDjyv.exe",
+ "tlsh": "T1BB96124AFB48B59AC4F7573385B9923241474C268B83D6835D58B23C5DBBAF00F5ABC8"
+}

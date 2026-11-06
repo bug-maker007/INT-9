@@ -1,0 +1,110 @@
+{
+ "sha256_hash": "860155110ca64bde55038ad179f43f19455a83c93a7009583d5d2a808ad72d58",
+ "sha3_384_hash": "1cbef0e9b3e681c97a9758b6160443e6d4455aa5bf11a6630b679523916cbd05455664a70a0c5356efecaeac94861d17",
+ "sha1_hash": "41cc2226c7c67b5165beee51bdf3a6c8b5614704",
+ "md5_hash": "8bb4a1ec1e543f4e9dcc4bd46a198c07",
+ "first_seen": "2025-03-13 16:06:36",
+ "last_seen": null,
+ "file_name": "TG_CJ153256_pxz.apk",
+ "file_size": 61261838,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T183D712E3E309AC69D6F2C33693B411A7B9250D659713E3670502F6386EF3EE08149EE5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:gaRlhvJOex2/0aMkqImyQopU7S8xR0sleU:nRlhAeXLkZgo27S8nL",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "35.5% (.APK) Android Package (27000/1/5)",
+  "18.4% (.ZIP) Opera Widget (14000/1/2)",
+  "17.7% (.JAR) Java Archive (13500/1/2)",
+  "13.8% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.2% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)"
+ ],
+ "comment": "https://tgsamll.b-cdn.net/TG_CJ153256_pxz.apk",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "de",
+   "issuer_cn": "de",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2023-08-31T02:48:24Z",
+   "valid_to": "2078-06-03T02:48:24Z",
+   "serial_number": "03de2d15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e805f934e0d3ca855ba61d63d97cf77c1774342bb8d36f9c32aff05cec75c189",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "259",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/250313-s8hy7ayrx8/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3476080/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/860155110ca64bde55038ad179f43f19455a83c93a7009583d5d2a808ad72d58",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/250313-tkpmhaw1dw/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Triada",
+   "status": "MALICIOUS",
+   "first_seen": "2025-03-11 00:57:28",
+   "scanner_count": "38",
+   "scanner_match": "8",
+   "scanner_percent": "21.05"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67d302b9c3bee124f8e7874e/reports/8c5fad6f-4395-4ff7-8195-e5affa315abc/overview"
+  }
+ },
+ "comments": null
+}

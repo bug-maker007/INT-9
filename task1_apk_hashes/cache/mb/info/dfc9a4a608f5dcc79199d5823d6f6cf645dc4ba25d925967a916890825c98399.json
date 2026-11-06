@@ -1,0 +1,132 @@
+{
+ "sha256_hash": "dfc9a4a608f5dcc79199d5823d6f6cf645dc4ba25d925967a916890825c98399",
+ "sha3_384_hash": "ca01ea67d248e8beaa3d25646b47eb23dc1c12f0cd84ed03831caae357c38d584612d1b9464c68af5fb28b511e502e5f",
+ "sha1_hash": "ec9a478343bc6a110b0e83f883880ce6b41d6d07",
+ "md5_hash": "1524ee83ba865308a6597412d3f89dfe",
+ "first_seen": "2021-12-21 07:48:43",
+ "last_seen": null,
+ "file_name": "Hadise_Gizli_Cekim_Ifsa.apk",
+ "file_size": 2262215,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T117A5330AEF94BE54E1E72B7E0107B3CA0B874AB1D542379A796D440F1F734D05E26AB4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:CpaqkXzhKIa/57rdEAswcADVerDg1D8sLO/IFRnoGjK:CpFk9Xk3swcFDg1YNgFdo6K",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "399",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1906028/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/dfc9a4a608f5dcc79199d5823d6f6cf645dc4ba25d925967a916890825c98399/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/dfc9a4a608f5dcc79199d5823d6f6cf645dc4ba25d925967a916890825c98399",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/211221-jnn52adcdq/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "rat",
+    "suricata",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "suricata: ET MALWARE Trojan Generic - POST To gate.php with no referer",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation).",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://b4kingsystem.co.vu"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Cebruser",
+   "status": "MALICIOUS",
+   "first_seen": "2021-12-21 07:49:23",
+   "scanner_count": "28",
+   "scanner_match": "12",
+   "scanner_percent": "42.86"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61c186ef8991ba72b38fd650/reports/457a2675-821e-4227-bc80-7e4a945c199c/overview"
+  }
+ },
+ "comments": null
+}

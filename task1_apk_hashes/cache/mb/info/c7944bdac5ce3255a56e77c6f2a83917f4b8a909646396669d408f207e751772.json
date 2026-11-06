@@ -1,0 +1,106 @@
+{
+ "sha256_hash": "c7944bdac5ce3255a56e77c6f2a83917f4b8a909646396669d408f207e751772",
+ "sha3_384_hash": "8d5368aacb70e7c3aabb63b8945f95f3742121507c61475b2248b4038d63d465b120d62883a1b2a63da1b4d49a971ca6",
+ "sha1_hash": "3061265b0a175c3a1e8882c4deadde84fea01f9e",
+ "md5_hash": "b6389ba76327366e1ee934017c794be0",
+ "first_seen": "2026-06-10 20:39:37",
+ "last_seen": null,
+ "file_name": "0e2f6e7f-fcad-438b-8698-c796d047ba98_signed.apk",
+ "file_size": 14557807,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "dodo_sec",
+ "origin_country": "GB",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1BFE6AC23F5052AAADDC6A134F5E7179577301E540393A229171FF02AFDB25CECA27AC2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:D+djqswQtP6FO0oxQQ7PVVnhIBkbOOiW6Ou9b1yK0x4FVutm+4e1e:DYjkcKcn7Prnk0Odv9h047CJe",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "BTMOB RAT apk\r\nC2 ws://195[.]160[.]221[.]203[:]8080/\r\npossible miner module: pool[.]fud2026[.]com[:]10100",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker",
+  "BTMOB",
+  "RAT"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "337",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c7944bdac5ce3255a56e77c6f2a83917f4b8a909646396669d408f207e751772/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260610-zf6m4sgw9m/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2026-06-09 21:44:30",
+   "scanner_count": "38",
+   "scanner_match": "9",
+   "scanner_percent": "23.68"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a29cbc3bf16337e43c0a502/reports/ac987bc8-00a9-4acb-83d8-a234a24cf98c/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-06-09T13:42:00Z",
+   "last_seen": "2026-06-11T22:19:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/c7944bdac5ce3255a56e77c6f2a83917f4b8a909646396669d408f207e751772/results?tab=lookup",
+   "detections": [
+    "HEUR:Trojan-Dropper.AndroidOS.BeatBanker.f",
+    "HEUR:Trojan-Dropper.AndroidOS.BeatBanker.c"
+   ]
+  }
+ },
+ "comments": null
+}

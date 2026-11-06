@@ -1,0 +1,131 @@
+{
+ "sha256_hash": "a36910f85755cf66e7eceec3d529cede307b5d16f334b4eb5e3178d30a32f129",
+ "sha3_384_hash": "f4953a99ac5551d4ff641f69763e081608d659d3c191f8858d91eb37d3e59ea2a603b03f7e9aef229e5ce48eb2116266",
+ "sha1_hash": "246724568888323a46c33dc418782786ac85aa87",
+ "md5_hash": "c9120b2831923db835ea92103533cbe8",
+ "first_seen": "2022-08-08 11:20:52",
+ "last_seen": null,
+ "file_name": "gen_signed.apk",
+ "file_size": 3423282,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "BRATA",
+ "imphash": null,
+ "tlsh": "T182F53307FDD39235E957A039C0F0D599B525ABADD40CBF1229E195CD08B2E4AEC01E7E",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:zEVF6aL7fDW3v0AMYfccA5yosSePojWUiF:z46x3vKcANsS8oCF",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "android.spyware.IranPhishing",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "iran",
+  "irata",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "multiple",
+ "intelligence": {
+  "clamav": [
+   "Sanesecurity.Foxhole.JS_Zip_24.UNOFFICIAL"
+  ],
+  "downloads": "389",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "spyware"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "android.spyware.IranPhishing"
+  },
+  {
+   "context": "dropped_by_malware",
+   "value": "smsspy"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a36910f85755cf66e7eceec3d529cede307b5d16f334b4eb5e3178d30a32f129/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.30"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/a36910f85755cf66e7eceec3d529cede307b5d16f334b4eb5e3178d30a32f129",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "brata",
+   "score": "10",
+   "link": "https://tria.ge/reports/220808-nfzn1saaaq/",
+   "tags": [
+    "family:brata",
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2022-08-08 11:21:23",
+   "scanner_count": "26",
+   "scanner_match": "13",
+   "scanner_percent": "50.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62f0f1e3f8218b6192cd5a83/reports/32a8c222-f42e-4080-b122-955236d06445/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,103 @@
+{
+ "sha256_hash": "59b0c482d02ef1211b936a329a99819f7c3c603808960b53eca558f293362c85",
+ "sha3_384_hash": "b3a5988e4141b0bf50b72ed88deb2f8dc3606468e43a0c6267ded14c1f1086c327790abbc0de0d319e3ea5616c7f6d3d",
+ "sha1_hash": "741f00d6ea8150d2baa39f27ca74c867284f993b",
+ "md5_hash": "c58cb2d542178830e7d1a52227116256",
+ "first_seen": "2021-08-15 20:36:16",
+ "last_seen": null,
+ "file_name": "AndroidGuncelleme.apk",
+ "file_size": 3584097,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T125F53345FA038958C227C136D58739C37A5361A88BE6383E5275047234EBDDC8F5ADFA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:4BoZZDIoNryzla4dBh1TL4bXmB4lAKW+PMTb721:4BoLIoYlHdBh1TLCXmB4l1Wr+1",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.ScytheSCF.GG.1692.3770.UNOFFICIAL"
+  ],
+  "downloads": "259",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/59b0c482d02ef1211b936a329a99819f7c3c603808960b53eca558f293362c85/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/59b0c482d02ef1211b936a329a99819f7c3c603808960b53eca558f293362c85",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210815-5w8ctvskyx/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads name of network operator",
+     "score": "6"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://34.141.27.218"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-08-15 20:37:04",
+   "scanner_count": "46",
+   "scanner_match": "7",
+   "scanner_percent": "15.22"
+  }
+ },
+ "comments": null
+}

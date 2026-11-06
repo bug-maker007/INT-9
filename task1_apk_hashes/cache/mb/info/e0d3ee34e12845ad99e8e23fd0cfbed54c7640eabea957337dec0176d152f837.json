@@ -1,0 +1,92 @@
+{
+ "sha256_hash": "e0d3ee34e12845ad99e8e23fd0cfbed54c7640eabea957337dec0176d152f837",
+ "sha3_384_hash": "c795bc9e7f5e164ef1102909964738596791c8849fd8eef0360d578fe1431469282c89481970a9ec28d44da8156e1f9d",
+ "sha1_hash": "543285bb57e705944858c80d3639440110e03a56",
+ "md5_hash": "aac85152575a598cc55ade1d182f10bb",
+ "first_seen": "2021-08-26 16:51:58",
+ "last_seen": null,
+ "file_name": "e0d3ee34e12845ad99e8e23fd0cfbed54c7640eabea957337dec0176d152f837.apk",
+ "file_size": 375604,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "UnitC0rn",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Anubis",
+ "imphash": null,
+ "tlsh": "T1DB8412F9C4F4101ADABBA238972A3593DB21776C49024BC7ADCFCE452B776BC6709184",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:pDX3PgFSTNvKVcEvVpUowVrK/gU8eqX4BXMHZF+4K6bezMyWUbobjbsbabwEzLOT:pz3PgyNmLLKNMw4C5g4K6b6Qnkawdt",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Anubis",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Packed.54489.7584.1206.UNOFFICIAL"
+  ],
+  "downloads": "524",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e0d3ee34e12845ad99e8e23fd0cfbed54c7640eabea957337dec0176d152f837/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.50"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/e0d3ee34e12845ad99e8e23fd0cfbed54c7640eabea957337dec0176d152f837",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210826-d2kbq356g6/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "7"
+    },
+    {
+     "signature": "Reads name of network operator",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Anubis",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-25 06:18:00",
+   "scanner_count": "28",
+   "scanner_match": "10",
+   "scanner_percent": "35.71"
+  }
+ },
+ "comments": null
+}

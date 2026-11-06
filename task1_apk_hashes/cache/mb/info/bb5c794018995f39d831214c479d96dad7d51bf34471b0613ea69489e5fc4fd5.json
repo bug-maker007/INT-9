@@ -1,0 +1,107 @@
+{
+ "sha256_hash": "bb5c794018995f39d831214c479d96dad7d51bf34471b0613ea69489e5fc4fd5",
+ "sha3_384_hash": "6b99e363172b3d9e96e88458a94f070c116550b2e020b7da1a147bf505776fbae42300d5937174481272c685bd651225",
+ "sha1_hash": "88424ef0d9109a15d70b4cb815db6557435838b9",
+ "md5_hash": "99525d9091cd4b8d04a02dc8adcb9d9e",
+ "first_seen": "2024-02-24 20:14:12",
+ "last_seen": null,
+ "file_name": "chrome.apk",
+ "file_size": 3504363,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "500mk500",
+ "origin_country": "UA",
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T154F533137EAA9A21D9B90BB4D87BD15487757E658F03929BB950B31C2D336C10F02BB3",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:LMDSeQPzKjOiEjLJHs7+mEO+ZR9MQxsc2A/jAWOmc:LMD+/hH1mL+DSArVA",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "bankbot",
+  "Hydra"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.14643.1462.7855.UNOFFICIAL"
+  ],
+  "downloads": "738",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/banthisguy9349/status/1761464640989544834"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2769636/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/bb5c794018995f39d831214c479d96dad7d51bf34471b0613ea69489e5fc4fd5/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Anubis",
+   "score": "0.90"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/bb5c794018995f39d831214c479d96dad7d51bf34471b0613ea69489e5fc4fd5",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240224-y1jteade32/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Badpack",
+   "status": "MALICIOUS",
+   "first_seen": "2024-02-24 19:45:58",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "UNKNOWN",
+   "threatlevel": "0",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65da4e4922703c3491aedff7/reports/b1a4993f-0a18-49f3-9806-d3050b788706/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,128 @@
+{
+ "sha256_hash": "bc8d4ef11a68a6523a3a762ae5a5ce670e2fc4def138a3e4da762615325e8a13",
+ "sha3_384_hash": "12b7450ebc7e46fb83b36a89cf1f5c909cad88d8158190c841837f97117e948407f3c2c70fb044a3cadcbde9e40cd5d9",
+ "sha1_hash": "6b58f1ef78d0d3481f9037cbb43a14b91f4e3be9",
+ "md5_hash": "147ef9f8890c63a44610520d0391e9b0",
+ "first_seen": "2022-05-16 07:50:57",
+ "last_seen": null,
+ "file_name": "psk.apk",
+ "file_size": 3081993,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T18FE53341F50C799ACA2EF7B149A580CB17200DB2C629C95F5FB1F31D187AEE0275A4EE",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:/1zmKRzE8IvNM/frMzOqyI1aLento9DrF1kgTtP0UYZ2mS6jY4DfuaLwNyT8y7WA:/hBzIisCiaEoNJ1lTtP63SYYiuaLU48+",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra",
+  "signed",
+  "tor-hydra"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "338",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/bc8d4ef11a68a6523a3a762ae5a5ce670e2fc4def138a3e4da762615325e8a13/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/bc8d4ef11a68a6523a3a762ae5a5ce670e2fc4def138a3e4da762615325e8a13",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/220516-jps6dafeg3/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Hydra Payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Legitimate hosting services abused for malware hosting/C2",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2022-05-16 07:51:18",
+   "scanner_count": "21",
+   "scanner_match": "10",
+   "scanner_percent": "47.62"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/628202686b2a366ce4143ee9/reports/7c7823ea-1bcd-4435-8254-3a6f0c8e6805/overview"
+  }
+ },
+ "comments": null
+}

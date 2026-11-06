@@ -1,0 +1,171 @@
+{
+ "sha256_hash": "a78eb5e01531b42d8380be1d6a507f10610c95557716bb2173b331f80e7d2d81",
+ "sha3_384_hash": "0864d0bad503ea259b58746bb55edb0288e879353effbc21a6cd301ebf664eb65377915c891a1c6d359be59e67136d5d",
+ "sha1_hash": "e84bf0c991a22e3dff64231dc1508eeb9d1cbbf9",
+ "md5_hash": "7dd252bc7eb5a0f4af362b30a225b5ed",
+ "first_seen": "2023-12-05 11:30:08",
+ "last_seen": "2024-03-15 18:06:47",
+ "file_name": "base.apk",
+ "file_size": 1793026,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "CyberMAN_noBODY",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1128533D9D432AD9DD437C336D1520485E5A2C6C978F1E92E2CF81849ECB8828FA2DDF5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:uUahGKVUaBL2zClijxscjgVunVrgyk/9ygYmhFuONYIc2biMQ7:uUaAKVUaBLfglgExgx9/1hFuONU2biM0",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "anubis",
+  "apk",
+  "bankbot",
+  "banker",
+  "cerberus",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "multiple",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.11487.11287.26837.UNOFFICIAL"
+  ],
+  "downloads": "816",
+  "uploads": "3",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "http://162.55.21.189/gate.php"
+  },
+  {
+   "context": "dropping_sha256",
+   "value": "8941c02d6dd5bc5cbff919c93a3642498e07991e6b8cd3205df9950c764dda95"
+  },
+  {
+   "context": "dropped_by_sha256",
+   "value": "63dc18c0ae4ca921464240dd53b559e720ab810245c986cc5018581b65359d24"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a78eb5e01531b42d8380be1d6a507f10610c95557716bb2173b331f80e7d2d81/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/a78eb5e01531b42d8380be1d6a507f10610c95557716bb2173b331f80e7d2d81",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/231205-nmpsdsbb36/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "rat",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation).",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://162.55.21.189"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.UpdateAccess",
+   "status": "MALICIOUS",
+   "first_seen": "2022-01-18 02:20:00",
+   "scanner_count": "37",
+   "scanner_match": "10",
+   "scanner_percent": "27.03"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/656f09fc3f60a81034892c03/reports/7c618318-c163-4e4e-8a79-319e82d9b5c2/overview"
+  }
+ },
+ "comments": null
+}

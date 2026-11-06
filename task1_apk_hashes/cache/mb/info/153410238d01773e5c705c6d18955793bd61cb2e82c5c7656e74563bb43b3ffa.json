@@ -1,0 +1,135 @@
+{
+ "sha256_hash": "153410238d01773e5c705c6d18955793bd61cb2e82c5c7656e74563bb43b3ffa",
+ "sha3_384_hash": "3b84efaa4e5189dedc648d279d2a9ea9f18f44474930e7fd39196a6b52868b91f291e361462006cc2d3077c7b8deb881",
+ "sha1_hash": "a8afa19a4aa30b144387101a58e7f52335f24eeb",
+ "md5_hash": "382e4022f901ebc2fa15a168a8dc5a20",
+ "first_seen": "2023-04-13 13:03:54",
+ "last_seen": null,
+ "file_name": "CoinSpot.apk",
+ "file_size": 3757957,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "HK",
+ "anonymous": 1,
+ "signature": "Chameleon",
+ "imphash": null,
+ "tlsh": "T16F061292D72FEC55FDA6C736A2330183B72042634641E6FB0512A45E9BF7F96CD0AE84",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:0CEMb7Wdu21EpCPOzbGHYBLJ/Oys84q9rsljigY2a1WQOqvauFOJ+AIibJWhL9Bt:FXb/VUP2GHYBJOyI3l2WaUqCKYSKJLRE",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "52.0% (.APK) Android Package (38500/1/9)",
+  "22.9% (.SWC) Flash Component distribution archive (17000/1/2)",
+  "18.2% (.JAR) Java Archive (13500/1/2)",
+  "5.4% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.3% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "banking",
+  "chameleon",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.14642.16227.6482.UNOFFICIAL"
+  ],
+  "downloads": "459",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://blog.cyble.com/2023/04/13/chameleon-a-new-android-malware-spotted-in-the-wild/?utm_content=245135784&utm_medium=social&utm_source=twitter&hss_channel=tw-1141929006603866117"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/153410238d01773e5c705c6d18955793bd61cb2e82c5c7656e74563bb43b3ffa/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/153410238d01773e5c705c6d18955793bd61cb2e82c5c7656e74563bb43b3ffa",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/230413-qaxzcach6w/",
+   "tags": [
+    "android",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks Android system properties for emulator presence.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-04-04 06:45:12",
+   "scanner_count": "37",
+   "scanner_match": "7",
+   "scanner_percent": "18.92"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "0.8333333333333333",
+   "report_link": "https://www.filescan.io/uploads/6437fdc4b4ec50bace5ffaf5/reports/abd72172-c028-4288-9af6-f493968e8fd5/overview"
+  }
+ },
+ "comments": null
+}

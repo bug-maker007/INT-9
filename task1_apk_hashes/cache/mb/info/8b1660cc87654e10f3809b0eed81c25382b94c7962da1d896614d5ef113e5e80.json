@@ -1,0 +1,125 @@
+{
+ "sha256_hash": "8b1660cc87654e10f3809b0eed81c25382b94c7962da1d896614d5ef113e5e80",
+ "sha3_384_hash": "4fe99fa89445e5e14bbb0f5ecdb1d1c87164bba5bd2b583dbe6b8916bbef063a7cb09f06e9af3556ecf85ec1eafa55f5",
+ "sha1_hash": "5295f93df913e307bfe451bdf5c795bd5ef291b7",
+ "md5_hash": "fc1717dcb2b85501d6af3f2c15f681fb",
+ "first_seen": "2024-04-16 09:48:15",
+ "last_seen": "2025-03-24 04:13:03",
+ "file_name": "Mad-rat.apk",
+ "file_size": 2012208,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1EB951283F725A86BC4F6D3322165123A903B5D28CB47BB863D5933F934BBAD84B915C4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:r/TbgckgdPw3kv+GDCjoOXHO5NQEVhD0UYrjPt3Y:zHgckgVw3XG+EZ5NQEV90FY",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "417",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8b1660cc87654e10f3809b0eed81c25382b94c7962da1d896614d5ef113e5e80/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/8b1660cc87654e10f3809b0eed81c25382b94c7962da1d896614d5ef113e5e80",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240416-ltb4rseg58/",
+   "tags": [
+    "family:irata",
+    "android",
+    "discovery"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Backdoor.Basdoor",
+   "status": "MALICIOUS",
+   "first_seen": "2024-03-13 16:03:45",
+   "scanner_count": "23",
+   "scanner_match": "10",
+   "scanner_percent": "43.48"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/661e499251edb67852f5e3cc/reports//overview"
+  }
+ },
+ "comments": null
+}

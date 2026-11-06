@@ -1,0 +1,236 @@
+{
+ "sha256_hash": "5ffaf48aa6c0bc2efd6671ac8872f287e46f2287160f4249a26dc1c5021c7e58",
+ "sha3_384_hash": "94900fca45aa4477168ba84bbf4af3e84133aeaf0474fbb55ebfc9e6843ca079f1d7758671667fa4d2d21b26e9ef9c6e",
+ "sha1_hash": "74e064d18561b63a9439aa7fa1eef13d70ef6d54",
+ "md5_hash": "fccaae0ea4e6a18195ea22ee36526556",
+ "first_seen": "2023-09-04 14:12:11",
+ "last_seen": null,
+ "file_name": "GooglePlay_011552.apk",
+ "file_size": 554091,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "CyberMAN_noBODY",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T126C423EB4FAD1D0DD5B9D6F148D3EB0B6364DC8A49BC0F1522A362452708A1DCB278BC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:PyVzzedIGnyG8lFGReBo2c5vDbhkKS62K++7:PUKdvD8lLBxK9L",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "72.9% (.JAR) Java Archive (13500/1/2)",
+  "21.6% (.ZIP) ZIP compressed archive (4000/1)",
+  "5.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "abfuscated",
+  "android",
+  "apk",
+  "bankbot",
+  "Coper",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.Coper.2383.14990.23568.UNOFFICIAL"
+  ],
+  "downloads": "379",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "coper",
+   "link": "https://mwdb.cert.pl/sample/5ffaf48aa6c0bc2efd6671ac8872f287e46f2287160f4249a26dc1c5021c7e58/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.05"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/5ffaf48aa6c0bc2efd6671ac8872f287e46f2287160f4249a26dc1c5021c7e58",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/230904-rjed2aha62/",
+   "tags": [
+    "family:coper",
+    "family:octo",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "ransomware",
+    "rat",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Coper",
+     "score": "10"
+    },
+    {
+     "signature": "Coper payload",
+     "score": "10"
+    },
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://179.43.142.190/MDQ4Yzc4NTJkYTg4/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://179.43.142.192/MDQ4Yzc4NTJkYTg4/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://acizac1322343.xyz/MDQ4Yzc4NTJkYTg4/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://aciktim223432516.xyz/MDQ4Yzc4NTJkYTg4/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://azisswravaas.xyz/MDQ4Yzc4NTJkYTg4/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://azisswravaas1.xyz/MDQ4Yzc4NTJkYTg4/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://azisswravaas2.xyz/MDQ4Yzc4NTJkYTg4/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://1azisswravaas.xyz/MDQ4Yzc4NTJkYTg4/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://2azisswravaas.xyz/MDQ4Yzc4NTJkYTg4/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://3azisswravaas.xyz/MDQ4Yzc4NTJkYTg4/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://6azisswravaas.xyz/MDQ4Yzc4NTJkYTg4/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://5azisswravaas.xyz/MDQ4Yzc4NTJkYTg4/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://4azisswravaas.xyz/MDQ4Yzc4NTJkYTg4/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2023-06-10 17:43:06",
+   "scanner_count": "38",
+   "scanner_match": "23",
+   "scanner_percent": "60.53"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/64f5e5ef4578d9c35e019863/reports/b1ef0edb-89d0-41e5-95b2-7fb35b74f355/overview"
+  }
+ },
+ "comments": null
+}

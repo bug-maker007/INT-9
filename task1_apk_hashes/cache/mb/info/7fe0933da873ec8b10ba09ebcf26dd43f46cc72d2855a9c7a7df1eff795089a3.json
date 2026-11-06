@@ -1,0 +1,111 @@
+{
+ "sha256_hash": "7fe0933da873ec8b10ba09ebcf26dd43f46cc72d2855a9c7a7df1eff795089a3",
+ "sha3_384_hash": "9f5c67a9af1d5fd77a6a1ebf8e53cde2fe7b24cc4be6df3e7c63765c8e8bef9f44dcb537bd025977ff6d4948fbd2c426",
+ "sha1_hash": "ec8055ef65e29f71bd265131447016c0a81b59b6",
+ "md5_hash": "94135149ae7347873663d34e78791970",
+ "first_seen": "2024-05-06 17:40:14",
+ "last_seen": null,
+ "file_name": "EDALAT.apk",
+ "file_size": 2898525,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T196D52353F266B96BC8F1C3732265563A11360D248747F74A385933FE68BBEE48B852C4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:IZvOe1Be0lH13aujKaQB4KHtAffyyYln+s2wg/JKwI2EAcC71AKybvjtO1BoJEre:wWe+0Lq8MB2fywZBKR20C71rKRere",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2021-05-22T04:58:32Z",
+   "valid_to": "2120-09-04T04:58:32Z",
+   "serial_number": "0c11d603",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e702de593abce6259624b294b47a16a0239caa17322c3285b6d1c8acf7fbf30d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Siggen.Susp.9378.8818.9715.UNOFFICIAL"
+  ],
+  "downloads": "378",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7fe0933da873ec8b10ba09ebcf26dd43f46cc72d2855a9c7a7df1eff795089a3/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240506-v9en9sfc73/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.SpyApp",
+   "status": "MALICIOUS",
+   "first_seen": "2024-04-19 14:14:47",
+   "scanner_count": "38",
+   "scanner_match": "8",
+   "scanner_percent": "21.05"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/66391630a2d36d9500f1b061/reports/f996b2f5-8e5c-4ae5-80ea-73328f179360/overview"
+  }
+ },
+ "comments": null
+}

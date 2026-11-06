@@ -1,0 +1,124 @@
+{
+ "sha256_hash": "2a003ae37fe91adc7b5f15b6162e71d9dcca1474a2e8b91f758dce3106f5fc1e",
+ "sha3_384_hash": "7c4eaf1da74705e3aded97085e6495cee91ed4191ab69574d3d026d329cee3000252830e9168fbd782df1d0fd29e57c4",
+ "sha1_hash": "ccb160cee74c137ae267dad30c7039d1587bb8af",
+ "md5_hash": "89b427d916588d1f58b53f6e27488b85",
+ "first_seen": "2024-02-06 09:42:23",
+ "last_seen": null,
+ "file_name": "3D Compass.apk",
+ "file_size": 8632400,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ni_fi_70",
+ "origin_country": "AT",
+ "anonymous": 0,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T195960287F32CA46FD8B765B14E79122246970C224A83ABE77D05B22C19B75D48F9DFC0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:hWJWhpTk6pItZUwaFXPLVx3CStg5pUPHSxPb:RkJtZ1aFvLtanxj",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "43.9% (.APK) Android Package (32500/1/6)",
+  "18.2% (.JAR) Java Archive (13500/1/2)",
+  "16.8% (.VYM) VYM Mind Map (12500/1/3)",
+  "14.1% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Joker",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2024-01-17T19:57:28Z",
+   "valid_to": "2054-01-17T19:57:28Z",
+   "serial_number": "83f3378ecabb6054a131a5f2d1f4681bd7b789ea",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "5db38ae7a08b015008dccac438e61c53d213b8fd31bceedc1614c4e0fcf9358b",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "679",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://play.google.com/store/apps/details?id=com.mycalculator.mycalculatorsimple"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2a003ae37fe91adc7b5f15b6162e71d9dcca1474a2e8b91f758dce3106f5fc1e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/2a003ae37fe91adc7b5f15b6162e71d9dcca1474a2e8b91f758dce3106f5fc1e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/240206-lpw85sfbak/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation)",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2024-02-06 09:43:07",
+   "scanner_count": "24",
+   "scanner_match": "2",
+   "scanner_percent": "8.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.25",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65c1ff2b1a072d565266f64a/reports/69396a5d-0d4f-449a-800f-3fde1a822a43/overview"
+  }
+ },
+ "comments": null
+}

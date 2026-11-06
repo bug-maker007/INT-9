@@ -1,0 +1,109 @@
+{
+ "sha256_hash": "efb92fb17348eb10ba3a93ab004422c30bcf8ae72f302872e9ef3263c47133a7",
+ "sha3_384_hash": "64f1b94a16051cd235423652160062edf8fefd1cced183b78faae262d69695c47a3aaffc3e488bfff748fa6eddd125ec",
+ "sha1_hash": "b45ff7ff0126a88d6782d6871c472577cb7b103c",
+ "md5_hash": "03f51334546586d0b56ee81d3df9fd7a",
+ "first_seen": "2021-09-09 22:24:38",
+ "last_seen": "2022-08-29 13:58:19",
+ "file_name": "efb92fb17348eb10ba3a93ab004422c30bcf8ae72f302872e9ef3263c47133a7.apk",
+ "file_size": 3078477,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": null,
+ "anonymous": 1,
+ "signature": "Sova",
+ "imphash": null,
+ "tlsh": "T154E5334796C5C992CE7F5D3612A049AA633C1DDA9B3287673813321007F3EB4AB6BF45",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:4rMh/6AkTrS2CLMw9FFGa3GDykYku2XokVlJ3tBNb+PavPbzgWE2:4rMh4Tg9FUkGDykFok7xNMavPbzgY",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": "Mobile trojan",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "s.o.v.a",
+  "sova"
+ ],
+ "code_sign": null,
+ "delivery_method": "multiple",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "306",
+  "uploads": "3",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/ni_fi_70/status/1435923761593790465?s=20"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "sova"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "S.O.V.A"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "s.o.v.a"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/efb92fb17348eb10ba3a93ab004422c30bcf8ae72f302872e9ef3263c47133a7/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/efb92fb17348eb10ba3a93ab004422c30bcf8ae72f302872e9ef3263c47133a7",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210909-2bx7aacael/",
+   "tags": [
+    "android",
+    "obfuscation"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "7"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-07-20 13:29:00",
+   "scanner_count": "27",
+   "scanner_match": "11",
+   "scanner_percent": "40.74"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,107 @@
+{
+ "sha256_hash": "520bb48650d74d10fc6a2b00d1b0bb8251e8a85f5f957d4fe4f5a726d24ff38c",
+ "sha3_384_hash": "531794ec266f10d69e1446c17473a8f8cf6fb54f8cc26d6a6a8425d8016593744d7bacba384254e340c944917bcfe41e",
+ "sha1_hash": "9a6ad26b23e9eea665e26e18eb44cfe23566d6d8",
+ "md5_hash": "4ee8a4eef6c7f6b29e30885f5bb9c751",
+ "first_seen": "2024-12-20 16:40:34",
+ "last_seen": null,
+ "file_name": "2video.1_453.01.98_1_apk-1507F90-xjh.apk",
+ "file_size": 86034599,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T14E181267E32C9FCBD0A3D6326A39D091106B2CAC574BD2A72C2C79B90B775C3570A8D5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:vapSQ83z1qM7Q7naXuKC4zjnke1QirOsUWvGDkyI:SAQ8o9OXuKHn/1ZrJ",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "26.4% (.APK) Android Package (27000/1/5)",
+  "21.0% (.OXT) OpenOffice Extension (21500/1/3)",
+  "14.2% (.LBX) P-touch Editor Label (14500/1/2)",
+  "13.2% (.JAR) Java Archive (13500/1/2)",
+  "10.7% (.CATROBAT) Pocket Code/Catroid Catrobat Project (11000/1/2)"
+ ],
+ "comment": "https://academic.b-cdn.net/2video.1_453.01.98_1_apk-1507F90-xjh.apk",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2024-11-27T07:21:24Z",
+   "valid_to": "2054-11-20T07:21:24Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "2fd18f5943c2739a6a6232acf44917c5e1b457578ac67c4922f18b1254f47ec6",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "237",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/241220-t4a88azkby"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/520bb48650d74d10fc6a2b00d1b0bb8251e8a85f5f957d4fe4f5a726d24ff38c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "triada",
+   "score": "10",
+   "link": "https://tria.ge/reports/241220-t64csazral/",
+   "tags": [
+    "family:triada",
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Triada",
+   "status": "MALICIOUS",
+   "first_seen": "2024-12-19 21:55:16",
+   "scanner_count": "38",
+   "scanner_match": "3",
+   "scanner_percent": "7.89"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67659e23f7937d37eb50d0d2/reports/9473ac7b-c9b5-4448-bf9d-5ff650f6c919/overview"
+  }
+ },
+ "comments": null
+}

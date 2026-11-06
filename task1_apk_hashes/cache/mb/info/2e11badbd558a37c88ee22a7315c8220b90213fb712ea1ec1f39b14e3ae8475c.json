@@ -1,0 +1,114 @@
+{
+ "sha256_hash": "2e11badbd558a37c88ee22a7315c8220b90213fb712ea1ec1f39b14e3ae8475c",
+ "sha3_384_hash": "8a31684f770ce65533a105c8e69bb13b71d3fedc7ea634d1837a3630f133f3c42a199a4e8b3e7e4f016d22e6759af66f",
+ "sha1_hash": "c43efafa69c43be60145e81527cecc12702342c3",
+ "md5_hash": "328cc22e3ee331ed873d70bdfd8ffd89",
+ "first_seen": "2026-05-08 09:32:03",
+ "last_seen": null,
+ "file_name": "file_0.apk",
+ "file_size": 6628636,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1B766D041E7878596C8BEC17AC579833B1BB71E12C79383936419F214CD7A3F72D8AA81",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:oWtM5WQRLQSvlxJrsf/3qjklUng3vGsqM88aF8oAaphSOT0nAE1zHNUKc39dH:oWtDQnlxhdklUoODR9bTQAWCR",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Packed.NP.1.25898.3467.UNOFFICIAL"
+  ],
+  "downloads": "202",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2e11badbd558a37c88ee22a7315c8220b90213fb712ea1ec1f39b14e3ae8475c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/2e11badbd558a37c88ee22a7315c8220b90213fb712ea1ec1f39b14e3ae8475c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-ljw17aat7j/",
+   "tags": [
+    "android",
+    "impact"
+   ],
+   "signatures": [
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.AVerseFalc",
+   "status": "MALICIOUS",
+   "first_seen": "2026-05-08 09:32:53",
+   "scanner_count": "38",
+   "scanner_match": "10",
+   "scanner_percent": "26.32"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fdadad2fcb905ec28807a0/reports/564c25a4-fc52-4ea1-a4c0-a08cd2b411b7/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-08T07:23:00Z",
+   "last_seen": "2026-05-08T07:44:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/2e11badbd558a37c88ee22a7315c8220b90213fb712ea1ec1f39b14e3ae8475c/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

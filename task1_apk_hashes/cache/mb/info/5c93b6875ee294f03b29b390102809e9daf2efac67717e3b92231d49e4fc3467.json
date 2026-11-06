@@ -1,0 +1,245 @@
+{
+ "sha256_hash": "5c93b6875ee294f03b29b390102809e9daf2efac67717e3b92231d49e4fc3467",
+ "sha3_384_hash": "fbd46ee962af1c1edb040d3614a5dc5a23e3d0db7942edf48737e29b2dafca216765253627670bf7f49eb92b609dfc10",
+ "sha1_hash": "6ba6184aaa44070bdfc2bf8df9708d0a4356a250",
+ "md5_hash": "7912474dba7df6d46e8abd3ad47ed8ed",
+ "first_seen": "2024-10-11 08:27:51",
+ "last_seen": null,
+ "file_name": "5c93b6875ee294f03b29b390102809e9daf2efac67717e3b92231d49e4fc3467",
+ "file_size": 9733424,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "ES",
+ "anonymous": 1,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T1B5A68D63B719892DD6C8767760BAAF11F7247848A75326CB350CE2606F472ECBE643C1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:GTiYcdoC796L81vcj7VRsz0nVKC55iSRGQCI7pxlpXU8Abu5nQ1LAjAM:GZcq1LQEj7VR6MUmrs4dQlAT",
+ "magika": "jar",
+ "dhash_icon": null,
+ "trid": [
+  "43.5% (.APK) Android Package (27000/1/5)",
+  "21.7% (.JAR) Java Archive (13500/1/2)",
+  "16.9% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "11.2% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "6.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Coper",
+  "Octo2",
+  "signed",
+  "zip"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.HEUR.Trojan-Banker.AndroidOS.Coper.d.11495.26854.UNOFFICIAL",
+   "SecuriteInfo.com.HEUR.Trojan-Banker.AndroidOS.Coper.d.6599.2301.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.24588.161.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.27080.17066.UNOFFICIAL"
+  ],
+  "downloads": "364",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "F01_s1ckrule",
+   "author": "s1ckb017",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "ldpreload",
+   "author": "xorseed",
+   "description": null,
+   "reference": "https://stuff.rop.io/"
+  },
+  {
+   "rule_name": "Linux_Trojan_Generic_5420d3e7",
+   "author": "Elastic Security",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "octo2_packer_s",
+   "author": "Alberto Segura",
+   "description": "Detects Octo2 Packer's code (native library! .so) -- This rule only looks for strings! code depends on arch.. x86, x86_64, armeabi-v7a, arm64-v8a",
+   "reference": null
+  },
+  {
+   "rule_name": "test_Malaysia",
+   "author": "rectifyq",
+   "description": "Detects file containing malaysia string",
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5c93b6875ee294f03b29b390102809e9daf2efac67717e3b92231d49e4fc3467/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/5c93b6875ee294f03b29b390102809e9daf2efac67717e3b92231d49e4fc3467",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/241011-k7w6eswalg/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the unique device ID (IMEI, MEID, IMSI)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://0e97556072acd897b127d53221a49ecb.com"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2024-10-02 00:06:35",
+   "scanner_count": "38",
+   "scanner_match": "9",
+   "scanner_percent": "23.68"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6708e19301a1b9531ae95433/reports/2c08537a-7508-4314-8fbb-b1afed61dbbd/overview"
+  }
+ },
+ "comments": null
+}

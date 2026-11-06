@@ -1,0 +1,123 @@
+{
+ "sha256_hash": "e422e435a5abc7a2476dd7320954433f55e5f229abe0aaffa6b909d5bd3064c2",
+ "sha3_384_hash": "6a8d1413d574119f45d0f88c593c43a6734bdecca7f11abb518dc3cd78f920d62104eb1d4fdddb2cb99d9edd6d3ea545",
+ "sha1_hash": "fc42bf058847947ca44a175819bb90983673f2f4",
+ "md5_hash": "9c33d02698e8998a5b2dfe9128f77fdd",
+ "first_seen": "2026-07-09 07:42:58",
+ "last_seen": null,
+ "file_name": "payload_reconstructed.apk",
+ "file_size": 911629,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Xenofic",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T15815F142F2F6EA4BCC34D2702949563A242B5E28CB42A75B384477FD74BB9EC0B857D4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:4mWC1EkTl1iO4VsMAV6TrL4WZ6lXob5+T1hkls6M0gfXsOGgr9z/rygcgA1SpmAV:4mlVU3OBT1m54f8AFWqmAk7Scf7Tx0",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "87.0% (.APK) Android Package (27000/1/5)",
+  "12.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "RECONSTRUCTED from the dropper \"SBI Bank.apk\" (SHA-256 3408f14720eff6ff93e402f85cae60b17793eab8ccd501a17fa0eaa51a087f0d) by XOR-decoding its four embedded resource chunks (keys 0xAA–0xAD) and concatenating in order.\r\n\r\nCapabilities: SBI WebView phishing (card/DOB/CIF/account/ATM PIN, live keystroke exfil), READ/RECEIVE/SEND_SMS interception + offline forwarding, USSD execution per SIM slot, image exfil to freeimage.host, installed-app inventory, foreground-service + boot persistence with OEM autostart prompts. C2: Firebase RTDB apptst-1v-default-rtdb.firebaseio.com under Users/<android_id>/... (status, formInfo/Details, inbox, sim_info, uploaded_images, commands, command_result). Dex2C native protection (libstub.so; JNI_OnLoad dynamically registers np/dcc/protect/EntryPoint.stub(int)).\r\n\r\nPayload pkg: com.titanpihuwijahi.nofohotudivela",
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "banking",
+  "dex2c",
+  "firebasec2",
+  "SBI"
+ ],
+ "code_sign": null,
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "277",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "Jeevan_Malware_Rewards",
+   "author": "ShriTiger",
+   "description": "Detects JeevanReward variants using Technical, Anti-Analysis, and Indian SE keywords",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e422e435a5abc7a2476dd7320954433f55e5f229abe0aaffa6b909d5bd3064c2/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260709-j59s3afx4w/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-07-09 08:16:20",
+   "scanner_count": "38",
+   "scanner_match": "4",
+   "scanner_percent": "10.53"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a4f58d0c0d62d43e2d8c18b/reports/c896b98e-0958-43e5-b30b-cb66a024c79e/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-09T05:45:00Z",
+   "last_seen": "2026-07-10T19:27:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/e422e435a5abc7a2476dd7320954433f55e5f229abe0aaffa6b909d5bd3064c2/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

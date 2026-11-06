@@ -1,0 +1,117 @@
+{
+ "sha256_hash": "d786550044be632e5472f7e82907e3ab59a0702501dc815c956412c2fb20a13e",
+ "sha3_384_hash": "aa8681b027ed56d5b9b6883f974622887ec7fa466375ad20cba4b8941542d8ce9078db90a74f44636e1b40969c74622a",
+ "sha1_hash": "ea35a9f17cb600cd3405219193aa63fd69905414",
+ "md5_hash": "f91dc4a9a1ba0169d65da1f8b7355ff3",
+ "first_seen": "2022-01-26 08:17:44",
+ "last_seen": null,
+ "file_name": "coba.apk",
+ "file_size": 7991016,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T15C86335AA7C9D104D94A3E30844A460893094EFBDB7BC54FC587B63529B6BE0E346F2F",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:q8Os0uj36/yaz4j1Ymb7UR+GtNIIUcbuXeUvbOGeJYeiFPrMhwyNs:F0JMjARNuctCbheJY5Mw2s",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra",
+  "signed",
+  "tor-hydra"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SMS-10.UNOFFICIAL"
+  ],
+  "downloads": "292",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d786550044be632e5472f7e82907e3ab59a0702501dc815c956412c2fb20a13e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.06"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/d786550044be632e5472f7e82907e3ab59a0702501dc815c956412c2fb20a13e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/220126-j7arrabbe8/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2022-01-26 08:18:45",
+   "scanner_count": "28",
+   "scanner_match": "12",
+   "scanner_percent": "42.86"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61f103c1d73ca9d4648c1f6b/reports/b4a0962a-233e-46b1-b916-44c4f00cf4e1/overview"
+  }
+ },
+ "comments": null
+}

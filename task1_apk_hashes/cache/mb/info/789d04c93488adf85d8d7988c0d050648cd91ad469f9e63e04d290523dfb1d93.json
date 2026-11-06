@@ -1,0 +1,110 @@
+{
+ "sha256_hash": "789d04c93488adf85d8d7988c0d050648cd91ad469f9e63e04d290523dfb1d93",
+ "sha3_384_hash": "5d9ed699ce9654a0ac2458dbe11e06653d808d9f078b8f645e1b8f49a8a2fedf7370d5dc00064ee0a83fe1b701bf59c2",
+ "sha1_hash": "84e2183358f3f9ab5c80da4aaf69da9986f5bdb6",
+ "md5_hash": "c8c78623627fe4577e4f51871b47a1c2",
+ "first_seen": "2024-01-15 08:12:12",
+ "last_seen": null,
+ "file_name": "dl.apk",
+ "file_size": 1125670,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T1DC3523463942E653DD3C43F46F16D4CD66363E24AFA1A8A73928F76CA9736C40B9E0D0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:1GlQBkiOfXTaBpI7IEPw9NBPqAC+B0MxDsdEj1:V4DaOorqH+B0MxDiEj1",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "x",
+   "issuer_cn": "x",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2017-07-30T13:20:55Z",
+   "valid_to": "2042-07-24T13:20:55Z",
+   "serial_number": "19b6398d",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "511259d7a3921e17d0ae2d7174d32f588ff13090729387e7080a275964265e99",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.PUA.Tool.ApkProtector.16.origin.18341.28588.UNOFFICIAL"
+  ],
+  "downloads": "734",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/789d04c93488adf85d8d7988c0d050648cd91ad469f9e63e04d290523dfb1d93/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/789d04c93488adf85d8d7988c0d050648cd91ad469f9e63e04d290523dfb1d93",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240115-j4earsdce2/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.BankerAgent",
+   "status": "MALICIOUS",
+   "first_seen": "2024-01-13 18:02:00",
+   "scanner_count": "23",
+   "scanner_match": "10",
+   "scanner_percent": "43.48"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/65a4e90f99da41ccd7d41547/reports//overview"
+  }
+ },
+ "comments": null
+}

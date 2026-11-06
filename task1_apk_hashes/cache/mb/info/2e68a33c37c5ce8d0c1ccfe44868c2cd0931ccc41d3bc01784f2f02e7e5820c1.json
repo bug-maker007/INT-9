@@ -1,0 +1,129 @@
+{
+ "sha256_hash": "2e68a33c37c5ce8d0c1ccfe44868c2cd0931ccc41d3bc01784f2f02e7e5820c1",
+ "sha3_384_hash": "a9d0883237712894f0a4c3befefc743b3ae1053f0c64e68341a5ca533b1929df0343a10e821e9046fe86283c198796f4",
+ "sha1_hash": "569b59a95263c6da67d95129b7bad49f1756963d",
+ "md5_hash": "1fc7c800eab4f46c0491da338cb658ee",
+ "first_seen": "2026-05-08 08:48:05",
+ "last_seen": null,
+ "file_name": "iMobile Lite (23).apk",
+ "file_size": 15066736,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T185E62227F74979AFD8FBE331887A56A540199D26CF47A1C76928733C14B38C59B8B2C0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:IlHj3p85aBQ0rRo9JdRMyUi9+xqZX5jq/CGLcKIk8:o36krYMO6qZpjmCGPF8",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "ICICI",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "144",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "MoleBoxv20",
+   "author": "malware-lu",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "vmdetect",
+   "author": "nex",
+   "description": "Possibly employs anti-virtualization techniques",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2e68a33c37c5ce8d0c1ccfe44868c2cd0931ccc41d3bc01784f2f02e7e5820c1/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/2e68a33c37c5ce8d0c1ccfe44868c2cd0931ccc41d3bc01784f2f02e7e5820c1",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-krzavaez4x/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-11-26 14:22:31",
+   "scanner_count": "36",
+   "scanner_match": "2",
+   "scanner_percent": "5.56"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fda3552fcb905ec287ee04/reports/1176ce32-61a7-4a6a-b75c-f37c8c2c130a/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-11-26T09:11:00Z",
+   "last_seen": "2026-05-08T07:37:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/2e68a33c37c5ce8d0c1ccfe44868c2cd0931ccc41d3bc01784f2f02e7e5820c1/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

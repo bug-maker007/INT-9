@@ -1,0 +1,226 @@
+{
+ "sha256_hash": "c285378211e69f0c60c781125246f92357243d1f2832c03234255dc2a90a9674",
+ "sha3_384_hash": "84af82d7224ca2ce3384bc570cb0d5ff16231a24207d5cb92e7b2b64226c702e934f01ec84717b36ae803ddf7034842f",
+ "sha1_hash": "88f8774ffb21c8a1eaa43c1177135884ef05f480",
+ "md5_hash": "769bb3dc0e0193adba7d0133e877503e",
+ "first_seen": "2024-08-06 13:07:51",
+ "last_seen": null,
+ "file_name": "chrome.apk",
+ "file_size": 4367929,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "Hook",
+ "imphash": null,
+ "tlsh": "T1E4161202FBD6A45EE8FB83395B39897A50065C6ACF03DF635910733C48776C28EA5E94",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:mI/Jtgrndt42QTzEndzkX+NW4/e5mwI04KDKk93n:mI/JbzEdzp4Ae5nFDKuX",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hook",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.14643.11672.27518.UNOFFICIAL"
+  ],
+  "downloads": "364",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "apk_flubot_w0",
+   "author": "Thomas Barabosch, Telekom Security",
+   "description": "matches on dumped, decrypted V/DEX files of Flubot version > 4.2",
+   "reference": null
+  },
+  {
+   "rule_name": "BitcoinAddress",
+   "author": "Didier Stevens (@DidierStevens)",
+   "description": "Contains a valid Bitcoin address",
+   "reference": null
+  },
+  {
+   "rule_name": "JAR_STRRAT_April_2024",
+   "author": "NDA0E",
+   "description": "Detects STRRAT config filename",
+   "reference": null
+  },
+  {
+   "rule_name": "strrat_jar_v1",
+   "author": "RandomMalware",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "SUSP_obfuscated_JS_obfuscatorio",
+   "author": "@imp0rtp3",
+   "description": "Detect JS obfuscation done by the js obfuscator (often malicious)",
+   "reference": "https://obfuscator.io"
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c285378211e69f0c60c781125246f92357243d1f2832c03234255dc2a90a9674/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c285378211e69f0c60c781125246f92357243d1f2832c03234255dc2a90a9674",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hook",
+   "score": "10",
+   "link": "https://tria.ge/reports/240806-qc7xbstfmd/",
+   "tags": [
+    "family:hook",
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hook",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about the current Wi-Fi connection",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hook",
+     "c2": "http://85.28.47.32"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Badpack",
+   "status": "MALICIOUS",
+   "first_seen": "2024-07-07 01:16:20",
+   "scanner_count": "23",
+   "scanner_match": "8",
+   "scanner_percent": "34.78"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/66b22035e7dbbbdfcd09d57e/reports/0173222a-49cf-4ea1-bb0b-86734100b881/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,79 @@
+{
+ "sha256_hash": "545fb5d571cab5d861d1259d4c31cd292795189aee79041821c9d9221c570e9c",
+ "sha3_384_hash": "68f604b5a45110628d748d3a1c904bddda886304031fb4a32e7c19bd2ae65a7109dd7a5e111b49549a6697b35ba0da36",
+ "sha1_hash": "af12171124192d854a3fec4917c34ff2385cc2e7",
+ "md5_hash": "721d736f26c2704caa092daa910bf44f",
+ "first_seen": "2025-05-31 19:11:23",
+ "last_seen": null,
+ "file_name": "Chrome.apk",
+ "file_size": 3056452,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "Crocodilus",
+ "imphash": null,
+ "tlsh": "T167E533B2F7A91D0FCDD186BB1F7CFAB9510CD8EB869129CE6401DE857808C2653CA365",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:P9vMXP/7TElIy2X4IwWHej+0rBA3yuZG/AK/wZ9avNdgLIZIqScjO06/kSb8XMF+:lvET4lRhZae9ry3yuZG/d/BvNRBScC0x",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Crocodilus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "Sanesecurity.Foxhole.JS_Zip_21.UNOFFICIAL",
+   "Sanesecurity.Foxhole.JS_Zip_23.UNOFFICIAL"
+  ],
+  "downloads": "135",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Alevaul",
+   "status": "MALICIOUS",
+   "first_seen": "2025-04-10 14:46:57",
+   "scanner_count": "24",
+   "scanner_match": "8",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ]
+ },
+ "comments": null
+}

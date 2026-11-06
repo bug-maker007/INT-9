@@ -1,0 +1,104 @@
+{
+ "sha256_hash": "2053504ebc97addac8d6aec85e8dbf9b522078ad2544080984489fd314e4b4ca",
+ "sha3_384_hash": "352d72d7697bbf0eab5434f7cfcd8ec7a54648fda63c9e1fc6b501f4432a5baa14974b04abffd006fa4189ca38e0d8a3",
+ "sha1_hash": "716bc3681c5581490ec3e7583ae96dd85ae961a5",
+ "md5_hash": "78d26874043fbc858b9e6e6208ec7100",
+ "first_seen": "2021-03-17 13:06:56",
+ "last_seen": null,
+ "file_name": "DHL-TRACKING.apk",
+ "file_size": 3374749,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "7EF533D7E78CA1BFD8AD0B7235C7E2308D936445AE30A059389DDE00CBE5DA276B7158",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:/7uTZYJkh0UDA1/3RMnN8eNwCKW2/D4L3M5o3JAjZXtfXn6i+RWGu9IsOxdjk5:Du73AxefMW2kjMG3JAFXtv6i+RfuHGK",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Andr.Banker-GTV.3294.25190.UNOFFICIAL"
+  ],
+  "downloads": "212",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/ReBensk/status/1372171671809921028?s=20"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1073164/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "PM_Zip_with_js",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/2053504ebc97addac8d6aec85e8dbf9b522078ad2544080984489fd314e4b4ca/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/2053504ebc97addac8d6aec85e8dbf9b522078ad2544080984489fd314e4b4ca",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/210317-ghtc8fr6ks/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Boogr",
+   "status": "MALICIOUS",
+   "first_seen": "2021-03-17 13:07:06",
+   "scanner_count": "28",
+   "scanner_match": "8",
+   "scanner_percent": "28.57"
+  }
+ },
+ "comments": null
+}

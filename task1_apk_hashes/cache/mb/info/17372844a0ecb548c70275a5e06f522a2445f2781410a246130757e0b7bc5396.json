@@ -1,0 +1,181 @@
+{
+ "sha256_hash": "17372844a0ecb548c70275a5e06f522a2445f2781410a246130757e0b7bc5396",
+ "sha3_384_hash": "62d0c7d8139a0bb06d0aef6d6a40d4c43deaf36cfdeaf1f14919085d8a0fb7cc7ec023abe8ac3e67f138c69e71b943d5",
+ "sha1_hash": "cbb863074e1b48471000490c3fb3c6eb45fe4e74",
+ "md5_hash": "56f8a4547589971dd255b5371550015d",
+ "first_seen": "2026-03-23 21:22:37",
+ "last_seen": null,
+ "file_name": "ready.apk",
+ "file_size": 733499,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T1FAF412437F46CCC6EAF7023A5A9C41E2253F6FA60D42C6973A53F26ED5736C09B81944",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:KcWRLGvBxGufjKAI22Z4DdGcajhb3pSjaWbs6bKOYIPTLXeYswusT3cgtN0Fos0A:KcWIHjKJ22Z2dGc6hb3pSrs6mnITLHTU",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "SpyNote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Meta",
+   "issuer_cn": "Meta",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2022-01-14T18:51:07Z",
+   "valid_to": "4050-09-09T18:51:07Z",
+   "serial_number": "3b80a3b7",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "159777041b3b2f5d0464c87c3194f08070aa0744895695f960b3dbacceb2f020",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan.AndroidOS.dav.12724.UNOFFICIAL"
+  ],
+  "downloads": "458",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "Spynote_craxsrat_strings",
+   "author": "Alberto Segura",
+   "description": "Detects Spynote Android Malware",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/17372844a0ecb548c70275a5e06f522a2445f2781410a246130757e0b7bc5396/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.09"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/17372844a0ecb548c70275a5e06f522a2445f2781410a246130757e0b7bc5396",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/260323-z8klcahx9m/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "fapennybdj.localto.net:2504"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2026-03-19 21:15:00",
+   "scanner_count": "36",
+   "scanner_match": "14",
+   "scanner_percent": "38.89"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69c1af452000fc76c3fa93f7/reports/91ca0185-46a4-4535-9207-403ebf8de5db/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/17372844a0ecb548c70275a5e06f522a2445f2781410a246130757e0b7bc5396/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

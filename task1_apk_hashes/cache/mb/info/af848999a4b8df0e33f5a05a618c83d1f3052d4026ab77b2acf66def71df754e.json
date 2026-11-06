@@ -1,0 +1,144 @@
+{
+ "sha256_hash": "af848999a4b8df0e33f5a05a618c83d1f3052d4026ab77b2acf66def71df754e",
+ "sha3_384_hash": "3b6abf7b785e0f900bc7918438183fd8d8ad961dff7e2714bf2afc9a8442bbe43815d60f568c06998c55c5adbd0e2b38",
+ "sha1_hash": "d190b480942ac732f282c61a540e9138a3e764b5",
+ "md5_hash": "708445b8d358c254e861effffd4f819b",
+ "first_seen": "2025-04-21 05:01:37",
+ "last_seen": null,
+ "file_name": "Qwv-8pZx.apk",
+ "file_size": 1657037,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "IndonesiaPeople",
+ "origin_country": "ID",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1DF75F183F3A9F91AC433C03261956737665ACE198A06F6441849B7ED3DF7CA84F86BC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:sMbkXftH3TfUdiug9T0QPaJepbT1+oFctqUJOfgPE2eFm1M8z/8XuB6eOr:t8tfUdiugp0QFpP1MpHeNgUXLeo",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Agent",
+  "Android",
+  "Apk",
+  "signed",
+  "Skygofree",
+  "Spyware",
+  "Trojan",
+  "Xploit"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Branders",
+   "issuer_cn": "Branders",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-02-19T21:19:50Z",
+   "valid_to": "2141-01-19T21:19:50Z",
+   "serial_number": "3e7e2300",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "9f026c3669a48ba9cdf96be55d41d7017c71dfeeefe09947506272ac44116f2a",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.418.origin.18698.24743.UNOFFICIAL"
+  ],
+  "downloads": "310",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "apk_flubot_w0",
+   "author": "Thomas Barabosch, Telekom Security",
+   "description": "matches on dumped, decrypted V/DEX files of Flubot version > 4.2",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.69"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/af848999a4b8df0e33f5a05a618c83d1f3052d4026ab77b2acf66def71df754e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/250421-k459xsxzbs/",
+   "tags": [
+    "android",
+    "discovery",
+    "evasion",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the unique device ID (IMEI, MEID, IMSI)",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Android",
+   "status": "MALICIOUS",
+   "first_seen": "2016-11-24 13:20:36",
+   "scanner_count": "35",
+   "scanner_match": "25",
+   "scanner_percent": "71.43"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/68060b7d89fec6b88b9ff4cb/reports/17b0f651-9a5d-4734-bf3b-b4e2bbd2929d/overview"
+  }
+ },
+ "comments": null
+}

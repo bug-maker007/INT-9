@@ -1,0 +1,75 @@
+{
+ "sha256_hash": "9767d501e9a5c1f125d568645e42f057884258ceb38d1641a99a219b77dd3ba1",
+ "sha3_384_hash": "f4487dfad6c7f28c9f5ee09f5e033d8ce9c9dea1d710e1b902516da0b8b461effc337ed9e233049d30429a2db4f09fa8",
+ "sha1_hash": "c74378e7489b682a84b0457d158b8d6c068707a0",
+ "md5_hash": "dd270c4680162ff3dc32ef54af37ee5c",
+ "first_seen": "2021-08-23 12:29:18",
+ "last_seen": null,
+ "file_name": "Android-Update.apk",
+ "file_size": 3404640,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T17FF53359EB86D48DC57F8331D0476B734BA5184A92C672BF897B048E90CFD684B13CBA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:7Ua0ymRUaKDkw+tkAn4mqpGp8wqzj0YuCuo9S9:H0y+KDoeAnhq0ewqzwYum9C",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.10171.26873.13558.UNOFFICIAL"
+  ],
+  "downloads": "226",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/9767d501e9a5c1f125d568645e42f057884258ceb38d1641a99a219b77dd3ba1/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/9767d501e9a5c1f125d568645e42f057884258ceb38d1641a99a219b77dd3ba1",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210823-2my1snatls/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Boogr",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-23 12:30:15",
+   "scanner_count": "28",
+   "scanner_match": "10",
+   "scanner_percent": "35.71"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,125 @@
+{
+ "sha256_hash": "aa7f74176ad36d1c0dee000c1d9b860155eef1219d92b93d3d21268e8bbe17cf",
+ "sha3_384_hash": "c4edc6d7491adc5107dd7fab5d7b5690fc7c5dbba4828db770ac4b03714f08448eed7f2ac29630dbf3bf8a0ceea5415a",
+ "sha1_hash": "063784b0f1a7bab7b1738e71f8a0d8aa9dc3ea6f",
+ "md5_hash": "314eb9a35a1f257e233f340fb459b1df",
+ "first_seen": "2026-05-06 08:32:17",
+ "last_seen": null,
+ "file_name": "mparivahan(15).apk",
+ "file_size": 12476688,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T12BC63352F794A54DC4F2C3322DB59AB2541AED12DF43939BE825333D2A3F5C08E866D2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:0jq6NPWv1a918ShKr1Z6XVyTwc7F0YKUEjLBFvcHj3BrpHtbGaUFeXARQUzj5mb:fO+vRy+YVyTpRkUmcHzoj8ejj5mb",
+ "magika": "zip",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "malware",
+  "mparivahan"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "135",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "FreddyBearDropper",
+   "author": "Dwarozh Hoshiar",
+   "description": "Freddy Bear Dropper is dropping a malware through base63 encoded powershell scrip.",
+   "reference": null
+  },
+  {
+   "rule_name": "Jeevan_Malware_Rewards",
+   "author": "ShriTiger",
+   "description": "Detects JeevanReward variants using Technical, Anti-Analysis, and Indian SE keywords",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/aa7f74176ad36d1c0dee000c1d9b860155eef1219d92b93d3d21268e8bbe17cf/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/aa7f74176ad36d1c0dee000c1d9b860155eef1219d92b93d3d21268e8bbe17cf",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260506-kfh5gsdy81/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-11-29 06:46:03",
+   "scanner_count": "24",
+   "scanner_match": "8",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fafc9b86e92bda7020aceb/reports/244c2361-4cf8-4ee3-9139-510f34a44776/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-11-29T05:15:00Z",
+   "last_seen": "2026-05-08T00:00:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/aa7f74176ad36d1c0dee000c1d9b860155eef1219d92b93d3d21268e8bbe17cf/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

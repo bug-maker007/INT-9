@@ -1,0 +1,153 @@
+{
+ "sha256_hash": "c90bb703a45863aa5e7fdc60a4ad32f933adca82ecddb1c42cf35a17f8078434",
+ "sha3_384_hash": "df05125cecb119af2e0001abd4fd4c777dae3c871d32a5b81ff6be279d6d9d28a2d66c5058c34f0216e016b800a17c0c",
+ "sha1_hash": "75a1e2b8b6b874168429748ca7fa476afcbe99eb",
+ "md5_hash": "59ff51ef565d48a11e6fbb28b2b328ed",
+ "first_seen": "2024-03-09 09:23:43",
+ "last_seen": null,
+ "file_name": "flashlight.apk",
+ "file_size": 7192722,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "e24111111154168",
+ "origin_country": "GR",
+ "anonymous": 0,
+ "signature": "AhMyth",
+ "imphash": null,
+ "tlsh": "T1E676F19AF788995BC4F3933A89355666410B4C268B43EBC76F48733C18B79D44F4ABC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:AnFMxSLDfrjbejtaZ0n1MITOsiWBbXQmfIJyEphPgVfYtm+Zd8mzT9CgLCrakdls:AnF8SLDf1ITaWzGPgV08O0vnw",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "43.9% (.APK) Android Package (32500/1/6)",
+  "18.2% (.JAR) Java Archive (13500/1/2)",
+  "16.8% (.VYM) VYM Mind Map (12500/1/3)",
+  "14.1% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Ahmyth",
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.986.origin.30413.19278.UNOFFICIAL"
+  ],
+  "downloads": "415",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2778364/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2778437/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2778439/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2778441/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2778444/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c90bb703a45863aa5e7fdc60a4ad32f933adca82ecddb1c42cf35a17f8078434/"
+  },
+  "YOROI_YOMI": {
+   "detection": "AhMyth",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c90bb703a45863aa5e7fdc60a4ad32f933adca82ecddb1c42cf35a17f8078434",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/240309-lc29maee64/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation)",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Ahmyth",
+   "status": "MALICIOUS",
+   "first_seen": "2024-02-19 21:08:15",
+   "scanner_count": "24",
+   "scanner_match": "8",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65ec2ab887137159d4379708/reports/83ab20f2-2a0d-45ef-b072-02fadf49ae40/overview"
+  }
+ },
+ "comments": null
+}

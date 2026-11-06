@@ -1,0 +1,127 @@
+{
+ "sha256_hash": "ae0dd81cee1a2adc28f044d26ebe03914f82b422df334e977698b6e380c4f0af",
+ "sha3_384_hash": "48d5b9c5dc2353b1bef02f4946b9c74be309e73ed1be1dbe54caa6fc4b89396b8a4530f01fde5eb8feeb0867b4f2f6fb",
+ "sha1_hash": "99c47d1d30be557ae259a8416ac3ba99ef1bf170",
+ "md5_hash": "7f1e2ad6847cee1d9dd354a375ccec54",
+ "first_seen": "2025-01-05 22:32:07",
+ "last_seen": "2025-01-18 18:11:11",
+ "file_name": "WhatsApp_Gold_V11.80.apk",
+ "file_size": 92923516,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T19C182287F755D8A6C1F7A735DA726027A5170C704B03E6A36D0DB2386AB39C0D68ADCC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:tgi+fcwomAgRnK4lVXueepw2s08xGPq7d1dDR5K4oRjxVuKY3Tg:t1+fH7h3VzepXs08x5B/DRgxVuKcg",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "28.5% (.APK) Android Package (27000/1/5)",
+  "22.7% (.OXT) OpenOffice Extension (21500/1/3)",
+  "14.2% (.JAR) Java Archive (13500/1/2)",
+  "11.6% (.CATROBAT) Pocket Code/Catroid Catrobat Project (11000/1/2)",
+  "11.1% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)"
+ ],
+ "comment": "https://whatsdahabi.app/en/gold-whatsapp-download/#google_vignette => https://directlyto.download/gold-whatsapp/ => https://file.plusgbwhats.app/gold-whatsapp-downloading",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "253",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/250105-2cdh9sxqg1/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/ae0dd81cee1a2adc28f044d26ebe03914f82b422df334e977698b6e380c4f0af",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "triada",
+   "score": "10",
+   "link": "https://tria.ge/reports/250105-2ghzjsxrcx/",
+   "tags": [
+    "family:triada",
+    "android",
+    "discovery",
+    "persistence",
+    "upx"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2024-11-24 11:00:02",
+   "scanner_count": "38",
+   "scanner_match": "3",
+   "scanner_percent": "7.89"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/677b08a2b489e5d0aebd2a27/reports/5fa49eb9-b330-412b-a6d2-4adf732cea4f/overview"
+  }
+ },
+ "comments": null
+}

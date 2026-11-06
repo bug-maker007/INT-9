@@ -1,0 +1,107 @@
+{
+ "sha256_hash": "7c92b5617af4da664343684530e88639e0624f21c53a2cadc61a1e6a57fc29d7",
+ "sha3_384_hash": "1e5fdf5dd6abde7218c1c745a8b84800a2e34b2cd16a55c047ea36f511cc57c4c7fbe53ab333684cac75cd815c5790fd",
+ "sha1_hash": "10bfc1b6b540b56386c335bff1399f20f63eafc9",
+ "md5_hash": "3acf9f6b6a813d018d643263766f06b5",
+ "first_seen": "2021-06-29 05:55:12",
+ "last_seen": null,
+ "file_name": "7c92b5617af4da664343684530e88639e0624f21c53a2cadc61a1e6a57fc29d7.apk",
+ "file_size": 4261643,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "alberto__segura",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "FluBot",
+ "imphash": null,
+ "tlsh": "0D162319BEAEE41EE007D139D220DA8799184C4F5A58FA9B3AB1518C4EFBC049743FDD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:Gw1nfyCcWUCIFy7TEWhMOvKRhMD7h3UXrtQKDEqMn:G2nRVxA0zOOdD7VwrtPIqMn",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": "Flubot 4.6",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "flubot"
+ ],
+ "code_sign": null,
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.9305.24591.8014.UNOFFICIAL"
+  ],
+  "downloads": "313",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://www.virustotal.com/gui/file/7c92b5617af4da664343684530e88639e0624f21c53a2cadc61a1e6a57fc29d7/detection"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7c92b5617af4da664343684530e88639e0624f21c53a2cadc61a1e6a57fc29d7/"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/7c92b5617af4da664343684530e88639e0624f21c53a2cadc61a1e6a57fc29d7",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "flubot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210629-qb799q2eps/",
+   "tags": [
+    "family:flubot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "ransomware",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "FluBot",
+     "score": "10"
+    },
+    {
+     "signature": "FluBot Payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-06-29 03:16:15",
+   "scanner_count": "46",
+   "scanner_match": "6",
+   "scanner_percent": "13.04"
+  }
+ },
+ "comments": null
+}

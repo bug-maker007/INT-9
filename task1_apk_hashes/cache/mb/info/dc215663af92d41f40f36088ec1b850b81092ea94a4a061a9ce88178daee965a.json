@@ -1,0 +1,119 @@
+{
+ "sha256_hash": "dc215663af92d41f40f36088ec1b850b81092ea94a4a061a9ce88178daee965a",
+ "sha3_384_hash": "d91ee0ac06668be784c26c3fb8ff9e57e30cff477117334f70e8599fe90af669fd6052403896363df90ccd074edeb02b",
+ "sha1_hash": "def50bc6a9d970846659c00fb529446af06483c7",
+ "md5_hash": "db026fe524d1ce98de04374ff374fdf0",
+ "first_seen": "2021-01-12 21:42:46",
+ "last_seen": null,
+ "file_name": "tmptt2iegvy",
+ "file_size": 2023814,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "U039b",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Anubis",
+ "imphash": null,
+ "tlsh": "9E953382F7B072F3D52F0B7012B35B67B90A4315D9E4E697396D27505BB368283E98E0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:/8nU2MwIeCxRt+67VEAe3tDO/ritdzvuHGvIDfkuPNi8:/wzMHect+Ff96rkvuMIDf/Pf",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "240",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://beta.pithus.org/report/dc215663af92d41f40f36088ec1b850b81092ea94a4a061a9ce88178daee965a"
+  },
+  {
+   "context": "cape",
+   "value": "https://www.capesandbox.com/analysis/111671/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "anubis",
+   "link": "https://mwdb.cert.pl/sample/dc215663af92d41f40f36088ec1b850b81092ea94a4a061a9ce88178daee965a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Banker",
+   "score": "0.90"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": null,
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "CAPE": {
+   "detection": null,
+   "link": "https://www.capesandbox.com/analysis/111671/"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210113-pnraf96wsa/",
+   "tags": [
+    "android",
+    "obfuscation",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Suspicious use of android.app.ActivityManager.getRunningServices",
+     "score": "3"
+    },
+    {
+     "signature": "Suspicious use of android.telephony.TelephonyManager.getLine1Number",
+     "score": "3"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2020-09-16 16:21:18",
+   "scanner_count": "28",
+   "scanner_match": "13",
+   "scanner_percent": "46.43"
+  }
+ },
+ "comments": null
+}

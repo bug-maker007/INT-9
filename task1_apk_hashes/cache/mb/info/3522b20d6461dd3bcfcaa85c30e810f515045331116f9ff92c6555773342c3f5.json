@@ -1,0 +1,129 @@
+{
+ "sha256_hash": "3522b20d6461dd3bcfcaa85c30e810f515045331116f9ff92c6555773342c3f5",
+ "sha3_384_hash": "2b74b0532e9a7c33a149ff22e9c6a94626eb07c21985e74f0deec3627f9fe34a77fe7a4933d079586390694a0cd5ab16",
+ "sha1_hash": "7469df29d99668c9983ba9f0ba758f874f011421",
+ "md5_hash": "f4d05b4fd34f7ae08631cec04d0f3b95",
+ "first_seen": "2026-03-15 06:24:35",
+ "last_seen": "2026-05-08 09:58:01",
+ "file_name": "DỊCHVỤCÔNG.apk",
+ "file_size": 21149869,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1C4272296F761C7B8C1BF0075496281A723432E4A8D434B4B114CBB9C7A73AE85F99FC9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:mw+zkgJuLPziOYv5FhvLmZRoQkx2+Aa9En70thEgN4Erld9EI:xeXcOHvdSZR9kPv9e70tFT1",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "30.7% (.SPE) SPSS Extension (30000/1/7)",
+  "27.6% (.APK) Android Package (27000/1/5)",
+  "13.8% (.JAR) Java Archive (13500/1/2)",
+  "12.8% (.VYM) VYM Mind Map (12500/1/3)",
+  "10.7% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Malware",
+  "Ministry of Public Security Vietnam",
+  "signed",
+  "Spyware",
+  "Trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "dpt",
+   "issuer_cn": "dpt",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2024-11-05T12:52:39Z",
+   "valid_to": "2049-10-30T12:52:39Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "b8d25b845f276e25851f7a86261fc9c98ed4802240c31b21d466958d5e25096c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "315",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/3522b20d6461dd3bcfcaa85c30e810f515045331116f9ff92c6555773342c3f5",
+   "details": [
+    {
+     "category": "info",
+     "title": "Document With Minimal Content",
+     "description": "Document contains less than 1 kilobyte of semantic information."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260315-g6mzkscy8j/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Win32.Trojan.Kepavll",
+   "status": "MALICIOUS",
+   "first_seen": "2026-03-15 06:25:41",
+   "scanner_count": "24",
+   "scanner_match": "11",
+   "scanner_percent": "45.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69b650c92000fc76c3de9dcc/reports/cf397f39-0909-45d8-b996-3371d1e3b49e/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/3522b20d6461dd3bcfcaa85c30e810f515045331116f9ff92c6555773342c3f5/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

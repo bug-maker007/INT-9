@@ -1,0 +1,150 @@
+{
+ "sha256_hash": "d852f48e1c8a37d11f9dfb90f339316a5a3fa012bf152db43de1e81b45a69ba7",
+ "sha3_384_hash": "d1ad079d5d500e2212c1f39a708690278606246d6ae64ed205199aff21f658e511b7a1adcdacedba5bd8d8a8ef8c3bc1",
+ "sha1_hash": "0fc8c1e2c08fd3dc83ceb72a4848c9aab66b7d57",
+ "md5_hash": "1150d0bf3a077be4f33eb487129d389a",
+ "first_seen": "2024-01-22 09:18:26",
+ "last_seen": null,
+ "file_name": "MediobancaToken.apk",
+ "file_size": 4923574,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "red_cth",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1A93633D1F0B392DBF66B4073E4334709CB3A488ABE54185674F7736086E76CE9729898",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:V9hinlhin6Vhinahinx1hin6hinshinUhinwFWKeUzE4b60sgPo8vI:VbCzC6DC8CxjCcCyCKCwFPecO0dhvI",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "New IRATA android malware wave targetting Italy.",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Anywhere Software",
+   "issuer_cn": "Anywhere Software",
+   "algorithm": "dsaWithSHA1",
+   "valid_from": "2016-08-24T08:23:07Z",
+   "valid_to": "2054-12-23T08:23:07Z",
+   "serial_number": "58118218",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "32752470a35a7bb0a2991180f02baff49a41b9d6b2b5e44e8aa7cb736752e003",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "multiple",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.1100.origin.18155.17354.UNOFFICIAL"
+  ],
+  "downloads": "411",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "joe_sandbox",
+   "value": "https://www.joesandbox.com/analysis/1378561"
+  },
+  {
+   "context": "links",
+   "value": "https://www.hybrid-analysis.com/sample/d852f48e1c8a37d11f9dfb90f339316a5a3fa012bf152db43de1e81b45a69ba7"
+  },
+  {
+   "context": "links",
+   "value": "https://tria.ge/240122-kjc3mscchl"
+  },
+  {
+   "context": "links",
+   "value": "https://www.virustotal.com/gui/file/d852f48e1c8a37d11f9dfb90f339316a5a3fa012bf152db43de1e81b45a69ba7/detection"
+  },
+  {
+   "context": "links",
+   "value": "https://mwdb.cert.pl/file/d852f48e1c8a37d11f9dfb90f339316a5a3fa012bf152db43de1e81b45a69ba7/details"
+  },
+  {
+   "context": "twitter",
+   "value": "https://x.com/red_cth/status/1749360604597342424?s=20"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "copybara",
+   "link": "https://mwdb.cert.pl/sample/d852f48e1c8a37d11f9dfb90f339316a5a3fa012bf152db43de1e81b45a69ba7/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/d852f48e1c8a37d11f9dfb90f339316a5a3fa012bf152db43de1e81b45a69ba7",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240122-k96smschgj/",
+   "tags": [
+    "family:irata",
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SmsAgent",
+   "status": "MALICIOUS",
+   "first_seen": "2024-01-22 09:19:06",
+   "scanner_count": "23",
+   "scanner_match": "7",
+   "scanner_percent": "30.43"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65ae3307f3cf17c17b7575fd/reports/e840af5d-5198-4836-883d-895b182b4355/overview"
+  }
+ },
+ "comments": null
+}

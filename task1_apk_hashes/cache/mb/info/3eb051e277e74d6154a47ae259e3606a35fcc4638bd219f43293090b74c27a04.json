@@ -1,0 +1,296 @@
+{
+ "sha256_hash": "3eb051e277e74d6154a47ae259e3606a35fcc4638bd219f43293090b74c27a04",
+ "sha3_384_hash": "0552ab8523371f8516e9e23d56917437a8d1d6790d7eb40accda9d558ec126be012cf7c1e786d37136bce358464349d9",
+ "sha1_hash": "34fa4f04e7e2a784ec0294369ed9c0c6c0de8139",
+ "md5_hash": "e8b6eb6ec6ca20dd21c85caca6567e34",
+ "first_seen": "2025-10-17 21:42:54",
+ "last_seen": null,
+ "file_name": "ChromeG++ncelleme.apk",
+ "file_size": 2999243,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T1BCD5F2BBD8E6635EDFD0D3BB5498AEB2A2E23708E2A39D0C2154334947259CD0F525F4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:ZWzqw+GEuOMJszChUUiqLq/7YKFQ/BmwkaTgFm+Ju72zhlqRaMrROvPcsUFkSwKi:ZCqw+ML2nG83dFjJnzhgrRQPcswkSwKi",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "Octo/Coper C2:\r\nhttps://karakterolipsbilgilendirme.xyz/hxDNtg7DB3tk/\r\nhttps://karakterolipsdostlukhik.xyz/hxDNtg7DB3tk/\r\nhttps://karakterolipssinemaevreni.xyz/hxDNtg7DB3tk/\r\nhttps://karakterolipssanatvesahne.xyz/hxDNtg7DB3tk/\r\nhttps://karakterolipskulturkonusu.xyz/hxDNtg7DB3tk/\r\nhttps://karakterolipstarihiyolu.xyz/hxDNtg7DB3tk/\r\nhttps://karakterolipsmasallar.xyz/hxDNtg7DB3tk/\r\nhttps://karakterolipskonferansi.xyz/hxDNtg7DB3tk/\r\nhttps://karakterolipsgezegenhik.xyz/hxDNtg7DB3tk/\r\nhttps://karakterolipsdunyasi.xyz/hxDNtg7DB3tk/\r\nhttps://karakterolipsshowsanat.xyz/hxDNtg7DB3tk/\r\nhttps://karakterolipsicimsessiz.xyz/hxDNtg7DB3tk/\r\nhttps://karakterolipsfelsefesi.xyz/hxDNtg7DB3tk/\r\nhttps://karakterolipsyolculugu.xyz/hxDNtg7DB3tk/\r\nhttps://karakterolipsrenkleri.xyz/hxDNtg7DB3tk/\r\nhttps://karakterolipssunumlar.xyz/hxDNtg7DB3tk/\r\nhttps://karakterolipsduygular.xyz/hxDNtg7DB3tk/\r\nhttps://karakterolipsgizemleri.xyz/hxDNtg7DB3tk/\r\nhttps://karakterolipskaynak.xyz/hxDNtg7DB3tk/\r\nhttps://karakterolipsseruven.xyz/hxDNtg7DB3tk/\r\n",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Coper",
+  "Octo",
+  "signed",
+  "TUR"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "262",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/251017-z5nhtshp4w"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3eb051e277e74d6154a47ae259e3606a35fcc4638bd219f43293090b74c27a04/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/251017-1k9q1afs4h/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo family",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests accessing notifications (often used to intercept notifications before users become aware).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests modifying system settings.",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipsbilgilendirme.xyz/hxDNtg7DB3tk/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipsdostlukhik.xyz/hxDNtg7DB3tk/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipssinemaevreni.xyz/hxDNtg7DB3tk/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipssanatvesahne.xyz/hxDNtg7DB3tk/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipskulturkonusu.xyz/hxDNtg7DB3tk/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipstarihiyolu.xyz/hxDNtg7DB3tk/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipsmasallar.xyz/hxDNtg7DB3tk/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipskonferansi.xyz/hxDNtg7DB3tk/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipsgezegenhik.xyz/hxDNtg7DB3tk/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipsdunyasi.xyz/hxDNtg7DB3tk/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipsshowsanat.xyz/hxDNtg7DB3tk/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipsicimsessiz.xyz/hxDNtg7DB3tk/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipsfelsefesi.xyz/hxDNtg7DB3tk/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipsyolculugu.xyz/hxDNtg7DB3tk/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipsrenkleri.xyz/hxDNtg7DB3tk/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipssunumlar.xyz/hxDNtg7DB3tk/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipsduygular.xyz/hxDNtg7DB3tk/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipsgizemleri.xyz/hxDNtg7DB3tk/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipskaynak.xyz/hxDNtg7DB3tk/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://karakterolipsseruven.xyz/hxDNtg7DB3tk/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Coper",
+   "status": "MALICIOUS",
+   "first_seen": "2025-01-21 23:23:27",
+   "scanner_count": "36",
+   "scanner_match": "22",
+   "scanner_percent": "61.11"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68f2b899c85c5c56972cf2e3/reports/6e77fefd-6a2b-45b9-a1ee-cf6bb993cafe/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-01-22T10:47:00Z",
+   "last_seen": "2025-07-10T11:57:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/3eb051e277e74d6154a47ae259e3606a35fcc4638bd219f43293090b74c27a04/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

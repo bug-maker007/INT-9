@@ -1,0 +1,111 @@
+{
+ "sha256_hash": "7e7ee5b11fe1ca56f0f8416638964bec68b9ef90b25426f06d1330222b1dcf3d",
+ "sha3_384_hash": "f0667523b7f5dd16fb37116c7d40511d4349cc8f0987400a69a652a8b8c3bab458855f1c9b909fcb3d669455c0b77012",
+ "sha1_hash": "49117815e82f8e8f5ee979e2db0924ebbb5699b8",
+ "md5_hash": "6966dead3e5307bee1ba7a5ead34a63c",
+ "first_seen": "2023-12-31 17:06:08",
+ "last_seen": null,
+ "file_name": "Play_Store.apk",
+ "file_size": 4415340,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "MaxMax66",
+ "origin_country": "FR",
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T196163384F1AE9789EC798B341C78C59081B82E99EF2102173549371E09F77C9DB79B2E",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:E0VWaHzRXEjLWQo+KuHQPyYYGsMvCuSjgxekJbeBVv:E0VWkzRUfMJkYyYYN+CpKekwVv",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "52.8% (.APK) Android Package (32500/1/6)",
+  "21.9% (.JAR) Java Archive (13500/1/2)",
+  "17.0% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "6.5% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.6% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "Fake Play Store Update",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "np",
+   "issuer_cn": "np",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2021-04-25T09:03:56Z",
+   "valid_to": "3020-08-26T09:03:56Z",
+   "serial_number": "045ff9a3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "492682f877607ee99df2ddd2bd5953fd727bdf6e19d397de9dbbafd582bcad75",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.PUA.Android.JPush-1.UNOFFICIAL"
+  ],
+  "downloads": "699",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7e7ee5b11fe1ca56f0f8416638964bec68b9ef90b25426f06d1330222b1dcf3d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Hydra",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/7e7ee5b11fe1ca56f0f8416638964bec68b9ef90b25426f06d1330222b1dcf3d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/231231-vmy5dsbbar/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Badpack",
+   "status": "MALICIOUS",
+   "first_seen": "2023-10-21 00:47:58",
+   "scanner_count": "36",
+   "scanner_match": "9",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/65919fb7b290743934f11fe2/reports//overview"
+  }
+ },
+ "comments": null
+}

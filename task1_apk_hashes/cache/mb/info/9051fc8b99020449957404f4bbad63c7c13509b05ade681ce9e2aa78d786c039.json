@@ -1,0 +1,99 @@
+{
+ "sha256_hash": "9051fc8b99020449957404f4bbad63c7c13509b05ade681ce9e2aa78d786c039",
+ "sha3_384_hash": "6d00170349c07bd8302e77bf3924f44d178fd314570b5058f781e87fb092954784525bcf33f64ed4735cd7dcceb105e6",
+ "sha1_hash": "ab2713e5b7ea9b4098edf91414409b59490751ef",
+ "md5_hash": "b3a2d7cd90cbf552578f6d7bb5e00129",
+ "first_seen": "2021-09-23 13:35:11",
+ "last_seen": null,
+ "file_name": "AndroıdUpdate.apk",
+ "file_size": 3412587,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T142F5331DC7A1AC0DD64EC331419265077B3622588192A43B3BAE08978FABFD58F1FD79",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:yhULStWXh9X2ujFe9mH3Vg91zVo0PMQXSBF1H4xtMNGCKw75Y7viyVPht9UWkP:iULyG/IoVgfzirQc1H4xv87C7icUdP",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "251",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/9051fc8b99020449957404f4bbad63c7c13509b05ade681ce9e2aa78d786c039/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/9051fc8b99020449957404f4bbad63c7c13509b05ade681ce9e2aa78d786c039",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/210923-qwbcgaedel/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "https://canecaremetane100.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2021-09-23 13:36:15",
+   "scanner_count": "45",
+   "scanner_match": "8",
+   "scanner_percent": "17.78"
+  }
+ },
+ "comments": null
+}

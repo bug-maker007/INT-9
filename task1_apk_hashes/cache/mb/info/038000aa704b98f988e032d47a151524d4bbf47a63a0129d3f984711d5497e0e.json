@@ -1,0 +1,146 @@
+{
+ "sha256_hash": "038000aa704b98f988e032d47a151524d4bbf47a63a0129d3f984711d5497e0e",
+ "sha3_384_hash": "b3301c201c67602cb8f407629d98ac042989eeccfb589116fee4471ef7118b51e65092e4f19bf0ae4b7b72bc25928da2",
+ "sha1_hash": "148a6d0cc6814fa5bb5eee93dce0a388de77b5ea",
+ "md5_hash": "6f90284633a8e9f2fe0c7bb2cfa258c7",
+ "first_seen": "2024-03-01 09:53:59",
+ "last_seen": "2024-03-01 09:53:59",
+ "file_name": "base.apk",
+ "file_size": 5544315,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "CyberMAN_noBODY",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "BankBot",
+ "imphash": null,
+ "tlsh": "T192463388C11279AADEAFA131F53F37CAE5AC5B841AE79C4F6F8396748032185FF11152",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:hP+9LmmbHK99L7t+RQFJzykV/s4RmqiuwWmVz4eelcVVprOnUSZ95rRR/kR/6:hm9dK9n6MZV/5mOwWmZwlgnr4USZ95rj",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Agent",
+  "apk",
+  "bankbot",
+  "dropper",
+  "signed",
+  "trida"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.3313.14730.17260.UNOFFICIAL"
+  ],
+  "downloads": "542",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/038000aa704b98f988e032d47a151524d4bbf47a63a0129d3f984711d5497e0e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.09"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/038000aa704b98f988e032d47a151524d4bbf47a63a0129d3f984711d5497e0e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/240301-lw7nfsfd53/",
+   "tags": [
+    "android",
+    "collection",
+    "evasion",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "8"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation)",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Falcon",
+   "status": "MALICIOUS",
+   "first_seen": "2024-02-29 15:10:55",
+   "scanner_count": "23",
+   "scanner_match": "8",
+   "scanner_percent": "34.78"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65e1a5bc2ffc4d27ab7b90f7/reports/89b50c29-d886-4a77-be3b-782f31f74bad/overview"
+  }
+ },
+ "comments": null
+}

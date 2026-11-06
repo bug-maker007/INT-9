@@ -1,0 +1,134 @@
+{
+ "sha256_hash": "eace462d061a20fb4ba49f7b349994d15f72cc86b749ba3d8af2f35c4418eab0",
+ "sha3_384_hash": "d073424195423c4d9a9181f8a7d13d4037d58abe75e3ea9979f93a82fb992a11fca122d37d2560b3526327ecec90933d",
+ "sha1_hash": "ad4ecf8dcdd79ac702a2528c1f82e495e6a07ee8",
+ "md5_hash": "6ec9afef54610ad56435dae8e081b346",
+ "first_seen": "2026-08-14 10:33:15",
+ "last_seen": null,
+ "file_name": "6ec9afef54610ad56435dae8e081b346",
+ "file_size": 6739046,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1796633009FAAAD7ACDAC9339B1BF1E191FA20FD4C44CF1DB6391688765CF720151B869",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:K4rC2LG5HgYVhsZ4Rzgk6T24D6tXX7t9Czg/fdaoqQ96YTMvP16/Wnq7t0PcBYYj:A",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2025-10-16T04:13:27Z",
+   "valid_to": "3025-02-16T04:13:27Z",
+   "serial_number": "8bf7771245af2bf1",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a38d136c2ef23fdde40858e36654ebee4abce5e302728e77ba8984b8d59acd70",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "156",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/eace462d061a20fb4ba49f7b349994d15f72cc86b749ba3d8af2f35c4418eab0/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260814-nqbd6ssya1/",
+   "tags": [
+    "android",
+    "defense_evasion",
+    "impact"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks the application is allowed to request package installs through the package installer",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-08-09 22:40:02",
+   "scanner_count": "38",
+   "scanner_match": "5",
+   "scanner_percent": "13.16"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a7efbe4c6ac915ae5a37a99/reports/b458a308-4e44-4d62-af98-f1c97a442002/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-09T17:41:00Z",
+   "last_seen": "2026-08-10T13:51:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/eace462d061a20fb4ba49f7b349994d15f72cc86b749ba3d8af2f35c4418eab0/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

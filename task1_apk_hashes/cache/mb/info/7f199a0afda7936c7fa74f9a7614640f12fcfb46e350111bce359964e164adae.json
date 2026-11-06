@@ -1,0 +1,126 @@
+{
+ "sha256_hash": "7f199a0afda7936c7fa74f9a7614640f12fcfb46e350111bce359964e164adae",
+ "sha3_384_hash": "390790104cde20438da73efd9b68179ed81c7531e0e1eeb556bf74af1fbc46af9831e25a7cb7d1a9e535c4bf5d4fac59",
+ "sha1_hash": "d5f2c4659648098acb87811bcdd9fc8814d2e4fd",
+ "md5_hash": "0d1df5c35c3c43e1b8bb7daec2495c06",
+ "first_seen": "2021-01-26 19:14:00",
+ "last_seen": null,
+ "file_name": "AssistenzaClienti.apk",
+ "file_size": 13796416,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Anubis",
+ "imphash": null,
+ "tlsh": "76D6334ABBD87C2FC8B381364BF60BB919468C5B9716E7134161B52C9DBFAC00D96BC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:JP0depil8+wMg8gjxCOJ/2zTWTV2Vrfns0JWoLK3ZMp5HKt/g:JPJ4g8g1C8uzTQ2lslpiwo",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Anubis",
+  "montanatony.xyz"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Cosmos",
+   "issuer_cn": "Cosmos",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "Nov 12 04:00:49 2020 GMT",
+   "valid_to": "Nov  6 04:00:49 2045 GMT",
+   "serial_number": "2EE3FDDA",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "BC79B5F2FDB60FB3EEE9BD51A10DCBEAE49D7D37784D1D20F01E17FD5AF3E08B",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Hidden.8904.9692.17608.UNOFFICIAL"
+  ],
+  "downloads": "388",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/malwrhunterteam/status/1354121090231103488?s=20"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "anubis",
+   "link": "https://mwdb.cert.pl/sample/7f199a0afda7936c7fa74f9a7614640f12fcfb46e350111bce359964e164adae/"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": null,
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "10",
+   "link": "https://tria.ge/reports/210126-lta3797mb6/",
+   "tags": [
+    "android",
+    "obfuscation",
+    "ransomware",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Reads name of network operator",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    },
+    {
+     "signature": "Suspicious use of android.app.ActivityManager.getRunningServices",
+     "score": "3"
+    },
+    {
+     "signature": "Suspicious use of android.app.ApplicationPackageManager.getInstalledPackages",
+     "score": "3"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Boogr",
+   "status": "MALICIOUS",
+   "first_seen": "2021-01-25 22:42:09",
+   "scanner_count": "45",
+   "scanner_match": "6",
+   "scanner_percent": "13.33"
+  }
+ },
+ "comments": null
+}

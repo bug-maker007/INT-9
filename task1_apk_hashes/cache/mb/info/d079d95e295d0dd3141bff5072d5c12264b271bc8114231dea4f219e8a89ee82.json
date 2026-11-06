@@ -1,0 +1,260 @@
+{
+ "sha256_hash": "d079d95e295d0dd3141bff5072d5c12264b271bc8114231dea4f219e8a89ee82",
+ "sha3_384_hash": "fbed978cdcf3e78d3d8f53c0ca30f30af059957a3585805c22ba0849029d46077503c444cc17a8a1d0f939946707e324",
+ "sha1_hash": "050701b3fb1b0007ee1fad947b201a49b31fc74d",
+ "md5_hash": "83e7c3dd10ca4633b9211d141c507ac6",
+ "first_seen": "2025-01-25 10:10:43",
+ "last_seen": null,
+ "file_name": "Install Pro.apk",
+ "file_size": 8126093,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T10B86BE43A74A897EE9EEB77B92470B21AB30BC18A35342C71908D9207D537DD6E6D7C0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:E5iSRG1aVKFfGs5MrI13XuRseWA3STuxo1oFZLREDAJ8NG:Er5UhGs5Mrq3XuRDbAR1g",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "26.7% (.SPE) SPSS Extension (30000/1/7)",
+  "24.1% (.APK) Android Package (27000/1/5)",
+  "17.8% (.DAZIP) Dragon Age: Origins game data (20000/1/6)",
+  "12.0% (.JAR) Java Archive (13500/1/2)",
+  "9.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)"
+ ],
+ "comment": "https://www.sadeempc.com/adobe-premiere-pro-crack-2-2024/ => https://mega.nz/file/JRQmHKyD#M3yEIBSjK5ATk6hAY9vD9oLoPXko8ljfk2TH_3iEZUY/utmPass/VkKfiXJSeY/token/hqez/date/1737799491/7\r\n\r\nOcto C2: https://db2d2d61ccc4277cab136b1589925c03.net",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Coper",
+  "Octo",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "372",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/250125-l4rl7szjfp/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseapps2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise apps",
+   "reference": null
+  },
+  {
+   "rule_name": "F01_s1ckrule",
+   "author": "s1ckb017",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "ldpreload",
+   "author": "xorseed",
+   "description": null,
+   "reference": "https://stuff.rop.io/"
+  },
+  {
+   "rule_name": "Linux_Trojan_Generic_5420d3e7",
+   "author": "Elastic Security",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "octo2_packer_s",
+   "author": "Alberto Segura",
+   "description": "Detects Octo2 Packer's code (native library! .so) -- This rule only looks for strings! code depends on arch.. x86, x86_64, armeabi-v7a, arm64-v8a",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d079d95e295d0dd3141bff5072d5c12264b271bc8114231dea4f219e8a89ee82/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/d079d95e295d0dd3141bff5072d5c12264b271bc8114231dea4f219e8a89ee82",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/250125-l7x86ayjdv/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo family",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Checks Android system properties for emulator presence.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the unique device ID (IMEI, MEID, IMSI)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://b4a25e0c18cc33cf14a99d7777d052d4.com"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.AVerseFalc",
+   "status": "MALICIOUS",
+   "first_seen": "2025-01-25 10:11:07",
+   "scanner_count": "24",
+   "scanner_match": "7",
+   "scanner_percent": "29.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6794b8b885aac483f387abaa/reports/7b295562-1eb3-462a-bebd-df1618130206/overview"
+  }
+ },
+ "comments": null
+}

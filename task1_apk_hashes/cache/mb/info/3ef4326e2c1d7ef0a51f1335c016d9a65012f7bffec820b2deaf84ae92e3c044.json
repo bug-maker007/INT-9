@@ -1,0 +1,153 @@
+{
+ "sha256_hash": "3ef4326e2c1d7ef0a51f1335c016d9a65012f7bffec820b2deaf84ae92e3c044",
+ "sha3_384_hash": "49c5a938b9ed30ae74b02a62c9dc2bbdb45fee545a4e9e2b227fb244b055b88aaf7b60aa8da02681648dee216500497d",
+ "sha1_hash": "cc5227b3b2858e9530713f58c719460db18ed13c",
+ "md5_hash": "3c26edaebe6dddbca397bf668b371c54",
+ "first_seen": "2026-09-01 13:22:38",
+ "last_seen": null,
+ "file_name": "3ef4326e2c1d7ef0a51f1335c016d9a65012f7bffec820b2deaf84ae92e3c044.apk",
+ "file_size": 5747338,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "BR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1ED463313C2028B0DD9F7C7354635971592B6B224AB6346BBD41EEA39AE8F6D42F11FC0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:sHXrtoCr0r9fWEoonIplmhpGaaHZHlUi+Kbm1UbMlSrCvlz/8lRhLfXO/uawi6Gz:ToonIy/aFUtvyrCvVcLPOWaw+DgjE",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2026-08-30T02:41:07Z",
+   "valid_to": "2054-01-15T02:41:07Z",
+   "serial_number": "16d903af68817b9a",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "67a4c7b7bb50a9fe97a976c6b440f78a178d2cae60706b2f7004ccfe011e8085",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SpyMax.1975.22807.27957.UNOFFICIAL",
+   "SecuriteInfo.com.Android.SpyMax.1975.49936996.UNOFFICIAL"
+  ],
+  "downloads": "284",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_all_IPv6_variants",
+   "author": "Bierchermuesli",
+   "description": "Generic IPv6 catcher",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3ef4326e2c1d7ef0a51f1335c016d9a65012f7bffec820b2deaf84ae92e3c044/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260901-qmwxtazdnf/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.HiddenApp",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-09-01 13:23:32",
+   "scanner_count": "38",
+   "scanner_match": "11",
+   "scanner_percent": "28.95"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a96d1c3835f8f0ca502f1e9/reports/1af6578b-44e0-454e-94b1-767891637893/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-01T04:32:00Z",
+   "last_seen": "2026-09-02T23:51:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/3ef4326e2c1d7ef0a51f1335c016d9a65012f7bffec820b2deaf84ae92e3c044/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

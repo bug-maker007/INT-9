@@ -1,0 +1,126 @@
+{
+ "sha256_hash": "6de9c4a91a1d17473029aa0c7ca98580779734282cb91bf7aa7b8dd54cd6c6b6",
+ "sha3_384_hash": "e5b2bb4da9679bd70b4d2d8ce44bc7bb9eae5f212284133585764f00f3388b811c8f19e5999458f360a5ce3d7396d55d",
+ "sha1_hash": "745d5f6de33d8d349bd90a2d79890587f65994a8",
+ "md5_hash": "63e1d12b56960cb36f7301385c705555",
+ "first_seen": "2025-03-18 19:05:54",
+ "last_seen": null,
+ "file_name": "robloxunlockedfree.apk",
+ "file_size": 270004,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "AhMyth",
+ "imphash": null,
+ "tlsh": "T158442307AED07227F09FC73188CC5BF3C3B28494A6A0DF17F5A4686839655E51B172EA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:CTsIig5FV6YAqt2Cw2AnyJ6XGgJ2AsgmdQNnMN3l:CIriFQYAqtPwXn5Wg4fgmuNel",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Ahmyth",
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "2288",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/6de9c4a91a1d17473029aa0c7ca98580779734282cb91bf7aa7b8dd54cd6c6b6/"
+  },
+  "YOROI_YOMI": {
+   "detection": "AhMyth",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/6de9c4a91a1d17473029aa0c7ca98580779734282cb91bf7aa7b8dd54cd6c6b6",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "ahmyth",
+   "score": "10",
+   "link": "https://tria.ge/reports/250318-xr4xjszrw4/",
+   "tags": [
+    "family:ahmyth",
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "ahmyth",
+     "c2": "http://197.48.230.161:5505"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ahmyth",
+   "status": "MALICIOUS",
+   "first_seen": "2025-03-17 21:40:17",
+   "scanner_count": "24",
+   "scanner_match": "12",
+   "scanner_percent": "50.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/67d9c4210a7899f3579c6cd5/reports//overview"
+  }
+ },
+ "comments": null
+}

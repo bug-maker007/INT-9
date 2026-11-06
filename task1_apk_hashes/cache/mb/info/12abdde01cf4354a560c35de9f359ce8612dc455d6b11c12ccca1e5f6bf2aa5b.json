@@ -1,0 +1,145 @@
+{
+ "sha256_hash": "12abdde01cf4354a560c35de9f359ce8612dc455d6b11c12ccca1e5f6bf2aa5b",
+ "sha3_384_hash": "1db1430509dae6d5a460eb99ea83f5b5fa1deea82ed5778ecf7c213658ac02496ada53d928114974eb1458fa33815cd1",
+ "sha1_hash": "a880dab99e2615fb6fec3802580147b593ebba7c",
+ "md5_hash": "16de79c0c19bccd6aa04249df139856e",
+ "first_seen": "2025-03-19 13:07:44",
+ "last_seen": null,
+ "file_name": "City Cleaning-1.apk",
+ "file_size": 4631812,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T15A26F003FB48DB97D8BAC3F16B630DA50A171F25CA426AE74461376E2D7B2C10DD5A8C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:hnvzBtT2mzQO0tOHARMVGoqwSVvcFthE+pjmd4dQh/SZ8:5Bz+OgKV01VkF7E0jmdmo/w8",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "48.2% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "37.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "14.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SpyNote"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "7037",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Suspicious_Latam_MSI_and_ZIP_Files",
+   "author": "eremit4, P4nd3m1cb0y",
+   "description": "Detects suspicious .msi and .zip files used in Latam banking trojan campaigns.",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/12abdde01cf4354a560c35de9f359ce8612dc455d6b11c12ccca1e5f6bf2aa5b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "SpyNote",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/12abdde01cf4354a560c35de9f359ce8612dc455d6b11c12ccca1e5f6bf2aa5b",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250319-qc9qxszrx4/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "execution",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-03-10 06:34:41",
+   "scanner_count": "34",
+   "scanner_match": "8",
+   "scanner_percent": "23.53"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67dac1bf0a7899f3579df86f/reports/8192d585-1834-4fcb-a3e5-746aba089823/overview"
+  }
+ },
+ "comments": null
+}

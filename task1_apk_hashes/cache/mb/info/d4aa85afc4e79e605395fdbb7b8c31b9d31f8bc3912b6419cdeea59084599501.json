@@ -1,0 +1,106 @@
+{
+ "sha256_hash": "d4aa85afc4e79e605395fdbb7b8c31b9d31f8bc3912b6419cdeea59084599501",
+ "sha3_384_hash": "3bea7611c7759d4be7ddb82bfda2c4de8e41ecb16bed6af30346ee747266c89021c83934780bb09c262d6c234188c9e6",
+ "sha1_hash": "78c9d81a695033e5dbd25b77539f6c8cbd953703",
+ "md5_hash": "85265b678d2f194c75153724dbe62d43",
+ "first_seen": "2024-04-02 03:48:37",
+ "last_seen": null,
+ "file_name": "MissGame.apk",
+ "file_size": 4034973,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T16A162357F3666D13C8F5C3722574293A11764E199B07B38A39187BFA2EBBCE80B841D1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:F/DkMk8fqOTSRZWPwo6yY2kkmX73ZrOHK8o9FNCCN21pR5/5TXSUo1e9KJ+byzcn:dTqYjwZAkkmXN8o1CCipRpX7UP3ltxP2",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "455",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d4aa85afc4e79e605395fdbb7b8c31b9d31f8bc3912b6419cdeea59084599501/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/d4aa85afc4e79e605395fdbb7b8c31b9d31f8bc3912b6419cdeea59084599501",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240402-edca9sfg2y/",
+   "tags": [
+    "family:irata",
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Backdoor.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2024-04-02 04:01:13",
+   "scanner_count": "24",
+   "scanner_match": "10",
+   "scanner_percent": "41.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/660b802feda3192746187f71/reports/2f975593-d1e7-4381-8c9d-3356db0bc0c7/overview"
+  }
+ },
+ "comments": null
+}

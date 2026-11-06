@@ -1,0 +1,107 @@
+{
+ "sha256_hash": "8e3aaccdcfec00f697fd658758bea1bf41ce5f09ecebea1788161c29a9f9f9bb",
+ "sha3_384_hash": "f461eb01f2130689f98b40eab14ecb0276ac86dafe1a3cabd6f2380388546279e65d3d2620427dfe5af58fd017a01ec2",
+ "sha1_hash": "fce012ae757e763ef422a559d3c166996d742448",
+ "md5_hash": "5680f12993ce5cd169ce6ea2a8e9a094",
+ "first_seen": "2026-07-30 12:22:54",
+ "last_seen": null,
+ "file_name": "RBL-Credit-Card-2.apk",
+ "file_size": 4837539,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T17C26F1CAFBC8592FC4771032C96A97F216474D16CA839F876994360C68B76D80F9DBC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:KwKsXOFcNPbS5nBrhwDapoh6Txmtd3gTP/JdTHDHUa68NAo/KrfMv84:KwV+FgShBidGxAA/JdTH5Rv84",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "36.7% (.APK) Android Package (27000/1/5)",
+  "18.3% (.JAR) Java Archive (13500/1/2)",
+  "17.0% (.VYM) VYM Mind Map (12500/1/3)",
+  "14.2% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "8.1% (.USDZ) Universal Scene Description Zipped AR format (generic) (6000/1/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Banker",
+  "RBL Bank",
+  "RBL Credit Card"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "316",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8e3aaccdcfec00f697fd658758bea1bf41ce5f09ecebea1788161c29a9f9f9bb/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": null,
+   "link": "https://tria.ge/reports/260730-pkp6taaj4s/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-02-11 07:52:39",
+   "scanner_count": "24",
+   "scanner_match": "10",
+   "scanner_percent": "41.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a6b423e14a08308efee2c87/reports/903991a8-3197-402f-8e61-56aae081caef/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-02-25T17:17:00Z",
+   "last_seen": "2026-08-01T09:35:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/8e3aaccdcfec00f697fd658758bea1bf41ce5f09ecebea1788161c29a9f9f9bb/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

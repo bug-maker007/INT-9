@@ -1,0 +1,139 @@
+{
+ "sha256_hash": "7104daedd0cf8ae8f2a0e15b40c3d8a386e01e114e7468a5130d6bbf91384822",
+ "sha3_384_hash": "c60f947e2c60caccf9169d8e06c66d397d323d65131da84255b11175f472ae7b9ad316bd8549e2ce8946e248abec103b",
+ "sha1_hash": "5db890d4a7d2153a2fb466521b3787a81d3304f2",
+ "md5_hash": "074c7c1dac286f9e3e296eb0c38ae507",
+ "first_seen": "2026-10-26 13:02:20",
+ "last_seen": null,
+ "file_name": "TikTok_18+Cote.apk",
+ "file_size": 6382893,
+ "file_type_mime": "application/vnd.android.package-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "CA",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T13956125ABB88462EC47680310D6B533126675D92C9A39B4BB458331C79B3BC84FDEBDC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:mGFjDDW2skkIwzKpnKoQvoLreHTrrFRNpsFW/xG2fURm6wrraj356EtQ3HcU3eZE:3FDK2t5wzK2vlL30Mfd6x5gc1V0H",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Banker",
+  "Dropper",
+  "Malware",
+  "signed",
+  "Spyware",
+  "TikTok",
+  "Trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "QA Team",
+   "issuer_cn": "QA Team",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2023-03-07T10:06:56Z",
+   "valid_to": "2050-07-23T10:06:56Z",
+   "serial_number": "354afd4b",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1431eedaa27b30fd846283f083e52a5fa40c0261e1a039a337a37174d699e750",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SpyMax.129.origin.6824.700.UNOFFICIAL"
+  ],
+  "downloads": "204",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "ANDROID_Sample_Unique_5be608a5",
+   "author": "Marjoriefort",
+   "description": "Specimen unique (soumission Bazaar) - strings distinctifs propres au sample",
+   "reference": "5be608a563a02c94dbf3b1812b3aa0685a6f8228b5dc74c773cc3c912adef7ba.apk"
+  },
+  {
+   "rule_name": "Sus_CMD_Powershell_Usage",
+   "author": "XiAnzheng",
+   "description": "May Contain(Obfuscated or no) Powershell or CMD Command that can be abused by threat actor(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7104daedd0cf8ae8f2a0e15b40c3d8a386e01e114e7468a5130d6bbf91384822/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/261026-p91c3sdz9y/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-10-26 13:03:33",
+   "scanner_count": "23",
+   "scanner_match": "5",
+   "scanner_percent": "21.74"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6adf4fb149ef7fb817a04a7f/reports/ff8a7f83-5320-49a4-8ac3-bb5c9c0d0414/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-10-26T11:38:00Z",
+   "last_seen": "2026-10-26T12:21:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/7104daedd0cf8ae8f2a0e15b40c3d8a386e01e114e7468a5130d6bbf91384822/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

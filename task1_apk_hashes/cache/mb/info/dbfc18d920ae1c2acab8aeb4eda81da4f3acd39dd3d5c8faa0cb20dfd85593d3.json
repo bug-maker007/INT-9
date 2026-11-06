@@ -1,0 +1,107 @@
+{
+ "sha256_hash": "dbfc18d920ae1c2acab8aeb4eda81da4f3acd39dd3d5c8faa0cb20dfd85593d3",
+ "sha3_384_hash": "fa2788d7b0348da59a5fd2508ded2614c3a05ce58a1f56f2c61092c1dd4aa3044ccf71f02017eb7b4a97c7ade4f0e2d5",
+ "sha1_hash": "8c2b78be6d4426f027a407af946d7fa13d69c44b",
+ "md5_hash": "d98d5342e4670c0cfcecd9b78490ddec",
+ "first_seen": "2026-06-17 15:20:26",
+ "last_seen": null,
+ "file_name": "NextGen_mParivahan.apk",
+ "file_size": 15559356,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T173F61266FB08D96BC4F77336453A9621474B4C228BB3D6D36D19723C58BB5C04F8AAC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:i1/a2H1PxJUNFXuN6xcPJsS5TmH/UxQgjQiLPxZx5Yu/:MSAbeZ2uc6Jo8iLPpaq",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "50.0% (.APK) Android Package (27000/1/5)",
+  "23.1% (.VYM) VYM Mind Map (12500/1/3)",
+  "19.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "GOI",
+  "Malware",
+  "mParivahan",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "276",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/dbfc18d920ae1c2acab8aeb4eda81da4f3acd39dd3d5c8faa0cb20dfd85593d3/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260617-srhl4ahy3k/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-06-17 15:22:12",
+   "scanner_count": "38",
+   "scanner_match": "1",
+   "scanner_percent": "2.63"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a32bb6d62d0679105f67861/reports/63221358-39ef-4761-998a-758bcdcb7ef5/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-06-17T13:29:00Z",
+   "last_seen": "2026-06-19T01:44:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/dbfc18d920ae1c2acab8aeb4eda81da4f3acd39dd3d5c8faa0cb20dfd85593d3/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

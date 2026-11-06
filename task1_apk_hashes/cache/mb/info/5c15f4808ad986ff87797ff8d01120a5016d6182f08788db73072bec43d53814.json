@@ -1,0 +1,135 @@
+{
+ "sha256_hash": "5c15f4808ad986ff87797ff8d01120a5016d6182f08788db73072bec43d53814",
+ "sha3_384_hash": "3b01b08d06cf8ebab026f728ccffb81617eb0e4945f38a2191a4c9dd924755ad45e980bf641085715fd55b591ccc9584",
+ "sha1_hash": "2185a3ccd5169fd342944455c8bb076c5660a824",
+ "md5_hash": "2fcf521ef8e52107f10060781f62400a",
+ "first_seen": "2026-03-15 05:55:52",
+ "last_seen": null,
+ "file_name": "Click SuperApp.apk",
+ "file_size": 2828665,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T147D5E011BE419E03E47E433AA4F6A2446233AF80CF97D77B2178767CA8776C18D52786",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:p8pLJ2FtWxHbtnwesQCuma2gje+xHp88IokNjiR7lFfHApZ30zN:gJ2Ft6HFtotgje+z5ka/AniN",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Click SuperApp",
+  "dropper",
+  "riskware",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "W9MH24DSIKAG",
+   "issuer_cn": "W9MH24DSIKAG",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2026-03-09T22:07:47Z",
+   "valid_to": "2053-07-25T22:07:47Z",
+   "serial_number": "1762dc43a47f3094",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "619816826174f63d3d3c97653a73a878110afc4d64e420fca8e22dec238d2650",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.MulDrop.241.origin.438.28380.UNOFFICIAL"
+  ],
+  "downloads": "305",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5c15f4808ad986ff87797ff8d01120a5016d6182f08788db73072bec43d53814/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/5c15f4808ad986ff87797ff8d01120a5016d6182f08788db73072bec43d53814",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260315-gm6btab121/",
+   "tags": [
+    "android",
+    "impact"
+   ],
+   "signatures": [
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-03-15 05:56:26",
+   "scanner_count": "22",
+   "scanner_match": "4",
+   "scanner_percent": "18.18"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69b64a024678eefbc7abf105/reports/8f30a2da-52dc-456f-8d0b-f5719acf2830/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/5c15f4808ad986ff87797ff8d01120a5016d6182f08788db73072bec43d53814/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

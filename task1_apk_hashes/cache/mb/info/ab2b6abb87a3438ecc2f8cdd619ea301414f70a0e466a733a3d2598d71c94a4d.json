@@ -1,0 +1,170 @@
+{
+ "sha256_hash": "ab2b6abb87a3438ecc2f8cdd619ea301414f70a0e466a733a3d2598d71c94a4d",
+ "sha3_384_hash": "90f20a387251b5a7416f7f9086a7aca794004dc3bcfb3b7ebc6e97cd039baa88f4ab55abc4af56632383a85e338e8af1",
+ "sha1_hash": "10968739d3ed1455fb24e4f8cee823e133e330b4",
+ "md5_hash": "2aa68e2536a9a7146d902f09055df94a",
+ "first_seen": "2025-09-14 09:25:46",
+ "last_seen": null,
+ "file_name": "ab2b6abb87a3438ecc2f8cdd619ea301414f70a0e466a733a3d2598d71c94a4d.apk",
+ "file_size": 16689337,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ReBensk",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T11CF62309FF2CB91FD8BA44320A4AD27161199D54CE52E30B6D08B38D76B79F46B89FD0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:uZIQwWfTrVH417Y0HS+xhdROkm0rdt5QeWwxl7b:udveRY0HlxZOkJrdceNl7b",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "50.0% (.APK) Android Package (27000/1/5)",
+  "23.1% (.VYM) VYM Mind Map (12500/1/3)",
+  "19.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Joker"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "160",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "botnet_plaintext_c2",
+   "author": "cip",
+   "description": "Attempts to match at least some of the strings used in some botnet variants which use plaintext communication protocols.",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_AllMal_Detector",
+   "author": "DiegoAnalytics",
+   "description": "CrossPlatform All Malwares Detector: Detect PE, ELF, Mach-O, scripts, archives; overlay, obfuscation, encryption, spoofing, hiding, high entropy, network communication",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "without_attachments",
+   "author": "Antonio Sanchez <asanchez@hispasec.com>",
+   "description": "Rule to detect the no presence of any attachment",
+   "reference": "http://laboratorio.blogs.hispasec.com/"
+  },
+  {
+   "rule_name": "with_urls",
+   "author": "Antonio Sanchez <asanchez@hispasec.com>",
+   "description": "Rule to detect the presence of an or several urls",
+   "reference": "http://laboratorio.blogs.hispasec.com/"
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ab2b6abb87a3438ecc2f8cdd619ea301414f70a0e466a733a3d2598d71c94a4d/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ab2b6abb87a3438ecc2f8cdd619ea301414f70a0e466a733a3d2598d71c94a4d",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/250914-lefhms1mt8/",
+   "tags": [
+    "android",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-09-13 16:47:40",
+   "scanner_count": "24",
+   "scanner_match": "2",
+   "scanner_percent": "8.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68c68a3c732879482929862c/reports/596500b4-13d4-4018-b339-c4a21a68d24b/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-09-13T17:59:00Z",
+   "last_seen": "2025-09-13T17:59:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/ab2b6abb87a3438ecc2f8cdd619ea301414f70a0e466a733a3d2598d71c94a4d/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

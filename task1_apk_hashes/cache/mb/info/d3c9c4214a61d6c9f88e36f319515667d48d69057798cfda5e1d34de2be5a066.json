@@ -1,0 +1,154 @@
+{
+ "sha256_hash": "d3c9c4214a61d6c9f88e36f319515667d48d69057798cfda5e1d34de2be5a066",
+ "sha3_384_hash": "5196f8c2a567a91fbc7235a529da2883fc7a4ed41c0875065ae62c58ba85bc086753b672fde318869a5a67b2bc7f5701",
+ "sha1_hash": "9f6f5980437a717e1f0aec2977e5f3f6fdaa512e",
+ "md5_hash": "aae6fc6718e14f9c18a7ad133eee5d40",
+ "first_seen": "2025-11-21 03:07:05",
+ "last_seen": null,
+ "file_name": "Junk Removal Clean_30.1.01.apk",
+ "file_size": 16723820,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "JP",
+ "anonymous": 1,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T1A6F6125BE71DA82FC877B5738EBA122001251C855682FB63B956B21D29F39C49F4EFC0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:2rdMusND+oq4+ZACZg5/fWTSPCbrwqcIuHwxfTYH:8qXNDaLZHm5XTPw/RTM",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "31.2% (.APK) Android Package (27000/1/5)",
+  "24.8% (.OXT) OpenOffice Extension (21500/1/3)",
+  "14.4% (.VYM) VYM Mind Map (12500/1/3)",
+  "12.7% (.CATROBAT) Pocket Code/Catroid Catrobat Project (11000/1/2)",
+  "12.1% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Bill Fraud",
+  "Joker",
+  "Malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "198",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://play.google.com/store/apps/details?id=com.tecnain.junksweep"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d3c9c4214a61d6c9f88e36f319515667d48d69057798cfda5e1d34de2be5a066/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/d3c9c4214a61d6c9f88e36f319515667d48d69057798cfda5e1d34de2be5a066",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/251121-dmjahacl9w/",
+   "tags": [
+    "android",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-11-21 03:07:25",
+   "scanner_count": "38",
+   "scanner_match": "1",
+   "scanner_percent": "2.63"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/691fd76cf96b58f0dc7e7ad5/reports/8e97f49f-7535-4126-adb4-a117ae568bc3/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Clean",
+   "file_type": "apk",
+   "first_seen": "2025-11-21T04:38:00Z",
+   "last_seen": "2025-11-21T07:36:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/d3c9c4214a61d6c9f88e36f319515667d48d69057798cfda5e1d34de2be5a066/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

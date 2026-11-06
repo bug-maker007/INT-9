@@ -1,0 +1,130 @@
+{
+ "sha256_hash": "cde47bed5ec83e29f6455ec35228c3f56d488393668f5b720b79fcd6cb3bc098",
+ "sha3_384_hash": "9e9c383c77ea7b0f9293b951a4645a4979679776270a781f9c219a593409cee15e03021d6e17981fa7fd4cf8d77f15b2",
+ "sha1_hash": "9bfb12f6b99c9d7e80123c224a3c0d89fede5c58",
+ "md5_hash": "ac7e3b5bcd591fe15bf2c5aa43f389a8",
+ "first_seen": "2024-07-07 10:21:27",
+ "last_seen": null,
+ "file_name": "PATCH-SDK26.apk",
+ "file_size": 29217,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "EG",
+ "anonymous": 1,
+ "signature": "SpyMax",
+ "imphash": null,
+ "tlsh": "T1ACD2E0963318C182E5FFEA760D310023CD13F681A7996F0A3B26AA217CD39B4CF41597",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "768:T7qKKd3PyfFrT2GJxeEUaDWD2RKFCl3fp66/YzL:T4P8eGJxOaDJ66/YzL",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "spymax"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "xd",
+   "issuer_cn": "xd",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2019-04-11T04:20:28Z",
+   "valid_to": "2044-04-04T04:20:28Z",
+   "serial_number": "4e885d7f",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "ae69241dc087002d9f7a1f41157f337da046224f048e5e4b24ba743b58cf7a82",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.HiddenAds.432.origin.886.18096.UNOFFICIAL"
+  ],
+  "downloads": "385",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "APK_SpyNote_May_2024",
+   "author": "NDA0E",
+   "description": "Detects Spynote",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/cde47bed5ec83e29f6455ec35228c3f56d488393668f5b720b79fcd6cb3bc098/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.05"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/cde47bed5ec83e29f6455ec35228c3f56d488393668f5b720b79fcd6cb3bc098",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spymax",
+   "score": "10",
+   "link": "https://tria.ge/reports/240707-md8ngazaqr/",
+   "tags": [
+    "family:spymax",
+    "android",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spymax",
+     "c2": "[SPY_MAX_IP]:[SPY_MAX_PORT]"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Phonzy",
+   "status": "MALICIOUS",
+   "first_seen": "2019-05-30 05:32:58",
+   "scanner_count": "38",
+   "scanner_match": "12",
+   "scanner_percent": "31.58"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/668a6c4c7731d034e8806d79/reports/8697b2c3-66cd-473a-b900-df7c49db7d96/overview"
+  }
+ },
+ "comments": null
+}

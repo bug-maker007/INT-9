@@ -1,0 +1,137 @@
+{
+ "sha256_hash": "b5cc70d0891be5c164a28d09d090884c78c45d70cdca506ee1f1dd50ce07a40f",
+ "sha3_384_hash": "449583a0d9e15438688c3cb50bf83aeac906e0f4fd0feae427000de54098ded631a9195908fe09b91f1ffae87831ae82",
+ "sha1_hash": "bbf72e6c949a5b5f8d7f2adcfdcc0c5ec1423ced",
+ "md5_hash": "00e2683beaefc0885e6166acfa00b6cd",
+ "first_seen": "2025-08-20 18:24:30",
+ "last_seen": null,
+ "file_name": "update.apk",
+ "file_size": 12300486,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "IE",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T103C60147FB048A4AC4F783B249335B9026270E678B4397D76964397D3C776D06E8AACC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:5r7MCOX2wrxZImUkz5Q+rTRH1e1YcGZG2RNpkjqSQmT47q6tKx/odLifPbv8dUx:53KImLQwTjVPZG4Npk+SQ77q6tyodLKP",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "33.3% (.APK) Android Package (27000/1/5)",
+  "16.6% (.JAR) Java Archive (13500/1/2)",
+  "16.6% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "15.4% (.VYM) VYM Mind Map (12500/1/3)",
+  "12.9% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "SpyNote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "203",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropped_by_sha256",
+   "value": "862cdb13528a03d2dfbeb9df5cdc9eb88fc46ce962e58d52eaf106e469414caa"
+  },
+  {
+   "context": "dropped_by_md5",
+   "value": "bbdaa755ccc2a05e52c4c6f5b22ad4d4"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "botnet_plaintext_c2",
+   "author": "cip",
+   "description": "Attempts to match at least some of the strings used in some botnet variants which use plaintext communication protocols.",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_AllMal_Detector",
+   "author": "DiegoAnalytics",
+   "description": "CrossPlatform All Malwares Detector: Detect PE, ELF, Mach-O, scripts, archives; overlay, obfuscation, encryption, spoofing, hiding, high entropy, network communication",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b5cc70d0891be5c164a28d09d090884c78c45d70cdca506ee1f1dd50ce07a40f/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/b5cc70d0891be5c164a28d09d090884c78c45d70cdca506ee1f1dd50ce07a40f",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/250820-w2cqdaam71/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.PUA.ScamApp",
+   "status": "MALICIOUS",
+   "first_seen": "2025-08-20 03:15:40",
+   "scanner_count": "38",
+   "scanner_match": "7",
+   "scanner_percent": "18.42"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68a612e8419c816a6e8dda9d/reports/e65b17ac-0c14-42eb-b7da-80a6818684dd/overview"
+  }
+ },
+ "comments": null
+}

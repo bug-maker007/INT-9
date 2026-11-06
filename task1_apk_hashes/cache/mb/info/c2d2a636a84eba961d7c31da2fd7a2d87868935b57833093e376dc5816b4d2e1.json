@@ -1,0 +1,126 @@
+{
+ "sha256_hash": "c2d2a636a84eba961d7c31da2fd7a2d87868935b57833093e376dc5816b4d2e1",
+ "sha3_384_hash": "e5cf7af7db328c304fb3499c7b9fca228eb174324c331566b2c1e503f8065be88cc71922a6b8f0f0ddaf4c0a10cda14e",
+ "sha1_hash": "987ad4819043641dd10a4e8b5f8a3cadee24e311",
+ "md5_hash": "d2fc5468b9f1876dcb93258e5a7b7532",
+ "first_seen": "2024-02-25 16:01:40",
+ "last_seen": null,
+ "file_name": "Password Scanner WiFi QrCode_1.14.apk",
+ "file_size": 15164681,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "500mk500",
+ "origin_country": "UA",
+ "anonymous": 0,
+ "signature": "Harly",
+ "imphash": null,
+ "tlsh": "T180E622C6F799E92FC8376172496A93B503494C12C6469B8FB5443B0C28B36E44F7ABC7",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:iM0ODcU+FZZOm8FrtNAbYWdgPS4jXqVq4TBtauAp9f7j:inYxQ+bcFdYS4TqRdng",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "44.8% (.APK) Android Package (32500/1/6)",
+  "18.6% (.JAR) Java Archive (13500/1/2)",
+  "15.1% (.CATROBAT) Pocket Code/Catroid Catrobat Project (11000/1/2)",
+  "14.4% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Harly",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2023-01-08T19:49:08Z",
+   "valid_to": "2053-01-08T19:49:08Z",
+   "serial_number": "1581adad18aa9d8320abceb39fef280a111bdfcf",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "bbf0266eb524bbdee0e0cd5a76b2267296a7f66c726fd5226a48f98985a85613",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "461",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/ReBensk/status/1761778330297151964"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Start2_net_mem",
+   "author": "James_inthe_box",
+   "description": "SystemBC",
+   "reference": "7bd341488dc6f01a6662ac478d67d3cd8211cbf362994355027b5bdf573cc31e"
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c2d2a636a84eba961d7c31da2fd7a2d87868935b57833093e376dc5816b4d2e1/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c2d2a636a84eba961d7c31da2fd7a2d87868935b57833093e376dc5816b4d2e1",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/240225-tgr88agc5z/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2024-02-25 16:02:13",
+   "scanner_count": "24",
+   "scanner_match": "2",
+   "scanner_percent": "8.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65db647c26f1ddc579a93c2f/reports/91e4602b-3428-409c-a67d-884ce6de4479/overview"
+  }
+ },
+ "comments": null
+}

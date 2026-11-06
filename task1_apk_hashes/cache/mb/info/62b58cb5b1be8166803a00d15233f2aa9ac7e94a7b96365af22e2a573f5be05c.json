@@ -1,0 +1,97 @@
+{
+ "sha256_hash": "62b58cb5b1be8166803a00d15233f2aa9ac7e94a7b96365af22e2a573f5be05c",
+ "sha3_384_hash": "9011b4ec55c2126eb08ca37a1414f7c67334ae99ac3b1578f40e70224cf1a70e34dd30b9d9bbf05b9bd252d8ee0e1cf1",
+ "sha1_hash": "e33f1b91763631c789a0913f08c42edb310929cd",
+ "md5_hash": "124bc3a45bd1b5b92eee4b288aee6316",
+ "first_seen": "2024-03-03 08:41:22",
+ "last_seen": null,
+ "file_name": "base.apk",
+ "file_size": 22343104,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ReBensk",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T1E327335BF359A8AFC4BB25764E39562202930D660383ABE37D14B22D19B76D00F5EFC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:5HJRhIDdbTQIIwuL2dl44JD+aR044So40MwNK1DzEWgM9KpwASW:N5IbkIIwjd1ZbvX0MwNK1NgM9CwAJ",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "44.6% (.VYM) VYM Mind Map (12500/1/3)",
+  "37.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "14.2% (.ZIP) ZIP compressed archive (4000/1)",
+  "3.5% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Jocker",
+  "Joker"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "416",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/62b58cb5b1be8166803a00d15233f2aa9ac7e94a7b96365af22e2a573f5be05c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/240303-kl1aysga5t/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2024-03-03 08:42:08",
+   "scanner_count": "38",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65e437db06b24253d2359607/reports/90aec014-ed4b-431e-a987-f2c3ff8a8091/overview"
+  }
+ },
+ "comments": null
+}

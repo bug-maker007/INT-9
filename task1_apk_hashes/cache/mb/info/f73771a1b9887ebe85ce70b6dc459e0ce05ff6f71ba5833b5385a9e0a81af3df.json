@@ -1,0 +1,146 @@
+{
+ "sha256_hash": "f73771a1b9887ebe85ce70b6dc459e0ce05ff6f71ba5833b5385a9e0a81af3df",
+ "sha3_384_hash": "c973dacd953ed54e3519488950d5da5288f26ebf679d3b536952da9f5a8363fd17e6d3a5c0ca78eeb59d40ccaf875c9f",
+ "sha1_hash": "e01b9c1a08fd9bba6c1274ba231b7c62abffc443",
+ "md5_hash": "d87c814d4f267c788ae76d10e69b65d7",
+ "first_seen": "2026-06-17 13:08:24",
+ "last_seen": null,
+ "file_name": "io.lzchij.pro2nr3_3.apk",
+ "file_size": 18800482,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1B9172216FF44D9EAC0F3573649715522414B1C21AB83C397AD68737D18BBAE88F4ABC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:qylo4vfSinam5jqEvgV3JsCZlTox7ySGwGPw:Q4vfSYamoEYV3JJox3GO",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.0% (.APK) Android Package (27000/1/5)",
+  "31.1% (.ZIP) Opera Widget (14000/1/2)",
+  "8.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Dropper",
+  "InfoStealer",
+  "Malware",
+  "TikTok",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "311",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/f73771a1b9887ebe85ce70b6dc459e0ce05ff6f71ba5833b5385a9e0a81af3df/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260617-qdqdnsf14q/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-13 22:10:11",
+   "scanner_count": "38",
+   "scanner_match": "4",
+   "scanner_percent": "10.53"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a329c6390632a45f7259b42/reports/87650f24-cb9a-49a3-886a-4b93181a250d/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-11T10:12:00Z",
+   "last_seen": "2026-06-18T18:11:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/f73771a1b9887ebe85ce70b6dc459e0ce05ff6f71ba5833b5385a9e0a81af3df/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

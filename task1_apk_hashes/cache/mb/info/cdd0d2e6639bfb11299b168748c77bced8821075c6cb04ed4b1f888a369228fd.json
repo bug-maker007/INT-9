@@ -1,0 +1,142 @@
+{
+ "sha256_hash": "cdd0d2e6639bfb11299b168748c77bced8821075c6cb04ed4b1f888a369228fd",
+ "sha3_384_hash": "17ed488bfc4ee323561c591cf331a4c2b5533e1f2ac968f7d13cd980e48f17ef7497eaf978e095b556b4e59afd7a037f",
+ "sha1_hash": "8037172d163507706bb9dbc486d4797d94e4780e",
+ "md5_hash": "9bd8088435955ceef18127319dade578",
+ "first_seen": "2025-09-13 05:56:23",
+ "last_seen": null,
+ "file_name": "hhh.apk",
+ "file_size": 269899,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "ES",
+ "anonymous": 1,
+ "signature": "Ahmyth",
+ "imphash": null,
+ "tlsh": "T12C4422BEFAD7C038C5B1953EBC9A75462D74A3A1DB64EF6FA161C0B08C354A77B90804",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:Pj90QNLXRBV2l+PmIZMholc3VEfhNRiSfhs+N9Td:Pj9XrPZIUfMEsi5",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Ahmyth",
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "1",
+   "issuer_cn": "1",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2025-09-10T02:25:47Z",
+   "valid_to": "2025-12-19T02:25:47Z",
+   "serial_number": "283cdfca",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "b8efcc8a6a04c8316f42cd7bbdd637d049d1b9ffc4725f15e14613145f8ee80d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.5171.24645.2719.UNOFFICIAL"
+  ],
+  "downloads": "218",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "urlhaus",
+   "value": "https://urlhaus.abuse.ch/url/3623058/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_AllMal_Detector",
+   "author": "DiegoAnalytics",
+   "description": "CrossPlatform All Malwares Detector: Detect PE, ELF, Mach-O, scripts, archives; overlay, obfuscation, encryption, spoofing, hiding, high entropy, network communication",
+   "reference": null
+  },
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/cdd0d2e6639bfb11299b168748c77bced8821075c6cb04ed4b1f888a369228fd/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.05"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/cdd0d2e6639bfb11299b168748c77bced8821075c6cb04ed4b1f888a369228fd",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "ahmyth",
+   "score": "10",
+   "link": "https://tria.ge/reports/250913-gnc2nazth1/",
+   "tags": [
+    "family:ahmyth",
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "ahmyth",
+     "c2": "http://182.92.96.11:42474"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ahmyth",
+   "status": "MALICIOUS",
+   "first_seen": "2025-09-13 05:50:52",
+   "scanner_count": "24",
+   "scanner_match": "11",
+   "scanner_percent": "45.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/68c50792732879482928de15/reports//overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-09-13T03:19:00Z",
+   "last_seen": "2025-09-13T03:19:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/cdd0d2e6639bfb11299b168748c77bced8821075c6cb04ed4b1f888a369228fd/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

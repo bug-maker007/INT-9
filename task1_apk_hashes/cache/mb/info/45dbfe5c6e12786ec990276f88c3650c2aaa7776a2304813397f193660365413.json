@@ -1,0 +1,305 @@
+{
+ "sha256_hash": "45dbfe5c6e12786ec990276f88c3650c2aaa7776a2304813397f193660365413",
+ "sha3_384_hash": "70a588228a5fece66c21fd5ee24c059939011804ed2ab89b98f7744bc577d422366b720a5e4df33590bd19ce526e6d20",
+ "sha1_hash": "4ce71fa1a7866a98918223d84ab4d2ba88e2b757",
+ "md5_hash": "2a5a02a0efa3bb76f9547374ad2cadf5",
+ "first_seen": "2023-02-09 07:12:48",
+ "last_seen": null,
+ "file_name": "GooglePlay.apk",
+ "file_size": 540229,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "Octo",
+ "imphash": null,
+ "tlsh": "T1F5B423255D30B694D3420AB89D35584DF16253F02D31F23326E92B780FE849CBBA56EF",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:StRwfseyHt/2pTR0AYSOKKmmN01INjIGl/RDvqjtUJbz5VGpiy1kfAs:SIDy4pTZ9OKKmmmI1IUl+UHekf/",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Octo",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan-Banker.AndroidOS.Octo.22215.1444.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan.Generic.33088050.22834.9148.UNOFFICIAL"
+  ],
+  "downloads": "297",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2534872/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/45dbfe5c6e12786ec990276f88c3650c2aaa7776a2304813397f193660365413/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.30"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/45dbfe5c6e12786ec990276f88c3650c2aaa7776a2304813397f193660365413",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/230209-h13nhshb2w/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "ransomware",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://2fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://3fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://4fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://5fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://6fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://7fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://8fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://9fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://10fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://11fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://12fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://13fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://14fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://15fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://16fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://17fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://18fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://19fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://20fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://21fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://23fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://24fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://25fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://26fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://27fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://28fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://29fdghhoo11.top/doc/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://30fdghhoo11.top/doc/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-01-12 05:08:00",
+   "scanner_count": "39",
+   "scanner_match": "14",
+   "scanner_percent": "35.90"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/63e49cfe459bcf4604ffd5c0/reports/5c719744-a99e-4abf-a6b4-5e8b6e963330/overview"
+  }
+ },
+ "comments": null
+}

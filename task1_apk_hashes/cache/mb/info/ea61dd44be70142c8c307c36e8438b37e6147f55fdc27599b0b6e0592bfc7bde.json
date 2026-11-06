@@ -1,0 +1,156 @@
+{
+ "sha256_hash": "ea61dd44be70142c8c307c36e8438b37e6147f55fdc27599b0b6e0592bfc7bde",
+ "sha3_384_hash": "d6cf6c9ed1a5c704503598692e670546a26901f2f7e14dbdf276488138a91be846e110b08e030c3784e53549ffc588d1",
+ "sha1_hash": "4db38656a3578a728d35dd964448909adf40c8b6",
+ "md5_hash": "9b185381680f3c6c073718da1d6b5a6c",
+ "first_seen": "2026-07-28 11:59:56",
+ "last_seen": null,
+ "file_name": "mellat.apk",
+ "file_size": 3931506,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "GB",
+ "anonymous": 1,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T12606E095BF44593FC47780334B665239326A8D16CF82A74BB858336C6877ADC4F89BC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:4z39MIuIZcEL+gntJyEsUK2Qz/OBd4bOlDbJeDayYP3W37yfY4f:4z3aIustJyEsv/OL4bOlDbJeDaywgU",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "malware-analysis",
+  "SHAPARAK",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "179",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ea61dd44be70142c8c307c36e8438b37e6147f55fdc27599b0b6e0592bfc7bde/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260728-qjqxdsal2x/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-07-19 07:29:39",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/6a68abf7c8c78a2f3351edad/reports//overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-19T02:39:00Z",
+   "last_seen": "2026-07-29T11:46:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/ea61dd44be70142c8c307c36e8438b37e6147f55fdc27599b0b6e0592bfc7bde/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

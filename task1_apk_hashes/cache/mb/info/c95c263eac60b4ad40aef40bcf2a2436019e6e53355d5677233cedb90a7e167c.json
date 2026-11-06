@@ -1,0 +1,114 @@
+{
+ "sha256_hash": "c95c263eac60b4ad40aef40bcf2a2436019e6e53355d5677233cedb90a7e167c",
+ "sha3_384_hash": "541372d27e3f96b549786be9c088a5e67141102cea0f7b83a576836b37de76398a426a70b3a6bd43cd4f6d4f7a6d3d60",
+ "sha1_hash": "8ce2e0db49639d68b21b44d1c99105bb52cbf875",
+ "md5_hash": "8725a0f6a1c8aba5c484cbd491426a96",
+ "first_seen": "2024-02-26 09:28:30",
+ "last_seen": null,
+ "file_name": "App.apk",
+ "file_size": 3560443,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T165F52357F725A81EC8F2D3321660173E813A4E29DB43A68A690433B974F7DFC0B956D2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:lm8zo7Yif+iHP1JMdHNonuxWAbY1XUT7nHX:doVTHP0zoA683",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2021-05-22T04:58:32Z",
+   "valid_to": "2120-09-04T04:58:32Z",
+   "serial_number": "0c11d603",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e702de593abce6259624b294b47a16a0239caa17322c3285b6d1c8acf7fbf30d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "397",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c95c263eac60b4ad40aef40bcf2a2436019e6e53355d5677233cedb90a7e167c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c95c263eac60b4ad40aef40bcf2a2436019e6e53355d5677233cedb90a7e167c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240226-lfww1sac65/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2024-02-25 22:36:22",
+   "scanner_count": "23",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65dc59df07d709033aebe49a/reports/4baffb62-e9c1-4c67-a9b4-3a980f7e5437/overview"
+  }
+ },
+ "comments": null
+}

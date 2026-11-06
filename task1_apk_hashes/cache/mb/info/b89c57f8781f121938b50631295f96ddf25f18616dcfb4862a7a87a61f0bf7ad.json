@@ -1,0 +1,233 @@
+{
+ "sha256_hash": "b89c57f8781f121938b50631295f96ddf25f18616dcfb4862a7a87a61f0bf7ad",
+ "sha3_384_hash": "eba244825d78cf4daff2cb23f94b71bd125d4205ba8b9ffe9496283243be0ff1382340012e62e5dea7adb878542d4d16",
+ "sha1_hash": "265ee4e5a322b6d82b1539cd11f277246a116dce",
+ "md5_hash": "78b1933b1499db4c552a02af2c202f70",
+ "first_seen": "2025-12-04 08:01:12",
+ "last_seen": null,
+ "file_name": "9W.apk",
+ "file_size": 1168619,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "TR",
+ "anonymous": 1,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T190451202B79C8616E4FE5B780D5596E0A638BD50CF06135B2A01B30D1DF2799EE32FE6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:OO+UxnSsjm4BbaB7HMX7s2I1iy5ZC0UyBomBIgGO3gRD1RA8fVUzqN8jiC1:OOt1jZVaB7oI115ZNBaOw51RvVoqN8jb",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Coper",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "Unix.Dropper.Fakeapp-10014994-0"
+  ],
+  "downloads": "196",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b89c57f8781f121938b50631295f96ddf25f18616dcfb4862a7a87a61f0bf7ad/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/b89c57f8781f121938b50631295f96ddf25f18616dcfb4862a7a87a61f0bf7ad",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/251204-jwqzla1rf1/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo family",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://196.251.100.91/YzIyYmI0M2RhYmU4/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://344d623b6061211f9b6068139844d18f2a5f.com/YzIyYmI0M2RhYmU4/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://b606344d23b66061211f9813c0c4d18f2a5f.com/YzIyYmI0M2RhYmU4/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://f9b60681hh6d23b6061211f98139844d18f2a5f.com/YzIyYmI0M2RhYmU4/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://f9b6068154623b6061211f9813c0c4d18f2a5f.com/YzIyYmI0M2RhYmU4/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://f9b6068134gsb66061211f98139844d18f2a5f.com/YzIyYmI0M2RhYmU4/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://f9b60681344dg3g6061211f9813c0c4d18f2a5f.com/YzIyYmI0M2RhYmU4/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Vigorf",
+   "status": "MALICIOUS",
+   "first_seen": "2025-12-03 17:24:07",
+   "scanner_count": "38",
+   "scanner_match": "15",
+   "scanner_percent": "39.47"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69313fd0bba50eaf0420ad28/reports/f88a1e7c-fdff-48e6-9255-b96b778f332c/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-12-03T09:56:00Z",
+   "last_seen": "2025-12-04T06:40:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/b89c57f8781f121938b50631295f96ddf25f18616dcfb4862a7a87a61f0bf7ad/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

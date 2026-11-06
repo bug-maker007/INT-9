@@ -1,0 +1,168 @@
+{
+ "sha256_hash": "ded9e25a730b77efc66a09eeb5ed2fe06370fd440e66e082fcdf7322615043d5",
+ "sha3_384_hash": "e1e7d6d8c70227fa3de062664cf6a12bf2188a4ad041414b465364e11c67616488693c1c2801c2eb3da811ba2ced1cdc",
+ "sha1_hash": "be193b4be761280858f521fdd8a3bed19b989530",
+ "md5_hash": "b2ce4e5f2f4a5c1650f46d50cc5882f6",
+ "first_seen": "2026-05-08 10:02:14",
+ "last_seen": null,
+ "file_name": "Uae.apk",
+ "file_size": 55582655,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T159C73303FBB9096AEDF3CB3A1B214B04A0954DC68753E693D8103A7C5C73ED54A8DA9D",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:tJCtEVCPby71Sgtdd2L0cxLw5G4EwYRDBlIzF6:2teCE1SgtdQ0cxL3nPq6",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "malware",
+  "signed",
+  "UAE"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "252",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_CMD_Powershell_Usage",
+   "author": "XiAnzheng",
+   "description": "May Contain(Obfuscated or no) Powershell or CMD Command that can be abused by threat actor(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Warp",
+   "author": "Seth Hardy",
+   "description": "Warp",
+   "reference": null
+  },
+  {
+   "rule_name": "WarpStrings",
+   "author": "Seth Hardy",
+   "description": "Warp Identifying Strings",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ded9e25a730b77efc66a09eeb5ed2fe06370fd440e66e082fcdf7322615043d5",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260508-l8tblaax9q/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-03-25 09:07:24",
+   "scanner_count": "24",
+   "scanner_match": "1",
+   "scanner_percent": "4.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fdb4c22fcb905ec28818b2/reports/87ce4db3-ac2b-4532-8c46-fed1838fd333/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-08T08:30:00Z",
+   "last_seen": "2026-05-08T08:43:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/ded9e25a730b77efc66a09eeb5ed2fe06370fd440e66e082fcdf7322615043d5/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

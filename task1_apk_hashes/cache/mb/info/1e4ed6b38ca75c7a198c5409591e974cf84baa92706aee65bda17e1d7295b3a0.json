@@ -1,0 +1,170 @@
+{
+ "sha256_hash": "1e4ed6b38ca75c7a198c5409591e974cf84baa92706aee65bda17e1d7295b3a0",
+ "sha3_384_hash": "e98b81e705f4df90565df80e1b5cf0a5b0aa93cc57bd8f3b4f54c1b09d327e23d01e34e5510073477e84152363a17182",
+ "sha1_hash": "d45257143e43df962c2f6ce94f34c6488671ef46",
+ "md5_hash": "7ae8d1798081c4563a1974e0baaa0512",
+ "first_seen": "2025-05-08 13:05:46",
+ "last_seen": null,
+ "file_name": "sbb_securit.apk",
+ "file_size": 8595889,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "abuse_ch",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T1618601BBF744B45EC4F7533766B99E2251477C2A8B4386831C44B22C59B76EC0E4ABC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:wxGWkrURw1Y0H+FU4hzXcudgsvqEE2irgc+a6JuUhed5po2m7:ckrUm1AFU4XcygdrCNuUhetK",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "CHE",
+  "Coper",
+  "geo",
+  "Octo2",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.12492.29220.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.14859.15959.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.16171.18839.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.25065.3773.UNOFFICIAL"
+  ],
+  "downloads": "1706",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "urlhaus",
+   "value": "https://urlhaus.abuse.ch/url/3538547/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3538639/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1e4ed6b38ca75c7a198c5409591e974cf84baa92706aee65bda17e1d7295b3a0/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/1e4ed6b38ca75c7a198c5409591e974cf84baa92706aee65bda17e1d7295b3a0",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/250508-qb7vyaen8t/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "privilege_escalation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-05-08 13:06:19",
+   "scanner_count": "24",
+   "scanner_match": "12",
+   "scanner_percent": "50.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/681cac47d95f3e34e96417ac/reports//overview"
+  }
+ },
+ "comments": null
+}

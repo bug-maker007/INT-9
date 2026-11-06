@@ -1,0 +1,111 @@
+{
+ "sha256_hash": "4dede04cb3e1125bc8531dd4acbf66cb4e55b34c283bef0c70e437ae5d47ec60",
+ "sha3_384_hash": "dede0a6c2188373c7e02baedf8ab6429eefb66723713f2a011fcc622b27a0ebd7a012f7360826d776907f4061c8582a5",
+ "sha1_hash": "be4bd7b402c8f82e22d4832f8c70b32fc81c21e7",
+ "md5_hash": "95e74eb80f48b11ab542fdb2a5d167b3",
+ "first_seen": "2025-04-16 15:39:01",
+ "last_seen": "2025-04-16 15:40:56",
+ "file_name": "InterbankSeguridad (1).apk",
+ "file_size": 8599834,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "US",
+ "anonymous": 1,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T169861207EB85DB87D86AC3F55E632D901A171F14CA535BDB8428366D3DB31E28EC1A8C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:HFSzMlBaLEyHMfg83ZhyZfmV1+AUf4YsAuowI9jE:ckoXyg83ZGmVYyAeI9I",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "48.2% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "37.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "14.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "spynote, spymax",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SpyNote"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "813",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/4dede04cb3e1125bc8531dd4acbf66cb4e55b34c283bef0c70e437ae5d47ec60/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/4dede04cb3e1125bc8531dd4acbf66cb4e55b34c283bef0c70e437ae5d47ec60",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250416-tejt3axk17/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "persistence"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-04-16 15:59:09",
+   "scanner_count": "24",
+   "scanner_match": "10",
+   "scanner_percent": "41.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67ffd3cd90767142c3d76f4d/reports/10ab7b18-6f16-4872-8c55-27d5fcf35913/overview"
+  }
+ },
+ "comments": null
+}

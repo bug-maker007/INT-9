@@ -1,0 +1,124 @@
+{
+ "sha256_hash": "92d28775d0fcc36c94e81891dc5fa0cd51e390b4fee0b835fdcb129f545b926c",
+ "sha3_384_hash": "0ba0e47984791d6ac0bec58c0e29837f60f168784de6023bbb4d197d5e297c8bfe4eaa8125b1bde15cd2e0bc26cf04d0",
+ "sha1_hash": "3fabbecd982add0ab97f9cbabb2f446ea8953521",
+ "md5_hash": "d78baa1bfca2d6a062dba372e39e2755",
+ "first_seen": "2024-01-26 12:29:06",
+ "last_seen": null,
+ "file_name": "saham.apk",
+ "file_size": 2834562,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "monzavi",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1FFD52217F322A42BCDF2C37262A56B3615775D58CB03A68A691973BA38BFDD847C01C4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:t/6Et3Ep8zZJ3iFLaVkudUA0hI0j6jDnQCTWLaA+s2QI1rNkfViedgVq8Wo:l6Y9vyFaVrdUZmemQCTWOA+s3Wr2fVN0",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "This Android malware is related to the distribution of government subsidies and shares among people in Iran.\r\nThe Android app infected with the malware tries to steal money from users' accounts by stealing their OTP SMS messages. It does this by obtaining unauthorized permissions in Android.\r\nThis Android malware is related to the distribution of government subsidies and shares among people in Iran.\r\nThe Android app infected with the malware attempts to steal money from users' accounts by stealing their OTP SMS messages. This is done by obtaining unauthorized permissions in Android.",
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "IRATA"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.5292.11936.31199.UNOFFICIAL"
+  ],
+  "downloads": "617",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://saham.iownyour.biz"
+  },
+  {
+   "context": "links",
+   "value": "https://saham.iownyour.biz/index2.html"
+  },
+  {
+   "context": "links",
+   "value": "https://saham.iownyour.biz/saham.apk"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2751951/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/92d28775d0fcc36c94e81891dc5fa0cd51e390b4fee0b835fdcb129f545b926c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/92d28775d0fcc36c94e81891dc5fa0cd51e390b4fee0b835fdcb129f545b926c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240126-ppgegaded7/",
+   "tags": [
+    "family:irata",
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-01-26 13:01:27",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65b3a5cb87258803c2404a67/reports/62052153-e4ec-41be-b7d5-b8b40338df47/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,129 @@
+{
+ "sha256_hash": "0e4a33c1ce7dfc51e79054c9dc647243a3343d15f6b0f8ab902cca510b85e1bb",
+ "sha3_384_hash": "d12126a22ed52b8df58dca0e0c7e096d68c765b3c8593781fa45e847a1ba9b87d2cb8b07164a89a5558b704c9686057d",
+ "sha1_hash": "b5dce8582628099bf7b3e10de7216b343472ab3c",
+ "md5_hash": "502d76c6ddd8588f4d300b1396a21b84",
+ "first_seen": "2026-05-08 09:10:34",
+ "last_seen": null,
+ "file_name": "iMobile Lite (35).apk",
+ "file_size": 17347239,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T16B07220BF3086C6AC9F75336B936437A651B1D254F43CA876860733C69B76C08A6EBD4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:+olpJocg+uqOcGBteKNMpinaEObRXekVyekqr:B+OOVt7UXt8qr",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "36.8% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "28.0% (.WIDGET) Konfabulator widget (8000/1/2)",
+  "21.0% (.WMZ) Windows Media Player skin (6000/1/1)",
+  "14.0% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "ICICI",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "154",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "has_telegram_urls",
+   "author": "Aaron DeVera<aaron@backchannel.re>",
+   "description": "Detects Telegram URLs",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/0e4a33c1ce7dfc51e79054c9dc647243a3343d15f6b0f8ab902cca510b85e1bb/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/0e4a33c1ce7dfc51e79054c9dc647243a3343d15f6b0f8ab902cca510b85e1bb",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-k613zsas3j/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-08 09:11:38",
+   "scanner_count": "37",
+   "scanner_match": "3",
+   "scanner_percent": "8.11"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fda89b2fcb905ec287fb65/reports/c80520b5-af27-47fd-93e2-e8f34673fd01/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-08T07:24:00Z",
+   "last_seen": "2026-05-08T17:19:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/0e4a33c1ce7dfc51e79054c9dc647243a3343d15f6b0f8ab902cca510b85e1bb/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

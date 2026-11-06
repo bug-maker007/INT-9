@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "35b19577c09d231a2bbfc82263a9a01958af53febc6fcc4eaf8462a1ad4eef82",
+ "sha3_384_hash": "cff91a52a8ddc7b0b633ab111c8a39152715c64e9c88dcbf85b59aa1c154554bcef72539936997583a5d2b2afb3fb187",
+ "sha1_hash": "fb63cef42e5af953a23b4ca8cca0842202317618",
+ "md5_hash": "949a59f12836e190b46b0d7d18ce14e8",
+ "first_seen": "2026-09-18 20:16:41",
+ "last_seen": null,
+ "file_name": "35b19577c09d231a2bbfc82263a9a01958af53febc6fcc4eaf8462a1ad4eef82.apk",
+ "file_size": 29309699,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "smica83",
+ "origin_country": "HU",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T16A571259E294BD65F0B502354028A625D5854D238F13B2C67B0C32AC9FBFBEF0B74A9D",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:o8biD5PqmXff+S2kn/2seWO+vxOWdzKBvxP/2hIB7RQfK32VXKccvj+FGgQYj7rc:x6PnXfEk/2PE8vOh8RAVV6rj+WYjs",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "RatHat"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "187",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "ANDROID_Sample_Unique_5be608a5",
+   "author": "Marjoriefort",
+   "description": "Specimen unique (soumission Bazaar) - strings distinctifs propres au sample",
+   "reference": "5be608a563a02c94dbf3b1812b3aa0685a6f8228b5dc74c773cc3c912adef7ba.apk"
+  },
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_CMD_Powershell_Usage",
+   "author": "XiAnzheng",
+   "description": "May Contain(Obfuscated or no) Powershell or CMD Command that can be abused by threat actor(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "3",
+   "link": "https://tria.ge/reports/260918-y3bwks11cs/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Win32.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-09-07 04:36:02",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6aad9c4834f16262c7e38748/reports/d519e1c2-2edd-4c7a-962c-bbf7c5438844/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-06T23:44:00Z",
+   "last_seen": "2026-09-19T22:26:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/35b19577c09d231a2bbfc82263a9a01958af53febc6fcc4eaf8462a1ad4eef82/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

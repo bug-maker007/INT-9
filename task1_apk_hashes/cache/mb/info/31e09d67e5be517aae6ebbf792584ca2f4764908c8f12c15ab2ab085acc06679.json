@@ -1,0 +1,143 @@
+{
+ "sha256_hash": "31e09d67e5be517aae6ebbf792584ca2f4764908c8f12c15ab2ab085acc06679",
+ "sha3_384_hash": "11ad2541c59cc6fd1a626957b40daa94aa00ec84a1a0d9b4722d66bc24e6aafd813b52b003a0575b78b0f05bcfda3cf4",
+ "sha1_hash": "dcaf1df9931b0d83dd0087e0d642149e49dd8ad2",
+ "md5_hash": "75f3e312db441b19fea19652fd9ca092",
+ "first_seen": "2024-12-26 11:45:27",
+ "last_seen": null,
+ "file_name": "TG_F85440.apk",
+ "file_size": 61270030,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T193D722E3E30AECB9D1F2C336937411A3B9250D61A717E2660542F6786EF3AD1814DEE4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:UarlhvJOexNrwWUgOVO52OTxdtJfJZ+iJmJ:rrlhAewbgd2KxdbhZkJ",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "35.5% (.APK) Android Package (27000/1/5)",
+  "18.4% (.ZIP) Opera Widget (14000/1/2)",
+  "17.7% (.JAR) Java Archive (13500/1/2)",
+  "13.8% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "9.2% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)"
+ ],
+ "comment": "https://native.b-cdn.net/TG_F85440.apk",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "de",
+   "issuer_cn": "de",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2023-08-31T02:48:24Z",
+   "valid_to": "2078-06-03T02:48:24Z",
+   "serial_number": "03de2d15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e805f934e0d3ca855ba61d63d97cf77c1774342bb8d36f9c32aff05cec75c189",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "205",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/241226-nsqa4svlcr/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "has_telegram_urls",
+   "author": "Aaron DeVera<aaron@backchannel.re>",
+   "description": "Detects Telegram URLs",
+   "reference": null
+  },
+  {
+   "rule_name": "ldpreload",
+   "author": "xorseed",
+   "description": null,
+   "reference": "https://stuff.rop.io/"
+  },
+  {
+   "rule_name": "RansomPyShield_Antiransomware",
+   "author": "XiAnzheng",
+   "description": "Check for Suspicious String and Import combination that Ransomware mostly abuse(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/31e09d67e5be517aae6ebbf792584ca2f4764908c8f12c15ab2ab085acc06679",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/241226-nxaq8avkgy/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2024-12-26 11:46:12",
+   "scanner_count": "38",
+   "scanner_match": "3",
+   "scanner_percent": "7.89"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/676d41fc7edbc05996b3d2e9/reports/95ebf0f4-abf3-4e53-9615-514b0adf9349/overview"
+  }
+ },
+ "comments": null
+}

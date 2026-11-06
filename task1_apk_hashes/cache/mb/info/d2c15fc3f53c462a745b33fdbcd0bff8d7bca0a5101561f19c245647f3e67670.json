@@ -1,0 +1,155 @@
+{
+ "sha256_hash": "d2c15fc3f53c462a745b33fdbcd0bff8d7bca0a5101561f19c245647f3e67670",
+ "sha3_384_hash": "c20688a82ad00e51e86787f97e04c4cfc970856b11840ee87e1853036d20d502ce5a3d44d4207bbff442e3268691eae1",
+ "sha1_hash": "d35ae505f62fb645a70dd77ab5c77e633f1bde8d",
+ "md5_hash": "26c78fa8275ba484fd7aa70f62a85e67",
+ "first_seen": "2021-03-02 11:53:41",
+ "last_seen": null,
+ "file_name": "Correos2.24.15.apk",
+ "file_size": 3358593,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "8DF533F45F59CB90DA8189F43EEC040153A26FCC9D97D0EB7B7A11D0745FE9A7A22888",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:n4p3pMynR5z18F+lUCOmlIHzX94eQIKi5Tn1mbva:n4pOFBC3lwzXKDi5Tn1H",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Andr.Banker-GTV.31729.11385.UNOFFICIAL"
+  ],
+  "downloads": "216",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/malwrhunterteam/status/1366710887852163073?s=20"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1042193/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "PM_Zip_with_js",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/d2c15fc3f53c462a745b33fdbcd0bff8d7bca0a5101561f19c245647f3e67670/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": null,
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210302-h7wg9ayfh2/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads name of network operator",
+     "score": "6"
+    },
+    {
+     "signature": "Suspicious use of android.app.ActivityManager.getRunningServices",
+     "score": "3"
+    },
+    {
+     "signature": "Suspicious use of android.telephony.TelephonyManager.getLine1Number",
+     "score": "3"
+    },
+    {
+     "signature": "Suspicious use of android.telephony.TelephonyManager.getNetworkCountryIso",
+     "score": "3"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://guiopl.ga"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-03-02 11:54:11",
+   "scanner_count": "29",
+   "scanner_match": "11",
+   "scanner_percent": "37.93"
+  }
+ },
+ "comments": null
+}

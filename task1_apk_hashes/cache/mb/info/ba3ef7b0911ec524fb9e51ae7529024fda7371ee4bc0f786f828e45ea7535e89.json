@@ -1,0 +1,134 @@
+{
+ "sha256_hash": "ba3ef7b0911ec524fb9e51ae7529024fda7371ee4bc0f786f828e45ea7535e89",
+ "sha3_384_hash": "7583fd755c376c362304d57aa8e6d9f3a61eeb1d54586113cee6644fe143c05910a63a106f8d17d44f817d92b60ea18c",
+ "sha1_hash": "b4765663fece578c8167d525423a1ca211c9c8a0",
+ "md5_hash": "e78f511a5e7c09ddb7d146890365c8b7",
+ "first_seen": "2026-05-02 15:11:20",
+ "last_seen": null,
+ "file_name": "Love Text Messages_4.2.apk",
+ "file_size": 11795386,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "RU",
+ "anonymous": 1,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T188C6129AFF1CF41FD8BB5933CEBAD213326666458942A7377508D20C6A434896F89FC1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:qm4E3nK4HX46Jd8uM/k0wctLVw+plwAiopJPSLdo4RZfRevkldHLY1jtszekPrJi:dnK4HokMftLhpmALPPUdo4RDAkldHcFz",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "50.0% (.APK) Android Package (27000/1/5)",
+  "23.1% (.VYM) VYM Mind Map (12500/1/3)",
+  "19.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Joker",
+  "Malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "247",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://play.google.com/store/apps/details?id=com.textsms.dixion.messages"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "vmdetect",
+   "author": "nex",
+   "description": "Possibly employs anti-virtualization techniques",
+   "reference": null
+  },
+  {
+   "rule_name": "without_attachments",
+   "author": "Antonio Sanchez <asanchez@hispasec.com>",
+   "description": "Rule to detect the no presence of any attachment",
+   "reference": "http://laboratorio.blogs.hispasec.com/"
+  },
+  {
+   "rule_name": "with_urls",
+   "author": "Antonio Sanchez <asanchez@hispasec.com>",
+   "description": "Rule to detect the presence of an or several urls",
+   "reference": "http://laboratorio.blogs.hispasec.com/"
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ba3ef7b0911ec524fb9e51ae7529024fda7371ee4bc0f786f828e45ea7535e89/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/ba3ef7b0911ec524fb9e51ae7529024fda7371ee4bc0f786f828e45ea7535e89",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260502-slem9aa17y/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-02 15:12:37",
+   "scanner_count": "36",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69f6145e2fcb905ec27a46d8/reports/42c74223-1da1-4012-a5f0-94093c3be9f8/overview"
+  },
+  "Kaspersky": {
+   "verdict": "NoThreats",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/ba3ef7b0911ec524fb9e51ae7529024fda7371ee4bc0f786f828e45ea7535e89/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

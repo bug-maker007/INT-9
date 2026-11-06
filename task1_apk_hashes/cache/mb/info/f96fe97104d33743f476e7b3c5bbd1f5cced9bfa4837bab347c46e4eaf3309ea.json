@@ -1,0 +1,106 @@
+{
+ "sha256_hash": "f96fe97104d33743f476e7b3c5bbd1f5cced9bfa4837bab347c46e4eaf3309ea",
+ "sha3_384_hash": "ae3d9ca18cc91023ad26059e1755867fbd767bd1fe610d5e450293f603e4c6d95de1572ffa01e00680329a2d65e7b31f",
+ "sha1_hash": "7d96dd3fb13ad5e54c32b8af9e689547befad53a",
+ "md5_hash": "f505a92ec494fcb1bfeddd0a76b922af",
+ "first_seen": "2021-08-11 16:17:26",
+ "last_seen": null,
+ "file_name": "Chrome216916.apk",
+ "file_size": 4378815,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T17616338F66C0E882CAD39832511A63437E75439E8942F45F797D52332FAB8B94F14F68",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:DWe/Oh4YWVQv413RpujwQTavY3qIH3u50jISGjE5fmo7:CKM4nHLpus+GobR7",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "Alienbot",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.9961.23709.1171.UNOFFICIAL"
+  ],
+  "downloads": "274",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1525311/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/f96fe97104d33743f476e7b3c5bbd1f5cced9bfa4837bab347c46e4eaf3309ea/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/f96fe97104d33743f476e7b3c5bbd1f5cced9bfa4837bab347c46e4eaf3309ea",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210811-q7ntjczg2a/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://dndterdsveqesdasf.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-08-11 16:18:06",
+   "scanner_count": "46",
+   "scanner_match": "6",
+   "scanner_percent": "13.04"
+  }
+ },
+ "comments": null
+}

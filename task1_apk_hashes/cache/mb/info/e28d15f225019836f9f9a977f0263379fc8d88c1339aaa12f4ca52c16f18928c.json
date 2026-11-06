@@ -1,0 +1,98 @@
+{
+ "sha256_hash": "e28d15f225019836f9f9a977f0263379fc8d88c1339aaa12f4ca52c16f18928c",
+ "sha3_384_hash": "a765926376a03918ddaf9c7043ec0966969dd3d439fbfd605012d5ec86fdae62a708b50c366ed7e903d9155e477d10c1",
+ "sha1_hash": "c309844359d9fbb7e64ab33125ee1ac4e9217f08",
+ "md5_hash": "21cf7a882d385d702c30164930c0ee6c",
+ "first_seen": "2021-12-27 21:47:36",
+ "last_seen": null,
+ "file_name": "FlashPlayerV5.2.apk",
+ "file_size": 7490547,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": null,
+ "anonymous": 1,
+ "signature": "BankBot",
+ "imphash": null,
+ "tlsh": "T1E2763317B281C195DF69113A8062495282B85CF10EC8AEB3B54D3F6C9F734E8BBCAB55",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:xRpDtcZh34qkAtjhqhSEjOWxuVAhkZhf8rGf4xx6paR3DOKfFoqn8NXZuLtLqmz:xD4h+AtjMYmGnht41ScFoqn8Nmttz",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "BankBot",
+  "Banker",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "553",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e28d15f225019836f9f9a977f0263379fc8d88c1339aaa12f4ca52c16f18928c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/e28d15f225019836f9f9a977f0263379fc8d88c1339aaa12f4ca52c16f18928c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/211227-1nsxnadbf9/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2021-12-27 21:19:02",
+   "scanner_count": "43",
+   "scanner_match": "9",
+   "scanner_percent": "20.93"
+  },
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61ca34998991ba72b39b97f0/reports/3dfb75fa-b9a3-4c6a-a8d4-02c937c9da40/overview"
+  }
+ },
+ "comments": null
+}

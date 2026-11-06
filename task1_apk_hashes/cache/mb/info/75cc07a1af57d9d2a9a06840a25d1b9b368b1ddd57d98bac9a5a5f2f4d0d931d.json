@@ -1,0 +1,180 @@
+{
+ "sha256_hash": "75cc07a1af57d9d2a9a06840a25d1b9b368b1ddd57d98bac9a5a5f2f4d0d931d",
+ "sha3_384_hash": "4a6b30719a344e5cb0a71024fd724a731427364beaabd05ba396c160e75859d628cc5b71e75df2ea6c0df2b70f193e5c",
+ "sha1_hash": "e4c53d170bca12bfa3ea02e284645a21174e458e",
+ "md5_hash": "14a6eb59ee62c56d0aacabc1a91ae5a9",
+ "first_seen": "2024-08-26 06:59:16",
+ "last_seen": null,
+ "file_name": "SarkiEvreni.mp3indir.apk",
+ "file_size": 4505444,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "TR",
+ "anonymous": 1,
+ "signature": "GodFather",
+ "imphash": null,
+ "tlsh": "T10D26E096FB48AC7BC4F3833246751626153ACC258B43D6872D5D323C69B79DC4B8ABC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:kPjj+B/6445aSIxC4tDpnbjdDj23eAjwdolxzK5dybtszfrjuNXC:LBOIxCCfR6cwxzK5dydy",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "flxu",
+  "Godfather",
+  "keylogger",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "md5WithRSAEncryption",
+   "valid_from": "2008-04-15T22:40:50Z",
+   "valid_to": "2035-09-01T22:40:50Z",
+   "serial_number": "b3998086d056cffa",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Obfuscated.17748.10356.UNOFFICIAL",
+   "SecuriteInfo.com.HEUR.Trojan-Banker.AndroidOS.Agent.nw.1965.29049.UNOFFICIAL",
+   "SecuriteInfo.com.HEUR.Trojan-Banker.AndroidOS.Agent.nw.20176.20472.UNOFFICIAL",
+   "SecuriteInfo.com.HEUR.Trojan-Banker.AndroidOS.Agent.nw.27130.25496.UNOFFICIAL",
+   "SecuriteInfo.com.HEUR.Trojan-Banker.AndroidOS.Agent.nw.8805.27933.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Banker.AndroidOS.GodFather.4805.6221.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Spy.AndroidOS.Banker.9365.25951.UNOFFICIAL"
+  ],
+  "downloads": "639",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "RIPEMD160_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for RIPEMD-160 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "setsockopt",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for setsockopt() red flags",
+   "reference": null
+  },
+  {
+   "rule_name": "SHA1_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for SHA1 constants",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/75cc07a1af57d9d2a9a06840a25d1b9b368b1ddd57d98bac9a5a5f2f4d0d931d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/75cc07a1af57d9d2a9a06840a25d1b9b368b1ddd57d98bac9a5a5f2f4d0d931d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "godfather",
+   "score": "10",
+   "link": "https://tria.ge/reports/240826-hsm8vs1cqa/",
+   "tags": [
+    "family:godfather",
+    "android",
+    "collection",
+    "credential_access",
+    "evasion",
+    "impact",
+    "persistence",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "godfather",
+     "c2": "https://t.me/killerkitopraztemi"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-01-07 01:30:03",
+   "scanner_count": "24",
+   "scanner_match": "8",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/66cc28734cce81fd1ec0f4eb/reports/b87990b4-16df-4f56-98b5-dd13e83ccec8/overview"
+  }
+ },
+ "comments": null
+}

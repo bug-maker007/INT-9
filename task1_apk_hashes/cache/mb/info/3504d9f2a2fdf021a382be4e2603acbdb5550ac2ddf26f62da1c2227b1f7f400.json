@@ -1,0 +1,117 @@
+{
+ "sha256_hash": "3504d9f2a2fdf021a382be4e2603acbdb5550ac2ddf26f62da1c2227b1f7f400",
+ "sha3_384_hash": "9d8fd14d05a57ea27386f2b6d2f9fb7b5c50d1015b9129082977edc35f4369e0edc6d1aa4074d1197abbad3b1e6a6de4",
+ "sha1_hash": "bec1753c2f08b17fc1e1e323ec5c4756feb18504",
+ "md5_hash": "dca096106be4ea65d01eedf09ac1631a",
+ "first_seen": "2023-11-11 10:59:29",
+ "last_seen": null,
+ "file_name": "3504D9F2A2FDF021A382BE4E2603ACBDB5550AC2DDF26F62DA1C2227B1F7F400.apk",
+ "file_size": 1847115,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "myonium1",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": "Octo",
+ "imphash": null,
+ "tlsh": "T1AC850237E8E171ADCA84D37B4498ADA362A33745A3838D0C359C3A694F51FCD0F526B5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:TsrHSpR380K8tK+gs/jllJxtlHGmjI1idy:grw3jK31s/jllJxta1J",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Coper",
+  "Exobot",
+  "Octo"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.14952.3303.31134.UNOFFICIAL"
+  ],
+  "downloads": "339",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "BitcoinAddress",
+   "author": "Didier Stevens (@DidierStevens)",
+   "description": "Contains a valid Bitcoin address",
+   "reference": null
+  },
+  {
+   "rule_name": "Lib_Packer",
+   "author": "R3R0K",
+   "description": "Android.Lib_Packer",
+   "reference": null
+  },
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3504d9f2a2fdf021a382be4e2603acbdb5550ac2ddf26f62da1c2227b1f7f400/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/3504d9f2a2fdf021a382be4e2603acbdb5550ac2ddf26f62da1c2227b1f7f400",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/231111-m3y6bsea8z/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-11-07 20:13:57",
+   "scanner_count": "21",
+   "scanner_match": "7",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/654f5eb56f0bce3326379239/reports//overview"
+  }
+ },
+ "comments": null
+}

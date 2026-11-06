@@ -1,0 +1,91 @@
+{
+ "sha256_hash": "60648a8e5ee28177de38e6ea40c17481b95a63e6aa4ca466754bc7e7f08bd2ab",
+ "sha3_384_hash": "ac832fe01b51e32d9d199a10e56b758f80c0929682a69e0aa2a436ddfa7a3b2e62e9189f3786c96474929eee5449598f",
+ "sha1_hash": "73185dbc7a11e1fad2f3fa3ee541189f447f0fbf",
+ "md5_hash": "6089aa79f412a1d59fc58f864702ee08",
+ "first_seen": "2026-08-19 06:21:28",
+ "last_seen": null,
+ "file_name": "Divar.apk",
+ "file_size": 5371514,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "GB",
+ "anonymous": 1,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1C7462382F666A98BC4F6C336247617355037AE22C317B397691477B828FF9E80F162D4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:xph5qcziZmjw3P76Y1JgLdsutyFdx/N2kbRBbwqoQICrpmbaG+v9t8x:xL5qsiZmjw3DcLKukXKarH+aQ",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SHAPARAK"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.FileRepMalware.53193256.UNOFFICIAL"
+  ],
+  "downloads": "191",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/60648a8e5ee28177de38e6ea40c17481b95a63e6aa4ca466754bc7e7f08bd2ab/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260819-g4p16aydlb/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ravartar",
+   "status": "MALICIOUS",
+   "first_seen": "2026-08-18 15:05:30",
+   "scanner_count": "24",
+   "scanner_match": "8",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a854b738a34a883bc6fb024/reports/149c1b87-ff0b-4fdb-8143-aec4d7bfda46/overview"
+  }
+ },
+ "comments": null
+}

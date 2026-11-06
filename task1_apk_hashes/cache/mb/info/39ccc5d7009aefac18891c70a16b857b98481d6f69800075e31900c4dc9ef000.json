@@ -1,0 +1,157 @@
+{
+ "sha256_hash": "39ccc5d7009aefac18891c70a16b857b98481d6f69800075e31900c4dc9ef000",
+ "sha3_384_hash": "4784c5e34d1340bbfd9a6c11579a742533324c3b7a06544228ac3c501cae9e362cff15b4a74cf17d64c5ae9a65b6cfc6",
+ "sha1_hash": "962084b33fdff88a4a335bd9839890f1120eab86",
+ "md5_hash": "a1462dc99471e4637b493da2930c9405",
+ "first_seen": "2023-03-06 11:51:24",
+ "last_seen": null,
+ "file_name": "video.apk",
+ "file_size": 1681197,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "FR",
+ "anonymous": 1,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T1E77533649E50956DFE37D07012A6F43AAF2293CD46868E1F06443E9D64B3E885E8CCFD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:HCpqX9FYQmBtcJW8fyhoh4fzL09M7ev7r5Tu9:HCcFYfwJ/6hoSf7ys9",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "alien",
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.14512.5587.29226.UNOFFICIAL"
+  ],
+  "downloads": "413",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/39ccc5d7009aefac18891c70a16b857b98481d6f69800075e31900c4dc9ef000/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/39ccc5d7009aefac18891c70a16b857b98481d6f69800075e31900c4dc9ef000",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/230306-n1qa3scb55/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://reklamruyasibursa.com.tr"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2023-03-05 01:01:05",
+   "scanner_count": "25",
+   "scanner_match": "9",
+   "scanner_percent": "36.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6405d3e3bfec0852a68fb16f/reports/3c94bc8d-ecca-44b9-8df8-385e4a649ea1/overview"
+  }
+ },
+ "comments": null
+}

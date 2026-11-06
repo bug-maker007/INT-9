@@ -1,0 +1,136 @@
+{
+ "sha256_hash": "58cc948bd809292143e604c3e03735c9517f94b37dd35299ca5e81d7b902d620",
+ "sha3_384_hash": "36507a167349430404ab8243d1b134f20f12e396802acc2d5cd04753de1377eb670fd42c6318bdd0b72a3c2076543d67",
+ "sha1_hash": "9f43ea88d35d7327e3d7a8fbe01fa33113c49091",
+ "md5_hash": "9ea8644cddd3e9d76ede8f7877684ad5",
+ "first_seen": "2026-06-17 13:02:10",
+ "last_seen": null,
+ "file_name": "𝕋𝕠𝕜𝕊𝕖𝕩𝕚.apk",
+ "file_size": 6803051,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T11B662286FF5AD92FD8B740330D520B31626A9D2EC287978785EC36285D376D44FE9AC0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:76d48JNrcgcl05uupPt3y4ReaA4FYdIdoltr8x73Fj079gQHu:7zmNn9Vy2A4cIdoltre73FjKzu",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Banker",
+  "Dropper",
+  "signed",
+  "TikTok"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Fawuhu Pejafadu",
+   "issuer_cn": "Fawuhu Pejafadu",
+   "algorithm": "sha384WithRSAEncryption",
+   "valid_from": "2026-06-02T09:08:00Z",
+   "valid_to": "2074-06-21T09:08:00Z",
+   "serial_number": "64974b074bcad1ed",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e037d668bf0a1a54351a79b719c5cf659aec036cbfb807a16339946a622ac827",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.Mamont.244.origin.20497.22699.UNOFFICIAL"
+  ],
+  "downloads": "231",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/58cc948bd809292143e604c3e03735c9517f94b37dd35299ca5e81d7b902d620/"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260617-qagmcsfz5k/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-06-05 03:34:54",
+   "scanner_count": "23",
+   "scanner_match": "5",
+   "scanner_percent": "21.74"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a329b0d62d0679105f64d10/reports/8f1a2a72-1074-44fa-a3b5-1bb599bf4994/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-06-04T22:17:00Z",
+   "last_seen": "2026-06-05T01:55:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/58cc948bd809292143e604c3e03735c9517f94b37dd35299ca5e81d7b902d620/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

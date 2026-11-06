@@ -1,0 +1,153 @@
+{
+ "sha256_hash": "2aec43a86c635cae0ec5f4bd2e216eba61da36b65068a86da324224627193bce",
+ "sha3_384_hash": "1b8e0ac7f3e88750876b1bd6660779de881b023f27a28aef7e2b44342a7c46d097c7646e51895006fcedc9377bab01f0",
+ "sha1_hash": "7ce6f37d41ae1a6282cac0e285da75a2a2c4871f",
+ "md5_hash": "cf1832b4243205d3b3bca133d2129f7e",
+ "first_seen": "2024-12-06 15:46:38",
+ "last_seen": null,
+ "file_name": "build.s.apk",
+ "file_size": 273414,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "NDA0E",
+ "origin_country": "NL",
+ "anonymous": 0,
+ "signature": "AhMyth",
+ "imphash": null,
+ "tlsh": "T19244236F5692BB4AD9EEE374EF5F81FB086850C4C0D9386362FB09D1192C1E9CC4A1C8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:UEow1GGGTBC22Lri4EvAj0pl30q4RMdBsMYW3N/90W:UEow1NaIbJjg0fQBs3Q9B",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "AhMyth",
+  "apk",
+  "L3MON",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.5215.17456.27339.UNOFFICIAL"
+  ],
+  "downloads": "253",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3333644/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2aec43a86c635cae0ec5f4bd2e216eba61da36b65068a86da324224627193bce/"
+  },
+  "YOROI_YOMI": {
+   "detection": "AhMyth",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/2aec43a86c635cae0ec5f4bd2e216eba61da36b65068a86da324224627193bce",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "ahmyth",
+   "score": "10",
+   "link": "https://tria.ge/reports/241206-s77ads1jbj/",
+   "tags": [
+    "family:ahmyth",
+    "android",
+    "collection",
+    "credential_access",
+    "evasion",
+    "impact",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Requests accessing notifications (often used to intercept notifications before users become aware).",
+     "score": "6"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "ahmyth",
+     "c2": "http://127.0.0.1:22222"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ahmythspy",
+   "status": "MALICIOUS",
+   "first_seen": "2024-12-06 15:47:04",
+   "scanner_count": "23",
+   "scanner_match": "10",
+   "scanner_percent": "43.48"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67531c7a97c7ee5cc52a3dd7/reports/fb157627-776e-46e8-b3a7-f07dd5904364/overview"
+  }
+ },
+ "comments": null
+}

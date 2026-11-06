@@ -1,0 +1,200 @@
+{
+ "sha256_hash": "01edc46fab5a847895365fb4a61507e6ca955e97f5285194b5ec60ee80daa17c",
+ "sha3_384_hash": "c5661a6cc8318b5b9fc0190379f037be34ded08a270e8dcac28f9eeafdb099b7fed1d857b148d8c969bd241081dcf5d5",
+ "sha1_hash": "0e3dc5c468eca5802a66c5f2033af9fa87408c55",
+ "md5_hash": "cd4a9c369b35d920500732ff87acaabc",
+ "first_seen": "2023-08-22 13:30:06",
+ "last_seen": null,
+ "file_name": "01edc46fab5a847895365fb4a61507e6ca955e97f5285194b5ec60ee80daa17c.apk",
+ "file_size": 1469450,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ReThatOnePizza",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T1C565F186BBC5AC2FCD7384354F8A8322A2529D57C243E70759D07A3C6E7B7E44E49AC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:ma4Vre444rHTUGeHKMOKH9lWLgo0CS7BUvrMUgU/BXrmdBgw3IZh:ma4VqL4joGeqUDCS7BsMJUpXSdBgw3g",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "52.8% (.APK) Android Package (32500/1/6)",
+  "21.9% (.JAR) Java Archive (13500/1/2)",
+  "17.0% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "6.5% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.6% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "coper",
+  "malware",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan-Banker.AndroidOS.Octo.3817.9256.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.10933.12926.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.17899.19558.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.31415.21433.UNOFFICIAL",
+   "SecuriteInfo.com.TrojanDropper.AndroidOS.FakeApp.QA.MTB.24829.26563.UNOFFICIAL"
+  ],
+  "downloads": "365",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://www.threatfabric.com/blogs/octo-new-odf-banking-trojan"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/01edc46fab5a847895365fb4a61507e6ca955e97f5285194b5ec60ee80daa17c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/01edc46fab5a847895365fb4a61507e6ca955e97f5285194b5ec60ee80daa17c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/230822-qsc2wsea5s/",
+   "tags": [
+    "family:coper",
+    "family:octo",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "ransomware",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Coper",
+     "score": "10"
+    },
+    {
+     "signature": "Coper payload",
+     "score": "10"
+    },
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://smartcontractlicense.info/puap9udshc2ZmZjMmUzMghst/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://smartcontractlicensenow.info/puap9udshc2ZmZjMmUzMghst/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://smartcontractlicensetodo.info/puap9udshc2ZmZjMmUzMghst/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://smartcontractlicensewow.info/puap9udshc2ZmZjMmUzMghst/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2022-04-04 10:34:00",
+   "scanner_count": "38",
+   "scanner_match": "18",
+   "scanner_percent": "47.37"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/64e4b896aa97e3ec0d1ad660/reports/2cb77a92-9fb0-4d9d-b133-d67d80c67bba/overview"
+  }
+ },
+ "comments": null
+}

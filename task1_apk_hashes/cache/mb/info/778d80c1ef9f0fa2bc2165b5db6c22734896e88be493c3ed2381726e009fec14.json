@@ -1,0 +1,125 @@
+{
+ "sha256_hash": "778d80c1ef9f0fa2bc2165b5db6c22734896e88be493c3ed2381726e009fec14",
+ "sha3_384_hash": "d40154eab4bdbe66131fb14a22653d10ed85822e45f736608397f83e43a9da6c0fcb0001003281fdda505cc322ad7e8b",
+ "sha1_hash": "7044714260e2d9b187b7005ae5f11d158ce8f7c7",
+ "md5_hash": "ee235e5465aeb411bd42ff405fbe86e9",
+ "first_seen": "2026-07-28 11:59:19",
+ "last_seen": null,
+ "file_name": "app (46).apk",
+ "file_size": 3109577,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "GB",
+ "anonymous": 1,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T119E52392A300153FCABB5D359AEA87B157398E24CA95370B9980362C5D733DF4F99EC0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:K2xpQFMUQl9GbY+XMH6IQKUS5VYjOw16B0FKCwfvnbtxk6/mFYXMnIAZlriUEdPV:Hp4EGbOH6IQKtH9DCKpnrk/FYGIqri5D",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "malware-analysis",
+  "SHAPARAK",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "170",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/778d80c1ef9f0fa2bc2165b5db6c22734896e88be493c3ed2381726e009fec14/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260728-qjppbsal2t/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-07-28 13:18:42",
+   "scanner_count": "23",
+   "scanner_match": "5",
+   "scanner_percent": "21.74"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a68abf05c61a8ea0def82c4/reports/9a99414b-7269-4a44-bb2f-4f21532d0f09/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-28T10:17:00Z",
+   "last_seen": "2026-07-29T11:46:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/778d80c1ef9f0fa2bc2165b5db6c22734896e88be493c3ed2381726e009fec14/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

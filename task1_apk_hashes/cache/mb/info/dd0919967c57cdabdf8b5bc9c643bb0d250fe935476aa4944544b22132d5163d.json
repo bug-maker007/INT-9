@@ -1,0 +1,159 @@
+{
+ "sha256_hash": "dd0919967c57cdabdf8b5bc9c643bb0d250fe935476aa4944544b22132d5163d",
+ "sha3_384_hash": "5c722c647b99b8a6f5c5799feb1f6f8f8d176acfab0bb1efa5eec4bb856ff4380ac07be82a643c3319ca6e99becd9b9e",
+ "sha1_hash": "091c6e685803ab5379cd89c662bb7311cf80d1f9",
+ "md5_hash": "19fbdb8ae92b64576b0024694d9ae97d",
+ "first_seen": "2026-04-09 00:56:08",
+ "last_seen": null,
+ "file_name": "suret.apk",
+ "file_size": 1361094,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": "PixRevolution",
+ "imphash": null,
+ "tlsh": "T144558B85FBE99E2ECC7340360F4A5635154AAE23C742D343D978361C68BB6F40E897E9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:CM+tRJ0XQIvDHMU4zgdjSEnYgy2cagqUnE7N9Dz4EcqtVj:CM+3J0gIvDHMkdjSCgqb7NTJj",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "b64 decoded:\r\n1. iniciar grava\r\n2. iniciar gravacao\r\n3. comecar grava\r\n4. gravar tela\r\n5. gravacao de tela\r\n6. screen recording\r\n7. record screen\r\n8. screen capture\r\n9. screen sharing\r\n10. share screen\r\n11. screen cast\r\n12. screencast\r\n13. mirror screen\r\n14. media projection\r\n15. stream\r\n16. broadcast\r\n17. live\r\n18. screen\r\n19. tela\r\n20. LigaLiga\r\n21. LigaLindao\r\n22. 200.9.154[.]125/scrpa",
+ "archive_pw": null,
+ "tags": [
+  "200-9-154-125",
+  "apk",
+  "banker",
+  "PixRevolution",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "IntraOffice",
+   "issuer_cn": "IntraOffice",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2026-03-19T21:50:04Z",
+   "valid_to": "2053-08-04T21:50:04Z",
+   "serial_number": "a9b98c264ef4770d",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "37e8fddb5204299b5972ade6f191c40618ae8cddccc51971865816ee241a7b63",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.FileRepMalware.39732462.UNOFFICIAL"
+  ],
+  "downloads": "279",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/dd0919967c57cdabdf8b5bc9c643bb0d250fe935476aa4944544b22132d5163d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/dd0919967c57cdabdf8b5bc9c643bb0d250fe935476aa4944544b22132d5163d",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260409-bamfaagv6p/",
+   "tags": [
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Malgent",
+   "status": "MALICIOUS",
+   "first_seen": "2026-04-09 00:56:37",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69d6f93e799d5bf325f369bd/reports/62a60410-5f3d-4d76-8218-29ca7855614f/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-04-08T19:07:00Z",
+   "last_seen": "2026-04-09T01:40:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/dd0919967c57cdabdf8b5bc9c643bb0d250fe935476aa4944544b22132d5163d/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

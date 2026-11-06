@@ -1,0 +1,146 @@
+{
+ "sha256_hash": "a87925009ac434073430cd2d393ee4a62ca39efa28f41a1f91a20dfd460b1be3",
+ "sha3_384_hash": "cc50bf4108546a7cb842976c47292e81f701293d7af890a777731abaf898eea39202c07956c6af22f69dd65bb4c7e53e",
+ "sha1_hash": "cb4e33deb9b79fdeb3dc154682ad7393563dc449",
+ "md5_hash": "0ba5fb8e75ba3644f97111892c69a6e1",
+ "first_seen": "2023-03-06 11:11:40",
+ "last_seen": null,
+ "file_name": "Chrome_1_.apk",
+ "file_size": 1485834,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "sysk1ll3r",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T10C65228BBB06E847C8B6C13655B21B5B42322D68CE47D7F37845326C95B7BC84F166C8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:mY8iPjete4sw0PV22qZsj9A93qgijRrLdhhkDcI3ceXF+a/x9p+:mY8iPj2tp0fqZs5AkDRrZhhkpsu7/n8",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "57.0% (.APK) Android Package (38500/1/9)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "15.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "SpyNote",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "np",
+   "issuer_cn": "np",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2021-04-25T09:03:56Z",
+   "valid_to": "3020-08-26T09:03:56Z",
+   "serial_number": "045ff9a3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "492682f877607ee99df2ddd2bd5953fd727bdf6e19d397de9dbbafd582bcad75",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SpyMax.20.origin.5201.20185.UNOFFICIAL"
+  ],
+  "downloads": "439",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a87925009ac434073430cd2d393ee4a62ca39efa28f41a1f91a20dfd460b1be3/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.06"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/a87925009ac434073430cd2d393ee4a62ca39efa28f41a1f91a20dfd460b1be3",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/230306-natwksca45/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "banker",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "wickr.homeunix.net:5566"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2023-02-28 01:17:49",
+   "scanner_count": "23",
+   "scanner_match": "7",
+   "scanner_percent": "30.43"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6405ca83ea525051ba935d97/reports/89fc8380-c5d5-4337-8d6c-2c14aae94ed9/overview"
+  }
+ },
+ "comments": null
+}

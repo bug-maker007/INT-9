@@ -1,0 +1,117 @@
+{
+ "sha256_hash": "822b541df8d54222c91889c923a65c7aff28ec372f211392213dd93d43d30c2a",
+ "sha3_384_hash": "149cf333f8f742743de62adfc0f775ce3f7a7a5e310d39fdab25e082a3f6323f26a688767588bb61988f2dcba7a0e386",
+ "sha1_hash": "1632214afa3ab2e17f25d3c46179ad907f6f7489",
+ "md5_hash": "73f425ca9b1b9c29fcc61b92e9b149f8",
+ "first_seen": "2026-03-17 13:29:11",
+ "last_seen": null,
+ "file_name": "iMobile Lite.apk",
+ "file_size": 15750763,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T198F6122AF6196DAFD8FBA334AD7B026260155C25CF03D19B7838733C29F35C59A5A2D0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:jXvluUzu7QmOh1GBE9PB40L8Dy4iTT36n92OGeR+Fk59xcJxT:bvl5u7cDGC9P3L8OTT5OfP9xyl",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Dropper",
+  "ICICI Bank",
+  "iMobile",
+  "Malware",
+  "Riskware"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "342",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/822b541df8d54222c91889c923a65c7aff28ec372f211392213dd93d43d30c2a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/822b541df8d54222c91889c923a65c7aff28ec372f211392213dd93d43d30c2a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260317-qre5vsds7w/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-12-03 10:11:45",
+   "scanner_count": "38",
+   "scanner_match": "4",
+   "scanner_percent": "10.53"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69b957364678eefbc7ad68ca/reports/fdde6ffb-c826-4170-a9e2-998776d04e5b/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-12-03T03:14:00Z",
+   "last_seen": "2025-12-03T22:57:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/822b541df8d54222c91889c923a65c7aff28ec372f211392213dd93d43d30c2a/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

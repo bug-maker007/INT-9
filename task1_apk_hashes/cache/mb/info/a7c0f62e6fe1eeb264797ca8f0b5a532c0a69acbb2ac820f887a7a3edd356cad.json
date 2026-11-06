@@ -1,0 +1,118 @@
+{
+ "sha256_hash": "a7c0f62e6fe1eeb264797ca8f0b5a532c0a69acbb2ac820f887a7a3edd356cad",
+ "sha3_384_hash": "772d03c2a46c4b8ccc49be4df41b95941a926cf908e01d0c3e63eedc8019fed524ea2be0bedcbd5c4c5eaee8f81f86f6",
+ "sha1_hash": "97bacd8e4b5058a84e6e5c54d3279570e6eafd02",
+ "md5_hash": "1687e7533cac48cb10dfcaf25c21bec0",
+ "first_seen": "2026-09-21 09:10:05",
+ "last_seen": null,
+ "file_name": "a7c0f62e6fe1eeb264797ca8f0b5a532c0a69acbb2ac820f887a7a3edd356cad.apk",
+ "file_size": 5128416,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Tuxxin",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1043633446344E8E5DBD293312D2A42856A7EA2A9CF533707690503382DEFDE49F05FEB",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:XJbb3MZ3++uEyxdTpq4p+2qovPSWV1J4Nr+4ZFUWxYeagFtVPkizkFV4i8jL01:XJboZurppqA+kSW/JKK4ZrxYejtVsjs6",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "47.7% (.APK) Android Package (27000/1/5)",
+  "23.8% (.JAR) Java Archive (13500/1/2)",
+  "21.2% (.BIN/ZIP) 1C:Enterprise bundled add-in (12000/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.1214.origin.28425.14795.UNOFFICIAL"
+  ],
+  "downloads": "180",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a7c0f62e6fe1eeb264797ca8f0b5a532c0a69acbb2ac820f887a7a3edd356cad/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": null,
+   "link": "https://tria.ge/reports/260921-k47gzsys3r/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.HiddenApp",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-09-21 09:10:36",
+   "scanner_count": "38",
+   "scanner_match": "12",
+   "scanner_percent": "31.58"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6ab0f47f6a32871f304ae28c/reports/4fba3d93-c721-4b40-8047-706fddcde4d8/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-21T07:14:00Z",
+   "last_seen": "2026-09-21T08:48:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/a7c0f62e6fe1eeb264797ca8f0b5a532c0a69acbb2ac820f887a7a3edd356cad/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

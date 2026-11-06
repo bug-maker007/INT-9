@@ -1,0 +1,180 @@
+{
+ "sha256_hash": "ca43f3f8fdbaeb9164fe8176358c51f7a39e9ae6a6941e1fb3563ff1d53b531c",
+ "sha3_384_hash": "f2912c3db9993e59074811d762909b8665cca29c565897faec865977af1273b5ff44e72735a73427f7ec68203a7f7b1d",
+ "sha1_hash": "fef152580ed417869481cb33d0853bad302737a3",
+ "md5_hash": "7ae3fe2fe714ad76efc18091ced257a9",
+ "first_seen": "2026-08-31 05:53:36",
+ "last_seen": null,
+ "file_name": "V6.apk",
+ "file_size": 6171228,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "IN",
+ "anonymous": 1,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1C756DF47F748992EC0F753B104791332120B4C6ACB639687B95C727C2BB7AD85E8A6DC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:Y4NCQrudiw4ULDD8bJunxQbQyYU8n3pyn0o3wsjm68AdEmHRtCXaHz5X9:ZwQrud1RDgexQbQT3py0o3wsjEmpd9",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SHAPARAK",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Siggen.Susp2.8198.2683.6719.UNOFFICIAL"
+  ],
+  "downloads": "223",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "BlackGuard_Rule",
+   "author": "Jiho Kim",
+   "description": "Yara rule for BlackGuarad Stealer v1.0 - v3.0",
+   "reference": "https://www.virustotal.com/gui/file/67843d45ba538eca29c63c3259d697f7e2ba84a3da941295b9207cdb01c85b71/detection"
+  },
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ca43f3f8fdbaeb9164fe8176358c51f7a39e9ae6a6941e1fb3563ff1d53b531c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260831-gly64swaqg/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.AVerseFalc",
+   "status": "MALICIOUS",
+   "first_seen": "2026-08-31 05:54:31",
+   "scanner_count": "38",
+   "scanner_match": "10",
+   "scanner_percent": "26.32"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/6a95170159f6a4229a3b2b07/reports//overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-31T03:55:00Z",
+   "last_seen": "2026-09-01T23:57:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/ca43f3f8fdbaeb9164fe8176358c51f7a39e9ae6a6941e1fb3563ff1d53b531c/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

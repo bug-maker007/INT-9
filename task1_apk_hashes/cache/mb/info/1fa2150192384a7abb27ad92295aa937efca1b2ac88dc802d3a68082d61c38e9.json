@@ -1,0 +1,127 @@
+{
+ "sha256_hash": "1fa2150192384a7abb27ad92295aa937efca1b2ac88dc802d3a68082d61c38e9",
+ "sha3_384_hash": "63b3569dd2bce9694cd8e48a362cdfa111b614ee881a6df8ac387bb07d96335c0a9392f449334c4ed0ed6d49fc270b99",
+ "sha1_hash": "cd9a08720ce458d127b2380efd9a423fb015bef3",
+ "md5_hash": "adf8298546c025877639ae4ba4fe8674",
+ "first_seen": "2026-06-18 18:30:05",
+ "last_seen": null,
+ "file_name": "1fa2150192384a7abb27ad92295aa937efca1b2ac88dc802d3a68082d61c38e9.apk",
+ "file_size": 4442243,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": "PhantomCard",
+ "imphash": null,
+ "tlsh": "T12326E04AFB49D66AC4F352364D395A6161474CA28F83EB837954733C99BB9C01E0AFCC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:GXy3U+hUlgkmz4SqBkhWTUHXkXtXMVGVKi8XFZdB:PhUu/zUBkaU3wZ+t51B",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker",
+  "PhantomCard",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Publisher Key",
+   "issuer_cn": "Publisher Key",
+   "algorithm": "ecdsa-with-SHA384",
+   "valid_from": "2026-06-16T12:16:40Z",
+   "valid_to": "2043-04-23T12:16:40Z",
+   "serial_number": "e08945113197aefb",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "8776bcddc3c882709f3350291379ac10a233988ac3ac8421b33d10f32034ab90",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "291",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1fa2150192384a7abb27ad92295aa937efca1b2ac88dc802d3a68082d61c38e9/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "Triage": {
+   "malware_family": "phantomcard",
+   "score": "10",
+   "link": "https://tria.ge/reports/260618-w5vqcsav8j/",
+   "tags": [
+    "family:phantomcard",
+    "android",
+    "infostealer",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2026-06-18 18:01:40",
+   "scanner_count": "38",
+   "scanner_match": "13",
+   "scanner_percent": "34.21"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a34395690632a45f72ae6b9/reports/c249f520-3cf6-480e-a809-a38682517a1b/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-06-18T12:36:00Z",
+   "last_seen": "2026-06-19T21:08:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/1fa2150192384a7abb27ad92295aa937efca1b2ac88dc802d3a68082d61c38e9/results?tab=lookup",
+   "detections": [
+    "HEUR:Trojan-Banker.AndroidOS.GhostNFC.c",
+    "HEUR:Trojan-Banker.AndroidOS.GhostNFC.a"
+   ]
+  }
+ },
+ "comments": null
+}

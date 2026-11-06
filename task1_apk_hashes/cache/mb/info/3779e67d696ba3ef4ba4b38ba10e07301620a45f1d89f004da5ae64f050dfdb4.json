@@ -1,0 +1,110 @@
+{
+ "sha256_hash": "3779e67d696ba3ef4ba4b38ba10e07301620a45f1d89f004da5ae64f050dfdb4",
+ "sha3_384_hash": "3224961d9a72a82524a86f828dec61795fb7e762cd48e16b6fd1f68f2db1ebb7fd3038977621a32be7f7377a6e334f56",
+ "sha1_hash": "3b69e62474a99e2fd1e657ac1732665ded099e75",
+ "md5_hash": "5ce09da6be4926aa0af6c01494dd0e5d",
+ "first_seen": "2024-01-11 13:48:47",
+ "last_seen": null,
+ "file_name": "commerzbank.apk",
+ "file_size": 1125650,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T17C3523407698DA86DC7C43768F23C58B08317CA49E85A5D3B50DB3DDAAB3BC80B9E5C5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:Loh9dcs4YEVrRDtqdgTpztsjppsZbBMt4NoMmFManUEjd:OdZs/8dgTBs/0MqC+jEjd",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Abu Aziz",
+   "issuer_cn": "Abu Aziz",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2020-09-19T23:59:14Z",
+   "valid_to": "2048-02-05T23:59:14Z",
+   "serial_number": "20438485",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "67229a6cd9a1d245511f89dc398c90024cb60d5228df992e6ea416fe157e98f8",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.PUA.Tool.ApkProtector.16.origin.18341.28588.UNOFFICIAL"
+  ],
+  "downloads": "720",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3779e67d696ba3ef4ba4b38ba10e07301620a45f1d89f004da5ae64f050dfdb4/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/3779e67d696ba3ef4ba4b38ba10e07301620a45f1d89f004da5ae64f050dfdb4",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240111-q4nmrshgf3/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.BankerAgent",
+   "status": "MALICIOUS",
+   "first_seen": "2024-01-11 13:49:06",
+   "scanner_count": "24",
+   "scanner_match": "11",
+   "scanner_percent": "45.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/659ff1d499da41ccd7ceea32/reports//overview"
+  }
+ },
+ "comments": null
+}

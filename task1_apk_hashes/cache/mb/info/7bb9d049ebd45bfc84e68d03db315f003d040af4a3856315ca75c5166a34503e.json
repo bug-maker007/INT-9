@@ -1,0 +1,165 @@
+{
+ "sha256_hash": "7bb9d049ebd45bfc84e68d03db315f003d040af4a3856315ca75c5166a34503e",
+ "sha3_384_hash": "fea0e006923c6a6dcb67ceb1d4e49c6070207eb906a5e5e6fff30308e3a975f317267e47453a2a74b6f7bc0925ed0c28",
+ "sha1_hash": "e99fecf4e9edef9c7b44ef2181a814d093da48d5",
+ "md5_hash": "7622b200c3e9c4a12413b965b67a8ff4",
+ "first_seen": "2025-02-23 20:08:44",
+ "last_seen": null,
+ "file_name": "chrome_update_v136.apk",
+ "file_size": 11401998,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "irrisolto",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T176B63396AB40563BC876443241AB4B2277A76D9985A3DB1F3A08710CBC73A4C1FFDE5C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:7nB2N9RArFb+/nerbOoOpTik4rhRRplJRjWO1o2rkROBHx7okTT6mm2/vEqN/7aE:7QHarFbCnwtxHDlrjpL+ePdcWaLOp",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Coper",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "280",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7bb9d049ebd45bfc84e68d03db315f003d040af4a3856315ca75c5166a34503e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/7bb9d049ebd45bfc84e68d03db315f003d040af4a3856315ca75c5166a34503e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/250223-yw6glswmar/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "privilege_escalation",
+    "rat",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://6675755ad310425beb8be56cffdd593b.com"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://2d7291b0d0ad10c8542ef910d3f2bf26.org"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.PUA.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-02-23 20:09:10",
+   "scanner_count": "38",
+   "scanner_match": "4",
+   "scanner_percent": "10.53"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67bb80696222db7f23d94a74/reports/343b2180-d8fa-4040-bc9c-5c118bd593fd/overview"
+  }
+ },
+ "comments": null
+}

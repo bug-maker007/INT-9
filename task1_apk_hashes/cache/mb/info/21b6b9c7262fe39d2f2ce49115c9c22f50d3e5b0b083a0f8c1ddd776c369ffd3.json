@@ -1,0 +1,178 @@
+{
+ "sha256_hash": "21b6b9c7262fe39d2f2ce49115c9c22f50d3e5b0b083a0f8c1ddd776c369ffd3",
+ "sha3_384_hash": "a7328296fc3c7d15eb5358019f47178ba102bcc767a28b25e6a5509aa32d16bd6b3a53360a3bb31df9f60b4009676268",
+ "sha1_hash": "e1078c9590c60e9c02d0c6b00644a684487ec011",
+ "md5_hash": "d171746bb85223a4da5fad0dc9d3155a",
+ "first_seen": "2026-04-03 18:27:08",
+ "last_seen": null,
+ "file_name": "MY COCOG 500.apk",
+ "file_size": 5357019,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T179460203EB49DA8BD4EA83F1AF670D995A570F54C742B6E744503A2E3DB72C10EC5A8C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:s570WNbYpWg4xbERCCwAJwEfmzMzBKTf0tQPi51cBFoSlwMB:OYCQWgIERpJwEOzJQgi/cBa8d",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "39.4% (.APK) Android Package (27000/1/5)",
+  "19.7% (.JAR) Java Archive (13500/1/2)",
+  "19.7% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "15.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "SpyNote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SpyMax.55.origin.4051.17951.UNOFFICIAL"
+  ],
+  "downloads": "303",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "test_Malaysia",
+   "author": "rectifyq",
+   "description": "Detects file containing malaysia string",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/21b6b9c7262fe39d2f2ce49115c9c22f50d3e5b0b083a0f8c1ddd776c369ffd3/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/21b6b9c7262fe39d2f2ce49115c9c22f50d3e5b0b083a0f8c1ddd776c369ffd3",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/260403-w3w6eagv2j/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "execution",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2026-04-03 18:27:29",
+   "scanner_count": "36",
+   "scanner_match": "13",
+   "scanner_percent": "36.11"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/69d0068990759d6205c129ca/reports//overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-04-03T15:57:00Z",
+   "last_seen": "2026-04-04T06:47:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/21b6b9c7262fe39d2f2ce49115c9c22f50d3e5b0b083a0f8c1ddd776c369ffd3/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

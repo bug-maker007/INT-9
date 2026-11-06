@@ -1,0 +1,157 @@
+{
+ "sha256_hash": "fb98e6023533f680aea6df4862d407fa4c7e3b81e3fb7fb21c2a8f2f97363126",
+ "sha3_384_hash": "938e79424cc3fd237b16551f1e15d03e9f60c94b14215df58f264b981477334cca84cce25c21c4e109c76b79ef8f86c6",
+ "sha1_hash": "47607bbc8846c4081ba139bfe110a9631ce5cbbf",
+ "md5_hash": "05df7fc2a222ddeeb7024846ed672475",
+ "first_seen": "2025-04-08 22:31:14",
+ "last_seen": null,
+ "file_name": "INTERBANK.SEGURIDAD.apk",
+ "file_size": 10124055,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "scristal1225",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T1F8A61207FB49DA97D8ADC3F15F631C910A131E149BA2A6DB842437AD3D771E18EC1A8C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:66SqwIJKOu181XV1gSSy93oQjSPsDmqzk6QcaLE/daV5DJs3Lq:pSqcOu1GXASb6Q+PsRYNYy56G",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "48.2% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "37.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "14.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "spymax, spynote",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SpyNote"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "222",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "elf_arm_mips_ko_so",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseapps2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise apps",
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseunix2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise UNIX",
+   "reference": null
+  },
+  {
+   "rule_name": "F01_s1ckrule",
+   "author": "s1ckb017",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "ldpreload",
+   "author": "xorseed",
+   "description": null,
+   "reference": "https://stuff.rop.io/"
+  },
+  {
+   "rule_name": "meth_stackstrings",
+   "author": "Willi Ballenthin",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/fb98e6023533f680aea6df4862d407fa4c7e3b81e3fb7fb21c2a8f2f97363126/"
+  },
+  "YOROI_YOMI": {
+   "detection": "SpyNote",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/fb98e6023533f680aea6df4862d407fa4c7e3b81e3fb7fb21c2a8f2f97363126",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250408-2fz7fattes/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "persistence"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-04-08 22:32:14",
+   "scanner_count": "24",
+   "scanner_match": "12",
+   "scanner_percent": "50.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67f5a3ec2d430c849e0defaf/reports/4616ae10-f0e2-4b6d-b246-41e05b35671d/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,114 @@
+{
+ "sha256_hash": "94e0dd4f976cb66058f7aae7b69d308444bec8450065be0e4b7e0351cee5692c",
+ "sha3_384_hash": "d11dea57fe775baca78c3c0183436b347c81b317763009daf4c474f974963c7b4a83f45bd6dbd5ffca2b1e43edea379d",
+ "sha1_hash": "88dc157d45eae8f8d22d0930d18bb28396282805",
+ "md5_hash": "20fff0623859330f1036f030e8f759eb",
+ "first_seen": "2026-07-05 15:06:34",
+ "last_seen": null,
+ "file_name": "Junk Clean Plus_1.6.apk",
+ "file_size": 21407800,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "US",
+ "anonymous": 1,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T16627235BEF1DF42FC83B4432CF7A522731961146C682AB33A615E10C9DA39869F4AFC5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:bHcvbI74ZOF6TKPKxkdJgvkqM6iYUjS4rjdt7t/2zAIm1X+huJ0O+qV:jcvbIK067xnvkqNizS0jdtEzI3DDV",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "43.5% (.APK) Android Package (27000/1/5)",
+  "20.1% (.VYM) VYM Mind Map (12500/1/3)",
+  "16.9% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "12.9% (.XPI) Mozilla Firefox browser extension (8000/1/1)",
+  "6.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Joker",
+  "Malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "310",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://play.google.com/store/apps/details?id=com.ristica.tankplus.cleaner"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "MoleBoxv20",
+   "author": "malware-lu",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260705-sg5nwac15w/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-07-05 08:12:07",
+   "scanner_count": "38",
+   "scanner_match": "1",
+   "scanner_percent": "2.63"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a4a73350c30aed302901fd6/reports/38d7c9ff-fca4-4a7a-afc2-5e9288b30a44/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-07T10:35:00Z",
+   "last_seen": "2026-07-07T10:48:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/94e0dd4f976cb66058f7aae7b69d308444bec8450065be0e4b7e0351cee5692c/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

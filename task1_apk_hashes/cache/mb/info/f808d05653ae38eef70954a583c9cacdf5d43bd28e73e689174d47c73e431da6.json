@@ -1,0 +1,127 @@
+{
+ "sha256_hash": "f808d05653ae38eef70954a583c9cacdf5d43bd28e73e689174d47c73e431da6",
+ "sha3_384_hash": "690ec9146d1601a19d2894f2a34393396da29b37d77c668d8d50941330a229777600ca69538c44920dc845bbdc502dd8",
+ "sha1_hash": "0a7af3d293c4bc9fa142e714f5be6f774aa0a112",
+ "md5_hash": "757be08495745e8f90e97d33fa946aff",
+ "first_seen": "2021-08-10 14:28:39",
+ "last_seen": null,
+ "file_name": "Porno_Izle.apk",
+ "file_size": 2699718,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T124C533767BE1DE1ECA5B0B71810B1A17FC391288CAC2BABF6275141458D2CA86F4DC7D",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:dDFzDxnFGJvAMs5oC/kW2njHqN1EdJue2NV3zBDb32XIFtPWs3Sn:JFzDxnU+5HylepBfGXNj",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "alien",
+  "alienbot",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan005633ff1.26528.17379.UNOFFICIAL"
+  ],
+  "downloads": "246",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://cdn.discordapp.com/attachments/869159460067745815/874651510288556052/Porno_Izle.apk"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1522279/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/f808d05653ae38eef70954a583c9cacdf5d43bd28e73e689174d47c73e431da6/"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/f808d05653ae38eef70954a583c9cacdf5d43bd28e73e689174d47c73e431da6",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210810-6kz45v7gzx/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads name of network operator",
+     "score": "6"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://194.163.136.78"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-08-10 14:29:05",
+   "scanner_count": "46",
+   "scanner_match": "6",
+   "scanner_percent": "13.04"
+  }
+ },
+ "comments": [
+  {
+   "id": "21525",
+   "date_added": "2021-08-10 15:32:55",
+   "twitter_handle": "unidentified0xc",
+   "display_name": "unidentified ",
+   "comment": "c2 http://194.163.136.78\n"
+  }
+ ]
+}

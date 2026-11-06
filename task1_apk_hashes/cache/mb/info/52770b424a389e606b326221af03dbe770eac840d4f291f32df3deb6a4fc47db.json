@@ -1,0 +1,152 @@
+{
+ "sha256_hash": "52770b424a389e606b326221af03dbe770eac840d4f291f32df3deb6a4fc47db",
+ "sha3_384_hash": "a0d29b05b7defdc4242ecab32ac14ee2bacc5ccfffdabc680a45e793e36649cf714ec98a590b6e0fc876f8eb9dbfb98e",
+ "sha1_hash": "7f6f21471c160eda9af5dbb796a99b410b9bbee6",
+ "md5_hash": "946f4da12572cc7370be6ed6778f3854",
+ "first_seen": "2024-04-22 22:22:00",
+ "last_seen": null,
+ "file_name": "app.apk",
+ "file_size": 1983214,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T100951203F266A51BC9F2C3336574223661774D19CB07FA8A2E1D77B938BB9D88B941C4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:k/EZL9zHbY+B0TXud1WB79IKrPWI5RAeuTvKC03T1dy15ltJv:yOL9DbY++Y1k75PFAeavl81dCJ",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "423",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/52770b424a389e606b326221af03dbe770eac840d4f291f32df3deb6a4fc47db/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/52770b424a389e606b326221af03dbe770eac840d4f291f32df3deb6a4fc47db",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240422-197ypshb36/",
+   "tags": [
+    "family:irata",
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks CPU information",
+     "score": "7"
+    },
+    {
+     "signature": "Checks memory information",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "7"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Checks if the internet connection is available",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "irata",
+     "c2": "https://my-admin-sql.org/data/6977722252/rat/140Wa69Z/contact.php?result=ok&action=upload&androidid="
+    },
+    {
+     "extraction": "c2",
+     "family": "irata",
+     "c2": "https://my-admin-sql.org/data/6977722252/rat/140Wa69Z/requests.php"
+    },
+    {
+     "extraction": "c2",
+     "family": "irata",
+     "c2": "https://my-admin-sql.org/data/6977722252/rat/140Wa69Z/sms.php?result=ok&action=upload&androidid="
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Backdoor.Basdoor",
+   "status": "MALICIOUS",
+   "first_seen": "2024-04-23 00:58:09",
+   "scanner_count": "38",
+   "scanner_match": "13",
+   "scanner_percent": "34.21"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/6626e30dd2fc149e41191ca9/reports//overview"
+  }
+ },
+ "comments": null
+}

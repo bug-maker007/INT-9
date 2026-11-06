@@ -1,0 +1,116 @@
+{
+ "sha256_hash": "6875957f69028a7cde72961968df5ccdef896709d0114851313bb9a6a66d7349",
+ "sha3_384_hash": "0bd76253de5ff062cd1583e1a0182a95a214304ce0618a1c49942c223d0e994f736ff18a2280df4e428bb202d3b6dac9",
+ "sha1_hash": "902c23c497fa520a36e4cbfd963494b27692e53d",
+ "md5_hash": "798131d7f54f4a98532df8aa23b580c0",
+ "first_seen": "2026-04-17 20:01:20",
+ "last_seen": null,
+ "file_name": "hile.apk",
+ "file_size": 10433,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "MetaSploit",
+ "imphash": null,
+ "tlsh": "T14222BF3D7A6647B5F323B7B550BB4E7B2F3B51501D42B369DD683C104D23A8222D2C82",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "192:VLt7+5N/Lg3CG6GCi9j+AbptG3kWLrgTNEVR7:VLtALM/CijgkWLDVR7",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "MetaSploit",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2023-09-19T07:41:53Z",
+   "valid_to": "2035-12-30T12:55:59Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "8d8727fe89eda91ba264eff24c014112ee9c65cf878148190d9bd15376511428",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Andr.Bckdr-RXK.17683.18760.UNOFFICIAL",
+   "SecuriteInfo.com.Application.GenericKD.4498629.10203.18129.26189.UNOFFICIAL"
+  ],
+  "downloads": "201",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/6875957f69028a7cde72961968df5ccdef896709d0114851313bb9a6a66d7349/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/6875957f69028a7cde72961968df5ccdef896709d0114851313bb9a6a66d7349",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": null,
+   "link": "https://tria.ge/reports/260417-yshw5sgv7q/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Hacktool.MetaSploit",
+   "status": "MALICIOUS",
+   "first_seen": "2026-04-17 11:46:44",
+   "scanner_count": "38",
+   "scanner_match": "18",
+   "scanner_percent": "47.37"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69e29223fd15f1ca1cd09be4/reports/65cda0f6-b4b9-4c36-af6a-c875c4ebf43a/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-04-17T04:33:00Z",
+   "last_seen": "2026-04-19T03:08:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/6875957f69028a7cde72961968df5ccdef896709d0114851313bb9a6a66d7349/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

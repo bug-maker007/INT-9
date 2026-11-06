@@ -1,0 +1,170 @@
+{
+ "sha256_hash": "3cccf063b1fb20d7efb9c72185f447df01744e0bd49e48f948377ba3e9ebf812",
+ "sha3_384_hash": "60b7f381c8314341be5cd0ee1a474283d04422a13dcd93742d6cc5589594e763aba69b7b680a381876e72c0d061ec897",
+ "sha1_hash": "54cd2b2b53aae8593a60774197fcc5772f5dbf12",
+ "md5_hash": "997bd7499082b66eaa9ff0e6ae05aa26",
+ "first_seen": "2025-04-11 20:09:58",
+ "last_seen": null,
+ "file_name": "childapp.apk",
+ "file_size": 14071642,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Felipe",
+ "origin_country": "BR",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T1F3E6F107B805CB83C46C83F86E632F941A1B2F08D9912AEB50693B5E3E772D24DD59DD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:WRon6eyHwXbKpofM5iJZszY3s/zBcTr0t8Cmzquj:zNbfkIJaEtU+zqq",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "48.2% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "37.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "14.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "spynote"
+ ],
+ "code_sign": null,
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SpyMax.276.23857.4354.UNOFFICIAL"
+  ],
+  "downloads": "4809",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Spynote_generic_strings",
+   "author": "Alberto Segura",
+   "description": "Detects Spynote Android Malware",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "weird_png_data_after_end",
+   "author": "Maxime THIEBAUT (@0xThiebaut)",
+   "description": "Detects data suspiciously located after a PNG's end header",
+   "reference": "https://www.bleepingcomputer.com/news/microsoft/windows-11-snipping-tool-privacy-bug-exposes-cropped-image-content/"
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3cccf063b1fb20d7efb9c72185f447df01744e0bd49e48f948377ba3e9ebf812/"
+  },
+  "YOROI_YOMI": {
+   "detection": "SpyNote",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/3cccf063b1fb20d7efb9c72185f447df01744e0bd49e48f948377ba3e9ebf812",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250411-yxsbdaymw9/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "persistence",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "0k6v5xuhp.localto.net:6266"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-04-11 18:00:16",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67f97726b070fb3f94629762/reports/c463fc60-53d2-4efe-ab3f-9249d9a0d13f/overview"
+  }
+ },
+ "comments": null
+}

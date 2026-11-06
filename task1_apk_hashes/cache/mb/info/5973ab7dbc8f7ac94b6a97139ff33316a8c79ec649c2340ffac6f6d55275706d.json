@@ -1,0 +1,147 @@
+{
+ "sha256_hash": "5973ab7dbc8f7ac94b6a97139ff33316a8c79ec649c2340ffac6f6d55275706d",
+ "sha3_384_hash": "f35f973d3446bf50880a51bba77792d232d3c7a3ec8ec44c8da6fde34ad9c38b7400bf1fe3afb4b1bf47fbed66b43f49",
+ "sha1_hash": "f6e09b666c4140f51bd2b0a7cfaa38b1f8e6ec8d",
+ "md5_hash": "500d7f035712d747891e43112b320c5c",
+ "first_seen": "2022-07-10 20:02:24",
+ "last_seen": null,
+ "file_name": "Siqe.apk",
+ "file_size": 2213509,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T113A533DEFDDBE402DBC7D53AC5108096C62E2276991EFA076B60C55C1AF2C6BD710D82",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:dkSUdOhiTBxLhgKP0qV44wnDO58AzNSVZjD14XcjSiEVRJwB3sh:z6OEVxLhZTV44gVAIV95wHVVHwFsh",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "Apk.spyware.IranPhishing",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "iran",
+  "malware",
+  "Phishing",
+  "signed",
+  "smsspy",
+  "spy",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.4511.14998.22360.UNOFFICIAL"
+  ],
+  "downloads": "461",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "spyware"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "Apk.spyware.IranPhishing"
+  },
+  {
+   "context": "dropped_by_malware",
+   "value": "smsspy"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2256204/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5973ab7dbc8f7ac94b6a97139ff33316a8c79ec649c2340ffac6f6d55275706d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.40"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/5973ab7dbc8f7ac94b6a97139ff33316a8c79ec649c2340ffac6f6d55275706d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220710-ysngmacgfr/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Backdoor.Basdoor",
+   "status": "MALICIOUS",
+   "first_seen": "2022-07-10 20:03:22",
+   "scanner_count": "26",
+   "scanner_match": "12",
+   "scanner_percent": "46.15"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62cb307ca496df53c2504540/reports/eb850bb4-af6e-4f0b-85fe-578ff032a7c7/overview"
+  }
+ },
+ "comments": null
+}

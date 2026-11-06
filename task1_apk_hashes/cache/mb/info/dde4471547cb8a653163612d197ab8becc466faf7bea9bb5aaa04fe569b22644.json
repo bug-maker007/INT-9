@@ -1,0 +1,117 @@
+{
+ "sha256_hash": "dde4471547cb8a653163612d197ab8becc466faf7bea9bb5aaa04fe569b22644",
+ "sha3_384_hash": "0eaa53dd669812abae9d0eb475d692b9f3012f0d0aafcfb268dcf53ce674842a50378ab9c7a2555a31ef2e3cca96f4f6",
+ "sha1_hash": "4d9d0cbf783895daa601f79ae377ff7d1c0faa9e",
+ "md5_hash": "920b989500edefd7151994fee5934716",
+ "first_seen": "2024-12-14 12:41:06",
+ "last_seen": null,
+ "file_name": "Twint_Update.apk",
+ "file_size": 7315736,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "seckle_ch",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": "Hook",
+ "imphash": null,
+ "tlsh": "T1FA76019BF708A96AC4F353F24A7547A151474C268B83E7C3AD59323C18BB6D43F09AC9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:sp7yDMhXV+rRXGkrchgLCrATsX5n8e+syu9E/7Cp6Z2Igv8XufH7r6Ii9hqTs+y:sp7toVsyG8eUqxpVl8XufP6fhqk",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "Source: hXXps://www-twint-ch[.]click/ch-de/auth/res/Twint_Update.apk",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "dropper",
+  "tiramisu"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.FileRepMalware.21382.10622.UNOFFICIAL"
+  ],
+  "downloads": "294",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "apk.hook"
+  },
+  {
+   "context": "dropping_sha256",
+   "value": "2da377529967c57cf738206ad5a1414485658daf7c26e66a6c474b165442f1b6"
+  },
+  {
+   "context": "dropping_md5",
+   "value": "2822ee6f2c62e0d59e3a6e3b49936bff"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/dde4471547cb8a653163612d197ab8becc466faf7bea9bb5aaa04fe569b22644/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Dropper",
+   "score": "0.80"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/dde4471547cb8a653163612d197ab8becc466faf7bea9bb5aaa04fe569b22644",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/241214-pxbh7atpbn/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2024-12-14 12:42:06",
+   "scanner_count": "24",
+   "scanner_match": "5",
+   "scanner_percent": "20.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/675d7d1ab8bedfd72e43d584/reports/781d82e3-6e57-46f0-8fc4-43481ec6a4ce/overview"
+  }
+ },
+ "comments": null
+}

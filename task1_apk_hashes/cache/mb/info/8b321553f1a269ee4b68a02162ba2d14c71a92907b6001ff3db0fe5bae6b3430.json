@@ -1,0 +1,148 @@
+{
+ "sha256_hash": "8b321553f1a269ee4b68a02162ba2d14c71a92907b6001ff3db0fe5bae6b3430",
+ "sha3_384_hash": "511df1e5a7034843f531be8099d8dd0272e7086d00f21d772705debad5dae7980cf5b1444fdea3b485b9f9e168b4ff76",
+ "sha1_hash": "8ea0706e77e57810ff1bc9073f3701772f032557",
+ "md5_hash": "d1a68785559ae6b0049a2bd1798277a1",
+ "first_seen": "2022-09-21 09:22:46",
+ "last_seen": null,
+ "file_name": "eBayMobile.apk",
+ "file_size": 2980584,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T152D53384E121454CC4E9B73297674292B53CCB148613FB2F07A6B4B96AF2FD9630ADDC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:Ucz4N3omNn0M+CGN3SPXLD8S/obeUQGkfC1T3Eb0KizuNAGq6BXk2M:LrmR0vCSC/robeZGkfk0xA1XX",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "BankBot",
+  "Hydra",
+  "malware",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SMS-10.UNOFFICIAL"
+  ],
+  "downloads": "596",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8b321553f1a269ee4b68a02162ba2d14c71a92907b6001ff3db0fe5bae6b3430/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/8b321553f1a269ee4b68a02162ba2d14c71a92907b6001ff3db0fe5bae6b3430",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/220921-lcfqmabedr/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Hydra payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "7"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hydra",
+     "c2": "http://lalabanda.com"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Bian",
+   "status": "MALICIOUS",
+   "first_seen": "2022-09-20 15:43:21",
+   "scanner_count": "25",
+   "scanner_match": "13",
+   "scanner_percent": "52.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/632ad80b6aa625318dcc4f19/reports/b3125889-cf01-4d35-9cf6-cf331d96f931/overview"
+  }
+ },
+ "comments": null
+}

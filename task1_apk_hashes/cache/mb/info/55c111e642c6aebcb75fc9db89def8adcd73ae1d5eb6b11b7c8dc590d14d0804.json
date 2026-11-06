@@ -1,0 +1,217 @@
+{
+ "sha256_hash": "55c111e642c6aebcb75fc9db89def8adcd73ae1d5eb6b11b7c8dc590d14d0804",
+ "sha3_384_hash": "aad07e06efa85f098a4554ae413c20548fa801f63c2653190b984a7820a915a5654a20ac6c4118b1a2b98ceb1a931434",
+ "sha1_hash": "17dfb55d33abfa0db0ae5a5f0c89fe8be0fc21d2",
+ "md5_hash": "14342a6a44d3b98598961ca1488b60cd",
+ "first_seen": "2026-01-26 13:53:45",
+ "last_seen": null,
+ "file_name": "Chrome (1).apk",
+ "file_size": 3938922,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "TR",
+ "anonymous": 1,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T10D062333EE9AD1DDC1B45E33C9C18DB591A47B5086D39217298CF29B26387FCCA18762",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:lCELgDHeoURmekFpWTMpd8jZc3HTq7/GqdW:ljMDH6w+ToH3HO/W",
+ "magika": "zip",
+ "dhash_icon": null,
+ "trid": [
+  "51.4% (.APK) Android Package (27000/1/5)",
+  "40.9% (.PBIVIZ) Power BI desktop Visual data (21500/1/4)",
+  "7.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker",
+  "Coper",
+  "dropper",
+  "payload",
+  "spy",
+  "trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "Unix.Dropper.Fakeapp-10014994-0"
+  ],
+  "downloads": "480",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/55c111e642c6aebcb75fc9db89def8adcd73ae1d5eb6b11b7c8dc590d14d0804/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/55c111e642c6aebcb75fc9db89def8adcd73ae1d5eb6b11b7c8dc590d14d0804",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/260126-q7m6eabz4d/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo family",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests accessing notifications (often used to intercept notifications before users become aware).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests modifying system settings.",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://45.74.16.46/YjQzOWMzYTQ4NzJm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://567855erdhd2361211f9813c0c4d18f2a5f.com/YjQzOWMzYTQ4NzJm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://56785341f9813c0c4d18f3243242a5f.com/YjQzOWMzYTQ4NzJm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://567235dhd2361211f9813c0c4d18f2a5f.com/YjQzOWMzYTQ4NzJm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://5325d2361211f9813c0c4d1238f2a5f.com/YjQzOWMzYTQ4NzJm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://567855561211f9813c0c4234d18f2a5f.com/YjQzOWMzYTQ4NzJm/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Coper",
+   "status": "MALICIOUS",
+   "first_seen": "2025-08-13 21:25:14",
+   "scanner_count": "36",
+   "scanner_match": "10",
+   "scanner_percent": "27.78"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69777209c67009fca91d5c0c/reports/81505c83-1f1a-49fe-8238-32ecbe441291/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-08-12T19:01:00Z",
+   "last_seen": "2026-01-26T23:39:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/55c111e642c6aebcb75fc9db89def8adcd73ae1d5eb6b11b7c8dc590d14d0804/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,122 @@
+{
+ "sha256_hash": "2eaa082248a55d8e6ec5d3c5910515e0b1f1a9f371d9afcd8f0493eb6e04d635",
+ "sha3_384_hash": "dc1830b502e3cd15cda056761299d4b5c21cc49ec8a69c9bf9ac7e82b78eb8506ad1a03eca0b9047e0149fbc9c0eba92",
+ "sha1_hash": "51e04ab98b43168bafd080441de83c96e4437d70",
+ "md5_hash": "2bdcc73a1d6e9524d08819257d2611a5",
+ "first_seen": "2023-12-26 10:47:43",
+ "last_seen": null,
+ "file_name": "app.apk",
+ "file_size": 1748829,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "AE",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1B3851243F265B917C870C13221462B39625B5E29CA82FB05365877EDB8BBDEC4FC46D8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:tUfDtO2FryveHQ8P1rtl9rePk9tX4b7sykk6:+fDtO2FryvoXthl9YCtXmkk6",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "np",
+   "issuer_cn": "np",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2021-04-25T09:03:56Z",
+   "valid_to": "3020-08-26T09:03:56Z",
+   "serial_number": "045ff9a3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "492682f877607ee99df2ddd2bd5953fd727bdf6e19d397de9dbbafd582bcad75",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Siggen.Susp.5835.9534.12084.UNOFFICIAL"
+  ],
+  "downloads": "493",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "lydia",
+   "link": "https://mwdb.cert.pl/sample/2eaa082248a55d8e6ec5d3c5910515e0b1f1a9f371d9afcd8f0493eb6e04d635/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.54"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/2eaa082248a55d8e6ec5d3c5910515e0b1f1a9f371d9afcd8f0493eb6e04d635",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/231226-mv4qvaghgr/",
+   "tags": [
+    "family:irata",
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyAgent",
+   "status": "MALICIOUS",
+   "first_seen": "2023-12-12 00:12:17",
+   "scanner_count": "37",
+   "scanner_match": "12",
+   "scanner_percent": "32.43"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/658aaf646b1c24604608e470/reports/77b4bf26-e6db-48a9-b717-f445eb7794ad/overview"
+  }
+ },
+ "comments": null
+}

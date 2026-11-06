@@ -1,0 +1,107 @@
+{
+ "sha256_hash": "dcb44dcc682dfe8ac8582125fb201c583809c12f578e70eafd6c37de3cf06f86",
+ "sha3_384_hash": "9af899cba408e0342b41668be11823a7dc5cb8d51464771e9602dab89bd90ea034e120b4b6f3f53501676f5df405d0c9",
+ "sha1_hash": "4cf09ba61dacbd7185a400d37137518928a22cb0",
+ "md5_hash": "49c385d4cb2dab03aaa55f03090d36cd",
+ "first_seen": "2021-12-06 14:44:47",
+ "last_seen": null,
+ "file_name": "bundle.apk",
+ "file_size": 1933593,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T1419533A3F7402572F2B6D231675F15A124BA6C3A225EC5B5709FB9214BB3F204F6EC21",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:wsGB1HNjLAmSzCFm2cXEF3rSFHDtghZHV6XUtUfd:CBjjLN5Fs0MRMTUfd",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "alienrat",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "379",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/dcb44dcc682dfe8ac8582125fb201c583809c12f578e70eafd6c37de3cf06f86/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/dcb44dcc682dfe8ac8582125fb201c583809c12f578e70eafd6c37de3cf06f86",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/211206-r4qb2ahca4/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://fiftiforfrisend.quest"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Boogr",
+   "status": "MALICIOUS",
+   "first_seen": "2021-12-04 08:47:00",
+   "scanner_count": "28",
+   "scanner_match": "6",
+   "scanner_percent": "21.43"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61ae21f14d8e6f3a5e14a1e8/reports/dd9639aa-5e9e-4841-a5af-99dd80b402bf/overview"
+  }
+ },
+ "comments": null
+}

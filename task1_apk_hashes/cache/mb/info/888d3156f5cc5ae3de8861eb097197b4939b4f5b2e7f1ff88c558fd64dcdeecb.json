@@ -1,0 +1,164 @@
+{
+ "sha256_hash": "888d3156f5cc5ae3de8861eb097197b4939b4f5b2e7f1ff88c558fd64dcdeecb",
+ "sha3_384_hash": "6638faf2621fdecc4832643bf39698749d14be98251909e375bbe2c4cde2c248f2193fd739370525f40735625eaab4e2",
+ "sha1_hash": "5b48f1247abfc2e7b729bcc2dc9a94a1b23a447d",
+ "md5_hash": "9d84459d7647443097232be0cc00d7e9",
+ "first_seen": "2025-12-23 17:39:24",
+ "last_seen": null,
+ "file_name": "ready.apk",
+ "file_size": 700731,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T111E41243F746CC54DAA2113A8BAD41D9503B2F796D06D3932A67B3ADC1737C1EB88D88",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:c+CAB78RtsPxsr4n+2ouiz6m9WSMbKx/rYh/usT3cgtN0Fome6Rq21egNltWDvk2:fB78AP+jh9WZeNrYHT3SFomeGNbAvf",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "SpyNote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "google play",
+   "issuer_cn": "google play",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2021-07-16T23:26:53Z",
+   "valid_to": "4110-02-25T23:26:53Z",
+   "serial_number": "170ded5b",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "5e53c7c31452cbd63cc00d814ee75dd44010db01a5118c0a605487d15d63a1d2",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan.AndroidOS.dav.12724.UNOFFICIAL"
+  ],
+  "downloads": "181",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/888d3156f5cc5ae3de8861eb097197b4939b4f5b2e7f1ff88c558fd64dcdeecb/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.09"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/888d3156f5cc5ae3de8861eb097197b4939b4f5b2e7f1ff88c558fd64dcdeecb",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/251223-v8236sykdz/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "144.31.30.235:9898"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-12-18 13:43:58",
+   "scanner_count": "23",
+   "scanner_match": "10",
+   "scanner_percent": "43.48"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/694ad4063f8fdbf8e9503ec5/reports/60bec9cb-c9f7-4ed8-a004-d5a61acb2c4d/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-12-18T08:45:00Z",
+   "last_seen": "2025-12-18T17:46:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/888d3156f5cc5ae3de8861eb097197b4939b4f5b2e7f1ff88c558fd64dcdeecb/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

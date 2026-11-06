@@ -1,0 +1,129 @@
+{
+ "sha256_hash": "377f07b92d33e0ea9d7cfe3c288e19df2be8555154bdb1141b82a87d068a0cf7",
+ "sha3_384_hash": "67d46b8ab19e6e6f7715861435603b6ebcf0ca0a8579de0793ad57b904e952ee2dc853b86fa845607e4d6ef3854c879d",
+ "sha1_hash": "09692ebecc03862c8223a43e0934fc7e1fa6c06f",
+ "md5_hash": "8bd1c057de789baea3d0acad35a4d1fd",
+ "first_seen": "2024-12-20 16:27:23",
+ "last_seen": null,
+ "file_name": "DJP.apk",
+ "file_size": 3877846,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mamrmtsh",
+ "origin_country": "GB",
+ "anonymous": 0,
+ "signature": "TgToxic",
+ "imphash": null,
+ "tlsh": "T18206BE5A77666559FC7B00F12E8F6225D0AE5C4ACE0283D77D083B2A147B5C90F86BEC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:p1y8VfJ2nSi+s+OZm41gFvWMfz/L2ci5eR:Hy8Vx2ndLIWQT2cweR",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "87.0% (.APK) Android Package (27000/1/5)",
+  "12.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "s://pajak[.]tw/assets/DJP[.]apk",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "TgToxic"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "268",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3370254/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3370255/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "RSharedStrings",
+   "author": "Katie Kleemola",
+   "description": "identifiers for remote and gmremote",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/377f07b92d33e0ea9d7cfe3c288e19df2be8555154bdb1141b82a87d068a0cf7/"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/377f07b92d33e0ea9d7cfe3c288e19df2be8555154bdb1141b82a87d068a0cf7",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "tgtoxic",
+   "score": "10",
+   "link": "https://tria.ge/reports/241220-tym1tszpdl/",
+   "tags": [
+    "family:tgtoxic",
+    "android",
+    "discovery",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks known Qemu pipes.",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.ScarletFlash",
+   "status": "MALICIOUS",
+   "first_seen": "2024-12-19 19:19:00",
+   "scanner_count": "23",
+   "scanner_match": "7",
+   "scanner_percent": "30.43"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67659b147bbc7aaa4c968774/reports/9f8247e4-84f6-4987-9ea3-4e4a1d2688a8/overview"
+  }
+ },
+ "comments": null
+}

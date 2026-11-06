@@ -1,0 +1,116 @@
+{
+ "sha256_hash": "0a2f1bdec6df99d0de397ffdd63f1c89341b7bd53fa4dd5868e567109fdd507f",
+ "sha3_384_hash": "0552776ef3f33db55361bd1912d674ecc72b7b9b382d3659d76a8af6337faf0be0fa30e96f1202524ac6ce9a79b48e4a",
+ "sha1_hash": "851ffbe8d9ddfd7386756d37c2f522f83d4c7397",
+ "md5_hash": "1208a08445e8a9b77434dbe546aa1b68",
+ "first_seen": "2023-12-28 05:27:08",
+ "last_seen": null,
+ "file_name": "a.apk",
+ "file_size": 196083,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0xrb",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "Octo",
+ "imphash": null,
+ "tlsh": "T10314CF4875A8C70AE4BE9B729EA9C5D1993B7E54CE05DB1F3010371C0B73AD14E72A3A",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "3072:0jn1nL1376RfdJy188zv3Gkh8wgsUG+jsns3Q7G2ZajHDTmHu0DNmM8G792fh0J0:ynZL6RfTyZvNKrxG+QQQpUbPmHu0p19k",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Octo",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Unknown",
+   "issuer_cn": "Unknown",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2020-06-08T03:16:18Z",
+   "valid_to": "2075-03-12T03:16:18Z",
+   "serial_number": "198107db",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "ed06117c968884c0911bf3bc16f936338a519e609fa4736cf9e832db60238750",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.Coper.1.origin.26803.14198.UNOFFICIAL"
+  ],
+  "downloads": "638",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/0a2f1bdec6df99d0de397ffdd63f1c89341b7bd53fa4dd5868e567109fdd507f/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/0a2f1bdec6df99d0de397ffdd63f1c89341b7bd53fa4dd5868e567109fdd507f",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/231228-f5zrbagfal/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.SmsForward",
+   "status": "MALICIOUS",
+   "first_seen": "2023-12-26 22:46:47",
+   "scanner_count": "23",
+   "scanner_match": "6",
+   "scanner_percent": "26.09"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/658d0763b4e856b7282ab443/reports//overview"
+  }
+ },
+ "comments": null
+}

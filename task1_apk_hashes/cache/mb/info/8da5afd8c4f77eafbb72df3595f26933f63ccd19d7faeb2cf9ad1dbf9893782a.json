@@ -1,0 +1,112 @@
+{
+ "sha256_hash": "8da5afd8c4f77eafbb72df3595f26933f63ccd19d7faeb2cf9ad1dbf9893782a",
+ "sha3_384_hash": "960a05d547b024d1543bb56a7e9e40c2b7461cc6464cd8dcdaeeddd70ad3be0c8bd4a3fca8e0f9cb0a4c8e5ca708c3fa",
+ "sha1_hash": "4c26221855f46abf00c8e6fdef635359ed94f963",
+ "md5_hash": "eba50ee1a0f282daf68ccd4bbaace360",
+ "first_seen": "2023-07-19 10:59:47",
+ "last_seen": null,
+ "file_name": "Commerzbank_Security.apk",
+ "file_size": 4047713,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T1A8163380F1E6A107EEEB1379CEBBA5C2046A7E94DB0587433059336E5437DD5CA70AA3",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:DRTKgkwmjEjSUodBUDT7B4l8jpxuO29OzJszTO4wK7gTp8oP9:DogkmNEINjpV2IzJy1cTiol",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "57.0% (.APK) Android Package (32500/1/6)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "10.5% (.KMZ) Google Earth saved working session (6000/1/1)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android_hydra",
+  "apk",
+  "hydra",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "np",
+   "issuer_cn": "np",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2021-04-25T09:03:56Z",
+   "valid_to": "3020-08-26T09:03:56Z",
+   "serial_number": "045ff9a3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "492682f877607ee99df2ddd2bd5953fd727bdf6e19d397de9dbbafd582bcad75",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "Sanesecurity.Foxhole.JS_Zip_21.UNOFFICIAL"
+  ],
+  "downloads": "313",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8da5afd8c4f77eafbb72df3595f26933f63ccd19d7faeb2cf9ad1dbf9893782a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Hydra",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/8da5afd8c4f77eafbb72df3595f26933f63ccd19d7faeb2cf9ad1dbf9893782a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "3",
+   "link": "https://tria.ge/reports/230719-m31n6acg27/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.BankBot",
+   "status": "MALICIOUS",
+   "first_seen": "2023-07-14 20:08:00",
+   "scanner_count": "22",
+   "scanner_match": "10",
+   "scanner_percent": "45.45"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/64b7c234f52c3e1a014a7042/reports//overview"
+  }
+ },
+ "comments": null
+}

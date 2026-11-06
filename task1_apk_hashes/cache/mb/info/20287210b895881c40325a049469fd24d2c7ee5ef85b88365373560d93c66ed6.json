@@ -1,0 +1,233 @@
+{
+ "sha256_hash": "20287210b895881c40325a049469fd24d2c7ee5ef85b88365373560d93c66ed6",
+ "sha3_384_hash": "b3c5d67ce9ea60eb1962307e884f2afe3b28c25a279aca03db1522fab7e1555a02aa7f96e16408849aec661121ab6796",
+ "sha1_hash": "8719a08fc2acab16ba4b1a8f1ae3d8f4a500a3fb",
+ "md5_hash": "76e4485c5843b9351337aa571b547a89",
+ "first_seen": "2024-10-22 09:02:47",
+ "last_seen": null,
+ "file_name": "base.apk",
+ "file_size": 579008,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "cybercrime44",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T1EFC4120176E8D712EFBF0AF84BAAD5E59455BE48CE02831F7708331D0E727C19E65A29",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:XlPneXRi2ZYdJPodteXB/vxS8ASacqMwNkPQSIydRBk0zTL7o9Hp:XlPneXRuPodteX5xS8fazCYyZ16",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Coper",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "np",
+   "issuer_cn": "np",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2021-04-25T09:03:56Z",
+   "valid_to": "3020-08-26T09:03:56Z",
+   "serial_number": "045ff9a3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "492682f877607ee99df2ddd2bd5953fd727bdf6e19d397de9dbbafd582bcad75",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.Coper.6073.24275.30118.UNOFFICIAL"
+  ],
+  "downloads": "280",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Linux_Generic_Threat_a8faf785",
+   "author": "Elastic Security",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/20287210b895881c40325a049469fd24d2c7ee5ef85b88365373560d93c66ed6/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/20287210b895881c40325a049469fd24d2c7ee5ef85b88365373560d93c66ed6",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/241022-kz1tmszapp/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the unique device ID (IMEI, MEID, IMSI)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests accessing notifications (often used to intercept notifications before users become aware).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://94.156.253.20/NzNlMDMzYWExMzk1/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://staris7542352r23.net/NzNlMDMzYWExMzk1/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://staris6442352r23.net/NzNlMDMzYWExMzk1/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://staris5342352r23.net/NzNlMDMzYWExMzk1/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://staris4242352r23.net/NzNlMDMzYWExMzk1/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://staris3142352r23.net/NzNlMDMzYWExMzk1/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-10-21 14:59:51",
+   "scanner_count": "37",
+   "scanner_match": "16",
+   "scanner_percent": "43.24"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67176a47d875ce8b57d6eeb4/reports/1fd17b08-8722-491a-82c9-9fb50a34386f/overview"
+  }
+ },
+ "comments": null
+}

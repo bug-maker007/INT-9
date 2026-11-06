@@ -1,0 +1,116 @@
+{
+ "sha256_hash": "80de49a3bd719d62f3b2f24d584a03e3fff3e6ac46ad8bea3c04c8a09071ed3a",
+ "sha3_384_hash": "fad7170e873ef734e690a32a898b8a65ffdfd7bd3d467743a9aaf5124fc7038c01cac8ac9a76f2f698fef5e7e5bfc960",
+ "sha1_hash": "f98e048cee7911e659687acf4dbfd9ff8f6bd4da",
+ "md5_hash": "0e29f74abca3929f9ec2ba3f0183fd3d",
+ "first_seen": "2026-05-08 09:37:39",
+ "last_seen": null,
+ "file_name": "PNB Mobile.apk",
+ "file_size": 17753673,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T11F07CD23F50969A6CDD6E135B5E3579172341D480393A239271FF026FEF21CECA66AC2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:mphjvi7jgieK7PF7S1wBJfBugK4l0POBgdor4EPseUhe:Gvi7JrF7SCBe9Q0POB6ocEUbhe",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "51.2% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "29.2% (.WMZ) Windows Media Player skin (6000/1/1)",
+  "19.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "malware",
+  "PNB"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "186",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Jeevan_Malware_Rewards",
+   "author": "ShriTiger",
+   "description": "Detects JeevanReward variants using Technical, Anti-Analysis, and Indian SE keywords",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/80de49a3bd719d62f3b2f24d584a03e3fff3e6ac46ad8bea3c04c8a09071ed3a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/80de49a3bd719d62f3b2f24d584a03e3fff3e6ac46ad8bea3c04c8a09071ed3a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-lnlq1sav3j/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-08 09:38:24",
+   "scanner_count": "37",
+   "scanner_match": "5",
+   "scanner_percent": "13.51"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fdaf0d2fcb905ec2880b19/reports/229fe774-7542-4cb1-b773-bff5d5ec89ac/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-08T07:24:00Z",
+   "last_seen": "2026-05-08T17:59:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/80de49a3bd719d62f3b2f24d584a03e3fff3e6ac46ad8bea3c04c8a09071ed3a/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

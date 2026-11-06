@@ -1,0 +1,154 @@
+{
+ "sha256_hash": "7748e9b7d04bab6775cd2bb24c86a83b59de9b3cf21567606754e433c74f5570",
+ "sha3_384_hash": "a16128c7bbdbb8859b90c1ebbffeeb4d9ad08f6bf18f92ade5ff1849685c34cc694a78d548edcbba98084ab95bfa3eb2",
+ "sha1_hash": "fcbfaae033538686b302879158edc6160376032e",
+ "md5_hash": "86514b834c5229bda84ba8de729a027b",
+ "first_seen": "2026-04-08 01:17:05",
+ "last_seen": null,
+ "file_name": "Proteção Cartões.apk",
+ "file_size": 3957811,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1C806E086FB58A92FCC7311324DAA523552478DD68E839B43B858371C687BAD80F5DBCC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:VpT+1oVCwHNOZpJ+gNrZJpk1DX+9YzXx0Q1ij3xJ7:VysHNOL+SM+9aGj",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "65.0% (.APK) Android Package (27000/1/5)",
+  "25.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "app-protecao-digital",
+  "banker",
+  "cardprotecao-com",
+  "nfc"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.NGate.50.origin.3362.23451.UNOFFICIAL"
+  ],
+  "downloads": "228",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7748e9b7d04bab6775cd2bb24c86a83b59de9b3cf21567606754e433c74f5570/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.05"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/7748e9b7d04bab6775cd2bb24c86a83b59de9b3cf21567606754e433c74f5570",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/260408-bnmyzagv8w/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ravartar",
+   "status": "MALICIOUS",
+   "first_seen": "2026-04-07 23:27:46",
+   "scanner_count": "23",
+   "scanner_match": "9",
+   "scanner_percent": "39.13"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69d5aca990759d6205c28e12/reports/91523ae9-aaae-4926-8115-936d0b9a8609/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-04-07T18:17:00Z",
+   "last_seen": "2026-04-07T23:50:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/7748e9b7d04bab6775cd2bb24c86a83b59de9b3cf21567606754e433c74f5570/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

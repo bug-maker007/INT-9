@@ -1,0 +1,101 @@
+{
+ "sha256_hash": "02ebe0313f7c1d5a52cd5b317695c262f5466662da69a456bcaa759a9b476a4d",
+ "sha3_384_hash": "15945790f7753668166e086a72a0c3df66fe9bc162e87890e5147c150ef845d52bdbda1833d8f06b3f332ad5c8d874c1",
+ "sha1_hash": "a4dc30ff98695e24b291fc98a2a096e6162f5f6d",
+ "md5_hash": "930180d59dc38d95b25f545600d83b09",
+ "first_seen": "2021-09-02 15:42:33",
+ "last_seen": "2021-09-02 15:43:51",
+ "file_name": "Etki_Buyu_Kehanet.apk",
+ "file_size": 3423076,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T1F3F5331FE7425C0ED20F4172D067AB92BA542A0DA386B43F49753085EC9DAD8874BEFD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:iwdyau8EIpoOkodHfSsRq4kq5AtCVWI80O9Q:iwdyBFiPkoJ3kiGCVyQ",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "313",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/02ebe0313f7c1d5a52cd5b317695c262f5466662da69a456bcaa759a9b476a4d/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/02ebe0313f7c1d5a52cd5b317695c262f5466662da69a456bcaa759a9b476a4d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210902-s5xceadfgl/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads name of network operator",
+     "score": "6"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://34.141.80.222"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-09-02 15:43:05",
+   "scanner_count": "38",
+   "scanner_match": "5",
+   "scanner_percent": "13.16"
+  }
+ },
+ "comments": null
+}

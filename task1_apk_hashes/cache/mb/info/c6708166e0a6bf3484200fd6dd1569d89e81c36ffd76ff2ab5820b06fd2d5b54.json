@@ -1,0 +1,111 @@
+{
+ "sha256_hash": "c6708166e0a6bf3484200fd6dd1569d89e81c36ffd76ff2ab5820b06fd2d5b54",
+ "sha3_384_hash": "57c36f7dd43b45778ea6e7af931e5a130049d92849a09e1e4bbfe580eb628e1846df0d1407645320b3706fe73cc377f4",
+ "sha1_hash": "87720d76024c37ed21085c6acc121c1585b7c29a",
+ "md5_hash": "838cfd899eda2d63010dcee0093dd510",
+ "first_seen": "2026-03-17 13:17:22",
+ "last_seen": "2026-05-08 09:46:38",
+ "file_name": "iMobile Lite.apk",
+ "file_size": 17888843,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T12F07CD23F50969A6CED6A135F4E7579132341D480793A22D271FF026FDF21CECA66AC2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:wjPffOaxQbv+qSy0LpXtyTTBvqILBHrV8h5NJ8G:wjOPjSy0dXtUT1qIL15sNKG",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Dropper",
+  "ICICI Bank",
+  "Malware",
+  "Riskware",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "284",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c6708166e0a6bf3484200fd6dd1569d89e81c36ffd76ff2ab5820b06fd2d5b54/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/c6708166e0a6bf3484200fd6dd1569d89e81c36ffd76ff2ab5820b06fd2d5b54",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260317-qj3aesby5n/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Packed.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-01-14 08:59:56",
+   "scanner_count": "38",
+   "scanner_match": "6",
+   "scanner_percent": "15.79"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69b954962000fc76c3e594ce/reports/0e18a197-f5c5-41c7-9009-6822b8b2f172/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-01-14T09:14:00Z",
+   "last_seen": "2026-01-14T12:42:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/c6708166e0a6bf3484200fd6dd1569d89e81c36ffd76ff2ab5820b06fd2d5b54/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

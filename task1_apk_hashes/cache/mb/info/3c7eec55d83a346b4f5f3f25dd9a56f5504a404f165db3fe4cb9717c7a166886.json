@@ -1,0 +1,130 @@
+{
+ "sha256_hash": "3c7eec55d83a346b4f5f3f25dd9a56f5504a404f165db3fe4cb9717c7a166886",
+ "sha3_384_hash": "ef9fe45e44b519b68f5cfb987e4e401f4dc7c2f31b2155c29ef0d62d7d3de2fb6a1d1075f8bf1abc101ba603963391ef",
+ "sha1_hash": "affc5b85e9f4207e3fc7b9f4e0efc673036a80bc",
+ "md5_hash": "c49f0aee218a72e7c3ec739b289cdfc1",
+ "first_seen": "2023-07-19 05:42:40",
+ "last_seen": null,
+ "file_name": "4K HD Wallpaper_3.8.apk",
+ "file_size": 5967460,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "500mk500",
+ "origin_country": "UA",
+ "anonymous": 0,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T1C656F0D7F7A8A92EC87350F68D6E5B72014B4C128A839B536D14730C68B7AD46F49FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:IL5PZO+uOdbQ2mTGtdlhygelQSDUvIe/EFYiztk9sY+r8htKvfDEGgQA5grh2Zr4:6QzkVmTGlZSYQe/YJ2WYO8hkvfDEGgQp",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "44.6% (.VYM) VYM Mind Map (12500/1/3)",
+  "37.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "14.2% (.ZIP) ZIP compressed archive (4000/1)",
+  "3.5% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "joker"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "228",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/ReBensk/status/1681538166787035137"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "Android Joker"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3c7eec55d83a346b4f5f3f25dd9a56f5504a404f165db3fe4cb9717c7a166886/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.05"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/3c7eec55d83a346b4f5f3f25dd9a56f5504a404f165db3fe4cb9717c7a166886",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "joker",
+   "score": "10",
+   "link": "https://tria.ge/reports/230719-gek1xaga38/",
+   "tags": [
+    "family:joker",
+    "android",
+    "evasion",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "joker",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "joker",
+     "c2": "https://adcbk.oss-eu-central-1.aliyuncs.com/af2"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2023-07-19 05:43:06",
+   "scanner_count": "25",
+   "scanner_match": "3",
+   "scanner_percent": "12.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.2",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/64b777e7fd9e198dc115fa38/reports/e5c4d280-9c4d-44a1-8418-dbe2824e054f/overview"
+  }
+ },
+ "comments": null
+}

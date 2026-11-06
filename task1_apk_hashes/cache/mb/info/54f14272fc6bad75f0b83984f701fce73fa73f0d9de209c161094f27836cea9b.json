@@ -1,0 +1,198 @@
+{
+ "sha256_hash": "54f14272fc6bad75f0b83984f701fce73fa73f0d9de209c161094f27836cea9b",
+ "sha3_384_hash": "2aa3ff2933e38279fb134851c4dba08d7e97bee306e35950d1020d8bb7c2d84c409bf1f4a443065f16a99f63b258c03e",
+ "sha1_hash": "1e32f602fa705b5f4df7775be28f1dd9d535e249",
+ "md5_hash": "aa266547b4b3d6df74492c8f145903f6",
+ "first_seen": "2026-07-29 06:06:17",
+ "last_seen": null,
+ "file_name": "54f14272fc6bad75f0b83984f701fce73fa73f0d9de209c161094f27836cea9b.apk",
+ "file_size": 10578489,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "Copybara",
+ "imphash": null,
+ "tlsh": "T10DB63365B3468B1AECB38F71AC20E766017E6D0D9FC302A75942B77C18BE4C44B56EE4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:puq1wWwPLCLH+QN4ut1eMSst4uE+Fm/IyBwybBpxjMjdHS2WKASDL5phdfRF:/1xwPmLH+luHeFVpImgyBwydpuSNS35t",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "37-148-161-44",
+  "apk",
+  "Copybara"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "219",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "html_auto_download_b64",
+   "author": "Tdawg",
+   "description": "html auto download",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "tico_android",
+   "author": "Alberto Segura",
+   "description": "Detects tico Android bots files",
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/54f14272fc6bad75f0b83984f701fce73fa73f0d9de209c161094f27836cea9b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "copybara",
+   "score": "10",
+   "link": "https://tria.ge/reports/260729-gtz4dahr6x/",
+   "tags": [
+    "family:copybara",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about the current Wi-Fi connection",
+     "score": "6"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation)",
+     "score": "5"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "copybara",
+     "c2": "37.148.161.44"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-03-20 11:07:32",
+   "scanner_count": "38",
+   "scanner_match": "5",
+   "scanner_percent": "13.16"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a69986dc6c6e0fff0e640c3/reports/430f0ffa-4b4b-420e-9c76-b556839db750/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-03-19T19:24:00Z",
+   "last_seen": "2026-07-30T19:43:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/54f14272fc6bad75f0b83984f701fce73fa73f0d9de209c161094f27836cea9b/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

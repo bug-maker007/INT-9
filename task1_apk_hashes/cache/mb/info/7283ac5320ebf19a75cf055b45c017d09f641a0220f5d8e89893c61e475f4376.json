@@ -1,0 +1,160 @@
+{
+ "sha256_hash": "7283ac5320ebf19a75cf055b45c017d09f641a0220f5d8e89893c61e475f4376",
+ "sha3_384_hash": "d110a62561f09c93bd27c14a6e51dc73ef081a44489d910c62c2ec37335100294f88d70c426405ddc156c1827002449a",
+ "sha1_hash": "a321a511039f3b0453e61d754e1f396e3eece97a",
+ "md5_hash": "be2f42710196eec75fba511da045fa92",
+ "first_seen": "2024-12-31 12:10:03",
+ "last_seen": "2024-12-31 12:12:47",
+ "file_name": "Magic Music Piano_5.4.apk",
+ "file_size": 18033007,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "500mk500",
+ "origin_country": "UA",
+ "anonymous": 0,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T13107126EE778FC2EC83AA771B6EA942DD00BCD40D756D6425104F17AECB798017883E6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:CQSPsPQ+wOZaGGlSjqxGNddbSrpay6h3e6Qw9oPabm9udfVvgrtH:CzPso+n89wjdNTF1h3e6ROaK9UfV4tH",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "42.8% (.APK) Android Package (27000/1/5)",
+  "21.4% (.JAR) Java Archive (13500/1/2)",
+  "16.6% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "12.6% (.XPI) Mozilla Firefox browser extension (8000/1/1)",
+  "6.3% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Joker",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2024-12-24T03:00:15Z",
+   "valid_to": "2054-12-24T03:00:15Z",
+   "serial_number": "f6b3ec0b0b798ea5aeba2b1d6d919b0634a5e3a5",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "2fbaf024e905e0a14d35a6b8e4da0afcdc7448e555b65e41782878e42e9d984e",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "272",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://x.com/ReBensk/status/1874061309656129563"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7283ac5320ebf19a75cf055b45c017d09f641a0220f5d8e89893c61e475f4376/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/7283ac5320ebf19a75cf055b45c017d09f641a0220f5d8e89893c61e475f4376",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/241231-pb2hgszkbx/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-12-31 12:11:07",
+   "scanner_count": "23",
+   "scanner_match": "4",
+   "scanner_percent": "17.39"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6773df572246515fb5845b20/reports/4c298330-a637-4919-8d5b-d33a02dddf2a/overview"
+  }
+ },
+ "comments": null
+}

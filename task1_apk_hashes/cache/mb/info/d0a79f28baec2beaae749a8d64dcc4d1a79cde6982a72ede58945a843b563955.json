@@ -1,0 +1,167 @@
+{
+ "sha256_hash": "d0a79f28baec2beaae749a8d64dcc4d1a79cde6982a72ede58945a843b563955",
+ "sha3_384_hash": "5957d47f4effbec630e2ac254197841184d7af7b53099b5c3d45e273d2c24bc90eb6114e19c338b6b92b785206fa714a",
+ "sha1_hash": "94fdeac415bbf2ca06ad7564c2a233a68d7173be",
+ "md5_hash": "807d03df013700eeac61f79dc371dff1",
+ "first_seen": "2026-03-15 06:06:36",
+ "last_seen": null,
+ "file_name": "spotify.apk",
+ "file_size": 2262066,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1D3A5330D4D6A652FF57F68B6D420E9CF0A3742825CDE80E58F0EF4A43947A0DBBC5299",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:wf2/GbWHW2RfhUsdO6IsU04Z7ORUsfLkJWcTBg+6JQ:m2+SW2PdBUMRUWL8xT8O",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "riskware",
+  "signed",
+  "Spotify",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Oblivion",
+   "issuer_cn": "Oblivion",
+   "algorithm": "sha384WithRSAEncryption",
+   "valid_from": "2026-01-23T18:53:42Z",
+   "valid_to": "2036-01-21T18:53:42Z",
+   "serial_number": "fb04b2b30d552723",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "5e3154b06143e7c91959366857b1fb64eae1003f0c352d48af9a89f3466c4332",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.1080.origin.16963.7421.UNOFFICIAL"
+  ],
+  "downloads": "291",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "html_auto_download_b64",
+   "author": "Tdawg",
+   "description": "html auto download",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d0a79f28baec2beaae749a8d64dcc4d1a79cde6982a72ede58945a843b563955/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/d0a79f28baec2beaae749a8d64dcc4d1a79cde6982a72ede58945a843b563955",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260315-gvettscv2x/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Declares services with permission to bind to the system",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Requests dangerous framework permissions",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Banbra",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-03-13 12:45:06",
+   "scanner_count": "21",
+   "scanner_match": "5",
+   "scanner_percent": "23.81"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69b64c92493cb7d62dfdb751/reports/1cdf5c13-4c85-407b-8bdb-8fe1bbb07df3/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/d0a79f28baec2beaae749a8d64dcc4d1a79cde6982a72ede58945a843b563955/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,98 @@
+{
+ "sha256_hash": "b88e7421bc61f4ce20c0694418fc97c1e77cfd3f2053857f87cc47512a55c3d3",
+ "sha3_384_hash": "4f0e35f4ce18c40d344e2ef29d922d67d8199b7880dab3cf6e9dbace76f299e00fdeec52477d8c0fb7340c6398a122a5",
+ "sha1_hash": "f47ee24af407de1019e8605ad8f111732305fa5e",
+ "md5_hash": "7823e56b4b1631ef52bbd5b95c186554",
+ "first_seen": "2021-08-02 12:03:01",
+ "last_seen": null,
+ "file_name": "b88e7421bc61f4ce20c0694418fc97c1e77cfd3f2053857f87cc47512a55c3d3.apk",
+ "file_size": 4542834,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "alberto__segura",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "TeaBot",
+ "imphash": null,
+ "tlsh": "T1E22633D9925BD84DC17B8235412B2DDB2B07ED9C5D4B502D8AA7209D10E7EC8CB29CFB",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:7vNrfTch74luHqnwV6vNQV5EGArGY4fBl7ZbfUZIOp6Py5df:7vNrfghUluKnRvKV5bk0B1ZAPhf",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": "Downloaded from a #Flubot C2 as reponse of GET_SMS command (Smishing tasks)..\r\nFlubot is being used to spread NotFlubot/Teabot..",
+ "archive_pw": null,
+ "tags": [
+  "Anatsa",
+  "apk",
+  "NotFlubot",
+  "Teabot",
+  "Toddler"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "425",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b88e7421bc61f4ce20c0694418fc97c1e77cfd3f2053857f87cc47512a55c3d3/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/b88e7421bc61f4ce20c0694418fc97c1e77cfd3f2053857f87cc47512a55c3d3",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "teabot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210802-x3ek63wlan/",
+   "tags": [
+    "family:teabot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "TeaBot",
+     "score": "10"
+    },
+    {
+     "signature": "TeaBot Payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2021-08-02 12:03:09",
+   "scanner_count": "28",
+   "scanner_match": "9",
+   "scanner_percent": "32.14"
+  }
+ },
+ "comments": null
+}

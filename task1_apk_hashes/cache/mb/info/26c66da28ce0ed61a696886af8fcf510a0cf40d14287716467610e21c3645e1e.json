@@ -1,0 +1,151 @@
+{
+ "sha256_hash": "26c66da28ce0ed61a696886af8fcf510a0cf40d14287716467610e21c3645e1e",
+ "sha3_384_hash": "6b2657b5f62e2b1a4e33522fb4939b5662a2566bb670ba6975be564330c98d9158e08ca60bbf32527c4264445275922e",
+ "sha1_hash": "f8ac7955bfdf8f3303cea5a46fdcb359e7a36047",
+ "md5_hash": "f808f8871b6360e6a1a28e641adbbc27",
+ "first_seen": "2024-06-27 00:41:12",
+ "last_seen": null,
+ "file_name": "app.apk",
+ "file_size": 2931980,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T170D52347F6A6985EC8F2C33222352675513B5D308B47F78A390473B968FB8EC0B85B95",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:sfngviGN7xmC8LQqVDVmRErDKv+NH/W1xvidHS+xLMwOMqFO3ue1B0BQHff5JxvA:sfng6C0C8LQq/rDKvgHMOHZxLC/83TA/",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Obfuscapk",
+   "issuer_cn": "Obfuscapk",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2019-08-15T18:58:38Z",
+   "valid_to": "2049-08-07T18:58:38Z",
+   "serial_number": "5f122eb3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "ed1399b288d3aac9ef9d43fcd9fbf90c7662b3ed0050b08f3c2988d24a8a42c9",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.FileRepMalware.14778.11697.UNOFFICIAL"
+  ],
+  "downloads": "406",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/26c66da28ce0ed61a696886af8fcf510a0cf40d14287716467610e21c3645e1e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/26c66da28ce0ed61a696886af8fcf510a0cf40d14287716467610e21c3645e1e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240627-a2b8ystalg/",
+   "tags": [
+    "family:irata",
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-06-27 00:42:06",
+   "scanner_count": "24",
+   "scanner_match": "7",
+   "scanner_percent": "29.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/667cb55c910ec47e855b2954/reports/16bfe2f9-dfd9-4eb6-9ae8-dd67a2742a11/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,178 @@
+{
+ "sha256_hash": "92f266049123285fff5354ba7e01185cbcbf20a8e9d38e1b0fa003a8b9050e26",
+ "sha3_384_hash": "f3c4d7831da518bddb5ecc48dc9f5c97c7aa251d0752b7e73f17e4fb232f3bccf2c554f1186c07f4e7bfb3478b71298a",
+ "sha1_hash": "b6861159d4f9d821ee590e5407a958041ee027de",
+ "md5_hash": "a54ffbdd08f8b8985e272522cd0460d2",
+ "first_seen": "2025-05-31 08:03:14",
+ "last_seen": "2025-05-31 08:03:59",
+ "file_name": "Chat Messages_1.3.2.apk",
+ "file_size": 25660716,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "BD",
+ "anonymous": 1,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T1AA47128AF72CEB2EC83A8072CDA59136714A5D52898297F375047B0879F35E18F85BCD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:PWNSYRdnPqFbWFk6s4gLFqkekcngE5sGN5uvfpECiLfiLt7DCkHC:PWNv+bd7BqIwawuBniLfwRDji",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "54.5% (.APK) Android Package (27000/1/5)",
+  "21.2% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "16.1% (.WIDGET) Konfabulator widget (8000/1/2)",
+  "8.0% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "joker",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "149",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://play.google.com/store/apps/details?id=com.sacjuly.chatmessages.smsapp"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/92f266049123285fff5354ba7e01185cbcbf20a8e9d38e1b0fa003a8b9050e26",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/250531-lr81qadj3y/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation)",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-05-19 03:19:25",
+   "scanner_count": "24",
+   "scanner_match": "2",
+   "scanner_percent": "8.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/683acfebfd02ed5e059186e5/reports/ffff79e6-0645-4a9c-9d15-8960339743fe/overview"
+  }
+ },
+ "comments": null
+}

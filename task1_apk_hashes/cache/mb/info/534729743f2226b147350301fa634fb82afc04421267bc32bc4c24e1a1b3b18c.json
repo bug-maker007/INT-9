@@ -1,0 +1,156 @@
+{
+ "sha256_hash": "534729743f2226b147350301fa634fb82afc04421267bc32bc4c24e1a1b3b18c",
+ "sha3_384_hash": "12d4d0fa02c4343d1fc7c80664d43565aabd41489e259f1c08df16ce5f2a72298b2bf58e25c4352902321246ad37260d",
+ "sha1_hash": "04cd24b8b9ece639d4ced8d8a3e37d60765c8983",
+ "md5_hash": "821b5d030082efa1dad1301741feaa91",
+ "first_seen": "2025-04-02 16:17:59",
+ "last_seen": null,
+ "file_name": "Interbank.Seguridad (1).apk",
+ "file_size": 8986343,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "US",
+ "anonymous": 1,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T14D9633A6F4C0C613C56FA7321E2A4EB01A572D6A0DE46A0B8166F75E483F7B44F134F6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:h6SqlptZDnKOr8IQURtXfBNsrPIsIxWdShl+NfLmQ:USqlp3DXPlfjs7/g+Shls",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": "spynote, soymax",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SpyNote"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.PUA.Packed.AndroidOS.Jiagu-6.UNOFFICIAL"
+  ],
+  "downloads": "130",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "elf_arm_mips_ko_so",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseapps2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise apps",
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseunix2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise UNIX",
+   "reference": null
+  },
+  {
+   "rule_name": "F01_s1ckrule",
+   "author": "s1ckb017",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "ldpreload",
+   "author": "xorseed",
+   "description": null,
+   "reference": "https://stuff.rop.io/"
+  },
+  {
+   "rule_name": "meth_stackstrings",
+   "author": "Willi Ballenthin",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/534729743f2226b147350301fa634fb82afc04421267bc32bc4c24e1a1b3b18c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/534729743f2226b147350301fa634fb82afc04421267bc32bc4c24e1a1b3b18c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250402-trz2tazvaw/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-04-02 16:18:16",
+   "scanner_count": "24",
+   "scanner_match": "11",
+   "scanner_percent": "45.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/67ed634609c39f5498b7d19f/reports//overview"
+  }
+ },
+ "comments": null
+}

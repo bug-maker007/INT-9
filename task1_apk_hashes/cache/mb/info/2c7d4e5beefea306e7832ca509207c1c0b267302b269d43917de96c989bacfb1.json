@@ -1,0 +1,223 @@
+{
+ "sha256_hash": "2c7d4e5beefea306e7832ca509207c1c0b267302b269d43917de96c989bacfb1",
+ "sha3_384_hash": "3ea4b28e12d139002883594fb4078c036b8f0a7ecb99781925550ea334a02edc1eb8285c03f9d3d389b14c6c14c11af6",
+ "sha1_hash": "0a6de3db773583278f563811991e80fe1353fcda",
+ "md5_hash": "ddc6700c60fc3d10164dd8791569f535",
+ "first_seen": "2024-08-06 12:32:03",
+ "last_seen": null,
+ "file_name": "chrome.apk",
+ "file_size": 4455521,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "Hook",
+ "imphash": null,
+ "tlsh": "T1F6261241F7C9A91EE8F383398B358AEA81065D568B13D3DB4921733C1CBB5C44F94BA9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:hJIZzNSqJwSMDSGinjmVVhPKcwvH9mCn+Jpe4yIOJDy7:hJENSq/MDqnjYivH992jyIt7",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hook",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Malware.ANDROID.Dropper.FSRH.Gen.22260.11784.UNOFFICIAL"
+  ],
+  "downloads": "398",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "adonunix2",
+   "author": "Tim Brown @timb_machine",
+   "description": "AD on UNIX",
+   "reference": null
+  },
+  {
+   "rule_name": "Warp",
+   "author": "Seth Hardy",
+   "description": "Warp",
+   "reference": null
+  },
+  {
+   "rule_name": "WarpStrings",
+   "author": "Seth Hardy",
+   "description": "Warp Identifying Strings",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2c7d4e5beefea306e7832ca509207c1c0b267302b269d43917de96c989bacfb1/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/2c7d4e5beefea306e7832ca509207c1c0b267302b269d43917de96c989bacfb1",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hook",
+   "score": "10",
+   "link": "https://tria.ge/reports/240806-pq62hsyhmj/",
+   "tags": [
+    "family:hook",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hook",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about the current Wi-Fi connection",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests accessing notifications (often used to intercept notifications before users become aware).",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hook",
+     "c2": "http://193.3.19.40"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.PUA.Maltiverza",
+   "status": "MALICIOUS",
+   "first_seen": "2024-08-06 01:06:02",
+   "scanner_count": "24",
+   "scanner_match": "8",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/66b2180299ea8891b191e048/reports/a8835f28-c441-4ba9-9d74-9f547b3523a8/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,141 @@
+{
+ "sha256_hash": "6f1eb9c21b026eecfd65459ec4cffe3954d24619010741e18722108d7bacf3d1",
+ "sha3_384_hash": "2ed9218e71d89d2d4c0b4ad638560d06d8173d591c330be6c7ff663db3f73943c21e684f853ca232bee035d64a7154f7",
+ "sha1_hash": "e511c4d99bfe0f8b47c32ea0c88b9d1024fbbd61",
+ "md5_hash": "cfe82625d3db2378994554ef7a2eba2b",
+ "first_seen": "2022-11-24 08:03:31",
+ "last_seen": null,
+ "file_name": "SharkBot (15).apk",
+ "file_size": 15656692,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "SharkBot",
+ "imphash": null,
+ "tlsh": "T1E5F6238BFB98C51FD9335532C927453372A31E142492ABB72311F32819B7D429F66BCA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:RPI3MBmacX7X52NWdXJq2TN51XIwUpObrfum7X9:RPIiqgY5xSOLX9",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "43.7% (.APK) Android Package (38500/1/9)",
+  "15.3% (.JAR) Java Archive (13500/1/2)",
+  "14.2% (.VYM) VYM Mind Map (12500/1/3)",
+  "11.9% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "9.0% (.XPI) Mozilla Firefox browser extension (8000/1/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SharkBot",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2022-06-27T12:59:14Z",
+   "valid_to": "2052-06-27T12:59:14Z",
+   "serial_number": "682e8d43aca3680ff9e93927d8a4c5c599a9206e",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "4dba80c62b7cc769c1b687513abb00267e832ba509761eb3037e7b5c8ba02c7c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.DownLoader.1095.origin.20886.4358.UNOFFICIAL"
+  ],
+  "downloads": "351",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/6f1eb9c21b026eecfd65459ec4cffe3954d24619010741e18722108d7bacf3d1/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/6f1eb9c21b026eecfd65459ec4cffe3954d24619010741e18722108d7bacf3d1",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/221124-jybmpaad66/",
+   "tags": [
+    "android",
+    "evasion",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2022-11-22 03:46:47",
+   "scanner_count": "26",
+   "scanner_match": "8",
+   "scanner_percent": "30.77"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/637f257b69830678d715f8f8/reports/30254716-027f-43e0-a201-3758e0081ae5/overview"
+  }
+ },
+ "comments": null
+}

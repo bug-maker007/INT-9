@@ -1,0 +1,144 @@
+{
+ "sha256_hash": "787f1c9b01e65e295f94f2186c3a3890632ea9f4ea14964161e314f3bd8e8af5",
+ "sha3_384_hash": "49d74e1cfe08177127e00352d31c5548304c415adaff3e07a171691153b5d099ce70a5a0f7e0ff4e856b0e78d94b41d8",
+ "sha1_hash": "7112b651a79882b0a2cd14d63a5fc4f8568c8503",
+ "md5_hash": "d6a2e2023550f961b19fe1e1b20dc25f",
+ "first_seen": "2025-03-25 10:54:00",
+ "last_seen": null,
+ "file_name": "Kitsune Magisk ROOT.apk",
+ "file_size": 778690,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T196F47C86FB4AB863C9F3D6368675C6AED6460C544B03D7431A85B23C1DB7AC08B59FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:DF5nFa1a8LzeJ5JAjLUK5WmpYshXZPbGwidNpglS:DNa1ameJMjLUK5WmD9idNpf",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "SpyNote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Benim ismim",
+   "issuer_cn": "Benim ismim",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2017-10-17T16:35:54Z",
+   "valid_to": "2045-03-03T16:35:54Z",
+   "serial_number": "84d0fd4c97dce8b8",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "bf7dcca87a4b2ef5c91d7eca38101bb8d0e2e91d849dae4e8213372065846930",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Backdoor.791.origin.21864.12548.UNOFFICIAL"
+  ],
+  "downloads": "6243",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/787f1c9b01e65e295f94f2186c3a3890632ea9f4ea14964161e314f3bd8e8af5/"
+  },
+  "YOROI_YOMI": {
+   "detection": "SpyNote",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/787f1c9b01e65e295f94f2186c3a3890632ea9f4ea14964161e314f3bd8e8af5",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250325-mzpsgsvvfx/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "banker",
+    "defense_evasion",
+    "discovery",
+    "impact",
+    "persistence",
+    "privilege_escalation"
+   ],
+   "signatures": [
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "6"
+    },
+    {
+     "signature": "Tries to add a device administrator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "activities-summit.gl.at.ply.gg:45209"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-03-24 18:24:01",
+   "scanner_count": "23",
+   "scanner_match": "15",
+   "scanner_percent": "65.22"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67e28b603e6805386cfff84f/reports/4aafcb64-1326-4041-abd9-f7b4516964eb/overview"
+  }
+ },
+ "comments": null
+}

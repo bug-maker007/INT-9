@@ -1,0 +1,109 @@
+{
+ "sha256_hash": "102508ca812d1c70e1ce8cb1c28ff5ef4b14716341ed6813f03cf84330cb76f1",
+ "sha3_384_hash": "f3eee0c2883f7dbac720aa77ea3332eb8eba92762f44db23c128d4363205b7a366ebfb3b1cdcee8abd065c1c7a496ce5",
+ "sha1_hash": "b49489c238f0126a1ac0f78ac7752f3e185787bc",
+ "md5_hash": "1cf421285b8999a9bf72dabe19d67027",
+ "first_seen": "2021-10-14 20:40:58",
+ "last_seen": null,
+ "file_name": "Porno_Izle.apk",
+ "file_size": 2775135,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T130D522CA4B42FC76C5B54931A34330A379B41B10B6B6E57B86727931BFA7A20C50DEB4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:nYgunFOFYVuZumJS8kXI6dkX1vvWurD6giDCg/OL6SRQc9Q0gGy1:YgweYVmnYLI6Q3/rmgiB22SR/5gGy1",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "388",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "anubis",
+   "link": "https://mwdb.cert.pl/sample/102508ca812d1c70e1ce8cb1c28ff5ef4b14716341ed6813f03cf84330cb76f1/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/102508ca812d1c70e1ce8cb1c28ff5ef4b14716341ed6813f03cf84330cb76f1",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/211014-zge7jsacd3/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://161.97.187.209"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Cebruser",
+   "status": "MALICIOUS",
+   "first_seen": "2021-10-14 20:41:07",
+   "scanner_count": "45",
+   "scanner_match": "9",
+   "scanner_percent": "20.00"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/616895e2fd35fe780c40f898/reports/e63fa4ca-4eac-496b-a0e5-03c69e4aa010/overview"
+  }
+ },
+ "comments": null
+}

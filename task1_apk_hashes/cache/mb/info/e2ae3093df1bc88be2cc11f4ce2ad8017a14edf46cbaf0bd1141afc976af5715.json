@@ -1,0 +1,111 @@
+{
+ "sha256_hash": "e2ae3093df1bc88be2cc11f4ce2ad8017a14edf46cbaf0bd1141afc976af5715",
+ "sha3_384_hash": "8f7c2ead7872451aac3d6938d149fe53be9c7879f989fee7c3c041e762b2b3dc46def19e285d21f59f2f5824ef77638d",
+ "sha1_hash": "a497676af43702e825d240435a20f3da0b37c1f1",
+ "md5_hash": "911b816269d6fe93bbce7ea74b7b801b",
+ "first_seen": "2025-04-27 15:45:45",
+ "last_seen": "2025-04-27 15:50:35",
+ "file_name": "E-Challan.apk",
+ "file_size": 4421640,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "theb47m4n",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T17C26024BFB05CA1FC8FA83B74932667552076C1986A3C35BD9ACB17C287B5D08EC5AC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:WyDGiRrATeouptVrDusvsR6TEilwLUKkrCGFhM:Wgm6oupjrNvYak",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": "Distributed via phishing website or mobile forward.",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SpyNote",
+  "trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.PUA.Android.JPush-1.UNOFFICIAL"
+  ],
+  "downloads": "4277",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e2ae3093df1bc88be2cc11f4ce2ad8017a14edf46cbaf0bd1141afc976af5715/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250427-wkv6dszjx3/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "31.13.224.176:1338"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-04-27 17:59:26",
+   "scanner_count": "24",
+   "scanner_match": "10",
+   "scanner_percent": "41.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/680e707a218c4a98ade404cb/reports/886e535a-032b-4a01-b291-f6270f3ce2b7/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,93 @@
+{
+ "sha256_hash": "1236be7fd1385b2543205404d96f37bded28a626d27d1e0a1dd4c570ef6dd2ad",
+ "sha3_384_hash": "39301c063c6c1babcce7d28d3465b61aac62eaa5b190a14edef6c21fd35662f605d3c75ea21400ab95bc8d5a46803f25",
+ "sha1_hash": "c0f961ba8df77cfe6848b6679b94f398bf2e5053",
+ "md5_hash": "c86f20dc93c1d5427ae149ce89e764d2",
+ "first_seen": "2021-08-29 19:10:14",
+ "last_seen": "2021-08-29 19:10:14",
+ "file_name": "build_release4.apk",
+ "file_size": 319166,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1D16422C0474116E4EAA3F07089A497778A69C8107FFDD2EB691A0124CC6F7AD4F12FB9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:x19xxvzXZYfrhtyjHpj1V6HGdVDse3U0ls6yiAZ4oFT8A9K9LhRFYwbOh4hZm:Rxxv5jHRSmdJse3UiBgTR9K9LnFYwb8/",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "alienbot",
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.745.origin.30745.23168.UNOFFICIAL"
+  ],
+  "downloads": "316",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1236be7fd1385b2543205404d96f37bded28a626d27d1e0a1dd4c570ef6dd2ad/"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/1236be7fd1385b2543205404d96f37bded28a626d27d1e0a1dd4c570ef6dd2ad",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210829-qpfxs8npms/",
+   "tags": [
+    "android",
+    "obfuscation"
+   ],
+   "signatures": [
+    {
+     "signature": "Reads name of network operator",
+     "score": "6"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-29 19:11:05",
+   "scanner_count": "45",
+   "scanner_match": "15",
+   "scanner_percent": "33.33"
+  }
+ },
+ "comments": null
+}

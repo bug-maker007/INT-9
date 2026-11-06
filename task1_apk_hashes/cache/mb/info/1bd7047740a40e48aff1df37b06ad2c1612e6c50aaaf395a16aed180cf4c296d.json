@@ -1,0 +1,99 @@
+{
+ "sha256_hash": "1bd7047740a40e48aff1df37b06ad2c1612e6c50aaaf395a16aed180cf4c296d",
+ "sha3_384_hash": "c5cd0e8ca620b2da47cf200a84894fcf856ee371845eff3986394af3bdecc24ade2f7887f1958903f73764d58f6aec2a",
+ "sha1_hash": "dea48c075a142152ac9647552db072a5d01c98e2",
+ "md5_hash": "08e1decd362e9cd559fbf18fe30aaf38",
+ "first_seen": "2026-10-05 13:07:38",
+ "last_seen": null,
+ "file_name": "Stone Maquininha.apk",
+ "file_size": 11112932,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "z3r3n0x",
+ "origin_country": "BR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1C6B63319F42E9C15EAA5313C7F09125738363CADA320C122A636833AFFD77D6D95A361",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:SH/kojPiTlxIC9aT5BsNLGomV6HXwou6cR0SLLJFcyvpqEM2T/WDsGv:sM5pxX9aTTsNqoT/ty0O7hPXT/AsGv",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.Coper.7.origin.31907.29841.UNOFFICIAL"
+  ],
+  "downloads": "230",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "SUSP_ZIP_Smuggling_Jun01",
+   "author": "delivr.to",
+   "description": "ZIP archives with data smuggled between last file record and the central directory.",
+   "reference": "https://github.com/Octoberfest7/zip_smuggling/"
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1bd7047740a40e48aff1df37b06ad2c1612e6c50aaaf395a16aed180cf4c296d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/261005-qdam8awx4k/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-09-23 05:19:12",
+   "scanner_count": "38",
+   "scanner_match": "7",
+   "scanner_percent": "18.42"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6ac3a13db242df12a78e32b1/reports/5ab2567a-7ae7-4eec-b435-466de134e3af/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-23T00:28:00Z",
+   "last_seen": "2026-10-06T19:47:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/1bd7047740a40e48aff1df37b06ad2c1612e6c50aaaf395a16aed180cf4c296d/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

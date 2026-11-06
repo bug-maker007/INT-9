@@ -1,0 +1,97 @@
+{
+ "sha256_hash": "fe9cfc5046c583a7b28fa506cd33e636d27310b14240247625c693444a27336f",
+ "sha3_384_hash": "6c389923e8c4b71de8e992182b5ac45f15ebb7e960fe0e7583c735f260466258400a0659f87f498121bcc1faa70029cb",
+ "sha1_hash": "3555274dae63d29a66a68211ba6244b34ccab1c4",
+ "md5_hash": "4076db4387eb8ddf8f2010e3db8c8b07",
+ "first_seen": "2021-11-18 13:35:27",
+ "last_seen": null,
+ "file_name": "psk.apk",
+ "file_size": 9009525,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T1A19633BBFF2C9909DF676170DA0761C2246F1E29095AE61B3D47322D4B336E2571B8B0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:kdlyQ4ap+OBepYoTxcInPkP1J9G52iLy/b5cCTIgvwtIbvxl3:kdkQ4aIhxcIPUBxRb5c3gMIVF",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra",
+  "torhydra"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "229",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/fe9cfc5046c583a7b28fa506cd33e636d27310b14240247625c693444a27336f/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/fe9cfc5046c583a7b28fa506cd33e636d27310b14240247625c693444a27336f",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/211118-qv874sgcd4/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Hydra Payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Bian",
+   "status": "MALICIOUS",
+   "first_seen": "2021-11-17 20:56:00",
+   "scanner_count": "28",
+   "scanner_match": "8",
+   "scanner_percent": "28.57"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/619656c34912a8c920a29930/reports/cb507048-68d3-4baa-96d8-1f930f67fd16/overview"
+  }
+ },
+ "comments": null
+}

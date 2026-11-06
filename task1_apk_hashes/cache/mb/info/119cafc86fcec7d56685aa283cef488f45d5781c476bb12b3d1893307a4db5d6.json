@@ -1,0 +1,112 @@
+{
+ "sha256_hash": "119cafc86fcec7d56685aa283cef488f45d5781c476bb12b3d1893307a4db5d6",
+ "sha3_384_hash": "7a94cf9a15a629ac9653d16af819f8d70f7b1bb5a51210d5f9d6e7b21bff2c59dae9d42f7f06a12763b54d7cae52f9ff",
+ "sha1_hash": "8642fb93b62fa7bffbc90b0297a63830383f0b0e",
+ "md5_hash": "fbf090a4afaccec57fb82c75277ce2aa",
+ "first_seen": "2025-04-01 16:06:12",
+ "last_seen": null,
+ "file_name": "Interbank-Seguridad.apk",
+ "file_size": 9415933,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "US",
+ "anonymous": 1,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T196962386E741A62FC0FAC3794837A66451076C0586A3C797D12CB63C69BF7E08F85EE4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:V6Sq064P48EwpWf34nGixiDKqlVFCDzov36b41PZaDPtoZ1RkKdqsL0aJ:gSq064Rk34IDtCDUv3S41P0D+R7wMJ",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SpyNote"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.PUA.Packed.AndroidOS.Jiagu-6.UNOFFICIAL"
+  ],
+  "downloads": "183",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/119cafc86fcec7d56685aa283cef488f45d5781c476bb12b3d1893307a4db5d6/"
+  },
+  "YOROI_YOMI": {
+   "detection": "SpyNote",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/119cafc86fcec7d56685aa283cef488f45d5781c476bb12b3d1893307a4db5d6",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250401-tkm4nstrt3/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "execution",
+    "persistence"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-04-01 16:10:09",
+   "scanner_count": "24",
+   "scanner_match": "13",
+   "scanner_percent": "54.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67ec0f386a150b67eec9f50d/reports/c6ac343f-5689-4868-860d-d6e88d8bc99a/overview"
+  }
+ },
+ "comments": [
+  {
+   "id": "102122",
+   "date_added": "2025-04-01 16:06:47",
+   "twitter_handle": null,
+   "display_name": null,
+   "comment": "spymax, spynote"
+  }
+ ]
+}

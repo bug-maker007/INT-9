@@ -1,0 +1,135 @@
+{
+ "sha256_hash": "a59ceb42de98795df657e636aec45ded7208f689fffc1d228dce941d95750423",
+ "sha3_384_hash": "44837aff9a039958c1441e08906a45ccc3af90bf34868b10398bc7000c446caba49bd9ea115ad7b4bc355e42419d9598",
+ "sha1_hash": "f1e38903b74446d373edb46cdb7be92fff596f23",
+ "md5_hash": "97fd71c9f7845bc9712d0101a5a52e91",
+ "first_seen": "2023-10-18 18:29:09",
+ "last_seen": null,
+ "file_name": "GBWhatsApp_New.apk",
+ "file_size": 70445177,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "D4RKH4RS377",
+ "origin_country": "SE",
+ "anonymous": 0,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T139F723E3E35AFC69C263E539D7249057FE380DA85614F2171902F258EEB3E10E149BAD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:bnX0H5Kq1PY/cMmRpqmr6YZZW+jGCjrXS0jkfcFpk0QM:bkH5Kq1oaRpqm2YZZWrGXNccc0z",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "31.7% (.APK) Android Package (32500/1/6)",
+  "20.9% (.OXT) OpenOffice Extension (21500/1/3)",
+  "13.1% (.JAR) Java Archive (13500/1/2)",
+  "12.1% (.VYM) VYM Mind Map (12500/1/3)",
+  "10.2% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)"
+ ],
+ "comment": "Performed Malware Analysis on this file. Looks like the file is using a Trojan to perform SMS Fraud.",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Joker",
+  "signed",
+  "SMS Fraud"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "android",
+   "issuer_cn": "android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2023-07-04T04:15:14Z",
+   "valid_to": "2050-11-19T04:15:14Z",
+   "serial_number": "3481ea12",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "6e8b4b6d282866a65b97edd30f16cb533e214bcd237869abb7fd02539b9673b3",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "282",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://medium.com/@brotheralameen/malware-analysis-of-gbwhatsapp-21e4b70c7bb2"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "adonunix2",
+   "author": "Tim Brown @timb_machine",
+   "description": "AD on UNIX",
+   "reference": null
+  },
+  {
+   "rule_name": "BitcoinAddress",
+   "author": "Didier Stevens (@DidierStevens)",
+   "description": "Contains a valid Bitcoin address",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/a59ceb42de98795df657e636aec45ded7208f689fffc1d228dce941d95750423",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/231018-w5g49she9z/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2023-07-05 17:29:26",
+   "scanner_count": "38",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65302433ba877ae55910ff6a/reports/c4f94631-1aa5-4ec3-aba6-95ee7787c12f/overview"
+  }
+ },
+ "comments": [
+  {
+   "id": "80956",
+   "date_added": "2023-10-18 18:47:14",
+   "twitter_handle": "D4RKH4RS377",
+   "display_name": null,
+   "comment": "Site where this malware is downloaded from: https://gbapps.net/gbwhatsapp-apk-dl/"
+  },
+  {
+   "id": "81568",
+   "date_added": "2023-11-06 20:11:35",
+   "twitter_handle": "D4RKH4RS377",
+   "display_name": null,
+   "comment": "https://securedstatus.com/do-not-install-gbwhatsapp/?fbclid=IwAR0xpJLOq1dtWoL0v1rs88MCejTyKMOCD8hr8gobsiGzRxDiLeTRKa_aDBg"
+  }
+ ]
+}

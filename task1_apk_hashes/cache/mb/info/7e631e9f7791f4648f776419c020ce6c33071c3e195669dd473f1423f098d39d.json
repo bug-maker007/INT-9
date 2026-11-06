@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "7e631e9f7791f4648f776419c020ce6c33071c3e195669dd473f1423f098d39d",
+ "sha3_384_hash": "edf88662ca696669816d2d636c34b97f278d0b116b8afe1aa2c26ebd4867b75f383a0b36fb181bde6a5c9d2f92006b42",
+ "sha1_hash": "54d6b43cba7ef2f0884684a59802f51f635adb3e",
+ "md5_hash": "658f7bb49be0fb6f84dc7987ba8c74b9",
+ "first_seen": "2026-05-08 09:43:57",
+ "last_seen": null,
+ "file_name": "Axis Mobile (1).apk",
+ "file_size": 17757769,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1F007CD23F5056996CED6A135F5E357A132341E480793A22D271FF026FEF21CEC666AC2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:Aka6brPO6fIL3ZkUClBpXPwdCVcA80QH/0fmgZqvwmrn5u8JpQqRnl54+hrFMhnk:na6brPzfHljfwdCVM0ATHj5zpZnz72OX",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Axis",
+  "Bank",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "230",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Jeevan_Malware_Rewards",
+   "author": "ShriTiger",
+   "description": "Detects JeevanReward variants using Technical, Anti-Analysis, and Indian SE keywords",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7e631e9f7791f4648f776419c020ce6c33071c3e195669dd473f1423f098d39d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/7e631e9f7791f4648f776419c020ce6c33071c3e195669dd473f1423f098d39d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-ltn4bsaw2k/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-08 09:46:00",
+   "scanner_count": "38",
+   "scanner_match": "5",
+   "scanner_percent": "13.16"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/69fdb08f2fcb905ec2880ee6/reports//overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-08T07:24:00Z",
+   "last_seen": "2026-05-08T16:50:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/7e631e9f7791f4648f776419c020ce6c33071c3e195669dd473f1423f098d39d/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

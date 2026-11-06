@@ -1,0 +1,197 @@
+{
+ "sha256_hash": "d472e114361dd2c6ebafb60daa72ba2db09752de5b243538f0fee18410ad6a25",
+ "sha3_384_hash": "cfb754540be21ab200d35cef33f9e0e6c582abfbe905bd9d548fdeba09ea98f2ee19171286b24ba519e48ffe6a83fdc6",
+ "sha1_hash": "7724f6e036fd314615392d2c0963c5210747edcb",
+ "md5_hash": "d38d3c4c6cf760ab22b11db3449dd547",
+ "first_seen": "2026-07-02 22:38:22",
+ "last_seen": null,
+ "file_name": "data.apk",
+ "file_size": 13438312,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T10ED61287F798A92BC8F79332567A562251474C068F43D7C76948B37C28BB9D01F89BC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:r2IASeU636XGM4BkAf2pWi28YJjJzfq9VBs3H9dZxP0Wfes/xl8xCGG5+tklsFyF:r2pUdGiN2rtEUHZtpesZOxGpsF8KII6",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Spynote"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "409",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Android_ElectricityBill_Miner_APK",
+   "author": "ShriyaTiger",
+   "description": "Detects Electricity Bill themed Android malware and Miner.apk payload",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "Jeevan_Malware_Rewards",
+   "author": "ShriTiger",
+   "description": "Detects JeevanReward variants using Technical, Anti-Analysis, and Indian SE keywords",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d472e114361dd2c6ebafb60daa72ba2db09752de5b243538f0fee18410ad6a25/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "ghostbat",
+   "score": "10",
+   "link": "https://tria.ge/reports/260702-2km3nscx2m/",
+   "tags": [
+    "family:ghostbat",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Family: GhostBat",
+     "score": "10"
+    },
+    {
+     "signature": "GhostBat RAT payload",
+     "score": "10"
+    },
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Reads the content of the SMS messages.",
+     "score": "7"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.AVerseFalc",
+   "status": "MALICIOUS",
+   "first_seen": "2026-07-02 22:39:36",
+   "scanner_count": "24",
+   "scanner_match": "7",
+   "scanner_percent": "29.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a46e8688d397b532adfbe35/reports/2ce8773e-6c53-4f2c-80db-7d92de280e68/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-02T21:48:00Z",
+   "last_seen": "2026-07-04T17:06:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/d472e114361dd2c6ebafb60daa72ba2db09752de5b243538f0fee18410ad6a25/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

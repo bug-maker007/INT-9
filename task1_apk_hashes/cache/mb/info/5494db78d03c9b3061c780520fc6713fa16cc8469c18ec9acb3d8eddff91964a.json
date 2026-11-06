@@ -1,0 +1,130 @@
+{
+ "sha256_hash": "5494db78d03c9b3061c780520fc6713fa16cc8469c18ec9acb3d8eddff91964a",
+ "sha3_384_hash": "f46af378f5273722a9be3591a6e3f0e2bd1d62c41f4c30ecd7d54bad9a6c0631e01ef3c8262f4a5beaab57745723524d",
+ "sha1_hash": "eca3ad7a5dd9ec0d97d1c4dcb6ef79c945b78235",
+ "md5_hash": "d2eceb84ba4a146e25556fdeeee34776",
+ "first_seen": "2026-05-11 18:58:27",
+ "last_seen": null,
+ "file_name": "pnbcreditcard.apk",
+ "file_size": 8265806,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T16D86D047F7044B1FC87782761DB62A3916474D968E939387F81837ACB8775E80E89ACC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:XMOd2Zrv3Qy/N1bMvEJrJ6XgZn00NvO9rlp4ikGSCeYIDuFGAKE5aBKWKh+HcrwB:C/XfugZdORleqaKFGYWigcyAADqbtY",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "65.0% (.APK) Android Package (27000/1/5)",
+  "25.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "malware",
+  "PNB"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "468",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "Jeevan_Malware_Rewards",
+   "author": "ShriTiger",
+   "description": "Detects JeevanReward variants using Technical, Anti-Analysis, and Indian SE keywords",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5494db78d03c9b3061c780520fc6713fa16cc8469c18ec9acb3d8eddff91964a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/5494db78d03c9b3061c780520fc6713fa16cc8469c18ec9acb3d8eddff91964a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260511-xmsnqact6k/",
+   "tags": [
+    "android",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Packed.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-05-11 18:59:35",
+   "scanner_count": "24",
+   "scanner_match": "4",
+   "scanner_percent": "16.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a0227082fcb905ec28e68c0/reports/b19725e0-159f-49ba-890b-2afa0e560abe/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-11T16:55:00Z",
+   "last_seen": "2026-05-12T02:45:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/5494db78d03c9b3061c780520fc6713fa16cc8469c18ec9acb3d8eddff91964a/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

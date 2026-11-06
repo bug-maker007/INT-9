@@ -1,0 +1,132 @@
+{
+ "sha256_hash": "b3b3236227c026d8c4040c2d44d705018c978f94531ff9a193fb93c835410c37",
+ "sha3_384_hash": "6c0d221a58adc33d8681d8d70bde2e78d2d1cf7c0cda63d0c1132953e851a74c4ed0e9367ffc584eb475474c7b9d909a",
+ "sha1_hash": "68e14116d892a4a4c3dac3089fb1f1cf3c3e5536",
+ "md5_hash": "14543c23ee227b202bd7975962efa159",
+ "first_seen": "2022-07-15 11:45:04",
+ "last_seen": null,
+ "file_name": "divar (1).apk",
+ "file_size": 2409982,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T10FB5F186F7E95D2FCC73C0320BAA533522568E26C643E74B6498377C68B7AE80E457C5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:bZdqQ1p4ODapEosY0GNyw732vHtH1P3xFXUGnYamb9Yp5LXPG:bZD1p4OOEAyw7CHtHJPXVn5/G",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "57.0% (.APK) Android Package (38500/1/9)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "15.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "Apk.spyware.IranPhishing",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "iran",
+  "malware",
+  "Phishing",
+  "signed",
+  "smsspy",
+  "spy",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Live Chat",
+   "issuer_cn": "Live Chat",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2022-07-10T18:28:26Z",
+   "valid_to": "2031-07-08T18:28:26Z",
+   "serial_number": "3794e247",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "04252eae82a77547bf20b2ab5b6b229af43963b79a85434ce20dee12118a4f10",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Spyware005959371.537.12809.UNOFFICIAL"
+  ],
+  "downloads": "374",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "spyware"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "Apk.spyware.IranPhishing"
+  },
+  {
+   "context": "dropped_by_malware",
+   "value": "smsspy"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2257660/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b3b3236227c026d8c4040c2d44d705018c978f94531ff9a193fb93c835410c37/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/b3b3236227c026d8c4040c2d44d705018c978f94531ff9a193fb93c835410c37",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220715-nxaffsbdbn/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2022-07-15 11:46:25",
+   "scanner_count": "41",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62d153b883ba16fee5c51093/reports/6271e799-09cb-4c64-bb9a-6d7556f9a42c/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,105 @@
+{
+ "sha256_hash": "6208a4c0def1a46852a98bdd37621568ef64be7498d50a7f132faa422ec4c68b",
+ "sha3_384_hash": "789075cd96598d822eb00e6371dc76211f9686864628690befdf366b0568f78ff6a6391fcc3b845a52910acde8bde845",
+ "sha1_hash": "32a1fb26ef90f64411cc25d30a868933c8c56597",
+ "md5_hash": "45f493e525bbe41865d76d3f60d22bde",
+ "first_seen": "2021-10-13 13:15:10",
+ "last_seen": null,
+ "file_name": "Android build_obf.apk",
+ "file_size": 2669308,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1CDC512D54A819C7AC2755D31B3C361A2B9301F28A6BDF57A067BB5307FB3A508249EF0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:NhpWv0OvsuOV8H6SfYjoj0v9riRKbNRjQjXL8GarkiZb:NhAPi8HlQjPi6RIL8GUkiZb",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "291",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "anubis",
+   "link": "https://mwdb.cert.pl/sample/6208a4c0def1a46852a98bdd37621568ef64be7498d50a7f132faa422ec4c68b/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/6208a4c0def1a46852a98bdd37621568ef64be7498d50a7f132faa422ec4c68b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/211013-qhatsaebg6/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://51.132.252.42/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-10-13 13:15:15",
+   "scanner_count": "33",
+   "scanner_match": "4",
+   "scanner_percent": "12.12"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6166dbe29fb4d8593d63a1f4/reports/77bc068d-3e77-49f9-adf1-389f3527f5df/overview"
+  }
+ },
+ "comments": null
+}

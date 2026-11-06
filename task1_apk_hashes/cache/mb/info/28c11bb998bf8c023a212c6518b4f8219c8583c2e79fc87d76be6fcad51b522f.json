@@ -1,0 +1,84 @@
+{
+ "sha256_hash": "28c11bb998bf8c023a212c6518b4f8219c8583c2e79fc87d76be6fcad51b522f",
+ "sha3_384_hash": "d88c56a15314bd993b1acb1928bc04b428c74bb2b1a5830aef0242354dda8a0c061067c99841ed2e815b0a49c844958d",
+ "sha1_hash": "53ff2b0a928fda3439d188c9b7d2f989f7e93eec",
+ "md5_hash": "92891906b5842b1daac01661731116b9",
+ "first_seen": "2021-05-05 10:24:17",
+ "last_seen": null,
+ "file_name": "UPS943.apk",
+ "file_size": 5091611,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Anubis",
+ "imphash": null,
+ "tlsh": "A636018BFB05A86FC1B7823646760556651B4C2A8B83D7874AA4713C1DBBDC04E8BFDC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:Ctbtx8eId6BxzYR3veFk1lW1zdMQ0pDDDxjUXIklfie3RrQm+jVNryVIh:Cxq8bzYR3WFk1lW1zdMPxDDxI4kXV+xF",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "flubot"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Andr.Banker-GZW.28207.23080.UNOFFICIAL"
+  ],
+  "downloads": "259",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "anubis",
+   "link": "https://mwdb.cert.pl/sample/28c11bb998bf8c023a212c6518b4f8219c8583c2e79fc87d76be6fcad51b522f/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/28c11bb998bf8c023a212c6518b4f8219c8583c2e79fc87d76be6fcad51b522f",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/210505-7plnznqw5j/",
+   "tags": [
+    "android",
+    "obfuscation"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Backdoor.Polph",
+   "status": "MALICIOUS",
+   "first_seen": "2021-05-05 10:25:09",
+   "scanner_count": "28",
+   "scanner_match": "6",
+   "scanner_percent": "21.43"
+  }
+ },
+ "comments": null
+}

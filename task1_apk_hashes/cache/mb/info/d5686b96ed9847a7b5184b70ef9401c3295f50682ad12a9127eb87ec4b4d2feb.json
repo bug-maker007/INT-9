@@ -1,0 +1,108 @@
+{
+ "sha256_hash": "d5686b96ed9847a7b5184b70ef9401c3295f50682ad12a9127eb87ec4b4d2feb",
+ "sha3_384_hash": "cdf80a6becc79c7b8dc7d42c7dfba4da79fa222ea281acf99a6f3d2a3e23acdeef1eb360fa1bb445beb40f4bc78bd0c9",
+ "sha1_hash": "80df44dcf743100119e8acbd936a7651887061bd",
+ "md5_hash": "fbadda1aea91b50a5adc6b855b8bbfa4",
+ "first_seen": "2021-08-11 09:36:16",
+ "last_seen": "2021-08-11 09:43:51",
+ "file_name": "Android_Guncelleme.apk",
+ "file_size": 3045623,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T1D2E5339EDA87C50CD9678271808330772E22111A8B9EF52F0079C79A28D7FBC9797DE5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:uPdQCR7d+XwoUcT740McyPqFaHUVP6nfl56PyqQSZYfFbdWpHZWsTMKNn7E3Mk:ctgXwodMNgjU956qqQSZYfFb6HRTM38k",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.10026.319.23247.UNOFFICIAL"
+  ],
+  "downloads": "222",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1524655/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/d5686b96ed9847a7b5184b70ef9401c3295f50682ad12a9127eb87ec4b4d2feb/"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/d5686b96ed9847a7b5184b70ef9401c3295f50682ad12a9127eb87ec4b4d2feb",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210811-eradtspyje/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads name of network operator",
+     "score": "6"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://194.163.136.78"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-11 09:37:04",
+   "scanner_count": "46",
+   "scanner_match": "9",
+   "scanner_percent": "19.57"
+  }
+ },
+ "comments": null
+}

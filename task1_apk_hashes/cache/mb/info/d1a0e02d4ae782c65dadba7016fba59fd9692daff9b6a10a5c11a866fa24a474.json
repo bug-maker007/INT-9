@@ -1,0 +1,146 @@
+{
+ "sha256_hash": "d1a0e02d4ae782c65dadba7016fba59fd9692daff9b6a10a5c11a866fa24a474",
+ "sha3_384_hash": "584bc99a462f63baffedd72d44ec4b504ae5e669a57f92b293e632491ed3b491c2778c5fd7cc9429276ef109ad69a426",
+ "sha1_hash": "b5f8d1ece1b7a1b80bb3590fe745a657ebdeaca9",
+ "md5_hash": "fa081ed138a34e5b8ca7e2677230eada",
+ "first_seen": "2022-06-08 08:39:04",
+ "last_seen": null,
+ "file_name": "FlashPlayerV1.apk",
+ "file_size": 3342199,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T1BEF52355F6E1989ACE1BF638F04BC0464A4E5E4409879F5A791D70B82F3BEF01F428E9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:swYaU8ZsVBoKA/N7LU2mZJ0cdq7nOg46jInW8AZI:UabWopeZacdo4TnVAy",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Hydra",
+  "malware",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SMS-10.UNOFFICIAL"
+  ],
+  "downloads": "587",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/malwrhunterteam/status/1533886385421271040?s=20&t=xhyKiKLHZdNRT11ZGJ7Rmg"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d1a0e02d4ae782c65dadba7016fba59fd9692daff9b6a10a5c11a866fa24a474/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/d1a0e02d4ae782c65dadba7016fba59fd9692daff9b6a10a5c11a866fa24a474",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/220608-kkbafaabh2/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Hydra Payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Legitimate hosting services abused for malware hosting/C2",
+     "score": "6"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Bian",
+   "status": "MALICIOUS",
+   "first_seen": "2022-06-06 18:24:44",
+   "scanner_count": "40",
+   "scanner_match": "11",
+   "scanner_percent": "27.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62a0603a634447acba6626ef/reports/4d1277ac-7b0f-48d1-9cca-3dc51dfca7df/overview"
+  }
+ },
+ "comments": null
+}

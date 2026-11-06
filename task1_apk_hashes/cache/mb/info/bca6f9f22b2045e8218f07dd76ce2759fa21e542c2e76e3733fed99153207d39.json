@@ -1,0 +1,113 @@
+{
+ "sha256_hash": "bca6f9f22b2045e8218f07dd76ce2759fa21e542c2e76e3733fed99153207d39",
+ "sha3_384_hash": "9840317250333d7db638f7ea5eb5d5007f9370d0fef1b072d5f2e55bbc339fffea841721d221967acbc7bc5f01b8a453",
+ "sha1_hash": "2dc868adfc77ea979c8175f9283021c866354f83",
+ "md5_hash": "b18a8a39d3fcb9ad0cedfcb11c35aee4",
+ "first_seen": "2023-03-13 16:29:23",
+ "last_seen": null,
+ "file_name": "bca6f9f22b2045e8218f07dd76ce2759fa21e542c2e76e3733fed99153207d39",
+ "file_size": 6131098,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "f3d__",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "Vultur",
+ "imphash": null,
+ "tlsh": "T10A56025BB308952FDBF790329DBA522B52674C0946D35F833898B10D26B3AC45FA9FC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:EgiIvcu29mdcb98q1VcpaBinSRjIoSv1itdiqZU5ZVObdOwZB8LxyfrrZc2IVbi:EXu2l8IicISRMPitdHZEZVObdOwZB8LS",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "29.0% (.VYM) VYM Mind Map (12500/1/3)",
+  "24.4% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "18.6% (.WIDGET) Konfabulator widget (8000/1/2)",
+  "16.2% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "9.3% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "dropper",
+  "vultur",
+  "zip"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.14016.30416.25910.UNOFFICIAL"
+  ],
+  "downloads": "515",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/cleafylabs/status/1635314811134439424"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "has_telegram_urls",
+   "author": "Aaron DeVera<aaron@backchannel.re>",
+   "description": "Detects Telegram URLs",
+   "reference": null
+  },
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/bca6f9f22b2045e8218f07dd76ce2759fa21e542c2e76e3733fed99153207d39/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Dropper",
+   "score": "0.80"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/230313-xrg3sabf75/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Downloader.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-02-02 18:47:26",
+   "scanner_count": "39",
+   "scanner_match": "3",
+   "scanner_percent": "7.69"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/640f4f8c56d2bc8d80b73906/reports/4f8d9fed-006b-4719-b105-21e21d925930/overview"
+  }
+ },
+ "comments": null
+}

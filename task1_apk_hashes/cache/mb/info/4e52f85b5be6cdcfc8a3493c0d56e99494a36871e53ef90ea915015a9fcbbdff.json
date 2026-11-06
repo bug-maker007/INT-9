@@ -1,0 +1,141 @@
+{
+ "sha256_hash": "4e52f85b5be6cdcfc8a3493c0d56e99494a36871e53ef90ea915015a9fcbbdff",
+ "sha3_384_hash": "4e1161b34bb68654923eb783f7bfa7f95680d65d0dff24838626ca864430859eac30b79f6b55157ef53c154d539f724a",
+ "sha1_hash": "44c4be3ecc83a30db2483eb9895e30ec48fb6eaf",
+ "md5_hash": "e673f474ef3fbfb60c9ae9c32829d4bf",
+ "first_seen": "2026-06-30 21:21:49",
+ "last_seen": null,
+ "file_name": "TikTok18.apk",
+ "file_size": 31379858,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1DB67231AEFC87A6BC5F74236587A55254C430C44838BCA82EE9A752C2C776F1B71DBC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "786432:ctCiCLBpRFLh2AeNlUCwCeoJeZcFQGUBuLbXOQgJ:ctCiCLBTFLhpeNlBwCeoJEcFQGKuLLUJ",
+ "magika": "zip",
+ "dhash_icon": null,
+ "trid": [
+  "38.0% (.APK) Android Package (27000/1/5)",
+  "16.9% (.BIN/ZIP) 1C:Enterprise bundled add-in (12000/1/2)",
+  "11.2% (.WIDGET) Konfabulator widget (8000/1/2)",
+  "11.2% (.XPI) Mozilla Firefox browser extension (8000/1/1)",
+  "8.4% (.KMZ) Google Earth saved working session (6000/1/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Banker",
+  "Dropper",
+  "Malware",
+  "Riskware",
+  "TikTok",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "421",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260630-z8p6tsgs2n/",
+   "tags": [
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Egairtigado",
+   "status": "MALICIOUS",
+   "first_seen": "2026-06-30 21:23:37",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a443395486f83ec23c4578d/reports/d7bda148-da91-42fe-903e-1e62284fd729/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-06-30T19:33:00Z",
+   "last_seen": "2026-07-01T18:12:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/4e52f85b5be6cdcfc8a3493c0d56e99494a36871e53ef90ea915015a9fcbbdff/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

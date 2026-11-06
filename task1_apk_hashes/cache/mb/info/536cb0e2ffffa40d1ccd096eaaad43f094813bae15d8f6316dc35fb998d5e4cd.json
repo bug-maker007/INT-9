@@ -1,0 +1,107 @@
+{
+ "sha256_hash": "536cb0e2ffffa40d1ccd096eaaad43f094813bae15d8f6316dc35fb998d5e4cd",
+ "sha3_384_hash": "c9f287cee1fc33d31246f02a2c92ee435a594bdc667ef143c5d726d4069c33006757625af27194150d8abdce25742ef7",
+ "sha1_hash": "b9804301439f239f31288ce89db8be84305c45e1",
+ "md5_hash": "d20efa9cda3e0d0da16e5593bf3f7644",
+ "first_seen": "2026-07-03 22:51:43",
+ "last_seen": null,
+ "file_name": "ۦۖ۫.apk",
+ "file_size": 6020944,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T17D56F1B57741D93BF8370532656A7231B78F9E168E8F8683A544320C69772DC0F9BAC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:p2MBNMhhsCvQHXLOw61sJD0J/faSUZFGTwCkwkFcajec9LOAiSt1A/LO8ftRrI9V:pRqTQ3LOw3YJ3wmlV4t9LO1STA/wV",
+ "magika": "unknown",
+ "dhash_icon": null,
+ "trid": [
+  "33.3% (.JAR) Java Archive (13500/1/2)",
+  "30.8% (.VYM) VYM Mind Map (12500/1/3)",
+  "25.9% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Banker",
+  "Indusind Credit Card"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "219",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/536cb0e2ffffa40d1ccd096eaaad43f094813bae15d8f6316dc35fb998d5e4cd/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260703-2tpmvsds3m/",
+   "tags": [
+    "android",
+    "discovery"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.AVerseFalc",
+   "status": "MALICIOUS",
+   "first_seen": "2026-07-03 22:52:45",
+   "scanner_count": "37",
+   "scanner_match": "8",
+   "scanner_percent": "21.62"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "UNKNOWN",
+   "threatlevel": "0.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a483d07f529a0a1207dd0ce/reports/59d7faa2-5244-46ab-95e3-eb954ac1d865/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-03T20:53:00Z",
+   "last_seen": "2026-07-05T11:01:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/536cb0e2ffffa40d1ccd096eaaad43f094813bae15d8f6316dc35fb998d5e4cd/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

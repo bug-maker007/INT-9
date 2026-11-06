@@ -1,0 +1,132 @@
+{
+ "sha256_hash": "f8dea4cd9c869a5d35c613f2e0beabbc724fb2d61b4a9909d9b08e26844fc952",
+ "sha3_384_hash": "dcc1f9a6ed44e5a37099c3a4398dbce84eb83825b680bec84bef147dec52e419582cb5422507253fa0f5c151fdb85711",
+ "sha1_hash": "f2c6e5d3466424559df6075e39c7698b6b033031",
+ "md5_hash": "b96ae1bc59107140e911d3fb3561f9ab",
+ "first_seen": "2024-06-14 15:19:53",
+ "last_seen": null,
+ "file_name": "Application.apk",
+ "file_size": 4347842,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T168162303F63AA917CCF5D3B221750A3900371E68DB53B78A680973F539BB9E84B466D1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:LloAQeVrmihTeYpxkkAO00jSxe3uvJqaC+bZoiuBVdlqRl1Hvc7Xk:Llee1pTeG7jSxe3uTbZoiUdAR/Hvc70",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2021-05-22T04:58:32Z",
+   "valid_to": "2120-09-04T04:58:32Z",
+   "serial_number": "0c11d603",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e702de593abce6259624b294b47a16a0239caa17322c3285b6d1c8acf7fbf30d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.989.origin.26333.29967.UNOFFICIAL"
+  ],
+  "downloads": "441",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/f8dea4cd9c869a5d35c613f2e0beabbc724fb2d61b4a9909d9b08e26844fc952/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/f8dea4cd9c869a5d35c613f2e0beabbc724fb2d61b4a9909d9b08e26844fc952",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240614-sqq7vazell/",
+   "tags": [
+    "family:irata",
+    "android",
+    "discovery",
+    "impact"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2024-06-14 11:48:08",
+   "scanner_count": "38",
+   "scanner_match": "14",
+   "scanner_percent": "36.84"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/666c5fadeae3878d8f39a598/reports/a8339855-6f18-4a4c-a60e-0b23501003d0/overview"
+  }
+ },
+ "comments": null
+}

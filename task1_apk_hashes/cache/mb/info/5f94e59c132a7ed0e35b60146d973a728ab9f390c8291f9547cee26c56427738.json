@@ -1,0 +1,97 @@
+{
+ "sha256_hash": "5f94e59c132a7ed0e35b60146d973a728ab9f390c8291f9547cee26c56427738",
+ "sha3_384_hash": "fc31caf4a92b554ecce478ea7964ed35197708da60ee8eb9d94db3fa899f532e5e48f16136f46cd8a4c7abce3e63ea67",
+ "sha1_hash": "1ab1493ab5c64c86615894622d499dbc3603bb03",
+ "md5_hash": "541e1d211a172b9353e347e292f34555",
+ "first_seen": "2026-07-03 17:35:06",
+ "last_seen": null,
+ "file_name": "Safe_Russia.apk",
+ "file_size": 6750966,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BadCoder1337",
+ "origin_country": "RU",
+ "anonymous": 0,
+ "signature": "CraxsRAT",
+ "imphash": null,
+ "tlsh": "T1E766332DB395E0EEC9BDD6365D584AA49FD82E934E096A03B220375F74363984F307C9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:07WT0zXl4z212ZrdM1uR3QCZYM8pFLN5MghdwVm2r:07s0z+JBC1cACZYMI5M6Wbr",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "Safe Russia.apk two-stage dropper com.uisy.cache.installertest delivering CraxsRAT payload com.veloxapp.speedcore. XOR-0x5A packed asset 38rf88y3. C2 91.92.33.183:9999 plus Telegram. Distributed via compromised Telegram accounts.",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "banker",
+  "CraxsRAT",
+  "dropper",
+  "RAT",
+  "SafeRussia",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Mazharul Islam",
+   "issuer_cn": "Mazharul Islam",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2019-04-18T20:56:40Z",
+   "valid_to": "2044-04-11T20:56:40Z",
+   "serial_number": "6b6db14f",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c71d2bf85a0e9f46d7f96a4a251ddbbca60b76ca66c972ca73dc703d89c315f2",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "445",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "malpedia",
+   "value": "https://malpedia.caad.fkie.fraunhofer.de/details/apk.craxs_rat"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-07-03 20:16:33",
+   "scanner_count": "38",
+   "scanner_match": "2",
+   "scanner_percent": "5.26"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-03T15:21:00Z",
+   "last_seen": "2026-07-05T11:01:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/5f94e59c132a7ed0e35b60146d973a728ab9f390c8291f9547cee26c56427738/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

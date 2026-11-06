@@ -1,0 +1,128 @@
+{
+ "sha256_hash": "5728cef99f2d74d69aa24e2bcc9cce9e0fdf3100bbcbf33e9f736c6663a77ea5",
+ "sha3_384_hash": "3f03f6b283e07e40577044757a0280968721974e9bbb69dd9dce67eeb628a3a7af2014bd5f85c774d992cb9861f1a090",
+ "sha1_hash": "3f8f4675e6caa5bfab240bb4a0e5bf891d81a7dd",
+ "md5_hash": "6972d49947a98dc1b8a08d54f853f906",
+ "first_seen": "2022-08-17 15:47:13",
+ "last_seen": null,
+ "file_name": "صیغه یاب هلو.apk",
+ "file_size": 1839169,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "BRATA",
+ "imphash": null,
+ "tlsh": "T1208533C3F311C19BD6F642B259209252017F8C3C6E539D8636A2739C69737EC6B49BE8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:HXhmtv2Fpr2bVPy7yF/tKGfWvGXbi9w+t+pEryigCEJKJXoVxhcyS:HXsZ2FprAVPy7yhbXj+MpUyiPRYwL",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "60.1% (.APK) Android Package (38500/1/9)",
+  "21.0% (.JAR) Java Archive (13500/1/2)",
+  "10.9% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "6.2% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.5% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA - Iranian Remote Access Tool Android",
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "iran",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SmsSpy.11058.21260.22541.UNOFFICIAL"
+  ],
+  "downloads": "400",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/onecert_ir/status/1559929033709723648"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "irata"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5728cef99f2d74d69aa24e2bcc9cce9e0fdf3100bbcbf33e9f736c6663a77ea5/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.49"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/5728cef99f2d74d69aa24e2bcc9cce9e0fdf3100bbcbf33e9f736c6663a77ea5",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "brata",
+   "score": "10",
+   "link": "https://tria.ge/reports/220817-s8rw4acec8/",
+   "tags": [
+    "family:brata",
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2022-08-17 15:57:04",
+   "scanner_count": "26",
+   "scanner_match": "14",
+   "scanner_percent": "53.85"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62fd0df7eb0bf1e2c6e332c5/reports/5f528c4a-3e2b-4d05-ad0c-103e19d097dc/overview"
+  }
+ },
+ "comments": null
+}

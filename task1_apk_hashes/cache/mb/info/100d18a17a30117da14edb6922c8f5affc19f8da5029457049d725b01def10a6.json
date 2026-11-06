@@ -1,0 +1,110 @@
+{
+ "sha256_hash": "100d18a17a30117da14edb6922c8f5affc19f8da5029457049d725b01def10a6",
+ "sha3_384_hash": "d1f48656b48239143d754313e55a84a8b521634d31a2d4a739b2dec047ac953c8d825092b8e1fbbce1167b92cb84e37f",
+ "sha1_hash": "a5d34c4c5905b8d3c48f4b5e6914062251f0e3b8",
+ "md5_hash": "76484c7bd83dfe166c6ecc5a780f9d38",
+ "first_seen": "2026-08-15 05:31:06",
+ "last_seen": null,
+ "file_name": "SanaV2 (1).apk",
+ "file_size": 3266933,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "GB",
+ "anonymous": 1,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T13FE52362B349143FD97B46319AC627A52B6A8E0086E77B0F3840723D5E3739E5F58EC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:LnMzemZMXoqtI4lw52ShrK5PFelmcYFZiDRNQBO0vf+DB:LMzemZ4BK4lk2ySlcYG1kO0vfw",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "65.0% (.APK) Android Package (27000/1/5)",
+  "25.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SHAPARAK"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Siggen.Susp2.5348.25202.10389.UNOFFICIAL"
+  ],
+  "downloads": "218",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/100d18a17a30117da14edb6922c8f5affc19f8da5029457049d725b01def10a6/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260815-f7126azzfv/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-08-15 05:32:38",
+   "scanner_count": "23",
+   "scanner_match": "5",
+   "scanner_percent": "21.74"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a7ff9b36451d1d61f2e50c0/reports/699194c3-bea2-474c-bef5-3d84f0984759/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-15T03:34:00Z",
+   "last_seen": "2026-08-16T23:17:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/100d18a17a30117da14edb6922c8f5affc19f8da5029457049d725b01def10a6/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

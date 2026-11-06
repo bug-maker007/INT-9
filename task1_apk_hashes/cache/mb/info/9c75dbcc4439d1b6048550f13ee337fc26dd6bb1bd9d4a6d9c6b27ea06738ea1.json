@@ -1,0 +1,159 @@
+{
+ "sha256_hash": "9c75dbcc4439d1b6048550f13ee337fc26dd6bb1bd9d4a6d9c6b27ea06738ea1",
+ "sha3_384_hash": "ca10612e8184d28a961c87171e10d9dd3f69e82c85b89bc9d965279b63fd39521ac6583ca5a4003f22db7ff956883c4b",
+ "sha1_hash": "eb1fcbc7e2257e5f8ab76f6d1fc6dd45c3292b62",
+ "md5_hash": "a9b22eba07400111b6a1743875a8a002",
+ "first_seen": "2021-03-02 11:53:49",
+ "last_seen": null,
+ "file_name": "Correos2.24.14.apk",
+ "file_size": 3195385,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "EBE533B59AB252C0C04398F828582776D3F6757C3A7992E71F7539ACA30FC99872DC24",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:f4p3pHydwC2yXNcxYme3V3l9fE6Chy/zpZ4Pm1tfBVsEZ:f4CcxYt3VLsHhkkmTfBSc",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Andr.Banker-GTV.22538.8867.UNOFFICIAL"
+  ],
+  "downloads": "215",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/malwrhunterteam/status/1366710887852163073?s=20"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1042190/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "PM_Zip_with_js",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/9c75dbcc4439d1b6048550f13ee337fc26dd6bb1bd9d4a6d9c6b27ea06738ea1/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": null,
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210302-pn2lxd4pt6/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads name of network operator",
+     "score": "6"
+    },
+    {
+     "signature": "Suspicious use of android.app.ActivityManager.getRunningServices",
+     "score": "3"
+    },
+    {
+     "signature": "Suspicious use of android.telephony.TelephonyManager.getLine1Number",
+     "score": "3"
+    },
+    {
+     "signature": "Suspicious use of android.telephony.TelephonyManager.getNetworkCountryIso",
+     "score": "3"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://guiopl.ga"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-03-02 11:54:13",
+   "scanner_count": "29",
+   "scanner_match": "11",
+   "scanner_percent": "37.93"
+  }
+ },
+ "comments": null
+}

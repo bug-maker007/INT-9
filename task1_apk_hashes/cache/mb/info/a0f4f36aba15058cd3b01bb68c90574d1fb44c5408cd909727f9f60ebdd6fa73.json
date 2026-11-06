@@ -1,0 +1,143 @@
+{
+ "sha256_hash": "a0f4f36aba15058cd3b01bb68c90574d1fb44c5408cd909727f9f60ebdd6fa73",
+ "sha3_384_hash": "54ee2fc196ebb0f7953c27859501274e6bd9e3e9cccb2e0783476045dd4171c8074617612f853c1d1bc47bc19d4876b4",
+ "sha1_hash": "ae663604e123748e8caf1820085496b6ab126e2c",
+ "md5_hash": "c9afbe44b1dd33026850913db540c578",
+ "first_seen": "2026-10-22 22:05:47",
+ "last_seen": null,
+ "file_name": "TikTok18_v1.6.1.apk",
+ "file_size": 13636926,
+ "file_type_mime": "application/vnd.android.package-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "MaxMax66",
+ "origin_country": "FR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T16DD63315FE2EEC37DDC3743DA6521250231574CC6270C3AE86298654AEDB7F8AB297C2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:1ATanX4PjRn439i/qG++Xt0v3l8BqId9KMFs:1XQNi40d8cIdDs",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "87.0% (.APK) Android Package (27000/1/5)",
+  "12.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.MulDrop.344.origin.30833.5490.UNOFFICIAL"
+  ],
+  "downloads": "206",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "any_run",
+   "value": "https://app.any.run/tasks/226e9086-7ca7-4016-b7aa-dc85115c36db"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "elf_arm_mips_ko_so",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseapps2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise apps",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  },
+  {
+   "rule_name": "weird_png_data_after_end",
+   "author": "Maxime THIEBAUT (@0xThiebaut)",
+   "description": "Detects data suspiciously located after a PNG's end header",
+   "reference": "https://www.bleepingcomputer.com/news/microsoft/windows-11-snipping-tool-privacy-bug-exposes-cropped-image-content/"
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a0f4f36aba15058cd3b01bb68c90574d1fb44c5408cd909727f9f60ebdd6fa73/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/261022-1z9pjsat3q/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-10-22 22:06:34",
+   "scanner_count": "38",
+   "scanner_match": "9",
+   "scanner_percent": "23.68"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6ada88e2ae68ea3eee9155e7/reports/8fe80cbf-07c1-412b-a8ba-9b55e997cc24/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-10-22T20:07:00Z",
+   "last_seen": "2026-10-23T14:25:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/a0f4f36aba15058cd3b01bb68c90574d1fb44c5408cd909727f9f60ebdd6fa73/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

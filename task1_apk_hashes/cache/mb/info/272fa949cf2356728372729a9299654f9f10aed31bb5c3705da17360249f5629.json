@@ -1,0 +1,160 @@
+{
+ "sha256_hash": "272fa949cf2356728372729a9299654f9f10aed31bb5c3705da17360249f5629",
+ "sha3_384_hash": "e52c75cfeff433dad6dfec23387e8f7f09587bfa722496b0ee7ae4ea2e6fe2c934afd8ecc5d488ab295720ae8c13a719",
+ "sha1_hash": "7e684b394f41234f979b442d1510f5aa420f88c7",
+ "md5_hash": "0f75da317e9b5892b8177782c32dc518",
+ "first_seen": "2026-09-27 07:19:42",
+ "last_seen": null,
+ "file_name": "272fa949cf2356728372729a9299654f9f10aed31bb5c3705da17360249f5629.bin",
+ "file_size": 1754266,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Tuxxin",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1D985F287EB55FA2ACCA3383F011AE334B9B55369933C190D38408A96D57D1C5E93AF6C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:iCWO18dfps2wqozkMToE/wcRxz/U+k0gUauZFy:yxshLTLwCc+krnua",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "zip"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "APK Signer",
+   "issuer_cn": "APK Signer",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2019-09-03T23:03:24Z",
+   "valid_to": "2049-10-25T23:03:24Z",
+   "serial_number": "29be297b",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "b6da01480eefd5fbf2cd3771b8d1021ec791304bdd6c4bf41d3faabad48ee5e1",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.Mamont.309.origin.20539.21343.UNOFFICIAL",
+   "SecuriteInfo.com.Android.Banker.Mamont.309.origin.22842.9572.UNOFFICIAL"
+  ],
+  "downloads": "148",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3923577/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "apk_flubot_w0",
+   "author": "Thomas Barabosch, Telekom Security",
+   "description": "matches on dumped, decrypted V/DEX files of Flubot version > 4.2",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "SUSP_Websites",
+   "author": "SECUINFRA Falcon Team",
+   "description": "Detects the reference of suspicious sites that might be used to download further malware",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "test_Malaysia",
+   "author": "rectifyq",
+   "description": "Detects file containing malaysia string",
+   "reference": null
+  },
+  {
+   "rule_name": "test_rule_vldslv",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/272fa949cf2356728372729a9299654f9f10aed31bb5c3705da17360249f5629/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260927-jz262aba39/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-09-26 21:19:54",
+   "scanner_count": "38",
+   "scanner_match": "7",
+   "scanner_percent": "18.42"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6ab8ceaadc6ac202347e294d/reports/e4732c69-f946-46f9-9789-80d2298fe14f/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-26T15:25:00Z",
+   "last_seen": "2026-09-29T02:34:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/272fa949cf2356728372729a9299654f9f10aed31bb5c3705da17360249f5629/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

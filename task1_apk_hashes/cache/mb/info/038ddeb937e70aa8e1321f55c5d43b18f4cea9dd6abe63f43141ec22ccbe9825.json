@@ -1,0 +1,165 @@
+{
+ "sha256_hash": "038ddeb937e70aa8e1321f55c5d43b18f4cea9dd6abe63f43141ec22ccbe9825",
+ "sha3_384_hash": "3aea217dff43d4d85d133ad84d577f8792004ccaac6456dccb4325826ebd4ff33ace7881679ce60d37b9b843ecc2964a",
+ "sha1_hash": "844bc5ea534de36318a87577c77f88adbbb08182",
+ "md5_hash": "58a3c9ada703dbf76297b30f543a9e2c",
+ "first_seen": "2026-03-15 06:04:33",
+ "last_seen": "2026-05-08 09:58:36",
+ "file_name": "imo.apk",
+ "file_size": 2180146,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T174A533C9D510D008D8B66D707A24DB34F05E44C79A6EF90EE24F3D48DA4CAE6369CEAD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:TTlMoOEXHrbotk4qwhjdP9nfK1GYToJ6fG3YrJBh:Xj5Lb7tS9iGYTG4h",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "imo messenger",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Oblivion",
+   "issuer_cn": "Oblivion",
+   "algorithm": "sha384WithRSAEncryption",
+   "valid_from": "2026-01-23T18:53:42Z",
+   "valid_to": "2036-01-21T18:53:42Z",
+   "serial_number": "fb04b2b30d552723",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "5e3154b06143e7c91959366857b1fb64eae1003f0c352d48af9a89f3466c4332",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.1080.origin.10482.8080.UNOFFICIAL"
+  ],
+  "downloads": "230",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "html_auto_download_b64",
+   "author": "Tdawg",
+   "description": "html auto download",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/038ddeb937e70aa8e1321f55c5d43b18f4cea9dd6abe63f43141ec22ccbe9825/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/038ddeb937e70aa8e1321f55c5d43b18f4cea9dd6abe63f43141ec22ccbe9825",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260315-gta49ab19j/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Declares services with permission to bind to the system",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Requests dangerous framework permissions",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Win32.Trojan.Etset",
+   "status": "MALICIOUS",
+   "first_seen": "2026-03-13 12:42:40",
+   "scanner_count": "21",
+   "scanner_match": "5",
+   "scanner_percent": "23.81"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69b64c1f2000fc76c3de9a01/reports/0897d7fc-3962-41c1-8392-9f170b43975e/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/038ddeb937e70aa8e1321f55c5d43b18f4cea9dd6abe63f43141ec22ccbe9825/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

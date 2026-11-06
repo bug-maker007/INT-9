@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "3613a76be3c6f0d7f6108920cbd4bcedc4c9a4c3607136a747f77f3c099f7322",
+ "sha3_384_hash": "6221fe2bd9aa0f900e436a67572830d0ebe4d9b3e7843533516fa4ffde5635d741eefa277ecc966840f7f4bef37a4352",
+ "sha1_hash": "7b617bb720283b200f57af31ad8e3c3db2a81598",
+ "md5_hash": "b8c5136b8e14120df2de597aef443729",
+ "first_seen": "2024-12-06 08:19:01",
+ "last_seen": null,
+ "file_name": "3613a76be3c6f0d7f6108920cbd4bcedc4c9a4c3607136a747f77f3c099f7322.apk",
+ "file_size": 4903440,
+ "file_type_mime": "application/octet-stream",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "smica83",
+ "origin_country": "HU",
+ "anonymous": 0,
+ "signature": "Monokle",
+ "imphash": null,
+ "tlsh": "T1C2366C03E7128E72CAFD8338907B6760B332294DAF4327971795E5B8BD831C566D2E85",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:Zpl0bCAGKKiR7xhXQuhfjnnmpm+i0AhOYaYeoa:ZL0lRxhlbfaz",
+ "magika": "dex",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Monokle",
+  "Spyware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Monokle.5.origin.12226.20744.UNOFFICIAL"
+  ],
+  "downloads": "337",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://x.com/citizenlab/status/1864661347646017619"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "RansomPyShield_Antiransomware",
+   "author": "XiAnzheng",
+   "description": "Check for Suspicious String and Import combination that Ransomware mostly abuse(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "test_Malaysia",
+   "author": "rectifyq",
+   "description": "Detects file containing malaysia string",
+   "reference": null
+  },
+  {
+   "rule_name": "tispy_payload_v1",
+   "author": "RandomMalware",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3613a76be3c6f0d7f6108920cbd4bcedc4c9a4c3607136a747f77f3c099f7322/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Monokle",
+   "score": "0.90"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/241206-kfahcavjhl/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2024-06-06 15:00:58",
+   "scanner_count": "38",
+   "scanner_match": "5",
+   "scanner_percent": "13.16"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6752b377aa7f098f77e79064/reports/331b6c24-99c9-461a-b8a0-61890c80bb95/overview"
+  }
+ },
+ "comments": null
+}

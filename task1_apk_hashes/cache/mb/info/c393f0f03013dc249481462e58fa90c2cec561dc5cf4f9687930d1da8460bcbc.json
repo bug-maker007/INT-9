@@ -1,0 +1,91 @@
+{
+ "sha256_hash": "c393f0f03013dc249481462e58fa90c2cec561dc5cf4f9687930d1da8460bcbc",
+ "sha3_384_hash": "1659688eea0c7432d56ce86caa6b6d8de34e626dca8339d91db071c0b982c0498eb350c8e65ebceaddb924f0f5fa5948",
+ "sha1_hash": "37b5b34250fe930132de9c4bd9efd1b6e5f3f0fa",
+ "md5_hash": "43245acd2bfc4fb651961933a72da0ad",
+ "first_seen": "2021-07-23 09:06:29",
+ "last_seen": null,
+ "file_name": "Vodafone-Netz.apk",
+ "file_size": 5181773,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T17A3633C4AA92D4A5CD53C5319023869349334E5C6F12FB7F6BA279AC04F3ED49712CAB",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:4biNUPZ3rWOyLmQ0HA6aKoguzonco58+/dSisczzOj:4uePZ3LQF6OgQoncY8+/dVsczz+",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "hydra"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.9553.12149.17360.UNOFFICIAL"
+  ],
+  "downloads": "215",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c393f0f03013dc249481462e58fa90c2cec561dc5cf4f9687930d1da8460bcbc/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c393f0f03013dc249481462e58fa90c2cec561dc5cf4f9687930d1da8460bcbc",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210723-khhbj5j36j/",
+   "tags": [
+    "android",
+    "obfuscation"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-07-16 11:02:43",
+   "scanner_count": "28",
+   "scanner_match": "8",
+   "scanner_percent": "28.57"
+  }
+ },
+ "comments": null
+}

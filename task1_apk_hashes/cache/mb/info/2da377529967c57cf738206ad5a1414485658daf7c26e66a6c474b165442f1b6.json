@@ -1,0 +1,229 @@
+{
+ "sha256_hash": "2da377529967c57cf738206ad5a1414485658daf7c26e66a6c474b165442f1b6",
+ "sha3_384_hash": "0015d9be631f619af72d349fc1d64a849cb8cbb7c8afaa70b5e3e85c2da9ca6691e3b8da977a9c665866f06ce3231953",
+ "sha1_hash": "fa1d9b7d1ea36004c5de7b7e5dbf4e59d6993881",
+ "md5_hash": "2822ee6f2c62e0d59e3a6e3b49936bff",
+ "first_seen": "2024-12-14 12:42:39",
+ "last_seen": null,
+ "file_name": "com.ygkaxidkh.ffldaorgq.apk",
+ "file_size": 4738967,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "seckle_ch",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": "Hook",
+ "imphash": null,
+ "tlsh": "T132261257FB49A82EC4F3C335863A466A65069C21C793C79B9924713C2C7BED01ED8ED8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:19HLjEpXQoLXV4W0WiWmOC3POywZLRnKhbLJaojI+lnLwTNSM1eR:7cXDXeKyyJobLJjrlLwTYM1m",
+ "magika": "jar",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "hook",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.FileRepMalware.13449.21245.UNOFFICIAL"
+  ],
+  "downloads": "247",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropped_by_sha256",
+   "value": "dde4471547cb8a653163612d197ab8becc466faf7bea9bb5aaa04fe569b22644"
+  },
+  {
+   "context": "dropped_by_md5",
+   "value": "920b989500edefd7151994fee5934716"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2da377529967c57cf738206ad5a1414485658daf7c26e66a6c474b165442f1b6/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/2da377529967c57cf738206ad5a1414485658daf7c26e66a6c474b165442f1b6",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hook",
+   "score": "10",
+   "link": "https://tria.ge/reports/241214-pxwt5atpcn/",
+   "tags": [
+    "family:hook",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hook",
+     "score": "10"
+    },
+    {
+     "signature": "Hook family",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about the current Wi-Fi connection",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests accessing notifications (often used to intercept notifications before users become aware).",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hook",
+     "c2": "http://rocketstylebuildinftoday.online; http://rocketstylebuildinftoday.xyz; http://rocketstylebuildinftoday.icu; http://rocketstylebuildinftoday.live; http://rocketstylebuildinftoday.shop"
+    },
+    {
+     "extraction": "c2",
+     "family": "hook",
+     "c2": "http://rocketstylebuildinftoday.online"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.AVerseFalc",
+   "status": "MALICIOUS",
+   "first_seen": "2024-12-14 12:43:05",
+   "scanner_count": "24",
+   "scanner_match": "7",
+   "scanner_percent": "29.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/675d7d5620320a764c013873/reports/6c9b55ff-4d93-4968-9e6b-7b40546e7419/overview"
+  }
+ },
+ "comments": null
+}

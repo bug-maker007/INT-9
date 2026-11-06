@@ -1,0 +1,192 @@
+{
+ "sha256_hash": "6d55d90d021b0980528f56d040e78fa7b85a96f5c244e23f330f24c8e80c1cb2",
+ "sha3_384_hash": "1416a203774360a1490c7bbf63c0f696153e678163503a334f68984555088f228b22deeb6045984d34d9de1a68b56304",
+ "sha1_hash": "f425a592df7fe61a03673a48fda56e55f9d6165c",
+ "md5_hash": "f6f589d1a0a189aded4d008b671be0db",
+ "first_seen": "2025-05-29 15:24:40",
+ "last_seen": "2025-06-04 15:27:20",
+ "file_name": "IKO.apk",
+ "file_size": 1961072,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "Crocodilus",
+ "imphash": null,
+ "tlsh": "T17F95F183EB45A86EC4F3C3368B76462B55428CAA8743D783495573387DBBAC05E85FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:egmegaJXIOWmzfTCK47eg6UXczSl3MIIvnO36G8:X9YIzu3egnXczS5MIQnl",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Crocodilus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "10381",
+  "uploads": "4",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/6d55d90d021b0980528f56d040e78fa7b85a96f5c244e23f330f24c8e80c1cb2",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "crocodilus",
+   "score": "10",
+   "link": "https://tria.ge/reports/250529-zgmavsxqz3/",
+   "tags": [
+    "family:crocodilus",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Crocodilus",
+     "score": "10"
+    },
+    {
+     "signature": "Crocodilus family",
+     "score": "10"
+    },
+    {
+     "signature": "Crocodilus payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "crocodilus",
+     "c2": "http://rentvillcr.homes"
+    },
+    {
+     "extraction": "c2",
+     "family": "crocodilus",
+     "c2": "http://7162abdd9fd6e28.click"
+    },
+    {
+     "extraction": "c2",
+     "family": "crocodilus",
+     "c2": "http://7162abdd9fd6e28.homes"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Anubis",
+   "status": "MALICIOUS",
+   "first_seen": "2025-05-28 20:16:00",
+   "scanner_count": "23",
+   "scanner_match": "7",
+   "scanner_percent": "30.43"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6838c678fd02ed5e058f2e96/reports/e985965a-7363-4854-a1a5-825706e7141e/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,132 @@
+{
+ "sha256_hash": "ce92ad7fce2765b9a14136556544cfdfe2823861c220c46e8af8b1ce259bbd05",
+ "sha3_384_hash": "62ab4e27e87e7d675d3679260add3f21110dba99f12dfd3eb3e31b3fdcb6f4dff63b56ecaf11669273ff595182b7fe91",
+ "sha1_hash": "8c80ad1c938edcddb2f69a98dfb92c567b22d96a",
+ "md5_hash": "1d54f850f958616624bb6a4e6407f7e5",
+ "first_seen": "2021-09-15 13:55:52",
+ "last_seen": null,
+ "file_name": "1.apk",
+ "file_size": 3432451,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T146F533D66B52A8ACC627427692D33683B5B4645E8087B07F792C04845FEBAB04F1FD7C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:ArXOdYXa2idWEpna6+K9aNYw93H2m9uAFBYPijnHBR8Q5BCuuru5qT8D/AJsI:TdYXa2uvr9aNYIprkOR8ta568D/JI",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.PUA.DebugKey.28609.6587.UNOFFICIAL"
+  ],
+  "downloads": "330",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1622098/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/ce92ad7fce2765b9a14136556544cfdfe2823861c220c46e8af8b1ce259bbd05/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ce92ad7fce2765b9a14136556544cfdfe2823861c220c46e8af8b1ce259bbd05",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210915-q8qb6aagc6/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads name of network operator",
+     "score": "6"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://checkesips.club"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-09-15 13:56:17",
+   "scanner_count": "45",
+   "scanner_match": "6",
+   "scanner_percent": "13.33"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61751b1ba9d585e6d5370fde/reports/80292602-e36f-46d5-95e8-ebe221d6d55b/overview"
+  }
+ },
+ "comments": null
+}

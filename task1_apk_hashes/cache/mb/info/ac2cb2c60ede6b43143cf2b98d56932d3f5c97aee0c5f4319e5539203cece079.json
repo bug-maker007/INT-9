@@ -1,0 +1,117 @@
+{
+ "sha256_hash": "ac2cb2c60ede6b43143cf2b98d56932d3f5c97aee0c5f4319e5539203cece079",
+ "sha3_384_hash": "1634b9cb8e3c9e08000800afaf254a049e77575f5781786390c39f4bdc6955fa5263bd5a04b0e7d391aa7ed49b0d76c0",
+ "sha1_hash": "eff6ed1e028eef7e7d987b6e14c44ac3a828629a",
+ "md5_hash": "493b35f8fae4f4d06e36e98082560f4f",
+ "first_seen": "2021-08-10 15:03:45",
+ "last_seen": null,
+ "file_name": "Chrome571424.apk",
+ "file_size": 3768230,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T177063393E3C2F11AE6D3A8771AC7414BD7E703818D50E60F3651661A487BBC62739CEA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:moYHqJY+PhhqidZzR8sD3p3uq/ZAl8lEDw:QEPh8idZV8sD3FTZq6Gw",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "alienbot",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.9961.6477.8433.UNOFFICIAL"
+  ],
+  "downloads": "269",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://cdn.discordapp.com/attachments/833391242069934122/874668423613931570/Chrome571424.apk"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1522350/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ac2cb2c60ede6b43143cf2b98d56932d3f5c97aee0c5f4319e5539203cece079/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ac2cb2c60ede6b43143cf2b98d56932d3f5c97aee0c5f4319e5539203cece079",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210810-bcn7vkwak2/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://rndhsadjersxexdd.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.PUA.Dbtes",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-10 15:04:06",
+   "scanner_count": "46",
+   "scanner_match": "5",
+   "scanner_percent": "10.87"
+  }
+ },
+ "comments": [
+  {
+   "id": "21527",
+   "date_added": "2021-08-10 15:33:06",
+   "twitter_handle": "unidentified0xc",
+   "display_name": "unidentified ",
+   "comment": "c2 http://rndhsadjersxexdd.xyz\n"
+  }
+ ]
+}

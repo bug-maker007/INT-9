@@ -1,0 +1,153 @@
+{
+ "sha256_hash": "fc27e112786706f4caa3deae1a7db9a4e4f7366838135ab47a682185ce8db4a2",
+ "sha3_384_hash": "9c077ff7178a17faccd87f039b4772e5b30c90497f65f27094c68121d89bc51d581d1cd768276ea0fd0eee552e2ed911",
+ "sha1_hash": "3d482a3361192c1cd2653770c9e44c7c137ada89",
+ "md5_hash": "c388afb01c59f17a7e794a062de7bb46",
+ "first_seen": "2025-10-31 08:58:40",
+ "last_seen": null,
+ "file_name": "Airtel Flexi Loan.apk",
+ "file_size": 20747533,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T1842701CB7205974BC47A82B859A7F791455BAD608FA6566BF61C373C6C333E08EC24C8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:WPUwIisJipdDXyE/Lso9OFQ/ZDkvoyOfBA:csJipdDido96Q/ZQh7",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Airtel",
+  "android",
+  "apk",
+  "malware",
+  "signed",
+  "SpyNote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "np",
+   "issuer_cn": "np",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2021-04-25T09:03:56Z",
+   "valid_to": "3020-08-26T09:03:56Z",
+   "serial_number": "045ff9a3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "492682f877607ee99df2ddd2bd5953fd727bdf6e19d397de9dbbafd582bcad75",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "218",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "FreddyBearDropper",
+   "author": "Dwarozh Hoshiar",
+   "description": "Freddy Bear Dropper is dropping a malware through base63 encoded powershell scrip.",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Spynote_craxsrat_strings",
+   "author": "Alberto Segura",
+   "description": "Detects Spynote Android Malware",
+   "reference": null
+  },
+  {
+   "rule_name": "Spynote_generic_strings",
+   "author": "Alberto Segura",
+   "description": "Detects Spynote Android Malware",
+   "reference": null
+  },
+  {
+   "rule_name": "weird_png_data_after_end",
+   "author": "Maxime THIEBAUT (@0xThiebaut)",
+   "description": "Detects data suspiciously located after a PNG's end header",
+   "reference": "https://www.bleepingcomputer.com/news/microsoft/windows-11-snipping-tool-privacy-bug-exposes-cropped-image-content/"
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/251031-k1deqsyjdv/",
+   "tags": [
+    "family:spynote",
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "147.185.221.223:44999"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.AVerseFalc",
+   "status": "MALICIOUS",
+   "first_seen": "2025-10-30 19:44:27",
+   "scanner_count": "38",
+   "scanner_match": "11",
+   "scanner_percent": "28.95"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69047b54be20d933485a69fb/reports/5476d34a-d5dc-49bb-8571-0518036c2ca9/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-10-30T14:29:00Z",
+   "last_seen": "2025-10-31T14:35:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/fc27e112786706f4caa3deae1a7db9a4e4f7366838135ab47a682185ce8db4a2/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

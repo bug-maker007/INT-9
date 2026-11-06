@@ -1,0 +1,117 @@
+{
+ "sha256_hash": "364874ec55fa951c63cab147431a91b3a1ccdec2d908297e5a3adaaa1d546a2e",
+ "sha3_384_hash": "3077e717bfc44e218eae3efd8511c68fe30d06e7fb14e3b62bcbb7d204de6de94142010bcca6fcc3a1203258b4036ae9",
+ "sha1_hash": "1224e60c535294221d4bee81d67ae6d8886f546c",
+ "md5_hash": "0a157372bbe821caf742f03d44207bde",
+ "first_seen": "2024-12-06 13:18:50",
+ "last_seen": null,
+ "file_name": "mellat.apk",
+ "file_size": 21745870,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "NDA0E",
+ "origin_country": "NL",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T14827334A8BA0B5EDEC7710B40E3E49F5A3527E30D517422B14782D3EC47B6BD929CAE4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:O7fN9oDKWbnhtFHGIWi87Djicpdf0wA81LVnkIJt9uvqnJUn+3QrLHfgf4:O719eHbnhtFHGy879pF91VkIJt9Dn3QF",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "BankMellat",
+  "Geo",
+  "GossRAT",
+  "IRATA",
+  "IRN"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan.AndroidOS.Agent.10759.17387.UNOFFICIAL"
+  ],
+  "downloads": "225",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3333157/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Copybara",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/364874ec55fa951c63cab147431a91b3a1ccdec2d908297e5a3adaaa1d546a2e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/241206-qkjjpsvnfl/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-12-06 14:15:28",
+   "scanner_count": "24",
+   "scanner_match": "7",
+   "scanner_percent": "29.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6752f9cc79cafe064a4ec969/reports/1bca12af-55e6-452c-a766-0ff1b76ea14a/overview"
+  }
+ },
+ "comments": null
+}

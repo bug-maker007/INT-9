@@ -1,0 +1,128 @@
+{
+ "sha256_hash": "1a5aac2a6c5a1e625821a2260675248596839806758d253156fb1c1da56ae8b9",
+ "sha3_384_hash": "3a8c8f2c8ce675056dcb567a552f9ccfe9de100910da576d4081f444d57ed6b167476e990dd1b4b4160e7db5a8861c75",
+ "sha1_hash": "7efc96bae35f14883c353224d204e9a73841aa9e",
+ "md5_hash": "67fff717824a15937e777dc2a98472df",
+ "first_seen": "2024-02-12 14:06:01",
+ "last_seen": null,
+ "file_name": "FMWhatsApp_v9.98.apk",
+ "file_size": 79930420,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "e24111111154168",
+ "origin_country": "GR",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T1C20812D2E769EC55E0F7A336D67161666A168C644B23E3B71E01F23C2EF39C0A509EC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:16qJzShywPkPnZS+/eignjMg4DmlxI0MmDS1c4sLPwpJnraBK:11mhy5nZVYj/4uu0rDSOECK",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "32.1% (.APK) Android Package (32500/1/6)",
+  "21.2% (.OXT) OpenOffice Extension (21500/1/3)",
+  "13.3% (.JAR) Java Archive (13500/1/2)",
+  "10.8% (.CATROBAT) Pocket Code/Catroid Catrobat Project (11000/1/2)",
+  "10.3% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)"
+ ],
+ "comment": "Distributed via: fmwhat.download\r\nhttps://file.fmwhat.download/FMWhatsApp_v9.98.apk",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "fmwhat.download",
+  "signed",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "579",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "malpedia",
+   "value": "https://malpedia.caad.fkie.fraunhofer.de/details/apk.triada"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "SHA512_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for SHA384/SHA512 constants",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/1a5aac2a6c5a1e625821a2260675248596839806758d253156fb1c1da56ae8b9",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "triada",
+   "score": "10",
+   "link": "https://tria.ge/reports/240212-regctshc45/",
+   "tags": [
+    "family:triada",
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2024-02-03 23:04:48",
+   "scanner_count": "38",
+   "scanner_match": "1",
+   "scanner_percent": "2.63"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65ca25d054f1a1b63b6bd8eb/reports/0130c623-5018-485c-8032-f679270e280f/overview"
+  }
+ },
+ "comments": null
+}

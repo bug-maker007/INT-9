@@ -1,0 +1,104 @@
+{
+ "sha256_hash": "3707f590732d9db861d096fece2ba5086c772eb0b36153fc8790bdfd5913188b",
+ "sha3_384_hash": "7eca42ba61f810beac2f3478b9828dfc679de831b942accf729a374030b8bd259deeb1c4d2a3d0b9d25eace681730d82",
+ "sha1_hash": "86cbc385ee64edbdf38f6676a3e9a8ab7c28f553",
+ "md5_hash": "8d3d5c9f276b2bd0cc99922712e8dd5c",
+ "first_seen": "2021-09-02 14:34:55",
+ "last_seen": null,
+ "file_name": "Chrome977086.apk",
+ "file_size": 3400719,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T1AFF5122A7F91D85DC8438834F20286CFF638578A03C1F46F1625935939B6D65272AEFB",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:/0qApWitjaQroJvwUXqkICpjzZ++NDQ7QiB3nR6DQD3kSglEWHUiSQmbna/BHtck:/0qUGQEfxIaQ7Qy3+u3/glEFba/BNr",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "alien",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.10236.17598.15335.UNOFFICIAL"
+  ],
+  "downloads": "309",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1586259/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3707f590732d9db861d096fece2ba5086c772eb0b36153fc8790bdfd5913188b/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/3707f590732d9db861d096fece2ba5086c772eb0b36153fc8790bdfd5913188b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210902-rx1jesadb6/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://t79buhbtdwf7qjwrx1hy.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-09-02 14:35:19",
+   "scanner_count": "43",
+   "scanner_match": "4",
+   "scanner_percent": "9.30"
+  }
+ },
+ "comments": null
+}

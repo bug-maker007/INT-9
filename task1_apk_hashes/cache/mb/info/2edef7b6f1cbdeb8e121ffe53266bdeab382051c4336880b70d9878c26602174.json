@@ -1,0 +1,145 @@
+{
+ "sha256_hash": "2edef7b6f1cbdeb8e121ffe53266bdeab382051c4336880b70d9878c26602174",
+ "sha3_384_hash": "7f1c5be1c99f4d539f1555b401916fd9a40539e96cca85cdda6087a546cdddb9a4411a11eb41bca9ad5cbef678ad289a",
+ "sha1_hash": "0724a1b601919fe69a122c176c11e491a3a3f6e1",
+ "md5_hash": "81163827ba42e686e739a0f17493cc7c",
+ "first_seen": "2025-01-05 22:48:25",
+ "last_seen": null,
+ "file_name": "Gold-WhatsApp-v37.00.apk",
+ "file_size": 82925147,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T1490812D7E765EC55E0F3EB358631526669168C608B13E3B32E02B63C6EF35C0A609EC5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:44kbg7cFPZBv5jK7c1c4sK0MmDMPwpJWc3Ih2BHEX0MzszK/P0T:abgQBRj+cD0rDY0BHq0ulu",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "28.5% (.APK) Android Package (27000/1/5)",
+  "22.7% (.OXT) OpenOffice Extension (21500/1/3)",
+  "14.2% (.JAR) Java Archive (13500/1/2)",
+  "11.6% (.CATROBAT) Pocket Code/Catroid Catrobat Project (11000/1/2)",
+  "11.1% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)"
+ ],
+ "comment": "https://whatsappgold.pk/files/Gold-WhatsApp-v37.00.apk",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "266",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/250105-2g8vzaxrd1/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/2edef7b6f1cbdeb8e121ffe53266bdeab382051c4336880b70d9878c26602174",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "triada",
+   "score": "10",
+   "link": "https://tria.ge/reports/250105-2rnmsazqam/",
+   "tags": [
+    "family:triada",
+    "android",
+    "discovery",
+    "execution",
+    "impact",
+    "persistence",
+    "upx"
+   ],
+   "signatures": [
+    {
+     "signature": "Patched UPX-packed file",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "UPX packed file",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.PUA.WAMod",
+   "status": "MALICIOUS",
+   "first_seen": "2024-02-10 16:24:53",
+   "scanner_count": "38",
+   "scanner_match": "2",
+   "scanner_percent": "5.26"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/677b0c9a29fce05104d195f8/reports/1a5cdcf4-393c-493b-9c29-3c30d245f33d/overview"
+  }
+ },
+ "comments": null
+}

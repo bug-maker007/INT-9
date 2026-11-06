@@ -1,0 +1,335 @@
+{
+ "sha256_hash": "09dcc7dcdb4827bcb6e8750016a8faabdc956902d55451e208d777064f634490",
+ "sha3_384_hash": "13c094ecdf79672b3e7b5b31ef68bc543c84398fdc57f0e915b094e5904b942734348edb06e2499b742f5e9a569c8061",
+ "sha1_hash": "40f0b79eea94543385f18af1af8cce6be44887ec",
+ "md5_hash": "98aa4239a19e1f28866f88b1a1b1fa6a",
+ "first_seen": "2025-02-26 16:26:15",
+ "last_seen": null,
+ "file_name": "09dcc7dcdb4827bcb6e8750016a8faabdc956902d55451e208d777064f634490.apk",
+ "file_size": 1716166,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T129853337C740227EDAD0D0B3543D3C756676327C26A7A82A25A370251867ECE0F83ABD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:HiJRbl/fZtJOA5AQWrxJIEhB3PnynFX5D3JwsOXP3pg:Kdl3fM+AprxmcB3/AFd3JEXP5g",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Coper",
+  "Octo",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan-Banker.AndroidOS.Octo-1.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.32672.1523.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan.Generic.35243918.12742.18135.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan.Generic.35358880.26987.19779.UNOFFICIAL"
+  ],
+  "downloads": "275",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "apk_flubot_w0",
+   "author": "Thomas Barabosch, Telekom Security",
+   "description": "matches on dumped, decrypted V/DEX files of Flubot version > 4.2",
+   "reference": null
+  },
+  {
+   "rule_name": "Linux_Generic_Threat_a8faf785",
+   "author": "Elastic Security",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Suspicious_Latam_MSI_and_ZIP_Files",
+   "author": "eremit4, P4nd3m1cb0y",
+   "description": "Detects suspicious .msi and .zip files used in Latam banking trojan campaigns.",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/09dcc7dcdb4827bcb6e8750016a8faabdc956902d55451e208d777064f634490/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/09dcc7dcdb4827bcb6e8750016a8faabdc956902d55451e208d777064f634490",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/250226-txps2awlv7/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo family",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the unique device ID (IMEI, MEID, IMSI)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests accessing notifications (often used to intercept notifications before users become aware).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests modifying system settings.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapimuhendislik.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapiprojesistem.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapikentseldonusum.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapikontrolmerkezi.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapihizmetleri.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapiinsaatteknolojileri.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapiguvensistemleri.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapiulasimcozumleri.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapisismikdirenc.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapikaplamateknigi.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapigeoteknikbilgi.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapisehirplanlama.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapibilimselanaliz.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapikaziteknikleri.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapigurbetciler.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapidepremdirenci.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapihidrolojikcalisma.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapimalzemebilgisi.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapigemiteknolojisi.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://tunelyapitasarimprojeleri.xyz/MzhiMTg0NTAwOTY5S/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-02-24 00:55:12",
+   "scanner_count": "38",
+   "scanner_match": "21",
+   "scanner_percent": "55.26"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67bf40b24da64cecf068bf98/reports/10a7496c-af56-46ef-8e7f-7e50f596662e/overview"
+  }
+ },
+ "comments": null
+}

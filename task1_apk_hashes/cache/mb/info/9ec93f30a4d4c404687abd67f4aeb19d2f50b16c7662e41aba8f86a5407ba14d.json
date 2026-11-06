@@ -1,0 +1,127 @@
+{
+ "sha256_hash": "9ec93f30a4d4c404687abd67f4aeb19d2f50b16c7662e41aba8f86a5407ba14d",
+ "sha3_384_hash": "4b9972295f973b9773380d49e61be1e7f89237fb1547f75a1153cbc418b0c89bca32a038b2d8512f1a02d2c51e6075e0",
+ "sha1_hash": "606a5eaf439586fc316a3befc85431091bfa786e",
+ "md5_hash": "b11e72c94d810958df65d8716d853bc3",
+ "first_seen": "2022-01-05 13:30:13",
+ "last_seen": null,
+ "file_name": "20841_Video_Oynatıcı.apk",
+ "file_size": 2504502,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T1B2C5330BFA21E0C2C7EB6630055B868750372D6E9653E9973ACE316E6B7B4D0DF1B940",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:ZxkyYHERA1iUZXObVbVIrobX57/prbB5Wk4HMIyzNZ60/KrYvTD0iXXYMZ04YKx:ZxkyYke1iiYbe0L57/ZjWJHMIyxwQKs3",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.11325.26592.16597.UNOFFICIAL"
+  ],
+  "downloads": "337",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1951013/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1951017/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/9ec93f30a4d4c404687abd67f4aeb19d2f50b16c7662e41aba8f86a5407ba14d/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/9ec93f30a4d4c404687abd67f4aeb19d2f50b16c7662e41aba8f86a5407ba14d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/220105-qsdcnaadb5/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Hydra Payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hydra",
+     "c2": "http://minaherrera5347.website"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2022-01-05 13:31:20",
+   "scanner_count": "28",
+   "scanner_match": "11",
+   "scanner_percent": "39.29"
+  },
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61d59d98bfe53d318f27a683/reports/66467d10-02ae-4dfa-9344-4a01c89b61b9/overview"
+  }
+ },
+ "comments": null
+}

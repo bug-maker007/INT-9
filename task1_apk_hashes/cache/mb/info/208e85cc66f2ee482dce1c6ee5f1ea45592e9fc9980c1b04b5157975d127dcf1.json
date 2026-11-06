@@ -1,0 +1,106 @@
+{
+ "sha256_hash": "208e85cc66f2ee482dce1c6ee5f1ea45592e9fc9980c1b04b5157975d127dcf1",
+ "sha3_384_hash": "108072f46e0045dd52e42f6a324350fde13c587d1e524089ad9efab46850b8e6040afae3478ddb1a39026c2b9c4f686a",
+ "sha1_hash": "d64e72eea8fef9266b707c2a51d541f6b011eb2a",
+ "md5_hash": "083e0870abb57368f24bf16290313a82",
+ "first_seen": "2023-01-26 12:52:25",
+ "last_seen": null,
+ "file_name": "208e85cc66f2ee482dce1c6ee5f1ea45592e9fc9980c1b04b5157975d127dcf1.apk",
+ "file_size": 934372,
+ "file_type_mime": "application/octet-stream",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "HK",
+ "anonymous": 1,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T134154CB277DE7646D909737AA84F1A484F6BC0301E83B6D944CB4AD4A40F4CB6AD0D9F",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:AUXSwi+XKOMpeXff3caF9hvyStNjjc/aQZ5MmHJ4RqZJ6yzwvf94Je:AeSMaOMeXMaQyNjS5lpD76z1",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "alien",
+  "android",
+  "apk",
+  "banking"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "775",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/208e85cc66f2ee482dce1c6ee5f1ea45592e9fc9980c1b04b5157975d127dcf1/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.05"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": null,
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "3",
+   "link": "https://tria.ge/reports/230126-p724wsfa9x/",
+   "tags": [],
+   "signatures": [
+    {
+     "signature": "Enumerates physical storage devices",
+     "score": "3"
+    },
+    {
+     "signature": "Modifies registry class",
+     "score": null
+    },
+    {
+     "signature": "Suspicious use of SetWindowsHookEx",
+     "score": null
+    },
+    {
+     "signature": "Suspicious use of WriteProcessMemory",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2023-01-23 06:17:04",
+   "scanner_count": "39",
+   "scanner_match": "8",
+   "scanner_percent": "20.51"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/63d277af89bd67c10fda6c69/reports/4ce309b9-3896-42ef-83c4-350eb5f1851a/overview"
+  }
+ },
+ "comments": null
+}

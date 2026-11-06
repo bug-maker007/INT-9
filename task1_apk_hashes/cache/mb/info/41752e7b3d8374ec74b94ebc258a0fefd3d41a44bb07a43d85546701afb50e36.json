@@ -1,0 +1,193 @@
+{
+ "sha256_hash": "41752e7b3d8374ec74b94ebc258a0fefd3d41a44bb07a43d85546701afb50e36",
+ "sha3_384_hash": "123105b7814d183b02d3c6af9609dced1567babb99c6f93cea3d28159bed400c172339f21e1a739ab3af0d0303e0de63",
+ "sha1_hash": "65fffa7ab8f7a3ff5154b6c69a3ee31186c9d012",
+ "md5_hash": "84e73c6c1a69ac3f3dedd5119080f19d",
+ "first_seen": "2025-01-14 01:16:47",
+ "last_seen": null,
+ "file_name": "Dilshod.apk",
+ "file_size": 2936165,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Alonso168957071",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "TheTruthSpy",
+ "imphash": null,
+ "tlsh": "T17FD50182F3D9BC2BCC73C03353AA063625568D158E46E7472954B36C9DFBAE44A85FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:0V1yqxc7abNLn7WvcWgEhaj+10GbHr9wzWhcAqL4iR9YO791fWFwGOLV31+snp4N:m1yqxOabNLn7RkKw0GbazjL4ZOOFwGO2",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Spyware",
+  "TheTruthSpy"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "iSpyoo Teams",
+   "issuer_cn": "iSpyoo Teams",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2014-03-29T15:27:28Z",
+   "valid_to": "2039-03-23T15:27:28Z",
+   "serial_number": "0cadc99b",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "9657df99f27c6b27ea0f39b0e90919972b847ac19cb1d1762a2b60636202de85",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "Andr.Spyware.iSpyoo-6993312-0"
+  ],
+  "downloads": "462",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/41752e7b3d8374ec74b94ebc258a0fefd3d41a44bb07a43d85546701afb50e36/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.70"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/41752e7b3d8374ec74b94ebc258a0fefd3d41a44bb07a43d85546701afb50e36",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "truthspy",
+   "score": "10",
+   "link": "https://tria.ge/reports/250114-bnc4rsvnap/",
+   "tags": [
+    "family:truthspy",
+    "android",
+    "banker",
+    "discovery",
+    "evasion",
+    "infostealer",
+    "persistence",
+    "spyware",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Truthspy",
+     "score": "10"
+    },
+    {
+     "signature": "Truthspy family",
+     "score": "10"
+    },
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the unique device ID (IMEI, MEID, IMSI)",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "truthspy",
+     "c2": "http://protocol-a.thetruthspy.com/protocols/get_synx_now.aspx"
+    },
+    {
+     "extraction": "c2",
+     "family": "truthspy",
+     "c2": "http://protocol-a.thetruthspy.com/protocols/getsetting.aspx"
+    },
+    {
+     "extraction": "c2",
+     "family": "truthspy",
+     "c2": "https://thetruth-db94a-default-rtdb.firebaseio.com"
+    },
+    {
+     "extraction": "c2",
+     "family": "truthspy",
+     "c2": "https://thetruth-db94a.firebaseio.com"
+    },
+    {
+     "extraction": "c2",
+     "family": "truthspy",
+     "c2": "http://protocol-a748.thetruthspy.com/protocols"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Nidb",
+   "status": "MALICIOUS",
+   "first_seen": "2020-11-15 01:51:20",
+   "scanner_count": "24",
+   "scanner_match": "12",
+   "scanner_percent": "50.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/6785bb1297e2575bb4bf62db/reports//overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,161 @@
+{
+ "sha256_hash": "5148ac15283b303357107ab4f4f17caf00d96291154ade7809202f9ab8746d0b",
+ "sha3_384_hash": "e4ca7d2641d09907918061441b0a069167ac756035ac583e879b0f33b2d96b19696fce61fa8a7fdfb104b3da1819602b",
+ "sha1_hash": "ace5a4e3ab9a2d25ce475ef88ddc1d3a27cacb9e",
+ "md5_hash": "4a40410e3ed082aa20d4eaa508ed451d",
+ "first_seen": "2024-06-24 07:39:41",
+ "last_seen": "2025-03-23 21:38:12",
+ "file_name": "5148ac15283b303357107ab4f4f17caf00d96291154ade7809202f9ab8746d0b.apk",
+ "file_size": 8932047,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Goovscoov",
+ "origin_country": "NL",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T107962287FB98D92BC4B79A32853B421746065D668687D7830B54F53C0CB7AC05FAAFC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:z/Xt8rpEImj6nR78YHMTJ2+dMwC+dMwU+dMwg+dMws+dMwi:zvApC6R78YY2qMwCqMwUqMwgqMwsqMwi",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "35.5% (.APK) Android Package (32500/1/6)",
+  "32.7% (.SPE) SPSS Extension (30000/1/7)",
+  "14.7% (.JAR) Java Archive (13500/1/2)",
+  "11.4% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "4.3% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "rafelRAT",
+  "signed",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Backdoor.828.origin.30550.7598.UNOFFICIAL"
+  ],
+  "downloads": "561",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://research.checkpoint.com/2024/rafel-rat-android-malware-from-espionage-to-ransomware-operations/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5148ac15283b303357107ab4f4f17caf00d96291154ade7809202f9ab8746d0b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "SNC",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/5148ac15283b303357107ab4f4f17caf00d96291154ade7809202f9ab8746d0b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/240624-jhjclavbjk/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Probable phishing domain",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.RefalRat",
+   "status": "MALICIOUS",
+   "first_seen": "2024-05-18 23:23:53",
+   "scanner_count": "38",
+   "scanner_match": "11",
+   "scanner_percent": "28.95"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/667922d4ea679c2da918d2c6/reports/8d629404-a112-48cb-9e6e-5cc4105e4f3a/overview"
+  }
+ },
+ "comments": null
+}

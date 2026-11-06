@@ -1,0 +1,86 @@
+{
+ "sha256_hash": "9d52c85804d3059ca07cc15e98f41befe699650ee86c67de8cf21bd6b08e3b3b",
+ "sha3_384_hash": "1430c29e0124dc7b156d946d428080546bbf41d4fc86953fffcb61674f592530c09262b2b5f19700b032d913322169e5",
+ "sha1_hash": "039058bb18de398078b0858f2b5ed1af7a6b699b",
+ "md5_hash": "6964e9ed0a8965b74ef89173b5205b9c",
+ "first_seen": "2021-02-04 07:52:18",
+ "last_seen": null,
+ "file_name": "9d52c85804d3059ca07cc15e98f41befe699650ee86c67de8cf21bd6b08e3b3b",
+ "file_size": 15924378,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Anubis",
+ "imphash": null,
+ "tlsh": "28F62387F784E02EC477D03346A2163A61574C1A8F8BD7476A68B21C5DBBAC44F5AFC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:iy7YDqs83xzZcFt1O6+/V3pue/UZUhhwCrn21oZ:fZsjO/V3pn/0vCDJ",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "APTC23"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.764.origin.15684.20194.UNOFFICIAL"
+  ],
+  "downloads": "228",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "anubis",
+   "link": "https://mwdb.cert.pl/sample/9d52c85804d3059ca07cc15e98f41befe699650ee86c67de8cf21bd6b08e3b3b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Generisk",
+   "score": "0.40"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": null,
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "3",
+   "link": "https://tria.ge/reports/210204-qv2sfphyd6/",
+   "tags": [
+    "android",
+    "obfuscation"
+   ],
+   "signatures": [
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2020-11-30 14:25:18",
+   "scanner_count": "45",
+   "scanner_match": "8",
+   "scanner_percent": "17.78"
+  }
+ },
+ "comments": null
+}

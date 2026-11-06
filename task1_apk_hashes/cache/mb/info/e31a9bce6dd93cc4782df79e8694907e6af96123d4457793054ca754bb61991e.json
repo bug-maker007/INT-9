@@ -1,0 +1,134 @@
+{
+ "sha256_hash": "e31a9bce6dd93cc4782df79e8694907e6af96123d4457793054ca754bb61991e",
+ "sha3_384_hash": "cfcb1cb22e6df379fda064814c33456e1972efa096d87f6587bd6e529753c7b481abb592125ea11af634648889417c8e",
+ "sha1_hash": "3fbd8503c12f5057c9ad4386c5bda13f6297d6c0",
+ "md5_hash": "c6853d19fcf29b23c4d73a527d0c6926",
+ "first_seen": "2025-01-05 22:40:39",
+ "last_seen": null,
+ "file_name": "whatsappgold.apk",
+ "file_size": 90865799,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T11F182252E7699C07C1F3F372DBB16282168A0D846787F2EB6992F27D46F38C29580DD4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:u4jTgH9ojBGXHqzDExuKuScdctX5vllAU9h1UWz4yldV:6dojAKzIuKbcYX5teuA1wL",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "21.5% (.SPE) SPSS Extension (30000/1/7)",
+  "19.4% (.APK) Android Package (27000/1/5)",
+  "15.4% (.OXT) OpenOffice Extension (21500/1/3)",
+  "10.4% (.LBX) P-touch Editor Label (14500/1/2)",
+  "9.7% (.JAR) Java Archive (13500/1/2)"
+ ],
+ "comment": "https://dl.downgamespc.com/wats/whatsappgold.apk",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "261",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/250105-2gy1rszpbk/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/e31a9bce6dd93cc4782df79e8694907e6af96123d4457793054ca754bb61991e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "triada",
+   "score": "10",
+   "link": "https://tria.ge/reports/250105-2l36aaxrgs/",
+   "tags": [
+    "family:triada",
+    "android",
+    "discovery",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Legitimate hosting services abused for malware hosting/C2",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2024-12-02 16:11:57",
+   "scanner_count": "37",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/677b0a826828f7ee73a2a4ff/reports/34ded986-8c07-4e31-a347-6d868b8fe30e/overview"
+  }
+ },
+ "comments": null
+}

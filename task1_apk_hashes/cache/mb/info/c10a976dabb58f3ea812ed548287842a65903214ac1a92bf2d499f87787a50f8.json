@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "c10a976dabb58f3ea812ed548287842a65903214ac1a92bf2d499f87787a50f8",
+ "sha3_384_hash": "c25149f73774c4de086e2e8cf8d7602f804d89d53dcedf3e42a6a806c8aa138d8f050a82d96ce587607c7905abf460e8",
+ "sha1_hash": "3c03d0bfc54f5fccf029f14f9a996c70d4f16014",
+ "md5_hash": "7c5e83a49bbe44113c444524cbe7124b",
+ "first_seen": "2021-08-10 15:31:46",
+ "last_seen": null,
+ "file_name": "Chrome709341.apk",
+ "file_size": 4013915,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T1CE061226AF818865F1476970F5038243712947A70941F42F8A3678AB3DA7E605B3EDFF",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:8Cu1BeWBFCXIaVzW8lOqX/31qbm8fGH7b/5:4I7dV1qGbbx",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "alien",
+  "alienbot",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.9961.3222.27082.UNOFFICIAL"
+  ],
+  "downloads": "242",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1523963/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c10a976dabb58f3ea812ed548287842a65903214ac1a92bf2d499f87787a50f8/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c10a976dabb58f3ea812ed548287842a65903214ac1a92bf2d499f87787a50f8",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210810-brbmh8dxe2/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://rndhsadjersxexdd.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-08-10 15:32:07",
+   "scanner_count": "46",
+   "scanner_match": "6",
+   "scanner_percent": "13.04"
+  }
+ },
+ "comments": [
+  {
+   "id": "21531",
+   "date_added": "2021-08-10 15:34:34",
+   "twitter_handle": "unidentified0xc",
+   "display_name": "unidentified ",
+   "comment": "ad site, for view use android user agent: https://das34edf34234sd.xyz/ServiceUpdate543005/?pop"
+  },
+  {
+   "id": "21532",
+   "date_added": "2021-08-10 15:34:36",
+   "twitter_handle": "unidentified0xc",
+   "display_name": "unidentified ",
+   "comment": "ad site, for view use android user agent: https://das34edf34234sd.xyz/ServiceUpdate543005/?pop"
+  }
+ ]
+}

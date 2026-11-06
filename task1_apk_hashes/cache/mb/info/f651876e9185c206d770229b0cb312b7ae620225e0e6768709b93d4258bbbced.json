@@ -1,0 +1,135 @@
+{
+ "sha256_hash": "f651876e9185c206d770229b0cb312b7ae620225e0e6768709b93d4258bbbced",
+ "sha3_384_hash": "f6975c24ba98071a23fd9862ab3825c994a9dc31d38c47d0d5e2709ab03d7065b47cf7fe1c19251a7c4f94471a9eccd9",
+ "sha1_hash": "9cb266426261bb8e2c4488d1ac316fc0b98454b5",
+ "md5_hash": "b3f27683415acb46724aba86b949acc4",
+ "first_seen": "2026-07-10 14:42:25",
+ "last_seen": null,
+ "file_name": "app.apk",
+ "file_size": 18601130,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1C317239BEBC45D5AC8F31732843A5AA244478C268B839BC79F44367C58B76D40F4EBC9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:0m1Bl750UVXv+kV0kloCLCE5UDjFz3icErnex3Sjvw99H/6:h3J50UVXv+w0BCL8YcEb83SC9H/6",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Banker",
+  "Dropper",
+  "GiftVault",
+  "Malware",
+  "signed",
+  "Spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "md5WithRSAEncryption",
+   "valid_from": "2008-04-15T22:40:50Z",
+   "valid_to": "2035-09-01T22:40:50Z",
+   "serial_number": "b3998086d056cffa",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "400",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/f651876e9185c206d770229b0cb312b7ae620225e0e6768709b93d4258bbbced/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260710-r3aj7adw3s/",
+   "tags": [
+    "android",
+    "evasion",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Egairtigado",
+   "status": "MALICIOUS",
+   "first_seen": "2026-07-10 14:43:42",
+   "scanner_count": "38",
+   "scanner_match": "9",
+   "scanner_percent": "23.68"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a5104dd98e301cf94f59b5d/reports/419a062b-bfb3-437a-b62b-e78c6af011a4/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-10T12:11:00Z",
+   "last_seen": "2026-07-11T21:55:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/f651876e9185c206d770229b0cb312b7ae620225e0e6768709b93d4258bbbced/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

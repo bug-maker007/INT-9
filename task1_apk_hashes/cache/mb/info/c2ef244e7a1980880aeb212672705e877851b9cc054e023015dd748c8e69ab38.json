@@ -1,0 +1,123 @@
+{
+ "sha256_hash": "c2ef244e7a1980880aeb212672705e877851b9cc054e023015dd748c8e69ab38",
+ "sha3_384_hash": "87d6eea3a8a5e682f5f66c602ddd55084719a8899a899ec3b308005a643cd36f81ab680d5db085766d1286cfbf6aaf68",
+ "sha1_hash": "ee108de379a86d9573a2e474e63d96a1abc83e01",
+ "md5_hash": "2e163c1515b7fd0c256cad114136317f",
+ "first_seen": "2021-12-12 15:54:21",
+ "last_seen": null,
+ "file_name": "19354_Video_Oynatıcı.apk",
+ "file_size": 4741967,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ozuma5119",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T1642633D97DD5CC4DDCCB6F308083840BA522A2695548C03F935A67012EB6BFC5D6FABA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:xaqyvw94EtSoraWuTagXDsunQqRCPWLMCBfyxr3aLXyXs:xaItSorbeDnnku4gyN3aWXs",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Hydra",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.PUA.Android.JPush-1.UNOFFICIAL"
+  ],
+  "downloads": "541",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c2ef244e7a1980880aeb212672705e877851b9cc054e023015dd748c8e69ab38/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.06"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c2ef244e7a1980880aeb212672705e877851b9cc054e023015dd748c8e69ab38",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/211212-tcsdesdfep/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hydra",
+     "c2": "http://adellebruce437547.website"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2021-12-12 15:55:29",
+   "scanner_count": "28",
+   "scanner_match": "13",
+   "scanner_percent": "46.43"
+  },
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61b61b592a069372660e78bd/reports/88df233b-caa0-46c2-88a5-8a41cbead1c8/overview"
+  }
+ },
+ "comments": null
+}

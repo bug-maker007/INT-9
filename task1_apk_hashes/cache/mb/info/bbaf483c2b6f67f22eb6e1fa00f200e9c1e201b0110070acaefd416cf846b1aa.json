@@ -1,0 +1,177 @@
+{
+ "sha256_hash": "bbaf483c2b6f67f22eb6e1fa00f200e9c1e201b0110070acaefd416cf846b1aa",
+ "sha3_384_hash": "b4267a45b84731fa08105ea48ccc77b9c506cee291a0df3e52d8d27eb321f66587671de20e16deb9f77eae4b6d606a61",
+ "sha1_hash": "bff351735b6153339cc8d52089495db0533392b3",
+ "md5_hash": "4b0e93354da17984f0bef68b9ab83380",
+ "first_seen": "2023-03-07 17:31:43",
+ "last_seen": null,
+ "file_name": "Chrome (2).apk",
+ "file_size": 4962211,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "sysk1ll3r",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "Sova",
+ "imphash": null,
+ "tlsh": "T1CA361243F7DAB96BECF3C3325775972611078C6A8B43D643584476BC18BBAC04E86AD8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:pza2GxDDbL6zkfwe+0F3hoiLUpbcqon9BsTBAx5r3LyNXvOwxHMRA2QAFZ:pzMxDDbL6ew6Ro6Szo9BCBAxs8wtkA2f",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "57.0% (.APK) Android Package (38500/1/9)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "15.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Sova"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.28774.22237.UNOFFICIAL"
+  ],
+  "downloads": "295",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/bbaf483c2b6f67f22eb6e1fa00f200e9c1e201b0110070acaefd416cf846b1aa/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/bbaf483c2b6f67f22eb6e1fa00f200e9c1e201b0110070acaefd416cf846b1aa",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "sova_v5",
+   "score": "10",
+   "link": "https://tria.ge/reports/230307-v39wtsad7t/",
+   "tags": [
+    "family:sova",
+    "family:sova_v5",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "SOVA_v5 payload",
+     "score": "10"
+    },
+    {
+     "signature": "Sova",
+     "score": "10"
+    },
+    {
+     "signature": "Sova_v5",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "sova_v5",
+     "c2": "aHR0cDovL25leHN1c2xhemltLm5ldDo1MDAw"
+    },
+    {
+     "extraction": "c2",
+     "family": "sova_v5",
+     "c2": "aHR0cDovLzUuMTYxLjIzLjEyMjo1MDAw"
+    },
+    {
+     "extraction": "c2",
+     "family": "sova_v5",
+     "c2": "aHR0cDovL25leHN1c2xhemltMS5uZXQ6NTAwMA\\u003d\\u003d"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Boogr",
+   "status": "MALICIOUS",
+   "first_seen": "2023-03-07 17:44:32",
+   "scanner_count": "25",
+   "scanner_match": "11",
+   "scanner_percent": "44.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.1",
+   "confidence": "0.5",
+   "report_link": "https://www.filescan.io/uploads/640775137f18ce9b0180688f/reports/3424ef42-c366-4efc-ace0-1599a3c71751/overview"
+  }
+ },
+ "comments": null
+}

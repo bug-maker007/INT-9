@@ -1,0 +1,109 @@
+{
+ "sha256_hash": "023e02adb7e56c57feda0501fb3977dd9a62214f9983aac79c0f9d3ec0526c8b",
+ "sha3_384_hash": "188af1995aa84ad91d08d0e93bf29a9fe0b4637d4e94fb21f9b3ac991e4fbd17417ffb47e67d7251f9f1261fa61e031b",
+ "sha1_hash": "b3ff81e6c6fa4529db5e4f1162197c0b4ad55af6",
+ "md5_hash": "161f6ee45f8dc103c1abd5b0e777258e",
+ "first_seen": "2025-04-27 15:29:32",
+ "last_seen": null,
+ "file_name": "Mahakumbh Prashad.apk",
+ "file_size": 4446192,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "theb47m4n",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T18626120BFB45DA5FC8FA83B64936267511076C2A87A39347C9AC723C287B5D09EC5EC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:JyDYisLFQC87BJy4yAVy2ggMaQGOo2VoUVY:JfLFQC8tJdy+yuOo2vVY",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "66.6% (.WIDGET) Konfabulator widget (8000/1/2)",
+  "33.3% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "Distributed via phishing website or mobile forward.",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SpyNote"
+ ],
+ "code_sign": null,
+ "delivery_method": "multiple",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.PUA.Android.JPush-1.UNOFFICIAL"
+  ],
+  "downloads": "150",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/023e02adb7e56c57feda0501fb3977dd9a62214f9983aac79c0f9d3ec0526c8b/"
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250427-wkvvmazjw9/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "31.13.224.176:1338"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-04-22 23:48:11",
+   "scanner_count": "36",
+   "scanner_match": "10",
+   "scanner_percent": "27.78"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/680e7076218c4a98ade404c4/reports/e1a2653f-0307-43b9-be87-1bc2a96acd30/overview"
+  }
+ },
+ "comments": null
+}

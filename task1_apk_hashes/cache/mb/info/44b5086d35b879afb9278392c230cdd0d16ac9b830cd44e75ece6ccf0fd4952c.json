@@ -1,0 +1,110 @@
+{
+ "sha256_hash": "44b5086d35b879afb9278392c230cdd0d16ac9b830cd44e75ece6ccf0fd4952c",
+ "sha3_384_hash": "806150ffdcc75ee4b61ef0231dd47513ccdab209ded4b45ae691ccd5475e618742b519f59c137ae6cacc1f09d9e1ffbe",
+ "sha1_hash": "c452a3b8606fb7eb345b208713220e08e6cdf60f",
+ "md5_hash": "2e4e7b02fa56610bce2968c20d55814f",
+ "first_seen": "2026-06-17 13:03:17",
+ "last_seen": "2026-06-17 18:24:15",
+ "file_name": "MParivan.apk",
+ "file_size": 12472801,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1B3C63309F43E4826EC9574787E0507AB393428649320D21B1532573EFFB76CAE67AAA4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:pvPG6yW82uAYI+l95892853JDSPn5+4ob0zBRGjU4cEnQiJBEeGxkGgu/7hQC2N/:pnGsuAYN9K928K5Bobi5EfOxkGzD1Y/",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "BankBot",
+  "Banker",
+  "GOI",
+  "mParivahan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "263",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "elf_arm_mips_ko_so",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "SUSP_ZIP_Smuggling_Jun01",
+   "author": "delivr.to",
+   "description": "ZIP archives with data smuggled between last file record and the central directory.",
+   "reference": "https://github.com/Octoberfest7/zip_smuggling/"
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/44b5086d35b879afb9278392c230cdd0d16ac9b830cd44e75ece6ccf0fd4952c/"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260617-qblbyafz8n/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-06-01 21:10:25",
+   "scanner_count": "24",
+   "scanner_match": "4",
+   "scanner_percent": "16.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a329b72a419cb85d28c3514/reports/ee5022a0-1b05-48f2-ab11-402095e091af/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-06-01T15:58:00Z",
+   "last_seen": "2026-06-17T23:45:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/44b5086d35b879afb9278392c230cdd0d16ac9b830cd44e75ece6ccf0fd4952c/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

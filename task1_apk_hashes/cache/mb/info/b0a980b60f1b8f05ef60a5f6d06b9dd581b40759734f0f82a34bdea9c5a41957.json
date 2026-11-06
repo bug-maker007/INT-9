@@ -1,0 +1,112 @@
+{
+ "sha256_hash": "b0a980b60f1b8f05ef60a5f6d06b9dd581b40759734f0f82a34bdea9c5a41957",
+ "sha3_384_hash": "301e5a0a17733087df8b1a1faf517561db3cd1cb5e947aaab7a0e5d833b7697359653f56c6fbb70c9cb80d2eb7fec552",
+ "sha1_hash": "921227a788afdecf691f599f65055ae2033b0522",
+ "md5_hash": "f66b777695ee9e7d88dba88f92f9078d",
+ "first_seen": "2026-08-19 12:21:14",
+ "last_seen": null,
+ "file_name": "release.apk",
+ "file_size": 21731472,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T15B272387FB49995AC4FB43B24136972401474D268B83DBC79E58317C68BB6D03FADAC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:lTlQAQTwTfeVGHza5cdu+w33FIdFXBGWOLWSJD3+ymWGD+u:IFTAaGqp+w33F8FXsWOtJz+JD+u",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "46.2% (.VYM) VYM Mind Map (12500/1/3)",
+  "38.8% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "14.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Malware",
+  "Riskware",
+  "SpyAgent",
+  "TikTok",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "236",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260819-pjnxcseh93/",
+   "tags": [
+    "android",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-08-19 12:23:34",
+   "scanner_count": "38",
+   "scanner_match": "6",
+   "scanner_percent": "15.79"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a859fd6adc33725e30fa50f/reports/772a65e9-470e-464e-8975-e9fa42036c95/overview"
+  }
+ },
+ "comments": null
+}

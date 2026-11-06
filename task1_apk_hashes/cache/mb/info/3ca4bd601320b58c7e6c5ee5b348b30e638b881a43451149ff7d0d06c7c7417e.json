@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "3ca4bd601320b58c7e6c5ee5b348b30e638b881a43451149ff7d0d06c7c7417e",
+ "sha3_384_hash": "3c676cfc0577b9b7f09daa58fcd602c797df2ccffbd7542f2a1866cee35e52df6d041a7be49a4cef162f37a9fd60a78c",
+ "sha1_hash": "03bea708745cf49239ed7661b1d9bdbef629b4c7",
+ "md5_hash": "05b74bc0d73c7f3e6e63101800c06b2f",
+ "first_seen": "2026-09-06 14:05:01",
+ "last_seen": null,
+ "file_name": "3ca4bd601320b58c7e6c5ee5b348b30e638b881a43451149ff7d0d06c7c7417e.raw",
+ "file_size": 16203,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ApiValex73693",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1F072AF0EEBAC401FF5569438792C433A8664DE70174A7FEA31EE82142E873281F687D5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "384:Cw2BRBi+1tlpKoiGExf/eMW6ahQJg6xy6:CvBRE+XKGExf/eMW6YQW6P",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "cowrie",
+  "dionaea",
+  "honeypot",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2026-09-05T10:13:57Z",
+   "valid_to": "2056-08-28T10:13:57Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "78e2d7a9da6b008655ea3c0e469acee28375b546871074db66529101ca879f10",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "241",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "SUSP_ZIP_Smuggling_Jun01",
+   "author": "delivr.to",
+   "description": "ZIP archives with data smuggled between last file record and the central directory.",
+   "reference": "https://github.com/Octoberfest7/zip_smuggling/"
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3ca4bd601320b58c7e6c5ee5b348b30e638b881a43451149ff7d0d06c7c7417e/"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260906-rmdlxaweld/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Egairtigado",
+   "status": "MALICIOUS",
+   "first_seen": "2026-09-06 14:18:25",
+   "scanner_count": "24",
+   "scanner_match": "7",
+   "scanner_percent": "29.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a9d762447c85616371713b8/reports/f0683332-e328-4425-80c9-38d235ba5f29/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-06T12:36:00Z",
+   "last_seen": "2026-09-08T05:54:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/3ca4bd601320b58c7e6c5ee5b348b30e638b881a43451149ff7d0d06c7c7417e/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

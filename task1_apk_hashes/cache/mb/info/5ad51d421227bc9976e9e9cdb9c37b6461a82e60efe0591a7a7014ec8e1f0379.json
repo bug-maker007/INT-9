@@ -1,0 +1,117 @@
+{
+ "sha256_hash": "5ad51d421227bc9976e9e9cdb9c37b6461a82e60efe0591a7a7014ec8e1f0379",
+ "sha3_384_hash": "8a16bebe3e6ac536516bf506fdb30ad59d960e031967b01349b9b2b342fb6b4cc3834c952b687d8a387193d6280eeea8",
+ "sha1_hash": "7fc3a4e7c47fe6475e0ad59c7dba58b3aa11a3f3",
+ "md5_hash": "3afcc8c451de88409428884a23a1f11e",
+ "first_seen": "2023-12-02 12:26:33",
+ "last_seen": null,
+ "file_name": "t.apk",
+ "file_size": 669952,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "TR",
+ "anonymous": 1,
+ "signature": "Octo",
+ "imphash": null,
+ "tlsh": "T1E1E42378B70248ACC7CC9FB40D838F5B827593C55926F99BBC8154665F80A758EB8E3C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:0vzCBTYDpbWntFLg7Omjx6vFJuyGbeXU52hVj0Bui0fDO+cRn6Ait:0uBkVK7mxEJuyUeXUEDje0fDPAe",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Octo",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.Coper.2744.22391.29411.UNOFFICIAL"
+  ],
+  "downloads": "403",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Lib_Packer",
+   "author": "R3R0K",
+   "description": "Android.Lib_Packer",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5ad51d421227bc9976e9e9cdb9c37b6461a82e60efe0591a7a7014ec8e1f0379/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/5ad51d421227bc9976e9e9cdb9c37b6461a82e60efe0591a7a7014ec8e1f0379",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/231202-pmq6wsch2x/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-11-30 01:27:20",
+   "scanner_count": "37",
+   "scanner_match": "5",
+   "scanner_percent": "13.51"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/656b6236380413dc0c2c4f2c/reports//overview"
+  }
+ },
+ "comments": null
+}

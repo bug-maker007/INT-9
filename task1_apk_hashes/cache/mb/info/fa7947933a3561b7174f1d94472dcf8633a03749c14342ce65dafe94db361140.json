@@ -1,0 +1,135 @@
+{
+ "sha256_hash": "fa7947933a3561b7174f1d94472dcf8633a03749c14342ce65dafe94db361140",
+ "sha3_384_hash": "d1367c7485ec685cc64f8044c201488c3c7caf5971ebdfa0f0de37e7c805ecf322398c1fb0d29cdcfbc695c4074d54a8",
+ "sha1_hash": "54bcf3864770397a2ea3459e050d8766c0bea1cf",
+ "md5_hash": "dae48773e7003fe8e86ed4216bae2727",
+ "first_seen": "2022-11-24 08:03:39",
+ "last_seen": null,
+ "file_name": "SharkBot (16).apk",
+ "file_size": 15635970,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "SharkBot",
+ "imphash": null,
+ "tlsh": "T1FDF6238BFB98C51FD9735632C92B413372A35E082492ABB62311F3281977D425F56FCA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:E5eWG+vt+Y/BmacX7X52NWdXJq2TN2ydDwzpGrfum7F:WIEt+KqgY5MVcF",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "43.7% (.APK) Android Package (38500/1/9)",
+  "15.3% (.JAR) Java Archive (13500/1/2)",
+  "14.2% (.VYM) VYM Mind Map (12500/1/3)",
+  "11.9% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "9.0% (.XPI) Mozilla Firefox browser extension (8000/1/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SharkBot",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Romans Makarovs",
+   "issuer_cn": "Romans Makarovs",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2022-06-23T12:24:53Z",
+   "valid_to": "2047-06-17T12:24:53Z",
+   "serial_number": "6c8a6bdd",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "26c2d66dd511811034ecd661094de6e67019abf628519eaea796eae23c516161",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "341",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/fa7947933a3561b7174f1d94472dcf8633a03749c14342ce65dafe94db361140/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/fa7947933a3561b7174f1d94472dcf8633a03749c14342ce65dafe94db361140",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/221124-jyb88adc8t/",
+   "tags": [
+    "android",
+    "evasion",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Malware.Sharkbot",
+   "status": "MALICIOUS",
+   "first_seen": "2022-11-23 11:16:40",
+   "scanner_count": "41",
+   "scanner_match": "6",
+   "scanner_percent": "14.63"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "0.75",
+   "report_link": "https://www.filescan.io/uploads/637f257d01e2438071a3dcc1/reports/d4332fa0-7488-4a65-a93b-5bf7b9d850c2/overview"
+  }
+ },
+ "comments": null
+}

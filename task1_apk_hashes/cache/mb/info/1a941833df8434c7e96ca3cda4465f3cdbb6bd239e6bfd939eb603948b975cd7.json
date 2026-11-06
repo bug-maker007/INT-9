@@ -1,0 +1,170 @@
+{
+ "sha256_hash": "1a941833df8434c7e96ca3cda4465f3cdbb6bd239e6bfd939eb603948b975cd7",
+ "sha3_384_hash": "dcf6845ac4cecb4d8d966e9d594342be14e568637b8da8afedb51c34c04c3a7a885892d47b6be86e611873aab88489d5",
+ "sha1_hash": "7acf937aa42365aed9940d94c9630e00116ed003",
+ "md5_hash": "33daeac2909d8939131624da0312be52",
+ "first_seen": "2025-01-13 17:42:32",
+ "last_seen": null,
+ "file_name": "1a941833df8434c7e96ca3cda4465f3cdbb6bd239e6bfd939eb603948b975cd7.apk",
+ "file_size": 727504,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Alonso168957071",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1AFF43301E32BD727F4DA69B7927A3095ED72A5480E08BC4BC6A16D9501F2E1F9847FCC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:ecdACA79Qkxnx17HhqRLNjj3KNtKV44Tmv+it8VvU/+Cyjuwb:zuC2Qkb17H4TDKNtKS6mgrb",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "sfsf",
+   "issuer_cn": "sfsf",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2014-05-13T03:54:56Z",
+   "valid_to": "2135-04-14T03:54:56Z",
+   "serial_number": "0499859d",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fbddb715134c06a679eac638b19054a55d5c57f3d69bd5a706e89493a35dba0e",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "Andr.Malware.Generic-5309769-0"
+  ],
+  "downloads": "561",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "elf_arm_mips_ko_so",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "F01_s1ckrule",
+   "author": "s1ckb017",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "ldpreload",
+   "author": "xorseed",
+   "description": null,
+   "reference": "https://stuff.rop.io/"
+  },
+  {
+   "rule_name": "linux_generic_ipv6_catcher",
+   "author": "@_lubiedo",
+   "description": "ELF samples using IPv6 addresses",
+   "reference": null
+  },
+  {
+   "rule_name": "MD5_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for MD5 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "setsockopt",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for setsockopt() red flags",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1a941833df8434c7e96ca3cda4465f3cdbb6bd239e6bfd939eb603948b975cd7/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/1a941833df8434c7e96ca3cda4465f3cdbb6bd239e6bfd939eb603948b975cd7",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/250113-waka5stlbm/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Backdoor.SpyDealer",
+   "status": "MALICIOUS",
+   "first_seen": "2016-05-21 01:10:36",
+   "scanner_count": "38",
+   "scanner_match": "14",
+   "scanner_percent": "36.84"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6785512029aa5532fbe36b0d/reports/ecab0e54-d253-412f-910f-88c0092b4ba9/overview"
+  }
+ },
+ "comments": null
+}

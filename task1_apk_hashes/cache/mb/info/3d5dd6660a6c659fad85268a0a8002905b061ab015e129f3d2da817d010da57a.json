@@ -1,0 +1,120 @@
+{
+ "sha256_hash": "3d5dd6660a6c659fad85268a0a8002905b061ab015e129f3d2da817d010da57a",
+ "sha3_384_hash": "1a83635e52bc14917f52572d027c21324df89f3c843190cdc722784a13a73e156e87327885ed1756d8015974e62744f5",
+ "sha1_hash": "dd51c6498c34c98142c2cb45c71a26622a1d3720",
+ "md5_hash": "a6cc49497d43508e8e4d1149f148a4f2",
+ "first_seen": "2024-04-16 09:47:44",
+ "last_seen": "2025-03-24 04:13:02",
+ "file_name": "Mad-rat-3 (1).apk",
+ "file_size": 2834505,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T182D52347F3A6B81BC9F6C33212A4263921374D198B47F789B54873B970FBAE84B851D4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:a/a0ZOty1WmU9nZ22I4aiPah3IPz3C8bz/NOmj4IWAMW6AUd9RsYUY8:whZey1qZzUhYPz3bzAmj4IWlld9RH+",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "406",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3d5dd6660a6c659fad85268a0a8002905b061ab015e129f3d2da817d010da57a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/3d5dd6660a6c659fad85268a0a8002905b061ab015e129f3d2da817d010da57a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240416-lsrstseg52/",
+   "tags": [
+    "family:irata",
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Backdoor.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2024-04-16 03:39:49",
+   "scanner_count": "24",
+   "scanner_match": "10",
+   "scanner_percent": "41.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/661e495747bfd8641eac70ee/reports//overview"
+  }
+ },
+ "comments": null
+}

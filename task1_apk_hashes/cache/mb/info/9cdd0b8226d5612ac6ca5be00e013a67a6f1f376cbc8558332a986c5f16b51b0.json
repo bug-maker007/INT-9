@@ -1,0 +1,117 @@
+{
+ "sha256_hash": "9cdd0b8226d5612ac6ca5be00e013a67a6f1f376cbc8558332a986c5f16b51b0",
+ "sha3_384_hash": "3e571206aec0607d4f269e5ca259fd6db718ee7bf6a4b508393d93f9dc21064567c2f3774be810dcab4a5d3897513e87",
+ "sha1_hash": "25bf8735a0e3b59ac6774e7b6fc8985309943212",
+ "md5_hash": "5a3f36c2d3f07331872b049aadb9e49f",
+ "first_seen": "2024-05-04 08:19:54",
+ "last_seen": "2024-05-04 08:19:54",
+ "file_name": "base.apk",
+ "file_size": 3887696,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "CyberMAN_noBODY",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "BankBot",
+ "imphash": null,
+ "tlsh": "T16F060295E7166586F8E39D34109AD083E52CEB4CCD54FA1F1B54B88AA727CC036C6CFA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:NYADrrUl2OeaKK5NOQwVe/3bGrpqQBx3k/8Y+fo12:OAX5OsuNLAck4/2fW2",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "56.0% (.APK) Android Package (32500/1/6)",
+  "23.2% (.JAR) Java Archive (13500/1/2)",
+  "12.0% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "6.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "bankbot",
+  "banker",
+  "dropper",
+  "edevlet",
+  "malware",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.9434.20333.30779.UNOFFICIAL"
+  ],
+  "downloads": "586",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/9cdd0b8226d5612ac6ca5be00e013a67a6f1f376cbc8558332a986c5f16b51b0/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/240504-j8er4abc28/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2024-05-03 11:37:58",
+   "scanner_count": "37",
+   "scanner_match": "10",
+   "scanner_percent": "27.03"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6635efb8de9c2e31030b2d52/reports/395e7c3e-91c8-4cf6-a711-a52b3b2f802c/overview"
+  }
+ },
+ "comments": null
+}

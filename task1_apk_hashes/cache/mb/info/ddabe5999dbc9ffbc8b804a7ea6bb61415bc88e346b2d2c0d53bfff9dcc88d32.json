@@ -1,0 +1,159 @@
+{
+ "sha256_hash": "ddabe5999dbc9ffbc8b804a7ea6bb61415bc88e346b2d2c0d53bfff9dcc88d32",
+ "sha3_384_hash": "e7e9ca5af82e9978121c165776bd47caaae0d7f9847952b04bb74457aa3968ee29485dda6c41a83086e17f89bcfa2e11",
+ "sha1_hash": "dede2bbf3c768f425f8aa33e4cc84b54d2c420de",
+ "md5_hash": "23e49cc28a5feeed4b9e362aa43e158a",
+ "first_seen": "2022-09-25 14:11:13",
+ "last_seen": null,
+ "file_name": "DDABE5999DBC9FFBC8B804A7EA6BB61415BC88E346B2D2C0D53BFFF9DCC88D32.apk",
+ "file_size": 4145298,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "myonium1",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "TeaBot",
+ "imphash": null,
+ "tlsh": "T135163382BBB561A4F9ABD63504EA93B7F29AC904444BF9EF15007112B573E40CF379CA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:znWe8B4SyAR3u9E48GT3WC9ricWgyqTG+IicpcpYUBvBON:T829GmE4T59ricWgDTGjn/UBvU",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "52.3% (.APK) Android Package (38500/1/9)",
+  "18.3% (.JAR) Java Archive (13500/1/2)",
+  "14.2% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "8.1% (.KMZ) Google Earth saved working session (6000/1/1)",
+  "5.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Anatsa",
+  "apk",
+  "signed",
+  "Teabot"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "np",
+   "issuer_cn": "np",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2021-04-25T09:03:56Z",
+   "valid_to": "3020-08-26T09:03:56Z",
+   "serial_number": "045ff9a3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "492682f877607ee99df2ddd2bd5953fd727bdf6e19d397de9dbbafd582bcad75",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "Sanesecurity.Foxhole.Zip_SFN1.UNOFFICIAL",
+   "SecuriteInfo.com.Adware.Android.Deng-1.UNOFFICIAL"
+  ],
+  "downloads": "567",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ddabe5999dbc9ffbc8b804a7ea6bb61415bc88e346b2d2c0d53bfff9dcc88d32/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ddabe5999dbc9ffbc8b804a7ea6bb61415bc88e346b2d2c0d53bfff9dcc88d32",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "teabot",
+   "score": "10",
+   "link": "https://tria.ge/reports/220925-rhvdvsgcaj/",
+   "tags": [
+    "family:joker",
+    "family:teabot",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "TeaBot",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "joker",
+     "c2": "http://meglivesdk.oss-cn-hangzhou.aliyuncs.com"
+    },
+    {
+     "extraction": "c2",
+     "family": "teabot",
+     "c2": "http://51.38.166.153:80/api/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2022-02-09 07:44:00",
+   "scanner_count": "26",
+   "scanner_match": "13",
+   "scanner_percent": "50.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/633061d76963f27ddc324ff2/reports/f9869c5a-ccfb-4e3c-98c1-e9a97fcc9946/overview"
+  }
+ },
+ "comments": null
+}

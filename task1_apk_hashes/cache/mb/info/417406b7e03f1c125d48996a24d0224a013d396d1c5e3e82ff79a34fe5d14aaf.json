@@ -1,0 +1,118 @@
+{
+ "sha256_hash": "417406b7e03f1c125d48996a24d0224a013d396d1c5e3e82ff79a34fe5d14aaf",
+ "sha3_384_hash": "b3a6036430d4aa2119bff6da5ae76c8a238ce857ec0c25816d1262a3929c35a63ff3d545db3ca6bff986b36d49f7ab35",
+ "sha1_hash": "ec79d0e439907dd7b5efdb1bbb396b67acb48630",
+ "md5_hash": "a98b97147ca8869c4fd3744255155199",
+ "first_seen": "2026-08-04 13:30:35",
+ "last_seen": null,
+ "file_name": "417406b7e03f1c125d48996a24d0224a013d396d1c5e3e82ff79a34fe5d14aaf.apk",
+ "file_size": 2573619,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T187C5CE8AFB58962FC8B605370DEA923112978D478E839B437844375C78776E80F5AFC9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:dvGi4TgCz2uVzYxP5HlZcUSKmgAj2y3UPyxEnvyY1I6CS4jaEyYWI:dvj4T3SuVzYxPBq2y3U6xEnD1IZfjnWI",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker",
+  "nfc",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "np",
+   "issuer_cn": "np",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2021-04-25T09:03:56Z",
+   "valid_to": "3020-08-26T09:03:56Z",
+   "serial_number": "045ff9a3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "492682f877607ee99df2ddd2bd5953fd727bdf6e19d397de9dbbafd582bcad75",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "304",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/417406b7e03f1c125d48996a24d0224a013d396d1c5e3e82ff79a34fe5d14aaf/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": null,
+   "link": "https://tria.ge/reports/260804-qsalrsfp6t/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Backdoor.GhostRAT",
+   "status": "MALICIOUS",
+   "first_seen": "2026-08-04 13:31:47",
+   "scanner_count": "38",
+   "scanner_match": "10",
+   "scanner_percent": "26.32"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a71e98c6bbd729cee501629/reports/d2b31bea-23e4-4102-b286-025bb83128d2/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-04T03:33:00Z",
+   "last_seen": "2026-08-05T03:43:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/417406b7e03f1c125d48996a24d0224a013d396d1c5e3e82ff79a34fe5d14aaf/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

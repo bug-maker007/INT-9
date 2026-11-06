@@ -1,0 +1,122 @@
+{
+ "sha256_hash": "edabbcd43bb830e8d05c6f5a61efecac8a2536aeef5705b29739bc79aeee8b44",
+ "sha3_384_hash": "3f90a9234570946b76b0cc250cc8c5c5e7cfc6066a6cab75ff4562575db74e0e24e9f85763fbb2597d4189ac6baaf4c5",
+ "sha1_hash": "33ef3172b44481acec30dffd27dd8e1950ed7ee3",
+ "md5_hash": "8d0ece82b7e319a28e0a88aa20508b8b",
+ "first_seen": "2022-07-15 21:45:28",
+ "last_seen": null,
+ "file_name": "ابلاغیه قضایی.apk",
+ "file_size": 3210932,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1DAE523BAA3DE9323D053C1FDE2319D1A0489882B6A24F0D751B4E29D8DC7DD4A616FCD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:hYQ1Kfjh9C9r/f6uXBnnPiPEXHIrXvfg7GzZBZuwgUK3r3yqq1+inG+1dB:hOh9C5btlHIjvfkGjdgs",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "Malware Phishing system of Electronic Judicial Services System Iran. ",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "iran",
+  "malware",
+  "signed",
+  "smsspy",
+  "spy",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SmsSpy.10966.29635.11787.UNOFFICIAL"
+  ],
+  "downloads": "394",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "spyware"
+  },
+  {
+   "context": "dropped_by_malware",
+   "value": "smsspy"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/edabbcd43bb830e8d05c6f5a61efecac8a2536aeef5705b29739bc79aeee8b44/"
+  },
+  "YOROI_YOMI": {
+   "detection": "SMSspy",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/edabbcd43bb830e8d05c6f5a61efecac8a2536aeef5705b29739bc79aeee8b44",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220715-1ml3qaefb8/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Piom",
+   "status": "MALICIOUS",
+   "first_seen": "2022-07-15 21:46:23",
+   "scanner_count": "26",
+   "scanner_match": "14",
+   "scanner_percent": "53.85"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62d1e04bec671b846f918f42/reports/7e788d9a-0c88-4db1-b6f5-49e2d63202c2/overview"
+  }
+ },
+ "comments": null
+}

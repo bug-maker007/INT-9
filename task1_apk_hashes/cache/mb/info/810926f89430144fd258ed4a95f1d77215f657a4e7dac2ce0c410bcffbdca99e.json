@@ -1,0 +1,207 @@
+{
+ "sha256_hash": "810926f89430144fd258ed4a95f1d77215f657a4e7dac2ce0c410bcffbdca99e",
+ "sha3_384_hash": "deb50e169674fb1cf13eebe57d928ce5cace8f4d1bc5e0b1f5163d6f3c06c8ff56902644b1d86ed56a5f65b6039ffad2",
+ "sha1_hash": "77c0e6b91ea6488bd88aad145363f57115f69e4a",
+ "md5_hash": "fe30b3542e7220a71945d7cc18bfe820",
+ "first_seen": "2026-04-03 06:49:43",
+ "last_seen": null,
+ "file_name": "Play_Store.apk",
+ "file_size": 6453112,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "kral",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T1A6562387E385A827E8F6C33D927A42A789069C268B03D743199173BD4CB76CC4E55F9C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:c48ZHR5wquT2+2QnK5iyZ1D6o+KpJuDBTJiX5c2:b8RRyqQnKJZQTEJAt0G2",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.14643.7717.16210.UNOFFICIAL"
+  ],
+  "downloads": "455",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "HydraDexManifestApk_strings",
+   "author": "Alberto Segura",
+   "description": "Detects Hydra Android Banking malware (AndroidManifest.xml strings)",
+   "reference": null
+  },
+  {
+   "rule_name": "HydraManifestApk_strings",
+   "author": "Alberto Segura",
+   "description": "Detects Hydra Android Banking malware (AndroidManifest.xml strings)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/810926f89430144fd258ed4a95f1d77215f657a4e7dac2ce0c410bcffbdca99e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/810926f89430144fd258ed4a95f1d77215f657a4e7dac2ce0c410bcffbdca99e",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/260403-hl3pzaa16l/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "infostealer",
+    "persistence",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Hydra family",
+     "score": "10"
+    },
+    {
+     "signature": "Hydra payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Reads the contacts stored on the device.",
+     "score": "7"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hydra",
+     "c2": "http://seferegelmohdolektony.net"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Badpack",
+   "status": "MALICIOUS",
+   "first_seen": "2024-01-27 23:45:52",
+   "scanner_count": "36",
+   "scanner_match": "9",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/69cf632d2346b9da57bac8ad/reports//overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2024-01-27T17:58:00Z",
+   "last_seen": "2026-04-04T06:47:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/810926f89430144fd258ed4a95f1d77215f657a4e7dac2ce0c410bcffbdca99e/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

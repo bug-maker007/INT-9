@@ -1,0 +1,126 @@
+{
+ "sha256_hash": "c565f4b9b3c6bb095c6ce62ab02c5cc8a84502231f4facdddb6f3d7af2321b5e",
+ "sha3_384_hash": "730322ab8f580b395622050b291d0f0302688bb01234f9a862d741f51a678690a53b49ead050aefd1d637627e856e070",
+ "sha1_hash": "1c0de358a5bde41d97d01d83b2ca0d540549ba82",
+ "md5_hash": "46b815f58cc16140a18341f233af7171",
+ "first_seen": "2024-03-11 10:00:15",
+ "last_seen": null,
+ "file_name": "chrome.apk",
+ "file_size": 1123311,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "500mk500",
+ "origin_country": "UA",
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T1AB35228871E9D561CD3C03B85EE9C1896A39FE018E09524B7B1DB74CA5733DA4FEA1C8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:lVZuimjkaUhfg9PsC3H9GwmR5pXHJZ/OLCHks2RkSJ7Ej2:4rjkNNMp9LA5p5Z/OeHgRjEj2",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "VT: https://www.virustotal.com/gui/file/c565f4b9b3c6bb095c6ce62ab02c5cc8a84502231f4facdddb6f3d7af2321b5e/detection",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Zhengfa Dang",
+   "issuer_cn": "Zhengfa Dang",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2020-10-19T13:57:13Z",
+   "valid_to": "2045-10-13T13:57:13Z",
+   "serial_number": "2d02e073",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a1e711736b715b93d63bb3860b33a574a1a5a70dafa609b15a1b95d042d85881",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.PUA.Tool.ApkProtector.16.origin.18341.28588.UNOFFICIAL"
+  ],
+  "downloads": "647",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/banthisguy9349/status/1767127623166030192"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2779888/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Android_BankingTrojan_Hydra",
+   "author": "Yashraj Solanki - Cyber Threat Intelligence Analyst at Bridewell",
+   "description": "Detects Hydra Android malware samples based on the strings matched",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c565f4b9b3c6bb095c6ce62ab02c5cc8a84502231f4facdddb6f3d7af2321b5e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c565f4b9b3c6bb095c6ce62ab02c5cc8a84502231f4facdddb6f3d7af2321b5e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240311-l17t1sfg52/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.BankerAgent",
+   "status": "MALICIOUS",
+   "first_seen": "2024-03-11 10:01:09",
+   "scanner_count": "24",
+   "scanner_match": "11",
+   "scanner_percent": "45.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.25",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65eed65e5cd908a33dae954d/reports/c9f1ca60-d72d-4f30-8622-b2983580aa3f/overview"
+  }
+ },
+ "comments": null
+}

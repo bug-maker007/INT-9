@@ -1,0 +1,142 @@
+{
+ "sha256_hash": "54b2ec346105aa9fb76bf7e52a31046ea96536b9f82dc2234d42c372c3abf857",
+ "sha3_384_hash": "033dd84ff341a65e12774c7786ae666d180dd76994b6d1846edd68de6fc1935c77742dba286b67eb0e4387a9b7f107d0",
+ "sha1_hash": "92f2c015c03857143a2c921c218f9c3994fd9d5b",
+ "md5_hash": "562e7e90b680e4abb1c171ad01acbbbc",
+ "first_seen": "2022-07-17 12:15:18",
+ "last_seen": null,
+ "file_name": "eblaghie.apk",
+ "file_size": 2132953,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T18BA51257F262DA1BC972D03325860736514B8C18CE46FB8B3949B7BE24F7DE44B866C8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:EIfWvbCML+AYNN8sz4ytzR1CT+DLNXMjNZ3:EIK9YD7z4ytzRkANw3",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "Malware Phishing system of Electronic Judicial Services System Iran.",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "iran",
+  "malware",
+  "Phishing",
+  "signed",
+  "smsspy",
+  "spy",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "editor",
+   "issuer_cn": "editor",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-01-10T08:03:09Z",
+   "valid_to": "2115-12-17T08:03:09Z",
+   "serial_number": "231bc320",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "6215f00baa4bf18bab5792fc796bfc5555917240f14f7c7e672d956888d75c96",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SmsSpy.11058.13595.15589.UNOFFICIAL"
+  ],
+  "downloads": "477",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "spyware"
+  },
+  {
+   "context": "dropped_by_malware",
+   "value": "smsspy"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2258301/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/54b2ec346105aa9fb76bf7e52a31046ea96536b9f82dc2234d42c372c3abf857/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.49"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/54b2ec346105aa9fb76bf7e52a31046ea96536b9f82dc2234d42c372c3abf857",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220717-pfgzmsabb9/",
+   "tags": [
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2022-07-17 12:16:25",
+   "scanner_count": "26",
+   "scanner_match": "12",
+   "scanner_percent": "46.15"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/62d3fd8422710a35d9e7c127/reports//overview"
+  }
+ },
+ "comments": null
+}

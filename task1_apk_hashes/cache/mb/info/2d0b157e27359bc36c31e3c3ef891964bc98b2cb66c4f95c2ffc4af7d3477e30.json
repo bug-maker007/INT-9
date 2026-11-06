@@ -1,0 +1,108 @@
+{
+ "sha256_hash": "2d0b157e27359bc36c31e3c3ef891964bc98b2cb66c4f95c2ffc4af7d3477e30",
+ "sha3_384_hash": "e26d914b105b4abe134de639b5fd7723d8eb1e878b1c527e1745365068cc1a37a4ea59fc5fe535ed55f74201c97c2271",
+ "sha1_hash": "ffde6e6db81a2d0af4a10a2d5d7adaaa067b2f0b",
+ "md5_hash": "3cff863140899a34e805a0b77636e66f",
+ "first_seen": "2021-10-23 08:28:49",
+ "last_seen": null,
+ "file_name": "13294_Video_Oynatıcı.apk",
+ "file_size": 3510898,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T10FF533AD1F4D7E0AC307E071DB6A49D9811722044D86E52F0DEF049CE195FA1AB63EFA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:fmMgNNnRoZUqIUwy/FpF/R8I8evrXvUvkjmrsb3W3x:fmMgN5Ro+qIny/j8IrirW3K",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.10484.3171.21948.UNOFFICIAL"
+  ],
+  "downloads": "486",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2d0b157e27359bc36c31e3c3ef891964bc98b2cb66c4f95c2ffc4af7d3477e30/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/2d0b157e27359bc36c31e3c3ef891964bc98b2cb66c4f95c2ffc4af7d3477e30",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/211023-kdkkjacbh9/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hydra",
+     "c2": "http://sebmillington854.site"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.BankerAgent",
+   "status": "MALICIOUS",
+   "first_seen": "2021-10-23 08:29:06",
+   "scanner_count": "28",
+   "scanner_match": "13",
+   "scanner_percent": "46.43"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6174f667a9d585e6d53702ea/reports/6a05070f-ad86-44e9-96f2-c690a0ef2bea/overview"
+  }
+ },
+ "comments": null
+}

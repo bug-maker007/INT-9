@@ -1,0 +1,83 @@
+{
+ "sha256_hash": "dd9130bceb889d9e6aa3421ce50478cc2428a12b19448cfee9d35e47592333d2",
+ "sha3_384_hash": "0dd57bc87c9993f1c0bbd6369627d71cc73723d7932ea01a6cf85ec4b909709a9e89f4d00344e0599ba91777c9449f97",
+ "sha1_hash": "7f84d167bf58509ef7c434019994da02a0a0c029",
+ "md5_hash": "da57b23c645b934ebd3e340650b87793",
+ "first_seen": "2021-09-04 14:40:34",
+ "last_seen": null,
+ "file_name": "playstore.apk",
+ "file_size": 152993,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1B6E302C34BE42D68E15FE9FD127B43C22B7E876022E4B2F515E64952BD69BA21F1CC10",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "3072:tpy3+yu+IhrTTyeEycy0WxKPnVBIVBQhPZhPvJ:fgwvMyf0Wxi/I/SHp",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "330",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/dd9130bceb889d9e6aa3421ce50478cc2428a12b19448cfee9d35e47592333d2/"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/dd9130bceb889d9e6aa3421ce50478cc2428a12b19448cfee9d35e47592333d2",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210904-r2e4aahdgm/",
+   "tags": [
+    "android",
+    "obfuscation"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2021-09-04 14:41:05",
+   "scanner_count": "28",
+   "scanner_match": "15",
+   "scanner_percent": "53.57"
+  }
+ },
+ "comments": null
+}

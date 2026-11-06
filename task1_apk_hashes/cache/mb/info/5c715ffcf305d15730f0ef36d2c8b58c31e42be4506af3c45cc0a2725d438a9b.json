@@ -1,0 +1,141 @@
+{
+ "sha256_hash": "5c715ffcf305d15730f0ef36d2c8b58c31e42be4506af3c45cc0a2725d438a9b",
+ "sha3_384_hash": "559b8db74570dc129b54750e9abdcce19a5b17408f3bbfdc42dcb16116e7a4a1d4a9be8f75fd18844b1a3b4ebb404678",
+ "sha1_hash": "a49a908d1f8586d432def88165db31f8623272e7",
+ "md5_hash": "3e5bcc4f11731175a51f90e5acb700bd",
+ "first_seen": "2025-06-24 09:58:51",
+ "last_seen": null,
+ "file_name": "base (3).apk",
+ "file_size": 2019686,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "motmaenbash",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1E895339AEDDFB852EFC3C03A9621D023D27C431A5BBDBC539B5A451D48ABE911B13C48",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:Rmg9zekPlnV00N81ohVc9z8YS+yS08254KTf2woZj6/SWJ6QK3:RJ9zDe0wUc9ocALlnrJBW",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "iran",
+  "IRATA",
+  "malware",
+  "phishing",
+  "signed",
+  "trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.4521.29324.28310.UNOFFICIAL"
+  ],
+  "downloads": "554",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5c715ffcf305d15730f0ef36d2c8b58c31e42be4506af3c45cc0a2725d438a9b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Copybara",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/5c715ffcf305d15730f0ef36d2c8b58c31e42be4506af3c45cc0a2725d438a9b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/250624-lz81pahq5v/",
+   "tags": [
+    "family:irata",
+    "android",
+    "discovery",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-12-24 12:12:49",
+   "scanner_count": "38",
+   "scanner_match": "11",
+   "scanner_percent": "28.95"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/685a77083faf8fcd7d3ed8c3/reports/14309fea-8f9b-4cde-9976-905b562d4c9d/overview"
+  }
+ },
+ "comments": null
+}

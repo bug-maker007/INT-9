@@ -1,0 +1,126 @@
+{
+ "sha256_hash": "9450373187894925be70cc62b7d91adefda11b369e39c524f8cb6fad7e6302d8",
+ "sha3_384_hash": "89edba9951d672f77981e73a27ea8f894e5404c68e48c4ab1c5070f0f226235689335506fe5040324b9be63f7c8dffdc",
+ "sha1_hash": "2feeb27045befdd899084bbc6a9b423247aba41f",
+ "md5_hash": "91950d63a8a1b8337a1856b2ca4affad",
+ "first_seen": "2026-07-24 13:09:15",
+ "last_seen": null,
+ "file_name": "tiktok.apk",
+ "file_size": 296096,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T16E547D13FEC41FA2DBEAE23A68EF07C0572CD7696632C3475606C1D46AC7A941BC59C8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:37m1zqObNzsxKg++/St40zfBqz/detVbVB6QoK5VVN:r0B4Mc/St4yqz/obVjh9",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "48.2% (.JAR) Java Archive (13500/1/2)",
+  "37.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "14.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Banker",
+  "Malware",
+  "Riskware",
+  "signed",
+  "TikTok",
+  "Trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Builder",
+   "issuer_cn": "Builder",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2026-07-21T10:53:32Z",
+   "valid_to": "2053-12-06T10:53:32Z",
+   "serial_number": "0717fb0315d54f04",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "94d784e8301878890ff41ba63d59d8c88cda7501925367328bdb3250caac3f7c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "251",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Android_Accessibility_Service_Abuse",
+   "author": "Buga :3",
+   "description": "Detects Android malware abusing Accessibility Service for auto-clicking, credential theft, overlay attacks, or device takeover",
+   "reference": "https://developer.android.com/reference/android/accessibilityservice/AccessibilityService"
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/9450373187894925be70cc62b7d91adefda11b369e39c524f8cb6fad7e6302d8/"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260724-qd3n1azsaw/",
+   "tags": [
+    "android",
+    "banker",
+    "discovery"
+   ],
+   "signatures": [
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-07-24 13:10:13",
+   "scanner_count": "38",
+   "scanner_match": "2",
+   "scanner_percent": "5.26"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a63640dd6e78eec3e98720c/reports/abc8a272-0577-46e5-a118-37efb9cdc22c/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-24T10:58:00Z",
+   "last_seen": "2026-07-26T01:45:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/9450373187894925be70cc62b7d91adefda11b369e39c524f8cb6fad7e6302d8/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

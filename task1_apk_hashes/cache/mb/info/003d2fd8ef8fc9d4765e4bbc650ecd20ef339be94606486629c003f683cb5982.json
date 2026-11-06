@@ -1,0 +1,163 @@
+{
+ "sha256_hash": "003d2fd8ef8fc9d4765e4bbc650ecd20ef339be94606486629c003f683cb5982",
+ "sha3_384_hash": "6cd9fe5a7450f3417f7c5dd55285246460527838ee0205101a71369c70c9fb7f28534189425b54f1435f9260e8ee129c",
+ "sha1_hash": "035e484288cc983844a08f69231ddbc9d797b17c",
+ "md5_hash": "176d6ca459a33f3e2ac5bb9e5d30eb6c",
+ "first_seen": "2024-07-19 11:52:15",
+ "last_seen": null,
+ "file_name": "49251_Video_Player.apk",
+ "file_size": 4817489,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "CyberMAN_noBODY",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T1B926335AF91D8063D4533233574740DA913FAE581E0FEABA6DD4B3AE88B7FC24712285",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:ymnJdoaleb5yyE0ABLryi1CWyHmPqQqfdf5vLMRB2PwO2vfX1kujDl:yixcNyyEprl1eGP2B5E2PwvdvXl",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "56.0% (.APK) Android Package (32500/1/6)",
+  "23.2% (.JAR) Java Archive (13500/1/2)",
+  "13.7% (.XPI) Mozilla Firefox browser extension (8000/1/1)",
+  "6.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "bankbot",
+  "banker",
+  "dropper",
+  "hqwar",
+  "Hydra",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.5181.6285.16061.UNOFFICIAL"
+  ],
+  "downloads": "728",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/003d2fd8ef8fc9d4765e4bbc650ecd20ef339be94606486629c003f683cb5982/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/003d2fd8ef8fc9d4765e4bbc650ecd20ef339be94606486629c003f683cb5982",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/240719-n2axsazbrm/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "infostealer",
+    "persistence",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Hydra payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2024-07-19 11:30:37",
+   "scanner_count": "24",
+   "scanner_match": "10",
+   "scanner_percent": "41.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/669a53a03d7227f93794b9b3/reports/4de131cd-d8f2-489e-a869-202597fbd046/overview"
+  }
+ },
+ "comments": null
+}

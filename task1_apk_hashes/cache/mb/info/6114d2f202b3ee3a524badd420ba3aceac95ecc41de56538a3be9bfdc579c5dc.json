@@ -1,0 +1,108 @@
+{
+ "sha256_hash": "6114d2f202b3ee3a524badd420ba3aceac95ecc41de56538a3be9bfdc579c5dc",
+ "sha3_384_hash": "12cf54249aaa24dc30c7a138d0b0ebe520c1988d90d1d6ea6aacf0bd3a23badfeb54e88bab18f29cf66a1066480df585",
+ "sha1_hash": "c3ad4332a1a25787838f6ef4f3f528fbe74729f2",
+ "md5_hash": "c1d2838ca244074382f1e59c8ea8120e",
+ "first_seen": "2021-09-04 15:48:18",
+ "last_seen": null,
+ "file_name": "Bildirimm.apk",
+ "file_size": 3447459,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T184F5331BE6C5C5AACB2BC2F7C25569A3B575321959C0596E0878C0085DB3F9CCA33CFA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:X4dwOpp0vWGn+DJY2h15CMLD3BoX4tt/sYcNLA:Xwrpp0vWI+D9E47BoIttSNLA",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.PUA.DebugKey.4715.25454.UNOFFICIAL"
+  ],
+  "downloads": "381",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1592007/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/6114d2f202b3ee3a524badd420ba3aceac95ecc41de56538a3be9bfdc579c5dc/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/6114d2f202b3ee3a524badd420ba3aceac95ecc41de56538a3be9bfdc579c5dc",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210904-s9chsshebj/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads name of network operator",
+     "score": "6"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://212.73.150.190"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-09-04 15:49:06",
+   "scanner_count": "43",
+   "scanner_match": "6",
+   "scanner_percent": "13.95"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,158 @@
+{
+ "sha256_hash": "f3fc80a8793e60a901da44b9ab315931699e64a4f3eddb8aba839fe860de46dc",
+ "sha3_384_hash": "9fd327a6f22f81e2c7acb5eb7b52cc9e33dc656a7dbb8fe18d353039488808f30f01210c59e541e1ee4415308880dccc",
+ "sha1_hash": "a8a7c8896772bda9c5e17ce665eaabf32c0c959c",
+ "md5_hash": "22d82606c804126663992f59e3d1f0c9",
+ "first_seen": "2023-03-12 11:33:05",
+ "last_seen": null,
+ "file_name": "PancakeSwap.apk",
+ "file_size": 4679716,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x6rss",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "Sova",
+ "imphash": null,
+ "tlsh": "T12E261242F7D9A86FFCF3C3366B76462651068DA6CB43D2435904767C1CBBAC44E89AC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:jccN08QfEUXSRxAJDFJLhohK0/anjwH9U3RFRGOsR3oHFoZdt7+CSEpDj9O:jccN08iEUioJZJ1oXldciOsq0t7tSEC",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "57.0% (.APK) Android Package (38500/1/9)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "15.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "nexus",
+  "signed",
+  "Sova"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.14527.16345.19205.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.20109.16373.UNOFFICIAL"
+  ],
+  "downloads": "337",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/f3fc80a8793e60a901da44b9ab315931699e64a4f3eddb8aba839fe860de46dc/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "sova_v5",
+   "score": "10",
+   "link": "https://tria.ge/reports/230312-npfbqsdf68/",
+   "tags": [
+    "family:sova",
+    "family:sova_v5",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "SOVA_v5 payload",
+     "score": "10"
+    },
+    {
+     "signature": "Sova",
+     "score": "10"
+    },
+    {
+     "signature": "Sova_v5",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-03-12 11:34:12",
+   "scanner_count": "24",
+   "scanner_match": "13",
+   "scanner_percent": "54.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/640db8acd1a098efbc62eb69/reports/3073aadd-b4c9-4a4b-bd3d-78325ae887d5/overview"
+  }
+ },
+ "comments": null
+}

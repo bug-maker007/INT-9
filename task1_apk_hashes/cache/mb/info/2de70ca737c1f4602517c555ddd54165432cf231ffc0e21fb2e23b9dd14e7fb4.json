@@ -1,0 +1,164 @@
+{
+ "sha256_hash": "2de70ca737c1f4602517c555ddd54165432cf231ffc0e21fb2e23b9dd14e7fb4",
+ "sha3_384_hash": "ed9269762c4184b37525852557faf95741c40a94d756e4e2eca9367cc86a4b932b0a187818d2e6a3f6294e949fc3a1bc",
+ "sha1_hash": "5eb26f69caa5fc281eaba466ead6a968545eab4f",
+ "md5_hash": "06b80586f3db28fd0886c68d327e6d6d",
+ "first_seen": "2025-02-28 22:38:25",
+ "last_seen": "2025-05-19 20:32:48",
+ "file_name": "MOD APK (Pro Unlocked) latest version.apk",
+ "file_size": 75607885,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T141F70193E32C9E9AD0F3D332A676C15268264CAC4707D3771D18B97D1BB39C3A60A9C5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:J/2LZ1VbXhETM0kZlShysJPC2DLPwpJ08w:JaZLbRuk0TjH",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "30.8% (.APK) Android Package (27000/1/5)",
+  "24.5% (.OXT) OpenOffice Extension (21500/1/3)",
+  "15.4% (.JAR) Java Archive (13500/1/2)",
+  "12.5% (.CATROBAT) Pocket Code/Catroid Catrobat Project (11000/1/2)",
+  "12.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)"
+ ],
+ "comment": "https://tria.ge/250228-2f1g7s1qv8/static1 => https://apkcomod.com/?title=Anydesk_Mod_APK => https://www.1024tera.com/spanish/sharing/link?surl=oAhxG8bYaUhtR_N8MK8Arw",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Tirada",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "193",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/250228-2f1g7s1qv8/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/2de70ca737c1f4602517c555ddd54165432cf231ffc0e21fb2e23b9dd14e7fb4",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "triada",
+   "score": "10",
+   "link": "https://tria.ge/reports/250228-2k2aas1rw6/",
+   "tags": [
+    "family:triada",
+    "android",
+    "discovery",
+    "execution",
+    "impact",
+    "persistence",
+    "upx"
+   ],
+   "signatures": [
+    {
+     "signature": "Patched UPX-packed file",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "UPX packed file",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2024-05-23 05:58:07",
+   "scanner_count": "38",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67c23b153c5f644bd93d3ffb/reports/eea46600-ecbf-4a64-81a2-248c3223dbea/overview"
+  }
+ },
+ "comments": [
+  {
+   "id": "101964",
+   "date_added": "2025-02-28 22:39:33",
+   "twitter_handle": "iamaachum",
+   "display_name": null,
+   "comment": "Wrongly pasted tria.ge link in the description when it should be https://github.com/kjueo/derosk/blob/main/Anydesk%20Mod%20APK%20Download%20Latest%20Version%20-%20(p1f3r).md"
+  }
+ ]
+}

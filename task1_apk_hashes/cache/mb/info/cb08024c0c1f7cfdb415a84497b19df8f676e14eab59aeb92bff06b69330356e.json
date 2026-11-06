@@ -1,0 +1,167 @@
+{
+ "sha256_hash": "cb08024c0c1f7cfdb415a84497b19df8f676e14eab59aeb92bff06b69330356e",
+ "sha3_384_hash": "aacf222ff2c769aaba643fedb9a398eab7e4687caff601730bce6832d95f56ddfe65d71e58ca8459ac6487f4f44cc2a2",
+ "sha1_hash": "9e5567d942076d517e7a6819361bfd29863a5e67",
+ "md5_hash": "b7f994d5d1b9d72f0f435280379e193d",
+ "first_seen": "2023-08-02 17:16:22",
+ "last_seen": null,
+ "file_name": "modulesegcliente.apk",
+ "file_size": 2066333,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ApksGold",
+ "origin_country": "BR",
+ "anonymous": 0,
+ "signature": "SpyMax",
+ "imphash": null,
+ "tlsh": "T1C8A5AE13F34A9E45C9F141390620A7635B278D2DC2974AEB1D98B37CEC73AD60EB54E2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:fYVhdKRLTDRHJlppxSftnPAsrHewv23uz+KWl1AiSsBSpRktw1dWYYrjAm:fYJKRLXRpPDSJHr+B3Tl1AxRkQHojAm",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "52.8% (.APK) Android Package (32500/1/6)",
+  "21.9% (.JAR) Java Archive (13500/1/2)",
+  "17.0% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "6.5% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.6% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "spymax"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "310",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://www.virustotal.com/gui/file/cb08024c0c1f7cfdb415a84497b19df8f676e14eab59aeb92bff06b69330356e"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/cb08024c0c1f7cfdb415a84497b19df8f676e14eab59aeb92bff06b69330356e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.09"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/cb08024c0c1f7cfdb415a84497b19df8f676e14eab59aeb92bff06b69330356e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/230802-vtn8rsga42/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "banker",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Legitimate hosting services abused for malware hosting/C2",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "1.tcp.sa.ngrok.io:26174"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2023-08-02 17:17:06",
+   "scanner_count": "24",
+   "scanner_match": "12",
+   "scanner_percent": "50.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/64ca8f8f539838c2be51e740/reports/897f5130-c553-427d-b5e5-5d4d5fa6dfaf/overview"
+  }
+ },
+ "comments": [
+  {
+   "id": "76787",
+   "date_added": "2023-08-03 08:16:14",
+   "twitter_handle": "alberto__segura",
+   "display_name": "Alberto Segura",
+   "comment": "This sample seems to be a \"new\""
+  },
+  {
+   "id": "76790",
+   "date_added": "2023-08-03 08:18:01",
+   "twitter_handle": "alberto__segura",
+   "display_name": "Alberto Segura",
+   "comment": "This sample seems to be a \"new\" variant of SpyNote/SpyMax developed in Brazil under the name of \"Goiano Rat\". The threat actor has a Youtube channel showing how it works: https://www.youtube.com/watch?v=HSY2ipgujho"
+  }
+ ]
+}

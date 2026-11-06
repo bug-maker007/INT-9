@@ -1,0 +1,162 @@
+{
+ "sha256_hash": "c05dfd625baad1459e3bf5f7d08574d35ef63507ed5bbdd5f0077144acc84ff4",
+ "sha3_384_hash": "c2c8e1f62cc8059e9b410093fe4bfd0fe92c473ce2f19bd913a07383636687d207d4b1236eecaddddaa7f9072d6471fc",
+ "sha1_hash": "51d5d0a7a053542220a56c17da8ad917833f2c07",
+ "md5_hash": "f4d9ad4a78cd4b99eae7f6ba087c505b",
+ "first_seen": "2026-09-29 11:10:48",
+ "last_seen": null,
+ "file_name": "c05dfd625baad1459e3bf5f7d08574d35ef63507ed5bbdd5f0077144acc84ff4.bin",
+ "file_size": 8249994,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Tuxxin",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T110863366C75BC1EDF1DBB6760C748362503F10618B03A76B5E2B9631F89B9C49F82386",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:lO1VfjhrgoxuBTF/PmxQ/Tg+kcE7hlJc8hTaF3p2/:lO15FlsB3mxyBs7TJmFu",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "zip"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "119",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "Detect_all_IPv6_variants",
+   "author": "Bierchermuesli",
+   "description": "Generic IPv6 catcher",
+   "reference": null
+  },
+  {
+   "rule_name": "html_auto_download_b64",
+   "author": "Tdawg",
+   "description": "html auto download",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c05dfd625baad1459e3bf5f7d08574d35ef63507ed5bbdd5f0077144acc84ff4/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260929-pk8cds1y8r/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.HiddenApp",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-09-29 09:29:59",
+   "scanner_count": "24",
+   "scanner_match": "8",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6abbadf77ed7703b3a924be9/reports/dfecb97e-7873-42a5-a496-9e8d01f55d6c/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-29T04:33:00Z",
+   "last_seen": "2026-09-30T14:35:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/c05dfd625baad1459e3bf5f7d08574d35ef63507ed5bbdd5f0077144acc84ff4/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

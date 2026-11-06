@@ -1,0 +1,144 @@
+{
+ "sha256_hash": "f4fae5ebe786dafd275ce7d18d83d0ccfeea8475358cb02141859865420cd1bc",
+ "sha3_384_hash": "5ff8c2dc8dd6e3b4151888bc44191ed558ac499e396cbaf10410a09007663c4f263327d6e340571dd3f99ffa1a16a0d3",
+ "sha1_hash": "dd2319f903d1eae5af67eec995fc1036b12b9039",
+ "md5_hash": "1a83878cb5390d6021a3aa8ceb6abc87",
+ "first_seen": "2025-09-14 09:27:33",
+ "last_seen": null,
+ "file_name": "f4fae5ebe786dafd275ce7d18d83d0ccfeea8475358cb02141859865420cd1bc.apk",
+ "file_size": 6759057,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ReBensk",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T1E2660115B7A9BE1FC873C1321C0AE23561499D26DB439387A52837B934BFBF44E852E4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:/mf68e8T1YmfhG87PsH2nczzoiYacg1xnFI1ZtaEwl3dc0RE0UXcVvJ/3+tc:ufE8Hffaqy1rcg7S1ZtENYXcNCc",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Joker"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "221",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_AllMal_Detector",
+   "author": "DiegoAnalytics",
+   "description": "CrossPlatform All Malwares Detector: Detect PE, ELF, Mach-O, scripts, archives; overlay, obfuscation, encryption, spoofing, hiding, high entropy, network communication",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/f4fae5ebe786dafd275ce7d18d83d0ccfeea8475358cb02141859865420cd1bc/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/f4fae5ebe786dafd275ce7d18d83d0ccfeea8475358cb02141859865420cd1bc",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/250914-lgen5a1mv9/",
+   "tags": [
+    "android",
+    "defense_evasion",
+    "discovery",
+    "execution",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-09-13 17:01:00",
+   "scanner_count": "24",
+   "scanner_match": "2",
+   "scanner_percent": "8.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68c68af07328794829298699/reports/3edbddf6-1af7-4f4c-a86e-1e797875749f/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Clean",
+   "file_type": "apk",
+   "first_seen": "2025-09-13T17:39:00Z",
+   "last_seen": "2025-09-13T17:39:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/f4fae5ebe786dafd275ce7d18d83d0ccfeea8475358cb02141859865420cd1bc/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

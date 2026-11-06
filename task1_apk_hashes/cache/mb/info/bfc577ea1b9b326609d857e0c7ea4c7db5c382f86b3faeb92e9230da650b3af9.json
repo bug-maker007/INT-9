@@ -1,0 +1,142 @@
+{
+ "sha256_hash": "bfc577ea1b9b326609d857e0c7ea4c7db5c382f86b3faeb92e9230da650b3af9",
+ "sha3_384_hash": "a816657761a4668cabaf39100ccad34402b58a36571f095db6e6a7b4c3e57701908003c35e8027da4ad65e6b09d4d055",
+ "sha1_hash": "eb6870887bf83bf6729132fc53deb0c01311d42a",
+ "md5_hash": "7a5bfbe7f8d66b7770544ddaa7d1a31a",
+ "first_seen": "2026-03-16 17:23:06",
+ "last_seen": null,
+ "file_name": "APKInsta_v2.4.1.apk",
+ "file_size": 269784,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "juroots",
+ "origin_country": "CZ",
+ "anonymous": 0,
+ "signature": "AhMyth",
+ "imphash": null,
+ "tlsh": "T14E44230EA1A38A1CDDBF7AB5C17E045737B0D3C09DAAFD35752591A09E488F60A1AC3C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:c5gT0ItUrFuCCVs8EZ8YwdYSL42FeTYC0HC2vyTYFs67Nb90GQ:c5gT0ItUrFgnEZVu42uYCACJmR92",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "AhMyth",
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Andr.Axent-EA.31354.25118.UNOFFICIAL"
+  ],
+  "downloads": "313",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3797421/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/bfc577ea1b9b326609d857e0c7ea4c7db5c382f86b3faeb92e9230da650b3af9/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.35"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/bfc577ea1b9b326609d857e0c7ea4c7db5c382f86b3faeb92e9230da650b3af9",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "ahmyth",
+   "score": "10",
+   "link": "https://tria.ge/reports/260316-vx9c4sds7m/",
+   "tags": [
+    "family:ahmyth",
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "ahmyth",
+     "c2": "http://85.235.74.194:7771"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ahmyth",
+   "status": "MALICIOUS",
+   "first_seen": "2026-03-13 18:39:04",
+   "scanner_count": "38",
+   "scanner_match": "15",
+   "scanner_percent": "39.47"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/69b83c884ec2f522cc4b6be4/reports//overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/bfc577ea1b9b326609d857e0c7ea4c7db5c382f86b3faeb92e9230da650b3af9/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

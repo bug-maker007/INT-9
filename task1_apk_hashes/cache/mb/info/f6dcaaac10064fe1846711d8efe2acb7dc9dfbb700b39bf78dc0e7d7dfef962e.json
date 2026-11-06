@@ -1,0 +1,112 @@
+{
+ "sha256_hash": "f6dcaaac10064fe1846711d8efe2acb7dc9dfbb700b39bf78dc0e7d7dfef962e",
+ "sha3_384_hash": "2e108a05270db93bb61ffeff4a7881ca3a183e8f65dc0f4dbbc123040236609d4d6bbfeb330f579773b37f10d6799b31",
+ "sha1_hash": "745591be881f5a032f51b3ba21eeb46fbbdbb1be",
+ "md5_hash": "5e015bbc3edaf08e62cca34580703491",
+ "first_seen": "2024-05-06 12:17:56",
+ "last_seen": null,
+ "file_name": "Application.apk",
+ "file_size": 3949843,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T11406ADDAE7D5A95BC8F35372C13652A6410B4D268B83EFC36915363C28BB5D00F5ABC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:T6lMxuSKuPiCW+tbelOyyZ+bOrToTwr5qFR6VJ80fspZLS08:7kXq6wy0fSC",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "43.9% (.APK) Android Package (32500/1/6)",
+  "18.2% (.JAR) Java Archive (13500/1/2)",
+  "16.8% (.VYM) VYM Mind Map (12500/1/3)",
+  "14.1% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2021-05-22T04:58:32Z",
+   "valid_to": "2120-09-04T04:58:32Z",
+   "serial_number": "0c11d603",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e702de593abce6259624b294b47a16a0239caa17322c3285b6d1c8acf7fbf30d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.709.origin.4391.9718.UNOFFICIAL"
+  ],
+  "downloads": "544",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/f6dcaaac10064fe1846711d8efe2acb7dc9dfbb700b39bf78dc0e7d7dfef962e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.09"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240506-pgldfsef25/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-05-06 12:18:06",
+   "scanner_count": "23",
+   "scanner_match": "6",
+   "scanner_percent": "26.09"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6638ca801c9796b80ab3cc58/reports/2a9ac428-8658-43b2-94ef-ecf74a338e6a/overview"
+  }
+ },
+ "comments": null
+}

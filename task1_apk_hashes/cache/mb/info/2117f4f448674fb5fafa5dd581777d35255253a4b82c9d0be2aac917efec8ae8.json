@@ -1,0 +1,122 @@
+{
+ "sha256_hash": "2117f4f448674fb5fafa5dd581777d35255253a4b82c9d0be2aac917efec8ae8",
+ "sha3_384_hash": "7db1eaa28c98e9c0caad34de22eafa69185f9919f507ebd78d35e23137534505b4cd4bd84770fcb83932da7b2e4e05f7",
+ "sha1_hash": "de509a027c3af1e850aba6877e9fd1044ad856be",
+ "md5_hash": "03c4d419a3fe76d0e977fd82903f4acf",
+ "first_seen": "2026-06-24 12:38:30",
+ "last_seen": null,
+ "file_name": "T!kT0k181782121968113.apk",
+ "file_size": 6741550,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1C1662386FF05D93ED4B3853B0D52073222669D1ECA87D30785EC7628687BAD80FD9AD4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:vmmR+BqxuGboFx5JDl8XvtBZBeAaXEbD1+FVzNsj8Jcfv3DNTDMr3WTGn15G:+mnxuGbexDluZ0ANf1wxsj6cy3y",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Dropper",
+  "Malware",
+  "Riskware",
+  "signed",
+  "TikTok",
+  "Trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "220",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2117f4f448674fb5fafa5dd581777d35255253a4b82c9d0be2aac917efec8ae8/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260624-pvtlzsct9q/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-06-24 12:39:38",
+   "scanner_count": "24",
+   "scanner_match": "1",
+   "scanner_percent": "4.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a3bcffe9799578a6c49bde6/reports/1a4b23db-7293-4ea1-a758-102f93c0d114/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-06-24T11:07:00Z",
+   "last_seen": "2026-06-25T23:49:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/2117f4f448674fb5fafa5dd581777d35255253a4b82c9d0be2aac917efec8ae8/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

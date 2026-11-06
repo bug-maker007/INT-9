@@ -1,0 +1,114 @@
+{
+ "sha256_hash": "b652322d692e0a61c8de7522b612a34965c986ef35ecc95c03f80848d4f32b1c",
+ "sha3_384_hash": "79acb03dc6151e6a4e53ac82f4485ad3257e9019410818db12b118674c70f7f56ea8fcf08b9e650ba840da1b5b21c22b",
+ "sha1_hash": "7e2964f5462810f1e0a7fae4cc529e2c2bdc0fd9",
+ "md5_hash": "cb825317e8b99207ee138a2fd669c0c8",
+ "first_seen": "2024-03-23 10:39:00",
+ "last_seen": null,
+ "file_name": "base.apk",
+ "file_size": 2698238,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T11EC52253F66A991BC9F2C3372074163511338C24DB47EB8A2E4977FE68B79E84B825D0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:pO5GrtI9rRCWS9Uomgd/ApTRAZCn3OGu2jTEsoDohznJLxqPPUAF59xCnwV:pAurP9UoN1AwZC3OGuOTEsiiLJLxq3Vt",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2021-05-22T04:58:32Z",
+   "valid_to": "2120-09-04T04:58:32Z",
+   "serial_number": "0c11d603",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e702de593abce6259624b294b47a16a0239caa17322c3285b6d1c8acf7fbf30d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "387",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b652322d692e0a61c8de7522b612a34965c986ef35ecc95c03f80848d4f32b1c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/b652322d692e0a61c8de7522b612a34965c986ef35ecc95c03f80848d4f32b1c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240323-mpymmsab2w/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-03-23 10:40:06",
+   "scanner_count": "23",
+   "scanner_match": "7",
+   "scanner_percent": "30.43"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65feb1482915b1a64e09cee9/reports/3d6935a1-b722-4e3a-9051-cbcd1d31f936/overview"
+  }
+ },
+ "comments": null
+}

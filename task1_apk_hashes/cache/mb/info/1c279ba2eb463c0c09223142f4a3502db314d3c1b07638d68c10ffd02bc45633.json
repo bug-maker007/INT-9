@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "1c279ba2eb463c0c09223142f4a3502db314d3c1b07638d68c10ffd02bc45633",
+ "sha3_384_hash": "e7415208c59790ef2c0446b9ccf042b0c444c362312040e9e2ef15990da09852948980b5b034033bcde8dc68f55b3357",
+ "sha1_hash": "27313e8f593ec89ff27006161873c06d554fd438",
+ "md5_hash": "984d3c66b88d5cc3bab7fd57a7da2ab1",
+ "first_seen": "2021-10-08 07:09:47",
+ "last_seen": null,
+ "file_name": "santander.apk",
+ "file_size": 9002043,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T1DC963397E2C0616AFF258A3A4AA655C535A25B7B14C3C81FC3586FA00CF4ECE9706D1F",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:l8YWu8fTmIHwVHxmFDrg9OsxlHUZyNWWoDWx0RiQdyjynFAL9d:lY9Hwh0e9nxi2WWUWabyj40d",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "267",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1660847/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1c279ba2eb463c0c09223142f4a3502db314d3c1b07638d68c10ffd02bc45633/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/1c279ba2eb463c0c09223142f4a3502db314d3c1b07638d68c10ffd02bc45633",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/211008-hze6tsdfdm/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Bian",
+   "status": "MALICIOUS",
+   "first_seen": "2021-10-08 07:10:12",
+   "scanner_count": "27",
+   "scanner_match": "13",
+   "scanner_percent": "48.15"
+  },
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/615feed4b95458900cdeff3b/reports/fb970e3b-7ece-49c8-aa09-2e8fcf7dd1d6/overview"
+  }
+ },
+ "comments": null
+}

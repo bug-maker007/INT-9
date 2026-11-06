@@ -1,0 +1,121 @@
+{
+ "sha256_hash": "bbedd717bd42fc4eaa876a98effb67ffc5ccbed7d704b59191af53d75bba2df7",
+ "sha3_384_hash": "b1dfc838a38e6b21796a300c08776668e932f4ecc5d427edfc153cdb0fd8cb50cb699df575b84d1b6620c640e0992c6e",
+ "sha1_hash": "5131d71d113c2669bd17d46723f29eae8b43eeed",
+ "md5_hash": "f078dcde5e5af939c9b02d4eefff5460",
+ "first_seen": "2024-03-31 08:39:39",
+ "last_seen": null,
+ "file_name": "KissLand.apk",
+ "file_size": 4824547,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T195262357F261941BC9F2D23A30791739D13A8D18DB03AB462D4977BD28FB9C84F926C8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:4aW555555555ATlqzJa6efffnRcj7jGPJq4zuM3Z4vyIs9g5uQT7DZ2+g7Fd3akp:4aW555555555ATlqzIXcXg0OsyfQH12V",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2021-05-22T04:58:32Z",
+   "valid_to": "2120-09-04T04:58:32Z",
+   "serial_number": "0c11d603",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e702de593abce6259624b294b47a16a0239caa17322c3285b6d1c8acf7fbf30d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "389",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/bbedd717bd42fc4eaa876a98effb67ffc5ccbed7d704b59191af53d75bba2df7/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/bbedd717bd42fc4eaa876a98effb67ffc5ccbed7d704b59191af53d75bba2df7",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240331-kkvzvagh6w/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.RealRat",
+   "status": "MALICIOUS",
+   "first_seen": "2024-03-31 05:17:52",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6609216471a08fe692164a93/reports/25415bd3-ac3c-4272-9b22-72600e91b9b9/overview"
+  }
+ },
+ "comments": null
+}

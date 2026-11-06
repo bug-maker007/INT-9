@@ -1,0 +1,104 @@
+{
+ "sha256_hash": "3db07bce921cc7aa5653fd0825216d180baece34485c6813c4f4b4c22747b39e",
+ "sha3_384_hash": "ba73331891d27d4637fe8d59a2422e85c7ea55b70cd9791764287dc81397161cf7c6167c0906897776b382c80ddf8164",
+ "sha1_hash": "12fa60b7c38825738e8445f53b11eff949f7f42b",
+ "md5_hash": "4349b4817e68602ba6133d3ea898bb18",
+ "first_seen": "2024-04-07 06:08:59",
+ "last_seen": null,
+ "file_name": "base.apk",
+ "file_size": 2695834,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T188C52213F226E96BC9F1C3732434123550778C29DB43EA8B694837FD64BBAD88B959C4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:oRxpj+icgBS/5DgBd/KEyubDXPUwP9dYy5HsGvFqeTcVtmRgQ3mP6YF:oRx9rcgmqvKgXcNyscqu0mRgPd",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2021-05-22T04:58:32Z",
+   "valid_to": "2120-09-04T04:58:32Z",
+   "serial_number": "0c11d603",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e702de593abce6259624b294b47a16a0239caa17322c3285b6d1c8acf7fbf30d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "395",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3db07bce921cc7aa5653fd0825216d180baece34485c6813c4f4b4c22747b39e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/3db07bce921cc7aa5653fd0825216d180baece34485c6813c4f4b4c22747b39e",
+   "details": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.RealRat",
+   "status": "MALICIOUS",
+   "first_seen": "2024-04-07 06:09:09",
+   "scanner_count": "23",
+   "scanner_match": "8",
+   "scanner_percent": "34.78"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/661243037ebd2dd8e38954f0/reports/9159a12c-af28-4ff6-a6ab-2b5191da2166/overview"
+  }
+ },
+ "comments": null
+}

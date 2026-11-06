@@ -1,0 +1,116 @@
+{
+ "sha256_hash": "3d52b5728af55c37d5bd74c3f9b7e9ea6b007a9ec202a648ce3dc7e37ff49b29",
+ "sha3_384_hash": "0b563a3ecf950a374b1cde562c8bbffa0dca775d37e16838568828cd50bd09d9d157edeaa43960e1a443d9e512fb7055",
+ "sha1_hash": "e8cf1650a6bbd93a93030d641ababe2677ab5bad",
+ "md5_hash": "d677c29a469041913c10e52193fd0d5e",
+ "first_seen": "2024-12-13 11:31:55",
+ "last_seen": null,
+ "file_name": "dropper.apk",
+ "file_size": 5075578,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "joker651181",
+ "origin_country": "GR",
+ "anonymous": 0,
+ "signature": "TgToxic",
+ "imphash": null,
+ "tlsh": "T15A36CE46E3496B5AD4F347368EB35AA2150B4CA18FA3D783BC04733C59B79D68E04E8D",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:u3mUMdkaoLKauoXy/1CHceA8PehYttGrcKvvJO+g:u3mUEpauoXaw7A8PCYt6c4v/g",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "87.0% (.APK) Android Package (27000/1/5)",
+  "12.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "malware",
+  "TgToxic",
+  "trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.FileRepMalware.8477.21282.UNOFFICIAL"
+  ],
+  "downloads": "300",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "RSharedStrings",
+   "author": "Katie Kleemola",
+   "description": "identifiers for remote and gmremote",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3d52b5728af55c37d5bd74c3f9b7e9ea6b007a9ec202a648ce3dc7e37ff49b29/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Trojan",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/3d52b5728af55c37d5bd74c3f9b7e9ea6b007a9ec202a648ce3dc7e37ff49b29",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "tgtoxic",
+   "score": "10",
+   "link": "https://tria.ge/reports/241213-nnbl6axjgx/",
+   "tags": [
+    "family:tgtoxic",
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "persistence"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Packed.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-12-13 11:32:10",
+   "scanner_count": "24",
+   "scanner_match": "5",
+   "scanner_percent": "20.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/675c1b432fbd473404301d7b/reports/d2f48748-1b5a-4035-8642-67148ba888dd/overview"
+  }
+ },
+ "comments": null
+}

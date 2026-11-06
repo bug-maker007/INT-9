@@ -1,0 +1,105 @@
+{
+ "sha256_hash": "bfd4833b3423fe5bef9460f46e2a9638107e4ff148a75506d1da154ecab03c9d",
+ "sha3_384_hash": "9151ef7f3503282824139765e42cd03863e3927ed3721ce55bac55cdbfbd0cb8cad01c55b3730c5b794f70963b15286b",
+ "sha1_hash": "5725ac04c2eacef10722c75477f971e475028916",
+ "md5_hash": "e504d5ac090f2bb0f864b91fcde4963d",
+ "first_seen": "2025-10-28 11:01:08",
+ "last_seen": null,
+ "file_name": "InstaGain_1761570262686.apk",
+ "file_size": 67156829,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T1F2E712E3E319EC68D0F38B36937510A3B9659C609B13F3664502F638AEF3AD08549ED5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:n6VwLxG01mbHi1vjAC+lZ1wJL+SuOYgw6tcgxP:n6a1TJ0C+Uaq3mw",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Malware",
+  "signed",
+  "Triada",
+  "Trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "MFfpOisl",
+   "issuer_cn": "MFfpOisl",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2025-10-27T13:04:18Z",
+   "valid_to": "2035-10-25T13:04:18Z",
+   "serial_number": "bc732581d384dd8e",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "edbfaa3512267558e3fd6471ff5450d74af6f6892e3236448052d5462a97d1b9",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "314",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/251028-m4y7qaey7c/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Triada",
+   "status": "MALICIOUS",
+   "first_seen": "2025-10-28 11:05:05",
+   "scanner_count": "24",
+   "scanner_match": "4",
+   "scanner_percent": "16.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6900a29d3a79800405fa938e/reports/b57eeab2-c6b4-4d2e-b51a-a69d7c64b62c/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-10-28T12:29:00Z",
+   "last_seen": "2025-10-29T00:58:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/bfd4833b3423fe5bef9460f46e2a9638107e4ff148a75506d1da154ecab03c9d/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,124 @@
+{
+ "sha256_hash": "795b279f312a773f7f556a978387f1b682f93470db4c1b5f9cd6ca2cab1399b6",
+ "sha3_384_hash": "b03595345775a53c790f418627f46e638e89a1449f25105cd0fa421458e1227788a5843ee1f44e79107bdc7685b98218",
+ "sha1_hash": "160af279b9044a11403997475df2cdc931c8b57a",
+ "md5_hash": "733c3458f9e75f48ca981fd3eb17973e",
+ "first_seen": "2021-09-14 06:14:51",
+ "last_seen": null,
+ "file_name": "FlashPlayerUpdate.apk",
+ "file_size": 7086289,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Sova",
+ "imphash": null,
+ "tlsh": "T1AA66333ABE5ED51BE007D175D095CD56420C048EAB98FA6B1D21024C4EEBCE67A8BFDC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:44NtMZ51Z7robIuTWeGDzXK3d5uyuR3+i:TnMLoUuTHDNQT1+i",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "S.O.V.A.",
+  "signed",
+  "SOVA"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Adware.Gexin-1.UNOFFICIAL"
+  ],
+  "downloads": "282",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/malwrhunterteam/status/1436246552465616896?s=20"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/795b279f312a773f7f556a978387f1b682f93470db4c1b5f9cd6ca2cab1399b6/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/795b279f312a773f7f556a978387f1b682f93470db4c1b5f9cd6ca2cab1399b6",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210914-gzw9nsaban/",
+   "tags": [
+    "android",
+    "obfuscation"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "7"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Piom",
+   "status": "MALICIOUS",
+   "first_seen": "2021-09-10 09:03:07",
+   "scanner_count": "45",
+   "scanner_match": "9",
+   "scanner_percent": "20.00"
+  },
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/617509d2a9d585e6d5370c49/reports/c17fa8fa-4fa0-4dc6-8201-8d9030b370a3/overview"
+  }
+ },
+ "comments": null
+}

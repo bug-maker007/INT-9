@@ -1,0 +1,148 @@
+{
+ "sha256_hash": "480616f69e7ca6d70edb6eb7639121b4548d5b9856c23e117be5344d39c8a7dd",
+ "sha3_384_hash": "bccc7515318c51c6394862e25727f9e74a7abd469e635e6acc6c36971e41b8d78429f77053e6f3766da9a3e5dff6d08a",
+ "sha1_hash": "ab01c5aaee9c3a50d69f8e17b206c09b1f0bd09b",
+ "md5_hash": "e1863850d14c7fe5110c66146d941568",
+ "first_seen": "2026-09-24 14:33:19",
+ "last_seen": null,
+ "file_name": "NordVPN_Бесплатный.vpn (3).apk",
+ "file_size": 9427162,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Parper",
+ "origin_country": "NL",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T11A9612719E883C21C1F18A3580A30A63E3FD53466371EA6F0FB155643DA3AD2AF52D76",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:oFBWwm+m3FLWr9RbJJJ31S8vm7vSsA4EFFpm5:oFBW/BabJJJFlvm96pQ",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "src https://t.me/NordBOVPN/74",
+ "archive_pw": null,
+ "tags": [
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "207",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/480616f69e7ca6d70edb6eb7639121b4548d5b9856c23e117be5344d39c8a7dd/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260924-rxh95sfc35/",
+   "tags": [
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-09-24 14:36:40",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6ab534e61ea547f5ed33dc9d/reports/931e446d-4c30-4c13-879f-5b2db20945ac/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-24T11:46:00Z",
+   "last_seen": "2026-09-25T18:19:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/480616f69e7ca6d70edb6eb7639121b4548d5b9856c23e117be5344d39c8a7dd/results?tab=lookup",
+   "detections": [
+    "HEUR:Trojan-Dropper.AndroidOS.Creduz.t"
+   ]
+  }
+ },
+ "comments": null
+}

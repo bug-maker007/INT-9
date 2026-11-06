@@ -1,0 +1,162 @@
+{
+ "sha256_hash": "b8ea74902684dcced62a5ca2c1d6932659decfefcbdb2615bfe5899e05eb1451",
+ "sha3_384_hash": "5fab1614cfbaed701546dc81d5c04f15d253e8c7c41b3d32c1ea8e25c3a980d9c4ec367af93d7ca0b6228716341b63fa",
+ "sha1_hash": "2f75fa94b89417f8f8b32de3f7e784b9465e3cc4",
+ "md5_hash": "2c675f9f2b5176983f3f514ef599aca5",
+ "first_seen": "2024-09-27 19:22:43",
+ "last_seen": null,
+ "file_name": "Employee CRM.apk",
+ "file_size": 3162578,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Bugamashoo",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "Chameleon",
+ "imphash": null,
+ "tlsh": "T181E533283787AF85F897643C08C1B48674B7965881C6E2637738EDA406FE31B87FB561",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:l8ACxpNV/QSf6o7pmQ5GLSGRR/NzSQBa2k+/+m:l8ACb/Iop5GRhra2fb",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "banking",
+  "Chameleon",
+  "dropper",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.15113.31730.801.UNOFFICIAL",
+   "SecuriteInfo.com.HEUR.Trojan.AndroidOS.Boogr.gsh.601.20958.UNOFFICIAL"
+  ],
+  "downloads": "517",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "chameleon"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b8ea74902684dcced62a5ca2c1d6932659decfefcbdb2615bfe5899e05eb1451/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Banker",
+   "score": "0.90"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/b8ea74902684dcced62a5ca2c1d6932659decfefcbdb2615bfe5899e05eb1451",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "chameleon",
+   "score": "10",
+   "link": "https://tria.ge/reports/240927-x3snnavfmk/",
+   "tags": [
+    "family:chameleon",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-07-24 17:56:35",
+   "scanner_count": "38",
+   "scanner_match": "9",
+   "scanner_percent": "23.68"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/66f70619f741081b7c9932d2/reports/f8705d49-5980-44a6-ad7d-b42a7c021e51/overview"
+  }
+ },
+ "comments": null
+}

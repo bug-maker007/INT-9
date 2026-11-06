@@ -1,0 +1,107 @@
+{
+ "sha256_hash": "dc517d32e0aeeb26c133a0f33ab0d6e8d9025c906d3210021fa08c8cff652c0d",
+ "sha3_384_hash": "30edd5ae121e82a1cbeabc4b3fd84f840320d9aead59d763225554a160a2bc30c9a54dc2d846fe1e2a0e2443a8748208",
+ "sha1_hash": "981474c3b70a0f250402f74c2973386082ee61d4",
+ "md5_hash": "1f56fe05b1b82c6a68b83d76fdf3b770",
+ "first_seen": "2021-10-08 15:22:42",
+ "last_seen": null,
+ "file_name": "Play_Update_build_flow.apk",
+ "file_size": 171642,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T113F312A2932421F7C467A4F916D763E326B589C54EDEB343498C5019CC3F38AAE2DEC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "3072:IRKucU3/oIQjt9EkZVoXw8ZuDB/yDTdWca9qjN3eg3HxyL0yAiKzg:sKY/ngtCMVoAKuD1+za9qjN3f3xyL0y9",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.833.origin.30426.1707.UNOFFICIAL"
+  ],
+  "downloads": "325",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/dc517d32e0aeeb26c133a0f33ab0d6e8d9025c906d3210021fa08c8cff652c0d/"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/dc517d32e0aeeb26c133a0f33ab0d6e8d9025c906d3210021fa08c8cff652c0d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/211008-sshy9aefd2/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "https://suleymandemirlendinizz.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2021-10-08 15:23:12",
+   "scanner_count": "45",
+   "scanner_match": "11",
+   "scanner_percent": "24.44"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6160625be3d213d202bbca76/reports/a296fb5a-fa9e-45b3-b472-8daf8050ccda/overview"
+  }
+ },
+ "comments": null
+}

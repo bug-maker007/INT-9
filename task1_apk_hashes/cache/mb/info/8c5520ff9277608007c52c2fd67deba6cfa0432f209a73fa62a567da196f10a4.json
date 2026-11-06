@@ -1,0 +1,121 @@
+{
+ "sha256_hash": "8c5520ff9277608007c52c2fd67deba6cfa0432f209a73fa62a567da196f10a4",
+ "sha3_384_hash": "4a8c287073c2b1f078b260dc7bff0d64d4637b56f202d2f6bc44b3cd6d3432049261fda7008ab22b88569ddd2cfea381",
+ "sha1_hash": "16aad4287bf7d445e91768c1075f103a0f207597",
+ "md5_hash": "e61432b299f2c5f409bf21eef9038d91",
+ "first_seen": "2026-05-08 09:56:25",
+ "last_seen": null,
+ "file_name": "IDFC FIRST LITE.apk",
+ "file_size": 15430504,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1C5F6BC23F50529AADED6A134F5E7579533301E440393A229271FF126FDF25CECA26AC2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:8QKC2xli0oT/7zVUsG4Xa1w91x97WnoM3b8QTLe2c2BMIJkg8RGFb/G0g:8BxM3zVUT2aW/LWnHrZLeIfJksb/ng",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "IDFC",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "229",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_CMD_Powershell_Usage",
+   "author": "XiAnzheng",
+   "description": "May Contain(Obfuscated or no) Powershell or CMD Command that can be abused by threat actor(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "test_Malaysia",
+   "author": "rectifyq",
+   "description": "Detects file containing malaysia string",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8c5520ff9277608007c52c2fd67deba6cfa0432f209a73fa62a567da196f10a4/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/8c5520ff9277608007c52c2fd67deba6cfa0432f209a73fa62a567da196f10a4",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-lzv4tsfw4v/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-08 09:58:02",
+   "scanner_count": "37",
+   "scanner_match": "5",
+   "scanner_percent": "13.51"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fdb38d792fe2d217adc64a/reports/b585cca7-f5bf-4456-b528-f4519284e473/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-08T07:24:00Z",
+   "last_seen": "2026-05-08T16:45:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/8c5520ff9277608007c52c2fd67deba6cfa0432f209a73fa62a567da196f10a4/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

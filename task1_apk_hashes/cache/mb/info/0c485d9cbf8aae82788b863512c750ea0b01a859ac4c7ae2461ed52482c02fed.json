@@ -1,0 +1,142 @@
+{
+ "sha256_hash": "0c485d9cbf8aae82788b863512c750ea0b01a859ac4c7ae2461ed52482c02fed",
+ "sha3_384_hash": "ecf64183a8c0e8012326d85b6f48a1820e4e5137022d8164f6f078ddc0ecfa6f35b216046b79409aeace526293aadd79",
+ "sha1_hash": "e83ff377242f16cd431353e46ddfb0a44d31681f",
+ "md5_hash": "3b0c814397564e33d60fa3df6d01190a",
+ "first_seen": "2025-09-13 05:55:58",
+ "last_seen": null,
+ "file_name": "Ahmyth.s.apk",
+ "file_size": 269776,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "ES",
+ "anonymous": 1,
+ "signature": "Ahmyth",
+ "imphash": null,
+ "tlsh": "T1534423E7ADC35562D8BFEEFE61C691E710F4948442E02B715E0B96342D86CAF4C07D8A",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:YPMCs/wyKJq13f1zcWj5Vz4usqWhhVNclzvUsfGBXkPLN790q:w0iOcWDsus/hzNclFfrJ9N",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Ahmyth",
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Andr.Axent-EA.31354.25118.UNOFFICIAL"
+  ],
+  "downloads": "204",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "urlhaus",
+   "value": "https://urlhaus.abuse.ch/url/3623057/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_AllMal_Detector",
+   "author": "DiegoAnalytics",
+   "description": "CrossPlatform All Malwares Detector: Detect PE, ELF, Mach-O, scripts, archives; overlay, obfuscation, encryption, spoofing, hiding, high entropy, network communication",
+   "reference": null
+  },
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/0c485d9cbf8aae82788b863512c750ea0b01a859ac4c7ae2461ed52482c02fed/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.35"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/0c485d9cbf8aae82788b863512c750ea0b01a859ac4c7ae2461ed52482c02fed",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "ahmyth",
+   "score": "10",
+   "link": "https://tria.ge/reports/250913-gnc2nawnx9/",
+   "tags": [
+    "family:ahmyth",
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "ahmyth",
+     "c2": "http://182.92.96.11:42474"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ahmyth",
+   "status": "MALICIOUS",
+   "first_seen": "2025-09-13 05:50:57",
+   "scanner_count": "24",
+   "scanner_match": "11",
+   "scanner_percent": "45.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/68c5078c732879482928de12/reports//overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-09-13T03:19:00Z",
+   "last_seen": "2025-09-13T03:19:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/0c485d9cbf8aae82788b863512c750ea0b01a859ac4c7ae2461ed52482c02fed/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

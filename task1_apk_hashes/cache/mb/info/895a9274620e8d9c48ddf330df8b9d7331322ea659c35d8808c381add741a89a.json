@@ -1,0 +1,186 @@
+{
+ "sha256_hash": "895a9274620e8d9c48ddf330df8b9d7331322ea659c35d8808c381add741a89a",
+ "sha3_384_hash": "c647f1a77813ce34fcb996eec8ce3f8dfe21e969947ea041e29b96788e3fbefd5c2a820e6d4d54aedf0c2f6b4ae8ef74",
+ "sha1_hash": "5f060c8f69d95df3b0d40e9aadb4562a52a9769a",
+ "md5_hash": "1177ec5a8ab84ad460c99f57578237bc",
+ "first_seen": "2026-09-12 04:32:30",
+ "last_seen": null,
+ "file_name": "com.imjustafriendlyguy.firmware.apk",
+ "file_size": 214685,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "deepfield",
+ "origin_country": "FR",
+ "anonymous": 0,
+ "signature": "Mirai",
+ "imphash": null,
+ "tlsh": "T19B241203A64B0A3EFF91EDB9B67889F35B4CA48619376F5E6A00A55E2C435470FC14F2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:J5B7z0mu3qIaCGxjD2Szn9lxBDtPUECeAPHuqg1O:J5B7z0mu3qIa3xpznlBpSeAP3g1O",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "cecbot",
+  "ddos",
+  "Mirai",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Debug",
+   "issuer_cn": "Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2026-03-16T08:37:00Z",
+   "valid_to": "2053-08-01T08:37:00Z",
+   "serial_number": "64765fbf",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c1e2b02373e696fbfb57a0688edf9669c5f19aa780a1387c82b4931f87038ffa",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Mirai.7.origin.27849.19052.UNOFFICIAL"
+  ],
+  "downloads": "293",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CecBot_APK",
+   "author": "Nokia Deepfield ERT",
+   "description": "CecBot DDoS botnet - Android APK with libattack.so + libwatchdog.so",
+   "reference": null
+  },
+  {
+   "rule_name": "dsc",
+   "author": "Aaron DeVera",
+   "description": "Discord domains",
+   "reference": null
+  },
+  {
+   "rule_name": "elf_arm_mips_ko_so",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseapps2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise apps",
+   "reference": null
+  },
+  {
+   "rule_name": "Jeevan_Malware_Rewards",
+   "author": "ShriTiger",
+   "description": "Detects JeevanReward variants using Technical, Anti-Analysis, and Indian SE keywords",
+   "reference": null
+  },
+  {
+   "rule_name": "setsockopt",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for setsockopt() red flags",
+   "reference": null
+  },
+  {
+   "rule_name": "SUSP_Websites",
+   "author": "SECUINFRA Falcon Team",
+   "description": "Detects the reference of suspicious sites that might be used to download further malware",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "test_Malaysia",
+   "author": "rectifyq",
+   "description": "Detects file containing malaysia string",
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  },
+  {
+   "rule_name": "virustotal",
+   "author": "Tracel",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "vmdetect",
+   "author": "nex",
+   "description": "Possibly employs anti-virtualization techniques",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/895a9274620e8d9c48ddf330df8b9d7331322ea659c35d8808c381add741a89a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260912-e6mygadc77/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Linux.Worm.Mirai",
+   "status": "MALICIOUS",
+   "first_seen": "2026-09-12 04:33:20",
+   "scanner_count": "24",
+   "scanner_match": "10",
+   "scanner_percent": "41.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6aa4d60b4a02e431cc283c25/reports/33777461-6b45-4944-b82a-dd7f36322630/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-06T17:03:00Z",
+   "last_seen": "2026-09-12T16:19:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/895a9274620e8d9c48ddf330df8b9d7331322ea659c35d8808c381add741a89a/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

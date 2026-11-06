@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "dc7295a605c3486350682d7bbb4dc391d5c30c047f02748bb2d914ecd8879749",
+ "sha3_384_hash": "fc578a47c6d281cbae62c3663ed0826465ed5158d58f1c2ee0a4e26e490a14208033ff672f86f2e40d9ad8d773e50ce0",
+ "sha1_hash": "ed398bbca7021fb85c5eb44212c3547a8e44d6fc",
+ "md5_hash": "e2ac1106f66e8a7fcb91fce902504644",
+ "first_seen": "2026-11-04 22:47:33",
+ "last_seen": null,
+ "file_name": "Amazon配送状況.apk",
+ "file_size": 16400858,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "masaomi346",
+ "origin_country": "JP",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1B2F63322FBC9047DECB3D3315F7616A62945ED2A8763A2CF9954313C18F72D21B49AC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:ZKmfQIdHKQbwLMvHtYn44riMUWY75qsLXDBXOmPqsz7ioo:r8jwvHt4MaCX5no",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "32",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://x.com/masaomi346/status/2118110711897567316"
+  },
+  {
+   "context": "dropped_by_sha256",
+   "value": "4e472f1a5d14cf690e18943c0fede03185b0faf82429b7ac1ee81e5b7639139c"
+  },
+  {
+   "context": "dropped_by_md5",
+   "value": "c61f89d5abc8258749c147db6a033c4a"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "exploit_any_poppopret",
+   "author": "Jeff White [karttoon@gmail.com] @noottrak",
+   "description": "Identify POP -> POP -> RET opcodes for quick ROP Gadget creation in target binaries.",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "vxCube": {
+   "verdict": "malware2",
+   "maliciousness": "100",
+   "behaviour": [
+    {
+     "threat_level": "suspicious",
+     "rule": "Threat detection based on machine learning"
+    },
+    {
+     "threat_level": "suspicious",
+     "rule": "Suspiciously corrupted"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-11-05 01:40:38",
+   "scanner_count": "36",
+   "scanner_match": "3",
+   "scanner_percent": "8.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6aec1e0231d40fb98973d90b/reports/c8b48cb6-04ec-4871-9a9e-a1aa0ba84d3d/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-11-04T20:44:00Z",
+   "last_seen": "2026-11-05T05:17:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/dc7295a605c3486350682d7bbb4dc391d5c30c047f02748bb2d914ecd8879749/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

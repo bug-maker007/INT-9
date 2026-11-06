@@ -1,0 +1,170 @@
+{
+ "sha256_hash": "bc0b22a27dc2865e3194c23a0555fb791a17da00ed8935b7d0a118262c786f0b",
+ "sha3_384_hash": "af5512d11a378c03de80724ff4308cd224e9729ebb165896d1148495c33f8426ad31cfc1fa024689d8f43c16744ec52c",
+ "sha1_hash": "eb924475a2b085bcc45e3109bf77886eede1126d",
+ "md5_hash": "d44e53ca92e43d18e026f48ce295b02b",
+ "first_seen": "2024-05-01 19:23:47",
+ "last_seen": null,
+ "file_name": "d44e53ca92e43d18e026f48ce295b02b",
+ "file_size": 2913232,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "zbetcheckin",
+ "origin_country": "FR",
+ "anonymous": 0,
+ "signature": "Hook",
+ "imphash": null,
+ "tlsh": "T1B6D51282F7EA5C2ECD7B40361F5A4A3153968E53C256E30B88A8767D78772C40F99BC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:G0mdqy656RS1b0R3FJLeISGmAchVJGa7Zff3y7GdfSU8QUOcv/pw6jg/RV3:G0mdqb6RwbSuhG9Uia7ZfPy6xSU8l/pm",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.7% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "25.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "6.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hook",
+  "zip"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.Ermac.9.origin.14420.21096.UNOFFICIAL"
+  ],
+  "downloads": "379",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2834081/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/bc0b22a27dc2865e3194c23a0555fb791a17da00ed8935b7d0a118262c786f0b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "Triage": {
+   "malware_family": "hook",
+   "score": "10",
+   "link": "https://tria.ge/reports/240502-a8mm9scb2v/",
+   "tags": [
+    "family:ermac",
+    "family:hook",
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "infostealer",
+    "persistence",
+    "rat",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hook",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "8"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about the current Wi-Fi connection",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "7"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hook",
+     "c2": "http://54.36.113.159:3434"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ermac",
+   "status": "MALICIOUS",
+   "first_seen": "2024-05-01 19:24:14",
+   "scanner_count": "23",
+   "scanner_match": "10",
+   "scanner_percent": "43.48"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/663296e70694596be92dd983/reports/9cd9cc2e-5ebd-4cb6-9347-83c921076abd/overview"
+  }
+ },
+ "comments": [
+  {
+   "id": "92878",
+   "date_added": "2024-05-01 19:23:48",
+   "twitter_handle": "zbetcheckin",
+   "display_name": "zbet",
+   "comment": "url : hxxp://54.36.113.159:8082/getfile.php?download=YXBwLXJlbGVhc2UtMy5hcGs="
+  }
+ ]
+}

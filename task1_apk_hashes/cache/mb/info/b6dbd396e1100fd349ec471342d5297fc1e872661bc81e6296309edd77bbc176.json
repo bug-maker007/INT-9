@@ -1,0 +1,106 @@
+{
+ "sha256_hash": "b6dbd396e1100fd349ec471342d5297fc1e872661bc81e6296309edd77bbc176",
+ "sha3_384_hash": "d13f16ff3e91ee7ffa3ba30642fd1377f96ee2750a01165352ef74b897cd715500c7ded1285ccb92b22de79853aabb19",
+ "sha1_hash": "b5cbaa76f3ff9b93e6ca3396cb1971b77c412afc",
+ "md5_hash": "34508056a8532fcacfdfbfb10654d2e5",
+ "first_seen": "2025-04-17 19:26:24",
+ "last_seen": null,
+ "file_name": "System_download-CJ203032-hsz.apk",
+ "file_size": 62569387,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T1F9D712E3E309FC79D0B29332937551A3F9250D64AB17E2661506F238AEF3AD48148FE5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "786432:fiYJwy5Mi4/hkhVqt5R4H2QzWYCOrQoyVERfteFqPZ0wHx5IRR0qkMIJtuFYXLAp:jhM56HTY6fEMPZ02mR0DhXki69MCLgzE",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "35.5% (.APK) Android Package (27000/1/5)",
+  "18.4% (.ZIP) Opera Widget (14000/1/2)",
+  "17.7% (.JAR) Java Archive (13500/1/2)",
+  "13.8% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.2% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)"
+ ],
+ "comment": "https://northerndd.b-cdn.net/System_download-CJ203032-hsz.apk",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "de",
+   "issuer_cn": "de",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2023-08-31T02:48:24Z",
+   "valid_to": "2078-06-03T02:48:24Z",
+   "serial_number": "03de2d15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e805f934e0d3ca855ba61d63d97cf77c1774342bb8d36f9c32aff05cec75c189",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "191",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/250417-xz48aaztcs/behavioral1"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/b6dbd396e1100fd349ec471342d5297fc1e872661bc81e6296309edd77bbc176",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/250417-x6cfvasjs2/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.AVerseFalc",
+   "status": "MALICIOUS",
+   "first_seen": "2025-04-17 19:27:38",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/68015624e9c1e257979c425b/reports/d02069b7-c2af-4e14-ac97-5d730f88cd18/overview"
+  }
+ },
+ "comments": null
+}

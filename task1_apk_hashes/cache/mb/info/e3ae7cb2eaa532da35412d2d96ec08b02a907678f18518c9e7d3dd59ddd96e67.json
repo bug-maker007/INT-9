@@ -1,0 +1,82 @@
+{
+ "sha256_hash": "e3ae7cb2eaa532da35412d2d96ec08b02a907678f18518c9e7d3dd59ddd96e67",
+ "sha3_384_hash": "7957f632a2277cd1a11cdda27175c7d787eb6a118235ead0f4c37c61ca6b114e7c7f39027536cfd0f77220ca51f3f3cd",
+ "sha1_hash": "2443f8e9795088d7277524cef6be6497ca4bc6da",
+ "md5_hash": "dea978d07ac311a6e5c98704c01c95c5",
+ "first_seen": "2021-03-25 19:36:33",
+ "last_seen": null,
+ "file_name": "e3ae7cb2eaa532da35412d2d96ec08b02a907678f18518c9e7d3dd59ddd96e67",
+ "file_size": 3724165,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "pmmkowalczyk",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "9C063383814AE57FCC74123B70FBE5A5AD521A674C7222B35BD5CC04F8FAEE364A2914",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:gvyRCRRxztr0ic/XDL1J+jBphNAtDShEhV693xz:g6KLByH1ipDApSh069Bz",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "alien",
+  "alienbot",
+  "android",
+  "banker"
+ ],
+ "code_sign": null,
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.8604.10548.5497.UNOFFICIAL"
+  ],
+  "downloads": "316",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/pmmkowalczyk"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/e3ae7cb2eaa532da35412d2d96ec08b02a907678f18518c9e7d3dd59ddd96e67/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Banker",
+   "score": "0.90"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/e3ae7cb2eaa532da35412d2d96ec08b02a907678f18518c9e7d3dd59ddd96e67",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-03-25 19:37:08",
+   "scanner_count": "48",
+   "scanner_match": "9",
+   "scanner_percent": "18.75"
+  }
+ },
+ "comments": null
+}

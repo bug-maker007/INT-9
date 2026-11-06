@@ -1,0 +1,101 @@
+{
+ "sha256_hash": "2aec28011d9c414b88ae862806b9262655bd88088ea9113379b672e7d0eb80df",
+ "sha3_384_hash": "5e8f1639143ed34edb45d0a41b4a9076ec5074cdae6da747e9e39f25164b500cb50c4b3c8e4e9a996f148a6950b0a545",
+ "sha1_hash": "e384e6b27ad71e764ecbe8afcb553d095c8a405d",
+ "md5_hash": "700beb9999c245e961b8ad7483f3df2d",
+ "first_seen": "2021-08-23 14:45:28",
+ "last_seen": null,
+ "file_name": "Androidupdate.apk",
+ "file_size": 3472472,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1F7F53346BB818A0AC8279371C10750A7AB7C209DC7C9963F457851C328FBE95DB4AFF9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:/W1wBRH98slSUu5FmhCpYVabbXoEVDXotD77:/bBRH98SSUuXmmYVgoEVDotD77",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.ScytheSCF.GG.21825.18509.UNOFFICIAL"
+  ],
+  "downloads": "239",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2aec28011d9c414b88ae862806b9262655bd88088ea9113379b672e7d0eb80df/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/2aec28011d9c414b88ae862806b9262655bd88088ea9113379b672e7d0eb80df",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/210823-cykjwxt39a/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://52.183.39.178/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Boogr",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-23 14:46:15",
+   "scanner_count": "46",
+   "scanner_match": "11",
+   "scanner_percent": "23.91"
+  }
+ },
+ "comments": null
+}

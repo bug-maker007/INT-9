@@ -1,0 +1,170 @@
+{
+ "sha256_hash": "28cf23f76582b13705346e8fe77802785267e6b2ab2072bf9c2b9b918b2b588b",
+ "sha3_384_hash": "a20c8ef5c66eb02717c107fe71827fbc3a5312758d999e801f2444d7b29b971fbcbc8728bb3c98a1247387a2f15e7aee",
+ "sha1_hash": "92a4967469877bb134e81bdaec0a8a1171c79dc6",
+ "md5_hash": "f962034252259d770995b760cf804ed4",
+ "first_seen": "2023-11-13 09:30:29",
+ "last_seen": null,
+ "file_name": "base.apk",
+ "file_size": 2279636,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "TR",
+ "anonymous": 1,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T10EB523C6B7440CBDC44EC87B12D72AB6A52B62157172934F4D12A018FE37F68672AFB4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:K7wyceKi6ssGECKmviJRpLof9/n39pdRxOKTH1luTdMS:5ZLmE9AQnLUF3HMKTHSdX",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "Youtube Vanced",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker",
+  "cerberus",
+  "malware",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.13625.9591.9065.UNOFFICIAL"
+  ],
+  "downloads": "424",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/28cf23f76582b13705346e8fe77802785267e6b2ab2072bf9c2b9b918b2b588b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Cerberus",
+   "score": "0.90"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/28cf23f76582b13705346e8fe77802785267e6b2ab2072bf9c2b9b918b2b588b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/231113-lg2tnabh2x/",
+   "tags": [
+    "family:alienbot",
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "rat",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Cerberus payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://comolokko4152ertausicken.gq/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.BankBot",
+   "status": "MALICIOUS",
+   "first_seen": "2022-10-01 14:41:08",
+   "scanner_count": "37",
+   "scanner_match": "10",
+   "scanner_percent": "27.03"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6551ecdc886b1623ff3eb60e/reports/13852468-8dc1-4aa6-8c03-596dd2b36cad/overview"
+  }
+ },
+ "comments": null
+}

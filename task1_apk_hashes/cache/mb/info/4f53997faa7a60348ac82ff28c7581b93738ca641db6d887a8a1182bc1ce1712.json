@@ -1,0 +1,211 @@
+{
+ "sha256_hash": "4f53997faa7a60348ac82ff28c7581b93738ca641db6d887a8a1182bc1ce1712",
+ "sha3_384_hash": "dc20774a286310b61b5d15c3718339dc665d1d814c49aeb61c41b61e0191f22af80de3060e0d484802bcc5539727d239",
+ "sha1_hash": "d3b890a487a1c8656db4f2c81e9a25e94d674722",
+ "md5_hash": "bc54eabde5eac5637d6e929ccdb87420",
+ "first_seen": "2025-10-31 08:53:46",
+ "last_seen": null,
+ "file_name": "Ncell-Update-Your-KYC-Now.apk",
+ "file_size": 688203,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T17AE412A3FF19DCA2C7F1517347AC85D2123F3F648C868A972E557B4CA8B7AC04746988",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:0wlbo9GgLRBWItYYyow7HCgI4G0hrn8a/2NlzSpXVUJVYdYpj26Rq21zg775riO:0wlfglBWItYYjwjCgI4nh4a/AlzSeVYl",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "bank",
+  "malware",
+  "Ncell",
+  "signed",
+  "SpyNote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.PUA.Android.JPush-1.UNOFFICIAL"
+  ],
+  "downloads": "224",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "FreddyBearDropper",
+   "author": "Dwarozh Hoshiar",
+   "description": "Freddy Bear Dropper is dropping a malware through base63 encoded powershell scrip.",
+   "reference": null
+  },
+  {
+   "rule_name": "Spynote_craxsrat_strings",
+   "author": "Alberto Segura",
+   "description": "Detects Spynote Android Malware",
+   "reference": null
+  },
+  {
+   "rule_name": "Spynote_generic_strings",
+   "author": "Alberto Segura",
+   "description": "Detects Spynote Android Malware",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_CMD_Powershell_Usage",
+   "author": "XiAnzheng",
+   "description": "May Contain(Obfuscated or no) Powershell or CMD Command that can be abused by threat actor(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/4f53997faa7a60348ac82ff28c7581b93738ca641db6d887a8a1182bc1ce1712/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/251031-kwtwxsfr6w/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "intelligencedns.duckdns.org:3333"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-10-08 01:39:05",
+   "scanner_count": "38",
+   "scanner_match": "12",
+   "scanner_percent": "31.58"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/690479c2a3d1631095234dd5/reports/e9fdd7e8-0a10-4a46-b39e-bedbab31ee44/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-10-07T20:13:00Z",
+   "last_seen": "2025-10-31T09:30:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/4f53997faa7a60348ac82ff28c7581b93738ca641db6d887a8a1182bc1ce1712/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

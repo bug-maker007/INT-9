@@ -1,0 +1,152 @@
+{
+ "sha256_hash": "f3ee8522c46e31269449c58c69369f93a525201559fda2a2eff1d2d205f4f778",
+ "sha3_384_hash": "f871786f33f2311f9785d6727bfd815ade736ba264ea2352dde09c0ee12be6f7170c91ff388be24a333ad055ff52753e",
+ "sha1_hash": "7e0c6781b9b560dc958d38786419f5a09dcf3cf6",
+ "md5_hash": "d2e511a1e5836f0557c695eb23307711",
+ "first_seen": "2024-10-21 16:13:00",
+ "last_seen": null,
+ "file_name": "app.apk",
+ "file_size": 7347572,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "NDA0E",
+ "origin_country": "NL",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1C9762352F767AACFC8B2C132A58E07352246CD26CA069347D735B36D2CBB9E49F425C4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:debHCUOigkvgP45yCG8Ii8Z1v1oGKoBbq27:d8iUODHrG8jdo7ow0",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "geo",
+  "IRATA",
+  "IRN",
+  "Sana",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.FileRepMalware.31967.2211.UNOFFICIAL"
+  ],
+  "downloads": "276",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3247375/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/f3ee8522c46e31269449c58c69369f93a525201559fda2a2eff1d2d205f4f778/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Copybara",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/f3ee8522c46e31269449c58c69369f93a525201559fda2a2eff1d2d205f4f778",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/241021-tn3crs1ank/",
+   "tags": [
+    "family:irata",
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SMSAgent",
+   "status": "MALICIOUS",
+   "first_seen": "2024-10-21 16:14:13",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67167d957f0550dc47f9b6dd/reports/dc0cbaf4-9b27-492d-8abf-291a26811cb4/overview"
+  }
+ },
+ "comments": null
+}

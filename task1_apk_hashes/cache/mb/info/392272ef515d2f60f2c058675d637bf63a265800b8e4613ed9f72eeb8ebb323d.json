@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "392272ef515d2f60f2c058675d637bf63a265800b8e4613ed9f72eeb8ebb323d",
+ "sha3_384_hash": "8cde456fd324efb79f4a12198fbb85a04e43adc9f2e954b2c299a6440f4387464d4bd7caf979b0370807128cec06e630",
+ "sha1_hash": "c794418c86c5e2da8947206c6f807422e98a6602",
+ "md5_hash": "47d1cd9993c27bfe458a589b652ce367",
+ "first_seen": "2026-01-03 22:50:59",
+ "last_seen": "2026-01-03 23:02:49",
+ "file_name": "RTO CHALLAN ONLINE CHECK 07.apk",
+ "file_size": 5060723,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Mr_Malman",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "Anubis",
+ "imphash": null,
+ "tlsh": "T1C036E0CEBFC45A69C83201F1886912F667578D178ACBCA037954361C687F9D81FE4BCA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:BUL77pm2LITY3WdK3y5Pt89wefOyxyw3wijM:B2t0TK32PtKOyMw3fM",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "Android SMS Stealer and Dropper disguised as \"RTO Challan\" app. Spreads via SMS worming/smishing.\r\n\r\nTechnical Analysis:\r\n\r\nEntry: Receiver intercepts SMS and passes execution to a decoy launcher hidden in a fake library path (androidx.emoji2.text.m).\r\n\r\nPersistence: Abuses BIND_VPN_SERVICE to launch a persistent \"Fake VPN\" service (com.eksctm.android.ServiceHandler) that prevents system kill.\r\n\r\nDropper: Contains REQUEST_INSTALL_PACKAGES permission and code to write raw byte-buffers to disk (ServiceHandler.b), indicating it drops a secondary banking payload.\r\n\r\nObfuscation: Uses Control Flow Flattening and hides C2 configuration inside obfuscated resource files (res/values/kbfcb*.xml) rather than Java strings.",
+ "archive_pw": null,
+ "tags": [
+  "Anubis",
+  "apk",
+  "signed",
+  "smishing",
+  "sms-stealer",
+  "vpn-hijacker"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "md5WithRSAEncryption",
+   "valid_from": "2025-12-26T07:52:50Z",
+   "valid_to": "2035-12-24T07:52:50Z",
+   "serial_number": "c74d540d0d7621b8",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "3b57a97dd363645d19780eea5622647c0f391d4c440591273c704a27026046d8",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "602",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://mr-malman.medium.com/unmasking-the-rto-scam-reverse-engineering-the-rto-challan-banking-trojan-df3ebe9c03ae"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/392272ef515d2f60f2c058675d637bf63a265800b8e4613ed9f72eeb8ebb323d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260106-kmqsxaylen/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Anubis",
+   "status": "MALICIOUS",
+   "first_seen": "2026-01-03 16:34:43",
+   "scanner_count": "38",
+   "scanner_match": "10",
+   "scanner_percent": "26.32"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/695a1efb148c21e830effc51/reports/0d626f1c-cc20-443b-884a-fec55aaf7c5e/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-01-03T09:57:00Z",
+   "last_seen": "2026-01-04T06:46:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/392272ef515d2f60f2c058675d637bf63a265800b8e4613ed9f72eeb8ebb323d/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

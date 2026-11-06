@@ -1,0 +1,124 @@
+{
+ "sha256_hash": "29926c0101734a0c34efd310d58d055f266e28960c65f00f905327dcbb186711",
+ "sha3_384_hash": "b0c2ae88f58d975ab68b1ec397303c9e0a8757f5df138877be33b140cd2e7d4235d15fca0dcb400694ca7854542ab847",
+ "sha1_hash": "382d1e9443d2134f6867d70eaf9988f741d52d97",
+ "md5_hash": "3977cd99d386bac13d71b13e005adc36",
+ "first_seen": "2024-01-24 09:36:24",
+ "last_seen": null,
+ "file_name": "Player GameSpace_1.1.0.apk",
+ "file_size": 83193826,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "500mk500",
+ "origin_country": "UA",
+ "anonymous": 0,
+ "signature": "Harly",
+ "imphash": null,
+ "tlsh": "T1CE08335BE718BA5AD9F2C3368B79412A301D4C64CB83EFA7645D733951F3AD08A42BC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:wkv9fO9gnjURJqtfx6VGTg6TwHW+TBqQ65VQRaGibrtXXhTXV37o6Hi:wYfOKUufx6cTg6TwHW8Bq9saBTXV3bi",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "52.8% (.APK) Android Package (32500/1/6)",
+  "21.9% (.JAR) Java Archive (13500/1/2)",
+  "17.0% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "6.5% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.6% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Harly",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2023-12-15T07:10:49Z",
+   "valid_to": "2053-12-15T07:10:49Z",
+   "serial_number": "e0b162ccf30b923f365abb60599dbbb9b4163968",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "13df701321d7dc9cea08f8ae0d54d93e1462ba780da38803e492a65ef63094a4",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_drive-by",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "602",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/ReBensk/status/1750029453538078840"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/29926c0101734a0c34efd310d58d055f266e28960c65f00f905327dcbb186711",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/240124-llh74sfbbl/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks Android system properties for emulator presence.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation)",
+     "score": "5"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2024-01-24 09:37:14",
+   "scanner_count": "38",
+   "scanner_match": "2",
+   "scanner_percent": "5.26"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65b0da49f3cf17c17b77e544/reports/0cc82996-0d19-4a6e-bf7c-3dc38db4bc4f/overview"
+  }
+ },
+ "comments": null
+}

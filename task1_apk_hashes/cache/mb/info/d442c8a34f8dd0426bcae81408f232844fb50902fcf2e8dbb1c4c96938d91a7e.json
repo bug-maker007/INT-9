@@ -1,0 +1,109 @@
+{
+ "sha256_hash": "d442c8a34f8dd0426bcae81408f232844fb50902fcf2e8dbb1c4c96938d91a7e",
+ "sha3_384_hash": "9c98578f53b9aa1995449e80c8b24cdca5c66bed212b1d45087b02bd86c55d7e9ca90e178a4ae6c2ff8f7dd03946d2a5",
+ "sha1_hash": "fc9f3aedb237e164395b6f0a79e9762df4d45738",
+ "md5_hash": "c859a90cb2be807f646733fd9c57bc8d",
+ "first_seen": "2026-07-24 13:29:46",
+ "last_seen": null,
+ "file_name": "M-Parivahan.apk",
+ "file_size": 15489724,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1EDF6129AF705E96BC4F77332513A162153474D228BB3D6D7AE54363C18BB6D00F8AAC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:RlYM1kuTtP/YAjA1QKCJEeV1+jcO50HA8IQ:RZ1kuTtPgAjAWKYFcH50HPIQ",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "45.0% (.APK) Android Package (27000/1/5)",
+  "20.8% (.VYM) VYM Mind Map (12500/1/3)",
+  "17.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "10.0% (.KMZ) Google Earth saved working session (6000/1/1)",
+  "6.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "GOI",
+  "Malware",
+  "mParivahan",
+  "Riskware",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "322",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d442c8a34f8dd0426bcae81408f232844fb50902fcf2e8dbb1c4c96938d91a7e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260724-qr8r6s1eka/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-07-24 13:31:06",
+   "scanner_count": "38",
+   "scanner_match": "1",
+   "scanner_percent": "2.63"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a63690ff6d5b1d9ca3c128b/reports/0dafef1e-6b65-4620-8bab-df91a0495330/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-24T11:14:00Z",
+   "last_seen": "2026-07-25T17:21:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/d442c8a34f8dd0426bcae81408f232844fb50902fcf2e8dbb1c4c96938d91a7e/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

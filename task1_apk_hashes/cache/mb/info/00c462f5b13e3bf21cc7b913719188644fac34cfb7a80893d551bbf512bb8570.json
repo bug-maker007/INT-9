@@ -1,0 +1,100 @@
+{
+ "sha256_hash": "00c462f5b13e3bf21cc7b913719188644fac34cfb7a80893d551bbf512bb8570",
+ "sha3_384_hash": "63f8b0beac8c101ab8e12e58e7017540cd24ba7438552653c8518579eb5a5d485b8b5d53cf2412e9eac12c3569da139c",
+ "sha1_hash": "3195a268d5fe4c181cf4178322afe629b03f1064",
+ "md5_hash": "73f666b3dc5ee66e202b3e365a524d5d",
+ "first_seen": "2021-08-19 20:34:49",
+ "last_seen": "2021-08-19 20:39:24",
+ "file_name": "Chrome505543.apk",
+ "file_size": 4089954,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T11D162242F79008B7F24288753102839728250E777652DD1B51E3786F6FABFB06E79DA8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:Xi2uReewCW9W0rXFHK5WHofObKH150wISG1qwlE9:S2SIvX+Gbc0mcqGo",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "Alienbot",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.10112.27836.12799.UNOFFICIAL"
+  ],
+  "downloads": "277",
+  "uploads": "3",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1547240/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/00c462f5b13e3bf21cc7b913719188644fac34cfb7a80893d551bbf512bb8570/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/00c462f5b13e3bf21cc7b913719188644fac34cfb7a80893d551bbf512bb8570",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210819-sqjexdpt7e/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://a05qdzfe6qa1.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2021-08-19 20:35:12",
+   "scanner_count": "46",
+   "scanner_match": "6",
+   "scanner_percent": "13.04"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,101 @@
+{
+ "sha256_hash": "9f2d916b1e0ee486f5a49e3e9887eae59dbdca0a554139ae9a4dc8edc2f12de0",
+ "sha3_384_hash": "0f5450bc1892f45bfe91bf1c6f36f84fe0d17f391cc7c7b904b8a21f3c8041c82d7043340415c5c02f5f70b291cd7d95",
+ "sha1_hash": "6607baef8a3f4d0a077b8d38eea4afab4b8e9c5f",
+ "md5_hash": "af9fde69078e906d628f5c04fe4ab11f",
+ "first_seen": "2021-07-17 14:48:39",
+ "last_seen": null,
+ "file_name": "9F2D916B1E0EE486F5A49E3E9887EAE59DBDCA0A554139AE9A4DC8EDC2F12DE0.apk",
+ "file_size": 2896783,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "_icebre4ker_",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Teabot",
+ "imphash": null,
+ "tlsh": "T164D533C17BA7EC0AC25BC5391CB0D44AB705A3BE8140D90A46582D27F5FAF89574BF8B",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:CdB2WK9IVhZGa7+o4Dmu1iAYOSMA+418rU4+xVRgOd35UZJlTn7C:CdIxWVhZGaCoCiTrU46UPhlO9TG",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "anatsa",
+  "android",
+  "apk",
+  "banker",
+  "teabot",
+  "toddler"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "451",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/9f2d916b1e0ee486f5a49e3e9887eae59dbdca0a554139ae9a4dc8edc2f12de0/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/9f2d916b1e0ee486f5a49e3e9887eae59dbdca0a554139ae9a4dc8edc2f12de0",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "teabot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210717-qs75nbs8xn/",
+   "tags": [
+    "family:teabot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "TeaBot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.BankBot",
+   "status": "MALICIOUS",
+   "first_seen": "2021-07-17 14:49:04",
+   "scanner_count": "46",
+   "scanner_match": "6",
+   "scanner_percent": "13.04"
+  }
+ },
+ "comments": null
+}

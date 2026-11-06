@@ -1,0 +1,119 @@
+{
+ "sha256_hash": "55e4a8425387a5ad4d63be81b36e39199d38ae6270828979440836708af1252c",
+ "sha3_384_hash": "ad421e100b1d1a5bbcd683dbe41002e9983de2b9f0d19fe485a01d34af2f21d8e271e09fca4c9b6581d7fe7d6a524692",
+ "sha1_hash": "52063282d3266a9c0ff0e8af304126e133e35af7",
+ "md5_hash": "afd755e745224bc977b061d6c8cc6d2c",
+ "first_seen": "2026-03-17 12:57:21",
+ "last_seen": null,
+ "file_name": "iMobile Lite.apk",
+ "file_size": 16073841,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1F2F6CD23F4052AAADEC9A134F5E75795733412940392A23C271FD026FDD26DECA37AD2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:MyiooLZIbaIQux5jTUnbLMBgsWygQ/GAjckEvJZWXfnn2M1yqQjEEqdCcuOp:MHooNIbawonghhH/50RZ6nn1jQIuQ",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Dropper",
+  "ICICI Bank",
+  "Malware",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "265",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "enterpriseapps2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise apps",
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseunix2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise UNIX",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/55e4a8425387a5ad4d63be81b36e39199d38ae6270828979440836708af1252c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/55e4a8425387a5ad4d63be81b36e39199d38ae6270828979440836708af1252c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260317-p7lf5sbw2n/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-03-17 13:22:49",
+   "scanner_count": "38",
+   "scanner_match": "3",
+   "scanner_percent": "7.89"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69b94fe6493cb7d62d01fb8b/reports/4564b9d5-36a8-4dc9-81e8-69c1cb1f5588/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/55e4a8425387a5ad4d63be81b36e39199d38ae6270828979440836708af1252c/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,124 @@
+{
+ "sha256_hash": "2072c29a227b8cd181ad8fe67a07f75c4de34fed5f824706316bcb6bd804bda7",
+ "sha3_384_hash": "0f8b0945f054362f04e6a84a443bce7384725cce4688636fc66ad523e99010ab5e98cc1cc3c9b14aebe6ce7632ef029b",
+ "sha1_hash": "ed0f1030e32d8ec0bee806fbe4ea438bcdcb7192",
+ "md5_hash": "252083667078cb107e7d146c25d7743c",
+ "first_seen": "2026-09-04 02:15:53",
+ "last_seen": "2026-09-04 15:34:51",
+ "file_name": "Rasmlar5⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀.apk",
+ "file_size": 5357500,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Alex_sev",
+ "origin_country": "IR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T18646E4AECE6D6825DA44AF35045B0EEBD10903815642F33F5E78A9A03C8BDD95D23D3B",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:zQDaKCd/6FStCEYUf98S9401URYw1PmD/RPjn3SPWkE+lMLIiU6y4IPd/6Ou3uWL:zQOGGR971y1PmbRPj36E+Mi7rdWL",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "dropper"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "310",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2072c29a227b8cd181ad8fe67a07f75c4de34fed5f824706316bcb6bd804bda7/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260904-cp91kaan3y/",
+   "tags": [
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2026-09-04 02:17:42",
+   "scanner_count": "38",
+   "scanner_match": "9",
+   "scanner_percent": "23.68"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a9a29f4e73d223c809661c9/reports/44897c62-d91f-414e-b628-9aa00d613e75/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-04T00:27:00Z",
+   "last_seen": "2026-09-05T21:23:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/2072c29a227b8cd181ad8fe67a07f75c4de34fed5f824706316bcb6bd804bda7/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

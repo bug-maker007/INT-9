@@ -1,0 +1,108 @@
+{
+ "sha256_hash": "dbd4e7f10579f00acfd714453ccecef4458769103633be4c88d4eb615c0741a7",
+ "sha3_384_hash": "4f90ac1a2583d349bdac6dcba6539646ea45e3c864c1937146ed7fdbb63651247e3d20bcf4fcf45f0187a9d7786e9b08",
+ "sha1_hash": "bce629d1db3485df44d49aec0dc04dd58130abd8",
+ "md5_hash": "416d5daea6d12e36282b717f0aaa76f6",
+ "first_seen": "2026-05-06 09:49:14",
+ "last_seen": null,
+ "file_name": "mParivahan(25).apk",
+ "file_size": 13124396,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T199D6128BDE58C86AECF6523AFE32032334235D684703C47BA559FA3C3E735D64A91991",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:n/NIGg8MH5a6Nu7KrmwiwEzab/2CqbRb0m7CKfxMEXynLTlc94oxAgzwRT9QCdDO:mdrEzaYbJDHffCMxAgUR+Cg",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "malware",
+  "mparivahan"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "172",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/dbd4e7f10579f00acfd714453ccecef4458769103633be4c88d4eb615c0741a7/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/dbd4e7f10579f00acfd714453ccecef4458769103633be4c88d4eb615c0741a7",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260506-lvqzbaey3z/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-06 09:51:10",
+   "scanner_count": "24",
+   "scanner_match": "3",
+   "scanner_percent": "12.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fb0ea72fcb905ec28274f8/reports/f2a87a02-d11c-4209-aaec-decc97baab44/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-06T08:03:00Z",
+   "last_seen": "2026-05-06T17:40:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/dbd4e7f10579f00acfd714453ccecef4458769103633be4c88d4eb615c0741a7/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

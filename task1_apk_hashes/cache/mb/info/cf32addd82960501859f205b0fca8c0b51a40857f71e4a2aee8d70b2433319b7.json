@@ -1,0 +1,109 @@
+{
+ "sha256_hash": "cf32addd82960501859f205b0fca8c0b51a40857f71e4a2aee8d70b2433319b7",
+ "sha3_384_hash": "0a46fe38545ca04bd3a5df3e8ef6d6f6911807264929cfe7f0ac3c3cc5c3548fa06362ff511931f6a7c8c3315df65e43",
+ "sha1_hash": "68c7def1be89cd9f4a7fbff5e0188cd099c6b8e0",
+ "md5_hash": "e2c9c8adccf32255cbe0587a4b425bcd",
+ "first_seen": "2026-05-06 09:19:24",
+ "last_seen": null,
+ "file_name": "iMobile Lite (11).apk",
+ "file_size": 14693181,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T170E6124BEE59C96AECF7533AFD32032738225D680703C0BBA1A9B63D7E735C24691591",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:wEKQ0+z6dqPpg0s7ilNV+cZou3+MYqPoAAqesCvZlTzcVriu1e9CXAmcW4fx7Al5:50+xm0N1jZfFYqAA7e/czVrcVfx7Af",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "ICICI",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "126",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/cf32addd82960501859f205b0fca8c0b51a40857f71e4a2aee8d70b2433319b7/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/cf32addd82960501859f205b0fca8c0b51a40857f71e4a2aee8d70b2433319b7",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260506-lafylsas5m/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-11-26 14:20:53",
+   "scanner_count": "24",
+   "scanner_match": "3",
+   "scanner_percent": "12.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fb07a3792fe2d217ac80e4/reports/4051aca0-3c28-4805-aae4-d09982a33a33/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-11-26T09:11:00Z",
+   "last_seen": "2026-05-08T00:00:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/cf32addd82960501859f205b0fca8c0b51a40857f71e4a2aee8d70b2433319b7/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

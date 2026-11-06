@@ -1,0 +1,154 @@
+{
+ "sha256_hash": "4a899a3b0fd61937ce8555cb0da53daf72dadc7dd299c63e90b4a203e5a14db1",
+ "sha3_384_hash": "15f08e3bf0100fd0a6492a7323360dea31e9e924ac8f6b11e277c260973f383f111987d5cfb00c2109db1711abcc156d",
+ "sha1_hash": "085f31d9516a47f0678bfd42b047dbefed71268a",
+ "md5_hash": "692da6e4bafd40213619a1712ddfd65f",
+ "first_seen": "2026-04-14 21:21:32",
+ "last_seen": null,
+ "file_name": "4a899a3b0fd61937ce8555cb0da53daf72dadc7dd299c63e90b4a203e5a14db1.apk",
+ "file_size": 2577715,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1CBC5CE89FB58962FC8BA05330DEA923122578D478E879B437844375C78776E80F5AFC9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:Z+Y/TgIhQQBcWJoq9eE21OKmgZj2y3UPyxEX+yY1I6CS4jaEyYp:IgTpTJveEU2y3U6xEXs1IZfjnp",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker",
+  "dompablitoestu",
+  "nfc",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "np",
+   "issuer_cn": "np",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2021-04-25T09:03:56Z",
+   "valid_to": "3020-08-26T09:03:56Z",
+   "serial_number": "045ff9a3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "492682f877607ee99df2ddd2bd5953fd727bdf6e19d397de9dbbafd582bcad75",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.NGate.39.origin.7077.28896.UNOFFICIAL"
+  ],
+  "downloads": "234",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/4a899a3b0fd61937ce8555cb0da53daf72dadc7dd299c63e90b4a203e5a14db1/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/4a899a3b0fd61937ce8555cb0da53daf72dadc7dd299c63e90b4a203e5a14db1",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260414-z7s64ae19z/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Adware.GhostNFC",
+   "status": "MALICIOUS",
+   "first_seen": "2026-03-26 17:02:32",
+   "scanner_count": "38",
+   "scanner_match": "8",
+   "scanner_percent": "21.05"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69deaff25ea31bc68a2aea16/reports/95292e28-3618-4216-b2ec-51c81d2cf4a2/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-03-31T07:33:00Z",
+   "last_seen": "2026-04-16T04:44:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/4a899a3b0fd61937ce8555cb0da53daf72dadc7dd299c63e90b4a203e5a14db1/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

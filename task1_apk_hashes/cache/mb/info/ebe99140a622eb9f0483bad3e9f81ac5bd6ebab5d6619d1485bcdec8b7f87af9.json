@@ -1,0 +1,132 @@
+{
+ "sha256_hash": "ebe99140a622eb9f0483bad3e9f81ac5bd6ebab5d6619d1485bcdec8b7f87af9",
+ "sha3_384_hash": "641f642a0e1f7fc755f0e50437fc9d1805578cd5629420ddd60b5dc49d142e8426da3c5d49b21646973b51e16b79959a",
+ "sha1_hash": "8e1f4ee2b27f0edc1c4820586653bb74e6031482",
+ "md5_hash": "3cee1a4894f31bf51415d7d86d82c527",
+ "first_seen": "2024-02-02 15:02:58",
+ "last_seen": null,
+ "file_name": "SANA.apk",
+ "file_size": 2575288,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T15EC52313F636A91BCC36C07326882735651F9D1CCA42764E385873AE78BBDE84BC56E1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:EHQJvBBKzXJrCBknbLwKgLMyuc36PYhMStxc6nl+geT828OmR:EwJ5MXJrPfwDMyu0pNtxFAgnu+",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "56.0% (.APK) Android Package (32500/1/6)",
+  "23.2% (.JAR) Java Archive (13500/1/2)",
+  "12.0% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "6.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.989.origin.5259.15144.UNOFFICIAL"
+  ],
+  "downloads": "537",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ebe99140a622eb9f0483bad3e9f81ac5bd6ebab5d6619d1485bcdec8b7f87af9/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.90"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ebe99140a622eb9f0483bad3e9f81ac5bd6ebab5d6619d1485bcdec8b7f87af9",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240202-se1xxaggh3/",
+   "tags": [
+    "family:irata",
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Realrat",
+   "status": "MALICIOUS",
+   "first_seen": "2024-01-25 21:16:34",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65bd04282dd4529ad2532beb/reports/f01164a3-4396-4d88-a1d4-967816bc1e94/overview"
+  }
+ },
+ "comments": null
+}

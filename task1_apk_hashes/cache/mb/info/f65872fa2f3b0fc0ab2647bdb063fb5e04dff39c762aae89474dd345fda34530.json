@@ -1,0 +1,85 @@
+{
+ "sha256_hash": "f65872fa2f3b0fc0ab2647bdb063fb5e04dff39c762aae89474dd345fda34530",
+ "sha3_384_hash": "4894b7bbada71e03294e6683129346192bc9704ca55663ca209aee658f14202a4f016312f13dda14d253872ce90e0909",
+ "sha1_hash": "5542f097701a819ea9f277e05f6d47b7dd56ebd3",
+ "md5_hash": "b501ffeee7be86033bd414cda8c3eca6",
+ "first_seen": "2025-04-26 23:43:50",
+ "last_seen": null,
+ "file_name": "Roblox.apk",
+ "file_size": 787658,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T174F47C86FB4AF867C9F3C6368275C66AD6064C544B43D7431A89727C1DBBAC08B49FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:Bw0a1a8LdeSikfOPfapEuQtW5WmpYshXZPbGwidNpg0A:ha1a6eCcf9uQtW5WmD9idNpq",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Spynote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Benim ismim",
+   "issuer_cn": "Benim ismim",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2017-10-17T16:35:54Z",
+   "valid_to": "2045-03-03T16:35:54Z",
+   "serial_number": "84d0fd4c97dce8b8",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "bf7dcca87a4b2ef5c91d7eca38101bb8d0e2e91d849dae4e8213372065846930",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Backdoor.791.origin.21864.12548.UNOFFICIAL"
+  ],
+  "downloads": "148",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.49"
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-04-25 21:35:45",
+   "scanner_count": "24",
+   "scanner_match": "16",
+   "scanner_percent": "66.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ]
+ },
+ "comments": null
+}

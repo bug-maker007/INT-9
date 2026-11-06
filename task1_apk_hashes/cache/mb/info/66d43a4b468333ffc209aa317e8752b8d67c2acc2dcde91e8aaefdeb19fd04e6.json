@@ -1,0 +1,149 @@
+{
+ "sha256_hash": "66d43a4b468333ffc209aa317e8752b8d67c2acc2dcde91e8aaefdeb19fd04e6",
+ "sha3_384_hash": "fdecba79aebfdf9dadb17dd1ffa2e3afd73691a35f953b379c4904e18271d40e473e81f2412a593271eab8e930d0900b",
+ "sha1_hash": "85e9595b71a8e91db23b52ffe493db0e44f12610",
+ "md5_hash": "12de8581e6f311710a5c2837767dc940",
+ "first_seen": "2026-03-17 13:24:30",
+ "last_seen": null,
+ "file_name": "iMobile Lite.apk",
+ "file_size": 12322431,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1DEC63315FAC98E11D8FB833384B142A6A17EEE299B07CB1B6715333D20BB5F853916D1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:XfXim/522waVlnFHwTwc+br1bJTcjTPbkyaZppIWA77bqEy9/0gNXk3BmXGT0pyH:X6mBXuTwpVbJTcjTLaZb07nqEy86k3Bd",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Dropper",
+  "ICICI Bank",
+  "iMobile",
+  "Malware",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "310",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "MD5_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for MD5 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "RIPEMD160_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for RIPEMD-160 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "SHA1_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for SHA1 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/66d43a4b468333ffc209aa317e8752b8d67c2acc2dcde91e8aaefdeb19fd04e6/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/66d43a4b468333ffc209aa317e8752b8d67c2acc2dcde91e8aaefdeb19fd04e6",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260317-qn5lcac17x/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-03-17 13:25:37",
+   "scanner_count": "20",
+   "scanner_match": "3",
+   "scanner_percent": "15.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69b95642493cb7d62d020532/reports/e87d26dd-313e-4d8e-a0cd-2a347ade45e8/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/66d43a4b468333ffc209aa317e8752b8d67c2acc2dcde91e8aaefdeb19fd04e6/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,114 @@
+{
+ "sha256_hash": "3408f14720eff6ff93e402f85cae60b17793eab8ccd501a17fa0eaa51a087f0d",
+ "sha3_384_hash": "354b2a98fefc321b7055c1b8ad8e88ebbf37bdd42bb633986ff5422111a4967a0aaaeca89905967b28a7349bcbae1be6",
+ "sha1_hash": "4ff95da6f41c830d1efe40c8777772001880db6e",
+ "md5_hash": "5fd83c15160d8278aba82366926b7896",
+ "first_seen": "2026-07-09 07:37:25",
+ "last_seen": "2026-07-09 07:41:12",
+ "file_name": "SBI Bank.apk",
+ "file_size": 1184226,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Xenofic",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1A9453314B9A2B736FCB888B539C9955984315F104B03953B3EF4576CF8EBA092C739E8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:v8xUfT1Y/4fq/gt//Hum8O/ZOw5IuWPYEG1HedunJHSPy8:H1Y/4f7tnHrHRgw7cunJHyV",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": "First-stage dropper. Shows a fake \"Update available\" screen, requests VPN consent + install-unknown-apps, then reconstructs an encrypted embedded payload from four raw resources (single-byte XOR keys 0xAA–0xAD) and installs it via PackageInstaller. Also starts a full-route \"System Update Sync\" VPN that blackholes traffic during install.\r\n\r\nPayload (com.titanpihuwijahi.nofohotudivela): SBI-themed WebView card/OTP phishing (card no., expiry, CVV, DOB, CIF, account no., ATM PIN — first card page exfils on every keystroke via a JS bridge), SMS interception/forwarding, remote SEND_SMS and USSD execution per SIM slot, gallery-image exfil to freeimage.host (API key 6d207e02198a847aa98d0a2a901485a5), installed-app inventory. C2 = Firebase RTDB fetched from npoint.io config (api.npoint.io/3e71ff39bfe02fa84499); active DB apptst-1v-default-rtdb.firebaseio.com via key Admin_Card_10. Dex2C-protected (libstub.so, APK-Dex2C 3.1.41, protected 2026-07-04). Note: APKs use malformed ZIP central-directory fields as anti-analysis (apktool/unzip/jarsigner fail; jadx + Python zipfile work).\r\n\r\nDropper pkg: com.hubicipher.gesacosetu.iharalpha\r\nPayload pkg: com.titanpihuwijahi.nofohotudivela",
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "banking",
+  "Dex2C",
+  "FirebaseC2",
+  "India",
+  "SBI"
+ ],
+ "code_sign": null,
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "237",
+  "uploads": "3",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "SUSP_ZIP_Smuggling_Jun01",
+   "author": "delivr.to",
+   "description": "ZIP archives with data smuggled between last file record and the central directory.",
+   "reference": "https://github.com/Octoberfest7/zip_smuggling/"
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3408f14720eff6ff93e402f85cae60b17793eab8ccd501a17fa0eaa51a087f0d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260709-j59s3afx4v/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Attempts to obfuscate APK file format",
+     "score": "6"
+    },
+    {
+     "signature": "Requests dangerous framework permissions",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-07-09 08:16:20",
+   "scanner_count": "23",
+   "scanner_match": "5",
+   "scanner_percent": "21.74"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a4f58cfc667f4cee199c70d/reports/94119328-d1ac-4aef-96f2-59600c2242f5/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-09T05:49:00Z",
+   "last_seen": "2026-07-10T19:27:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/3408f14720eff6ff93e402f85cae60b17793eab8ccd501a17fa0eaa51a087f0d/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

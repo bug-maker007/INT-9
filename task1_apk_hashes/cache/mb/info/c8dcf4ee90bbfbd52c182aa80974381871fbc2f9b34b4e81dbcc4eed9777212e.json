@@ -1,0 +1,141 @@
+{
+ "sha256_hash": "c8dcf4ee90bbfbd52c182aa80974381871fbc2f9b34b4e81dbcc4eed9777212e",
+ "sha3_384_hash": "402d122c27b00889bb41b2dfb307a9663cec638950a4fb8ada4943c226aec102657db9fc39a392e815848d3ed5e7f8a6",
+ "sha1_hash": "25617baf83f298e7e1ea085a298bac115cbe0600",
+ "md5_hash": "dc966268be1c40447c73bfc01808dd83",
+ "first_seen": "2025-05-31 13:15:14",
+ "last_seen": null,
+ "file_name": "rVwMwHK.apk",
+ "file_size": 2277512,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "Crocodilus",
+ "imphash": null,
+ "tlsh": "T1CCB5F143E708A86EC5F783368B7A462A9516DD668343E7934D54B3383DBB9C01E46FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:NgmxffHxRfadELjtNOMIZXLttqmENqbpU5Mub1MyUinCEB3kOA5Drz:TffRRYELjzObZXLjqviU5MQ1VZB0OApn",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Crocodilus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "5392",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c8dcf4ee90bbfbd52c182aa80974381871fbc2f9b34b4e81dbcc4eed9777212e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c8dcf4ee90bbfbd52c182aa80974381871fbc2f9b34b4e81dbcc4eed9777212e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "crocodilus",
+   "score": "10",
+   "link": "https://tria.ge/reports/250531-rxjwnsbj8x/",
+   "tags": [
+    "family:crocodilus",
+    "android",
+    "banker",
+    "evasion",
+    "impact",
+    "infostealer",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Crocodilus",
+     "score": "10"
+    },
+    {
+     "signature": "Crocodilus family",
+     "score": "10"
+    },
+    {
+     "signature": "Crocodilus payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "crocodilus",
+     "c2": "http://7162abdd9fd6e28.click"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Anubis",
+   "status": "MALICIOUS",
+   "first_seen": "2025-05-29 10:53:12",
+   "scanner_count": "23",
+   "scanner_match": "6",
+   "scanner_percent": "26.09"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/683b136cfd02ed5e0591ab12/reports/4d29dd69-22c0-4ad9-8e1a-ccd6a28cd339/overview"
+  }
+ },
+ "comments": null
+}

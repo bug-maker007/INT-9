@@ -1,0 +1,137 @@
+{
+ "sha256_hash": "2f85c43fd8820bf1bd4a095bc049e66fa054d2d569b3d8bc699e41c463812b29",
+ "sha3_384_hash": "8a7a0184e9061683ffe4b828ad6ca215b69553742ca528286c0cc76010b0e8e1b793acdd48ce7ee8ab660ba5b15e8616",
+ "sha1_hash": "62cd8700fb0bbda4a97a3aa45b4bad540d585748",
+ "md5_hash": "53739cc402a2f22245b07caae92cb375",
+ "first_seen": "2021-01-19 07:06:39",
+ "last_seen": null,
+ "file_name": "immuni(1).apk",
+ "file_size": 2449414,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "3DB523959F89DC67D32B8E3AA21649F2AC0867594150F0FF9E913537F13BD800E19CBA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:+59C2GkGCUG0HgFMTz2CWNi7CEpCfjjXKrQw8GabuY8Ms5JgIy9WK/6z:KjUTHgeTzaNiGcCrjXK0w8D6Yi5JJy92",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "Android",
+  "Apk",
+  "Immuni"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "Feb 29 01:33:46 2008 GMT",
+   "valid_to": "Jul 17 01:33:46 2035 GMT",
+   "serial_number": "936EACBE07F201DF",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.6358.9137.19428.UNOFFICIAL"
+  ],
+  "downloads": "341",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/971532/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/971533/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "PM_Zip_with_js",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/2f85c43fd8820bf1bd4a095bc049e66fa054d2d569b3d8bc699e41c463812b29/"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210119-yrrc3g1hcn/",
+   "tags": [
+    "android",
+    "obfuscation",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads name of network operator",
+     "score": "6"
+    },
+    {
+     "signature": "Suspicious use of android.app.ActivityManager.getRunningServices",
+     "score": "3"
+    },
+    {
+     "signature": "Suspicious use of android.os.PowerManager$WakeLock.acquire",
+     "score": "3"
+    },
+    {
+     "signature": "Suspicious use of android.telephony.TelephonyManager.getLine1Number",
+     "score": "3"
+    },
+    {
+     "signature": "Suspicious use of android.telephony.TelephonyManager.getNetworkCountryIso",
+     "score": "3"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-01-15 22:59:36",
+   "scanner_count": "45",
+   "scanner_match": "12",
+   "scanner_percent": "26.67"
+  }
+ },
+ "comments": null
+}

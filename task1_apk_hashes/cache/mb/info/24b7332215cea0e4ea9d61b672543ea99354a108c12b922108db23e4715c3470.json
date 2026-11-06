@@ -1,0 +1,79 @@
+{
+ "sha256_hash": "24b7332215cea0e4ea9d61b672543ea99354a108c12b922108db23e4715c3470",
+ "sha3_384_hash": "af7a6ac3c8fb08c783e523bfe21717b961ce0d00ee44060a9aceec0bf84aebc87af077fe0aa48a98eed2ee067c89a8cc",
+ "sha1_hash": "17865d9f4860dc3c5251281c2e567042ada746c8",
+ "md5_hash": "502960cbb9ab3052ec1e2ecb4407c637",
+ "first_seen": "2021-09-03 00:39:01",
+ "last_seen": null,
+ "file_name": "wqeqwe build.apk",
+ "file_size": 148208,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1A5E302928BA3206AE27BEC70D4F3135DB75642B142F2E7DE13190414ECA67C54F76EA2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "3072:DgcsWZ+EIDeyT+8VVRfq25b+Q8ppg5Ds8P0ZL3:sbWsHDyCVRfbiQ8numL3",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "277",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/24b7332215cea0e4ea9d61b672543ea99354a108c12b922108db23e4715c3470/"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/24b7332215cea0e4ea9d61b672543ea99354a108c12b922108db23e4715c3470",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210903-azma5sbhb4/",
+   "tags": [
+    "android",
+    "obfuscation"
+   ],
+   "signatures": [
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2021-09-03 00:39:06",
+   "scanner_count": "43",
+   "scanner_match": "12",
+   "scanner_percent": "27.91"
+  }
+ },
+ "comments": null
+}

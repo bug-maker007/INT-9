@@ -1,0 +1,160 @@
+{
+ "sha256_hash": "ec2ce22af9b9215d78bf3ea71539017b73c765e0e2d9275cf51088fadc055c62",
+ "sha3_384_hash": "a3595607a9bb614f1e4915fb73e706be2c790fd8c7d704adcfd827027fa62708d682f3a486e2fe18e1b7897846514504",
+ "sha1_hash": "54c670f6ee376395727838c8a1c39e17aba6ffd8",
+ "md5_hash": "e703f6eb59c32aab740f2878f1e86520",
+ "first_seen": "2025-10-12 03:33:35",
+ "last_seen": null,
+ "file_name": "o1l3ek8e.apk",
+ "file_size": 3913159,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T16D06E085FB89AD2AC8F7D37649764226A55ADC028783D7576910733C2CBFAE40F48DC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:ni46WJCoosn9KqcfJChd5Re3aBQQcYJC+zJaWJoR:ni4lJC7bYhd5wavcMgR",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Malware",
+  "SpyAgent",
+  "Spyware",
+  "Telegram",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "1429",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ec2ce22af9b9215d78bf3ea71539017b73c765e0e2d9275cf51088fadc055c62/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/ec2ce22af9b9215d78bf3ea71539017b73c765e0e2d9275cf51088fadc055c62",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/251012-d4kvnaxry5/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.SpyMax",
+   "status": "MALICIOUS",
+   "first_seen": "2025-10-12 04:12:16",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68eb21a54f3013c55e4ac34d/reports/f39cd3db-e801-43ca-85ac-8b2e327dd8c7/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-10-12T01:37:00Z",
+   "last_seen": "2025-10-13T16:15:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/ec2ce22af9b9215d78bf3ea71539017b73c765e0e2d9275cf51088fadc055c62/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

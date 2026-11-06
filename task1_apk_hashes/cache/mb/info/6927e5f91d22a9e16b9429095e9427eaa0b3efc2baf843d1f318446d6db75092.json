@@ -1,0 +1,131 @@
+{
+ "sha256_hash": "6927e5f91d22a9e16b9429095e9427eaa0b3efc2baf843d1f318446d6db75092",
+ "sha3_384_hash": "ef12148fc3eeb816a9cc0025a95ac4ccf13865557ea921d0aeda39c02e4b54e20b131e772f4826b1837ce3579ea9a5b3",
+ "sha1_hash": "ba11e20664e63196b4b5aaef6566ed63e2eb76ab",
+ "md5_hash": "fed087def4e34714f0e25106e0673462",
+ "first_seen": "2022-03-15 11:37:27",
+ "last_seen": null,
+ "file_name": "bawag.apk",
+ "file_size": 5257059,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T1DD362386F786B82FD8F3C6354B76865A850A4C5AC783E3574955B13C0CBBAD44E82FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:Edc0YPNvUmbiRdW7DvxKLbpns1l2Qi1fwOCGwVpRqDTwM4Uq:wcTvUmyW7DvxK5s1+evHVeAB",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "coper",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.Coper.155.10486.18283.UNOFFICIAL"
+  ],
+  "downloads": "266",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/6927e5f91d22a9e16b9429095e9427eaa0b3efc2baf843d1f318446d6db75092/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/6927e5f91d22a9e16b9429095e9427eaa0b3efc2baf843d1f318446d6db75092",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/220315-nrrgsaagh4/",
+   "tags": [
+    "android",
+    "banker",
+    "evasion",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SmsThief",
+   "status": "MALICIOUS",
+   "first_seen": "2022-03-15 11:38:41",
+   "scanner_count": "27",
+   "scanner_match": "14",
+   "scanner_percent": "51.85"
+  },
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62307aa0b94fb38cb4842de2/reports/20066dc6-361f-41f5-b12a-bda64b8e6ab3/overview"
+  }
+ },
+ "comments": null
+}

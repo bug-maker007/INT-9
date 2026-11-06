@@ -1,0 +1,119 @@
+{
+ "sha256_hash": "d9702ee9ca5387ea3b4a245b1c35d815c1752458d5a2f978a935e7f9cde9bba7",
+ "sha3_384_hash": "9b8b2d462838be831dcfd21b53cae38d4f59d4349b9f74e8157a56f8db6b8022f8f20f95661972d92e2767722f509bb8",
+ "sha1_hash": "2dc7577e7012e23e8a2573e095b939551ad6fe93",
+ "md5_hash": "36c6c65cf02864add23dc45ff6e09d28",
+ "first_seen": "2025-10-15 08:45:37",
+ "last_seen": null,
+ "file_name": "free_fire_unlock_1760224422908.apk",
+ "file_size": 67156829,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T18FE712F3F319AC69D1F38336937620A3B5250C649F53E2660506F638AEF7AD08149ED9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:Ouza1fG01mbH2HvjAC+lZ1v41ilocomscJphv7Gin:OuK13P0C+u1iWcFxphvSs",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "39.7% (.APK) Android Package (27000/1/5)",
+  "19.8% (.JAR) Java Archive (13500/1/2)",
+  "19.1% (.ZAE) Compressed COLLADA Digital Asset Exchange (13000/1/2)",
+  "15.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "malware",
+  "signed",
+  "triada",
+  "trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "undbkhZa",
+   "issuer_cn": "undbkhZa",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2025-10-11T23:13:40Z",
+   "valid_to": "2035-10-09T23:13:40Z",
+   "serial_number": "59a65205826e5973",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "15ff46e42bf4edae462694aba0b27b9f28831bc5afb93d481b743b35ab11e603",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "312",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "Triage": {
+   "malware_family": null,
+   "score": "3",
+   "link": "https://tria.ge/reports/251015-kn8ecaf19a/",
+   "tags": [],
+   "signatures": [
+    {
+     "signature": "Enumerates physical storage devices",
+     "score": "3"
+    },
+    {
+     "signature": "Modifies registry class",
+     "score": null
+    },
+    {
+     "signature": "Suspicious use of SetWindowsHookEx",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2025-10-15 08:48:51",
+   "scanner_count": "38",
+   "scanner_match": "4",
+   "scanner_percent": "10.53"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68ef5f4f71883144ef383a68/reports/e95cf541-d74a-45f1-8bf4-8da7e1408ef1/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-10-15T07:34:00Z",
+   "last_seen": "2025-10-15T18:09:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/d9702ee9ca5387ea3b4a245b1c35d815c1752458d5a2f978a935e7f9cde9bba7/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,107 @@
+{
+ "sha256_hash": "9ee8a10526cca84fc20d1bb493414c93ed860573b019408515fd56a82548cd52",
+ "sha3_384_hash": "e0883646f772330b2e1335ab1e75c83c68b75601264ee5ea87ab06809079f320941a4bef76db99222f68142eff27658b",
+ "sha1_hash": "6156ac46a3f285ec86707712717af2fc6b65e4de",
+ "md5_hash": "d683c257e3ada8acc25e765ca95c0f53",
+ "first_seen": "2025-04-27 15:31:28",
+ "last_seen": null,
+ "file_name": "Toll Free (GOV).apk",
+ "file_size": 4782721,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "theb47m4n",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T1E8261207FB45DA1BC8FA83B74936667511076C1E86A2C34BD9AC723C1C7B6D08EC9AD4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:tyDjb31OTn9HGO5qqWkfXxf1rrT+/ypXcDIwoB:t031iiaxfprSbQ",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": "Distributed via phishing website or mobile forward.",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SpyNote",
+  "toll"
+ ],
+ "code_sign": null,
+ "delivery_method": "multiple",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.PUA.Android.JPush-1.UNOFFICIAL"
+  ],
+  "downloads": "167",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/9ee8a10526cca84fc20d1bb493414c93ed860573b019408515fd56a82548cd52/"
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250427-wkvvmawyat/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "31.13.224.176:1338"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-04-22 21:43:03",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/680e7077218c4a98ade404c6/reports/7a85314f-5bd6-4792-b086-999136acbf66/overview"
+  }
+ },
+ "comments": null
+}

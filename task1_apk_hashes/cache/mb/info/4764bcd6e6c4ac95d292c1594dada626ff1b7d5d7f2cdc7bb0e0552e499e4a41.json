@@ -1,0 +1,149 @@
+{
+ "sha256_hash": "4764bcd6e6c4ac95d292c1594dada626ff1b7d5d7f2cdc7bb0e0552e499e4a41",
+ "sha3_384_hash": "a5885abc13697d7204b95c01da62f7ba8ca23f769364e246fe0e1a860e6806fc11dec72a26cb4d4e2fd95a8816c2a55b",
+ "sha1_hash": "de751c9d8f76ea6fcda0e74a4ba39a5b1a5ddb58",
+ "md5_hash": "16db97d0227446aeb872a8416164aad2",
+ "first_seen": "2026-09-07 07:10:39",
+ "last_seen": null,
+ "file_name": "adi.icsvn.info.apk",
+ "file_size": 5256168,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "US",
+ "anonymous": 1,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1D6362342FB829955C8F1C33050B94B35B6370D6AC347938B1B75B3B528BB6D89B831D9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:TWx+MyeI2hU1iVGtEQN8VxYEbfJGyzXtK93PRyOx5q/pJrCr3c:TWxL5Rx3DJlXtq38O/q/pors",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "IRATA",
+  "SHAPARAK",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.989.origin.23604.4353.UNOFFICIAL"
+  ],
+  "downloads": "260",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/4764bcd6e6c4ac95d292c1594dada626ff1b7d5d7f2cdc7bb0e0552e499e4a41/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/260907-hz7wvafd83/",
+   "tags": [
+    "family:irata",
+    "android",
+    "defense_evasion",
+    "discovery",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-09-07 07:11:31",
+   "scanner_count": "38",
+   "scanner_match": "10",
+   "scanner_percent": "26.32"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a9e63a51d77b21ae0928958/reports/2d272910-e7ef-4d1c-897b-3fc0da51464b/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-07T06:26:00Z",
+   "last_seen": "2026-09-08T19:23:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/4764bcd6e6c4ac95d292c1594dada626ff1b7d5d7f2cdc7bb0e0552e499e4a41/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

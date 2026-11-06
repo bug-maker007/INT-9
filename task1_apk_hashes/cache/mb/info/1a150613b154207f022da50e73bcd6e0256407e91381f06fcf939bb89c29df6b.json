@@ -1,0 +1,135 @@
+{
+ "sha256_hash": "1a150613b154207f022da50e73bcd6e0256407e91381f06fcf939bb89c29df6b",
+ "sha3_384_hash": "bfacfce91121a86298ab0391556ecf7e9e4515f2b8744b56caf88d5d0e690e2c01f9ffdc2d493acb1af519b22fc9eea3",
+ "sha1_hash": "caba822c925190b90959b2b862c0373cee7a96d9",
+ "md5_hash": "c4f601ac95e451b1303335303eaaf607",
+ "first_seen": "2026-09-18 20:16:56",
+ "last_seen": null,
+ "file_name": "TikTok18+.apk",
+ "file_size": 6300880,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "CA",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1D4562246BB45492EC4BA91325D6E023122634E92CD939B47B554772C28B3BCC8F9EFDC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:BnljH4MGnrcMAW1CQh3qkyvvXOkGxhhgtcqdxc/98cbq:BnaMGnrcTk39yvv+kDxc/4",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Malware",
+  "signed",
+  "Spyware",
+  "TikTok",
+  "Trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "editor",
+   "issuer_cn": "editor",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-01-10T08:03:09Z",
+   "valid_to": "2115-12-17T08:03:09Z",
+   "serial_number": "231bc320",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "6215f00baa4bf18bab5792fc796bfc5555917240f14f7c7e672d956888d75c96",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.FileRepMalware.88988916.UNOFFICIAL"
+  ],
+  "downloads": "360",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "ANDROID_Sample_Unique_5be608a5",
+   "author": "Marjoriefort",
+   "description": "Specimen unique (soumission Bazaar) - strings distinctifs propres au sample",
+   "reference": "5be608a563a02c94dbf3b1812b3aa0685a6f8228b5dc74c773cc3c912adef7ba.apk"
+  },
+  {
+   "rule_name": "Sus_CMD_Powershell_Usage",
+   "author": "XiAnzheng",
+   "description": "May Contain(Obfuscated or no) Powershell or CMD Command that can be abused by threat actor(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1a150613b154207f022da50e73bcd6e0256407e91381f06fcf939bb89c29df6b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": null,
+   "link": "https://tria.ge/reports/260918-y3bwks11cv/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-09-18 20:17:25",
+   "scanner_count": "24",
+   "scanner_match": "2",
+   "scanner_percent": "8.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6aad9c467abf243803b9636e/reports/0ae6b3ff-bd78-454f-841a-35eb419b6394/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-18T18:16:00Z",
+   "last_seen": "2026-09-19T22:27:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/1a150613b154207f022da50e73bcd6e0256407e91381f06fcf939bb89c29df6b/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

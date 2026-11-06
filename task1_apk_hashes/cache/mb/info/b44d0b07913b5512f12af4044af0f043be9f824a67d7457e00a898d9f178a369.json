@@ -1,0 +1,146 @@
+{
+ "sha256_hash": "b44d0b07913b5512f12af4044af0f043be9f824a67d7457e00a898d9f178a369",
+ "sha3_384_hash": "5252a89083529d91a5b8432e99a895eb8b03342b0acf972758f5d46b82e4254cb5431c1d4ad26835a8a6271f21ae0149",
+ "sha1_hash": "b1779fc1ae2e92858fa6f234b8f9dcf482239f65",
+ "md5_hash": "f1ecb09c002e05424a74dfb169f92c3b",
+ "first_seen": "2026-10-21 02:36:34",
+ "last_seen": null,
+ "file_name": "Button VPN (4).apk",
+ "file_size": 467806,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Parper",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T18BA4238B2B609370F87B0B30D6E946572DBDD5B0B21366D7C71098A12EC058EAB97B4D",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:cFLkBFQYZa1lHzOSrWKHkw2ZmcReqIV2W9yzo8gz:cFIBFQ/7zOS6MH2cydIggz",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.FileRepMalware.26825838.UNOFFICIAL"
+  ],
+  "downloads": "248",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b44d0b07913b5512f12af4044af0f043be9f824a67d7457e00a898d9f178a369/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.05"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/261021-c39xqaea59/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-10-21 02:37:31",
+   "scanner_count": "24",
+   "scanner_match": "8",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6ad8255ba788b4970c35ce08/reports/e7b6f97f-5e0f-45ff-88f8-1e0a5443768f/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-10-20T21:59:00Z",
+   "last_seen": "2026-10-22T21:23:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/b44d0b07913b5512f12af4044af0f043be9f824a67d7457e00a898d9f178a369/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

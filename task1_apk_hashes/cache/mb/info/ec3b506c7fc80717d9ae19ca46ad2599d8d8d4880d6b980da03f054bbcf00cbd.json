@@ -1,0 +1,182 @@
+{
+ "sha256_hash": "ec3b506c7fc80717d9ae19ca46ad2599d8d8d4880d6b980da03f054bbcf00cbd",
+ "sha3_384_hash": "72d4a36c185f7d76d2425d79984d7e1381b9647a0cad93243e00ad9871f0edc7ca8039db3277aa52d504fdfa65eb2f89",
+ "sha1_hash": "a820124934ff6d6a57b18881db6f39338afd238a",
+ "md5_hash": "6a3ae5a916bc109e0186b40093084a78",
+ "first_seen": "2025-01-13 17:49:38",
+ "last_seen": null,
+ "file_name": "ec3b506c7fc80717d9ae19ca46ad2599d8d8d4880d6b980da03f054bbcf00cbd.apk",
+ "file_size": 762490,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Alonso168957071",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T15CF42385E8F19A22CE8648FC862E5695DDDBFE87131CB4BC173B70080654F307E85AE6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:XIlNgi/+ZAQEoEmry4UQ/vRja9LXS1/KNtKV4vgshUyuHrsvbR1fdDznkm:4vgiWXmmrbHnRm9UKNtKSosjuHrUR11d",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Spyware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Backdoor.200.origin.11134.26876.UNOFFICIAL"
+  ],
+  "downloads": "549",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "elf_arm_mips_ko_so",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseapps2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise apps",
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseunix2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise UNIX",
+   "reference": null
+  },
+  {
+   "rule_name": "F01_s1ckrule",
+   "author": "s1ckb017",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "ldpreload",
+   "author": "xorseed",
+   "description": null,
+   "reference": "https://stuff.rop.io/"
+  },
+  {
+   "rule_name": "linux_generic_ipv6_catcher",
+   "author": "@_lubiedo",
+   "description": "ELF samples using IPv6 addresses",
+   "reference": null
+  },
+  {
+   "rule_name": "MD5_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for MD5 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ec3b506c7fc80717d9ae19ca46ad2599d8d8d4880d6b980da03f054bbcf00cbd/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.14"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ec3b506c7fc80717d9ae19ca46ad2599d8d8d4880d6b980da03f054bbcf00cbd",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/250113-weksga1pdt/",
+   "tags": [
+    "android",
+    "discovery",
+    "execution",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about the current Wi-Fi connection",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyDealer",
+   "status": "MALICIOUS",
+   "first_seen": "2017-05-20 19:48:20",
+   "scanner_count": "31",
+   "scanner_match": "12",
+   "scanner_percent": "38.71"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/678552506b3cd169359f6819/reports/273a341f-6ba0-449d-82c2-04be0f1e9b84/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,727 @@
+[
+ {
+  "sha256": "103b936e03954eec346a27728756a772fee54668b4c95581b1e1292f4451c782",
+  "names": [
+   "lol"
+  ],
+  "type": "ELF",
+  "size": 182584,
+  "stats": {
+   "malicious": 9,
+   "suspicious": 0,
+   "undetected": 54,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 0,
+   "type-unsupported": 12
+  },
+  "results": {
+   "ESET-NOD32": "Linux/Mirai_AGen.XD trojan",
+   "Avast": "ELF:Mirai-GH [Trj]",
+   "Cynet": "Malicious (score: 99)",
+   "F-Secure": "Trojan.TR/LINUX.Mirai.GH",
+   "Avast-Mobile": "ELF:Mirai-GH [Trj]",
+   "Avira": "TR/LINUX.Mirai.GH",
+   "Antiy-AVL": "Trojan/Linux.Mirai.b",
+   "Microsoft": "Trojan:Script/Wacatac.B!ml",
+   "AVG": "ELF:Mirai-GH [Trj]"
+  }
+ },
+ {
+  "sha256": "194bf0e3bf8117d583e9896fd546bdc61070541acb73d5bc31da9511c12282c8",
+  "names": [
+   "classes.dex"
+  ],
+  "type": "Android",
+  "size": 74108,
+  "stats": {
+   "malicious": 3,
+   "suspicious": 0,
+   "undetected": 59,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 0,
+   "type-unsupported": 13
+  },
+  "results": {
+   "ESET-NOD32": "Android/Agent.FSQ trojan",
+   "Google": "Detected",
+   "Ikarus": "Trojan.AndroidOS.Agent"
+  }
+ },
+ {
+  "sha256": "a470f8965c422d001e6d29c63af71d0b06441f6e6e918dfdc5d8e838878d6c5b",
+  "names": [
+   "app-metadata.properties"
+  ],
+  "type": "Text",
+  "size": 56,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 61,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 0,
+   "type-unsupported": 14
+  },
+  "results": {}
+ },
+ {
+  "sha256": "38d377afa76b6364e5bf551cf4ffec1a881a46102a0047f523fbf148e0df6928",
+  "names": [
+   "version-control-info.textproto",
+   "258_264_version-control-info.textproto",
+   "3268_3641_version-control-info.textproto",
+   "258_192_version-control-info.textproto",
+   "259_287_version-control-info.textproto"
+  ],
+  "type": "Text",
+  "size": 46,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 60,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 0,
+   "type-unsupported": 15
+  },
+  "results": {}
+ },
+ {
+  "sha256": "158a19eb94aa2f3e2f459db69ee10276c73b945dd6c5f8fc223cf2d85e2b5e33",
+  "names": [
+   "DebugProbesKt.bin",
+   "69_255_DebugProbesKt.bin",
+   "2311_2421_DebugProbesKt.bin",
+   "2665_4393_DebugProbesKt.bin",
+   "276_0_DebugProbesKt.bin"
+  ],
+  "type": "Java Bytecode",
+  "size": 1738,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 61,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 0,
+   "type-unsupported": 14
+  },
+  "results": {}
+ },
+ {
+  "sha256": "78b591400c56b7b67b8cb3b2b8a8e65e9093897f02ce0878e6b5405c68620fa7",
+  "names": [
+   "androidx.profileinstaller_profileinstaller.version",
+   "androidx.annotation_annotation-experimental.version",
+   "androidx.camera_camera-camera2.version",
+   "androidx.camera_camera-core.version",
+   "androidx.camera_camera-lifecycle.version"
+  ],
+  "type": "Text",
+  "size": 6,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 60,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 1,
+   "type-unsupported": 14
+  },
+  "results": {}
+ },
+ {
+  "sha256": "1b7c606370188534dac5561fba2b2988093829697fce9e6e8832e9291d24ed00",
+  "names": [
+   "androidx.arch.core_core-runtime.version",
+   "1476_843_androidx.arch.core_core-runtime.version",
+   "255_263_androidx.arch.core_core-runtime.version",
+   "6036_6320_androidx.arch.core_core-runtime.version",
+   "255_198_androidx.arch.core_core-runtime.version"
+  ],
+  "type": "Text",
+  "size": 67,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 60,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 0,
+   "type-unsupported": 15
+  },
+  "results": {}
+ },
+ {
+  "sha256": "ca0bc79c4cde0ad64e1ec9df2882425197b5ba85704a4ac6bd67f8f99936eb25",
+  "names": [
+   "androidx.core_core-ktx.version",
+   "androidx.core_core.version",
+   "260_270_androidx.core_core.version",
+   "261_279_androidx.core_core-ktx.version",
+   "VERSION"
+  ],
+  "type": "Text",
+  "size": 7,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 59,
+   "harmless": 0,
+   "timeout": 1,
+   "confirmed-timeout": 0,
+   "failure": 1,
+   "type-unsupported": 14
+  },
+  "results": {}
+ },
+ {
+  "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+  "names": [
+   "androidx.autofill_autofill.version",
+   "androidx.asynclayoutinflater_asynclayoutinflater.version",
+   "androidx.cardview_cardview.version",
+   "androidx.coordinatorlayout_coordinatorlayout.version",
+   "androidx.core_core-viewtree.version"
+  ],
+  "type": "Text",
+  "size": 6,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 57,
+   "harmless": 0,
+   "timeout": 3,
+   "confirmed-timeout": 0,
+   "failure": 1,
+   "type-unsupported": 14
+  },
+  "results": {}
+ },
+ {
+  "sha256": "4257cccbba3f7aea521a40937d1bfdd5949f5f3e1ed689c402a4f2977109030b",
+  "names": [
+   "androidx.lifecycle_lifecycle-runtime.version",
+   "253_266_androidx.lifecycle_lifecycle-runtime.version",
+   "254_180_androidx.lifecycle_lifecycle-runtime.version",
+   "810_641_androidx.lifecycle_lifecycle-runtime.version",
+   "255_285_androidx.lifecycle_lifecycle-runtime.version"
+  ],
+  "type": "Text",
+  "size": 72,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 60,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 1,
+   "failure": 0,
+   "type-unsupported": 14
+  },
+  "results": {}
+ },
+ {
+  "sha256": "64d23f858ef51b0f996e4966d4e27c0371b437e2d2787890b1f7ad22d4ec5663",
+  "names": [
+   "androidx.savedstate_savedstate-compose.version",
+   "androidx.savedstate_savedstate-ktx.version",
+   "androidx.savedstate_savedstate.version",
+   "androidx.emoji2_emoji2-views-helper.version",
+   "androidx.emoji2_emoji2.version"
+  ],
+  "type": "Text",
+  "size": 6,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 61,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 0,
+   "type-unsupported": 14
+  },
+  "results": {}
+ },
+ {
+  "sha256": "cc52f678848b814373757b460383bf61960e4943c203735adde0a350b3e50989",
+  "names": [
+   "androidx.drawerlayout_drawerlayout.version",
+   "androidx.startup_startup-runtime.version",
+   "androidx.versionedparcelable_versionedparcelable.version",
+   "androidx.datastore_datastore-core.version",
+   "androidx.datastore_datastore-preferences.version"
+  ],
+  "type": "Text",
+  "size": 6,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 60,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 1,
+   "type-unsupported": 14
+  },
+  "results": {}
+ },
+ {
+  "sha256": "4f232ffa4f33d6227b6f492a7857a3fb3ea8ea0f8ab1d89fe667211326262a4a",
+  "names": [
+   "kotlinx_coroutines_android.version",
+   "kotlinx_coroutines_core.version",
+   "kotlinx_coroutines_play_services.version",
+   "kotlinx_coroutines_jdk8.version",
+   "kotlinx_coroutines_slf4j.version"
+  ],
+  "type": "Text",
+  "size": 5,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 61,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 0,
+   "type-unsupported": 14
+  },
+  "results": {}
+ },
+ {
+  "sha256": "5f75d4352e432664b2a235c472b991cf88365c73f5fcb5e1f9cc2cbe4b410abe",
+  "names": [
+   "annotation.kotlin_builtins",
+   "3100_311_annotation.kotlin_builtins",
+   "491_913_annotation.kotlin_builtins",
+   "490_707_annotation.kotlin_builtins",
+   "3484_15_annotation.kotlin_builtins"
+  ],
+  "type": "Java Bytecode",
+  "size": 1006,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 61,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 0,
+   "type-unsupported": 14
+  },
+  "results": {}
+ },
+ {
+  "sha256": "0e654e03a38e119de0f4d11633711bd57e1e8b1a876eda74a90100a2a6e7daa4",
+  "names": [
+   "collections.kotlin_builtins",
+   "561_309_collections.kotlin_builtins",
+   "233_917_collections.kotlin_builtins",
+   "232_709_collections.kotlin_builtins",
+   "607_11_collections.kotlin_builtins"
+  ],
+  "type": "unknown",
+  "size": 8308,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 61,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 0,
+   "type-unsupported": 14
+  },
+  "results": {}
+ },
+ {
+  "sha256": "955035527393d165a22da4cb9d992f42b4a30b6f070918f3e2b1f2678f83cc9d",
+  "names": [
+   "atomics.kotlin_builtins",
+   "1602_308_atomics.kotlin_builtins",
+   "300_912_atomics.kotlin_builtins",
+   "299_708_atomics.kotlin_builtins",
+   "1514_13_atomics.kotlin_builtins"
+  ],
+  "type": "unknown",
+  "size": 2674,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 61,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 1,
+   "type-unsupported": 13
+  },
+  "results": {}
+ },
+ {
+  "sha256": "98ab3a3c18fcb237528dd63fa489815c583e1d6c13debd2a27ac6d74ccf8717b",
+  "names": [
+   "coroutines.kotlin_builtins",
+   "761_788_coroutines.kotlin_builtins",
+   "21100_36034_coroutines.kotlin_builtins",
+   "5504_313_coroutines.kotlin_builtins",
+   "27111_91_coroutines.kotlin_builtins"
+  ],
+  "type": "Text",
+  "size": 137,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 60,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 0,
+   "type-unsupported": 15
+  },
+  "results": {}
+ },
+ {
+  "sha256": "64712f94840e6b3f8123f522f32d08c46f083d87c312a74901f7c00224de775e",
+  "names": [
+   "internal.kotlin_builtins",
+   "4094_314_internal.kotlin_builtins",
+   "673_915_internal.kotlin_builtins",
+   "672_711_internal.kotlin_builtins",
+   "4991_14_internal.kotlin_builtins"
+  ],
+  "type": "Java Bytecode",
+  "size": 590,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 61,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 1,
+   "type-unsupported": 13
+  },
+  "results": {}
+ },
+ {
+  "sha256": "c4240215bc20e71b01cc62b43edebd02749b3249d7daa8e7f1dc1514f064c274",
+  "names": [
+   "kotlin.kotlin_builtins",
+   "197_307_kotlin.kotlin_builtins",
+   "212_914_kotlin.kotlin_builtins",
+   "211_705_kotlin.kotlin_builtins",
+   "321_10_kotlin.kotlin_builtins"
+  ],
+  "type": "Text",
+  "size": 29399,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 61,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 0,
+   "type-unsupported": 14
+  },
+  "results": {}
+ },
+ {
+  "sha256": "f9d35b836ccb5380803aab5e6c76d708b1536fc6c82f27185e8cff5913824e1c",
+  "names": [
+   "ranges.kotlin_builtins",
+   "1067_310_ranges.kotlin_builtins",
+   "265_919_ranges.kotlin_builtins",
+   "263_710_ranges.kotlin_builtins",
+   "952_12_ranges.kotlin_builtins"
+  ],
+  "type": "unknown",
+  "size": 4184,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 61,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 0,
+   "type-unsupported": 14
+  },
+  "results": {}
+ },
+ {
+  "sha256": "23ecbc7cbb354f31ba37a1be1793d3bb53c00c92cdcf3867759d09d938a1d7c3",
+  "names": [
+   "reflect.kotlin_builtins",
+   "941_312_reflect.kotlin_builtins",
+   "262_916_reflect.kotlin_builtins",
+   "260_706_reflect.kotlin_builtins",
+   "857_8_reflect.kotlin_builtins"
+  ],
+  "type": "unknown",
+  "size": 4827,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 61,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 0,
+   "type-unsupported": 14
+  },
+  "results": {}
+ },
+ {
+  "sha256": "6393b395c0977392f271ae28736ff72a7491ef34c302b689b4e2c756879054c7",
+  "names": [
+   "8Q.png",
+   "fa.png",
+   "chartboost_monetization_default_icon_background.png",
+   "ic_launcher_background.png",
+   "chartboost_app_icon_placeholder.png"
+  ],
+  "type": "PNG",
+  "size": 1229,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 55,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 1,
+   "failure": 0,
+   "type-unsupported": 15
+  },
+  "results": {}
+ },
+ {
+  "sha256": "ce5ae240c2fe9c2d56e6c22ffcb2d101b4a47bba33476be063f6b738fceca1ac",
+  "names": [
+   "network_security_config.xml",
+   "8GD.xml",
+   "nwg.xml",
+   "8G.xml",
+   "network_security_policy.xml"
+  ],
+  "type": "Android",
+  "size": 264,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 59,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 0,
+   "type-unsupported": 15
+  },
+  "results": {}
+ },
+ {
+  "sha256": "e5f7c0cf536d86fd5790ae4c7073ec6abae0a1eb9c44947df295e6225e50280a",
+  "names": [
+   "-8u.png",
+   "9eH.png",
+   "JSp.png",
+   "ic_launcher_background.png",
+   "chartboost_app_icon_placeholder.png"
+  ],
+  "type": "PNG",
+  "size": 793,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 55,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 1,
+   "failure": 0,
+   "type-unsupported": 15
+  },
+  "results": {}
+ },
+ {
+  "sha256": "d002135018b9f85d6484974051eb795272549386db6ecacb8667498980682804",
+  "names": [
+   "CD8.png",
+   "KGu.png",
+   "TXl.png",
+   "chartboost_app_icon_placeholder.png",
+   "chartboost_monetization_default_icon_background.png"
+  ],
+  "type": "PNG",
+  "size": 220,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 60,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 0,
+   "type-unsupported": 15
+  },
+  "results": {}
+ },
+ {
+  "sha256": "16dc6523396ba158880e13209fde1a3a36c61a1d3ed327c999214cfc0a15d1fa",
+  "names": [
+   "0w.xml",
+   "3N.xml",
+   "0w3.xml",
+   "ic_launcher_background.xml",
+   "kuzubogu.xml"
+  ],
+  "type": "Android",
+  "size": 5696,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 61,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 0,
+   "type-unsupported": 14
+  },
+  "results": {}
+ },
+ {
+  "sha256": "336ded4f0db3c72d06aea90f95ee6f286a5d19a26588ca3385d6eea5a58112f9",
+  "names": [
+   "ic_launcher_background.png",
+   "ku.png",
+   "chartboost_monetization_default_icon_background.png",
+   "chartboost_app_icon_placeholder.png",
+   "WX.png"
+  ],
+  "type": "PNG",
+  "size": 391,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 56,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 0,
+   "failure": 0,
+   "type-unsupported": 15
+  },
+  "results": {}
+ },
+ {
+  "sha256": "7a2eeed1ef73c785dc6044c899fc5f4f84935bde1531c923976064c2fa34b78a",
+  "names": [
+   "chartboost_monetization_default_icon_background.png",
+   "ic_launcher_background.png",
+   "chartboost_app_icon_placeholder.png",
+   "MU0.png",
+   "lPy.png"
+  ],
+  "type": "PNG",
+  "size": 231,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 55,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 1,
+   "failure": 0,
+   "type-unsupported": 15
+  },
+  "results": {}
+ },
+ {
+  "sha256": "f5b4aeb0624cf57a3bd2b09e9e58e49487b2867fbe03fb36fd698b7afcd9cd2d",
+  "names": [
+   "chartboost_app_icon_placeholder.png",
+   "chartboost_monetization_default_icon_background.png",
+   "ic_launcher_background.png",
+   "Njq.png",
+   "Qzs.png"
+  ],
+  "type": "PNG",
+  "size": 493,
+  "stats": {
+   "malicious": 0,
+   "suspicious": 0,
+   "undetected": 55,
+   "harmless": 0,
+   "timeout": 0,
+   "confirmed-timeout": 1,
+   "failure": 0,
+   "type-unsupported": 15
+  },
+  "results": {}
+ },
+ {
+  "sha256": "34be4bbb55716fa721df97068294da9dd5721723db66491f7467fb1374d107d6",
+  "names": [],
+  "type": null,
+  "size": null,
+  "stats": {},
+  "results": {}
+ },
+ {
+  "sha256": "9de240a814b3aeaa5a508ea169b35c97c8a969a58d1bd8d8eae98b9bcce8eeb6",
+  "names": [],
+  "type": null,
+  "size": null,
+  "stats": {},
+  "results": {}
+ },
+ {
+  "sha256": "6832970780e1d63eae6a442a99e77f0c864b77225579590800ab14f640678d6e",
+  "names": [],
+  "type": null,
+  "size": null,
+  "stats": {},
+  "results": {}
+ },
+ {
+  "sha256": "361fb5277943e973ae1dacc55430a93e8cf8f7082733b52e022ecf04d19fb5a8",
+  "names": [],
+  "type": null,
+  "size": null,
+  "stats": {},
+  "results": {}
+ },
+ {
+  "sha256": "0c475f3005c019bc321aaaba11cb930689225127d8d689426ee8ee69bbe697fc",
+  "names": [],
+  "type": null,
+  "size": null,
+  "stats": {},
+  "results": {}
+ },
+ {
+  "sha256": "60f6f6c12d7eba2b4fd5003f68c4584a75a3412790ca32c94f5ea843679991d9",
+  "names": [],
+  "type": null,
+  "size": null,
+  "stats": {},
+  "results": {}
+ },
+ {
+  "sha256": "f2c1ff83b7c3b50b37209c95924bf2e39b2d3c07b3acaaeadd6e90e3b013bb59",
+  "names": [],
+  "type": null,
+  "size": null,
+  "stats": {},
+  "results": {}
+ }
+]

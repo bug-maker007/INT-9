@@ -1,0 +1,119 @@
+{
+ "sha256_hash": "0ed2bdca1aba5f0aa9b460314668ee74511d57e54adecb06a5595aa227db6a30",
+ "sha3_384_hash": "1575e913ed7cddd3276aaf984f0187a875cab8c3d2f310ea1ef3188aae45c8f81512fd750b8c757ef884d57bdb5c8506",
+ "sha1_hash": "e3bcc72e16c253902e597b5370642a4bd001f495",
+ "md5_hash": "003637951e466ba67a0adad1615c942f",
+ "first_seen": "2026-07-29 21:29:49",
+ "last_seen": null,
+ "file_name": "RBL-Credit-Card-1.apk",
+ "file_size": 3951052,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1C306F1A47796A91ECC3B50320A255375124BEC228FE2E7576435339EEC379D84F4AEC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:YXmtO7OrdLQnsGU8YVENInPCPUF2/95AQCx3:YTKxcnsdvoIPD2/9g3",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Banker",
+  "RBL Bank",
+  "RBL Credit Card",
+  "signed",
+  "SpyAgent"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "313",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/0ed2bdca1aba5f0aa9b460314668ee74511d57e54adecb06a5595aa227db6a30/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": null,
+   "link": "https://tria.ge/reports/260729-1cvl4swvhz/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-01-27 12:31:00",
+   "scanner_count": "24",
+   "scanner_match": "4",
+   "scanner_percent": "16.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a6a71036e5ac909e25b11ab/reports/1dd2a948-1a70-4b87-86cb-f220510ada98/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-02-12T17:15:00Z",
+   "last_seen": "2026-07-31T06:54:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/0ed2bdca1aba5f0aa9b460314668ee74511d57e54adecb06a5595aa227db6a30/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

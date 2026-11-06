@@ -1,0 +1,101 @@
+{
+ "sha256_hash": "1ba2066bb5fe174b2667b652c10b38f95b4997a556ab16755566548cd6383a5f",
+ "sha3_384_hash": "2b294cffbc891f12cf762d10e44399efd42e9793fdfbb7c92327be9a6db040e36201d2d4cc35f97d3928d1d30e1c5170",
+ "sha1_hash": "3718619b7824c74177dc80af5b4fb22329bd76e3",
+ "md5_hash": "c7065d503c0b760cfe753660473450fa",
+ "first_seen": "2021-09-06 18:47:21",
+ "last_seen": null,
+ "file_name": "Android™Güncelleme.apk",
+ "file_size": 3428668,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T146F5338FEBC68A0AF197027151C558EF729B408E27D1962E76B302249CEBFD45E07E74",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:QY+s9bYLOqytqUaGRgCX9Om4cUHAICmqGxD:QY3mytqUNg1moAICmqGF",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan005573fd1.24981.14668.UNOFFICIAL"
+  ],
+  "downloads": "257",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1ba2066bb5fe174b2667b652c10b38f95b4997a556ab16755566548cd6383a5f/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/1ba2066bb5fe174b2667b652c10b38f95b4997a556ab16755566548cd6383a5f",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/210906-xfr4lsbda7/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "https://budafexuynaday.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-09-06 18:48:09",
+   "scanner_count": "43",
+   "scanner_match": "6",
+   "scanner_percent": "13.95"
+  }
+ },
+ "comments": null
+}

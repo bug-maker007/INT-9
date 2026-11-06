@@ -1,0 +1,108 @@
+{
+ "sha256_hash": "49bc43a5b94d4a24f5561a98e3feac970fa37e9922a892f72351d5e94d77bc4c",
+ "sha3_384_hash": "3546ec79f627a7af5ff799db7f6624606693f83b68ffdb5f0d0568687e0720ee2e9bf40b68fe9b59dff6eea6c5a75ab6",
+ "sha1_hash": "86257b0d6154ab621726e97d35e0d8004604a780",
+ "md5_hash": "53f04e56619e4e51f796e3d5185a2932",
+ "first_seen": "2022-06-08 14:36:27",
+ "last_seen": null,
+ "file_name": "Document Manager_8.8.4.apk",
+ "file_size": 21947465,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "l205306",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "hydra",
+ "imphash": null,
+ "tlsh": "T15A27127AF75D6D0ED837B0B18EE9187500B91C20E7765B126EA8B33B56334886F61BD0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:JlBzjs3PGxwpVolP3eVNqh53vK2y3R082Edt51D1nfE6r3ZdF8pPINu31dX0ZaTE:JlBPseRP008Jd91l3ZH8pPf31Z0Zp3/n",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "46.6% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "31.1% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "17.7% (.ZIP) ZIP compressed archive (4000/1)",
+  "4.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "360",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/AndroidInSecure/status/1534175436187500548"
+  },
+  {
+   "context": "dropping_sha256",
+   "value": "c7300e6de3d9c6f1ad622a1e884f00d43340c381fb87c87514ef3ca2156fdf5b"
+  },
+  {
+   "context": "dropping_md5",
+   "value": "116fea8c63bce4908ec1307e20ed96ba"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.90"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/49bc43a5b94d4a24f5561a98e3feac970fa37e9922a892f72351d5e94d77bc4c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220608-ry5vjabfcl/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Requests dangerous framework permissions",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2022-06-08 14:40:00",
+   "scanner_count": "41",
+   "scanner_match": "1",
+   "scanner_percent": "2.44"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62a0b4508e867832d9e78394/reports/6570c4bc-6e0e-4a3d-87aa-7a35ded7a161/overview"
+  }
+ },
+ "comments": null
+}

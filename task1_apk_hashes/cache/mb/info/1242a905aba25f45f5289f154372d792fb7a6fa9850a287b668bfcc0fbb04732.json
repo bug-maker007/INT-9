@@ -1,0 +1,130 @@
+{
+ "sha256_hash": "1242a905aba25f45f5289f154372d792fb7a6fa9850a287b668bfcc0fbb04732",
+ "sha3_384_hash": "5334734d75e61b2686b56183cc82aa164520b75175fe10dff8e521d0cb6d512a0a097edc04d2dd3cf7e6412d667f5f2a",
+ "sha1_hash": "f4fcc98a7e8963339679a7c1ec06e3b07ef72ff5",
+ "md5_hash": "82a37e68ffbf70176119ba10b2ee6196",
+ "first_seen": "2023-08-06 08:56:51",
+ "last_seen": null,
+ "file_name": "Accurate Image Comparison_1.0.1.apk",
+ "file_size": 10155345,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "500mk500",
+ "origin_country": "UA",
+ "anonymous": 0,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T1E3A69D09F21C642BC47BA171AE8F122B9805BC904746B6D37F06BB696A736D54F3D3C2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:B3s6oB0RS3+Whv8FtdsZArU6HJsGJAUTv7uI5iF9twHfQgLOzzipnsWhTxYXRWkL:66ZRSuE+dCjYtJAY3sTiLOzunZTdNdpA",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "44.6% (.VYM) VYM Mind Map (12500/1/3)",
+  "37.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "14.2% (.ZIP) ZIP compressed archive (4000/1)",
+  "3.5% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "joker"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "289",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/ReBensk/status/1688110412875640835"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "ldpreload",
+   "author": "xorseed",
+   "description": null,
+   "reference": "https://stuff.rop.io/"
+  },
+  {
+   "rule_name": "maldoc_getEIP_method_1",
+   "author": "Didier Stevens (https://DidierStevens.com)",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "MD5_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for MD5 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "meth_get_eip",
+   "author": "Willi Ballenthin",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1242a905aba25f45f5289f154372d792fb7a6fa9850a287b668bfcc0fbb04732/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.05"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/1242a905aba25f45f5289f154372d792fb7a6fa9850a287b668bfcc0fbb04732",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/230806-kwky1shh9x/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Joker",
+   "status": "MALICIOUS",
+   "first_seen": "2023-08-05 02:55:27",
+   "scanner_count": "24",
+   "scanner_match": "8",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.2",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/64cf605fdaa9db50533de782/reports/03ec9af7-cc77-4f61-a402-3b41a4892199/overview"
+  }
+ },
+ "comments": null
+}

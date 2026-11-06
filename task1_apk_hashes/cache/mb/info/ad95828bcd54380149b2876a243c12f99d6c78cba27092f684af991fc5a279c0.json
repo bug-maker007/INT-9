@@ -1,0 +1,109 @@
+{
+ "sha256_hash": "ad95828bcd54380149b2876a243c12f99d6c78cba27092f684af991fc5a279c0",
+ "sha3_384_hash": "7975b3ffbfc602a730d982d20d8dfa2a028b55d690c458b97fcb28455d756004430bf13211b0374c9a200f03660d4153",
+ "sha1_hash": "7dd789a22dabe2b22b9b2a36b1433abd574985c0",
+ "md5_hash": "8205192c5ca497bed686e66dfc51a00a",
+ "first_seen": "2025-08-25 17:30:00",
+ "last_seen": "2025-08-25 17:33:06",
+ "file_name": "ad95828bcd54380149b2876a243c12f99d6c78cba27092f684af991fc5a279c0",
+ "file_size": 20823543,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ReBensk",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T1032712C6FB289A1EC47750724D6D23395AA90C19DB439F97EA04331D24BB9E04E4FBE4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:3MU7bUwU6uWrvDKd8P4IwhFsk9LQ6FjlUbCiq5hzn7A2C2:3b74HSr7KCvfk9LQ6Fj1iq5hz7A2C2",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "54.5% (.APK) Android Package (27000/1/5)",
+  "21.2% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "16.1% (.XPI) Mozilla Firefox browser extension (8000/1/1)",
+  "8.0% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Jocker",
+  "Joker"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "120",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "botnet_plaintext_c2",
+   "author": "cip",
+   "description": "Attempts to match at least some of the strings used in some botnet variants which use plaintext communication protocols.",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_AllMal_Detector",
+   "author": "DiegoAnalytics",
+   "description": "CrossPlatform All Malwares Detector: Detect PE, ELF, Mach-O, scripts, archives; overlay, obfuscation, encryption, spoofing, hiding, high entropy, network communication",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ad95828bcd54380149b2876a243c12f99d6c78cba27092f684af991fc5a279c0",
+   "details": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-08-25 06:30:30",
+   "scanner_count": "23",
+   "scanner_match": "3",
+   "scanner_percent": "13.04"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "Kaspersky": {
+   "verdict": "Clean",
+   "file_type": "apk",
+   "first_seen": "2025-08-25T09:11:00Z",
+   "last_seen": "2025-08-25T09:11:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/ad95828bcd54380149b2876a243c12f99d6c78cba27092f684af991fc5a279c0/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

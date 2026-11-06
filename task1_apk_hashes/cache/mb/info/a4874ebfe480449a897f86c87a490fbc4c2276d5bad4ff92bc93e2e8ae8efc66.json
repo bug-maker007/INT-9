@@ -1,0 +1,133 @@
+{
+ "sha256_hash": "a4874ebfe480449a897f86c87a490fbc4c2276d5bad4ff92bc93e2e8ae8efc66",
+ "sha3_384_hash": "c3acf5baf09044c2c1c65995f982d112596c51fa68cedb89bd67b10cd08667593d32d21290a09fe2fe4df1c9d8278ec2",
+ "sha1_hash": "b998c6de3c3835774eea6519102ce1fc040e33a3",
+ "md5_hash": "abb4a1192d0919da01aa87b53538fb7c",
+ "first_seen": "2022-05-09 09:50:06",
+ "last_seen": null,
+ "file_name": "easy.apk",
+ "file_size": 2217936,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Ermac",
+ "imphash": null,
+ "tlsh": "T1F3A5F142FB86A82EECF7C73A4776466A61028D268743D7878964713D1DBFDC08E46EC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:2mGSPqOLqtmZvQ/UOy6B4Kc4fbYrkJxfyO7W3+A:29SdLqL/UOzboO7W3+A",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "57.0% (.APK) Android Package (38500/1/9)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "15.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "ermac",
+  "metadroid",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.ArtemisABB4A1192D09.12963.8993.UNOFFICIAL"
+  ],
+  "downloads": "330",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a4874ebfe480449a897f86c87a490fbc4c2276d5bad4ff92bc93e2e8ae8efc66/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/a4874ebfe480449a897f86c87a490fbc4c2276d5bad4ff92bc93e2e8ae8efc66",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/220509-lvgqmschd9/",
+   "tags": [
+    "android",
+    "evasion",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2022-05-09 09:51:19",
+   "scanner_count": "26",
+   "scanner_match": "10",
+   "scanner_percent": "38.46"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6278e3d8a40dfc4df210938a/reports/8bc03aab-8022-4453-99b1-0c15dc027671/overview"
+  }
+ },
+ "comments": null
+}

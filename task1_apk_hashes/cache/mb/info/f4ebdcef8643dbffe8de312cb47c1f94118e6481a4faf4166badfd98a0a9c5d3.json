@@ -1,0 +1,172 @@
+{
+ "sha256_hash": "f4ebdcef8643dbffe8de312cb47c1f94118e6481a4faf4166badfd98a0a9c5d3",
+ "sha3_384_hash": "e21cccc8602e5f5883b0a0311a8b96738fccb7d80710344eba680c01be8d3eec7f04708ab65d0bf1d6959ae49281728f",
+ "sha1_hash": "79b5c686478c3db742666068d3835eb3409af32a",
+ "md5_hash": "16e991d73049f1ef5b8f5fa0c075ef05",
+ "first_seen": "2022-10-21 12:29:21",
+ "last_seen": null,
+ "file_name": "paypal.apk",
+ "file_size": 2773389,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Ermac",
+ "imphash": null,
+ "tlsh": "T1EED5F141FFA5A49BD4F3CE3442A6C256410B9D95CA1BE34B0E51783C9E778C0AE4EED8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:Y/cThIEUoEPCM0FjUT8uD4f14CUnA6CKe8NbLDMR:YEFIdP9q9GTn9CctX8",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "51.6% (.APK) Android Package (38500/1/9)",
+  "18.1% (.JAR) Java Archive (13500/1/2)",
+  "14.0% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "9.3% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "5.3% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android_ermac",
+  "apk",
+  "Ermac",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "449",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/f4ebdcef8643dbffe8de312cb47c1f94118e6481a4faf4166badfd98a0a9c5d3/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/f4ebdcef8643dbffe8de312cb47c1f94118e6481a4faf4166badfd98a0a9c5d3",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "ermac",
+   "score": "10",
+   "link": "https://tria.ge/reports/221021-ppgegabee8/",
+   "tags": [
+    "family:ermac",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "ransomware",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Ermac",
+     "score": "10"
+    },
+    {
+     "signature": "Ermac2 payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the unique device ID (IMEI, MEID, IMSI).",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "ermac",
+     "c2": "http://193.106.191.121:3434"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Boogr",
+   "status": "MALICIOUS",
+   "first_seen": "2022-10-19 11:50:56",
+   "scanner_count": "41",
+   "scanner_match": "8",
+   "scanner_percent": "19.51"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/635290cc66721ebd9b2f5d8b/reports/067eb248-a076-4fdd-96a4-9a2a1dc2681c/overview"
+  }
+ },
+ "comments": null
+}

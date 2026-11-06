@@ -1,0 +1,125 @@
+{
+ "sha256_hash": "8c2a2324ad2210b46b74c9addd35c14c96da10052e97b205071ab59a8b1b17ba",
+ "sha3_384_hash": "e3aed997b87055bde6dd1b300dfdf8eb0d57853bc7855b55091f3be3cad10912d0a3c0f12f33670a5dbd0d03efc9bd27",
+ "sha1_hash": "da6e3303184c21a5bbda6db09dba07147d244ba2",
+ "md5_hash": "0be21ed38f88c3bf697a3bcd6b223eb7",
+ "first_seen": "2022-04-04 11:56:47",
+ "last_seen": null,
+ "file_name": "easybank.apk",
+ "file_size": 3483525,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T1A8F533117F2E4506DEB40B318999C31AC52D5FA8EF4E669F6330338354B2EE65B074EA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:7/xf/WckkVxWjynY89+uAt4jGPIy0Yh9B7DMC:p/CiXAtUGg095DMC",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra",
+  "signed",
+  "tor-hydra"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SMS-10.UNOFFICIAL"
+  ],
+  "downloads": "361",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8c2a2324ad2210b46b74c9addd35c14c96da10052e97b205071ab59a8b1b17ba/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/8c2a2324ad2210b46b74c9addd35c14c96da10052e97b205071ab59a8b1b17ba",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/220404-n4kj1ahghl/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Hydra Payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Legitimate hosting services abused for malware hosting/C2",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.PUA.Uwamson",
+   "status": "MALICIOUS",
+   "first_seen": "2022-04-04 11:57:21",
+   "scanner_count": "25",
+   "scanner_match": "13",
+   "scanner_percent": "52.00"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/624add0faa7e43c6a6b65c9a/reports/5f14ae35-1d4e-4eb3-8cf1-3335fd992ac4/overview"
+  }
+ },
+ "comments": null
+}

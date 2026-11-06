@@ -1,0 +1,97 @@
+{
+ "sha256_hash": "55af70f1d700bb8f18c425c5cf57837d7b552d81e5ca33796d01c6a116b8f72f",
+ "sha3_384_hash": "41d2eb64c951ea1704b6f44c9734f51d5c77d848a069d330d734eabfee08934e6aa9b56f1d4b55b127ac99c008846669",
+ "sha1_hash": "f2d7564c0a1253308facf50008c1dd52629bd623",
+ "md5_hash": "1586c52d0909cee231653941908e33ee",
+ "first_seen": "2021-09-27 07:49:37",
+ "last_seen": null,
+ "file_name": "commerzbank.apk",
+ "file_size": 9069403,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T120963376E6C04AA9F3768C7788D76793120563DB32C2E4BBC3684ED9456A9CF0F5488C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:gr/lJ85gH/qODnTB+pKGJWiFelKztxq372DWx0RiQdyjynFAL9o3oy2:gro5gHCODnTB+pKGgyelAtxk6Wabyj4Q",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Adware.Android.Deng-1.UNOFFICIAL"
+  ],
+  "downloads": "220",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1645232/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/55af70f1d700bb8f18c425c5cf57837d7b552d81e5ca33796d01c6a116b8f72f/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/55af70f1d700bb8f18c425c5cf57837d7b552d81e5ca33796d01c6a116b8f72f",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/210927-jx8k2agabn/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Bian",
+   "status": "MALICIOUS",
+   "first_seen": "2021-09-27 07:50:08",
+   "scanner_count": "45",
+   "scanner_match": "9",
+   "scanner_percent": "20.00"
+  }
+ },
+ "comments": null
+}

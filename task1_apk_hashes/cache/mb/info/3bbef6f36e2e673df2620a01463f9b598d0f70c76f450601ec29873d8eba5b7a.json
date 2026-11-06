@@ -1,0 +1,129 @@
+{
+ "sha256_hash": "3bbef6f36e2e673df2620a01463f9b598d0f70c76f450601ec29873d8eba5b7a",
+ "sha3_384_hash": "9a3b0ce25236f0859be075f0dbfeb7708c21c1b1f3b7ee006e1d73f63492d0fa9cd0c72de99e979839d7617edc9de1ac",
+ "sha1_hash": "3fe95f91eb2cf49e160b3dd3908997dbde9a9277",
+ "md5_hash": "caffd0c766788c61986d86fd2e608d81",
+ "first_seen": "2023-01-17 17:33:44",
+ "last_seen": null,
+ "file_name": "3bbef6f36e2e673df2620a01463f9b598d0f70c76f450601ec29873d8eba5b7a.apk",
+ "file_size": 4677804,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Mark18273642",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "GodFather",
+ "imphash": null,
+ "tlsh": "T10126E046FB44A97BC4F783324675562A513BCC258B43E6872D6C723C18B79DC8B86BC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:W8IOgQAq57I2H2sXHi2zsNdDx23eAfwdklx8g1dycszfrW2Di:LJtANgR+fOckx8g1dyzi",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "57.0% (.APK) Android Package (38500/1/9)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "15.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "Distributed via Google Play Store",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "GodFather",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "md5WithRSAEncryption",
+   "valid_from": "2008-04-15T22:40:50Z",
+   "valid_to": "2035-09-01T22:40:50Z",
+   "serial_number": "b3998086d056cffa",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.1024.origin.11055.9257.UNOFFICIAL"
+  ],
+  "downloads": "359",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3bbef6f36e2e673df2620a01463f9b598d0f70c76f450601ec29873d8eba5b7a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/3bbef6f36e2e673df2620a01463f9b598d0f70c76f450601ec29873d8eba5b7a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/230117-v5etgabh48/",
+   "tags": [
+    "android",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "7"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyBanker",
+   "status": "MALICIOUS",
+   "first_seen": "2023-01-02 17:24:00",
+   "scanner_count": "23",
+   "scanner_match": "11",
+   "scanner_percent": "47.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/63c6dc0cbda854045c18f89c/reports/41932b86-c28f-45e7-97ca-642272e3355e/overview"
+  }
+ },
+ "comments": null
+}

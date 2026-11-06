@@ -1,0 +1,101 @@
+{
+ "sha256_hash": "cc65a1cc281b3d09046a39c38fc25e235c66a2319065ae0f5c446664fcb6469d",
+ "sha3_384_hash": "a072033206bbd2b815f27c4683944140afd4fe9d264c5bb2fe3fb550a753361daed8e6ec4a547d97cf97c4324d0f8cae",
+ "sha1_hash": "ed5aa1a15edef5fe6cfb313f692f3de435e6ac39",
+ "md5_hash": "0208b57fdfd90447e5581e3e6403d544",
+ "first_seen": "2021-09-22 00:39:01",
+ "last_seen": null,
+ "file_name": "Turkcell_Kampanya.apk",
+ "file_size": 3282751,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ActorExpose",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1E9E5335E9A51880CD153833182537622FB792B45E6D6E16F7C3E00434FF7A948F36EAA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:lMiiexXqC8i5WUbn8p9PHRAoy/b2yAcr6i+EhNiU/HtnXZhp9nKF1WT3r:ZiexXqCXSD6pnr6gh8UPtnW1WT3r",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.10498.8615.26482.UNOFFICIAL"
+  ],
+  "downloads": "259",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/cc65a1cc281b3d09046a39c38fc25e235c66a2319065ae0f5c446664fcb6469d/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/cc65a1cc281b3d09046a39c38fc25e235c66a2319065ae0f5c446664fcb6469d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/210922-azntzaagh4/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://spacecomdomainscomcocspaces.space/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Cebruser",
+   "status": "MALICIOUS",
+   "first_seen": "2021-09-21 12:33:57",
+   "scanner_count": "28",
+   "scanner_match": "8",
+   "scanner_percent": "28.57"
+  }
+ },
+ "comments": null
+}

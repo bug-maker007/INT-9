@@ -1,0 +1,162 @@
+{
+ "sha256_hash": "7cf365d61e59d5c3dd50295b1d5a0c360da9eba1b4dc00cdc0f1ceee4a5cc412",
+ "sha3_384_hash": "b4bd486348b66c62cb6e3607f1d914483f469a19c250afe61bbdef0f66d445ccdee50a0da862b5a16f7972dab88b837c",
+ "sha1_hash": "98a5527529198994d91d98e2e51bdd33f4e2a672",
+ "md5_hash": "e792fedfd11d56a9ad68e6d407b9a09e",
+ "first_seen": "2026-07-29 06:07:13",
+ "last_seen": null,
+ "file_name": "7cf365d61e59d5c3dd50295b1d5a0c360da9eba1b4dc00cdc0f1ceee4a5cc412.apk",
+ "file_size": 9378448,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "Copybara",
+ "imphash": null,
+ "tlsh": "T12796330AB742AB17E17316749D7241DD017A6D18CF575213B6A2323C38F9FC08F6AE9A",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:3k0xB/r1wWwPLCLH+QN4ut1eMSCiYfEWNFFimfgSS9NZlJLXCCpmvwmaf:7X1xwPmLH+luHeFgMWNrTgNtPvmvwDf",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "37-148-161-44",
+  "apk",
+  "Copybara"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "238",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "tico_android",
+   "author": "Alberto Segura",
+   "description": "Detects tico Android bots files",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7cf365d61e59d5c3dd50295b1d5a0c360da9eba1b4dc00cdc0f1ceee4a5cc412/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "copybara",
+   "score": "10",
+   "link": "https://tria.ge/reports/260729-gvtmzsysdz/",
+   "tags": [
+    "family:copybara",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about the current Wi-Fi connection",
+     "score": "6"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation)",
+     "score": "5"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "copybara",
+     "c2": "37.148.161.44"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-07-24 11:08:01",
+   "scanner_count": "36",
+   "scanner_match": "3",
+   "scanner_percent": "8.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a6998b89e2b3d7ec444f105/reports/ab8066d7-e6be-4188-8fcb-e7afdd5d17f7/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-23T15:34:00Z",
+   "last_seen": "2026-07-30T19:43:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/7cf365d61e59d5c3dd50295b1d5a0c360da9eba1b4dc00cdc0f1ceee4a5cc412/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,154 @@
+{
+ "sha256_hash": "d921e4c59b048aa4085712054c1fa0cac28994f8857b519f27a297b8f2c5d77d",
+ "sha3_384_hash": "333dc7f82afdcf2e4dbe1c17818166a8223426549126c5885c7d964c4f7e2dee44fb4f196be956214ef4b10f781115be",
+ "sha1_hash": "e5fd836bb8a3bc2f2fe4064afbd0e9fce5a76c3f",
+ "md5_hash": "2d7bc2d012b4e90475965a7466dfa1d4",
+ "first_seen": "2026-02-25 13:29:45",
+ "last_seen": null,
+ "file_name": "Mp3.indir (2).apk",
+ "file_size": 5212446,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "CyberMAN_noBODY",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "BankBot",
+ "imphash": null,
+ "tlsh": "T1A036E042F759A93EC8F7433646B607229136CD668B93C683595C323818F76EC1F1ABC9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:hBzfroHSL+CiJrz8rGImPWOvRLlnCAB5YySa/+0wpaYfGPs:jipxIgTJLNCMxSa/+RNfGPs",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "bankbot",
+  "banker",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Packed.35.origin.28074.26398.UNOFFICIAL"
+  ],
+  "downloads": "278",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d921e4c59b048aa4085712054c1fa0cac28994f8857b519f27a297b8f2c5d77d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/d921e4c59b048aa4085712054c1fa0cac28994f8857b519f27a297b8f2c5d77d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260225-qrz52agw2h/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-11-25 19:52:54",
+   "scanner_count": "36",
+   "scanner_match": "6",
+   "scanner_percent": "16.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/699ef972cd25bfe1dfda0bb0/reports/426cfdb1-f6a5-4d0d-bb4f-7584ab4c0f64/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2023-11-27T07:57:00Z",
+   "last_seen": "2024-09-08T09:09:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/d921e4c59b048aa4085712054c1fa0cac28994f8857b519f27a297b8f2c5d77d/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

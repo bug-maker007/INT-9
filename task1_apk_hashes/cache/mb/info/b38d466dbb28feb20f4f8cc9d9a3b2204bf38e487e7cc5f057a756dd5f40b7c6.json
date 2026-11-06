@@ -1,0 +1,171 @@
+{
+ "sha256_hash": "b38d466dbb28feb20f4f8cc9d9a3b2204bf38e487e7cc5f057a756dd5f40b7c6",
+ "sha3_384_hash": "676f551c5c3c165b9eff84f5b8fe6f6a7391e2295b673399d3821ccd35400d3a2d0d98dd8d371d2b4d77449219a91384",
+ "sha1_hash": "5d39d2b7a311054d9044135d33340d66fb2642ce",
+ "md5_hash": "8e408e3d592fa2bea942749408fa14c3",
+ "first_seen": "2026-06-27 17:00:56",
+ "last_seen": null,
+ "file_name": "Blockchain.apk",
+ "file_size": 4660698,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T10226F143FB45DA87D8AAC3F66F230D9919134F24C643AAE30461766E2E772D14DC6ACC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:Z1hFXASJ2Buoty9gvNnA7kUmzLzB/TV0tICxX+:rhprJquW9vi7kTzhqpo",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "39.4% (.APK) Android Package (27000/1/5)",
+  "19.7% (.JAR) Java Archive (13500/1/2)",
+  "19.7% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "15.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "SpyNote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SpyMax.55.origin.11054.31187.UNOFFICIAL",
+   "SecuriteInfo.com.Android.SpyMax.55.origin.22588.14453.UNOFFICIAL"
+  ],
+  "downloads": "387",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b38d466dbb28feb20f4f8cc9d9a3b2204bf38e487e7cc5f057a756dd5f40b7c6/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/260627-vjt19sby8y/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "execution",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.AVerseFalc",
+   "status": "MALICIOUS",
+   "first_seen": "2026-06-15 20:19:04",
+   "scanner_count": "24",
+   "scanner_match": "11",
+   "scanner_percent": "45.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a4001f26795edda0e7cafa1/reports/378f1fe6-f236-4968-8ed0-86a3e6baba82/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-06-15T15:18:00Z",
+   "last_seen": "2026-06-28T00:48:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/b38d466dbb28feb20f4f8cc9d9a3b2204bf38e487e7cc5f057a756dd5f40b7c6/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

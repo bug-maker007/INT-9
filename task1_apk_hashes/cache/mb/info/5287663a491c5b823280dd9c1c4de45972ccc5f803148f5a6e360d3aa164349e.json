@@ -1,0 +1,157 @@
+{
+ "sha256_hash": "5287663a491c5b823280dd9c1c4de45972ccc5f803148f5a6e360d3aa164349e",
+ "sha3_384_hash": "1d6401200e85581fed49b0aa342d11672b782db4991da6056f640665b177c6ccdc48facdaa3db8a713b7cceda782813d",
+ "sha1_hash": "d0d733076d8e52c8a76a62d113db3baaf9e5f65e",
+ "md5_hash": "bf41c4f3aaabea589e12ca5d59218ae6",
+ "first_seen": "2022-06-02 11:06:37",
+ "last_seen": null,
+ "file_name": "PlayStore.apk",
+ "file_size": 1510581,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "500mk500",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T13F6512056AE4AD1DDC0FB939F04A90865ADC434418E1EA9B742D94B43F2AE701FD3EBD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:4XnHdgLYEglEkhRa5qTQXg9rCVircySmP5o3IONjx/xl2WCGazAzf1mWN5b/4PAM:ChRa5OPrCjnmPyxPJrCGDzf11xvZ/jY1",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.12279.20744.20433.UNOFFICIAL"
+  ],
+  "downloads": "545",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "Android Cerberus"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5287663a491c5b823280dd9c1c4de45972ccc5f803148f5a6e360d3aa164349e/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/5287663a491c5b823280dd9c1c4de45972ccc5f803148f5a6e360d3aa164349e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/220602-m7y15aahgj/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "rat",
+    "suricata",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "suricata: ET MALWARE Trojan Generic - POST To gate.php with no referer",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation).",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "https://yenioyuncagimbenimoyun6234.space"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2022-06-02 01:24:23",
+   "scanner_count": "41",
+   "scanner_match": "4",
+   "scanner_percent": "9.76"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/629899e96d826470937c86f3/reports/651d468b-3ff3-47d0-be36-c0e1646fa2ac/overview"
+  }
+ },
+ "comments": null
+}

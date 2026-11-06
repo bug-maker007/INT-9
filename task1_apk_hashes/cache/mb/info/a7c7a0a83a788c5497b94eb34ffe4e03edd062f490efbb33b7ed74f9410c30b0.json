@@ -1,0 +1,328 @@
+{
+ "sha256_hash": "a7c7a0a83a788c5497b94eb34ffe4e03edd062f490efbb33b7ed74f9410c30b0",
+ "sha3_384_hash": "a83ea94a40b9ebb1aa2a1bccc52d3067fc7db8e2e4d8906337fb80593760a2bd003ab70a7acd173df952b66d5c933baf",
+ "sha1_hash": "cabea2b79f908f496a57631a30f260875d954976",
+ "md5_hash": "19de9f4a6f12275c2e60daf8b0b73e6d",
+ "first_seen": "2025-05-12 09:20:11",
+ "last_seen": "2025-09-23 20:11:48",
+ "file_name": "Chrome.apk",
+ "file_size": 1479734,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "cngz",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T191652377FE6060ACCF8C57B3449A9D532764778A622B9B1E350E7168A93F8CC0D127B4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:lw6S2AJwEgp11gFywYfHTsYKiUmg6pGksfPnUeRCaard9ObCvPa1KiDSGt4H0:lw6SBJvgp12FywYfzns3UeRHySEPaoi1",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Coper",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "IBM-XF",
+   "issuer_cn": "IBM-XF",
+   "algorithm": "md5WithRSAEncryption",
+   "valid_from": "2025-03-04T19:17:14Z",
+   "valid_to": "2052-07-20T19:17:14Z",
+   "serial_number": "1a2c3c35",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c21a8e23eda590a0368dc114b4ad0c8e88a3c9b45109d3e3c55bdc9637e8205b",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan-Banker.AndroidOS.Octo-1.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.32672.1523.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan.Generic.35243918.12742.18135.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan.Generic.35358880.26987.19779.UNOFFICIAL"
+  ],
+  "downloads": "4194",
+  "uploads": "10",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "Linux_Generic_Threat_094c1238",
+   "author": "Elastic Security",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a7c7a0a83a788c5497b94eb34ffe4e03edd062f490efbb33b7ed74f9410c30b0/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/a7c7a0a83a788c5497b94eb34ffe4e03edd062f490efbb33b7ed74f9410c30b0",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/250512-mvqh8aaq4w/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo family",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the unique device ID (IMEI, MEID, IMSI)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests accessing notifications (often used to intercept notifications before users become aware).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests modifying system settings.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampialankurulum.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampimalzemelistesi.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampiyerlesimplani.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampiorganizasyonyolu.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampiatikyonetimi.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampihayatdüzeni.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampibeslenmeplanı.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampiguvenlikkurallari.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampisurvivalteknikleri.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampidogalhayat.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampikultureletkinlik.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampiyolculukhazirlik.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampiekipmandagıtım.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampisaglikkosesi.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampikonaklamayeri.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampitercihyapimi.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampiadrenalinruh.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampimaceragunlugu.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampidogadahayat.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://toplamakampizamanplanlamasi.xyz/MzhiMTg0NTAwOTY5S/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Coper",
+   "status": "MALICIOUS",
+   "first_seen": "2025-03-05 11:57:28",
+   "scanner_count": "35",
+   "scanner_match": "21",
+   "scanner_percent": "60.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6821d1bbd95f3e34e966f6c3/reports/1a6c40c7-6ec4-4526-9911-6a8f1fa4ff4c/overview"
+  }
+ },
+ "comments": null
+}

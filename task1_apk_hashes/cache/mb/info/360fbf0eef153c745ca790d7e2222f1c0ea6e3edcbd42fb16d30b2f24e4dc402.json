@@ -1,0 +1,120 @@
+{
+ "sha256_hash": "360fbf0eef153c745ca790d7e2222f1c0ea6e3edcbd42fb16d30b2f24e4dc402",
+ "sha3_384_hash": "317ec2e2fbdcd108b21347ff995e4b2530c1e69801f331d78120968989c127b5cf07f8ece18325212aa4301ea8e9ec03",
+ "sha1_hash": "3f0f688a5cb2b4348cf572d089a6cf1e2e55dda9",
+ "md5_hash": "a5821bf34bc58ca12ffb0d8b72279e24",
+ "first_seen": "2022-07-02 08:01:59",
+ "last_seen": null,
+ "file_name": "gen_signed.apk",
+ "file_size": 86117,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T19B8312C34D92B559D47B90B9C5B1730AA08C60E0375B76E50BD382D4A3BAF660FD9EC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1536:TtAap/aGCk8WggnJoAlW/1JblbGKjlW/XhQufc3TDJYVEowCA8tKN:hAaNaGCvgnqAlG1HjlmQuU3TDJYGow5Z",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "iran",
+  "malware",
+  "signed",
+  "sms",
+  "smsspy",
+  "spy",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SmsSpy.830.origin.15077.13467.UNOFFICIAL"
+  ],
+  "downloads": "557",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2253217/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/360fbf0eef153c745ca790d7e2222f1c0ea6e3edcbd42fb16d30b2f24e4dc402",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220702-jw4wfsebdn/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SmsThief",
+   "status": "MALICIOUS",
+   "first_seen": "2022-07-02 08:02:05",
+   "scanner_count": "26",
+   "scanner_match": "15",
+   "scanner_percent": "57.69"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62bffbb7b0578633c8bbfc56/reports/23c0d8e3-c83a-4f1c-a8b3-a61d5b674f7f/overview"
+  }
+ },
+ "comments": [
+  {
+   "id": "52972",
+   "date_added": "2022-07-02 08:08:31",
+   "twitter_handle": "onecert_ir",
+   "display_name": "OneCert Cyber ​​Security",
+   "comment": "spyware\n\nMalware Phishing system of Electronic Judicial Services System Iran."
+  }
+ ]
+}

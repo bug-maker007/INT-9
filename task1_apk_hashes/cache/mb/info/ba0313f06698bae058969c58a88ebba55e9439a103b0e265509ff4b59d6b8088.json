@@ -1,0 +1,131 @@
+{
+ "sha256_hash": "ba0313f06698bae058969c58a88ebba55e9439a103b0e265509ff4b59d6b8088",
+ "sha3_384_hash": "38d4ac64c200c6e4dd9bddee4c0f4cd76d4018160dca7f186ab50ab3e34d6d09bbeb1661308607fb1e00530880dceb1c",
+ "sha1_hash": "881dea7a13ca1204db96e393f3719480abbd8226",
+ "md5_hash": "275f0b929a0330e22a61d2bce47676cd",
+ "first_seen": "2022-08-09 18:45:04",
+ "last_seen": null,
+ "file_name": "پشتیبانی دیوار_signed.apk",
+ "file_size": 2721176,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "BRATA",
+ "imphash": null,
+ "tlsh": "T1B9C52253F262A95BD9F3C3322171273550379D26CB43FB8A2C4877B928B7AD84B906D4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:H/uz+Po3fCFwPF75hnDpeU7bzp81IUR+HABasBYkQiV+bMXyb2snp6M:f4EovCAnQU7bzp81IUR+ggpkQfbMXybL",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "android.spyware.IranPhishing",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "iran",
+  "irata",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.989.origin.13714.25418.UNOFFICIAL"
+  ],
+  "downloads": "386",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "spyware"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "android.spyware.IranPhishing"
+  },
+  {
+   "context": "dropped_by_malware",
+   "value": "smsspy"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ba0313f06698bae058969c58a88ebba55e9439a103b0e265509ff4b59d6b8088/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.49"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ba0313f06698bae058969c58a88ebba55e9439a103b0e265509ff4b59d6b8088",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "brata",
+   "score": "10",
+   "link": "https://tria.ge/reports/220809-xelv7sgbd3/",
+   "tags": [
+    "family:brata",
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Backdoor.Basdoor",
+   "status": "MALICIOUS",
+   "first_seen": "2022-08-09 18:46:31",
+   "scanner_count": "21",
+   "scanner_match": "10",
+   "scanner_percent": "47.62"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62f2ab7f493dc2f89c92f307/reports/73008647-03dd-4cff-a25a-40175e7adef3/overview"
+  }
+ },
+ "comments": null
+}

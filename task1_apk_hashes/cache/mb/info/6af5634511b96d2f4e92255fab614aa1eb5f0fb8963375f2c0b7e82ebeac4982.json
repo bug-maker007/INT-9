@@ -1,0 +1,130 @@
+{
+ "sha256_hash": "6af5634511b96d2f4e92255fab614aa1eb5f0fb8963375f2c0b7e82ebeac4982",
+ "sha3_384_hash": "f6b512325550e5d4e84cdfd40d1ab24845818e48234a4f4fcc2aec428e3fd665210f47d014bc89f30e9f21dbcbe35fc5",
+ "sha1_hash": "61fc1e0a88a69dc65aa2586831615312d7508fd8",
+ "md5_hash": "670a3439a911840c4e092711bff819ba",
+ "first_seen": "2026-09-01 19:36:10",
+ "last_seen": "2026-09-09 13:18:19",
+ "file_name": "IndusInd_Credit_Card.apk",
+ "file_size": 6918080,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T19E663332E369D532C8B2DB34F6142337F02182A31D57B66A76769385CBF288D6BCC855",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:NwdJ0WlOfWBdugNPYSRndjOWfsphsYZjZk6K5r:NTmRnd508YDk6K5",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "51.4% (.APK) Android Package (27000/1/5)",
+  "25.7% (.JAR) Java Archive (13500/1/2)",
+  "15.2% (.XPI) Mozilla Firefox browser extension (8000/1/1)",
+  "7.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Banker",
+  "Dropper",
+  "Malware",
+  "signed",
+  "Trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Vida Remote",
+   "issuer_cn": "Vida Remote",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2026-07-31T06:54:31Z",
+   "valid_to": "2056-07-23T06:54:31Z",
+   "serial_number": "360816962a80f26a",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "48c1124e90e9d9e3090ebb65da10ca9d918df82de1bb56e65b82ee041b4975d7",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.7999.8844.5690.UNOFFICIAL",
+   "SecuriteInfo.com.Android.Banker.7999.9599.14370.UNOFFICIAL"
+  ],
+  "downloads": "466",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/6af5634511b96d2f4e92255fab614aa1eb5f0fb8963375f2c0b7e82ebeac4982/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260901-ybdk4az1fz/",
+   "tags": [
+    "android",
+    "evasion",
+    "impact"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-09-01 19:37:37",
+   "scanner_count": "38",
+   "scanner_match": "10",
+   "scanner_percent": "26.32"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a9729326a3c0e0c34a2949c/reports/615c1589-90c6-40af-83c0-418ed7d8fc70/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-01T17:44:00Z",
+   "last_seen": "2026-09-02T23:51:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/6af5634511b96d2f4e92255fab614aa1eb5f0fb8963375f2c0b7e82ebeac4982/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

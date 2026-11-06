@@ -1,0 +1,125 @@
+{
+ "sha256_hash": "fd7e7e23db5f645db9ed47a5d36e7cf57ca2dbdf46a37484eafa1e04f657bf02",
+ "sha3_384_hash": "649b83292c096269f18944e339f7fd255f9d8ecc90ef81fe7289f7f08e7ca6507fe374440f223af1b1b077c80fe527e6",
+ "sha1_hash": "371b09369d2337d93d557e5835db12a1cf3b848b",
+ "md5_hash": "82ffff3a21f4c819ef87c3a0a814a3db",
+ "first_seen": "2022-01-18 22:53:36",
+ "last_seen": null,
+ "file_name": "fd7e7e.apk",
+ "file_size": 8252146,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": null,
+ "anonymous": 1,
+ "signature": "Ermac",
+ "imphash": null,
+ "tlsh": "T1DA863343F662E917C8F2C3722576507520328E155B07E78A384D3BBA27FBDE84B522D6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:RHsN1nqVekRdIJWUTl/DNM4O2Yp4ECidNGSXiDTJNelLtRT7XMYLxyXutGnsGpT/:RHIINRu1Nq4bvnJY1tJcgo+TGjpjsqR",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Ermac",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.10989.16342.6318.UNOFFICIAL"
+  ],
+  "downloads": "337",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/fd7e7e23db5f645db9ed47a5d36e7cf57ca2dbdf46a37484eafa1e04f657bf02/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/fd7e7e23db5f645db9ed47a5d36e7cf57ca2dbdf46a37484eafa1e04f657bf02",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "ermac",
+   "score": "10",
+   "link": "https://tria.ge/reports/220118-2vjs1adhan/",
+   "tags": [
+    "family:ermac",
+    "android",
+    "banker",
+    "infostealer",
+    "ransomware",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Ermac",
+     "score": "10"
+    },
+    {
+     "signature": "Ermac Payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2021-12-02 00:28:51",
+   "scanner_count": "43",
+   "scanner_match": "17",
+   "scanner_percent": "39.53"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "0.6666666666666667",
+   "report_link": "https://www.filescan.io/uploads/61e7450fd32385db63047a83/reports/1609258f-8c5d-40fa-99cf-fd5e6d1e1ddf/overview"
+  }
+ },
+ "comments": null
+}

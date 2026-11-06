@@ -1,0 +1,212 @@
+{
+ "sha256_hash": "e3dedeedfa33296dcc07590df9a3735e92c5dd23e4940a6b1caaa44460eaca76",
+ "sha3_384_hash": "343e4b5cd82b8c210acead754513a7279e65c9ffa32a8716aaec863b7c4f9e5b05e057522b02fbe2c8b76144a96aeb27",
+ "sha1_hash": "7e78421290ea73524916eab91ffe3619afa26f01",
+ "md5_hash": "771785d8959dc680d615458c94684554",
+ "first_seen": "2026-02-05 16:51:13",
+ "last_seen": null,
+ "file_name": "GBWhatsApp-202602051631-57506299.apk",
+ "file_size": 10230836,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T126A633839DE5E027C7AB78F8510CAC594726E032F81766604F6D2BB1BF4C7A661DB843",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:Ox3rs+5K4Qy/aLFmivoCYwaI2/l6wMRs82WNnlNECahIkAYyybklKzyDoZHV:8d5X/+sI2gwMWhEnlqNhxhbwvg1",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "signed",
+  "Triada",
+  "WhatsApp"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "AndroidDebug",
+   "issuer_cn": "AndroidDebug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2024-02-24T09:12:10Z",
+   "valid_to": "2051-07-12T09:12:10Z",
+   "serial_number": "ad17b7b5b084b1c0",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a5f8a41a74f166ee9e4c16a381c032e12690e8f16c989a02bbf1a8cb48ae84c1",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "467",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "apk_flubot_w0",
+   "author": "Thomas Barabosch, Telekom Security",
+   "description": "matches on dumped, decrypted V/DEX files of Flubot version > 4.2",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "elf_arm_mips_ko_so",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseapps2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise apps",
+   "reference": null
+  },
+  {
+   "rule_name": "F01_s1ckrule",
+   "author": "s1ckb017",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "ldpreload",
+   "author": "xorseed",
+   "description": null,
+   "reference": "https://stuff.rop.io/"
+  },
+  {
+   "rule_name": "MD5_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for MD5 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "RIPEMD160_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for RIPEMD-160 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "SHA1_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for SHA1 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "SHA512_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for SHA384/SHA512 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  },
+  {
+   "rule_name": "without_attachments",
+   "author": "Antonio Sanchez <asanchez@hispasec.com>",
+   "description": "Rule to detect the no presence of any attachment",
+   "reference": "http://laboratorio.blogs.hispasec.com/"
+  },
+  {
+   "rule_name": "with_urls",
+   "author": "Antonio Sanchez <asanchez@hispasec.com>",
+   "description": "Rule to detect the presence of an or several urls",
+   "reference": "http://laboratorio.blogs.hispasec.com/"
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e3dedeedfa33296dcc07590df9a3735e92c5dd23e4940a6b1caaa44460eaca76/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/e3dedeedfa33296dcc07590df9a3735e92c5dd23e4940a6b1caaa44460eaca76",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260205-vdg5hsew7c/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-02-05 16:52:43",
+   "scanner_count": "24",
+   "scanner_match": "2",
+   "scanner_percent": "8.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6984ca85930564ff3c8d555d/reports/c573aae8-2de5-4c7b-95bb-270fb955414e/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-02-06T14:24:00Z",
+   "last_seen": "2026-02-06T14:41:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/e3dedeedfa33296dcc07590df9a3735e92c5dd23e4940a6b1caaa44460eaca76/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

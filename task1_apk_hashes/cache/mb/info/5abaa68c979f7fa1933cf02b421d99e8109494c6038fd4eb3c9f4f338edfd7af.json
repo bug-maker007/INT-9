@@ -1,0 +1,133 @@
+{
+ "sha256_hash": "5abaa68c979f7fa1933cf02b421d99e8109494c6038fd4eb3c9f4f338edfd7af",
+ "sha3_384_hash": "9880539577367f57d7fafff635bc5f07e81e680a004399cbd2d1a4b497690adbf39a8134a779c23e8b06d1b03d175b8b",
+ "sha1_hash": "53d2f64896aa90901a097eba623d3855fa3f7896",
+ "md5_hash": "29ab2e7708d6377ae2396ac0c6a08e59",
+ "first_seen": "2021-12-07 21:36:07",
+ "last_seen": null,
+ "file_name": "Android_Guncelleme.apk",
+ "file_size": 2173204,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Anubis",
+ "imphash": null,
+ "tlsh": "T1B1A5334893011525C2B6DC7B242525C17BAD6DC0C7607ABEB9AF3E854BBF0D04FA69F2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:Pr8atmpzTHEPkdKUMB5dNZhWbJb4SwF9w/elxu98GMsDvE5jX:D8r5THEPUa75Q4SywWY98RuEl",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Anubis",
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.11325.31074.7084.UNOFFICIAL"
+  ],
+  "downloads": "513",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1864108/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5abaa68c979f7fa1933cf02b421d99e8109494c6038fd4eb3c9f4f338edfd7af/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/5abaa68c979f7fa1933cf02b421d99e8109494c6038fd4eb3c9f4f338edfd7af",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/211207-1ggk2sgag7/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation).",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://62.171.165.146"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2021-12-07 21:37:20",
+   "scanner_count": "28",
+   "scanner_match": "13",
+   "scanner_percent": "46.43"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "0.8",
+   "report_link": "https://www.filescan.io/uploads/61afd3ff47ed217c0135002d/reports/4beb741f-c8c8-4ec8-9bf7-4c9b8fe577e0/overview"
+  }
+ },
+ "comments": null
+}

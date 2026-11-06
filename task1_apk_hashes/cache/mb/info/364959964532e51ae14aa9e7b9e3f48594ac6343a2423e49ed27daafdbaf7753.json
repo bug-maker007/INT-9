@@ -1,0 +1,137 @@
+{
+ "sha256_hash": "364959964532e51ae14aa9e7b9e3f48594ac6343a2423e49ed27daafdbaf7753",
+ "sha3_384_hash": "c04a80a23b8d48306947174335653ff27f0e192d885d24e60dac79f1a0d2814ba8bb33024401e5a576b5af1ee8827177",
+ "sha1_hash": "2f184c375be27c9869a77ee1be8aead33595458a",
+ "md5_hash": "091da55881fd4112782d1aecc43cb0b6",
+ "first_seen": "2026-02-23 12:33:44",
+ "last_seen": null,
+ "file_name": "Storage Space Cleaner_1.01.apk",
+ "file_size": 9481552,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "FR",
+ "anonymous": 1,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T18AA62286F31D902FC47B143249BA6231429B8D038EC79F97BA55720C29BB5885F5EFC9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:gdg6SC7vj75PqSbtkDEqAEdnh7D08GQYG4aLAmEIAeFfWWgMye7xqQxdmkvk:krSCbf9qWpnEdnh7ggAtjd4zvk",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "35.7% (.APK) Android Package (27000/1/5)",
+  "17.8% (.JAR) Java Archive (13500/1/2)",
+  "16.5% (.VYM) VYM Mind Map (12500/1/3)",
+  "13.9% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "10.5% (.XPI) Mozilla Firefox browser extension (8000/1/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Joker",
+  "Malware",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2026-02-12T08:52:49Z",
+   "valid_to": "2056-02-12T08:52:49Z",
+   "serial_number": "f69de4f3afec2ea32ab308ff8e7876be93d95fa6",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "8dfe424e4b5863521cde2bd95acef1ff4189d1cc5880d0ffb3d280a140f3173f",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "204",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://play.google.com/store/apps/details?id=com.kulmakers.cleaner"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/364959964532e51ae14aa9e7b9e3f48594ac6343a2423e49ed27daafdbaf7753/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/364959964532e51ae14aa9e7b9e3f48594ac6343a2423e49ed27daafdbaf7753",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260223-prwbeabw4a/",
+   "tags": [
+    "android",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-02-23 12:34:49",
+   "scanner_count": "38",
+   "scanner_match": "3",
+   "scanner_percent": "7.89"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/699c4945cd25bfe1dfd7effe/reports/d374be43-a464-49c9-9e65-659909aad16b/overview"
+  },
+  "Kaspersky": {
+   "verdict": "NotCategorized",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/364959964532e51ae14aa9e7b9e3f48594ac6343a2423e49ed27daafdbaf7753/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

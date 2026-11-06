@@ -1,0 +1,103 @@
+{
+ "sha256_hash": "2124777f710199d4051c9d67185dc4dbb55252d65b57642222eee444c5c06d88",
+ "sha3_384_hash": "9d921785553a541369b6bedabc77f76ba8794058df4061a83bab18138821787923719586a08d127c4446a2ec68ebcf7e",
+ "sha1_hash": "a11e10f3d43eeacbfe3bb87649bf708e79d2eefa",
+ "md5_hash": "6c779ef382428fb5d6fca1919552fc42",
+ "first_seen": "2021-11-09 23:05:10",
+ "last_seen": null,
+ "file_name": "2124777F710199D4051C9D67185DC4DBB55252D65B57642222EEE444C5C06D88.apk",
+ "file_size": 5511659,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BushidoToken",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Sova",
+ "imphash": null,
+ "tlsh": "T12C463328F9AED01DD507E435F091E49B8408508A0F19F90B5E76922D8EFAED44B87FDE",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:0fFiSR9xfprOCPWTbLR6c9OwVgekn8MahYQKtAG06PtyxrFL1:0fFi6OckvRSO1PhYQWAGryNFL1",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "COVID-19",
+  "NHS",
+  "SOVA"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "316",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/BushidoToken/status/1458207475790921736"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2124777f710199d4051c9d67185dc4dbb55252d65b57642222eee444c5c06d88/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/2124777f710199d4051c9d67185dc4dbb55252d65b57642222eee444c5c06d88",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/211109-23d8gsdacn/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-10-28 08:00:00",
+   "scanner_count": "28",
+   "scanner_match": "7",
+   "scanner_percent": "25.00"
+  },
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/618afedda00afa9663a25bdd/reports/e259c053-8c27-4865-9e3e-e1c89f540404/overview"
+  }
+ },
+ "comments": null
+}

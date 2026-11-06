@@ -1,0 +1,158 @@
+{
+ "sha256_hash": "a778818cc08d213d1f66db5fa8b34aabc862569ecb99fd1aea37ff6ccab48400",
+ "sha3_384_hash": "2a097dec92a81608a9a6b78206daccdf7f1d5201cf91c13987cd15e780d6bab80a8cca26e3aebbd33a2d4966e0adb7d7",
+ "sha1_hash": "c52f12651d91a9bf0d625a879b34d194eba69ed4",
+ "md5_hash": "15328ea6d31bef8ddd15a81e0f5a549b",
+ "first_seen": "2023-06-12 07:24:06",
+ "last_seen": null,
+ "file_name": "base.apk",
+ "file_size": 3412925,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ssmmalware",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "FluBot",
+ "imphash": null,
+ "tlsh": "T1F8F52226FEAFE10AF503D135D1688997BC0400498A08FA7B2B36914C5EFAC65A747FDD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:qLzu436uB6iejEyNRe1kqqGI18iNwDelhcTUr4T1S0NwBbGJ3H5+ELr42SKn2IQI:qHuKB6BzReWqqGWNN8g4ETBaJ7n2Izl",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "com.sina.weibo",
+  "FluBot",
+  "signed",
+  "voicemail"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.9305.19302.3627.UNOFFICIAL"
+  ],
+  "downloads": "460",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "ApkProtector3",
+   "author": "R3R0K",
+   "description": "Android.ApkProtector",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a778818cc08d213d1f66db5fa8b34aabc862569ecb99fd1aea37ff6ccab48400/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/a778818cc08d213d1f66db5fa8b34aabc862569ecb99fd1aea37ff6ccab48400",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "flubot",
+   "score": "10",
+   "link": "https://tria.ge/reports/230612-h8ypjabe91/",
+   "tags": [
+    "family:flubot",
+    "android",
+    "banker",
+    "discovery",
+    "evasion",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "FluBot",
+     "score": "10"
+    },
+    {
+     "signature": "FluBot payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "7"
+    },
+    {
+     "signature": "Creates a large amount of network flows",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.BankBot",
+   "status": "MALICIOUS",
+   "first_seen": "2021-07-30 10:13:51",
+   "scanner_count": "37",
+   "scanner_match": "10",
+   "scanner_percent": "27.03"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6486c84fc6414862d20681df/reports/1f0280b3-b20a-4389-9ef4-b0c955a19aeb/overview"
+  }
+ },
+ "comments": null
+}

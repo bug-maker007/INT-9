@@ -1,0 +1,124 @@
+{
+ "sha256_hash": "57726a55e900f8e0237dfb3d6d3b5cb54acb5f88d19a30be3207f4f4575c4964",
+ "sha3_384_hash": "87d0f4fb5d3135e561618c402e499b5a2827050392a3024cce32eaf99706df15a7a8a751fa43b0f8610eec8d0a0b7e4b",
+ "sha1_hash": "5f504f1090edd7d357ba92fd9d9615524b8345a5",
+ "md5_hash": "9d63e17ee66d55ff20f8467717e4fc91",
+ "first_seen": "2026-07-27 13:38:50",
+ "last_seen": null,
+ "file_name": "57726a55e900f8e0237dfb3d6d3b5cb54acb5f88d19a30be3207f4f4575c4964.apk",
+ "file_size": 5017827,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "BR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1E0363313D242F54BF0F2C33A2D73A36B60BA6050C72AD723A4B4672C95B7AC56B5D9C1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:6R/k3FhzZXUdzCdWaxICwjdylKnbof+0eGQ/0/d60uc:ZhzZXURCEaxIXylSbom0ACuc",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "229",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_all_IPv6_variants",
+   "author": "Bierchermuesli",
+   "description": "Generic IPv6 catcher",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/57726a55e900f8e0237dfb3d6d3b5cb54acb5f88d19a30be3207f4f4575c4964/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260727-qx8pcstdmg/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-07-25 08:54:02",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a675f95c2101c77e3a6fce0/reports/967c73c4-5975-432b-852b-a73426d20bad/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-24T19:05:00Z",
+   "last_seen": "2026-07-29T11:10:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/57726a55e900f8e0237dfb3d6d3b5cb54acb5f88d19a30be3207f4f4575c4964/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

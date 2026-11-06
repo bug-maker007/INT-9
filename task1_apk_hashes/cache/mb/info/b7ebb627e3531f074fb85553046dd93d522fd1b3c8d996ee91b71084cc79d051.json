@@ -1,0 +1,108 @@
+{
+ "sha256_hash": "b7ebb627e3531f074fb85553046dd93d522fd1b3c8d996ee91b71084cc79d051",
+ "sha3_384_hash": "c0f862fc71a09b660507c46b1687dd9c1f367cbe46baacb245d949b87bba51c4d68361e7706424219410e5b1a189d9f3",
+ "sha1_hash": "5ecd304b0b1cb25545e5b63fe91fca03c925addc",
+ "md5_hash": "92fc023607a8f96149387d98356fccfb",
+ "first_seen": "2026-10-05 13:07:49",
+ "last_seen": null,
+ "file_name": "base.apk",
+ "file_size": 2193833,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "z3r3n0x",
+ "origin_country": "BR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1ACA57C9BFBC48969C8F383B14839536569079C348B5396879D14367C68BBAD03F89ECC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:56rVzgdFQpgnZWt+fak2hBlGUl+K2NVZHoe32Xy2/Psu8yR2ge9h25JuHBql2PcS:ldFQpgQtPHhzBUZmXBEqR2ge97c0Kf+",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "87.0% (.APK) Android Package (27000/1/5)",
+  "12.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "249",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Android_ElectricityBill_Miner_APK",
+   "author": "ShriyaTiger",
+   "description": "Detects Electricity Bill themed Android malware and Miner.apk payload",
+   "reference": null
+  },
+  {
+   "rule_name": "ANDROID_Sample_Unique_5be608a5",
+   "author": "Marjoriefort",
+   "description": "Specimen unique (soumission Bazaar) - strings distinctifs propres au sample",
+   "reference": "5be608a563a02c94dbf3b1812b3aa0685a6f8228b5dc74c773cc3c912adef7ba.apk"
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b7ebb627e3531f074fb85553046dd93d522fd1b3c8d996ee91b71084cc79d051/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/261005-qdam8axvet/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-10-05 13:08:17",
+   "scanner_count": "38",
+   "scanner_match": "4",
+   "scanner_percent": "10.53"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6ac3a13f31f292eab9b51710/reports/011d19a5-a263-4dfb-a769-794f64310c0a/overview"
+  },
+  "Kaspersky": {
+   "verdict": "NotCategorized",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/b7ebb627e3531f074fb85553046dd93d522fd1b3c8d996ee91b71084cc79d051/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

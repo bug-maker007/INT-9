@@ -1,0 +1,131 @@
+{
+ "sha256_hash": "7a16952bea9714cad6330960898edf6262c0e5e19d0b47716e31b6cc24463e07",
+ "sha3_384_hash": "e2519987c8df64795270956381b584d06f823c1b61d2ec759a50e9cc9776c99465a829e832b338e2ff060478b0082456",
+ "sha1_hash": "6a1aa5db36df20a667a0e58d89a4fcdcddf068f4",
+ "md5_hash": "291c24d9b3f4a5793a2600610671eb42",
+ "first_seen": "2023-07-31 10:07:31",
+ "last_seen": null,
+ "file_name": "certapp-1.apk",
+ "file_size": 4122540,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "_icebre4ker_",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T14E16BE47FB926C81F5F6867AA920F365E7268C39C32352D35884712C2D7F2E14BAB4D1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:W12xH02TTyN1BYJoQDRLS4YiugstQYvvcZYF7xQTqiecs8uzvtelYxp8cmO87bYv:W41TNo+hrYiugEp3cZGi2JIYpgqv",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "52.8% (.APK) Android Package (32500/1/6)",
+  "21.9% (.JAR) Java Archive (13500/1/2)",
+  "17.0% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "6.5% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.6% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "signed",
+  "spynote",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SpyMax.193.15194.12605.UNOFFICIAL"
+  ],
+  "downloads": "519",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7a16952bea9714cad6330960898edf6262c0e5e19d0b47716e31b6cc24463e07/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.09"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/7a16952bea9714cad6330960898edf6262c0e5e19d0b47716e31b6cc24463e07",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/230731-l58bcafc71/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2023-07-31 10:08:07",
+   "scanner_count": "38",
+   "scanner_match": "13",
+   "scanner_percent": "34.21"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/64c78804299c27f4c4f28b3c/reports/f81458c0-477a-4861-9d53-6887e541e2f6/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,106 @@
+{
+ "sha256_hash": "4a6509d3e24da811dbb106243bc3654e5edf7d2c1232febcc07739d513927b2d",
+ "sha3_384_hash": "b289d20fdee8f0a751b9109b62228971275addade77c9fc607db3412924f90968ccb986414620af50a228ca5963eb13b",
+ "sha1_hash": "8e7df51c99929c8a3d0cece6d1ee081ae24a69f1",
+ "md5_hash": "f2b673c2abb56cb6e27164458ebd550b",
+ "first_seen": "2022-01-04 12:19:47",
+ "last_seen": null,
+ "file_name": "Hadise_Ifsa_build_obf.apk",
+ "file_size": 1983477,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1A89533E3AF52D899D1D2383900BB2A6289918A479754BED77C6E010DFF27D89CE10CF5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:VHAk1a7mgqyi4uc+7IuL3ujzR6CJVCUQek:VHAkA7LqyHulku6lVCU9k",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.11325.2946.17031.UNOFFICIAL"
+  ],
+  "downloads": "416",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1948675/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/4a6509d3e24da811dbb106243bc3654e5edf7d2c1232febcc07739d513927b2d/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/4a6509d3e24da811dbb106243bc3654e5edf7d2c1232febcc07739d513927b2d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220104-phrxmagba2/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2022-01-04 13:10:30",
+   "scanner_count": "27",
+   "scanner_match": "12",
+   "scanner_percent": "44.44"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "0.8",
+   "report_link": "https://www.filescan.io/uploads/61d43b73bfe53d318f25b45d/reports/7e27ec0b-26b8-4437-8036-c37abee44014/overview"
+  }
+ },
+ "comments": null
+}

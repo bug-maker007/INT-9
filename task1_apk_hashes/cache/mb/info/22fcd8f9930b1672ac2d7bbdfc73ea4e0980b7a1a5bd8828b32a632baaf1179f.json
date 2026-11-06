@@ -1,0 +1,133 @@
+{
+ "sha256_hash": "22fcd8f9930b1672ac2d7bbdfc73ea4e0980b7a1a5bd8828b32a632baaf1179f",
+ "sha3_384_hash": "a23f1ea50d7e467add32d7a5c36c10c7da30ddf4419441298932865db5c6aaa9d3893daea53a8a44fef3cfe8eb1d6691",
+ "sha1_hash": "12d71b02b5ad6b3764239704a0ec3895b45f7257",
+ "md5_hash": "0d1fafd3a8b9c4afeb929f9786803335",
+ "first_seen": "2024-12-06 10:48:15",
+ "last_seen": null,
+ "file_name": "mellat.apk",
+ "file_size": 21959745,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T14927334BAE6075EDEC7701BA491E41F4E701BA349953427B25A93E3CE07BBAC930C9D4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:Hj6qWY1xnKWbnhtFHGIWi8eTT2f0wA81LVwOQrGBvJt9uvqnJUn+3QrLgfLrF2:W1ynHbnhtFHGy8aA91VxJt9Dn3QrGv4",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "BankMellat",
+  "geo",
+  "GossRAT",
+  "IRATA",
+  "IRN",
+  "signed",
+  "spy"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.FileRepMalware.12477.23103.UNOFFICIAL"
+  ],
+  "downloads": "308",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3333363/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/22fcd8f9930b1672ac2d7bbdfc73ea4e0980b7a1a5bd8828b32a632baaf1179f",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/241206-mwnq1szkcr/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-12-03 02:45:46",
+   "scanner_count": "23",
+   "scanner_match": "8",
+   "scanner_percent": "34.78"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6752d6a2f158f0b6a3b2aff7/reports/a6aec07f-d084-4f37-a0a7-d8e3d3cfeaf5/overview"
+  }
+ },
+ "comments": null
+}

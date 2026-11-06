@@ -1,0 +1,107 @@
+{
+ "sha256_hash": "dc76173468cf2f61c8ef0b52cbd1d07adb827b970086eaf2d632ba928a04bd39",
+ "sha3_384_hash": "a5ba5001a1249af83f64a12efe9134d273ac8a970ac6a9f5342642958efc158bdd9d2724d60579e90892560d7dd715a7",
+ "sha1_hash": "c4ccfce5adb8a694fa9777843dcd8cffc87bcc8e",
+ "md5_hash": "5f369613d02f7b724771fd5c96f66895",
+ "first_seen": "2021-10-09 11:37:08",
+ "last_seen": null,
+ "file_name": "Android_Guncelleme.apk",
+ "file_size": 3382805,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T1DAF533DFF7A418B9D0165C301DF6C1B479F502A6895A962A322C05A6CB17EEC330BFE5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:T8N2zrKYXwEAPqiUc9PMz943LkIH9h8vS:TUnYXTASyPQe7DIa",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "315",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/dc76173468cf2f61c8ef0b52cbd1d07adb827b970086eaf2d632ba928a04bd39/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/dc76173468cf2f61c8ef0b52cbd1d07adb827b970086eaf2d632ba928a04bd39",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/211009-nrp9qafcbp/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://ad-domain.ml"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2021-10-09 11:38:06",
+   "scanner_count": "45",
+   "scanner_match": "8",
+   "scanner_percent": "17.78"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61617f1cbed58a3c109f4deb/reports/9ae76c08-fc89-4cbc-973a-d1dd4f3c373f/overview"
+  }
+ },
+ "comments": null
+}

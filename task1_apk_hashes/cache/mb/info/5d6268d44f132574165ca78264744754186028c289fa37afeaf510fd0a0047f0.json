@@ -1,0 +1,125 @@
+{
+ "sha256_hash": "5d6268d44f132574165ca78264744754186028c289fa37afeaf510fd0a0047f0",
+ "sha3_384_hash": "7843514f189d437a32be568730eee41ea22dde13bd76d3da15959a9c1dfbbb00e7e7a622b8314d8ab063bdb80f4a04fd",
+ "sha1_hash": "d9e3d4a4f84ebb8c544e37ad470ccbf51f358007",
+ "md5_hash": "cc75c64449276f37f147f7c8f5589e2c",
+ "first_seen": "2022-03-29 09:53:07",
+ "last_seen": null,
+ "file_name": "coba.apk",
+ "file_size": 4126471,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T1311633D6F3D0C966F972ACB01499F1AF83390ED41A95E2533B21F999447BC8833724B9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:+B7U8HoB4K3pPZG05dPXvsG9u3QS5OqsTMHGzC6jev1TvJ/C:bvxPZG05dfkv3QsOqsTYGzBjwLJa",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra",
+  "signed",
+  "tor-hydra"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SMS-10.UNOFFICIAL"
+  ],
+  "downloads": "343",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5d6268d44f132574165ca78264744754186028c289fa37afeaf510fd0a0047f0/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/5d6268d44f132574165ca78264744754186028c289fa37afeaf510fd0a0047f0",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/220329-lw7nfsdae7/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Hydra Payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Legitimate hosting services abused for malware hosting/C2",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Bian",
+   "status": "MALICIOUS",
+   "first_seen": "2022-03-29 09:54:23",
+   "scanner_count": "26",
+   "scanner_match": "13",
+   "scanner_percent": "50.00"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6242d73d9253b276b79a4d93/reports/0d97921a-db3e-4c41-a5c7-43162b88b9dc/overview"
+  }
+ },
+ "comments": null
+}

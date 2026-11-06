@@ -1,0 +1,120 @@
+{
+ "sha256_hash": "effee0474582c2da48ee22bccdde87acba0599416321e261d039ad016b167fc4",
+ "sha3_384_hash": "42221ddd210b53a95182d078d819f09d03bc80207e728697dfdcc200c0ac4670e4391b8d40a090098bb83e97b7f92082",
+ "sha1_hash": "6e36e1caa0444263c95cca9225a439b8e3f63f17",
+ "md5_hash": "021b6cadd5a2a4a85af458f3280ac9be",
+ "first_seen": "2026-07-25 11:41:37",
+ "last_seen": null,
+ "file_name": "effee0474582c2da48ee22bccdde87acba0599416321e261d039ad016b167fc4.apk",
+ "file_size": 7314469,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1D676E016FB45C966DC7B403540E6832A2703EE2BCA468B87158C739E7C774E46ECE6C9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:tJteTdU3kAtkUC4SPfd7ApzkSXOEJm7DcmLAB9jnYU82WQjKP7qFvVffH+oGE:DYhU3NM4SHdGzkJEsvc3lYU82Yel",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "40.0% (.APK) Android Package (27000/1/5)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "18.5% (.VYM) VYM Mind Map (12500/1/3)",
+  "15.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "103-106-66-147",
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2024-08-12T00:52:40Z",
+   "valid_to": "2051-12-29T00:52:40Z",
+   "serial_number": "0dca795a",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "44c3bb8c7ea35b3bb11cbfa3c2f5879240df2e49e39816b4437b9856fbb29541",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "186",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/effee0474582c2da48ee22bccdde87acba0599416321e261d039ad016b167fc4/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.36"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260725-ntv8rahp6x/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-07-16 03:21:26",
+   "scanner_count": "38",
+   "scanner_match": "6",
+   "scanner_percent": "15.79"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/6a64a0fd0e035c544a88b6e5/reports//overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-15T22:54:00Z",
+   "last_seen": "2026-07-25T11:40:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/effee0474582c2da48ee22bccdde87acba0599416321e261d039ad016b167fc4/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

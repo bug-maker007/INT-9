@@ -1,0 +1,176 @@
+{
+ "sha256_hash": "b9a4e10d422e5a905be92970218968fa612338d1de4d7dbd22594805720defb2",
+ "sha3_384_hash": "59acf6f9523709920499976470fea323fccb1241a93d2db34518bad73ce004c5ecad07600266f7fcdae3b8fee40bc0e2",
+ "sha1_hash": "090f26c495e3218ed165813423bc2ae45e8054a1",
+ "md5_hash": "12d8ff369c763f1915f1e538087aa40a",
+ "first_seen": "2025-10-08 11:07:29",
+ "last_seen": null,
+ "file_name": "flappy.apk",
+ "file_size": 927809,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "Metasploit",
+ "imphash": null,
+ "tlsh": "T1F415F192F3E575ABC8B1C33572B26736757A8E688797B5991300B3BC68F35C84B906C0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:JE2gAinhcuJRkLrn09PPH7CJamHvZLVW1ccVsN:j8nqMOr23H7CJfJcVsN",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Backdoor",
+  "Flappy Bird",
+  "Metasploit",
+  "RAT",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Dong Nguyen",
+   "issuer_cn": "Dong Nguyen",
+   "algorithm": "sha384WithRSAEncryption",
+   "valid_from": "2014-01-22T00:13:49Z",
+   "valid_to": "3013-05-25T00:13:49Z",
+   "serial_number": "104acc0abd57e6ba",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1c336be6741ccef6b1af53f25a55b781364b60bf9ad683bffd12ee3bfaa60f8e",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "304",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "elf_arm_mips_ko_so",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b9a4e10d422e5a905be92970218968fa612338d1de4d7dbd22594805720defb2/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.64"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/b9a4e10d422e5a905be92970218968fa612338d1de4d7dbd22594805720defb2",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "metasploit",
+   "score": "10",
+   "link": "https://tria.ge/reports/251008-m8a1pavwaz/",
+   "tags": [
+    "family:metasploit",
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Hacktool.MetaSploit",
+   "status": "MALICIOUS",
+   "first_seen": "2025-10-08 11:08:06",
+   "scanner_count": "23",
+   "scanner_match": "10",
+   "scanner_percent": "43.48"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68e645ffc74bd2958b16b9a5/reports/1f80ab44-2c05-40c0-8bf6-1c57126fdce8/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Adware",
+   "file_type": "apk",
+   "first_seen": "2025-10-08T09:37:00Z",
+   "last_seen": "2025-10-08T16:29:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/b9a4e10d422e5a905be92970218968fa612338d1de4d7dbd22594805720defb2/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,116 @@
+{
+ "sha256_hash": "63898fa3645e69a333f8ea158d0c4e7bb20a4265f0d4597f50ee2ffffc9df820",
+ "sha3_384_hash": "8a1fc033ecff32919d96cf1c46b4b67033c32577c28b2a6d359e6d3e02e0d1484dddee0b675f30b6fa95a6b6e537b886",
+ "sha1_hash": "d7888df63014c0828ab8fc9bef4702990940a7aa",
+ "md5_hash": "eb9e804816df12760731d1a72089a1d9",
+ "first_seen": "2026-07-29 20:56:51",
+ "last_seen": null,
+ "file_name": "SexySwipe.apk",
+ "file_size": 899746,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1E815126BB308B8EBD6FF553FCDA398E802775E34C44B658B4850B6A401B33E6D709985",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:Dak8Dsilas9ZgaEjJGeAKXV93EqzOMMBIIIYee8MMBIIIYeeT:uke6sLgaEjjl93ES3",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "65.0% (.APK) Android Package (27000/1/5)",
+  "25.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Banker",
+  "Dropper",
+  "Malware",
+  "SpyAgent",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.Mamont.259.origin.14812.10150.UNOFFICIAL",
+   "SecuriteInfo.com.Android.Banker.Mamont.259.origin.29942.11710.UNOFFICIAL"
+  ],
+  "downloads": "391",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "elf_arm_mips_ko_so",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/63898fa3645e69a333f8ea158d0c4e7bb20a4265f0d4597f50ee2ffffc9df820/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260729-zrv1ravzcv/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-07-29 20:58:33",
+   "scanner_count": "38",
+   "scanner_match": "5",
+   "scanner_percent": "13.16"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a6a693f6e5ac909e25afcc7/reports/c6e3ad23-f841-4793-ab08-668343908d3e/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-29T18:53:00Z",
+   "last_seen": "2026-07-31T00:42:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/63898fa3645e69a333f8ea158d0c4e7bb20a4265f0d4597f50ee2ffffc9df820/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

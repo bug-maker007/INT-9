@@ -1,0 +1,121 @@
+{
+ "sha256_hash": "db329505e2425bc20c329e58698f70408d5221f3816326fdc5ad0feb336310d8",
+ "sha3_384_hash": "f3825ad126fc37bac04f52c1b1559bcdd01a23d820b4600774b71f35b42461a5d5e21a52af5b93a8527a070ff8507cea",
+ "sha1_hash": "75d433e3a4d95a946eee1e6a9c6d1bf033aad5a3",
+ "md5_hash": "0204df0b02c9fbf18751c829c0a0990a",
+ "first_seen": "2021-01-12 21:42:43",
+ "last_seen": null,
+ "file_name": "tmp869ae3yn",
+ "file_size": 2071137,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "U039b",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "66A5334A9995FDA0C023F6338623F91576648DD727CDFFBB021718A09F26A105EE4E27",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:tLEuvMraFN9peB7dbtYoAWHS3Bzch5sH2ycabe:tLCqjp8dyAy3BQh5sH2fX",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "Sanesecurity.Foxhole.JS_Zip_18.UNOFFICIAL",
+   "Sanesecurity.Foxhole.JS_Zip_23.UNOFFICIAL"
+  ],
+  "downloads": "277",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://beta.pithus.org/report/db329505e2425bc20c329e58698f70408d5221f3816326fdc5ad0feb336310d8"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/db329505e2425bc20c329e58698f70408d5221f3816326fdc5ad0feb336310d8/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Banker",
+   "score": "0.90"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": null,
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210113-wvr8cyj8wj/",
+   "tags": [
+    "android",
+    "banker",
+    "obfuscation",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads name of network operator",
+     "score": "6"
+    },
+    {
+     "signature": "Suspicious use of android.app.ActivityManager.getRunningServices",
+     "score": "3"
+    },
+    {
+     "signature": "Suspicious use of android.telephony.TelephonyManager.getLine1Number",
+     "score": "3"
+    },
+    {
+     "signature": "Suspicious use of android.telephony.TelephonyManager.getNetworkCountryIso",
+     "score": "3"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-01-08 09:41:26",
+   "scanner_count": "46",
+   "scanner_match": "4",
+   "scanner_percent": "8.70"
+  }
+ },
+ "comments": null
+}

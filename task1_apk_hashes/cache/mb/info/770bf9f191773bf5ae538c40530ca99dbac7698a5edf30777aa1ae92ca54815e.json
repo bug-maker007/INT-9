@@ -1,0 +1,122 @@
+{
+ "sha256_hash": "770bf9f191773bf5ae538c40530ca99dbac7698a5edf30777aa1ae92ca54815e",
+ "sha3_384_hash": "d301042ddc0ca702c8db0747a59a4aa7d4982f8d26dcf2328cc31235e8b202715681396e419bbc01829c025fce83e7b8",
+ "sha1_hash": "b3390d02c724385e4bbf3aa43c8e9e0f2d62cd33",
+ "md5_hash": "ff11c43c7a487c5db4db49e13beca530",
+ "first_seen": "2025-11-03 07:19:42",
+ "last_seen": null,
+ "file_name": "sighe.apk",
+ "file_size": 3164167,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "juroots",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T123E50183E355A83FC5F787364AB60B2A45474C5A8B87C7934965B33C3CBBAC45E81E84",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:9BFbJeAd2kBILZ+Mt6dl1RTWN1trs1BAay0/kMc:BbEOILZ+uW1ZWNDr8ArMc",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "65.0% (.APK) Android Package (27000/1/5)",
+  "25.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "IRATA"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SmsSpy.10966.29600.6535.UNOFFICIAL"
+  ],
+  "downloads": "191",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3694775/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/770bf9f191773bf5ae538c40530ca99dbac7698a5edf30777aa1ae92ca54815e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/251103-h6z5kszjgm/",
+   "tags": [
+    "family:irata",
+    "android",
+    "impact"
+   ],
+   "signatures": [
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "irata",
+     "c2": "https://kerasno.com/coming-soon-page/"
+    },
+    {
+     "extraction": "c2",
+     "family": "irata",
+     "c2": "https://spolop.xyz/K/index.php/index.php?phone="
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.PUA.Maltiverza",
+   "status": "MALICIOUS",
+   "first_seen": "2025-11-02 05:15:22",
+   "scanner_count": "24",
+   "scanner_match": "11",
+   "scanner_percent": "45.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69085836a3d16310952a2010/reports/29400539-3996-4383-9d33-5b87a7315cb0/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-11-02T00:21:00Z",
+   "last_seen": "2025-11-03T10:18:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/770bf9f191773bf5ae538c40530ca99dbac7698a5edf30777aa1ae92ca54815e/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

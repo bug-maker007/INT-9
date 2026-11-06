@@ -1,0 +1,97 @@
+{
+ "sha256_hash": "20e8688726e843e9119b33be88ef642cb646f1163dce4109b8b8a2c792b5f9fc",
+ "sha3_384_hash": "87db5671db88df5c2168970f6d10dc66fe0a238fe3f686de6a359f432edb5532bbbd1d86f0f85601e1be87d97eb230e1",
+ "sha1_hash": "6683969c617c5d72dcd1cf32500ed34ecb427ecc",
+ "md5_hash": "acaed4c74eb9f0c85c603d4077a95697",
+ "first_seen": "2022-04-07 15:34:48",
+ "last_seen": "2022-11-24 08:00:57",
+ "file_name": "com.abbondioendrizzi.tools.supercleaner-9-apkplz.net.apk",
+ "file_size": 14149370,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "pedrox811",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "SharkBot",
+ "imphash": null,
+ "tlsh": "T172E6228BFB98C51FD9731632C917453372A31E0824929BBA2315F32819B7D425F57BCA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:lYbH5macX7X52NWdXJq2TNhTfwa5pMrfum7j:lYbZqgY56eqj",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "SharkBot"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.DownLoader.1069.origin.14903.7712.UNOFFICIAL"
+  ],
+  "downloads": "465",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/20e8688726e843e9119b33be88ef642cb646f1163dce4109b8b8a2c792b5f9fc/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/20e8688726e843e9119b33be88ef642cb646f1163dce4109b8b8a2c792b5f9fc",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/220407-s1cgfafagk/",
+   "tags": [
+    "android",
+    "banker",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Sharkbot",
+   "status": "MALICIOUS",
+   "first_seen": "2022-03-04 14:20:03",
+   "scanner_count": "42",
+   "scanner_match": "14",
+   "scanner_percent": "33.33"
+  },
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/624f04abd53a7479dacfdd49/reports/e87896fe-352a-45d8-aa56-1707efb2dcae/overview"
+  }
+ },
+ "comments": null
+}

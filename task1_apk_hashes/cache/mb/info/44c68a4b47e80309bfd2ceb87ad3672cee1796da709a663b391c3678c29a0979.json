@@ -1,0 +1,161 @@
+{
+ "sha256_hash": "44c68a4b47e80309bfd2ceb87ad3672cee1796da709a663b391c3678c29a0979",
+ "sha3_384_hash": "427fcd36d3522b355b6b0cdb774bc475c1fc666e1179199edad6c5f13e79c1df7059c4c43d45313987f25ec186de339f",
+ "sha1_hash": "7804059c6e6c99ebc552141e24b6a699b0560e56",
+ "md5_hash": "418a28c3df4d78980ed08b7d96b82fff",
+ "first_seen": "2026-05-08 10:02:57",
+ "last_seen": null,
+ "file_name": "Botim(1).apk",
+ "file_size": 55517390,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T132C73346E34BE839F9E792321F3D26191546CED5C32766876C6032AC24BBBD04A91FCD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:OCz3azIFhyFnsquLjGBCLz9nDTWQAnXw30iA:OCzhOs7ukLBn6Xm0iA",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "malware",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "313",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Warp",
+   "author": "Seth Hardy",
+   "description": "Warp",
+   "reference": null
+  },
+  {
+   "rule_name": "WarpStrings",
+   "author": "Seth Hardy",
+   "description": "Warp Identifying Strings",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/44c68a4b47e80309bfd2ceb87ad3672cee1796da709a663b391c3678c29a0979",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260508-l8t8wsfx2z/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-03-17 09:04:53",
+   "scanner_count": "24",
+   "scanner_match": "3",
+   "scanner_percent": "12.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fdb4f786e92bda7024461b/reports/9f408161-5eb8-4691-89bb-bd41fad99dc9/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-08T08:32:00Z",
+   "last_seen": "2026-05-08T08:43:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/44c68a4b47e80309bfd2ceb87ad3672cee1796da709a663b391c3678c29a0979/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

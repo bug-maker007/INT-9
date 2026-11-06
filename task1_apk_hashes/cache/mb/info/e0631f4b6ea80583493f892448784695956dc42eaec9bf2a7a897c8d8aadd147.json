@@ -1,0 +1,127 @@
+{
+ "sha256_hash": "e0631f4b6ea80583493f892448784695956dc42eaec9bf2a7a897c8d8aadd147",
+ "sha3_384_hash": "c50d761e81763e4e2049fde5b1096bb650980855b3722647638c57b08e90851f73171f207da9f5a0355e55aa83268fea",
+ "sha1_hash": "aed1fdc26009c830cb0397331c275da79fe7929b",
+ "md5_hash": "0bda4a00e39461a5037522df50c7f06c",
+ "first_seen": "2024-09-21 21:33:43",
+ "last_seen": null,
+ "file_name": "app-release (2).apk",
+ "file_size": 6267864,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "500mk500",
+ "origin_country": "UA",
+ "anonymous": 0,
+ "signature": "BankBot",
+ "imphash": null,
+ "tlsh": "T1315601C6F7E89D2FC87750B2CD6AA2B1125A4C1687839F476944335D38776E80F89BC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:LKL2iJzXTqWyOoxygN0ryUBKHFb4t1EtDl1o5hwXo/KrIgKd:s2i9ppoxTGbwHK7hKw",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "40.0% (.APK) Android Package (27000/1/5)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "18.5% (.VYM) VYM Mind Map (12500/1/3)",
+  "15.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "bankbot",
+  "fakeapp",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Himanshu Joshi",
+   "issuer_cn": "Himanshu Joshi",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2024-08-10T15:14:52Z",
+   "valid_to": "2049-08-04T15:14:52Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "5c2d6e0bcd026765493e04b4317059c648b5f2b92047d95b0e0d8a551928176a",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Siggen.Susp.15541.27197.28648.UNOFFICIAL"
+  ],
+  "downloads": "347",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_Malicious_VBScript_Base64",
+   "author": "daniyyell",
+   "description": "Detects malicious VBScript patterns, including Base64 decoding, file operations, and PowerShell.",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e0631f4b6ea80583493f892448784695956dc42eaec9bf2a7a897c8d8aadd147/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Fakeapp",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/e0631f4b6ea80583493f892448784695956dc42eaec9bf2a7a897c8d8aadd147",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/240921-1ercgavfqr/",
+   "tags": [
+    "android",
+    "evasion",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-08-14 07:13:38",
+   "scanner_count": "38",
+   "scanner_match": "8",
+   "scanner_percent": "21.05"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/66ef3bcd0883d6a903ed5f56/reports/b83c8184-7ea8-41a7-a495-288c881c698e/overview"
+  }
+ },
+ "comments": null
+}

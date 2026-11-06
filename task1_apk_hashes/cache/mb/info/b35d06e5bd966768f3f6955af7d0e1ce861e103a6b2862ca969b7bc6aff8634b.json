@@ -1,0 +1,108 @@
+{
+ "sha256_hash": "b35d06e5bd966768f3f6955af7d0e1ce861e103a6b2862ca969b7bc6aff8634b",
+ "sha3_384_hash": "739dc1c9ae84e4ff760a157740136d0bfee148e24717fa03bbd92097f9e5f355c52bd76d3af71d31e1b84c653b84c33b",
+ "sha1_hash": "45ef67c7cf676216b3588173a2ea00a770df9550",
+ "md5_hash": "fa54bdc24c3e37b7f322e02da4d388fc",
+ "first_seen": "2025-06-02 23:30:55",
+ "last_seen": "2025-07-26 21:13:00",
+ "file_name": "Azure Club.apk",
+ "file_size": 4685251,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T13026F143FB49CA87D9A983F26F370DA91A171F55C742ABE304513A6E2E771C10DC6A8C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:gJBWIS5dQif2gXncR7rOWVrmzKzBFTw0twdUzT:gvS5qifNpG6zyb8g",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "39.4% (.APK) Android Package (27000/1/5)",
+  "19.7% (.JAR) Java Archive (13500/1/2)",
+  "19.7% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "15.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Spynote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "zANB",
+   "issuer_cn": "zANB",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2023-11-30T17:10:14Z",
+   "valid_to": "3023-04-02T17:10:14Z",
+   "serial_number": "1601bf7d",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "17cc2fd9384fb84327b28fba435cda8cd1150b1f0246b3b0cd12ae49a8fee2a8",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "141",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/b35d06e5bd966768f3f6955af7d0e1ce861e103a6b2862ca969b7bc6aff8634b",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-06-02 21:07:00",
+   "scanner_count": "38",
+   "scanner_match": "11",
+   "scanner_percent": "28.95"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ]
+ },
+ "comments": null
+}

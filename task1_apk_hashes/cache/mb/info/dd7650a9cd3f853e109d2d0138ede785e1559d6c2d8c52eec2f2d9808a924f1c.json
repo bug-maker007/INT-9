@@ -1,0 +1,178 @@
+{
+ "sha256_hash": "dd7650a9cd3f853e109d2d0138ede785e1559d6c2d8c52eec2f2d9808a924f1c",
+ "sha3_384_hash": "cb5ae855bd29025b4e41d9dc95b445d4b412e4165dca00d2bbfa35d34a7449b7fce7e2899cb891151923c1d7a29027a6",
+ "sha1_hash": "e1c7b6dc1899efa2ec93aec573b365fba46c6111",
+ "md5_hash": "2ba99a983129a331df760784dfc1e8d9",
+ "first_seen": "2025-09-20 12:22:10",
+ "last_seen": null,
+ "file_name": "ready.apk",
+ "file_size": 684297,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T14AE42293F707C2A9ECAB6139895603C514336C264D62F7DB2993B72E95733E0B714E88",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:h/kK3kIzwYHq5o+Z5jN0luP2efhEgC6OboJlIusT3cgtN0FlmB6Rq21fgbN:hbeyiB0lZe46hLIHT3SFlmBGNIbN",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "https://wdfiles.ru/Omvi\r\n\r\nSpyNote C2: click-figured.gl.at.ply.gg:22938",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "RUS",
+  "signed",
+  "SpyNote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "google play",
+   "issuer_cn": "google play",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2021-07-16T23:26:53Z",
+   "valid_to": "4110-02-25T23:26:53Z",
+   "serial_number": "170ded5b",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "5e53c7c31452cbd63cc00d814ee75dd44010db01a5118c0a605487d15d63a1d2",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "243",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/250920-pfzvfshn7t/static1"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_AllMal_Detector",
+   "author": "DiegoAnalytics",
+   "description": "CrossPlatform All Malwares Detector: Detect PE, ELF, Mach-O, scripts, archives; overlay, obfuscation, encryption, spoofing, hiding, high entropy, network communication",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/dd7650a9cd3f853e109d2d0138ede785e1559d6c2d8c52eec2f2d9808a924f1c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/dd7650a9cd3f853e109d2d0138ede785e1559d6c2d8c52eec2f2d9808a924f1c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250920-pj4yksszgt/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "evasion",
+    "persistence",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "click-figured.gl.at.ply.gg:22938"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-09-20 12:23:23",
+   "scanner_count": "23",
+   "scanner_match": "9",
+   "scanner_percent": "39.13"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68ce9c84254431b688d6a397/reports/fc18fe8b-b93e-45cd-93cf-82ad46e028af/overview"
+  },
+  "Kaspersky": {
+   "verdict": "NotCategorized",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/dd7650a9cd3f853e109d2d0138ede785e1559d6c2d8c52eec2f2d9808a924f1c/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

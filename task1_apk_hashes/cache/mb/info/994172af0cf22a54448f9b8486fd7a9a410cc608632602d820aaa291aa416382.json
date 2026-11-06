@@ -1,0 +1,134 @@
+{
+ "sha256_hash": "994172af0cf22a54448f9b8486fd7a9a410cc608632602d820aaa291aa416382",
+ "sha3_384_hash": "9353f084478f804112bf922934397347cf840a8693d0d63c6bd646369f00109e297e6363257d26058d3f95b3a893be4d",
+ "sha1_hash": "c1c4c11d81a82fa99a0d4dc07a7df2593dac789d",
+ "md5_hash": "436933f5c5e871ecd3cf3bdfd9704bce",
+ "first_seen": "2025-07-22 14:16:58",
+ "last_seen": null,
+ "file_name": "jtexpress_rastreio.apk",
+ "file_size": 8101173,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T125860127FB069A5FC4BA83F55A7309782A235F09CB53979BD118727D2D332D04EC5A88",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:XtYrwzBYuTDae5NkwTZeKQcUS+JO1tiZNXN:9YkBxaGNkWTQHO1tirN",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "48.2% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "37.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "14.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "J&T Express",
+  "Malaysia",
+  "Malware",
+  "SpyNote"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "205",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Android_Admin_And_Accessibility",
+   "author": "Buga :3",
+   "description": "This detects apps which request access to both device admin and the Android accessibility suite.",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/994172af0cf22a54448f9b8486fd7a9a410cc608632602d820aaa291aa416382/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/994172af0cf22a54448f9b8486fd7a9a410cc608632602d820aaa291aa416382",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250722-rlxndswxct/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.PUA.Maltiverza",
+   "status": "MALICIOUS",
+   "first_seen": "2025-07-18 18:28:00",
+   "scanner_count": "24",
+   "scanner_match": "10",
+   "scanner_percent": "41.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/687f9d7b8a7d628a81bcb6e7/reports/8db7504a-d443-4689-9dc0-6825dcb5d1ee/overview"
+  }
+ },
+ "comments": null
+}

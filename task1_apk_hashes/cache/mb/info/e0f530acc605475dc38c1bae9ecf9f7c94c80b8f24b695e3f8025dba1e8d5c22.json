@@ -1,0 +1,111 @@
+{
+ "sha256_hash": "e0f530acc605475dc38c1bae9ecf9f7c94c80b8f24b695e3f8025dba1e8d5c22",
+ "sha3_384_hash": "7d10076174f57668e20e7da9fe929e2f75bbc56f92709fec947d778980e33c65cc7e7fae4e4551af44be3e35906cba3a",
+ "sha1_hash": "80d5eb87e427aaadbabe108cce0e0db9bf4fd93a",
+ "md5_hash": "1a6df164ade7fd213a9ddd116e1e1d56",
+ "first_seen": "2026-05-11 18:58:07",
+ "last_seen": null,
+ "file_name": "iMobile Lite(23).apk",
+ "file_size": 8724963,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1F1963314F82E8D26ED55343D7E06835739362C789710C22B26728639FEF76C6E62F162",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:R9xQeNAC+4KJbGZiiB2c/qDd/bVH+1Uih14CbQ7MT8g:R3UZCZ2cyDdjgeiECcATx",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "76.4% (.ZAE) Compressed COLLADA Digital Asset Exchange (13000/1/2)",
+  "23.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "ICICI",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.Coper.7.origin.29511.20300.UNOFFICIAL"
+  ],
+  "downloads": "323",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "SUSP_ZIP_Smuggling_Jun01",
+   "author": "delivr.to",
+   "description": "ZIP archives with data smuggled between last file record and the central directory.",
+   "reference": "https://github.com/Octoberfest7/zip_smuggling/"
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e0f530acc605475dc38c1bae9ecf9f7c94c80b8f24b695e3f8025dba1e8d5c22/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/e0f530acc605475dc38c1bae9ecf9f7c94c80b8f24b695e3f8025dba1e8d5c22",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260511-xmrfnagy6z/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-11 18:59:29",
+   "scanner_count": "24",
+   "scanner_match": "1",
+   "scanner_percent": "4.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a0226d62fcb905ec28e686a/reports/03a3334a-5f1d-47c2-8842-aa2dcdfeb24a/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-13T12:05:00Z",
+   "last_seen": "2026-05-13T12:27:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/e0f530acc605475dc38c1bae9ecf9f7c94c80b8f24b695e3f8025dba1e8d5c22/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

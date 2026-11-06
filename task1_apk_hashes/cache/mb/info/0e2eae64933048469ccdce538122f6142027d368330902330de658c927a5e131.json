@@ -1,0 +1,105 @@
+{
+ "sha256_hash": "0e2eae64933048469ccdce538122f6142027d368330902330de658c927a5e131",
+ "sha3_384_hash": "9c38ada9a065c618c1d619f27be7ef871cda7a7e13e533004edeb2097f9de52e0fa364b89500537fb11d058c25927d21",
+ "sha1_hash": "ee1dddcb84dfc39a4232989dd9a428c459e03038",
+ "md5_hash": "43b02b75d5a2e0e656fa4e449c851129",
+ "first_seen": "2021-12-26 14:50:35",
+ "last_seen": null,
+ "file_name": "Google_Play_Store.apk",
+ "file_size": 508397,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T140B4223797D51360E973E9B0B8E903B356B595688086F3DF3C2AA1D1D0973FA1E50C2A",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:VMK8Bot5RL6St/HoqhVEqY9ISMw4sJ0SggYkP+:qhuL6Y/owVk9bC",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "np",
+   "issuer_cn": "np",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2021-04-25T09:03:56Z",
+   "valid_to": "3020-08-26T09:03:56Z",
+   "serial_number": "045ff9a3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "492682f877607ee99df2ddd2bd5953fd727bdf6e19d397de9dbbafd582bcad75",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.898.origin.20722.25090.UNOFFICIAL"
+  ],
+  "downloads": "517",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/0e2eae64933048469ccdce538122f6142027d368330902330de658c927a5e131/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/0e2eae64933048469ccdce538122f6142027d368330902330de658c927a5e131",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/211226-r757nabeh4/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2021-12-26 14:51:12",
+   "scanner_count": "28",
+   "scanner_match": "14",
+   "scanner_percent": "50.00"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61c88158ec6c6c14a9f466dd/reports/aef6f8ee-9970-4ab2-822e-0ce9dc1b0adf/overview"
+  }
+ },
+ "comments": null
+}

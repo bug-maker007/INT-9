@@ -1,0 +1,121 @@
+{
+ "sha256_hash": "e82b0023abcc4bdb549f319389620c4cbd8ffabe8648168db31db62fd84a6904",
+ "sha3_384_hash": "97cc06135b248cbc3b310501091b56cbd9fc2c1324f7214a1b41cdab780a88e3e3483f0a8d501126a5e43cdd76111b91",
+ "sha1_hash": "c618582a61402ca8ea8169178bbf31f1a0be770a",
+ "md5_hash": "0596663c542e7cfb4473c8c8ef86eee5",
+ "first_seen": "2024-01-30 14:07:02",
+ "last_seen": null,
+ "file_name": "CaixaSignNueva.apk",
+ "file_size": 4706486,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T17D2633E6F1A3C187F6AB4073E423430ADB3A0D86BE501C5A64F7326155E7DE993198EC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:n9hinlhin6Vhinahinx1hin6hinshinUhin0YnXHqWEaObj8X7GpslOzS/W7:nbCzC6DC8CxjCcCyCKC0Y3qWKgX7WWQT",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Irata",
+  "italy",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Anywhere Software",
+   "issuer_cn": "Anywhere Software",
+   "algorithm": "dsaWithSHA1",
+   "valid_from": "2016-08-24T08:23:07Z",
+   "valid_to": "2054-12-23T08:23:07Z",
+   "serial_number": "58118218",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "32752470a35a7bb0a2991180f02baff49a41b9d6b2b5e44e8aa7cb736752e003",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.1100.origin.8500.15975.UNOFFICIAL"
+  ],
+  "downloads": "589",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e82b0023abcc4bdb549f319389620c4cbd8ffabe8648168db31db62fd84a6904/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/e82b0023abcc4bdb549f319389620c4cbd8ffabe8648168db31db62fd84a6904",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240130-rezjeaged6/",
+   "tags": [
+    "family:irata",
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SmsAgent",
+   "status": "MALICIOUS",
+   "first_seen": "2024-01-24 22:33:32",
+   "scanner_count": "24",
+   "scanner_match": "8",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65b902934aed8b65c87bb7d4/reports/943c6add-7b2f-47da-b050-aa7e63eb9891/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,136 @@
+{
+ "sha256_hash": "2a46a2565d4f50facb1f9bbceb6ea5941324e9316c61e8a125f6f012d0de7e57",
+ "sha3_384_hash": "fd85f33c3d615e2765b8ea71f91ac47ce966bfbbfddd8ed85a3016f9b3778d4b39b565f69f9f5b66071730a94b19d8e3",
+ "sha1_hash": "5d7e52104343a9d0fe601d2214f47457b2f8f103",
+ "md5_hash": "85b3264ec789c0e8b6d12ddc248fed23",
+ "first_seen": "2026-08-17 10:59:21",
+ "last_seen": null,
+ "file_name": "Divar.apk",
+ "file_size": 5341914,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "GB",
+ "anonymous": 1,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T11C362341FA479E95C8F6C33050B80F2961371D65C347A38B6B75B3B938BB6D84B8B189",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:T+MyIpnZSsA8FimIA4H9Imksw2AfYo0iE/w4OvCRaCbSddSn3jxpJrCrT:Tx//aHH9ecrlDSbAFporT",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "IRATA",
+  "SHAPARAK",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "dpt",
+   "issuer_cn": "dpt",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2024-11-05T12:52:39Z",
+   "valid_to": "2049-10-30T12:52:39Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "b8d25b845f276e25851f7a86261fc9c98ed4802240c31b21d466958d5e25096c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.989.origin.15478.26325.UNOFFICIAL"
+  ],
+  "downloads": "257",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2a46a2565d4f50facb1f9bbceb6ea5941324e9316c61e8a125f6f012d0de7e57/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/260817-m3msasydjd/",
+   "tags": [
+    "family:irata",
+    "android",
+    "defense_evasion",
+    "discovery",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-08-17 11:00:59",
+   "scanner_count": "24",
+   "scanner_match": "5",
+   "scanner_percent": "20.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a82e991c315717cd20720f6/reports/ab484f45-8647-4185-b6ef-cbf57ae7145f/overview"
+  }
+ },
+ "comments": null
+}

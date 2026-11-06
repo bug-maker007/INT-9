@@ -1,0 +1,155 @@
+{
+ "sha256_hash": "b819e08001c53ba75fbcd98a389bb53eee2292eaa61183e7821ab719c5182bc4",
+ "sha3_384_hash": "b02c5392241c0dc70f6a54bd685286d162b1f40926bcd30480f0c6c6c7721960bbb8cc05185a4e7a389c742674971be5",
+ "sha1_hash": "5749b88426591eb72dc7e13b773d7a37a0004593",
+ "md5_hash": "663b0419b7dfd4f2f4f0128a9d28afff",
+ "first_seen": "2025-03-27 21:31:54",
+ "last_seen": null,
+ "file_name": "ready.apk",
+ "file_size": 9916113,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T12DA6F117FB45CA97D8AA83B16B230FBA1B074F59C742AAD741957A2D3E770C00D85ACC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:4vsU4HFygr+MuwwbDKYjiKnV3ZZxNjmz4YzB0Tc0tQYZb:4Ib+M3+Dbj3nfZxNCz49vb",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "39.4% (.APK) Android Package (27000/1/5)",
+  "19.7% (.JAR) Java Archive (13500/1/2)",
+  "19.7% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "15.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "SpyNote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "zANB",
+   "issuer_cn": "zANB",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2023-11-30T17:10:14Z",
+   "valid_to": "3023-04-02T17:10:14Z",
+   "serial_number": "1601bf7d",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "17cc2fd9384fb84327b28fba435cda8cd1150b1f0246b3b0cd12ae49a8fee2a8",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "139",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Suspicious_Latam_MSI_and_ZIP_Files",
+   "author": "eremit4, P4nd3m1cb0y",
+   "description": "Detects suspicious .msi and .zip files used in Latam banking trojan campaigns.",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b819e08001c53ba75fbcd98a389bb53eee2292eaa61183e7821ab719c5182bc4/"
+  },
+  "YOROI_YOMI": {
+   "detection": "SpyNote",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/b819e08001c53ba75fbcd98a389bb53eee2292eaa61183e7821ab719c5182bc4",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250327-1drlvaysfs/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "execution",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-03-26 07:43:48",
+   "scanner_count": "35",
+   "scanner_match": "10",
+   "scanner_percent": "28.57"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67e5c3e209c39f5498b62e4d/reports/17ab3d2e-2568-4e8e-9da3-fa231ad432ab/overview"
+  }
+ },
+ "comments": null
+}

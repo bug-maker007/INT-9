@@ -1,0 +1,129 @@
+{
+ "sha256_hash": "b6944ca1a9740dffa2bf0b176e94648582a25ab86762c8244a4840ca1c81dbad",
+ "sha3_384_hash": "6534d52010a4aab0096cb244481d9cee460cc938949081e1ec423358b0c2b30bcb50146db6fd6f2b2f7206dc100e00bf",
+ "sha1_hash": "9778d9c8ec7c1946d4d92ae1d0315349b7b5062d",
+ "md5_hash": "953587dd8e77376627b79f4053230d2d",
+ "first_seen": "2026-10-26 06:54:40",
+ "last_seen": null,
+ "file_name": "jayzeh.apk",
+ "file_size": 7490075,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "US",
+ "anonymous": 1,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1F9762347FB14A95EC8F3D33215B5063A1037DD26CB43E74BA62533B828BBAE44B856D4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:anuPnVtUqg2/3TwcvFTTpiWrd0cBMuLLPn751:anuPM2fTfvFhigpBpLLv751",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SHAPARAK",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Manager",
+   "issuer_cn": "Manager",
+   "algorithm": "sha384WithRSAEncryption",
+   "valid_from": "2026-01-05T04:49:02Z",
+   "valid_to": "2027-01-05T04:49:02Z",
+   "serial_number": "35369a8ee0ea8447",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "42846a99dce060bad2bc14b5866bc9e04f2fd9b378b2bed65627a89075ead0c0",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "160",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "MULTI_Malware_Unknown_ForgeAuto_fb8491f3_Extrait",
+   "author": "Marjoriefort",
+   "description": "Detects Unknown (inconnu, etat extrait)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b6944ca1a9740dffa2bf0b176e94648582a25ab86762c8244a4840ca1c81dbad/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/261026-hpyv7adx7r/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Requests dangerous framework permissions",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-10-26 06:55:26",
+   "scanner_count": "38",
+   "scanner_match": "10",
+   "scanner_percent": "26.32"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6adef95712a454f69564fa8d/reports/57d2518e-0be6-42fb-a4e8-444d841228c6/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-10-26T04:45:00Z",
+   "last_seen": "2026-10-28T00:22:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/b6944ca1a9740dffa2bf0b176e94648582a25ab86762c8244a4840ca1c81dbad/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

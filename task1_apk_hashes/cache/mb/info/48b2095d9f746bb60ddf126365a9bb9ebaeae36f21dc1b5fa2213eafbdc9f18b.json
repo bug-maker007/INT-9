@@ -1,0 +1,129 @@
+{
+ "sha256_hash": "48b2095d9f746bb60ddf126365a9bb9ebaeae36f21dc1b5fa2213eafbdc9f18b",
+ "sha3_384_hash": "544f5fb754a1c5403ab0199d4e70f0d62768e743f10e5060745c8306e469b0626e42c98beb19a4c463aab6df4e2f0f8c",
+ "sha1_hash": "7d6c9fe4a7516d40768991e9c905d7ab85a1a25b",
+ "md5_hash": "c43a542d6bd92cad03639c5aa37ea221",
+ "first_seen": "2026-08-27 06:36:42",
+ "last_seen": null,
+ "file_name": "c43a542d6bd92cad03639c5aa37ea221.apk",
+ "file_size": 2356332,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "myonium1",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1DAB5338DA782CC1AD61FB7B0C687741B77852336673AAB39F1D5CA40AB1373E948418C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:prh6x1tfvDvtD9GkF4sX9iunc/sLdyLbR0029l6cMKqyLvyMU4:prh6x1lvDFD9GkFfouzx6utyy",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "The dropper contains the Brokewell malware.",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Brokewell",
+  "Dropper",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "multiple",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.Herodotus.18.17050.17316.UNOFFICIAL"
+  ],
+  "downloads": "289",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_md5",
+   "value": "105f165556b5c7fc73c10cdd0aa6e6ca"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/48b2095d9f746bb60ddf126365a9bb9ebaeae36f21dc1b5fa2213eafbdc9f18b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260827-hdkjesgd75/",
+   "tags": [
+    "android",
+    "defense_evasion",
+    "impact"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks the application is allowed to request package installs through the package installer",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-08-01 02:54:00",
+   "scanner_count": "38",
+   "scanner_match": "5",
+   "scanner_percent": "13.16"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a8fdb18b49dd5eb74c15e9a/reports/5b48d681-6817-427a-bf8f-366d3d95cb1a/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-30T22:48:00Z",
+   "last_seen": "2026-08-28T22:03:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/48b2095d9f746bb60ddf126365a9bb9ebaeae36f21dc1b5fa2213eafbdc9f18b/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

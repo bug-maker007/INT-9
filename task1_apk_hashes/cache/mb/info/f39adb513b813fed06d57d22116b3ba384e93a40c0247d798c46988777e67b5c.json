@@ -1,0 +1,90 @@
+{
+ "sha256_hash": "f39adb513b813fed06d57d22116b3ba384e93a40c0247d798c46988777e67b5c",
+ "sha3_384_hash": "2bd7c8aa8cc56446e7c47fdc9ea19d2f139bf70d98ba85f4fe76ba57bf0b9b71c15570c159e2fd50a529eae0dbac52e3",
+ "sha1_hash": "f0d9cf5ac9f07c377e31c4f892a10ec57ec74583",
+ "md5_hash": "a2e3f134ebb2611e479e65b48640656a",
+ "first_seen": "2021-08-20 20:30:22",
+ "last_seen": null,
+ "file_name": "playstore.apk",
+ "file_size": 136621,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T104D3014387A0117BD8AFBA35AADD93722B770BC0B7A2A7D3391090456C6635B0F89D58",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "3072:3dujd1ddYUBN9KYD7Kh1IMN9UT0fuLuIQ2XzXcvW:3w51cU/YuGhqks0fovQ2jsvW",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.8705.26115.24277.UNOFFICIAL"
+  ],
+  "downloads": "231",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1550000/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/f39adb513b813fed06d57d22116b3ba384e93a40c0247d798c46988777e67b5c/"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/f39adb513b813fed06d57d22116b3ba384e93a40c0247d798c46988777e67b5c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210820-4fa5s1aye2/",
+   "tags": [
+    "android",
+    "obfuscation"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-20 20:31:13",
+   "scanner_count": "46",
+   "scanner_match": "14",
+   "scanner_percent": "30.43"
+  }
+ },
+ "comments": null
+}

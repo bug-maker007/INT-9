@@ -1,0 +1,142 @@
+{
+ "sha256_hash": "ed780b1afe60dcd2c329aaceacccb099c3b799b6c6a8d0c835a7f67be92b746a",
+ "sha3_384_hash": "32bf837ef0e495d32ea2d230dc442c64cc75e7277a4e0195ec3b1c20f9ed295e36f678f16731fcc70b25253a65dea50b",
+ "sha1_hash": "91eb2a58b830b91f9c50a20a22bf05053eee3dba",
+ "md5_hash": "6140d1eb546f0672c97443e69d2b20f7",
+ "first_seen": "2026-09-24 14:04:04",
+ "last_seen": null,
+ "file_name": "VinReestr._1790236766796.apk",
+ "file_size": 10620906,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Parper",
+ "origin_country": "NL",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1AFB61216460C5911C83F4A3618EE4B92E3746A424F42DE3B21BDBD6B7F731D1CB817AA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:DrQx4HVqA9c7/ksnroMdQhzLErLRg2GTHCZMNxvLULdX1lusXc:ox4HVqX79cMdQhzgi2GMMNxvLguF",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "src https://VINREESTR.RU",
+ "archive_pw": null,
+ "tags": [
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "176",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ed780b1afe60dcd2c329aaceacccb099c3b799b6c6a8d0c835a7f67be92b746a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260924-rdfpxaeh36/",
+   "tags": [
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-09-24 14:05:53",
+   "scanner_count": "23",
+   "scanner_match": "4",
+   "scanner_percent": "17.39"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6ab52de6a9d0e88f0f75c814/reports/d3bb96ee-08cf-4eb1-807a-0b5476eeab57/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-24T08:14:00Z",
+   "last_seen": "2026-09-24T09:08:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/ed780b1afe60dcd2c329aaceacccb099c3b799b6c6a8d0c835a7f67be92b746a/results?tab=lookup",
+   "detections": [
+    "HEUR:Trojan-Dropper.AndroidOS.Creduz.t"
+   ]
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,116 @@
+{
+ "sha256_hash": "6327b82aaab714dc17322e1f215bca9219f937a1df6f71c8892bf75fcfa53830",
+ "sha3_384_hash": "93992c3f6b36a1e480619c462030d8b318edc331ffb8ce369af30256c7fe1a8ce804eae2cf1478fec223427cb382f5d4",
+ "sha1_hash": "d126457d81e772a0411b1384f2e7f02bfaef9be8",
+ "md5_hash": "227001125423c5b7304012269350f68c",
+ "first_seen": "2022-06-22 06:47:59",
+ "last_seen": null,
+ "file_name": "TokenNew.apk",
+ "file_size": 1353849,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "BRATA",
+ "imphash": null,
+ "tlsh": "T1D55523869756D11ACCB31433860B57279533BF9E6DC22B6B7B8DA6003FB27D80F0A495",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:iYjWmX9LIUHldTJztpiOWFfZR56+McxUPiLeTBhW2vbNk+szXq1sslOiKqty/A:imWmNLHHVJpiO2ZRUVcxwiLkkJqmXCp",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "brata",
+  "loader",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "365",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "exploit_any_poppopret",
+   "author": "Jeff White [karttoon@gmail.com] @noottrak",
+   "description": "Identify POP -> POP -> RET opcodes for quick ROP Gadget creation in target binaries.",
+   "reference": ""
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/6327b82aaab714dc17322e1f215bca9219f937a1df6f71c8892bf75fcfa53830/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.30"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/6327b82aaab714dc17322e1f215bca9219f937a1df6f71c8892bf75fcfa53830",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220622-hkr7vahefq/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Downloader.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2022-03-16 22:36:45",
+   "scanner_count": "26",
+   "scanner_match": "8",
+   "scanner_percent": "30.77"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62b2bb351fcdba4e1a4827d6/reports/7adda817-e4d3-4eae-9641-5ebe8db5618b/overview"
+  }
+ },
+ "comments": null
+}

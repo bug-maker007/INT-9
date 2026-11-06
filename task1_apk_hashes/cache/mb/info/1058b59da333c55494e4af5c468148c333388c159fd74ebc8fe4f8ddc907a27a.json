@@ -1,0 +1,101 @@
+{
+ "sha256_hash": "1058b59da333c55494e4af5c468148c333388c159fd74ebc8fe4f8ddc907a27a",
+ "sha3_384_hash": "d59271c125c255d5a2455a93bfdf3bd6cce9b9609462161a12e38dbe530e883df14d93e5c62a5dfa85cb472d406871d7",
+ "sha1_hash": "18ba81e930b11612ad30bd55151ca76c7a5d30bf",
+ "md5_hash": "ff512d4521b9551fc81114cc7245e993",
+ "first_seen": "2021-09-02 02:46:12",
+ "last_seen": null,
+ "file_name": "Yerli_Gizli_Cekim_Ifsa_Videolar.apk",
+ "file_size": 3360167,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1AAF5337A9757C9ACC85701B354E324DE3A8520AE67D2A22E0B7D011466E3E94DE0ECF7",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:8VJvOUFr0U3ejJ5f5za7VHE9AV4yjjf4b/85aK:8VJrFr1IzaS9C6CaK",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.PUA.DebugKey.3866.6610.UNOFFICIAL"
+  ],
+  "downloads": "294",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1058b59da333c55494e4af5c468148c333388c159fd74ebc8fe4f8ddc907a27a/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/1058b59da333c55494e4af5c468148c333388c159fd74ebc8fe4f8ddc907a27a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/210902-ehqa11r2p2/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://evdexyz.art"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-09-02 02:47:05",
+   "scanner_count": "40",
+   "scanner_match": "5",
+   "scanner_percent": "12.50"
+  }
+ },
+ "comments": null
+}

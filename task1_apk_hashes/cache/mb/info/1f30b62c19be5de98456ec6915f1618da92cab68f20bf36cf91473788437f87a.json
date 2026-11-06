@@ -1,0 +1,124 @@
+{
+ "sha256_hash": "1f30b62c19be5de98456ec6915f1618da92cab68f20bf36cf91473788437f87a",
+ "sha3_384_hash": "92038f6d57b2dbc2e2bbb93df11a3f7bf18e161a6c4893ab9c58b4ee9f6ca26adf2e2a2cd18ee7fa36f2909281ca1b30",
+ "sha1_hash": "e84e6ca409c5233479e322b992dd57e796eed02a",
+ "md5_hash": "9a6f930bc7c4019de3b8ebfee6a2833c",
+ "first_seen": "2026-07-02 21:35:27",
+ "last_seen": null,
+ "file_name": "ۦۖ۫.apk",
+ "file_size": 7183230,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T11676F1EBE39056AAC6FA12B50836693C80174E754FD3C1C79A44B33D64F71E84F68AC9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:rvqDn/p6WLVrKR88MVqSTBOZIAnOWwVIxKR7qtIhTUdCDGhD1eUdXaIrpblNsN5g:2Dn/BVGTjSmKZsCDyVsuJNsdi97fkjzq",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Banker",
+  "mparivahan",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "219",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Android_ElectricityBill_Miner_APK",
+   "author": "ShriyaTiger",
+   "description": "Detects Electricity Bill themed Android malware and Miner.apk payload",
+   "reference": null
+  },
+  {
+   "rule_name": "dependsonpythonailib",
+   "author": "Tim Brown",
+   "description": "Hunts for dependencies on Python AI libraries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1f30b62c19be5de98456ec6915f1618da92cab68f20bf36cf91473788437f87a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "5",
+   "link": "https://tria.ge/reports/260702-1fnmzaft4v/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-07-02 21:36:39",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a46d9ab4661d2209ce2d60f/reports/54e81f8c-3047-4dff-aff5-a1a8a5fd42ca/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-02T21:28:00Z",
+   "last_seen": "2026-07-04T17:06:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/1f30b62c19be5de98456ec6915f1618da92cab68f20bf36cf91473788437f87a/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

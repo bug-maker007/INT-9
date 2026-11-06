@@ -1,0 +1,149 @@
+{
+ "sha256_hash": "c7300e6de3d9c6f1ad622a1e884f00d43340c381fb87c87514ef3ca2156fdf5b",
+ "sha3_384_hash": "a5ac24dce494cc565a4360c61a89df0d62edfa35b6ead448dfac5a35f8198f4165d5cb99f1878f3c6352d997fdcc9653",
+ "sha1_hash": "4155c71ee1e03cefe5b67bc89c2235266327baa4",
+ "md5_hash": "116fea8c63bce4908ec1307e20ed96ba",
+ "first_seen": "2022-06-08 15:37:22",
+ "last_seen": null,
+ "file_name": "doc_hy_0806_obf_3.apk",
+ "file_size": 3351502,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "l205306",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T182F52355FED46D19CC4EB974A01ED00399688E890292FAA6342D71B55B3ADF00F63FEC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:SGeGKlxOt40CxbBlLn237uEyurmeQesvB8cZN5:aNxY43Ln23pbnQeeXP5",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker",
+  "hydra",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_drive-by",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SMS-10.UNOFFICIAL"
+  ],
+  "downloads": "597",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://bazaar.abuse.ch/sample/49bc43a5b94d4a24f5561a98e3feac970fa37e9922a892f72351d5e94d77bc4c/"
+  },
+  {
+   "context": "dropped_by_sha256",
+   "value": "49bc43a5b94d4a24f5561a98e3feac970fa37e9922a892f72351d5e94d77bc4c"
+  },
+  {
+   "context": "dropped_by_md5",
+   "value": "53f04e56619e4e51f796e3d5185a2932"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c7300e6de3d9c6f1ad622a1e884f00d43340c381fb87c87514ef3ca2156fdf5b/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c7300e6de3d9c6f1ad622a1e884f00d43340c381fb87c87514ef3ca2156fdf5b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/220608-s224gshff9/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Hydra Payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Legitimate hosting services abused for malware hosting/C2",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Bian",
+   "status": "MALICIOUS",
+   "first_seen": "2022-06-08 15:38:29",
+   "scanner_count": "41",
+   "scanner_match": "7",
+   "scanner_percent": "17.07"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62a0c2625dc88d35716c080b/reports/967bc716-65fe-4acc-86ed-3d5485c28386/overview"
+  }
+ },
+ "comments": null
+}

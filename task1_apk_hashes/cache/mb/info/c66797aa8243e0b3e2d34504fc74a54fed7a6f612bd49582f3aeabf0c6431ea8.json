@@ -1,0 +1,131 @@
+{
+ "sha256_hash": "c66797aa8243e0b3e2d34504fc74a54fed7a6f612bd49582f3aeabf0c6431ea8",
+ "sha3_384_hash": "02901a1ea268aefb5cc22274fb04eb2819a12fcc1c40b117fbab43f02ef1318d999cebae9cbfa00d9086d3c8698c189b",
+ "sha1_hash": "960de5ac53ef75b32b25273c658ba79425da5a7e",
+ "md5_hash": "7d529628024c98a621e1d55c5723eccf",
+ "first_seen": "2023-10-02 08:57:48",
+ "last_seen": null,
+ "file_name": "app.apk",
+ "file_size": 2206939,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T117A533E2F365F892EA674C33548F528012690D67CC82964A7F5A725CBBBA3F0D712358",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:ZEApvcCI5rSRAv2P/6aaKzmgxra2IenQbfyDZDCmn61ch6LD1S:Zxpvc7rSj4lgVa2kNmn61VP1S",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.989.origin.26179.24321.UNOFFICIAL"
+  ],
+  "downloads": "173",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c66797aa8243e0b3e2d34504fc74a54fed7a6f612bd49582f3aeabf0c6431ea8/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.05"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c66797aa8243e0b3e2d34504fc74a54fed7a6f612bd49582f3aeabf0c6431ea8",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/231002-kw6kqaab96/",
+   "tags": [
+    "family:irata",
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-09-30 14:28:32",
+   "scanner_count": "36",
+   "scanner_match": "12",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/651a861c33582f234e09744b/reports/27a2289f-c136-45f8-8dde-3b4c34d85769/overview"
+  }
+ },
+ "comments": null
+}

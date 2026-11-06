@@ -1,0 +1,116 @@
+{
+ "sha256_hash": "7b0469e1a88bee39676c1c1668ea0c52403cc5eb452072a5444a620f31d35dcd",
+ "sha3_384_hash": "a33ad62a53deb43151332323c985e1a2bcaffd0972e58e1a3ab202c81af5c7a4b523b6d168c8b0732336b0b2a2e2b7ea",
+ "sha1_hash": "b700922ab5b4fb5e71a75baf3ad5036238855107",
+ "md5_hash": "5db24d0fb57c1ba9dfb01b8ac48fd4d9",
+ "first_seen": "2023-08-20 07:20:49",
+ "last_seen": null,
+ "file_name": "Beauty Camera_1.7.4.apk",
+ "file_size": 2442643,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "500mk500",
+ "origin_country": "UA",
+ "anonymous": 0,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T1E0B5F152F369A52FC93B80364E7A577A05459C42CA67D7139468B32C7CBBAC48F86FC0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:fU9aYqMZPOTBSFy/KcU/MtsSxU7169dkB5Crtoe+tpziFEc87LgQD4Ys:pUOMFyScU/T1M9K5Ca/mxqLgQDTs",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "52.8% (.APK) Android Package (32500/1/6)",
+  "21.9% (.JAR) Java Archive (13500/1/2)",
+  "17.0% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "6.5% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.6% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "joker",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2023-08-17T08:26:25Z",
+   "valid_to": "2053-08-17T08:26:25Z",
+   "serial_number": "ce27371ae507c25af9c68b011efcf32a6ae55789",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "6e94f34f1d34bf409b4dddc87aca8fb6dac156708e744075277e7242e060068d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Joker.483.origin.7311.27659.UNOFFICIAL"
+  ],
+  "downloads": "238",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/ReBensk/status/1693140418203193730"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7b0469e1a88bee39676c1c1668ea0c52403cc5eb452072a5444a620f31d35dcd/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/7b0469e1a88bee39676c1c1668ea0c52403cc5eb452072a5444a620f31d35dcd",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/230820-h6nfsadg34/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Synder",
+   "status": "MALICIOUS",
+   "first_seen": "2023-08-19 14:04:52",
+   "scanner_count": "38",
+   "scanner_match": "10",
+   "scanner_percent": "26.32"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.2",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/64e1bedfa29d57e203878887/reports/fa93d3da-b27c-42bc-ab0b-49d55b93c20a/overview"
+  }
+ },
+ "comments": null
+}

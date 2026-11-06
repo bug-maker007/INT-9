@@ -1,0 +1,131 @@
+{
+ "sha256_hash": "64394537e0043a0d7f29ac7a914e9daf936f49cd57953898e996aa42229a6173",
+ "sha3_384_hash": "be39d300f2caaa2da0b560ee17823cc5aeb5cc42dcbf9c5e5f6e40d3cc6b64b238bec14aaa0ba9c82bf5a704cf0cdd39",
+ "sha1_hash": "66a62c11f99d555135933d65fa8a084f36e5df75",
+ "md5_hash": "90811a5e8f466cc48951e9bc7f8a86e5",
+ "first_seen": "2022-06-26 19:08:00",
+ "last_seen": null,
+ "file_name": "EDALAT.apk",
+ "file_size": 2588652,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T141C5332EF047E11AFD9BC878EE902543954B9E5A81AFFE072593CB644EF5FA18321C44",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:wGgK1bof6D8NIjTOg2DI4T0ELgYjCQev0MVQ4m+VUDxEIJp:rR1PDyIjTOzDjTZLOQqBmF+qRp",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "Malware Phishing system of Electronic Judicial Services System Iran.",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "iran",
+  "malware",
+  "signed",
+  "sms",
+  "smsspy",
+  "spy",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "528",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "spyware"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2250824/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/64394537e0043a0d7f29ac7a914e9daf936f49cd57953898e996aa42229a6173/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.30"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/64394537e0043a0d7f29ac7a914e9daf936f49cd57953898e996aa42229a6173",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220626-xs7d3aeaf6/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Realrat",
+   "status": "MALICIOUS",
+   "first_seen": "2022-06-26 19:08:27",
+   "scanner_count": "26",
+   "scanner_match": "11",
+   "scanner_percent": "42.31"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62b8ae9494f434f9fa89cf23/reports/a5cdcfa8-f8cf-4cb7-8f5e-d5b6bf9daaf6/overview"
+  }
+ },
+ "comments": null
+}

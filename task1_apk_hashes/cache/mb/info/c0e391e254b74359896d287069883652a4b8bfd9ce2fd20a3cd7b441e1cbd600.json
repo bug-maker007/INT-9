@@ -1,0 +1,128 @@
+{
+ "sha256_hash": "c0e391e254b74359896d287069883652a4b8bfd9ce2fd20a3cd7b441e1cbd600",
+ "sha3_384_hash": "e04a8b75cda8eec9fbb6a8d5b1383c68d53157657f101deda460a8bafd908097dc25b43d5f4850e8224c2fa28e554535",
+ "sha1_hash": "b7388ff67adeedc64cea4a6592e69aef474e21b8",
+ "md5_hash": "cd36a045167b2cebc77f7b28b00309f1",
+ "first_seen": "2023-07-20 12:38:55",
+ "last_seen": null,
+ "file_name": "CommerzbankSecurity.apk",
+ "file_size": 1074122,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T1C93533DA3406F643CEF8D7BE7892D53AA1172E518515AA1435C472AE6CFBEC80FA01C7",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:v6MQbH1tTcl/3lLqU3jhV5ZpjLdsmxaire/3OB77FARDEjGiv:CM+H7Tcl/3YUzhVpjBdxJrsOMVEj5v",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "80.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "20.0% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android_hydra",
+  "apk",
+  "hydra"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.563.origin.27376.10918.UNOFFICIAL"
+  ],
+  "downloads": "467",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c0e391e254b74359896d287069883652a4b8bfd9ce2fd20a3cd7b441e1cbd600/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Hydra",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c0e391e254b74359896d287069883652a4b8bfd9ce2fd20a3cd7b441e1cbd600",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/230720-pvlw5sgf25/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hydra",
+     "c2": "http://213.226.123.27"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.BankBot",
+   "status": "MALICIOUS",
+   "first_seen": "2023-07-17 20:29:00",
+   "scanner_count": "38",
+   "scanner_match": "12",
+   "scanner_percent": "31.58"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/64b92ae6bf0894a95b6ee6cc/reports/7d8e9fa5-1906-43b0-9fb5-b352ebe631c6/overview"
+  }
+ },
+ "comments": null
+}

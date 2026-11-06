@@ -1,0 +1,106 @@
+{
+ "sha256_hash": "8a694fbc4955d86491f30f6aba2dfdb8f6fd1294f516dae7eff9327595a77cf9",
+ "sha3_384_hash": "69460e21a6fc548db0ef158243f8510735528c338d2555165d3c1f58ae4914857fcc43f580abb66da7e96a67eb970ef5",
+ "sha1_hash": "3a2e697cf0e714fdfb2f9ea1bf09da20f2f3efb5",
+ "md5_hash": "8acf2360e38c38c51e8c363eaa3d48bc",
+ "first_seen": "2025-03-22 17:18:26",
+ "last_seen": null,
+ "file_name": "FM_3313_60.apk",
+ "file_size": 89759437,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T1CE180263E32C9FCAC0E3D2366A76C09110AA6CAC474BD2A72C2D7D7917B75C3970E591",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:wYrJA8YAQZ1IxaTdzobSsandxULjzlXjK07OFuKXFXyn/Z:wGAvK+EsXClXuduK4n/Z",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "30.8% (.APK) Android Package (27000/1/5)",
+  "24.5% (.OXT) OpenOffice Extension (21500/1/3)",
+  "15.4% (.JAR) Java Archive (13500/1/2)",
+  "12.5% (.CATROBAT) Pocket Code/Catroid Catrobat Project (11000/1/2)",
+  "12.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)"
+ ],
+ "comment": "https://confectionary.b-cdn.net/FM_3313_60.apk",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "zhanmei",
+   "issuer_cn": "zhanmei",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2025-01-15T07:22:47Z",
+   "valid_to": "2050-01-09T07:22:47Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "7f5c45abc337a01a7bf7a1faac1ed081159f6a399cc9c899e1b9e2cd71a7ef14",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "187",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/250322-vrge5s1nt8/behavioral1"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/8a694fbc4955d86491f30f6aba2dfdb8f6fd1294f516dae7eff9327595a77cf9",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/250322-vvxxas1nz3/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.PUA.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-03-22 17:20:41",
+   "scanner_count": "24",
+   "scanner_match": "2",
+   "scanner_percent": "8.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67def11f195c2ecf47ef6020/reports/9b373c2f-6b4d-4ef9-87e5-adbf85c02a27/overview"
+  }
+ },
+ "comments": null
+}

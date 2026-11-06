@@ -1,0 +1,104 @@
+{
+ "sha256_hash": "60c6639d2c97140595080cbf0b82dbeff35a55384af0ea4d354a859a0e6b93c0",
+ "sha3_384_hash": "9b74d7cbd67e1d938164b3866819b718d5b98b57bf3258ca8d291f3b8c117694c61f8cc8489e0e31e52318908886bf1a",
+ "sha1_hash": "13644b315579d668f047fcc3b85d205703d9c3f2",
+ "md5_hash": "9be3057008e688c31e25df19016ec37d",
+ "first_seen": "2021-09-03 20:10:41",
+ "last_seen": null,
+ "file_name": "tksigned-Android_Guncelleme_build.apk",
+ "file_size": 121575,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T118C3F25303B09061D2FB153666D5A376BEBED79456F233B33A50608EDCAA6B40F2CE41",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "3072:XnPBv/eNwM8re2kO/DZutbUT1X99xxAhsghsH010e0D:XnPVW6BkO/D4JK9xxArq010e0D",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.8705.28125.21577.UNOFFICIAL"
+  ],
+  "downloads": "320",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1589761/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/60c6639d2c97140595080cbf0b82dbeff35a55384af0ea4d354a859a0e6b93c0/"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/60c6639d2c97140595080cbf0b82dbeff35a55384af0ea4d354a859a0e6b93c0",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210903-yx89wsggan/",
+   "tags": [
+    "android",
+    "obfuscation"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2021-09-03 20:11:05",
+   "scanner_count": "43",
+   "scanner_match": "13",
+   "scanner_percent": "30.23"
+  }
+ },
+ "comments": null
+}

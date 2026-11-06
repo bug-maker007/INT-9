@@ -1,0 +1,119 @@
+{
+ "sha256_hash": "6d84d8aeaa1c980a4bfefb0cfcd3efaeddcf4e98c28817054d292778e22664f2",
+ "sha3_384_hash": "2afd6bc91928149afcbd1f2b876397f1556bfe37dcd00a6067e40d50d21ea19d0ea05cafc1486ec7813e09552f559d21",
+ "sha1_hash": "84c3a835017fdf1743f1c74f0aab1b1732d6d3fc",
+ "md5_hash": "150ab785a82997af43af397057517738",
+ "first_seen": "2026-10-02 19:18:23",
+ "last_seen": null,
+ "file_name": "6d84d8aeaa1c980a4bfefb0cfcd3efaeddcf4e98c28817054d292778e22664f2.bin",
+ "file_size": 11423860,
+ "file_type_mime": "application/vnd.android.package-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Tuxxin",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T186B63397D7A5547FCA2F1971D88116BF0AE27C7906E8D4A30146B38C5237FA43B22B27",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:QbgapX5WMJ8sJlzjN9zHw1WL1auFnGI9t/JngZnRkdaRvP5Rb2+n8uVWyd/xWRN4:6gafWnsJj9D959FnG0RQkkRJV2C8LydF",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "62.7% (.APK) Android Package (27000/1/5)",
+  "27.9% (.BIN/ZIP) 1C:Enterprise bundled add-in (12000/1/2)",
+  "9.3% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "zip"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Script.SNH-gen.33437539.UNOFFICIAL",
+   "SecuriteInfo.com.Script.SNH-gen.71886988.UNOFFICIAL"
+  ],
+  "downloads": "133",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "dependsonpythonailib",
+   "author": "Tim Brown",
+   "description": "Hunts for dependencies on Python AI libraries",
+   "reference": null
+  },
+  {
+   "rule_name": "test_Malaysia",
+   "author": "rectifyq",
+   "description": "Detects file containing malaysia string",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/6d84d8aeaa1c980a4bfefb0cfcd3efaeddcf4e98c28817054d292778e22664f2/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/261002-z5s4batclc/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Win32.Trojan.Qwexlafiba",
+   "status": "MALICIOUS",
+   "first_seen": "2026-10-02 21:18:50",
+   "scanner_count": "38",
+   "scanner_match": "14",
+   "scanner_percent": "36.84"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6ac01f9efc590875e925e430/reports/8eaf9deb-dfec-4cd2-9f89-4c1b9c6ac522/overview"
+  },
+  "Kaspersky": {
+   "verdict": "NotCategorized",
+   "file_type": "apk",
+   "first_seen": "2026-10-03T18:58:00Z",
+   "last_seen": "2026-10-04T10:42:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/6d84d8aeaa1c980a4bfefb0cfcd3efaeddcf4e98c28817054d292778e22664f2/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

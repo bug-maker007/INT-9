@@ -1,0 +1,118 @@
+{
+ "sha256_hash": "c17aff83c3fbddb86fe5a40d7a654af5591b16522fb15c222bbf3d57b0b16748",
+ "sha3_384_hash": "a857aed3a0e9d4802cad1eedb8b887b8098c750c3f2280336283bfec66e1fcb1e3d26b9ba2117026ef610d8b61ec3b4e",
+ "sha1_hash": "78accb53302354bce6d6858045b1f6ad895e4938",
+ "md5_hash": "375c6a1a21880dfe95b5a1df10ddc2fb",
+ "first_seen": "2026-07-03 21:20:56",
+ "last_seen": null,
+ "file_name": "IndusindCreditCard.apk",
+ "file_size": 8817529,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T10696E031B7498A3BF9B6793868673271B20A6D5D4E4D82975A01F21C6DB71DC0F0BBC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:Im55YQthqiusGP9uNw9PM4ZTqRqU2oJr3y7beN5+:l55pT4P9uy9PM4lqRqUXJby7bX",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "46.2% (.VYM) VYM Mind Map (12500/1/3)",
+  "38.8% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "14.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Banker",
+  "Indusind Credit Card",
+  "Mirai",
+  "SpyAgent"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "238",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "ldpreload",
+   "author": "xorseed",
+   "description": null,
+   "reference": "https://stuff.rop.io/"
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c17aff83c3fbddb86fe5a40d7a654af5591b16522fb15c222bbf3d57b0b16748/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260703-z7nxdacw9k/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Autopay",
+   "status": "MALICIOUS",
+   "first_seen": "2026-07-03 21:22:47",
+   "scanner_count": "38",
+   "scanner_match": "9",
+   "scanner_percent": "23.68"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a4827e244bb9fe8562e5a09/reports/a8d07f46-67cb-4f9e-9599-b51aa6be844a/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-03T19:32:00Z",
+   "last_seen": "2026-07-05T11:01:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/c17aff83c3fbddb86fe5a40d7a654af5591b16522fb15c222bbf3d57b0b16748/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

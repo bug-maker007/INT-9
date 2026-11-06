@@ -1,0 +1,139 @@
+{
+ "sha256_hash": "939a3db851e7f7648babfe390bb8d93338ba57870d66e1a6b846e5e1a3207440",
+ "sha3_384_hash": "a5d1bdf3ff5b2873fec4292e72e999112461cbf6c1d9d7a107b6d1df83d5640727dbca00062871e2e99fe76860f5b05b",
+ "sha1_hash": "6872552ea96ba2d72aaa6d121206cab12424590a",
+ "md5_hash": "c1ef06054ebe9c7422a1605a52c33216",
+ "first_seen": "2026-07-08 13:41:59",
+ "last_seen": null,
+ "file_name": "TikTok.apk",
+ "file_size": 9536683,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T10AA62383FB5CE61AD4FBD7368B3646964406AD22CF43D3476421B33C29B76C08E56AC9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:btKE51QZzAA9dry6eeOB+cMTKRCpbiwX/BZzZJM9CzxBi8qmt4zUPYhoZSWv:bkE5BA32AK4diwXfI/mdB",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "65.0% (.APK) Android Package (27000/1/5)",
+  "25.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Banker",
+  "Riskware",
+  "TikTok",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "273",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/939a3db851e7f7648babfe390bb8d93338ba57870d66e1a6b846e5e1a3207440/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.05"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260708-qzyl6sf16v/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Checks the application is allowed to request package installs through the package installer",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-07-08 13:43:32",
+   "scanner_count": "24",
+   "scanner_match": "3",
+   "scanner_percent": "12.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a4e53c98eaba951e7669bc7/reports/a8590bd2-cd36-41e9-8e52-da92f339ca25/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-08T11:12:00Z",
+   "last_seen": "2026-07-08T11:28:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/939a3db851e7f7648babfe390bb8d93338ba57870d66e1a6b846e5e1a3207440/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

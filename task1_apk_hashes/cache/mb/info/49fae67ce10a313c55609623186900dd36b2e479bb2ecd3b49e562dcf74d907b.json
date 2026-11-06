@@ -1,0 +1,170 @@
+{
+ "sha256_hash": "49fae67ce10a313c55609623186900dd36b2e479bb2ecd3b49e562dcf74d907b",
+ "sha3_384_hash": "5aaf123fbd191a82a1400e55748228a69aacd08eaad17fbe19050f075ed869b86f9bf99b7a5f38a00eb8c72e50f67736",
+ "sha1_hash": "aa9ebf75f22d8daed955fc6ef8e198e4a455e826",
+ "md5_hash": "d59ed6167c900e44b0843b1bf0244379",
+ "first_seen": "2024-06-11 11:05:22",
+ "last_seen": null,
+ "file_name": "coocoo_whatsapp_WhatsAppGold_11971059_defalult_202306292034.apk",
+ "file_size": 80930898,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "GB",
+ "anonymous": 1,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T10F0823E7E399ED2AD1739D35D3205043F9281D54631AF6272A02F1386EF3E01D1A9EE9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:RwlVlUCxdGRXyt/at6Gb9JKZisc1HImbYZZW+jAthXoZCjrXS0O9kUxyy:R8/GRXytSt6GfK8skHIKYZZWpthXwGXU",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "33.1% (.APK) Android Package (32500/1/6)",
+  "21.9% (.OXT) OpenOffice Extension (21500/1/3)",
+  "13.7% (.JAR) Java Archive (13500/1/2)",
+  "10.7% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "8.1% (.XPI) Mozilla Firefox browser extension (8000/1/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "banker",
+  "signed",
+  "triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2022-03-02T03:14:34Z",
+   "valid_to": "2052-02-23T03:14:34Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "d9df43491abc321fc04f678252debf5b1e5b7f3bf288aa01445bcc0c7baaeb66",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "570",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/49fae67ce10a313c55609623186900dd36b2e479bb2ecd3b49e562dcf74d907b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "triada",
+   "score": "10",
+   "link": "https://tria.ge/reports/240611-m7emgsvfjl/",
+   "tags": [
+    "family:triada",
+    "android",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Checks Android system properties for emulator presence.",
+     "score": "7"
+    },
+    {
+     "signature": "Checks known Qemu pipes.",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation)",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.PUA.WAMod",
+   "status": "MALICIOUS",
+   "first_seen": "2023-07-04 08:36:59",
+   "scanner_count": "38",
+   "scanner_match": "2",
+   "scanner_percent": "5.26"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/66682f9f21581a92819c343e/reports/536f1de1-39a0-4088-afe0-5a2d9f4ffbdb/overview"
+  }
+ },
+ "comments": null
+}

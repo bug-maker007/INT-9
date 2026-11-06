@@ -1,0 +1,135 @@
+{
+ "sha256_hash": "bb23f0cc167c69eb971d2069f8e3c06751a3f9c9e66a34ea12ea30a46dc00d72",
+ "sha3_384_hash": "14a09d80fbe7a6b1bb4962753d8321f3a9dd082f2ec9e255f632a50558cdaf41215853db080a1c8ac286fc35ea8a47cb",
+ "sha1_hash": "99a0d9c9a3e62727750e96d5490c73fd5b77dc5f",
+ "md5_hash": "ece68bf2f379a174c63a51b460091791",
+ "first_seen": "2026-07-24 13:11:02",
+ "last_seen": null,
+ "file_name": "𝟭.Т𝗹𝗸.Тс𝗸𝟭𝟴+.apk",
+ "file_size": 6356321,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T150562281FF46D92FC4B741375A5207316266EE1ECA82E30795EC76282C77AD80FC9AD4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:X0RQ4TpgDL3I3r6cf8/kuOZjsaprQ+7t+Xe0L+kCkx90hzcu:C9qI32U8/kuOZYa5Q+7tCe2CkD0hzcu",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "44.2% (.APK) Android Package (27000/1/5)",
+  "22.1% (.JAR) Java Archive (13500/1/2)",
+  "17.2% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.8% (.WMZ) Windows Media Player skin (6000/1/1)",
+  "6.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Banker",
+  "Dropper",
+  "Malware",
+  "Riskware",
+  "signed",
+  "TikTok"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "md5WithRSAEncryption",
+   "valid_from": "2008-07-23T21:57:59Z",
+   "valid_to": "2035-12-09T21:57:59Z",
+   "serial_number": "f2a73396bd38767a",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "28bbfe4a7b97e74681dc55c2fbb6ccb8d6c74963733f6af6ae74d8c3a6e879fd",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "242",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "SUSP_XORed_Mozilla_Oct19",
+   "author": "Florian Roth",
+   "description": "Detects suspicious single byte XORed keyword 'Mozilla/5.0' - it uses yara's XOR modifier and therefore cannot print the XOR key. You can use the CyberChef recipe linked in the reference field to brute force the used key.",
+   "reference": "https://gchq.github.io/CyberChef/#recipe=XOR_Brute_Force()"
+  },
+  {
+   "rule_name": "SUSP_XORed_Mozilla_RID2DB4",
+   "author": "Florian Roth",
+   "description": "Detects suspicious XORed keyword - Mozilla/5.0",
+   "reference": "Internal Research"
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/bb23f0cc167c69eb971d2069f8e3c06751a3f9c9e66a34ea12ea30a46dc00d72/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260724-qe7dksep8v/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-07-24 02:34:32",
+   "scanner_count": "38",
+   "scanner_match": "6",
+   "scanner_percent": "15.79"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a636484f6d5b1d9ca3c091d/reports/bf63bb2b-861d-4e1a-9bf2-0fa7af10bb4d/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-23T12:25:00Z",
+   "last_seen": "2026-07-26T01:45:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/bb23f0cc167c69eb971d2069f8e3c06751a3f9c9e66a34ea12ea30a46dc00d72/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

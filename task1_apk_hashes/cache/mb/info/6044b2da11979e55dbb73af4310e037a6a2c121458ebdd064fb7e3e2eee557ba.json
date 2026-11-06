@@ -1,0 +1,113 @@
+{
+ "sha256_hash": "6044b2da11979e55dbb73af4310e037a6a2c121458ebdd064fb7e3e2eee557ba",
+ "sha3_384_hash": "d81473c86d947b96b1acd34589a0cb1458b275087613941b5c05d742b859243d3fb0aa701298892c7d11c03563be10cd",
+ "sha1_hash": "2017339703ed29af0e176022ac4bfaf51ef2a7af",
+ "md5_hash": "8e782b65ca73f22f8d36ae2bc761b9e7",
+ "first_seen": "2026-09-17 18:00:10",
+ "last_seen": null,
+ "file_name": "latest.apk",
+ "file_size": 18431844,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "GB",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1F5071257FF88986BF0F393B246766725D0078D228743978B6964317C68F71C02F9AAD8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:xIjm704IFxYklZm9k26SNvr8lznYRVXWrWtBD7xKs:xInx9lZQnhrtDXA4h7T",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "46.2% (.VYM) VYM Mind Map (12500/1/3)",
+  "38.8% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "14.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Banker",
+  "Dropper",
+  "Malware",
+  "Riskware",
+  "Spyware",
+  "TikTok"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "456",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3918267/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/6044b2da11979e55dbb73af4310e037a6a2c121458ebdd064fb7e3e2eee557ba/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": null,
+   "link": "https://tria.ge/reports/260917-wlp1rshc28/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-09-12 06:43:00",
+   "scanner_count": "38",
+   "scanner_match": "7",
+   "scanner_percent": "18.42"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6aac2acd752a8eb4bf0a48c5/reports/0f910afa-8a2d-4cd6-a103-e1ceafb9032a/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-12T00:44:00Z",
+   "last_seen": "2026-09-18T21:30:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/6044b2da11979e55dbb73af4310e037a6a2c121458ebdd064fb7e3e2eee557ba/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

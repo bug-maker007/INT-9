@@ -1,0 +1,148 @@
+{
+ "sha256_hash": "2a2bb95a463dcddb604e10830cc5c60191ef2947578ccb75180ae7188b4baaa3",
+ "sha3_384_hash": "b1bd8518ba8377c85974eb5e620caf173c8907c6684989c8ab613428bf730a3e9d47265b7a80390528d627be6f41c163",
+ "sha1_hash": "4099cc5f3a85053640a8359854c3adeacefeb436",
+ "md5_hash": "4e7f5b1d17d075ec4290e984dfac58d3",
+ "first_seen": "2022-12-15 11:09:13",
+ "last_seen": null,
+ "file_name": "2a2bb95a463dcddb604e10830cc5c60191ef2947578ccb75180ae7188b4baaa3_video.apk",
+ "file_size": 1892669,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "AykutBasi",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1BE9523A99EA0B034D82675318F855002EE7BAB03C1E59DDF7E8E08571F01FA48F5F5A6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:6afGavTcxPrVeO3x13x+ka6DC5BZ9CLBEMB2Qa4kAHDZnBvGnMjMJuKsnGgVeh1r:6BavYxBeC3+kn72eH9n//Gdh1",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "49.3% (.APK) Android Package (38500/1/9)",
+  "17.9% (.ZIP) Opera Widget (14000/1/2)",
+  "17.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "5.1% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.14047.27503.18630.UNOFFICIAL"
+  ],
+  "downloads": "380",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2a2bb95a463dcddb604e10830cc5c60191ef2947578ccb75180ae7188b4baaa3/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/2a2bb95a463dcddb604e10830cc5c60191ef2947578ccb75180ae7188b4baaa3",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/221215-m9n9pscc24/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://5.161.152.54"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Cebruser",
+   "status": "MALICIOUS",
+   "first_seen": "2022-12-15 07:59:21",
+   "scanner_count": "26",
+   "scanner_match": "10",
+   "scanner_percent": "38.46"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/639b008b4eb0cc4ebcdd2dbb/reports/cba403e9-1973-4c87-9c17-ca47846223b0/overview"
+  }
+ },
+ "comments": null
+}

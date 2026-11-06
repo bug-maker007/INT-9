@@ -1,0 +1,105 @@
+{
+ "sha256_hash": "03b8c573cd719e544d027170e25799ffeeb61b3d0ba9827ea0d2248e0a66319d",
+ "sha3_384_hash": "cd618e7d9ac098a9ab09e735f43c1b4db8bdc6ff0f3761825d40322b27c888789537c8f214174d81caa6801426f3544e",
+ "sha1_hash": "8b491a026b3689e1b3f21af8c6aeaa0ad31055fc",
+ "md5_hash": "dc51bff95e5440333dbac8b51994a00d",
+ "first_seen": "2021-10-16 18:14:22",
+ "last_seen": null,
+ "file_name": "Google_Guncelleme.apk",
+ "file_size": 2890784,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1CDD533DC17A044ADE237ED7169CB4242B3610F879128029F6DA9BEB098F3D451F9D93D",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:iRfAtVRTLJe4S5x8GuzmsMSCGL6kdn6zfwaWNBOsKQwWqr48+73ZeswNP7RhuBVJ:wfAfNLJe4SQGuzsA6kdn6zfPYBONQb77",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.ScytheSCF.GG.1087.29139.UNOFFICIAL"
+  ],
+  "downloads": "457",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "anubis",
+   "link": "https://mwdb.cert.pl/sample/03b8c573cd719e544d027170e25799ffeeb61b3d0ba9827ea0d2248e0a66319d/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/03b8c573cd719e544d027170e25799ffeeb61b3d0ba9827ea0d2248e0a66319d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/211016-wvw6facbg3/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://51.81.32.58"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-10-16 18:15:08",
+   "scanner_count": "45",
+   "scanner_match": "6",
+   "scanner_percent": "13.33"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,136 @@
+{
+ "sha256_hash": "8e39fb18e8acb2e4fc4bcd7db2efc320f5ec84100e8ba870fd24dd13a6584277",
+ "sha3_384_hash": "3dd4ae3318f3640c07cf24f4f9f476201f1bdc34dd450bb8916abc4ca5264b8a2fbcf13acd8a9b54afd6e36b9c4beb30",
+ "sha1_hash": "e31cdb45807b9a31a5d4ff48d79ade5b1c903f61",
+ "md5_hash": "997bc622fcd485158673b680e7ad9d30",
+ "first_seen": "2026-05-30 16:37:57",
+ "last_seen": null,
+ "file_name": "8e39fb18e8acb2e4fc4bcd7db2efc320f5ec84100e8ba870fd24dd13a6584277.apk",
+ "file_size": 15976693,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": "PixRevolution",
+ "imphash": null,
+ "tlsh": "T13BF63305BB989E1EC07781364D4A6232624E9D57C762C387E924324D3CB3AF84FD97E9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:8+e3AnLK/P7LavGbOhUydNfRj0HbqEww/FlvYPO+yl:3K3SGiN7Zj0Hb3D/r0O+s",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "48.2% (.JAR) Java Archive (13500/1/2)",
+  "37.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "14.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "200-9-154-125",
+  "apk",
+  "banker",
+  "PixRevolution",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "295",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_sha256",
+   "value": "557c02b5e9ca8103e6ad5413df1b447fae5c9ce086a0b5330bf9c79a578585df"
+  },
+  {
+   "context": "dropping_md5",
+   "value": "e931d549c340cca59535fcbcc0b434cc"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8e39fb18e8acb2e4fc4bcd7db2efc320f5ec84100e8ba870fd24dd13a6584277/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "pixrevolution",
+   "score": "10",
+   "link": "https://tria.ge/reports/260530-t5hppah15z/",
+   "tags": [
+    "family:pixrevolution",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "impact",
+    "persistence",
+    "trojan"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2026-05-30 02:12:34",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a1b127d099ef368af0fea6c/reports/c59cbf3f-76da-4d7d-a892-c76b2a81b922/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-30T03:18:00Z",
+   "last_seen": "2026-05-31T23:44:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/8e39fb18e8acb2e4fc4bcd7db2efc320f5ec84100e8ba870fd24dd13a6584277/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

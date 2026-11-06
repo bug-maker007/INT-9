@@ -1,0 +1,164 @@
+{
+ "sha256_hash": "5d4972e846d795b495d70fa054821c53678d2335b6879b4bf9a9116e101a8826",
+ "sha3_384_hash": "13bd6bb3514906b9bc47cad337ed354e26e34141de444165e0d965eafef5e67ae41d470c7c7d0590ed3c19c3e72e9f33",
+ "sha1_hash": "a32d50ec358f0eee9aee3d8cc9caf845ce19013d",
+ "md5_hash": "2a4c3f5762557b23edfae7be6edbe2d6",
+ "first_seen": "2026-04-03 16:49:48",
+ "last_seen": null,
+ "file_name": "childapp.apk",
+ "file_size": 4591067,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T1CB26F103FB54D68BDAAE83F26F270C9916175F14C692A6D340107A7E2EB76C10DC6ADC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:AT8OFRGW75+bJ8UvBVMyLbGmzozBXTE0t4g98BB:LExQZVMyL9zM33UB",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "39.4% (.APK) Android Package (27000/1/5)",
+  "19.7% (.JAR) Java Archive (13500/1/2)",
+  "19.7% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "15.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SpyNote"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SpyMax.55.origin.17059.5528.UNOFFICIAL"
+  ],
+  "downloads": "291",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "test_Malaysia",
+   "author": "rectifyq",
+   "description": "Detects file containing malaysia string",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5d4972e846d795b495d70fa054821c53678d2335b6879b4bf9a9116e101a8826/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/5d4972e846d795b495d70fa054821c53678d2335b6879b4bf9a9116e101a8826",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/260403-vcchmsez8j/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "execution",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ravartar",
+   "status": "MALICIOUS",
+   "first_seen": "2026-04-02 03:35:00",
+   "scanner_count": "38",
+   "scanner_match": "14",
+   "scanner_percent": "36.84"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69cfefc4e2df9aa488c54be2/reports/9f17070c-b4aa-41f6-8149-448b025af216/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-04-01T18:05:00Z",
+   "last_seen": "2026-04-04T00:13:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/5d4972e846d795b495d70fa054821c53678d2335b6879b4bf9a9116e101a8826/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

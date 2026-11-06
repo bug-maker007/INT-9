@@ -1,0 +1,148 @@
+{
+ "sha256_hash": "d5ca7ba75cfb8fd76929c1b8f6547780d8305a6654b6423124d380ff59b0d1c9",
+ "sha3_384_hash": "29335ba0a92b174056a0d63051dde177478e4070226216a8afb8608a0afbb7340f05902fbc8b7f1a8a3fbc17035babae",
+ "sha1_hash": "ae15f0e4c2c299adf52de17b51400fcf25479184",
+ "md5_hash": "dbf98b9b54fdd429ceb18b35158e44d4",
+ "first_seen": "2024-05-01 19:17:51",
+ "last_seen": null,
+ "file_name": "dbf98b9b54fdd429ceb18b35158e44d4",
+ "file_size": 1501671,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "zbetcheckin",
+ "origin_country": "FR",
+ "anonymous": 0,
+ "signature": "Ermac",
+ "imphash": null,
+ "tlsh": "T19165E082F71A592FC8B785364D5A073523569E13CA93934B88A8372C7C7B7C80F89BC5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:My/WPvDL4292BzHVFYixHq9bYHfumO9dRuKKiwBUH27m8AdWeUR1uffgpABG/4zb:F/W3f4292Bz1FYsHq9bYHfumscKKipw6",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.7% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "25.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "6.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Ermac",
+  "zip"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.Ermac.6.origin.16923.11798.UNOFFICIAL"
+  ],
+  "downloads": "393",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2834079/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d5ca7ba75cfb8fd76929c1b8f6547780d8305a6654b6423124d380ff59b0d1c9/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "ermac",
+   "score": "10",
+   "link": "https://tria.ge/reports/240502-a4msgaeb29/",
+   "tags": [
+    "family:ermac",
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about the current Wi-Fi connection",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "7"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "7"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ermak",
+   "status": "MALICIOUS",
+   "first_seen": "2024-05-01 19:18:12",
+   "scanner_count": "23",
+   "scanner_match": "9",
+   "scanner_percent": "39.13"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6632957eecbd00e832545254/reports/a796079d-6cb6-435f-a985-8a196acc67ed/overview"
+  }
+ },
+ "comments": [
+  {
+   "id": "92868",
+   "date_added": "2024-05-01 19:17:52",
+   "twitter_handle": "zbetcheckin",
+   "display_name": "zbet",
+   "comment": "url : hxxp://37.60.238.252:8085/getfile.php?download=YXBwLXJlbGVhc2UtNC5hcGs="
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "sha256_hash": "23b0c2e740a824ff6e81d27c706f229fb1017ef3d711cfad1021b08cbac14c61",
+ "sha3_384_hash": "340bef51f980e97845469b0d861e5f98579b6a5dd2a792f73a1233ec7859f371232fbc8914c2a9aad45742508ad24e53",
+ "sha1_hash": "8a5d2203001d2ff1639a894b4e0f8f6dc0450a20",
+ "md5_hash": "aa15cc90baed4b2ed3701b2ef4d1293c",
+ "first_seen": "2026-05-06 08:50:40",
+ "last_seen": null,
+ "file_name": "app(6).apk",
+ "file_size": 6257161,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T19C56F1C9F7D8A92FC4775032C97A52F152874C168A83DF83A954320C69BB6D45F8AFC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:ePVSCQ05WtX3lPIQZQdVFi+dHGOIb0sRiA7OUmsriZByNzG5yWoVvihWo/KrdvFN:e8CHIFPENtLIb0sRjO1GibwvtVvCoFN",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "50.0% (.APK) Android Package (27000/1/5)",
+  "23.1% (.VYM) VYM Mind Map (12500/1/3)",
+  "19.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "135",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/23b0c2e740a824ff6e81d27c706f229fb1017ef3d711cfad1021b08cbac14c61/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.05"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/23b0c2e740a824ff6e81d27c706f229fb1017ef3d711cfad1021b08cbac14c61",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260506-ksfvwshz5p/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-11-20 02:08:25",
+   "scanner_count": "24",
+   "scanner_match": "1",
+   "scanner_percent": "4.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fb011286e92bda7020b408/reports/a99fbb46-cfec-45fb-9b4a-5f0b189a7cc7/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-07T06:21:00Z",
+   "last_seen": "2026-05-08T00:00:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/23b0c2e740a824ff6e81d27c706f229fb1017ef3d711cfad1021b08cbac14c61/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

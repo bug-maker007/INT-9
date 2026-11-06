@@ -1,0 +1,106 @@
+{
+ "sha256_hash": "745eadd29be72626e6686654ed778a12e9270193854ed911d961256f8791fc2b",
+ "sha3_384_hash": "ca0a1297de7428b4dc7c93aafd3088768711d50ee7fdd73bbd580fd8f5ce20395939e61321c8f78a84f881fb83b901aa",
+ "sha1_hash": "017c1220bba673489149924e7dc2e45976a55255",
+ "md5_hash": "120344b8eaae70ebb8d245cf9548f6fb",
+ "first_seen": "2021-09-03 20:04:29",
+ "last_seen": null,
+ "file_name": "Ifsa_Video_Part1.apk",
+ "file_size": 3497451,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T12BF5339FDB034B2DCE164335E24356F656613678B189963E0D2210AF69E7FC0AF44CAE",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:TJbITsmYlkZg3u1nhyUYGM5P9kjH9SdUvmRg3vn+0TuYKOBen1ZFAk+8vuK3Dfwa:TzmhnhC5VksamRg3vnBtq1L/+Ip",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan005589041.15927.5393.UNOFFICIAL"
+  ],
+  "downloads": "313",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1589743/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/745eadd29be72626e6686654ed778a12e9270193854ed911d961256f8791fc2b/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/745eadd29be72626e6686654ed778a12e9270193854ed911d961256f8791fc2b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/210903-ytt1ssggal/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://domaindomaindomaindomain.space/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Boogr",
+   "status": "MALICIOUS",
+   "first_seen": "2021-09-03 20:05:07",
+   "scanner_count": "43",
+   "scanner_match": "7",
+   "scanner_percent": "16.28"
+  }
+ },
+ "comments": null
+}

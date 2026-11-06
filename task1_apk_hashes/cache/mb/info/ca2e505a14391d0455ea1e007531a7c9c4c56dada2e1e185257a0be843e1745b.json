@@ -1,0 +1,116 @@
+{
+ "sha256_hash": "ca2e505a14391d0455ea1e007531a7c9c4c56dada2e1e185257a0be843e1745b",
+ "sha3_384_hash": "b40d69bf22ffec1f5dc13c2dff6a92b90794def4c277255bd1bdbc396e0ee4d43240fb3aa87dd995a4c3827c51f5874c",
+ "sha1_hash": "6942c259cba7e08ddd69573d0d2e8c112938a27b",
+ "md5_hash": "be58fb77961a3bebe6263a57122b64c8",
+ "first_seen": "2026-05-08 09:38:04",
+ "last_seen": null,
+ "file_name": "iMobile Lite (46).apk",
+ "file_size": 17888833,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T10007CD23F5096996CED6A131F5E347A532341D580793A329271FF026FDF21CECA66AC2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:XhjJoGbVWORIGg9cQ7x+j1b5nq9SLiH4+TwnpiISk9bHT4BunE3gx246+f1GCYgz:RjJP59Qk9q9E+Kr1z4BunHEg1Fz",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "51.2% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "29.2% (.WMZ) Windows Media Player skin (6000/1/1)",
+  "19.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "ICICI",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "161",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Jeevan_Malware_Rewards",
+   "author": "ShriTiger",
+   "description": "Detects JeevanReward variants using Technical, Anti-Analysis, and Indian SE keywords",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ca2e505a14391d0455ea1e007531a7c9c4c56dada2e1e185257a0be843e1745b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ca2e505a14391d0455ea1e007531a7c9c4c56dada2e1e185257a0be843e1745b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-lnmcjsav3k/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-08 09:39:35",
+   "scanner_count": "38",
+   "scanner_match": "5",
+   "scanner_percent": "13.16"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/69fdaf0f2fcb905ec2880b21/reports//overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-08T07:24:00Z",
+   "last_seen": "2026-05-08T17:19:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/ca2e505a14391d0455ea1e007531a7c9c4c56dada2e1e185257a0be843e1745b/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

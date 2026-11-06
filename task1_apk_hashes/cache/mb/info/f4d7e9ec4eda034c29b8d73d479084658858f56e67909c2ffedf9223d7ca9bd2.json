@@ -1,0 +1,145 @@
+{
+ "sha256_hash": "f4d7e9ec4eda034c29b8d73d479084658858f56e67909c2ffedf9223d7ca9bd2",
+ "sha3_384_hash": "64e1c1bb441a0e9fc8d501950532a41b99181a1bfe96998eafdc4173031e52381737cf7b63c382ed8d4f460a377c5d13",
+ "sha1_hash": "436736451c497872d3ca1007b0d4950692d1baab",
+ "md5_hash": "8e83d178c1a3b9da0c71c613e2c77647",
+ "first_seen": "2025-04-22 09:59:02",
+ "last_seen": null,
+ "file_name": "8e83d178c1a3b9da0c71c613e2c77647.apk",
+ "file_size": 2191141,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "IndonesiaPeople",
+ "origin_country": "ID",
+ "anonymous": 0,
+ "signature": "Vultur",
+ "imphash": null,
+ "tlsh": "T184A5D042F768A92FC8B3E1725EE6073601414E86D751E31B9918776C3DBBAD48F82BC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:UNcP5pC2iTBlopY6iG8Mm1eDiIzEFsZbpV:5mTBlUxCiiIzEFsZlV",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "55.6% (.APK) Android Package (27000/1/5)",
+  "21.6% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "14.4% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "8.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "Apk",
+  "Trojan",
+  "Vultur"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan-Spy.AndroidOS.Vultur.5044.3583.UNOFFICIAL"
+  ],
+  "downloads": "326",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/f4d7e9ec4eda034c29b8d73d479084658858f56e67909c2ffedf9223d7ca9bd2",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "vultur",
+   "score": "10",
+   "link": "https://tria.ge/reports/250422-r9z4esytgx/",
+   "tags": [
+    "family:vultur",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "persistence",
+    "stealer",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Vultur",
+     "score": "10"
+    },
+    {
+     "signature": "Vultur family",
+     "score": "10"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Vultur",
+   "status": "MALICIOUS",
+   "first_seen": "2021-07-02 19:32:05",
+   "scanner_count": "24",
+   "scanner_match": "14",
+   "scanner_percent": "58.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6807ad5de9c1e257979fa004/reports/94cf7ca9-f178-45fd-b8e3-43ca08e6a417/overview"
+  }
+ },
+ "comments": null
+}

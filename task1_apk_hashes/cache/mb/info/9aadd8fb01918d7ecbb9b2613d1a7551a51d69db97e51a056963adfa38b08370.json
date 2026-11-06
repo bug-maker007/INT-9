@@ -1,0 +1,133 @@
+{
+ "sha256_hash": "9aadd8fb01918d7ecbb9b2613d1a7551a51d69db97e51a056963adfa38b08370",
+ "sha3_384_hash": "835f5d9cbbd479209ae96c17f64b04f31d278ab4c5ee978ddf45369428b692c190d871bda14d1e932f5341e590e5bf6e",
+ "sha1_hash": "5f896e6d4fe65f9a856f2f0ec9f0b86cb2c4d087",
+ "md5_hash": "3f0f9641b3ff9bbea02d77339f5015ef",
+ "first_seen": "2025-10-04 04:34:28",
+ "last_seen": null,
+ "file_name": "c3jn21.apk",
+ "file_size": 6206922,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T18356225BF7D0599AE8F743381A3352A031438D229797E28BD87C763CB4338E19E959E4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:I2Rw8qYiM9DjyFDXs4gHD73eRlE+ga5e3BWzjO0qMmIXi5xgNi3Zym95r2C0yMJR:I2BBBeFcHDSDD5e3BWPO00pZ9I2w23xE",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "InfoStealer",
+  "SpaceX",
+  "SpyAgent",
+  "SpyNote",
+  "Starlink"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "381",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_AllMal_Detector",
+   "author": "DiegoAnalytics",
+   "description": "CrossPlatform All Malwares Detector: Detect PE, ELF, Mach-O, scripts, archives; overlay, obfuscation, encryption, spoofing, hiding, high entropy, network communication",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/9aadd8fb01918d7ecbb9b2613d1a7551a51d69db97e51a056963adfa38b08370/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/9aadd8fb01918d7ecbb9b2613d1a7551a51d69db97e51a056963adfa38b08370",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/251004-e7d2ysysfx/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "151.243.219.251:5551"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.PUA.Maltiverza",
+   "status": "MALICIOUS",
+   "first_seen": "2025-10-04 04:35:47",
+   "scanner_count": "24",
+   "scanner_match": "7",
+   "scanner_percent": "29.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68e0a3dc5a3bccf09eb75c86/reports/0add1146-c6bb-49ad-ab3b-fbae2da6acf8/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-10-04T02:38:00Z",
+   "last_seen": "2025-10-04T03:19:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/9aadd8fb01918d7ecbb9b2613d1a7551a51d69db97e51a056963adfa38b08370/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

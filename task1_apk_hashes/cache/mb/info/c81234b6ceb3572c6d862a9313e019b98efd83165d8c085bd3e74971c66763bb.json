@@ -1,0 +1,129 @@
+{
+ "sha256_hash": "c81234b6ceb3572c6d862a9313e019b98efd83165d8c085bd3e74971c66763bb",
+ "sha3_384_hash": "202531a13551879bea5396aa8b8ff922c8efaaadb3c00d5732a3ff54e2b01b46a13e0ff1cb9b5b4d3f7651df080a2a0f",
+ "sha1_hash": "9cddff2056ccfcfbd30d3ed50651a45c69a5e840",
+ "md5_hash": "3f3bef2f188d420c30c2616cc74c69e5",
+ "first_seen": "2022-12-15 11:09:47",
+ "last_seen": null,
+ "file_name": "c81234b6ceb3572c6d862a9313e019b98efd83165d8c085bd3e74971c66763bb_video.apk",
+ "file_size": 2121030,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "AykutBasi",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1DBA533CF0A905A60D8932E3146660643D7BB5359430BAA8F302F02569FB3FD55F698FE",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:ywkDVrfNOesuX/0KjKooHMzWwyuyjrlUy7HOWwU6:ywkDxfgesuX/0KjKoaM6v7jey7vw1",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "49.3% (.APK) Android Package (38500/1/9)",
+  "17.9% (.ZIP) Opera Widget (14000/1/2)",
+  "17.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "5.1% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "Sanesecurity.Foxhole.JS_Zip_24.UNOFFICIAL"
+  ],
+  "downloads": "616",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c81234b6ceb3572c6d862a9313e019b98efd83165d8c085bd3e74971c66763bb/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c81234b6ceb3572c6d862a9313e019b98efd83165d8c085bd3e74971c66763bb",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/221215-m9pkgacc25/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2022-12-12 15:51:33",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/639b008c7459fa681d0d67f8/reports/23d65ba3-bc1d-4dd7-ba81-612ae43c9c56/overview"
+  }
+ },
+ "comments": null
+}

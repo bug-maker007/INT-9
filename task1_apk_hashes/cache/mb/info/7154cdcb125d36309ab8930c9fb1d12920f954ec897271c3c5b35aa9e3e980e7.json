@@ -1,0 +1,100 @@
+{
+ "sha256_hash": "7154cdcb125d36309ab8930c9fb1d12920f954ec897271c3c5b35aa9e3e980e7",
+ "sha3_384_hash": "f216d713268b4ee5bfa55f6fd5683b415e9a2fcf70533915647ce9f01c29d8e2640ce3a508910d3b2016271f6dc9473b",
+ "sha1_hash": "a0dbb365d081561cf376e8513ac9156e4fd7fcd7",
+ "md5_hash": "b70df52b2a6d09f7278645f5d07e8e08",
+ "first_seen": "2023-09-03 08:19:20",
+ "last_seen": null,
+ "file_name": "7154CDCB125D36309AB8930C9FB1D12920F954EC897271C3C5B35AA9E3E980E7.apk",
+ "file_size": 5913367,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ReBensk",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T156561116C31DA82FCC7350326AA8106245528DD96992FB637F04B30E7EF7E958B49FC9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:cIkUcb8m7NLi88rNfnSbUpdSRxyiDC86Vb4Qjw/DWa80as+eWfH/pMzfpeZVPFEf:qHgm7N+8yNfnSbAGvsKm885deEfpMdY0",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.7% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "25.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "6.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Joker"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.HEUR.Trojan.AndroidOS.Jocker.zr.2916.21523.UNOFFICIAL"
+  ],
+  "downloads": "204",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7154cdcb125d36309ab8930c9fb1d12920f954ec897271c3c5b35aa9e3e980e7/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.05"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/7154cdcb125d36309ab8930c9fb1d12920f954ec897271c3c5b35aa9e3e980e7",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/230903-j8er4aha76/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2023-09-02 22:25:23",
+   "scanner_count": "24",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/64f441b45c5d7698b7f5e9c1/reports//overview"
+  }
+ },
+ "comments": null
+}

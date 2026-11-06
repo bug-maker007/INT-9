@@ -1,0 +1,133 @@
+{
+ "sha256_hash": "9b020d58e01e1c6f317111d41fe635607c5d6c37542d70f391a64e5d8aa7af43",
+ "sha3_384_hash": "9087ec6c41a3cc0330597617e76664dda1828ff832058a9916bdff08ec995e3c0daf89adc642fbe002cd564f69d2adf8",
+ "sha1_hash": "9ed538e75e96e5efcd0989a2ff38800311eafc7c",
+ "md5_hash": "0de8f611e5e53f77baf3f3be289b1658",
+ "first_seen": "2022-05-26 10:48:48",
+ "last_seen": null,
+ "file_name": "sana.apk",
+ "file_size": 2016741,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1D7953312FFCBD462D60BDC36D52495639C1D831AE95EBA172E28C1B972E3C2DF603858",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:DhFePyrkEl1s8lRwbhhR4dLJrA+4nzGYUz0NChA4UAHLZV:DhFeOVlR+4tFA+uCf+ChA4UwT",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "Malware Phishing system of Electronic Judicial Services System Iran.",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "iran",
+  "malware",
+  "Phishing",
+  "signed",
+  "sms",
+  "smsspy",
+  "spy",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "editor",
+   "issuer_cn": "editor",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-01-10T08:03:09Z",
+   "valid_to": "2115-12-17T08:03:09Z",
+   "serial_number": "231bc320",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "6215f00baa4bf18bab5792fc796bfc5555917240f14f7c7e672d956888d75c96",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.4521.14649.3684.UNOFFICIAL"
+  ],
+  "downloads": "552",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "smsspy"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2211898/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/9b020d58e01e1c6f317111d41fe635607c5d6c37542d70f391a64e5d8aa7af43/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.40"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/9b020d58e01e1c6f317111d41fe635607c5d6c37542d70f391a64e5d8aa7af43",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220526-mwne9aefbm/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Backdoor.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2022-05-26 10:49:22",
+   "scanner_count": "26",
+   "scanner_match": "13",
+   "scanner_percent": "50.00"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/628f5b2065e33815993a0a08/reports/67c73c4b-404b-4bb6-b762-043fbb1a3a6b/overview"
+  }
+ },
+ "comments": null
+}

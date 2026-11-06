@@ -1,0 +1,134 @@
+{
+ "sha256_hash": "8a1a55e957f7afe3e37807008f0f1b026ca0e8f88f67c0d2381b0f825eeb5c2a",
+ "sha3_384_hash": "3c4c82ce20c96fcd9ef8ba77fea6d84ca64798e3c422fa86782253efa19836e5a86af7b8a1ef9428bef2b391fca89dfe",
+ "sha1_hash": "5635ea39ae1ad9cc466a248fc8c8908e65a435e5",
+ "md5_hash": "0e3be3e373dfc389c07e52806dcc0bd8",
+ "first_seen": "2024-03-03 08:38:36",
+ "last_seen": null,
+ "file_name": "com.gameschill.theLittleMermaid.apk",
+ "file_size": 9211109,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ReBensk",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T143962393E3ADA45EC8F6863646B9556206A20E608617E7D3394DF27C2BF39C09F45FC0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:tMjL/BrvAuVwhp9gCB7tSlcfSzYsfLblVw09F:tM2uap7Scfkfrwm",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "52.8% (.APK) Android Package (32500/1/6)",
+  "21.9% (.JAR) Java Archive (13500/1/2)",
+  "17.0% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "6.5% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.6% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Jocker",
+  "Joker",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2024-01-13T19:36:38Z",
+   "valid_to": "2054-01-13T19:36:38Z",
+   "serial_number": "deb88e535e3ae05433e01fc585d8880d2eeb1bf0",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "92e0d7dabc37d35c3c45ded951f5383df805db8419c6e7492acb98a65486e548",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "356",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/ReBensk/status/1764205335986704473"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8a1a55e957f7afe3e37807008f0f1b026ca0e8f88f67c0d2381b0f825eeb5c2a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/8a1a55e957f7afe3e37807008f0f1b026ca0e8f88f67c0d2381b0f825eeb5c2a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/240303-kkac5sge23/",
+   "tags": [
+    "android",
+    "discovery",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-03-03 08:39:08",
+   "scanner_count": "24",
+   "scanner_match": "4",
+   "scanner_percent": "16.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.25",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65e437277ce606140b1b6302/reports/b159276a-3972-4260-bb2f-9bfb16ac230c/overview"
+  }
+ },
+ "comments": null
+}

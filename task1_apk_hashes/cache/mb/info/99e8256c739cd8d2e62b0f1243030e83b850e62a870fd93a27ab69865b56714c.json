@@ -1,0 +1,80 @@
+{
+ "sha256_hash": "99e8256c739cd8d2e62b0f1243030e83b850e62a870fd93a27ab69865b56714c",
+ "sha3_384_hash": "ce5b70c6bf1224d9d6b405cf2d5f333affa6c5d3b46dd300dd8611a79a579d148ce34c2fd3e7bc144aca1728df23c40e",
+ "sha1_hash": "183817020bfd64720cfccd65197ddeda541dba30",
+ "md5_hash": "6133e91254e338f65be7135db23950ff",
+ "first_seen": "2021-09-04 22:15:41",
+ "last_seen": null,
+ "file_name": "AndroidUpdate.apk",
+ "file_size": 3316273,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T14FE5333EDB01992DD64FC2F695C3298B3DB6254F6AD6312E05B546C20CD2C819BA38FD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:/lcI/OXGsMzOchzZ4Iq+u/oLzvdRlpPyiDIi:PuGxzOchZjq+6EJxKif",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.PUA.DebugKey.7666.12412.UNOFFICIAL"
+  ],
+  "downloads": "292",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1592680/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/99e8256c739cd8d2e62b0f1243030e83b850e62a870fd93a27ab69865b56714c/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/99e8256c739cd8d2e62b0f1243030e83b850e62a870fd93a27ab69865b56714c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210904-16sdvahffj/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Boogr",
+   "status": "MALICIOUS",
+   "first_seen": "2021-09-04 22:16:15",
+   "scanner_count": "43",
+   "scanner_match": "7",
+   "scanner_percent": "16.28"
+  }
+ },
+ "comments": null
+}

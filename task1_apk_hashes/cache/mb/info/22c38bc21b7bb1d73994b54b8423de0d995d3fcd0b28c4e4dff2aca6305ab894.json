@@ -1,0 +1,118 @@
+{
+ "sha256_hash": "22c38bc21b7bb1d73994b54b8423de0d995d3fcd0b28c4e4dff2aca6305ab894",
+ "sha3_384_hash": "8e65562cfa7086151a1fe29f0441feb3b6641abcad3baa511e6a5cd8cdf66808c9ebf691f189924572443fa2e678845b",
+ "sha1_hash": "6fbcb1fca83843fb46d17f3c641306e62698d237",
+ "md5_hash": "17266c263e0b37eadc62555f9def1460",
+ "first_seen": "2024-02-22 10:15:17",
+ "last_seen": null,
+ "file_name": "base.apk",
+ "file_size": 1378779,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1A75533EEF33604E7D8AB453319305F2255334329CF87AB4736BB453D6631A8AA749C62",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:wan1gbj1fK1UwCqrewpfhTZiax/Jkp/VNOp4dBfM0Uo9T97oBS3xE91:/n2E1/rewRhTZiy/4Op4DVV9KBS3U",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "45.7% (.APK) Android Package (32500/1/6)",
+  "19.0% (.JAR) Java Archive (13500/1/2)",
+  "18.3% (.ZAE) Compressed COLLADA Digital Asset Exchange (13000/1/2)",
+  "9.8% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "5.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.989.origin.23006.13390.UNOFFICIAL"
+  ],
+  "downloads": "581",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/22c38bc21b7bb1d73994b54b8423de0d995d3fcd0b28c4e4dff2aca6305ab894/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/22c38bc21b7bb1d73994b54b8423de0d995d3fcd0b28c4e4dff2aca6305ab894",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240222-masg3sff41/",
+   "tags": [
+    "family:irata",
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SmsThief",
+   "status": "MALICIOUS",
+   "first_seen": "2024-02-22 10:16:09",
+   "scanner_count": "24",
+   "scanner_match": "8",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65d71ee422703c3491aae215/reports/e299f4a2-5d5e-44e8-b639-d0a6045bec20/overview"
+  }
+ },
+ "comments": null
+}

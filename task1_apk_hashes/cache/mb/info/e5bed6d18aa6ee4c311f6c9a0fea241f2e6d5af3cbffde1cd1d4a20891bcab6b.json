@@ -1,0 +1,108 @@
+{
+ "sha256_hash": "e5bed6d18aa6ee4c311f6c9a0fea241f2e6d5af3cbffde1cd1d4a20891bcab6b",
+ "sha3_384_hash": "86942a66066d27dfee803287a853224863f07d5cac09367eb151faaa8ddf474f68d01e381faaee12a60d6760578e14f5",
+ "sha1_hash": "0c57449c0a03acc29436303de99073f5fc693d34",
+ "md5_hash": "5039416032bdf58ed43da37713d8d14e",
+ "first_seen": "2026-05-06 09:03:23",
+ "last_seen": null,
+ "file_name": "CRΕDІT CΑRD ΑРРRΟVАL.apk",
+ "file_size": 14074668,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1C9E6124AEE48CC6AECF65339FE32436338325D684703C57BA569B63C3E735C25A91990",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:ny8LHJFyqmeTrH122YmWNdwmQRIx2HLInLPHlh:nyaHryqn02Ym3mQRdKbHlh",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "120",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e5bed6d18aa6ee4c311f6c9a0fea241f2e6d5af3cbffde1cd1d4a20891bcab6b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/e5bed6d18aa6ee4c311f6c9a0fea241f2e6d5af3cbffde1cd1d4a20891bcab6b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260506-kz9fsah16n/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-11-20 22:25:51",
+   "scanner_count": "24",
+   "scanner_match": "5",
+   "scanner_percent": "20.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/69fb03e086e92bda7020b883/reports//overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-11-20T16:11:00Z",
+   "last_seen": "2026-05-08T00:00:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/e5bed6d18aa6ee4c311f6c9a0fea241f2e6d5af3cbffde1cd1d4a20891bcab6b/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,101 @@
+{
+ "sha256_hash": "6f4fe04179136a6685c3ecef2fa433fd1c10133db1e527cd09860a1736e4f1d5",
+ "sha3_384_hash": "2f918919677d60bbfe9ae840a8ad9cb40cfb195bcff44b75e3d1ff92c7c7129d3a25c8a9175047df368d3ebb9bab4cf6",
+ "sha1_hash": "20cd293e6ed58c4a80a2ffa58f555c2747c1d3c0",
+ "md5_hash": "b24e176e263c9c4b2315ba5d9f05d820",
+ "first_seen": "2025-04-03 17:17:37",
+ "last_seen": null,
+ "file_name": "TG_3392_1.apk",
+ "file_size": 62700461,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T17CD722E3F309AC38D1F34336937411A7BA350DA4AB17E2A65406F6386EF3AD48149ED5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:3hM56H7Yslu0dva8ZFT1InTFWCnF0PBXzG:S56H7tIcDTchBnF+BS",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "35.5% (.APK) Android Package (27000/1/5)",
+  "18.4% (.ZIP) Opera Widget (14000/1/2)",
+  "17.7% (.JAR) Java Archive (13500/1/2)",
+  "13.8% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.2% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)"
+ ],
+ "comment": "https://witenagemot.b-cdn.net/TG_3392_1.apk",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "1",
+   "issuer_cn": "1",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2022-06-30T10:12:14Z",
+   "valid_to": "2047-06-24T10:12:14Z",
+   "serial_number": "147879ed",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "401ab06b67995ddc22f68ff95a34b07db899d6a991715ce31fcfa32b793b06e9",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "134",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/6f4fe04179136a6685c3ecef2fa433fd1c10133db1e527cd09860a1736e4f1d5",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/250403-vvmfkasry9/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Triada",
+   "status": "MALICIOUS",
+   "first_seen": "2025-04-03 17:18:48",
+   "scanner_count": "24",
+   "scanner_match": "4",
+   "scanner_percent": "16.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67eec2f12d430c849e052c7c/reports/e483e1bf-d1a6-4119-b64e-ec894ed00b20/overview"
+  }
+ },
+ "comments": null
+}

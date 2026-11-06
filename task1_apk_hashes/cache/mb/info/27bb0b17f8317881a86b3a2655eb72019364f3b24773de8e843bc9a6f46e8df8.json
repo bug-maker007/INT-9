@@ -1,0 +1,174 @@
+{
+ "sha256_hash": "27bb0b17f8317881a86b3a2655eb72019364f3b24773de8e843bc9a6f46e8df8",
+ "sha3_384_hash": "8844c7accc16e6267a0fefd3ffcaa381ea58839d72f5ccdc429c89cac32bca0d8002a9582e3a025f8fbb45953ecbc9f2",
+ "sha1_hash": "2b3f604bdcb88e04b18bee7341a2d1510910055a",
+ "md5_hash": "d0fe48c6842d0c267e69f3f07b6d75d6",
+ "first_seen": "2026-09-19 10:56:49",
+ "last_seen": null,
+ "file_name": "mirai.apk",
+ "file_size": 440173,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Kejult",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "Mirai",
+ "imphash": null,
+ "tlsh": "T12D9423E67F7D822BCBECE83563615CE98491534C4A30D8D33E7206A13EF2EE95195E42",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:mvhhjOXULHpmmkUtWu4Yu9WoBgp+YRdhRGOqFtGpIdvOvn8reI3LDpAwL7yKMZpn:mvrjYUtm7UhhITCoYELGfRI3lTMj",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "backdoor",
+  "mirai",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_drive-by",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan.Linux.Mirai.27274.5226.UNOFFICIAL"
+  ],
+  "downloads": "269",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "ELF_IoT_DVR_Botnet_Hama_UPX",
+   "author": "Serhii Kocherhan",
+   "description": "Detects packed and unpacked ELF IoT/DVR botnet variants targeting UPX compression structures and uncompressed code",
+   "reference": null
+  },
+  {
+   "rule_name": "linux_generic_ipv6_catcher",
+   "author": "@_lubiedo",
+   "description": "ELF samples using IPv6 addresses",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "SUSP_ELF_LNX_UPX_Compressed_File",
+   "author": "Florian Roth (Nextron Systems)",
+   "description": "Detects a suspicious ELF binary with UPX compression",
+   "reference": "Internal Research"
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "TH_Generic_MassHunt_Linux_Malware_2026_CYFARE",
+   "author": "CYFARE",
+   "description": "Generic Linux malware mass-hunt rule - 2026",
+   "reference": "https://cyfare.net/"
+  },
+  {
+   "rule_name": "upx_packed_elf_v1",
+   "author": "RandomMalware",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/27bb0b17f8317881a86b3a2655eb72019364f3b24773de8e843bc9a6f46e8df8/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": null,
+   "link": "https://tria.ge/reports/260919-m2c7gabk3w/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Linux.Worm.Mirai",
+   "status": "MALICIOUS",
+   "first_seen": "2026-09-19 10:57:15",
+   "scanner_count": "38",
+   "scanner_match": "19",
+   "scanner_percent": "50.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6aae6a89df32f02fa8a5aa7e/reports/3300b626-42a1-49d3-aaf0-293530ae828b/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-19T08:46:00Z",
+   "last_seen": "2026-09-21T09:12:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/27bb0b17f8317881a86b3a2655eb72019364f3b24773de8e843bc9a6f46e8df8/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": [
+  {
+   "id": "515026",
+   "date_added": "2026-10-25 01:51:30",
+   "twitter_handle": null,
+   "display_name": null,
+   "comment": "Static APK/DEX inspection, 2026-10-24; SHA-256 verified. In classes2.dex, com.juan.art.KyorijService.getBotBinary resolves libbot.so from the application native-library location. doWork obtains its absolute path, constructs ProcessBuilder, enables redirectErrorStream, sets the working directory, calls ProcessBuilder.start at code-unit PC 73 and waits for process completion at PC 141. Related service methods support manual start, test launch, stop and bot.log handling. The APK packages libbot.so for ARM, ARM64, x86 and x86_64. Extracted x86_64 member SHA-256 f729df914abbfdcbcfe6efa95f811c5cee80f8983ad8acc9d1ee87bf5eb8d924 is 93448 bytes and carries UPX packer markers; its configuration was not recovered in this pass and it was never unpacked by execution. Accessibility, boot, notification and background-service classes provide persistence-related entry points; their presence alone does not demonstrate successful persistence. No invented C2 or live-activity claim; no execution."
+  }
+ ]
+}

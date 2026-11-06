@@ -1,0 +1,129 @@
+{
+ "sha256_hash": "cac624346b3fcaaaac86fd3872970e8cf89ceaea8d806c7a1772484142bbfe87",
+ "sha3_384_hash": "2acc3ec5cb98336e167df9a3976c8d0c8d5a7deb8c74f77bdcb517051aa3e4beb2df5bf04473057254bf5400cde8f9a0",
+ "sha1_hash": "33e23d906a301cb88598bb41a1a53ec843e4291d",
+ "md5_hash": "376fc34c1eb64a348311156b1f22763e",
+ "first_seen": "2022-01-06 13:42:45",
+ "last_seen": null,
+ "file_name": "Hadise_Ifsa_build_obf.apk",
+ "file_size": 2311566,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T145B5334B8BB50CC9D9D974B1026BF564427140994598BF533E2F2C6EAB2F8CE8C61DF1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:XmIDYmdky2+2LvvvvktX7MGnNSpKgdan9/lyqBvpXUEzP8b3eQ:nPdkp+lqpKUG/lymEFOQ",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.11325.9131.19624.UNOFFICIAL"
+  ],
+  "downloads": "460",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1953144/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/cac624346b3fcaaaac86fd3872970e8cf89ceaea8d806c7a1772484142bbfe87/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/cac624346b3fcaaaac86fd3872970e8cf89ceaea8d806c7a1772484142bbfe87",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/220106-qz83xabcd9/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation).",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://51.81.86.211"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2022-01-06 13:43:24",
+   "scanner_count": "24",
+   "scanner_match": "12",
+   "scanner_percent": "50.00"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61d6f1ed1c0d769df9d317d2/reports/895195f7-6e00-4f32-80f9-b230e97ea8bb/overview"
+  }
+ },
+ "comments": null
+}

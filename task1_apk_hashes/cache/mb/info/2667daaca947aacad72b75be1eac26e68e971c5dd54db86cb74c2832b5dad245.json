@@ -1,0 +1,119 @@
+{
+ "sha256_hash": "2667daaca947aacad72b75be1eac26e68e971c5dd54db86cb74c2832b5dad245",
+ "sha3_384_hash": "902143948e5c9dd39d468caa59096ee53d77d74fd7311475bc59bd36af110dc9a45fc776903cdb931fc1ffcb05569ff5",
+ "sha1_hash": "d67a94b0418aa74c8e0d366df33eb6464a770460",
+ "md5_hash": "1779627dd7d0b5f1f153c86310e19e38",
+ "first_seen": "2024-03-28 22:41:11",
+ "last_seen": null,
+ "file_name": "app.apk",
+ "file_size": 4258116,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T10516BEDBF7D4A95BC8F35332C17A56A502474C228B83DFC36A54723C29BB6D40E59AC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:K1/vSuz+ozEakLU1vPMoTwr5qBTvSPy5699i3evjXNnmR7:rapDq9KZ",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "43.9% (.APK) Android Package (32500/1/6)",
+  "18.2% (.JAR) Java Archive (13500/1/2)",
+  "16.8% (.VYM) VYM Mind Map (12500/1/3)",
+  "14.1% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2021-05-22T04:58:32Z",
+   "valid_to": "2120-09-04T04:58:32Z",
+   "serial_number": "0c11d603",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e702de593abce6259624b294b47a16a0239caa17322c3285b6d1c8acf7fbf30d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "610",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2795168/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2667daaca947aacad72b75be1eac26e68e971c5dd54db86cb74c2832b5dad245/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/2667daaca947aacad72b75be1eac26e68e971c5dd54db86cb74c2832b5dad245",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240328-2mm6fsaf6s/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Dabom",
+   "status": "MALICIOUS",
+   "first_seen": "2024-03-20 13:32:36",
+   "scanner_count": "23",
+   "scanner_match": "8",
+   "scanner_percent": "34.78"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6605f242ec04992a87d1b9af/reports/b64968d7-2d15-4a3b-b860-59664ed5da93/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,175 @@
+{
+ "sha256_hash": "394e9cc44f80f3defe9dfc4750938f42805f0329ba4d65a205ac9e110731d716",
+ "sha3_384_hash": "6fbbc519a9f480256940869597d395192ad11bd082253204bbcc09680ec2bcc60fef5d6a2f36f40499fd484de678b69f",
+ "sha1_hash": "77c4325ffd2b4ba4bbfccdb39e7e2ebe66a40daa",
+ "md5_hash": "bcc822bc37d0a506496ab1ee9f74b94b",
+ "first_seen": "2026-09-06 19:41:41",
+ "last_seen": null,
+ "file_name": "NordVPN_Бесплатный.vpn (2).apk",
+ "file_size": 4754602,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Parper",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1BB268D59BE8E0D2EC8CEB97859970345F326BC5E5610D3EB0900C91E6E633AD5F16F82",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:AlVQnVQcVQ3VQGVQHVQAVQjVQdVQxVQCVQepxVLdUjsfG/cS0MRUIdofogf3:AFdUjr0+fdot3",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.1309.origin.10823.5009.UNOFFICIAL",
+   "SecuriteInfo.com.Android.Banker.1309.origin.16483.6677.UNOFFICIAL"
+  ],
+  "downloads": "223",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Android_Accessibility_Service_Abuse",
+   "author": "Buga :3",
+   "description": "Detects Android malware abusing Accessibility Service for auto-clicking, credential theft, overlay attacks, or device takeover",
+   "reference": "https://developer.android.com/reference/android/accessibilityservice/AccessibilityService"
+  },
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "Detect_all_IPv6_variants",
+   "author": "Bierchermuesli",
+   "description": "Generic IPv6 catcher",
+   "reference": null
+  },
+  {
+   "rule_name": "elf_arm_mips_ko_so",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseapps2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise apps",
+   "reference": null
+  },
+  {
+   "rule_name": "F01_s1ckrule",
+   "author": "s1ckb017",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "setsockopt",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for setsockopt() red flags",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  },
+  {
+   "rule_name": "WIN_WebSocket_Base64_C2_20250726",
+   "author": "dogsafetyforeverone",
+   "description": "Detects configuration strings used by malware to specify WebSocket command-and-control endpoints inside Base64-encoded data. It looks for prefixes such as '#ws://' or '#wss://' that were found in QuasarRAT configuration data.",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/394e9cc44f80f3defe9dfc4750938f42805f0329ba4d65a205ac9e110731d716/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.60"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260906-yerxws1gqh/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-09-06 19:42:21",
+   "scanner_count": "38",
+   "scanner_match": "7",
+   "scanner_percent": "18.42"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a9dc2154d386ea72bb08d57/reports/ebcf29cf-37ca-4277-ad95-a04a506128d5/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-06T16:47:00Z",
+   "last_seen": "2026-09-06T17:14:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/394e9cc44f80f3defe9dfc4750938f42805f0329ba4d65a205ac9e110731d716/results?tab=lookup",
+   "detections": [
+    "HEUR:Trojan-Dropper.AndroidOS.Banker.jz"
+   ]
+  }
+ },
+ "comments": null
+}

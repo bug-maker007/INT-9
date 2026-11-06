@@ -1,0 +1,139 @@
+{
+ "sha256_hash": "190d8223ba2c01bc71fa3aecd3488547ba5a9114ccc9ccb594f4f6fc0a85f1ae",
+ "sha3_384_hash": "7aeffa702eafb1196745aae626d6afbd7b638383a3166e55d4f9d27897fa2632293ef8299f86f54f278478a9026ac386",
+ "sha1_hash": "1a1ee5c83dc1b50629834bb52ca23d2eb98547b2",
+ "md5_hash": "4406ada0491e50e39fdf9fb2b3349f97",
+ "first_seen": "2026-04-27 14:54:39",
+ "last_seen": null,
+ "file_name": "Cool SMS Messenger_1.2.6.apk",
+ "file_size": 15191459,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "RU",
+ "anonymous": 1,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T1C0E612A3F72CA92FC8775471DD686332812D5F548A43A35B2908B74E39A39C45FA8FD0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:MWNSYRdUoAo2WMmLxxWU2KPP8g6luuwhB3beE:MWNvgDk4URP2AxJ",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "40.0% (.APK) Android Package (27000/1/5)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "18.5% (.VYM) VYM Mind Map (12500/1/3)",
+  "15.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Joker",
+  "Malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "267",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://play.google.com/store/apps/details?id=com.shaken.coolsms.messenger"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Weedhack_Family_Generic",
+   "author": "jlab",
+   "description": "Generic Weedhack family detection",
+   "reference": null
+  },
+  {
+   "rule_name": "without_attachments",
+   "author": "Antonio Sanchez <asanchez@hispasec.com>",
+   "description": "Rule to detect the no presence of any attachment",
+   "reference": "http://laboratorio.blogs.hispasec.com/"
+  },
+  {
+   "rule_name": "without_urls",
+   "author": "Antonio Sanchez <asanchez@hispasec.com>",
+   "description": "Rule to detect the no presence of any url",
+   "reference": "http://laboratorio.blogs.hispasec.com/"
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/190d8223ba2c01bc71fa3aecd3488547ba5a9114ccc9ccb594f4f6fc0a85f1ae/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/190d8223ba2c01bc71fa3aecd3488547ba5a9114ccc9ccb594f4f6fc0a85f1ae",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260427-sasezaes2w/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-04-27 14:55:44",
+   "scanner_count": "24",
+   "scanner_match": "1",
+   "scanner_percent": "4.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69ef78eb8a82359247b57507/reports/f48ab48b-82c3-4fbf-a791-39e829fe4b72/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Clean",
+   "file_type": "apk",
+   "first_seen": "2026-04-28T10:03:00Z",
+   "last_seen": "2026-04-28T14:17:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/190d8223ba2c01bc71fa3aecd3488547ba5a9114ccc9ccb594f4f6fc0a85f1ae/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

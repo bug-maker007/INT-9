@@ -1,0 +1,142 @@
+{
+ "sha256_hash": "34e0789d21c0a8339f27d4b681e4648d789c5217811842239287e804e3073c45",
+ "sha3_384_hash": "ccc4109e733c268457f81f0ae3533e483e4e3338e2a678eeedbcac8c5e17ce215385866cb93c65d2a63a712dc025712a",
+ "sha1_hash": "5524e22b30906a9373708b5eb733a608ae8cf8dd",
+ "md5_hash": "01a28f75ffb8ed8684a6c01ba977a872",
+ "first_seen": "2026-04-10 19:37:58",
+ "last_seen": null,
+ "file_name": "34e0789d21c0a8339f27d4b681e4648d789c5217811842239287e804e3073c45.apk",
+ "file_size": 2910569,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "smica83",
+ "origin_country": "HU",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T19FD58CCAF7C4AD6AC4F36372C67A56A215174C268B83CF935D44323C19B76D05F8AAC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:CIRFmRjG/o/KrcsawU7LSs1kGQZya2GwikujFD04uYz9qmNU1USH:Cqo/KrcsawU/5ab+Y04BJqoU1USH",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "46.2% (.VYM) VYM Mind Map (12500/1/3)",
+  "38.8% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "14.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "HUN",
+  "Spyware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.Mamont.3.origin.31262.28575.UNOFFICIAL"
+  ],
+  "downloads": "278",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/34e0789d21c0a8339f27d4b681e4648d789c5217811842239287e804e3073c45/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/34e0789d21c0a8339f27d4b681e4648d789c5217811842239287e804e3073c45",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260410-ycjthaaz9j/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Requests changing the default SMS application.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Mamont",
+   "status": "MALICIOUS",
+   "first_seen": "2026-04-10 19:38:26",
+   "scanner_count": "22",
+   "scanner_match": "8",
+   "scanner_percent": "36.36"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69d951a95ea31bc68a1ee1e2/reports/a2c7d157-1685-44bd-9e8e-acb78cfb6199/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-03-04T02:08:00Z",
+   "last_seen": "2026-04-11T00:14:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/34e0789d21c0a8339f27d4b681e4648d789c5217811842239287e804e3073c45/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

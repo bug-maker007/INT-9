@@ -1,0 +1,97 @@
+{
+ "sha256_hash": "ce480d22d9936bc469d46abbcd51bdb74dc201216c29a97ba21c40e0299335bc",
+ "sha3_384_hash": "9e2495df381a6dff55de1c43f058d5c4f8219b699d75d1fe6ce314a1ee3bd007f7681707f7c06a6d684bca69d8e7fcdd",
+ "sha1_hash": "494c308f59843f8f75b7d9c7fbdb9d869c5ff715",
+ "md5_hash": "2e9b0927ae4ded2465f7c1b12d54122f",
+ "first_seen": "2024-01-12 10:17:41",
+ "last_seen": null,
+ "file_name": "Commerzbank_Sicherheitszertifikat.apk",
+ "file_size": 4353749,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T1B9163396B0CAF6A1C9BD07342F6A864906F67E58CF05529B3142734D0CB39C20FD7E6A",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:KGKlbCOD3Tka0Lnu6ZVG+ZeCEj3m6SwosHpdFfjQVdKaICPjFlXLbnO2:KGM+AAaoZVVZePrSeHfN2dYs77V",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "52.8% (.APK) Android Package (32500/1/6)",
+  "21.9% (.JAR) Java Archive (13500/1/2)",
+  "17.0% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "6.5% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.6% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "Sanesecurity.Foxhole.JS_Zip_4.UNOFFICIAL"
+  ],
+  "downloads": "753",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ce480d22d9936bc469d46abbcd51bdb74dc201216c29a97ba21c40e0299335bc/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ce480d22d9936bc469d46abbcd51bdb74dc201216c29a97ba21c40e0299335bc",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240112-mbx4yseabj/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Badpack",
+   "status": "MALICIOUS",
+   "first_seen": "2024-01-12 10:18:06",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/65a111dc1bf798554ab04ed9/reports//overview"
+  }
+ },
+ "comments": null
+}

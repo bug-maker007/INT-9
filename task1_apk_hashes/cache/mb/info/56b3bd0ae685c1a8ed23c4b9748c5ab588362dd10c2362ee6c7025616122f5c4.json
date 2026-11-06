@@ -1,0 +1,122 @@
+{
+ "sha256_hash": "56b3bd0ae685c1a8ed23c4b9748c5ab588362dd10c2362ee6c7025616122f5c4",
+ "sha3_384_hash": "4e55369ecf34f68fcf51d2f4b4b1100ad3a2801eeea740699fac0c3f8027b0321c9924750cc77678799fa8a86ffc6331",
+ "sha1_hash": "80bd3e1902cfb362bd1cbf4cb7fa57a94868f082",
+ "md5_hash": "d06fe9755d63055651d3b5b14345490c",
+ "first_seen": "2024-02-22 11:31:39",
+ "last_seen": null,
+ "file_name": "GameSexy.apk",
+ "file_size": 4043173,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1E3162303F26AAD13C9B2C37235791936103B0D29CB57B64E25087BF934BBDE84B856D9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:zGZTSHh5MkkmXKVn3V0VepB/XFoGoiyom69ntJ:zGZTSHMa6Vn3qSzo+9J/",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-09-23T11:57:06Z",
+   "valid_to": "3015-01-25T11:57:06Z",
+   "serial_number": "333a0b9b",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "022a1ed9feb0e6c9826df99c58350b7789a71ad51f142f40449f91d58c0278c1",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.989.origin.25065.4222.UNOFFICIAL"
+  ],
+  "downloads": "564",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/56b3bd0ae685c1a8ed23c4b9748c5ab588362dd10c2362ee6c7025616122f5c4/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/56b3bd0ae685c1a8ed23c4b9748c5ab588362dd10c2362ee6c7025616122f5c4",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240222-nm94bsgd7v/",
+   "tags": [
+    "family:irata",
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-02-19 12:32:43",
+   "scanner_count": "38",
+   "scanner_match": "11",
+   "scanner_percent": "28.95"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65d730b426f1ddc579a4ba4d/reports/ab384185-1918-4daf-933e-4650c00eceeb/overview"
+  }
+ },
+ "comments": null
+}

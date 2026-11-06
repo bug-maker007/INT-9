@@ -1,0 +1,261 @@
+{
+ "sha256_hash": "6dda51e294cc343b50106676ad5708face3cfc7f16d99f69a34e4b3b85c632cc",
+ "sha3_384_hash": "8e4a4cb5f10570e3a5d70b037ed0a3446be7c2bf9e8ee51c8d7b5faf654e191eaafe5ea2243778e4c51ed7e9c964ce39",
+ "sha1_hash": "10a3b5f0f6d4e5d36d77ba239ea62f5e9d5b4315",
+ "md5_hash": "b19d2a01cdf45550d6ebcdf3b3be55d3",
+ "first_seen": "2023-08-18 13:53:52",
+ "last_seen": null,
+ "file_name": "update.apk",
+ "file_size": 1538627,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "alberto__segura",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T183653309292AF212CE67DEB95D9044C6048043A71364BE4F367CED9E7F15F9A0B4B8F9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:aYum58rdGWVQQn0pEMUgTlIEfM3ArYNOb5Z9ZHqGgzmzKjU+La5CCaEAh74zZ:wm5aGWuQn0pugTS6MwcWZHqfU0a5CCa2",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "Coper/Octo sample from https://twitter.com/Threatlabz/status/1692222427445735859?s=20\r\n\r\nDownloaded by the Google Play dropper app from: https://github[.]com/maikakeselova/hideit/raw/main/update.apk",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Coper",
+  "Octo",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "291",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropped_by_sha256",
+   "value": "ae675499212551129d3823fc28a7a4667e315b368966bae036b4a0ed4020cf25"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Lib_Packer",
+   "author": "R3R0K",
+   "description": "Android.Lib_Packer",
+   "reference": null
+  },
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "coper",
+   "link": "https://mwdb.cert.pl/sample/6dda51e294cc343b50106676ad5708face3cfc7f16d99f69a34e4b3b85c632cc/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/6dda51e294cc343b50106676ad5708face3cfc7f16d99f69a34e4b3b85c632cc",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/230818-q7jg8abf9z/",
+   "tags": [
+    "family:coper",
+    "family:octo",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "ransomware",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Coper",
+     "score": "10"
+    },
+    {
+     "signature": "Coper payload",
+     "score": "10"
+    },
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://ipworldscanbest.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://ipworldbestscan.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://worldbestscanip.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://worldbestipscan.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://worldscanbestip.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://worldscanipbest.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://bestworldscanip.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://bestipworldscan.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://scanbestworldip.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://newfastcheckdns.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://newfastdnscheck.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://dnscheckdouble.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://checkdoubledns.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://doublecheckdns.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://alldnsfastcheck.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://dnsfastcheckall.xyz/NmE0N2YwOWEzMTM3/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-08-18 13:54:05",
+   "scanner_count": "24",
+   "scanner_match": "13",
+   "scanner_percent": "54.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/64df77fb9489ac1ead37dca2/reports//overview"
+  }
+ },
+ "comments": null
+}

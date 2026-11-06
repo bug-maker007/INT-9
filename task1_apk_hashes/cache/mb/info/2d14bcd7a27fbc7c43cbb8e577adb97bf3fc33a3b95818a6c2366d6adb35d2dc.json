@@ -1,0 +1,119 @@
+{
+ "sha256_hash": "2d14bcd7a27fbc7c43cbb8e577adb97bf3fc33a3b95818a6c2366d6adb35d2dc",
+ "sha3_384_hash": "08a791a0826d0765a6ce7d0d8d2818f7d3c874bbc95f9f1c4984f9e7fb17a688b71f90fe26013fac52a3660de300a53c",
+ "sha1_hash": "138b5bdccc2d4ea5555c71a6ee04e472f4eaf043",
+ "md5_hash": "1aa8978e68e80ba04cf06a8b8ed9bff9",
+ "first_seen": "2025-05-31 19:11:56",
+ "last_seen": "2025-05-31 19:12:57",
+ "file_name": "player_update_v.2.37.apk_2645_11.apk",
+ "file_size": 57490410,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T1E6C712E3F30AAC78D1F64336937411A7B9260D64DB33E2661506F638AEF7AD08148ED5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:FhM56HvYubIM3REuapWiQKPquJP0LhLxK65:s56HvjU4haWi4uuLxp5",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "35.5% (.APK) Android Package (27000/1/5)",
+  "18.4% (.ZIP) Opera Widget (14000/1/2)",
+  "17.7% (.JAR) Java Archive (13500/1/2)",
+  "13.8% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.2% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)"
+ ],
+ "comment": "https://best-experience-cool.com/2025/01/23/shattering-expectations-groundbreaking-innovations-in-3d-game-mechanics/ => https://verisimilitude.b-cdn.net/player_update_v.2.37.apk_2645_11.apk",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "de",
+   "issuer_cn": "de",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2023-08-31T02:48:24Z",
+   "valid_to": "2078-06-03T02:48:24Z",
+   "serial_number": "03de2d15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e805f934e0d3ca855ba61d63d97cf77c1774342bb8d36f9c32aff05cec75c189",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "183",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://www.virustotal.com/gui/file/2d14bcd7a27fbc7c43cbb8e577adb97bf3fc33a3b95818a6c2366d6adb35d2dc"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3556097/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "has_telegram_urls",
+   "author": "Aaron DeVera<aaron@backchannel.re>",
+   "description": "Detects Telegram URLs",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/2d14bcd7a27fbc7c43cbb8e577adb97bf3fc33a3b95818a6c2366d6adb35d2dc",
+   "details": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Packed.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-05-31 15:36:22",
+   "scanner_count": "24",
+   "scanner_match": "4",
+   "scanner_percent": "16.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ]
+ },
+ "comments": null
+}

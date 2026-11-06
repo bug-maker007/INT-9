@@ -1,0 +1,105 @@
+{
+ "sha256_hash": "184ed09b7a83640f182566d2cc4bc2d30c8a67f33715e4db1e61642e2c168d12",
+ "sha3_384_hash": "dd0ec7e74529100a7e48f31cd02a87c5156f08999ef2c057bcd2370e1d583b5e26a31fa2d873e3efcd436d69790710cc",
+ "sha1_hash": "60e6377e6e1a9d5571acd679096c07b415dddc43",
+ "md5_hash": "7c339250ed403200685a166c0b164cc5",
+ "first_seen": "2026-08-14 13:22:53",
+ "last_seen": null,
+ "file_name": "6s1518CVo71D.apk",
+ "file_size": 13478028,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T102D61297FF88997AC4F293360835672569079C718B6392CB9D14323878FB6D05E89ECC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:W4iQMqf7InuECPCp+g+aV57cnWlke53MFicdPqDqm3StX5whQmod+ANJndsb1DGY:VMIRqpN7flZM4cdoqDk9fOvWBxczQ",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Dropper",
+  "Malware",
+  "TikTok",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "596",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/184ed09b7a83640f182566d2cc4bc2d30c8a67f33715e4db1e61642e2c168d12/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "3",
+   "link": "https://tria.ge/reports/260814-qm3elavaqh/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-08-14 13:39:38",
+   "scanner_count": "38",
+   "scanner_match": "3",
+   "scanner_percent": "7.89"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a7f16d58bb7ee2355b0c317/reports/74a02dd9-14f1-4d05-8305-fdb95e48db8c/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-14T11:16:00Z",
+   "last_seen": "2026-08-14T23:45:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/184ed09b7a83640f182566d2cc4bc2d30c8a67f33715e4db1e61642e2c168d12/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": [
+  {
+   "id": "417015",
+   "date_added": "2026-08-14 17:09:14",
+   "twitter_handle": null,
+   "display_name": null,
+   "comment": "This one is kinda buggy. Doesn't rlly work properly at least on my phone. It tries to take file perms with accessibility and fails for some reason. Is there a way to fix this? ~"
+  }
+ ]
+}

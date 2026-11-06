@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "d501b5fa51370043e858932e895a2ceefb17f69ba12cde70eb4062bf3af522e8",
+ "sha3_384_hash": "61deabc889bc733977b2a2e94925ad1327f9c9620fa04746ac021d71b13e02fb5190a2319563210ca0f1b69a3cbcae65",
+ "sha1_hash": "b39a51a142ea9d8278b0804134fd4b769b69ea2e",
+ "md5_hash": "9687775f16b0e6c78907922fa6d905f9",
+ "first_seen": "2024-11-15 15:10:16",
+ "last_seen": null,
+ "file_name": "ПОТОК CASH.apk",
+ "file_size": 9080511,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ninjacatcher",
+ "origin_country": "GB",
+ "anonymous": 0,
+ "signature": "BankBot",
+ "imphash": null,
+ "tlsh": "T1D5962395B7999E4EC83300324E591635518EED23CB12D397DD78279EB8ABAF40F013E6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:8/fZpkcXuWVJjJIEeBKWqtwpEzaeGYNZfHXi11scUYVYEjJvFKYUTep:if5eyJIEeBKbtWEnbNhiGYr1z",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "bankbot",
+  "rat"
+ ],
+ "code_sign": null,
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.790.origin.7268.5789.UNOFFICIAL"
+  ],
+  "downloads": "303",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d501b5fa51370043e858932e895a2ceefb17f69ba12cde70eb4062bf3af522e8/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Anubis",
+   "score": "0.90"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/241115-skk4msvpdt/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Requests changing the default SMS application.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.AVerseFalc",
+   "status": "MALICIOUS",
+   "first_seen": "2024-11-15 15:11:06",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ]
+ },
+ "comments": null
+}

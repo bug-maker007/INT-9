@@ -1,0 +1,139 @@
+{
+ "sha256_hash": "95b75076c52d87f8ba33929d22ce739a6e9cd65903d31aa3fb563aa7138da0af",
+ "sha3_384_hash": "63389bcc02bfdda278cb0c0dde5a2c8e16cc1953b81955b6248ccea7602aa0ab0906912bafc848eafb9b9493e7f5adce",
+ "sha1_hash": "8439c30ab1f6a428049abcb9c731a617fbadd4c8",
+ "md5_hash": "6581679b9405714821ada55562bd77c6",
+ "first_seen": "2026-05-08 09:06:09",
+ "last_seen": null,
+ "file_name": "iMobile LIte (32).apk",
+ "file_size": 11434100,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T13EB612D6FBD4492AD8778072C96D12F1225B4D568B835F87B904320C38B7AD84F9ABDC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:uavXX2LthRaFOd7ZM6NufY9XjU6Q7dE2eNSZGQLNwHoYF/xkMHAA:JotjaFOd7ZMYfhUROSZGmE9",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "40.0% (.APK) Android Package (27000/1/5)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "18.5% (.VYM) VYM Mind Map (12500/1/3)",
+  "15.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "ICICI",
+  "malware",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Admin",
+   "issuer_cn": "Admin",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2025-12-15T04:56:57Z",
+   "valid_to": "2053-05-02T04:56:57Z",
+   "serial_number": "75b1d4ad3bbc7dad",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "08464199a5bd8a55cf0740de4b56ab0490eda52d8f1dc13e11c5cba3b87b5525",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "152",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/95b75076c52d87f8ba33929d22ce739a6e9cd65903d31aa3fb563aa7138da0af/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/95b75076c52d87f8ba33929d22ce739a6e9cd65903d31aa3fb563aa7138da0af",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-k3k8cse16z/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Requests dangerous framework permissions",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-08 09:07:40",
+   "scanner_count": "38",
+   "scanner_match": "8",
+   "scanner_percent": "21.05"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fda7972fcb905ec287f902/reports/7d2c540a-610c-4f3f-bca6-f3ee6077ef2f/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-08T07:24:00Z",
+   "last_seen": "2026-05-08T07:42:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/95b75076c52d87f8ba33929d22ce739a6e9cd65903d31aa3fb563aa7138da0af/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

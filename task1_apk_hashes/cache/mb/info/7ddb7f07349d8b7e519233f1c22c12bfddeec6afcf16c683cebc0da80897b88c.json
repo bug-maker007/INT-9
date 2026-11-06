@@ -1,0 +1,118 @@
+{
+ "sha256_hash": "7ddb7f07349d8b7e519233f1c22c12bfddeec6afcf16c683cebc0da80897b88c",
+ "sha3_384_hash": "6f376326b8fe9311484ffd5a44b5e569be60eb35c3a7e6f41807238d2a66eff8541773746da7d8f8dabc7b004e605e0c",
+ "sha1_hash": "2da7edef9c4e12e91fd403f7f0d32019397c5186",
+ "md5_hash": "20f397be56e28bc9db6bf6bb9630c99b",
+ "first_seen": "2022-12-15 17:48:48",
+ "last_seen": null,
+ "file_name": "application.apk",
+ "file_size": 9202263,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "500mk500",
+ "origin_country": "UA",
+ "anonymous": 0,
+ "signature": "BankBot",
+ "imphash": null,
+ "tlsh": "T19A96238AF718932FC47781325ABA023565574C0AEA82DB572A28771C5DB7EC05F87BCC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:T9oYXiuR/JRFOJu6uimVnYO/BQez8MVpYweG2xYwATbymx9L4Y:Zoa//NjimVYO/P/VpybqwAimzsY",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "40.1% (.APK) Android Package (38500/1/9)",
+  "22.3% (.PBIVIZ) Power BI desktop Visual data (21500/1/4)",
+  "14.0% (.JAR) Java Archive (13500/1/2)",
+  "10.9% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "7.2% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "bankbot",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "296",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/Artilllerie/status/1603409473225228289"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "Android Bankbot"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7ddb7f07349d8b7e519233f1c22c12bfddeec6afcf16c683cebc0da80897b88c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/7ddb7f07349d8b7e519233f1c22c12bfddeec6afcf16c683cebc0da80897b88c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/221215-wd2plafh5y/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2022-12-15 17:49:27",
+   "scanner_count": "26",
+   "scanner_match": "1",
+   "scanner_percent": "3.85"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/639b5e0f2516648ad8c37710/reports/6faebcc0-adab-4bd7-befa-471770ee4881/overview"
+  }
+ },
+ "comments": null
+}

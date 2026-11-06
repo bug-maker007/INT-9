@@ -1,0 +1,125 @@
+{
+ "sha256_hash": "3ebc325fc4fad8bf9112c8922bd8781ceb61acb1b13a033cf73e62887d9a2fde",
+ "sha3_384_hash": "c4833f22a882f74cf2c21bb52909d02ed4864eb5c7dee507d35909244f23bd94f4ea3ae3c0b6fab682f2905587ac9fc3",
+ "sha1_hash": "fa6387130c73918332e34923ee1751d14a7c9c65",
+ "md5_hash": "742e9943cb2dcdd480ac4636c48b113f",
+ "first_seen": "2026-02-17 15:32:50",
+ "last_seen": null,
+ "file_name": "ProteçãoCard.apk",
+ "file_size": 11890031,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T175C612D7F7D9992FC87750B2896E56B2514B4C13CA438F43AD28720C28B75E42F4ABD8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:iuCMDUpmP7v1AVtSiSZ7dCkQ2NWvRpWE0vcej7djo9y9NBnzh55DAHs:icUpo7v1AbDYBCkdNWvU0eFoyJljDAM",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "40.0% (.APK) Android Package (27000/1/5)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "18.5% (.VYM) VYM Mind Map (12500/1/3)",
+  "15.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "187-102-244-45",
+  "apk",
+  "banker",
+  "nfc",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2025-09-24T19:35:56Z",
+   "valid_to": "2055-09-17T19:35:56Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "f8cb0bfb4ceba47c59df47f4f0ec0143d3a8132d02cac82167fb8b19535b628b",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "150",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3ebc325fc4fad8bf9112c8922bd8781ceb61acb1b13a033cf73e62887d9a2fde/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/3ebc325fc4fad8bf9112c8922bd8781ceb61acb1b13a033cf73e62887d9a2fde",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": null,
+   "link": "https://tria.ge/reports/260217-szdm4sdv8b/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-11-06 01:11:17",
+   "scanner_count": "23",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69948a45930564ff3ca6082d/reports/9cdc6fd9-56e4-4b54-8ac8-80475d5cf3ef/overview"
+  },
+  "Kaspersky": {
+   "verdict": "NotCategorized",
+   "file_type": "apk",
+   "first_seen": "2026-01-28T14:22:00Z",
+   "last_seen": "2026-01-28T14:26:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/3ebc325fc4fad8bf9112c8922bd8781ceb61acb1b13a033cf73e62887d9a2fde/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

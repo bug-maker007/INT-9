@@ -1,0 +1,122 @@
+{
+ "sha256_hash": "1af76b536dcfcf64ad2bcaf13f4760a61588174633a2ad5e64f3d83c6e3b365d",
+ "sha3_384_hash": "5e049d5a7719f34c0e0f353c99edb53dac091cca0f4dc698aa76dd9e9e542d771b30ab7f107c07ed436ec23935788d2a",
+ "sha1_hash": "8f92ff6c3ed7a9da02aa8bee582af4cd03a81e42",
+ "md5_hash": "dfe21c24273f7d10bcc06ab779e48eb3",
+ "first_seen": "2022-09-02 06:42:03",
+ "last_seen": null,
+ "file_name": "cointree.apk",
+ "file_size": 1565691,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "500mk500",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "BankBot",
+ "imphash": null,
+ "tlsh": "T1D47512975180E9A9E68768BE7E318AF012720E76C5451FD03A8E7A0C2FF5E836D171F4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:YECguKDrv2rY26KV5WY/ad236FP7+5Gp65il5P6XvypoBpJNMYW5bMvFyv4C:YNgpDrv2026+/ad236Fz4il5yX0GgbKu",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "49.3% (.APK) Android Package (38500/1/9)",
+  "17.9% (.ZIP) Opera Widget (14000/1/2)",
+  "17.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "5.1% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "Related to https://bazaar.abuse.ch/sample/39413b2215f225da68530fa312b08f566a7bd64e55fac70d81eefe8e5cfa6ee4/",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "bankbot",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "(ggyydx)",
+   "issuer_cn": "(ggyydx)",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2022-03-04T10:52:52Z",
+   "valid_to": "2122-02-08T10:52:52Z",
+   "serial_number": "32e9c83f",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "cc1e5ba5bb50f3fe1f8d8ca94cfe7f20b103d27137c0a9e393fea632f69fea94",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_drive-by",
+ "intelligence": {
+  "clamav": [
+   "Sanesecurity.Foxhole.JS_Zip_15.UNOFFICIAL"
+  ],
+  "downloads": "400",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/malwrhunterteam/status/1565435960380243968"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1af76b536dcfcf64ad2bcaf13f4760a61588174633a2ad5e64f3d83c6e3b365d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.36"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/1af76b536dcfcf64ad2bcaf13f4760a61588174633a2ad5e64f3d83c6e3b365d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220902-hgcmzscab4/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Piom",
+   "status": "MALICIOUS",
+   "first_seen": "2022-09-02 06:43:18",
+   "scanner_count": "26",
+   "scanner_match": "7",
+   "scanner_percent": "26.92"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6311a633a7450371f69af2cc/reports/934a5f9f-903b-4429-a12d-bd5761404602/overview"
+  }
+ },
+ "comments": null
+}

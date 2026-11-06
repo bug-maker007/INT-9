@@ -1,0 +1,112 @@
+{
+ "sha256_hash": "09848681e2ccf267eea6ada5f94932c1445d14c8d5cf9667728baa4e0e3306a9",
+ "sha3_384_hash": "873428f07e7f32cc764b997cdc14e0668dcad46153de1b1e55fd0f1816a2a711f22a2ebf7cd4ef56da3920d979158e31",
+ "sha1_hash": "bab0e99a707bc94d58956da55660f825e25b3306",
+ "md5_hash": "9cf959df00412c74f458eb4be5e368d7",
+ "first_seen": "2026-10-19 23:39:53",
+ "last_seen": null,
+ "file_name": "zoyatv_vpn.apk",
+ "file_size": 18911923,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Darkfibr",
+ "origin_country": "RO",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1CB172241FB45D45EF0B7933BEAFB5231D0856C48A74286D7A9D873390AF7AD02F81688",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:4irJZAd4/YsKh0hNFIz4fmyC0X6vM4dwtpwN/VPzFAI5X6A:4UZAe/YsvRdCZ04dwLm/BFA0l",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "87.0% (.APK) Android Package (27000/1/5)",
+  "12.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": null,
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "215",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "JP_Lure_Content_Hunt",
+   "author": "sumeshi",
+   "description": "Hunts for files containing Japanese kana text or common Japanese lure terminology",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "test_rule_vldslv",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/09848681e2ccf267eea6ada5f94932c1445d14c8d5cf9667728baa4e0e3306a9/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "3",
+   "link": "https://tria.ge/reports/261019-3py66s1v7l/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-08-24 08:04:06",
+   "scanner_count": "38",
+   "scanner_match": "5",
+   "scanner_percent": "13.16"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-24T03:15:00Z",
+   "last_seen": "2026-10-21T09:14:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/09848681e2ccf267eea6ada5f94932c1445d14c8d5cf9667728baa4e0e3306a9/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

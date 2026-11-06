@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "aaf4e8b47462c7631297f47a6da2e589741d69417bd601b6a6d68dc0a085dce9",
+ "sha3_384_hash": "3c08afc26a3f299794fda2b26f207c312e186c0d26685d6cec79adf0c6c413a317270eae09d43da1aea4b3cecc07f2a2",
+ "sha1_hash": "4c43b5bb9dd3f3813368c3a0128af21bed63a9e6",
+ "md5_hash": "1db2cbc9f0c99ec64558e694e9561bd3",
+ "first_seen": "2026-08-26 01:50:24",
+ "last_seen": null,
+ "file_name": "CNPJ7.apk",
+ "file_size": 30929512,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "BR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T16E67F163F244699ACDE6A230E4E343D132361D154393A76A571FF136BCF31DD8A26AC2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:3k4dNmSJumFMuFY7oZbmimEh//5UnIRtAW12X1v93PDy9DVr0QYQyLMJR:3k4fRHMuQHJEhEIR2gs9y9DVEIL",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "40.0% (.APK) Android Package (27000/1/5)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "18.5% (.VYM) VYM Mind Map (12500/1/3)",
+  "15.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker",
+  "signed",
+  "websolution-br-com"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "254",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260826-b9ybtsbd63/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-08-26 01:51:22",
+   "scanner_count": "23",
+   "scanner_match": "8",
+   "scanner_percent": "34.78"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a8e4693fea7daa0e15f606c/reports/885ec828-9e7d-4664-9077-d63fa953ea75/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-25T23:22:00Z",
+   "last_seen": "2026-08-27T18:07:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/aaf4e8b47462c7631297f47a6da2e589741d69417bd601b6a6d68dc0a085dce9/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,106 @@
+{
+ "sha256_hash": "cdd9430d22c1037ebe4f01383ae36307419fecb157850ffc441676dc312653a0",
+ "sha3_384_hash": "c63fa7d365acd9672f7b023157307a43042546f0221228ca113f9637323c47c068d73bae26b5d8afcfd25eee86b01db5",
+ "sha1_hash": "22cc49170daf9a7a1d3d33e2c64e14d192ea3118",
+ "md5_hash": "89baa57c02bd5bca75d19b3aa059e1da",
+ "first_seen": "2021-01-02 09:45:37",
+ "last_seen": "2021-01-23 23:55:49",
+ "file_name": "com.makinggames.worldtv_13_apkplz.net.apk",
+ "file_size": 5172491,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": null,
+ "anonymous": 1,
+ "signature": "Anubis",
+ "imphash": null,
+ "tlsh": "29361285F388A82BD9B3C03743B6477A66564C15CA43E7430565B32DBDBBAD04B89FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:fqiOhIdq+mLHNcF1B3G5jeoi2So5aZw5IT8GUP:SzhIdq5HNcB3G5jeo7SHZNy",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": null,
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "PUA.Win.Trojan.Mobidash-6888020-0"
+  ],
+  "downloads": "296",
+  "uploads": "3",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "anubis",
+   "link": "https://mwdb.cert.pl/sample/cdd9430d22c1037ebe4f01383ae36307419fecb157850ffc441676dc312653a0/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": null,
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "10",
+   "link": "https://tria.ge/reports/210102-lsrc9mlx4j/",
+   "tags": [
+    "android",
+    "evasion",
+    "obfuscation",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads name of network operator",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation).",
+     "score": "4"
+    },
+    {
+     "signature": "Suspicious use of android.app.ActivityManager.getRunningTasks",
+     "score": "3"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Hiddapp",
+   "status": "MALICIOUS",
+   "first_seen": "2018-11-16 17:04:28",
+   "scanner_count": "29",
+   "scanner_match": "10",
+   "scanner_percent": "34.48"
+  }
+ },
+ "comments": null
+}

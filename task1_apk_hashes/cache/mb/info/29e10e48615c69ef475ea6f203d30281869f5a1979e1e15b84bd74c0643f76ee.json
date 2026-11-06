@@ -1,0 +1,138 @@
+{
+ "sha256_hash": "29e10e48615c69ef475ea6f203d30281869f5a1979e1e15b84bd74c0643f76ee",
+ "sha3_384_hash": "cf69431d76a215b2b21832b4ff8b51f9012873e006132cf246006380905fb0b9e12885c5284b27b7fdc5ce1b47eebb81",
+ "sha1_hash": "791e0d2ef94162227d588df66918dd4fd5301c8e",
+ "md5_hash": "4f9b84a780b172905aa3bbb23797dc21",
+ "first_seen": "2024-04-14 21:34:39",
+ "last_seen": null,
+ "file_name": "app.apk",
+ "file_size": 4328501,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T15B16592EDB115D2EC9B40F364FAB05F6620D07074642EA3D19B8A4A5387BDE83750EBD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:xKjjqMqY4nCZcomDQyhFvLkuN8KYn+xETg0pJf2wc8ljXhe7sxkk+j7ZzwrUYisL:+qMqYS5oNyhFIz+MvvXFkk+JQUY0OtZ",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Anywhere Software",
+   "issuer_cn": "Anywhere Software",
+   "algorithm": "dsaWithSHA1",
+   "valid_from": "2016-08-24T08:23:07Z",
+   "valid_to": "2054-12-23T08:23:07Z",
+   "serial_number": "58118218",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "32752470a35a7bb0a2991180f02baff49a41b9d6b2b5e44e8aa7cb736752e003",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "422",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "BitcoinAddress",
+   "author": "Didier Stevens (@DidierStevens)",
+   "description": "Contains a valid Bitcoin address",
+   "reference": null
+  },
+  {
+   "rule_name": "maldoc_OLE_file_magic_number",
+   "author": "Didier Stevens (https://DidierStevens.com)",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/29e10e48615c69ef475ea6f203d30281869f5a1979e1e15b84bd74c0643f76ee/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/29e10e48615c69ef475ea6f203d30281869f5a1979e1e15b84bd74c0643f76ee",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240414-1fbcmseb64/",
+   "tags": [
+    "family:irata",
+    "android",
+    "discovery"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.PUA.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2024-04-14 21:35:07",
+   "scanner_count": "23",
+   "scanner_match": "7",
+   "scanner_percent": "30.43"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/661c4c076e53ce7981f01570/reports/1a6e84ac-b3b5-4b07-b60a-4f695b39b2a4/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,117 @@
+{
+ "sha256_hash": "ade64aeec6149158044df73122fa6af2be069b2e1853aa109bab64a0c1d72e14",
+ "sha3_384_hash": "3bc95e4d1179318e8783be9da8607cf1f7fd6c983d02f8fae61e39e9573905c511a7c4e0e34652e1d96e23b1e5c4a8be",
+ "sha1_hash": "83cbd3d6b504d5994f0c731e6090331094ebdc91",
+ "md5_hash": "4ab6bab65805838612f298f5e544b0c6",
+ "first_seen": "2025-05-05 10:19:08",
+ "last_seen": "2025-05-05 10:19:41",
+ "file_name": "app-debug.apk",
+ "file_size": 2888223,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Phoenix_TU",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T19DD50281F3EDAC2FDE7385324BBA072A45824D468646D3174569B22C9DBB9C09F85FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:Ug2AQGI0bBnQe/aB8etqWnfqB8TKxP9WKGVyRN+kFxDAzlBh4Uh1VhXY9UH+UaRK:iFMBbm8e4WnfDT49WvVKfFNAzl3N/o9k",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2024-07-07T16:56:56Z",
+   "valid_to": "2054-06-30T16:56:56Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "f7745864dee98a2346a61c23e170cc439871dfbb9876782c6522251df444e7a2",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.FileRepMalware.16000.19871.UNOFFICIAL"
+  ],
+  "downloads": "285",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ade64aeec6149158044df73122fa6af2be069b2e1853aa109bab64a0c1d72e14/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Spyware",
+   "score": "0.70"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/ade64aeec6149158044df73122fa6af2be069b2e1853aa109bab64a0c1d72e14",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/250505-mswx8awsdw/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Malware.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-05-05 10:44:19",
+   "scanner_count": "24",
+   "scanner_match": "2",
+   "scanner_percent": "8.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/6818967ec7418694c8a57675/reports//overview"
+  }
+ },
+ "comments": null
+}

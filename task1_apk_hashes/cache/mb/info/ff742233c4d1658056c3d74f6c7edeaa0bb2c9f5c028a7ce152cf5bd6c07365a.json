@@ -1,0 +1,118 @@
+{
+ "sha256_hash": "ff742233c4d1658056c3d74f6c7edeaa0bb2c9f5c028a7ce152cf5bd6c07365a",
+ "sha3_384_hash": "c57aadba13c75d1a45ee38b4dca7a6747fe6c9499f288776fa40384e84fa7a00d7fdf2e89fd24b3e14d72750f338afbe",
+ "sha1_hash": "889aee04bd4ac1aae47d2f1bb4cd4f3fbebb0930",
+ "md5_hash": "ae43a6ecbcc83a04743e38be66a24236",
+ "first_seen": "2026-05-08 09:57:21",
+ "last_seen": null,
+ "file_name": "iMobile Lite(20).apk",
+ "file_size": 13403243,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1D0D6AC23F40529AADEC9A134F5E727957730165403A2A73C270FD026FD925DECA37AD2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:rQTM/aRgOozQgyj2yp/zaghQCbqk0jxkVrM6mcXcCDQqvKh/uD:rQM/aR8jyj2y1zDhUqrM61XXfChmD",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "ICICI",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "264",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "enterpriseapps2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise apps",
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseunix2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise UNIX",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ff742233c4d1658056c3d74f6c7edeaa0bb2c9f5c028a7ce152cf5bd6c07365a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ff742233c4d1658056c3d74f6c7edeaa0bb2c9f5c028a7ce152cf5bd6c07365a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-lzwqcsaw9l/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-03-07 23:49:52",
+   "scanner_count": "36",
+   "scanner_match": "4",
+   "scanner_percent": "11.11"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/69fdb393df14f1cb2acda72b/reports//overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-03-07T19:16:00Z",
+   "last_seen": "2026-04-27T23:07:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/ff742233c4d1658056c3d74f6c7edeaa0bb2c9f5c028a7ce152cf5bd6c07365a/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

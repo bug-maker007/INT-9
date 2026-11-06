@@ -1,0 +1,142 @@
+{
+ "sha256_hash": "61af149986db26f8e4d084e994cf43bc2595ed7668393401cef7a15afa999b57",
+ "sha3_384_hash": "1c4ffa5249c844fc0d134ca2accd20b44e2f8b3b27ea6a2863c702adcaa7d17e1fb28a34e6f6463843cef4d56a5f7fa7",
+ "sha1_hash": "b99f803a41321d0453c54890306d0962fd3bf856",
+ "md5_hash": "5211d927bcb68146635773b50653fad5",
+ "first_seen": "2026-09-06 19:00:55",
+ "last_seen": null,
+ "file_name": "payload.apk",
+ "file_size": 12271038,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Xenofic",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T13AC61296F7C5986BC4F75332417A5272528B4D228B93C6D3AE04723C68B79D40F8EBD8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:pumbGH3c7oAXcdxm5TH9FfJr7ix7B8o+Kge0k91PRwnZ03LYmcwJYK4:pZ+zAaxmdH9FfJr7i1Oo1PRwZ03bcmY9",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "Final payload of PNB Retirement HRMS banking trojan. Package: com.Sam.RtoEchallan (re-branded RTO eChallan RAT variant). Capabilities: SMS interception/forwarding, credential phishing (ATM PIN, UPI PIN, bank credentials), contact/photo exfiltration, call forwarding hijack via USSD (*#21#). C2 via Firebase RTDB + Telegram API. Panel branding: \"𓆩𝐒𝐀𝐌 𝐏𝐀𝐍𝐄𝐋𓆪\". Targets 20+ Indian banks including SBI, PNB, ICICI, HDFC.",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker",
+  "pnb",
+  "rat",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "np",
+   "issuer_cn": "np",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2021-04-25T09:03:56Z",
+   "valid_to": "3020-08-26T09:03:56Z",
+   "serial_number": "045ff9a3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "492682f877607ee99df2ddd2bd5953fd727bdf6e19d397de9dbbafd582bcad75",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "319",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/61af149986db26f8e4d084e994cf43bc2595ed7668393401cef7a15afa999b57/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260906-xpcehs1bkh/",
+   "tags": [
+    "android",
+    "defense_evasion",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-09-06 19:01:33",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a9db8824d386ea72bb07de1/reports/41da3c60-cef2-4067-8017-f9753f785eed/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-06T17:24:00Z",
+   "last_seen": "2026-09-06T18:43:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/61af149986db26f8e4d084e994cf43bc2595ed7668393401cef7a15afa999b57/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

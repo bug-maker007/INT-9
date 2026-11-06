@@ -1,0 +1,114 @@
+{
+ "sha256_hash": "2d25cb4e862cc6cac19999798f044211ed99239dd15779be6271b680c028782a",
+ "sha3_384_hash": "1aef57ddc0108dbe92ac692b6197b9f8da8b0109f76d29a972a46e1b6c20fdcb85e10cb6a93164ac6ca00417b81876b7",
+ "sha1_hash": "2edb06787250b07f40071d4186289f8f34900d10",
+ "md5_hash": "ec4b07bebe975e10334b3fb330219810",
+ "first_seen": "2026-05-06 09:45:00",
+ "last_seen": null,
+ "file_name": "Dmart (12).apk",
+ "file_size": 2392999,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T189B5E0D27B86563EC83D45364CA613712B46AC25CDB6A707E814732C7CB72C84F9AED8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:gcY+Dd+SLheidpdkBZ7Kb8aklEfSMrefeCU4Jj:geDdRdGy8maMVCdj",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Dmart",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Siggen.Susp.49545.22960.4265.UNOFFICIAL"
+  ],
+  "downloads": "179",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2d25cb4e862cc6cac19999798f044211ed99239dd15779be6271b680c028782a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/2d25cb4e862cc6cac19999798f044211ed99239dd15779be6271b680c028782a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260506-lrt7kaex6y/",
+   "tags": [
+    "android",
+    "banker",
+    "discovery",
+    "impact"
+   ],
+   "signatures": [
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-12-12 04:20:28",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fb0da6df14f1cb2acb7620/reports/3da20bd3-0f66-42a7-a414-fda198274366/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-12-01T08:44:00Z",
+   "last_seen": "2026-05-08T00:00:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/2d25cb4e862cc6cac19999798f044211ed99239dd15779be6271b680c028782a/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

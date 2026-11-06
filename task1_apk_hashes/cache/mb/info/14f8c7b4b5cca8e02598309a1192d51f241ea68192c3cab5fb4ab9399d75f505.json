@@ -1,0 +1,177 @@
+{
+ "sha256_hash": "14f8c7b4b5cca8e02598309a1192d51f241ea68192c3cab5fb4ab9399d75f505",
+ "sha3_384_hash": "6835fdd79f7a9278742b04034def8cb6473e70745ef8a7fa06f57ece6a3bc21b78b14e32445f2b19842807bbec58136f",
+ "sha1_hash": "d3069d79acdb960fc79547b59cbfebb16b3892e7",
+ "md5_hash": "770878ad744fc0aa7f315576c3ac1246",
+ "first_seen": "2024-07-09 07:44:55",
+ "last_seen": null,
+ "file_name": "MyVIP_Protect_052024.apk",
+ "file_size": 60125339,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "Vultur",
+ "imphash": null,
+ "tlsh": "T1E2D7238EEBD4796AC0F60332E9728137A5595E38A743C6A75C09F23A18F3ED0C616DC5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:DtAhrhm//E8W9Py+qzh5CHo8aQAwrtvn6oVonLqQW3ka3bWBM:ih9Qy91qNEHda3aUqvWm",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "41.4% (.APK) Android Package (32500/1/6)",
+  "17.1% (.JAR) Java Archive (13500/1/2)",
+  "14.0% (.CATROBAT) Pocket Code/Catroid Catrobat Project (11000/1/2)",
+  "13.3% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "7.6% (.KMZ) Google Earth saved working session (6000/1/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "vultur"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "362",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "APK_SpyNote_May_2024",
+   "author": "NDA0E",
+   "description": "Detects Spynote",
+   "reference": null
+  },
+  {
+   "rule_name": "JAR_STRRAT_April_2024",
+   "author": "NDA0E",
+   "description": "Detects STRRAT Java Archive",
+   "reference": null
+  },
+  {
+   "rule_name": "strrat_jar_v1",
+   "author": "RandomMalware",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "upxHook",
+   "author": "@r3dbU7z",
+   "description": "Detect artifacts from 'upxHook' - modification of UPX packer",
+   "reference": "https://bazaar.abuse.ch/sample/6352be8aa5d8063673aa428c3807228c40505004320232a23d99ebd9ef48478a/"
+  }
+ ],
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/14f8c7b4b5cca8e02598309a1192d51f241ea68192c3cab5fb4ab9399d75f505",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/240709-jldxaawbph/",
+   "tags": [
+    "android",
+    "banker",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Vultur",
+   "status": "MALICIOUS",
+   "first_seen": "2024-06-14 17:26:42",
+   "scanner_count": "38",
+   "scanner_match": "7",
+   "scanner_percent": "18.42"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/668cea837731d034e8813b30/reports/85a1ff5f-a927-4b56-9ce7-59b6d8966d46/overview"
+  }
+ },
+ "comments": null
+}

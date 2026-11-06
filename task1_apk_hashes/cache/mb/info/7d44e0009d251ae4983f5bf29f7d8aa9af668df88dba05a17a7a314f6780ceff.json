@@ -1,0 +1,140 @@
+{
+ "sha256_hash": "7d44e0009d251ae4983f5bf29f7d8aa9af668df88dba05a17a7a314f6780ceff",
+ "sha3_384_hash": "7c6d81518df728ffabaae6eb82b3564f67d2ef71aaeffe5fbea9683ed6dba8a8870949b99c575ea1c2e08eefe0044829",
+ "sha1_hash": "d0953b36a6e6e09fbd7d93c07921ab2eecaf23b7",
+ "md5_hash": "78336a1c63ba008af99fd984ef8f2775",
+ "first_seen": "2026-05-24 07:03:32",
+ "last_seen": null,
+ "file_name": "Telegram_12.6.5_APKPure.apk",
+ "file_size": 50159716,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "atEricParker",
+ "origin_country": "TH",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T142B712E7F3315C3DD9770532966D6071EA284F24D622A30F2409B63EB9B33D68A857E1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "786432:9gbPI+gXH1HYKCSxzQTDvrjQlCNwibgQIaYLc9wlMZd7Km7HLegrEvMKdN3kA32Z:GbVgl/YvElYwWItg9gMZ8m7iWEriIfdC",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "Distributed on APKPure as the \"official\" telegram, sends all conversations to a hong kong based IP",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "faketelegram",
+  "signed",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Developer",
+   "issuer_cn": "Android Developer",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2019-12-02T14:18:53Z",
+   "valid_to": "2047-04-19T14:18:53Z",
+   "serial_number": "55b323d1",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a08d7dc323ddf71ef3201944397e0d3cce7d40847263e11f328b68bbe19229ab",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "511",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "any_run",
+   "value": "https://app.any.run/tasks/92cf55db-10c0-451d-91e2-0353f069774f"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260524-hv884sg17k/",
+   "tags": [
+    "android",
+    "defense_evasion",
+    "discovery"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks known Qemu pipes.",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-10 23:06:58",
+   "scanner_count": "24",
+   "scanner_match": "2",
+   "scanner_percent": "8.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a12a306875badc3b393a324/reports/840d60c8-4c93-4499-9ee1-ba79916a70ab/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-25T07:19:00Z",
+   "last_seen": "2026-05-26T04:17:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/7d44e0009d251ae4983f5bf29f7d8aa9af668df88dba05a17a7a314f6780ceff/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": [
+  {
+   "id": "275351",
+   "date_added": "2026-05-24 10:06:04",
+   "twitter_handle": "shikieikiyuyuko",
+   "display_name": null,
+   "comment": "C2: https://38.190.225.166"
+  }
+ ]
+}

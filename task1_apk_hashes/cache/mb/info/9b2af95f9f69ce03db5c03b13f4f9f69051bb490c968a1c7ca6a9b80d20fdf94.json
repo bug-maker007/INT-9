@@ -1,0 +1,73 @@
+{
+ "sha256_hash": "9b2af95f9f69ce03db5c03b13f4f9f69051bb490c968a1c7ca6a9b80d20fdf94",
+ "sha3_384_hash": "799bce579aca865fa44c9c491ca7fdcee53ac58a98f8622279f1ec7b11fc3268925b70727ec308093c82cd0084741b5b",
+ "sha1_hash": "c0613cd3d7d929e982a37bc21c650e812e98e966",
+ "md5_hash": "f871ad7dfd6080add682a457b468b766",
+ "first_seen": "2020-04-22 16:39:04",
+ "last_seen": null,
+ "file_name": "30GB.apk",
+ "file_size": 396772,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mertcangokgoz",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Anubis",
+ "imphash": null,
+ "tlsh": "3E84121EB7D0BCD2CE62AB745F555BD00AA100D43B4856C87D084768BD7B0FCE27A9B9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:f00A1mTyCcil9V1mTyCcil9K1mTyCcil921mTyCcil961mTyCcil9M3ruEutKXoR:fpWCcEOWCcExWCcElWCcEhWCcE44tNwc",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Anubis"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "Feb 29 01:33:46 2008 GMT",
+   "valid_to": "Jul 17 01:33:46 2035 GMT",
+   "serial_number": "936EACBE07F201DF",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "Andr.Trojan.Anubis-6692604-3"
+  ],
+  "downloads": "291",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "urlhaus",
+   "value": "https://urlhaus.abuse.ch/url/348363/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Banker",
+   "status": "MALICIOUS",
+   "first_seen": "2020-04-23 02:53:00",
+   "scanner_count": "31",
+   "scanner_match": "16",
+   "scanner_percent": "51.61"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,89 @@
+{
+ "sha256_hash": "0178782131396a7fe379de4a244a6bc7896646fdbf824fcb8cb815efe1ac2d81",
+ "sha3_384_hash": "506151a2771a2c5597754ceee956e4431dee4de4d17a9876b631cfb4cde48feb9f0c2e668e0ec8ad6efca2244bb73083",
+ "sha1_hash": "eb1853c89f67d3365328e6f861e0147c4b438937",
+ "md5_hash": "69eb1428abf218d0ce6753bb042cad01",
+ "first_seen": "2025-05-31 19:11:13",
+ "last_seen": null,
+ "file_name": "Allegro kupony.apk",
+ "file_size": 2154045,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "Crocodilus",
+ "imphash": null,
+ "tlsh": "T103A5F153FB48986EC4F7833687764A265502AC668783D7874D74B338397B9C06E89FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:Qgm0OZ8z+8dmtXdJIld9nz3ApbZ9GdiPQLAVvLrihCz:Pe8B8X2du2wPQLAVris",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Crocodilus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "138",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/0178782131396a7fe379de4a244a6bc7896646fdbf824fcb8cb815efe1ac2d81",
+   "details": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-05-27 12:57:39",
+   "scanner_count": "23",
+   "scanner_match": "6",
+   "scanner_percent": "26.09"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6919a07153bda2a5d9f6a61c/reports/b248d963-8859-4a67-9e61-e06d48f64208/overview"
+  }
+ },
+ "comments": null
+}

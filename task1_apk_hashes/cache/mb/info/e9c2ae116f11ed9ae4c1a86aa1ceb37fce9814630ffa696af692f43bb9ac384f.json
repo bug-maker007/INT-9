@@ -1,0 +1,128 @@
+{
+ "sha256_hash": "e9c2ae116f11ed9ae4c1a86aa1ceb37fce9814630ffa696af692f43bb9ac384f",
+ "sha3_384_hash": "a2ee0d21dc9e357c7beecf022c4c57c4f2aedfe0f809648503be31bc3792eb76b128e156f515149eb5c5d366276f752e",
+ "sha1_hash": "6c2501f95a2975947e5e023452b933131e22aad2",
+ "md5_hash": "69bc288c29436100430a818193fc06be",
+ "first_seen": "2026-11-01 09:02:14",
+ "last_seen": null,
+ "file_name": "NeirosetBezVPN.apk",
+ "file_size": 5397761,
+ "file_type_mime": "application/vnd.android.package-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Parper",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T199462359E85AE449D2938632C43D1BF79F093F6A6A990E1DF0FA3C238F551E1A6F1403",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:ULNzvBtDlR6wka8WbKTA+dXv1K1gJFP5ToqDRTyFw4QN0bwRl5hO3W70:ULN9tlR6JWuh1MCO0hT4QNjlXGW70",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "md5WithRSAEncryption",
+   "valid_from": "2008-04-15T22:40:50Z",
+   "valid_to": "2035-09-01T22:40:50Z",
+   "serial_number": "b3998086d056cffa",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.FileRepMalware.61559188.UNOFFICIAL"
+  ],
+  "downloads": "193",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/4050350/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "exploit_any_poppopret",
+   "author": "Jeff White [karttoon@gmail.com] @noottrak",
+   "description": "Identify POP -> POP -> RET opcodes for quick ROP Gadget creation in target binaries.",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e9c2ae116f11ed9ae4c1a86aa1ceb37fce9814630ffa696af692f43bb9ac384f/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/261101-kz7besv13q/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.AVerseFalc",
+   "status": "MALICIOUS",
+   "first_seen": "2026-11-01 09:03:24",
+   "scanner_count": "38",
+   "scanner_match": "7",
+   "scanner_percent": "18.42"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6ae7001f04e514ab9a7d243d/reports/83363c44-912e-48c9-8e9b-d8b45378cdc8/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-11-01T04:50:00Z",
+   "last_seen": "2026-11-03T01:36:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/e9c2ae116f11ed9ae4c1a86aa1ceb37fce9814630ffa696af692f43bb9ac384f/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

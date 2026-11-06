@@ -1,0 +1,104 @@
+{
+ "sha256_hash": "78e1c4d6b90d322bfaeafef7bc49999e73299f76945ea0e8d8e82f7bf4404703",
+ "sha3_384_hash": "96f99f5d5f9ff3f44ccaeee7704e8537a5d3859803cee7b8ba99c48a5680c229041c25b0497ea5adc16e84e8a9c5262a",
+ "sha1_hash": "126737f95885214b12dbd30a3929dca204f71103",
+ "md5_hash": "53771109f84c37ef7a1181a3c2dbc35a",
+ "first_seen": "2021-08-10 20:25:47",
+ "last_seen": null,
+ "file_name": "Chrome557698.apk",
+ "file_size": 4041765,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T12B161262AFA0C419F1438830F4078687B22A079B5512F55F166B587E29B7D601F3AEFF",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:3SsshveewCWgLItH+JEi+wFshD4PaNZqMknNQkcOP+tfHdg:cvIv9tZGPaDuNBP+FHdg",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "alien",
+  "alienbot",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.9961.2520.31411.UNOFFICIAL"
+  ],
+  "downloads": "248",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://cdn.discordapp.com/attachments/874726198947749922/874748953919365140/Chrome557698.apk"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1523987/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/78e1c4d6b90d322bfaeafef7bc49999e73299f76945ea0e8d8e82f7bf4404703/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/78e1c4d6b90d322bfaeafef7bc49999e73299f76945ea0e8d8e82f7bf4404703",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210810-lfc1ytd6g6/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://m4k0b0n1k.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-08-10 20:26:05",
+   "scanner_count": "46",
+   "scanner_match": "6",
+   "scanner_percent": "13.04"
+  }
+ },
+ "comments": null
+}

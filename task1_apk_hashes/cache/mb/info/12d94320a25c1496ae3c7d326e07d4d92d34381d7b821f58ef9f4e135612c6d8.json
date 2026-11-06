@@ -1,0 +1,150 @@
+{
+ "sha256_hash": "12d94320a25c1496ae3c7d326e07d4d92d34381d7b821f58ef9f4e135612c6d8",
+ "sha3_384_hash": "953f4aed7d14e9256b1258f1f468af343aaf18e0f7d5e1eba0cd409cf3999305cd0d411f1fa8f4bee91c78322e39a013",
+ "sha1_hash": "3bc5858cec98a101bc63a4401d21a1d0b8922076",
+ "md5_hash": "89c4c3287a0f19fdd722b0c13e68b0ce",
+ "first_seen": "2024-12-11 10:41:35",
+ "last_seen": null,
+ "file_name": "no_dropper.apk",
+ "file_size": 3816330,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "TgToxic",
+ "imphash": null,
+ "tlsh": "T17106BE4A778C46A9F87211B75DAA6325D8CF5C4CCE82D3C7AD08332E18F79951F49A8C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:Yg1y8VpuJVX9wmPqE2kmggcjIV6IldYpJJtYkCufNSAkLCjzLi:Hy8VpuJVrqE2k9gcjI1EJSkCuVSBC/+",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "87.0% (.APK) Android Package (27000/1/5)",
+  "12.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "cuenta-ntflx-com",
+  "TgToxic"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "207",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3345127/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "RSharedStrings",
+   "author": "Katie Kleemola",
+   "description": "identifiers for remote and gmremote",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/12d94320a25c1496ae3c7d326e07d4d92d34381d7b821f58ef9f4e135612c6d8/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/12d94320a25c1496ae3c7d326e07d4d92d34381d7b821f58ef9f4e135612c6d8",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "tgtoxic",
+   "score": "10",
+   "link": "https://tria.ge/reports/241211-mrnkfsyqfv/",
+   "tags": [
+    "family:tgtoxic",
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks known Qemu pipes.",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.ScarletFlash",
+   "status": "MALICIOUS",
+   "first_seen": "2024-12-11 10:41:19",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67596c7e4730808d62bd6797/reports/0750475a-a61f-47c5-9d0c-d83bb2434060/overview"
+  }
+ },
+ "comments": null
+}

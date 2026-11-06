@@ -1,0 +1,82 @@
+{
+ "sha256_hash": "44ea6e68941e2f3716ecaa178775d5e81008edc7a969d40c90baf85a862a7a57",
+ "sha3_384_hash": "1596977bb069975110e7bf7936f248ffcf45bf1693b5a77ca9b2699e9c38f9ddae5f7641714528f601464e93d12d24ef",
+ "sha1_hash": "55114bedf297893bc3022414796515e2df79d5ae",
+ "md5_hash": "2455e88ae54546cea448f901dd8127da",
+ "first_seen": "2021-08-05 09:36:21",
+ "last_seen": null,
+ "file_name": "44ea6e68941e2f3716ecaa178775d5e81008edc7a969d40c90baf85a862a7a57.apk",
+ "file_size": 3498944,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "alberto__segura",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "FluBot",
+ "imphash": null,
+ "tlsh": "T1B3F5220DBFAEF12BD007F1398168E99A540848588988FF4B2B35519C5EFAC44A747FED",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:vzsCuCrwYD57Qyr5nsqNz+yBcvPDCkUHXCHvNwu4f3MUyN7AYpDMaSwXZ4cos:vwCdD57QyrKZOcDrjGusyZAWRS+ZR",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": "#Flubot 4.7\r\nAdds +61 country code (Australia)",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Flubot",
+  "v4.7"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.9899.5945.12815.UNOFFICIAL"
+  ],
+  "downloads": "291",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "anubis",
+   "link": "https://mwdb.cert.pl/sample/44ea6e68941e2f3716ecaa178775d5e81008edc7a969d40c90baf85a862a7a57/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/44ea6e68941e2f3716ecaa178775d5e81008edc7a969d40c90baf85a862a7a57",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210805-3gfrczy94x/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-05 09:37:07",
+   "scanner_count": "47",
+   "scanner_match": "7",
+   "scanner_percent": "14.89"
+  }
+ },
+ "comments": null
+}

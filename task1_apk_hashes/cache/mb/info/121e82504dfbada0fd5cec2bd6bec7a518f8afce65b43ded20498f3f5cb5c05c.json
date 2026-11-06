@@ -1,0 +1,256 @@
+{
+ "sha256_hash": "121e82504dfbada0fd5cec2bd6bec7a518f8afce65b43ded20498f3f5cb5c05c",
+ "sha3_384_hash": "24d6da25b4809d5d553c3cfc26e42dee448971ec6418851f3e72c9a8275fca282cdf58e2a4a12d3bb46f06734675ce1e",
+ "sha1_hash": "5d8b18f42cb0f0a5fa9aaec2f87272f380b41b53",
+ "md5_hash": "a933cf37dc0ad5b39ccdb22cb2058679",
+ "first_seen": "2026-02-03 06:55:36",
+ "last_seen": "2026-02-03 07:43:12",
+ "file_name": "00bf7f1_foto_9W",
+ "file_size": 1172719,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "kranxmob",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T1DF452202B2A8D517E4BE5B344D06C2E5AB35BE14CF41A3A72A42771D0CB17C2DE63E67",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:yBnVCUr33Pz7YqLh1j3EtT7kyONGWGHUhH8G6MtVopi+Rja:y/Zr33PzF3/XhHrtAtja",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Coper",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": [
+   "Unix.Dropper.Fakeapp-10014994-0"
+  ],
+  "downloads": "169",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/121e82504dfbada0fd5cec2bd6bec7a518f8afce65b43ded20498f3f5cb5c05c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/121e82504dfbada0fd5cec2bd6bec7a518f8afce65b43ded20498f3f5cb5c05c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/260203-hs2q9afy3c/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo family",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://64.89.163.37/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://46.151.182.213/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://a93f6d2b7SDSGx0k1m9q4r8s5v.com/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://h6d23bsdgsdsgsd8d7f1qk4m5x.com/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://5f46236sdgagjkkfhfhdxzh1k9m8s7q4x.com/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://34g9s7b6sdgjkkjkhjkgdsg0f6k1m8q5x.com/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://344d9g3sdgsgs8d1kjhjfjghdkhk7m5f2x.com/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://54sdf7sdskjjghgfkmdg3b6a0d1k9m8q.com/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://64.89.161.32/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://54klaksodslsdfssapoalldshk7m5f2x.com/ZWFlY2Q1NjdmZmI3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://546d9g3safghasfasfgs8d1kjhjfjghdkhk7m5f2x.com/ZWFlY2Q1NjdmZmI3/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.AVerseFalc",
+   "status": "MALICIOUS",
+   "first_seen": "2026-01-28 07:27:54",
+   "scanner_count": "38",
+   "scanner_match": "14",
+   "scanner_percent": "36.84"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69819d4d2ffccda09766a773/reports/3e88a3de-4bc8-4219-b46c-6467fa81612e/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-01-28T05:04:00Z",
+   "last_seen": "2026-02-03T08:40:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/121e82504dfbada0fd5cec2bd6bec7a518f8afce65b43ded20498f3f5cb5c05c/results?tab=lookup",
+   "detections": [
+    "HEUR:Trojan-Banker.AndroidOS.Agent.eq",
+    "HEUR:Trojan-Dropper.AndroidOS.Agent.sm",
+    "HEUR:Trojan-Banker.AndroidOS.Coper.c"
+   ]
+  }
+ },
+ "comments": null
+}

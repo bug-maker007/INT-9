@@ -1,0 +1,318 @@
+{
+ "sha256_hash": "33ece8395604682f2c428a5b7a11e562b836f44f7b6fbb0caaa84bfa80d0c8ff",
+ "sha3_384_hash": "d063caa783781b67619f6d266d1887ea52251ed54409d7240f1bc3d49efb499e70d7da5b7bfa9c44d1564d4527f02b35",
+ "sha1_hash": "efc35f897b1ba446d44b5e020263349d70d11a67",
+ "md5_hash": "043a7202d02e28708c93fad859d7a70d",
+ "first_seen": "2026-02-16 07:07:39",
+ "last_seen": null,
+ "file_name": "ChromeGuncelleme.apk",
+ "file_size": 1589920,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "TR",
+ "anonymous": 1,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T1F6750137E832B27ED75C863318B54D636BA1B20A96278C09329D3A755F4DBCE0E12375",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:qIqW8wg5u0Y/7UckVQ+g2pZR4UylW1vstKDd:AS/7UDe+gBw1vsY5",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "bankbot",
+  "banker",
+  "Coper"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan-Banker.AndroidOS.Octo-1.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.32672.1523.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan.Generic.35243918.12742.18135.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan.Generic.35358880.26987.19779.UNOFFICIAL"
+  ],
+  "downloads": "299",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "Linux_Generic_Threat_a8faf785",
+   "author": "Elastic Security",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/33ece8395604682f2c428a5b7a11e562b836f44f7b6fbb0caaa84bfa80d0c8ff/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/33ece8395604682f2c428a5b7a11e562b836f44f7b6fbb0caaa84bfa80d0c8ff",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/260216-hybf9aht5e/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo family",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests accessing notifications (often used to intercept notifications before users become aware).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests modifying system settings.",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahikesisayfa.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahisacmodasi.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahitarzlari.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahitrendleri.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahikuaforum.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahisanatsever.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahistilleri.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahiklasikleri.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahiustaligi.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahikutuphanem.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahiboyahane.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahimodalar.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahimevsimi.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahiranasi.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahicekimi.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahikoleksiyonu.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahigercegi.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahivizyon.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahiezgisi.xyz/MzhiMTg0NTAwOTY5S/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://berbersahikarisimi.xyz/MzhiMTg0NTAwOTY5S/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-04-18 01:29:44",
+   "scanner_count": "24",
+   "scanner_match": "15",
+   "scanner_percent": "62.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6992c25e981ff1d38a5723be/reports/6156ce4a-bc62-4722-845d-b06f7875ed1f/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-04-17T18:34:00Z",
+   "last_seen": "2025-10-15T22:25:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/33ece8395604682f2c428a5b7a11e562b836f44f7b6fbb0caaa84bfa80d0c8ff/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

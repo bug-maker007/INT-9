@@ -1,0 +1,107 @@
+{
+ "sha256_hash": "1811bd1c7300746f8eb515ce096834ac4524a80c2fc990b7f4874e070501ddf7",
+ "sha3_384_hash": "c2a46fb95e0677a33c7491b515493e7ab0f19d6eb4b3a03d25a2b31a41e2912e211e01ba1f4653a255a684c24e6b4859",
+ "sha1_hash": "f1e6da0a218dc77c60c441e882923841af8435d4",
+ "md5_hash": "fd4fa33f9fb8f0fbc62d60f83a0ee287",
+ "first_seen": "2021-10-10 01:11:32",
+ "last_seen": null,
+ "file_name": "Android_Guncelleme_build_obf_8.apk",
+ "file_size": 2996251,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1ACD533C1FBA1FC75E6FFD870E092B06334D845899541A57A360F5AA79B05CA42303BFA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:sEBaYhGdUKqRQ9wnHIdKVDoSYqixkJGlHlODoqwjg5V0J6X:BYqG7qBHImDUDkJgH8Ufk7CC",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.ScytheSCF.GG.14459.9795.UNOFFICIAL"
+  ],
+  "downloads": "260",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1811bd1c7300746f8eb515ce096834ac4524a80c2fc990b7f4874e070501ddf7/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/1811bd1c7300746f8eb515ce096834ac4524a80c2fc990b7f4874e070501ddf7",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/211010-bkh6lsfehl/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://109.205.182.228"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-10-10 01:12:06",
+   "scanner_count": "43",
+   "scanner_match": "7",
+   "scanner_percent": "16.28"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61623de59fb4d8593d6017b4/reports/6c336d74-76b0-46e8-8049-6d034c411c9d/overview"
+  }
+ },
+ "comments": null
+}

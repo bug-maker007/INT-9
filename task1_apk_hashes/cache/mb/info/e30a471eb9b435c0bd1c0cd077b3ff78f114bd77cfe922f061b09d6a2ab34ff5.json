@@ -1,0 +1,125 @@
+{
+ "sha256_hash": "e30a471eb9b435c0bd1c0cd077b3ff78f114bd77cfe922f061b09d6a2ab34ff5",
+ "sha3_384_hash": "ec1b573c5ca9a2f936dc11614483cd9c59781a7c4b219f382906e74390fd57073bc58716560a0775c0e2eea0602ca242",
+ "sha1_hash": "16676b0251e8994c407102226163423e57c57e72",
+ "md5_hash": "8a8c858f34f3b62bcafb61154743131f",
+ "first_seen": "2021-08-10 12:22:49",
+ "last_seen": "2021-08-10 12:22:56",
+ "file_name": "74386_Video_Oynatıcı.apk",
+ "file_size": 3259143,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "BankBot",
+ "imphash": null,
+ "tlsh": "T175E53302D974E012F53F91F30294DC595A17628CAB53AE3B167033CA9C82FE1A767ED6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:EajRZA0Z9v7MfyuPtK1C653DKJn7TVMwsCMe0zK:EajR/QquFKo+DM7TVMYMJzK",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "BankBot",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "280",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1521936/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1521940/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e30a471eb9b435c0bd1c0cd077b3ff78f114bd77cfe922f061b09d6a2ab34ff5/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.03"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/e30a471eb9b435c0bd1c0cd077b3ff78f114bd77cfe922f061b09d6a2ab34ff5",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/210810-vveewb5hea/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hydra",
+     "c2": "http://shaylaprince5.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Bian",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-10 12:23:07",
+   "scanner_count": "47",
+   "scanner_match": "9",
+   "scanner_percent": "19.15"
+  }
+ },
+ "comments": null
+}

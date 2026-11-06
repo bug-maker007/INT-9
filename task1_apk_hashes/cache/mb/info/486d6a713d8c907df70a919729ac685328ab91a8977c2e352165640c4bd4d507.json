@@ -1,0 +1,103 @@
+{
+ "sha256_hash": "486d6a713d8c907df70a919729ac685328ab91a8977c2e352165640c4bd4d507",
+ "sha3_384_hash": "348af9633f107324b1e9cb36f58c7db740c47e753876b65c4604bcc37ced05f58b93d95253e982a5fbe28d723a07a17a",
+ "sha1_hash": "627ef79b459b7e4c001ec298e7fae9f82f16fc97",
+ "md5_hash": "cee4b1fae8a45502d106a200593a9125",
+ "first_seen": "2021-10-21 12:44:26",
+ "last_seen": null,
+ "file_name": "FlashPlayer.apk",
+ "file_size": 3903113,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "BankBot",
+ "imphash": null,
+ "tlsh": "T17F061242F7C8BD2FCDB781360FB54A6B45459D9ACA46D71345A0B22C5DBBAC08E81FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:S6YFtCZdYrO7+d00Vs18LnORE/TRZWT1wS/j3uoz:S6QCzYrOw00ayTPLTWT/5",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "agent",
+  "android",
+  "apk",
+  "BankBot",
+  "leevinsbots.xyz",
+  "spy"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.797.origin.23419.28265.UNOFFICIAL"
+  ],
+  "downloads": "460",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/_icebre4ker_/status/1451093326300594178?s=20"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1705155/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/486d6a713d8c907df70a919729ac685328ab91a8977c2e352165640c4bd4d507/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Anubis",
+   "score": "0.90"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/486d6a713d8c907df70a919729ac685328ab91a8977c2e352165640c4bd4d507",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/211021-py23jaacf4/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SmsThief",
+   "status": "MALICIOUS",
+   "first_seen": "2021-10-21 00:39:10",
+   "scanner_count": "23",
+   "scanner_match": "9",
+   "scanner_percent": "39.13"
+  },
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "0.6666666666666667",
+   "report_link": "https://www.filescan.io/uploads/617160d09a5a1e91c5cb733f/reports/00c90fdd-e161-4c19-8762-6b9891c72409/overview"
+  }
+ },
+ "comments": null
+}

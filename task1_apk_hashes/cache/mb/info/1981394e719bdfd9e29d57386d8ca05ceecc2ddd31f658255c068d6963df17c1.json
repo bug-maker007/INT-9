@@ -1,0 +1,97 @@
+{
+ "sha256_hash": "1981394e719bdfd9e29d57386d8ca05ceecc2ddd31f658255c068d6963df17c1",
+ "sha3_384_hash": "3118dcd8edb2ae650edffd2a8238c683f52bf57153fc85754cf9eaf045c137988f6d4eaefc1a82fd6d9bc62bd6202b91",
+ "sha1_hash": "295ccd2a415813940a887a944b90da29ae3c7219",
+ "md5_hash": "3028426a14bf747efddb2fde53952040",
+ "first_seen": "2021-11-02 22:17:18",
+ "last_seen": null,
+ "file_name": "1981394e719bdfd9e29d57386d8ca05ceecc2ddd31f658255c068d6963df17c1",
+ "file_size": 5216747,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BushidoToken",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Sova",
+ "imphash": null,
+ "tlsh": "T1B7363367FD2EE02DD41FD53481544A8BA80941085958F61B5E3502AC8EFAE84EB4FFFE",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:KPJmHqAMcAW0I6ZJD6wIMAMzmciMff3yxre+ipqOEBl4xuM+w1HQN4:KPJqqyt6DDlApcdH3yN9ipeBlcD2N4",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "APK",
+  "COVID-19",
+  "NHS",
+  "SOVA",
+  "zip"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "297",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/BushidoToken/status/1445857927600955393"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1981394e719bdfd9e29d57386d8ca05ceecc2ddd31f658255c068d6963df17c1/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/1981394e719bdfd9e29d57386d8ca05ceecc2ddd31f658255c068d6963df17c1",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/211102-17yl9acfh2/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2021-10-07 00:15:18",
+   "scanner_count": "27",
+   "scanner_match": "9",
+   "scanner_percent": "33.33"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "0.6666666666666667",
+   "report_link": "https://www.filescan.io/uploads/6181b91e1c62c356607fb79f/reports/9ff1e3d7-f677-439f-a97a-60f76c42c2c7/overview"
+  }
+ },
+ "comments": null
+}

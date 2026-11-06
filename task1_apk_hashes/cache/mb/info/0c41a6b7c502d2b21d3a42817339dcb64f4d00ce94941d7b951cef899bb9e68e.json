@@ -1,0 +1,105 @@
+{
+ "sha256_hash": "0c41a6b7c502d2b21d3a42817339dcb64f4d00ce94941d7b951cef899bb9e68e",
+ "sha3_384_hash": "07c8804ed3cf5babdb12996792cc64661a3acebdb9d1c299f715e3ca8d611733c196fe8c05ec5106e720909bf33c1c96",
+ "sha1_hash": "fc342d3ebaec088b8b42bc15cd9f84c17d631aec",
+ "md5_hash": "8e782cf1cbffcb2ea98eb149377dd588",
+ "first_seen": "2024-03-23 23:51:24",
+ "last_seen": null,
+ "file_name": "cập nhật android.apk",
+ "file_size": 5224298,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Alonso168957071",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T175363321ADBA20A2EC456B358DC40519CC1783D7CAD2FCEAF98D6ACC2F11794DDB7099",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:j4fvPqeKs1v5txtqM+W7v1sPQjep2+A6YmnzGF8DQZo:1MuWmK+dA6YyGykG",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Fakeapp",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "462",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/0c41a6b7c502d2b21d3a42817339dcb64f4d00ce94941d7b951cef899bb9e68e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Fakeapp",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/0c41a6b7c502d2b21d3a42817339dcb64f4d00ce94941d7b951cef899bb9e68e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240323-3wp7vaed99/",
+   "tags": [
+    "family:irata",
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.HiddenApp",
+   "status": "MALICIOUS",
+   "first_seen": "2022-09-05 05:19:35",
+   "scanner_count": "38",
+   "scanner_match": "11",
+   "scanner_percent": "28.95"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ]
+ },
+ "comments": null
+}

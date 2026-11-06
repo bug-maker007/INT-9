@@ -1,0 +1,148 @@
+{
+ "sha256_hash": "a0610f08c783ff5486a66022fedf483e1ac81dfe48935680b5d9d29b309338c5",
+ "sha3_384_hash": "9e80e383ae56202aade8f3c887456adae1c0b2f2f3a39fb9269f8c3fa9e04b10051fbab42a16749ac00a24ec7ad89b69",
+ "sha1_hash": "731fe6688a8b565275ec4d33293ea569829569b3",
+ "md5_hash": "9bc85bf4432a5ed8cd00f0eac8a2257e",
+ "first_seen": "2026-02-25 13:30:27",
+ "last_seen": null,
+ "file_name": "Mp3.indir (1).apk",
+ "file_size": 5053600,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "CyberMAN_noBODY",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "BankBot",
+ "imphash": null,
+ "tlsh": "T1EF36F146F785A97BC4F78332467696262237CC668B83D6871D5C323C18B79D80F5AEC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:a+tht2IN9FlMM9ZZSSCSKL0+EduWjPnu1ZEDuIWwjuzfrEOKev9N3wlI:a+9lnpHSSuQ+E3mYq/wg7AlI",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "40.0% (.APK) Android Package (27000/1/5)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "18.5% (.VYM) VYM Mind Map (12500/1/3)",
+  "15.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "bankbot",
+  "banker",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Kasoft Technology",
+   "issuer_cn": "Kasoft Technology",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2022-07-12T19:06:37Z",
+   "valid_to": "2047-07-06T19:06:37Z",
+   "serial_number": "0f0f0271",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1d8e0657e7f6386d516ad1c97479aebc4235c014d26c5f549bcdceabdc3b2374",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "281",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a0610f08c783ff5486a66022fedf483e1ac81dfe48935680b5d9d29b309338c5/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/a0610f08c783ff5486a66022fedf483e1ac81dfe48935680b5d9d29b309338c5",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260225-qshx5sgw5d/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Anubis",
+   "status": "MALICIOUS",
+   "first_seen": "2023-08-31 17:21:55",
+   "scanner_count": "36",
+   "scanner_match": "9",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/699ef9a510e80629d4f20b63/reports/dbf1dfcd-6102-45d3-b1e2-a1dba505e466/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2023-08-31T13:54:00Z",
+   "last_seen": "2023-08-31T18:45:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/a0610f08c783ff5486a66022fedf483e1ac81dfe48935680b5d9d29b309338c5/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

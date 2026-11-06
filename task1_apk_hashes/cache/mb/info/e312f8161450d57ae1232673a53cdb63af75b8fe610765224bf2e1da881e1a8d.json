@@ -1,0 +1,105 @@
+{
+ "sha256_hash": "e312f8161450d57ae1232673a53cdb63af75b8fe610765224bf2e1da881e1a8d",
+ "sha3_384_hash": "37185dc34ebd6db8364c10d4891294e1d6c6e252c530adbb5a48eea930106c32e477a16cc5f383a60d0687cb0b71373b",
+ "sha1_hash": "657d5ef4dcb6bd6afce7881ee82b187f3f9b624e",
+ "md5_hash": "bff21836483b8ca2f0e575607a7ea325",
+ "first_seen": "2026-01-29 13:23:51",
+ "last_seen": "2026-01-29 13:24:37",
+ "file_name": "9W",
+ "file_size": 1130573,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "nobody1",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T111352244B79DD216FDBE6B308A6B83D4A1157E11CF01676B3502734C8E726858E23FBA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:vwxqncZnOposrm8oVQXGi94qTKLTDym2iVpzIipwNDQeouXImmnoX1:vkq+OfAgGRqT8TOMVNw9QeouXImX1",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "111",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/e312f8161450d57ae1232673a53cdb63af75b8fe610765224bf2e1da881e1a8d",
+   "details": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Egairtigado",
+   "status": "MALICIOUS",
+   "first_seen": "2026-01-29 13:12:37",
+   "scanner_count": "38",
+   "scanner_match": "12",
+   "scanner_percent": "31.58"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-01-29T10:45:00Z",
+   "last_seen": "2026-01-30T09:43:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/e312f8161450d57ae1232673a53cdb63af75b8fe610765224bf2e1da881e1a8d/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

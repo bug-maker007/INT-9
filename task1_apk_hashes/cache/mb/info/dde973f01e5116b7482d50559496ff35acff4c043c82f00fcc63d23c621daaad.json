@@ -1,0 +1,92 @@
+{
+ "sha256_hash": "dde973f01e5116b7482d50559496ff35acff4c043c82f00fcc63d23c621daaad",
+ "sha3_384_hash": "c08b68e97e69cf080b98efbdae1c1e0b4fccc0dd814c2466e48fd4407d7158dbf00c9b988cefe583f43df6c2f884c7be",
+ "sha1_hash": "11762e79b1551f72dad1ee7a079cd2507ef54ad0",
+ "md5_hash": "6d0926193cca3b30e883542e1e1c08b6",
+ "first_seen": "2021-02-04 01:20:26",
+ "last_seen": null,
+ "file_name": "Google Services 1.0.apk",
+ "file_size": 3793803,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "r3dbU7z",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Anubis",
+ "imphash": null,
+ "tlsh": "2006CF0BF90EAE17CCDA6938161B4362B536F9CC133540B77129C7367EA76C9CE16A90",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:elJE1kRhVjgfAfgj1z2Xi+r9Q6JE2fZSiU7ZijXhk6RYWZ9d0:eykf6fAfgj1z2y+r9QsE2fZPrHXa",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "AndroidOS",
+  "Anubis",
+  "apk",
+  "Spy"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.613.origin.25635.23337.UNOFFICIAL"
+  ],
+  "downloads": "412",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "anubis",
+   "link": "https://mwdb.cert.pl/sample/dde973f01e5116b7482d50559496ff35acff4c043c82f00fcc63d23c621daaad/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": null,
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "10",
+   "link": "https://tria.ge/reports/210204-7nsqhbjf3n/",
+   "tags": [
+    "android",
+    "obfuscation",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ditertag",
+   "status": "MALICIOUS",
+   "first_seen": "2021-02-04 01:21:07",
+   "scanner_count": "29",
+   "scanner_match": "13",
+   "scanner_percent": "44.83"
+  }
+ },
+ "comments": null
+}

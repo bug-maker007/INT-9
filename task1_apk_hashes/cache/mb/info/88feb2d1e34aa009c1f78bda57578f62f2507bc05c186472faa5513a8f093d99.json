@@ -1,0 +1,95 @@
+{
+ "sha256_hash": "88feb2d1e34aa009c1f78bda57578f62f2507bc05c186472faa5513a8f093d99",
+ "sha3_384_hash": "c8045c8c8157391831ff914c4df71b495ad93f8e548d49d5ff01212514ff031464fbb450e22491de5b68056b70786177",
+ "sha1_hash": "0cb8424ee4af0e4bab56f8c2413cae889ac396e5",
+ "md5_hash": "f77d616865713cbea17c331219410ed6",
+ "first_seen": "2021-09-23 13:36:00",
+ "last_seen": null,
+ "file_name": "Android_Guncelleme_build.apk",
+ "file_size": 153005,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1ADE302C367852858F2BF91B811FF67193ABE875012ECF222649B05A4BC3AA561F1CD25",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "3072:MLevUZ2l2KSaZ0AduDolX5vodg0kxKPnVBIVBQhPZhPhas:cesZ28KSaZhduDo9lodg0kxi/I/SHJ",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "258",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/88feb2d1e34aa009c1f78bda57578f62f2507bc05c186472faa5513a8f093d99/"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/88feb2d1e34aa009c1f78bda57578f62f2507bc05c186472faa5513a8f093d99",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/210923-qwbcgaeden/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "https://wirliebenuns.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2021-09-23 13:36:17",
+   "scanner_count": "28",
+   "scanner_match": "16",
+   "scanner_percent": "57.14"
+  }
+ },
+ "comments": null
+}

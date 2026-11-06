@@ -1,0 +1,129 @@
+{
+ "sha256_hash": "7fa3d58a0056e8492a84894a6fd3b3d0d87ff1f9656f5e54b10580b9a4a4fd6a",
+ "sha3_384_hash": "ee39f4b7d7d47ff23717bb9f65516895cf3ec7d784ee998e5f2a2d801d1daf1bb36141aecf62c5a8df10424c2ac5b7d6",
+ "sha1_hash": "0694c99741258c9609771c544a647f6641caa138",
+ "md5_hash": "4f007c674721466ff8af2d6b8b0e6040",
+ "first_seen": "2024-03-06 17:48:39",
+ "last_seen": null,
+ "file_name": "CaixaSignProtect.apk",
+ "file_size": 4735158,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "g0njxa",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1452633E1F1A3C297E67B9473D423560ACF3A194BBFA0089674F7672181DB9D9431A8CC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:L9hinlhin6Vhinahinx1hin6hinshinUhinWUlbqT0+L1ePKRMpxYw7:LbCzC6DC8CxjCcCyCKCWhwA1wKRa2k",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "Phishing",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Banking",
+  "IRATA",
+  "signed",
+  "spain"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.1100.origin.30963.15448.UNOFFICIAL"
+  ],
+  "downloads": "466",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://caixabank-protect-playstore.com/assets/app/v1/CaixaSignProtect.apk"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7fa3d58a0056e8492a84894a6fd3b3d0d87ff1f9656f5e54b10580b9a4a4fd6a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Banker",
+   "score": "0.90"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/7fa3d58a0056e8492a84894a6fd3b3d0d87ff1f9656f5e54b10580b9a4a4fd6a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240306-wdz6rseb93/",
+   "tags": [
+    "family:irata",
+    "android",
+    "collection",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SvPeng",
+   "status": "MALICIOUS",
+   "first_seen": "2024-03-06 17:49:12",
+   "scanner_count": "20",
+   "scanner_match": "7",
+   "scanner_percent": "35.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65e8ac90b4fd15550487e99b/reports/8f2636cf-fa65-4c7c-905b-73bcbc65e2ca/overview"
+  }
+ },
+ "comments": null
+}

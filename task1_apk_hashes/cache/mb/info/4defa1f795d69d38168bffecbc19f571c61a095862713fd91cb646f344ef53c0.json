@@ -1,0 +1,120 @@
+{
+ "sha256_hash": "4defa1f795d69d38168bffecbc19f571c61a095862713fd91cb646f344ef53c0",
+ "sha3_384_hash": "dc1d3cab4730fba5b063070357593a83bde4ca5a98cca5776f343fe208d3bab3e0f41b54d90c09de4be2102eb18fe2e0",
+ "sha1_hash": "239a163eb8fa398af2ada9a162263dd6e94750b8",
+ "md5_hash": "d5d532beb351035ad8ab560593499dbb",
+ "first_seen": "2023-06-26 20:17:59",
+ "last_seen": null,
+ "file_name": "framull (1).apk",
+ "file_size": 4261423,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x6rss",
+ "origin_country": "NL",
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T163160287FB48693FC877C53349665232266B8E5A8B43D347685C362C28B76D80F59FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:cML/i9znFXDIiAzZNMpR2BkcoKb2XUDrQl0euwuHTGL1s5Oe19ccHfrnfLoD3B:cG/WznqiACqfb/DheSgor9VoD3B",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "52.8% (.APK) Android Package (32500/1/6)",
+  "21.9% (.JAR) Java Archive (13500/1/2)",
+  "17.0% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "6.5% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.6% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "cerberus",
+  "phoenix",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "np",
+   "issuer_cn": "np",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2021-04-25T09:03:56Z",
+   "valid_to": "3020-08-26T09:03:56Z",
+   "serial_number": "045ff9a3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "492682f877607ee99df2ddd2bd5953fd727bdf6e19d397de9dbbafd582bcad75",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Siggen.Susp.2410.17146.2487.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan.AndroidOS.Banker.H.MTB.26098.25268.UNOFFICIAL"
+  ],
+  "downloads": "439",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "MATCH_INTERNAL_000001",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/4defa1f795d69d38168bffecbc19f571c61a095862713fd91cb646f344ef53c0/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.09"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/4defa1f795d69d38168bffecbc19f571c61a095862713fd91cb646f344ef53c0",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/230626-y29ffsbg33/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.BankBot",
+   "status": "MALICIOUS",
+   "first_seen": "2023-06-24 14:34:18",
+   "scanner_count": "37",
+   "scanner_match": "12",
+   "scanner_percent": "32.43"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6499f27b358b3ea7e6a42ad8/reports/9cd4ffa8-55fe-4808-bbf5-42eb4cd8503f/overview"
+  }
+ },
+ "comments": null
+}

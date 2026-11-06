@@ -1,0 +1,116 @@
+{
+ "sha256_hash": "e907e2a4dc7455d068b1f5a28fbda8ea8abdb30e0c19a6200083ad2fb607961d",
+ "sha3_384_hash": "2cc3976aabb5f3bee478c7acb294228fa6ee2282d80c2fe4f54b0737f88bcf6a324af69800a3e64654ffbc46d84fb20e",
+ "sha1_hash": "d8f505ff1205ed79d5d958c9928c9795114ef68e",
+ "md5_hash": "7b2197365c92c5cfd19a56f5fdddc185",
+ "first_seen": "2023-03-13 16:26:38",
+ "last_seen": null,
+ "file_name": "E907E2A4DC7455D068B1F5A28FBDA8EA8ABDB30E0C19A6200083AD2FB607961D.apk",
+ "file_size": 2245401,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "f3d__",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "Vultur",
+ "imphash": null,
+ "tlsh": "T1AAA5E001FB54E82FC4B350331AA7867A12518E4E8694D31799AC766C3DB7AC89FC5FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:Bm0ADPUYZO0HquBpyJc/IhnzTKdpN/heuPgW0:ctMUTBMJIIFwQum",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "51.6% (.APK) Android Package (38500/1/9)",
+  "18.1% (.JAR) Java Archive (13500/1/2)",
+  "14.0% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "9.3% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "5.3% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "vultur"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan-Spy.AndroidOS.Vultur.5044.3583.UNOFFICIAL"
+  ],
+  "downloads": "347",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/cleafylabs/status/1635314663196971008"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e907e2a4dc7455d068b1f5a28fbda8ea8abdb30e0c19a6200083ad2fb607961d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/230313-tx31nabb93/",
+   "tags": [
+    "android",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Vultur",
+   "status": "MALICIOUS",
+   "first_seen": "2023-03-13 16:27:16",
+   "scanner_count": "22",
+   "scanner_match": "9",
+   "scanner_percent": "40.91"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.2",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/640f4ed78cf57265b25abf35/reports/33c97e39-8a98-40cc-bc6e-20e7f0e5741e/overview"
+  }
+ },
+ "comments": null
+}

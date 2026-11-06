@@ -1,0 +1,214 @@
+{
+ "sha256_hash": "8b05684a73f44ed82c0faf424b2d41a0c7b00c2fef4d7dc232c5433739a59f6c",
+ "sha3_384_hash": "18a11695d6c758102331839c60c76e3d1e6083509f48421baad4504dd05079ca47574c8bdc4d01e12303a3862cf1166a",
+ "sha1_hash": "222c048d7c746a4d1d56e9fab8e30d6a87492eac",
+ "md5_hash": "7e7edf3b1f5f0f4bdc77af7a3a5e34c5",
+ "first_seen": "2024-09-15 08:23:47",
+ "last_seen": "2024-09-19 09:56:29",
+ "file_name": "8b05684a73f44ed82c0faf424b2d41a0c7b00c2fef4d7dc232c5433739a59f6c.apk",
+ "file_size": 4686006,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1FE26337B8AF6F59BE0670B7A0065490B4FA7C1328ED3C10FBC7D62680BC631857D6A95",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:X2tqnPP3c6no//hAKQfD0eSD0yD0PD0EQD0nAcD00D0fD0uAl:iMVno/OdfDMDTDqDiDCxD9DGDLAl",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "40.2% (.SPE) SPSS Extension (30000/1/7)",
+  "36.2% (.APK) Android Package (27000/1/5)",
+  "18.1% (.JAR) Java Archive (13500/1/2)",
+  "5.3% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "80-251-153-96",
+  "apk",
+  "Copybara",
+  "IRATA",
+  "Joker",
+  "JokerRAT",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "md5WithRSAEncryption",
+   "valid_from": "2008-04-15T22:40:50Z",
+   "valid_to": "2035-09-01T22:40:50Z",
+   "serial_number": "b3998086d056cffa",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.15140.14911.8288.UNOFFICIAL"
+  ],
+  "downloads": "257",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "davivienda",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "davivienda",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Detect_APT29_WINELOADER_Backdoor",
+   "author": "daniyyell",
+   "description": "Detects APT29's WINELOADER backdoor variant used in phishing campaigns, this rule also detect bad pdf,shtml,htm and vbs or maybe more depends",
+   "reference": "https://cloud.google.com/blog/topics/threat-intelligence/apt29-wineloader-german-political-parties"
+  },
+  {
+   "rule_name": "Detect_Malicious_VBScript_Base64",
+   "author": "daniyyell",
+   "description": "Detects malicious VBScript patterns, including Base64 decoding, file operations, and PowerShell.",
+   "reference": null
+  },
+  {
+   "rule_name": "html_auto_download_b64",
+   "author": "Tdawg",
+   "description": "html auto download",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "test_Malaysia",
+   "author": "rectifyq",
+   "description": "Detects file containing malaysia string",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8b05684a73f44ed82c0faf424b2d41a0c7b00c2fef4d7dc232c5433739a59f6c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Joker",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/8b05684a73f44ed82c0faf424b2d41a0c7b00c2fef4d7dc232c5433739a59f6c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240915-kap1vavcmp/",
+   "tags": [
+    "family:irata",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about the current Wi-Fi connection",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Requests accessing notifications (often used to intercept notifications before users become aware).",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.ANDROIDCopybara",
+   "status": "MALICIOUS",
+   "first_seen": "2024-07-17 20:00:46",
+   "scanner_count": "38",
+   "scanner_match": "14",
+   "scanner_percent": "36.84"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/66e699a73c9389b729b81cde/reports/bfdec146-e4b4-46c4-ac72-d4d09ddce04f/overview"
+  }
+ },
+ "comments": null
+}

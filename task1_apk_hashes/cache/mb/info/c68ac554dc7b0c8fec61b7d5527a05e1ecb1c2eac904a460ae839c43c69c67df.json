@@ -1,0 +1,216 @@
+{
+ "sha256_hash": "c68ac554dc7b0c8fec61b7d5527a05e1ecb1c2eac904a460ae839c43c69c67df",
+ "sha3_384_hash": "a2eae6da45a948e14b881d45bff0514638f4153e870e99ac6ed48ced2cf2ce1ee0b44ffbc787623537bedaed61c595e4",
+ "sha1_hash": "ea70080acdc22ff68c241cd03c499a245b25807e",
+ "md5_hash": "44d3a7095205fce503413a86cdb065a1",
+ "first_seen": "2025-01-09 15:00:19",
+ "last_seen": null,
+ "file_name": "44.apk",
+ "file_size": 5582002,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "Hook",
+ "imphash": null,
+ "tlsh": "T1C24623527B89682EDA7344319A5E43153507AD26C3A2D74F952432BC38B7BC5CFEC8E8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:bfaNr28dhXTBBBCXconxLiicJybgYu7kbEhXGCN5KRGzsQ/dCV8JuSSQGTsxfxA+:jaY8pCXc+LKyFIrhXJn1/TJxSQxfxu38",
+ "magika": "jar",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hook"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.FileRepMalware.8971.32555.UNOFFICIAL"
+  ],
+  "downloads": "275",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c68ac554dc7b0c8fec61b7d5527a05e1ecb1c2eac904a460ae839c43c69c67df/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/c68ac554dc7b0c8fec61b7d5527a05e1ecb1c2eac904a460ae839c43c69c67df",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hook",
+   "score": "10",
+   "link": "https://tria.ge/reports/250109-sdwa2asngv/",
+   "tags": [
+    "family:hook",
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hook",
+     "score": "10"
+    },
+    {
+     "signature": "Hook family",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about the current Wi-Fi connection",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hook",
+     "c2": "http://lankfnajasdfzcvvxzxcrrtfas.pro; http://lankfnajasdfasdfcxcescgt.pro; http://lankfnajasdfdsfngaaslsss.pro; http://lankfnajasdfanbabwqeda.pro; http://lankfnajasdfasnbadsfaaa.pro"
+    },
+    {
+     "extraction": "c2",
+     "family": "hook",
+     "c2": "http://lankfnajasdfzcvvxzxcrrtfas.pro"
+    },
+    {
+     "extraction": "c2",
+     "family": "hook",
+     "c2": "http://lankfnajasdfasdfcxcescgt.pro"
+    },
+    {
+     "extraction": "c2",
+     "family": "hook",
+     "c2": "http://lankfnajasdfdsfngaaslsss.pro"
+    },
+    {
+     "extraction": "c2",
+     "family": "hook",
+     "c2": "http://lankfnajasdfanbabwqeda.pro"
+    },
+    {
+     "extraction": "c2",
+     "family": "hook",
+     "c2": "http://lankfnajasdfasnbadsfaaa.pro"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-01-09 15:09:10",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/677fe4af6ee75e0d89af461f/reports/ad5a4b4d-6de2-4ba8-8e9b-e4193d5dc152/overview"
+  }
+ },
+ "comments": null
+}

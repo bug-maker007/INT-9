@@ -1,0 +1,83 @@
+{
+ "sha256_hash": "801f956057aa608c7393b2fcca9b731c610c6bd5e14f4f3c1d64e8f211828319",
+ "sha3_384_hash": "c6fa8e8df0e069d96fcbb597c2c18efd73a0a8c89eec9fac1a4b70e52ca0ec5629a184c35d1d07de664422fbce13674c",
+ "sha1_hash": "9e14d550c6b2ad3f1ff0a46c86b66ab1f262e2fe",
+ "md5_hash": "e7551da0d6e05cce11d4bf3ae016bb15",
+ "first_seen": "2025-05-31 19:11:33",
+ "last_seen": "2025-06-04 15:27:09",
+ "file_name": "IKO Lokata.apk",
+ "file_size": 2269076,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "Crocodilus",
+ "imphash": null,
+ "tlsh": "T1DBB5F143EB19E86EC4F3C7318A76462AA5129C668783D7534A2473783D7B9C06F85FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:6gm4T9f5tL0fFCldC15ZqD1HwH8T8NSxVwOxCYVYgVpwxXMYbz:V5fg8jKqt8IxC3gVpIXMM",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Crocodilus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "142",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/801f956057aa608c7393b2fcca9b731c610c6bd5e14f4f3c1d64e8f211828319",
+   "details": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Anubis",
+   "status": "MALICIOUS",
+   "first_seen": "2025-05-27 12:03:03",
+   "scanner_count": "23",
+   "scanner_match": "7",
+   "scanner_percent": "30.43"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ]
+ },
+ "comments": null
+}

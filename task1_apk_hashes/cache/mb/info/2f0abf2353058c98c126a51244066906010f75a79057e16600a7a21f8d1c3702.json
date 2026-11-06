@@ -1,0 +1,106 @@
+{
+ "sha256_hash": "2f0abf2353058c98c126a51244066906010f75a79057e16600a7a21f8d1c3702",
+ "sha3_384_hash": "64c7b7073d9d2d5fbd3ef5971a6a37f7fe96b3cdca5f08957b9100611458d99f17cf6d9c9b316adc6b233949ac57c00e",
+ "sha1_hash": "999b581f32f39cf9768c30450cd85cc24fca834a",
+ "md5_hash": "aef3c0e65631d212d4e7f05fae7bb03b",
+ "first_seen": "2025-01-05 21:25:48",
+ "last_seen": null,
+ "file_name": "FM_2635K40_sh.apk",
+ "file_size": 83947221,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T1C5080263E32C9FC6C0E3D2366A35C492106A6CAC474BD2AB2C2C7D7917B75C7970E991",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:ZwUzYR9o+CzWwljm5mwWbandxULjzlXjKQobS/uKRFThaAN:ZM9oAmymwPXClXu1AuKX",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "35.2% (.APK) Android Package (27000/1/5)",
+  "28.1% (.OXT) OpenOffice Extension (21500/1/3)",
+  "17.6% (.JAR) Java Archive (13500/1/2)",
+  "13.7% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "https://samll.b-cdn.net/FM_2635K40_sh.apk",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2024-11-27T07:30:49Z",
+   "valid_to": "2054-11-20T07:30:49Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c3b8c9d109c239ca2059eb9b10639cea0d47e226f4b0ff0cc1e544b853774dd8",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "273",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/250105-z7apraylfn/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/2f0abf2353058c98c126a51244066906010f75a79057e16600a7a21f8d1c3702",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/250105-z96vzawpey/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Packed.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-01-05 21:26:12",
+   "scanner_count": "38",
+   "scanner_match": "3",
+   "scanner_percent": "7.89"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/677af8edb489e5d0aebd27d3/reports/e85f7915-ce0b-42b7-8ffa-362db72007d5/overview"
+  }
+ },
+ "comments": null
+}

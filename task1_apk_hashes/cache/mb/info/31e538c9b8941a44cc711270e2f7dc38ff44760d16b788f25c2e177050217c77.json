@@ -1,0 +1,99 @@
+{
+ "sha256_hash": "31e538c9b8941a44cc711270e2f7dc38ff44760d16b788f25c2e177050217c77",
+ "sha3_384_hash": "9a02abe4ea95732eec53499100fe36b6af38952cd27317a349470a9bca1eed81a5886ff21894fb129f19ad5665af42ce",
+ "sha1_hash": "222a59e8de586ff7619be496612fe13489266690",
+ "md5_hash": "3f776bbc39508213d2fc07136296f93c",
+ "first_seen": "2024-04-15 05:14:55",
+ "last_seen": null,
+ "file_name": "معيشتے.apk",
+ "file_size": 2866397,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T133D52313F736A95BC876C1732904123A50125E298A57EB463A493BEE75FBEFC0B847C1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:IomTakeKRfmyvhfhyXVxAsPkkvht3Srpc3ZOuQowNe0VuxeWYmAWJv0KWf:STPbmyvhpyX1kkZV4O3ZOu550Q4WDzuT",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "80.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "20.0% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "425",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "maldoc_OLE_file_magic_number",
+   "author": "Didier Stevens (https://DidierStevens.com)",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/31e538c9b8941a44cc711270e2f7dc38ff44760d16b788f25c2e177050217c77/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.05"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/31e538c9b8941a44cc711270e2f7dc38ff44760d16b788f25c2e177050217c77",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240415-fxj1wsaa3x/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-04-15 05:15:06",
+   "scanner_count": "23",
+   "scanner_match": "6",
+   "scanner_percent": "26.09"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ]
+ },
+ "comments": null
+}

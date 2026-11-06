@@ -1,0 +1,178 @@
+{
+ "sha256_hash": "1faeeec49012ef73fbe7fabcb325b0b849f64a967c9d0d777c80da9870a34b70",
+ "sha3_384_hash": "4a1f468a65334b5dd0c43cd557d84d07b2c7bd017399dbd1207a81bce5fc7ba98d0a714970eeee1147eaabd98b7ef348",
+ "sha1_hash": "e35225677a122b461e4744bab27e2372c883b423",
+ "md5_hash": "8a74dc7513885d24b8a01bdee0d08650",
+ "first_seen": "2025-07-02 23:38:35",
+ "last_seen": null,
+ "file_name": "1faeeec49012ef73fbe7fabcb325b0b849f64a967c9d0d777c80da9870a34b70.apk",
+ "file_size": 13020571,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "BingoMod",
+ "imphash": null,
+ "tlsh": "T122D68309E503FD6AD79964364C67D41967B1BC86FE8B5323B34EB7BF38A215D8608380",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:LmR6SFm2wrfqlHyfFVRrd2Zr8Sommw/gSfO+:LWwyOFfmrRW+",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "32.3% (.APK) Android Package (27000/1/5)",
+  "25.7% (.OXT) OpenOffice Extension (21500/1/3)",
+  "16.1% (.JAR) Java Archive (13500/1/2)",
+  "12.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "8.3% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "BingoMod",
+  "signed",
+  "Spy-Agent-DUD"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "John Johnson",
+   "issuer_cn": "John Johnson",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2024-11-10T22:37:56Z",
+   "valid_to": "2052-03-28T22:37:56Z",
+   "serial_number": "56d755e6cd13f774",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "21038dc7bd3cf0c88075bfecef621293e288d07e58174bb87d5b9ddceab94a91",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "148",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "botnet_plaintext_c2",
+   "author": "cip",
+   "description": "Attempts to match at least some of the strings used in some botnet variants which use plaintext communication protocols.",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1faeeec49012ef73fbe7fabcb325b0b849f64a967c9d0d777c80da9870a34b70/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "bingomod",
+   "score": "10",
+   "link": "https://tria.ge/reports/250702-3nc8bastfz/",
+   "tags": [
+    "family:bingomod",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "BingoMod",
+     "score": "10"
+    },
+    {
+     "signature": "Bingomod family",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests modifying system settings.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "bingomod",
+     "c2": "192.119.110.32"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2024-11-15 22:15:25",
+   "scanner_count": "38",
+   "scanner_match": "4",
+   "scanner_percent": "10.53"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/6865c3247423ff017c3d2db1/reports//overview"
+  }
+ },
+ "comments": null
+}

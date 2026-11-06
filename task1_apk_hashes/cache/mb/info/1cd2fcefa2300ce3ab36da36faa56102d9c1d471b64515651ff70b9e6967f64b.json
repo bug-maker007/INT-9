@@ -1,0 +1,105 @@
+{
+ "sha256_hash": "1cd2fcefa2300ce3ab36da36faa56102d9c1d471b64515651ff70b9e6967f64b",
+ "sha3_384_hash": "b41b5a6be6b917704bd0617640d06dad3c7c97fd2f87003704cb8cf6b9fa1ed91229584d1e1f60273cc67415b489f1a7",
+ "sha1_hash": "4e63b444198c843861e4fe9298d639f12d1ec7d4",
+ "md5_hash": "857df95cac21883b64b4fee19929f774",
+ "first_seen": "2025-01-12 10:44:32",
+ "last_seen": "2025-02-06 08:17:04",
+ "file_name": "induscards.apk",
+ "file_size": 6795425,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T10B6602C6F7D8992FC8735032C9AA57F1565B4D128A839F476944371C38BB6E80F4ABC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:6csNyl88lTkMF5BXmK5m8qMp/U6deYky2B50Jvhw6B+VJDxio/KrY8V:6xN5ykMF5YK5TxdfgB5Uvh8OV",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "50.0% (.APK) Android Package (27000/1/5)",
+  "23.1% (.VYM) VYM Mind Map (12500/1/3)",
+  "19.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "andorid",
+  "apk",
+  "bank",
+  "indusind",
+  "malware",
+  "spyware"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "243",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1cd2fcefa2300ce3ab36da36faa56102d9c1d471b64515651ff70b9e6967f64b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/1cd2fcefa2300ce3ab36da36faa56102d9c1d471b64515651ff70b9e6967f64b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/250112-mtds2ayqcs/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-01-06 10:45:00",
+   "scanner_count": "38",
+   "scanner_match": "8",
+   "scanner_percent": "21.05"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67839d30607f66de0d48aded/reports/879b61c2-bc6e-4c77-8b80-852a321577c0/overview"
+  }
+ },
+ "comments": null
+}

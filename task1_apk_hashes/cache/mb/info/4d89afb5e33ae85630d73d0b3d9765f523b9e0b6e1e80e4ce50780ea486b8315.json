@@ -1,0 +1,154 @@
+{
+ "sha256_hash": "4d89afb5e33ae85630d73d0b3d9765f523b9e0b6e1e80e4ce50780ea486b8315",
+ "sha3_384_hash": "23a93717a79002d9180cd987cf61b16470f269c10cbd40ea0b6f73fdf2ca519837b48630cc47e0274e38060f0a9720c2",
+ "sha1_hash": "1e111450b5b292d9d192513000f9ffb381709296",
+ "md5_hash": "46fd7ae90adad17163e51191b3c3704a",
+ "first_seen": "2025-02-17 10:24:04",
+ "last_seen": "2025-02-21 10:59:37",
+ "file_name": "build.s.apk",
+ "file_size": 273418,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "skocherhan",
+ "origin_country": "GB",
+ "anonymous": 0,
+ "signature": "AhMyth",
+ "imphash": null,
+ "tlsh": "T1B94423CECBE1FB8BCA446232F67146A63C5442A4C736F1E2A8729D10D2F19D234D1E9C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:AE+ohBRPxdh+0GohVa8g1wH9U75ENc7LNP900:AE+ofR119VXgGHyd9x",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "http://195.230.22.20/build.s.apk",
+ "archive_pw": null,
+ "tags": [
+  "Ahmyth",
+  "apk",
+  "L3MON",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.5215.23408.16829.UNOFFICIAL",
+   "SecuriteInfo.com.Android.Spy.5215.9901.29211.UNOFFICIAL"
+  ],
+  "downloads": "294",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3442234/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/4d89afb5e33ae85630d73d0b3d9765f523b9e0b6e1e80e4ce50780ea486b8315/"
+  },
+  "YOROI_YOMI": {
+   "detection": "AhMyth",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/4d89afb5e33ae85630d73d0b3d9765f523b9e0b6e1e80e4ce50780ea486b8315",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "ahmyth",
+   "score": "10",
+   "link": "https://tria.ge/reports/250217-mfh6layjbw/",
+   "tags": [
+    "family:ahmyth",
+    "android",
+    "collection",
+    "credential_access",
+    "evasion",
+    "impact",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Requests accessing notifications (often used to intercept notifications before users become aware).",
+     "score": "6"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "ahmyth",
+     "c2": "http://192.168.0.133:22222"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ahmythspy",
+   "status": "MALICIOUS",
+   "first_seen": "2025-02-16 21:18:56",
+   "scanner_count": "24",
+   "scanner_match": "12",
+   "scanner_percent": "50.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67b30e56991985e0a95a5bee/reports/4597e891-bf9f-4c4e-9018-f80bbb60a0a2/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,112 @@
+{
+ "sha256_hash": "a8b82d18f95d19383691306d3e6f03f2fb6c5903a2f83ea78b7986757152adaf",
+ "sha3_384_hash": "19067a86826ee6820a90d1db7fcfcb942e4fbcdf61ce15a4404c590a91e0371e115c4cfe687a8b9709649aa21d20e4f9",
+ "sha1_hash": "67378ee8fa15ca94c46340fd4e15336369aa53a1",
+ "md5_hash": "5fcaef59e8a883b1af56594a5e08d005",
+ "first_seen": "2021-10-11 19:06:37",
+ "last_seen": null,
+ "file_name": "Aleyna_Tilki_Ifsa.apk",
+ "file_size": 3072267,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1B5E53352BB20BC75F66DAD32EAD7408976580E040543D397302F89F1DF69EA42B1BDE2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:mNsOxaGaZ1NPOBsBiXqOEB9gAbLp+pj83l3onitGhYg4Fv3e20tq66z4oHJ:xHVOBTXq12AnQpj2lYnipO2n54op",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.ScytheSCF.GG.14350.10275.UNOFFICIAL"
+  ],
+  "downloads": "262",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1667965/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "anubis",
+   "link": "https://mwdb.cert.pl/sample/a8b82d18f95d19383691306d3e6f03f2fb6c5903a2f83ea78b7986757152adaf/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/a8b82d18f95d19383691306d3e6f03f2fb6c5903a2f83ea78b7986757152adaf",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/211011-xsnlyshhh7/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://185.182.8.36"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Cebruser",
+   "status": "MALICIOUS",
+   "first_seen": "2021-10-11 19:07:08",
+   "scanner_count": "45",
+   "scanner_match": "9",
+   "scanner_percent": "20.00"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61648b5dfd35fe780c38b281/reports/044b0818-b874-4c02-bf65-23fbf173d990/overview"
+  }
+ },
+ "comments": null
+}

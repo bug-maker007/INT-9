@@ -1,0 +1,160 @@
+{
+ "sha256_hash": "a6ed100ae42e4fdabfd1b4c992762152bc4a11cc8e521b647b444c75bb7a9782",
+ "sha3_384_hash": "6e56bbed57feea39eda16dc4f366c0d73517911f011160fbee3fc63b1b0fa73739abae817458b305835fa20da5b4a658",
+ "sha1_hash": "5dbc46c83644ace95fb54cdab6594e64f14a27bd",
+ "md5_hash": "1e48b10964391aa1676f4a0738db672c",
+ "first_seen": "2026-04-06 06:08:18",
+ "last_seen": null,
+ "file_name": "a6ed100ae42e4fdabfd1b4c992762152bc4a11cc8e521b647b444c75bb7a9782.apk",
+ "file_size": 4134252,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "IT",
+ "anonymous": 1,
+ "signature": "GodFather",
+ "imphash": null,
+ "tlsh": "T124160142F395A85BECF3C3361775862A51028C56C793E683795D72BC2FBBAC04E45AC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:0RCZAo3kiQcEK8AEFlF/ens65XX4E1V5zEMH9Gf:EkJ8DFl4sg1nE4Gf",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "GodFather",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "drolls",
+   "issuer_cn": "drolls",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2024-07-11T10:11:28Z",
+   "valid_to": "2025-07-11T10:11:28Z",
+   "serial_number": "107c4126",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a839e62493683fe9e3afaa70c89eea92a858904bb3c1618cf351d72cd76dcab4",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.GodFather.14.origin.8434.22876.UNOFFICIAL"
+  ],
+  "downloads": "345",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a6ed100ae42e4fdabfd1b4c992762152bc4a11cc8e521b647b444c75bb7a9782/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/a6ed100ae42e4fdabfd1b4c992762152bc4a11cc8e521b647b444c75bb7a9782",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "godfather",
+   "score": "10",
+   "link": "https://tria.ge/reports/260406-gwkfpset8z/",
+   "tags": [
+    "family:godfather",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "godfather",
+     "c2": "https://t.me/yazmozaramekos"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Banbra",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-01-05 12:36:46",
+   "scanner_count": "36",
+   "scanner_match": "11",
+   "scanner_percent": "30.56"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69d34e0a972c219c8d79c03c/reports/ea0f71b0-cf20-42a7-8626-523bb342014d/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-01-04T15:07:00Z",
+   "last_seen": "2026-04-06T05:39:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/a6ed100ae42e4fdabfd1b4c992762152bc4a11cc8e521b647b444c75bb7a9782/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,214 @@
+{
+ "sha256_hash": "da4f59bdc91eaeaba238a8ba9602f7d5cc75f0892a92f5422e23b55accbbb2f0",
+ "sha3_384_hash": "e6e5ad5d6046e0b26605892cadb5fa3ad53ce666cec38ee357a05e4685f2579b3d594faff0653938d981ce94000f8599",
+ "sha1_hash": "bd48328fecf3b4a41893df4459d5d4cb12f30bcd",
+ "md5_hash": "e428e12685e9ec061fb63c54a04c279f",
+ "first_seen": "2025-09-13 09:11:51",
+ "last_seen": "2025-10-31 08:49:01",
+ "file_name": "ready (8).apk",
+ "file_size": 721281,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T1A7E41243FF06DC59DAF6863A885C83C5653B6F585D86CAD3399AF21DC8326D02B81E48",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:+zeyDzc/QOgJMSLTrS1WVsr4a+jXnq5cusT3cgtN0FmY6Rq213pQGgs6tWDZG:AeyDzc/wJMSLT/a4/jXqWHT3SFmYGN5K",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "dmart",
+  "malware",
+  "signed",
+  "SpyNote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "google play",
+   "issuer_cn": "google play",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2021-07-16T23:26:53Z",
+   "valid_to": "4110-02-25T23:26:53Z",
+   "serial_number": "170ded5b",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "5e53c7c31452cbd63cc00d814ee75dd44010db01a5118c0a605487d15d63a1d2",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan.AndroidOS.dav.12724.UNOFFICIAL"
+  ],
+  "downloads": "260",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "botnet_plaintext_c2",
+   "author": "cip",
+   "description": "Attempts to match at least some of the strings used in some botnet variants which use plaintext communication protocols.",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_AllMal_Detector",
+   "author": "DiegoAnalytics",
+   "description": "CrossPlatform All Malwares Detector: Detect PE, ELF, Mach-O, scripts, archives; overlay, obfuscation, encryption, spoofing, hiding, high entropy, network communication",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "Spynote_craxsrat_strings",
+   "author": "Alberto Segura",
+   "description": "Detects Spynote Android Malware",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/da4f59bdc91eaeaba238a8ba9602f7d5cc75f0892a92f5422e23b55accbbb2f0/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.09"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/da4f59bdc91eaeaba238a8ba9602f7d5cc75f0892a92f5422e23b55accbbb2f0",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250913-le39pshk91/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "lol1-53210.portmap.io:53210"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-09-13 00:17:10",
+   "scanner_count": "38",
+   "scanner_match": "12",
+   "scanner_percent": "31.58"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68c53793dbc6f5a29c433c49/reports/763536e1-1ceb-4943-a12f-d7697c2fa679/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-09-12T19:08:00Z",
+   "last_seen": "2025-09-12T19:08:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/da4f59bdc91eaeaba238a8ba9602f7d5cc75f0892a92f5422e23b55accbbb2f0/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

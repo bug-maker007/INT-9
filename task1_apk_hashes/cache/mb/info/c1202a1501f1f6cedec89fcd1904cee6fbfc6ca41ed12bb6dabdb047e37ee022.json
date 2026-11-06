@@ -1,0 +1,108 @@
+{
+ "sha256_hash": "c1202a1501f1f6cedec89fcd1904cee6fbfc6ca41ed12bb6dabdb047e37ee022",
+ "sha3_384_hash": "68da4a2339c04928243ac346ab48a50c4ff49a2c03958fb9e05a2af95767d6e021aa340ac19364df6bd52d33b2aea21f",
+ "sha1_hash": "a1912a4efd6b74e115e4deabe5476d515a362da5",
+ "md5_hash": "be31c5af4b0d0b8cc4e784eb739ece78",
+ "first_seen": "2026-09-01 18:27:37",
+ "last_seen": null,
+ "file_name": "OP61BfIKeJ65Cp5tyYSjThUQsaGPv2BY_mParivahan_6_.apk",
+ "file_size": 8895750,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T148960157FB88A97AC4F3833609766325250B9C218B539297A904723C79F76D05FCAECC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:EcEyINJrBwLmebhFXvBwS/nZeWGgku08/KpcmC:wyINJ+DFfBwmntGQWZC",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Dropper",
+  "GOI",
+  "Malware",
+  "mParivahan",
+  "Riskware",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.MulDrop.10531.22624.6409.UNOFFICIAL"
+  ],
+  "downloads": "358",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c1202a1501f1f6cedec89fcd1904cee6fbfc6ca41ed12bb6dabdb047e37ee022/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260901-w4emravgjc/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-09-01 18:28:20",
+   "scanner_count": "38",
+   "scanner_match": "3",
+   "scanner_percent": "7.89"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a97193bd5f0a9e426af8c15/reports/85f2b470-7680-479f-88a8-025dd04b5170/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-01T16:37:00Z",
+   "last_seen": "2026-09-02T18:00:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/c1202a1501f1f6cedec89fcd1904cee6fbfc6ca41ed12bb6dabdb047e37ee022/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

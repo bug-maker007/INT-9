@@ -1,0 +1,156 @@
+{
+ "sha256_hash": "15eae9134dac9268cbf005c23299c88dd5c5176a240201da751691a543375360",
+ "sha3_384_hash": "a6d445bedf4d1fa4659b2edc1f3bfa32b43bfbc4258f9dc18314866169a445914c21407b3a2f3330d0b92a73d1a0e80b",
+ "sha1_hash": "900122232d087a1b189168096798ef40a94ac442",
+ "md5_hash": "3fe3fa5fbebcf71367586d6d2a3824f9",
+ "first_seen": "2023-03-07 17:32:58",
+ "last_seen": null,
+ "file_name": "Chrome (3).apk",
+ "file_size": 4976443,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "sysk1ll3r",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "Sova",
+ "imphash": null,
+ "tlsh": "T177361242F7D9A96FECF3C3329776462654068C66CB03E743584877BC18BB9C44E86AD8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:RWY/5eMi8wI0KAho87G0hsdQi3UGcJxuEfBAK7KSN1hwV:RW4e98VioNDdQi39cPrfBFKSNcV",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "57.0% (.APK) Android Package (38500/1/9)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "15.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Sova"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.28774.22237.UNOFFICIAL"
+  ],
+  "downloads": "348",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/15eae9134dac9268cbf005c23299c88dd5c5176a240201da751691a543375360/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/15eae9134dac9268cbf005c23299c88dd5c5176a240201da751691a543375360",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "sova",
+   "score": "10",
+   "link": "https://tria.ge/reports/230307-v4vtasba75/",
+   "tags": [
+    "family:sova",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "SOVA_v5 payload",
+     "score": "10"
+    },
+    {
+     "signature": "Sova",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Boogr",
+   "status": "MALICIOUS",
+   "first_seen": "2023-03-07 17:44:37",
+   "scanner_count": "25",
+   "scanner_match": "4",
+   "scanner_percent": "16.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.1",
+   "confidence": "0.5",
+   "report_link": "https://www.filescan.io/uploads/64077550660450d9feb94bfa/reports/52c678c6-5d98-439c-936e-b1e679baef66/overview"
+  }
+ },
+ "comments": null
+}

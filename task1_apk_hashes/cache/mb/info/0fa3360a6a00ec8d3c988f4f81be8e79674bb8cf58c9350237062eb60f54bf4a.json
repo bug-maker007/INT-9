@@ -1,0 +1,131 @@
+{
+ "sha256_hash": "0fa3360a6a00ec8d3c988f4f81be8e79674bb8cf58c9350237062eb60f54bf4a",
+ "sha3_384_hash": "6660aa5369b327e3e0cf01ad60fd98485a347d23d70e0f01797737a5b13a00ed257aa7797b4aa6ea80814b4c01934e45",
+ "sha1_hash": "b5ee0505e6d5dd47fb5b1e5ce1e67268208a1273",
+ "md5_hash": "e7fefa4fb1638159e8fdc3d96d766909",
+ "first_seen": "2026-08-11 19:37:39",
+ "last_seen": null,
+ "file_name": "PornTok.apk",
+ "file_size": 21784009,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T11727339BF706559AC9F6573748726A7125478CA2CF87C7C36810733CA87B5E40F8AA8C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:I8LfifaTzVI9XUSoDqQxgXWff/RA/XMxTy/R0fExFH:I8TTz+iSiNcWn/RuXMxTyCfop",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Malware",
+  "Riskware",
+  "TikTok",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "367",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260811-yb993azfje/",
+   "tags": [
+    "android",
+    "banker",
+    "discovery",
+    "evasion",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Declares services with permission to bind to the system",
+     "score": "6"
+    },
+    {
+     "signature": "Requests dangerous framework permissions",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-08-11 19:43:35",
+   "scanner_count": "24",
+   "scanner_match": "2",
+   "scanner_percent": "8.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a7b7a3e0b6f1b2db8c11a2e/reports/4dde6e32-2c2c-4dbe-8c6f-3e2642851bfe/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-12T08:24:00Z",
+   "last_seen": "2026-08-13T15:13:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/0fa3360a6a00ec8d3c988f4f81be8e79674bb8cf58c9350237062eb60f54bf4a/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

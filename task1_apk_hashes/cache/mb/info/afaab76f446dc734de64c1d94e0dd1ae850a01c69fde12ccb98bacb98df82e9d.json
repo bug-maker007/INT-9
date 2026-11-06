@@ -1,0 +1,138 @@
+{
+ "sha256_hash": "afaab76f446dc734de64c1d94e0dd1ae850a01c69fde12ccb98bacb98df82e9d",
+ "sha3_384_hash": "f497db122ab954f056c6bcf94d4b7d7512f558c8dfd86878c0b6f51ebf3a5fe42609a26afaf3e6ab21505d2df58b8c79",
+ "sha1_hash": "5e381ff5150bbc7a1c4a5d17173c4447a5306fa5",
+ "md5_hash": "16ad8f3094fb1ac3bb82ee823d35c2fe",
+ "first_seen": "2026-03-15 07:22:10",
+ "last_seen": null,
+ "file_name": "Mparivahan .apk",
+ "file_size": 15696939,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T136F62325F7889E4EC4F3D3724C7956611468EC02CB478387E964367C24BFAF48B496EA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:qcCE+3za6l/iuCurXGii4hs5M8SOF/dt0JC0E5O4OH:DCfa6liuCubGii4TXOF/dT0oxOH",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Dropper",
+  "GOI",
+  "Malware",
+  "mParivahan",
+  "Riskware",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "282",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "FreddyBearDropper",
+   "author": "Dwarozh Hoshiar",
+   "description": "Freddy Bear Dropper is dropping a malware through base63 encoded powershell scrip.",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/afaab76f446dc734de64c1d94e0dd1ae850a01c69fde12ccb98bacb98df82e9d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/afaab76f446dc734de64c1d94e0dd1ae850a01c69fde12ccb98bacb98df82e9d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260315-h7xe3sev7n/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-10-16 00:57:28",
+   "scanner_count": "36",
+   "scanner_match": "2",
+   "scanner_percent": "5.56"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69b65e612000fc76c3deaa59/reports/76a5f61f-302f-4abc-9d6e-53034a8724b1/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-10-16T01:01:00Z",
+   "last_seen": "2025-10-16T20:15:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/afaab76f446dc734de64c1d94e0dd1ae850a01c69fde12ccb98bacb98df82e9d/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,172 @@
+{
+ "sha256_hash": "d0796f3779b94f66948aa6e3ecc6eb4b31460412f2467bfe05dfdf9299042816",
+ "sha3_384_hash": "7ac92210f1b8b8fe498829c62332df09a1438808c937bdb80ee9c655d9c7552f2e4445e181c2a07866a54cfd76efd06b",
+ "sha1_hash": "67f6179578a373b740d65bc0ddf3e6d7fe1d170c",
+ "md5_hash": "539b64aa072768b97712a59420965e1b",
+ "first_seen": "2026-08-19 13:50:20",
+ "last_seen": null,
+ "file_name": "instaup_v19.1.4_174.apk",
+ "file_size": 10050311,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T188A61286F768F52FD8F72031589A623695295E20CA43E74B28483B5D7A73DE41F88FD0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:3rDoiru2yHlS48Wx9g0y8i8Hn+gjwsEI4xSSgnZ9PoOJ:33HS2QlShSO04gj6xZyZpX",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "40.0% (.APK) Android Package (27000/1/5)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "18.5% (.VYM) VYM Mind Map (12500/1/3)",
+  "15.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Instagram",
+  "Malware",
+  "signed",
+  "Trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Shahab Zarrin",
+   "issuer_cn": "Shahab Zarrin",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2019-08-10T11:31:47Z",
+   "valid_to": "2044-08-03T11:31:47Z",
+   "serial_number": "1a364d72",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1192598fae745378987489f2838855d6bb731158e7ff5aa208c9d81cf53b301a",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "478",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "NET",
+   "author": "malware-lu",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d0796f3779b94f66948aa6e3ecc6eb4b31460412f2467bfe05dfdf9299042816/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/260819-q5jp7swakf/",
+   "tags": [
+    "android",
+    "defense_evasion",
+    "discovery",
+    "execution",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Checks Android system properties for emulator presence.",
+     "score": "7"
+    },
+    {
+     "signature": "Checks Qemu related system properties.",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-08-17 08:00:17",
+   "scanner_count": "23",
+   "scanner_match": "1",
+   "scanner_percent": "4.35"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a85b4ab51ab79b157da88e0/reports/cee20215-7091-48d9-adf4-b4d4dbe81e8e/overview"
+  }
+ },
+ "comments": null
+}

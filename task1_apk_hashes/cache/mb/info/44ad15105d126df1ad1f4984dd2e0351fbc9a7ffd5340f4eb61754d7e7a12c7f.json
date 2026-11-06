@@ -1,0 +1,113 @@
+{
+ "sha256_hash": "44ad15105d126df1ad1f4984dd2e0351fbc9a7ffd5340f4eb61754d7e7a12c7f",
+ "sha3_384_hash": "5fe07f946bf4cbec7ab85ffa00529923338397839735df1cfedc79240aeb112d5d9819e6c4f8dc0f1ba530c761a38a65",
+ "sha1_hash": "77720a200bfa99f6dafc325470a0e9d94ff16405",
+ "md5_hash": "66d73fe9f0e26d03a07a6ee705dec8e1",
+ "first_seen": "2021-01-12 21:42:25",
+ "last_seen": null,
+ "file_name": "tmpzk3y9vy7",
+ "file_size": 899128,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "U039b",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Anubis",
+ "imphash": null,
+ "tlsh": "801512237F1591B7EAB79832C66215122223FD850E373A673542271D043ABA5B7B6FCC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:BOUQHeRwGmvUQHeR6/UQHeRTUQHeRKUQHeRK2FX7:BOU6lUMUZUEUrr",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "303",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://beta.pithus.org/report/44ad15105d126df1ad1f4984dd2e0351fbc9a7ffd5340f4eb61754d7e7a12c7f"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/44ad15105d126df1ad1f4984dd2e0351fbc9a7ffd5340f4eb61754d7e7a12c7f/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Banker",
+   "score": "0.90"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": null,
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "anubis",
+   "score": "10",
+   "link": "https://tria.ge/reports/210113-bp26nah5vs/",
+   "tags": [
+    "family:anubis",
+    "android",
+    "banker",
+    "infostealer",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Anubis banker",
+     "score": "10"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Suspicious use of android.app.ActivityManager.getRunningServices",
+     "score": "3"
+    },
+    {
+     "signature": "Suspicious use of android.os.PowerManager$WakeLock.acquire",
+     "score": "3"
+    },
+    {
+     "signature": "Suspicious use of android.telephony.TelephonyManager.getNetworkCountryIso",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "anubis",
+     "c2": "http://2bky.com"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2021-01-02 02:09:59",
+   "scanner_count": "29",
+   "scanner_match": "10",
+   "scanner_percent": "34.48"
+  }
+ },
+ "comments": null
+}

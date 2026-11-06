@@ -1,0 +1,109 @@
+{
+ "sha256_hash": "2bd3c84e99c8d96bc328f7f8a6bb5f7395951c5b75720e15a593e66455a7335d",
+ "sha3_384_hash": "d7a78066e0f033e077150a3f2a5cfdaf6fe5b7875b193fadf282f3df9ebf17d20deca02d2d9ae2b327c48b0fdfb850d1",
+ "sha1_hash": "5982bec34f52c80028d4c3b998e30892e1b2a5f3",
+ "md5_hash": "2e202b47faaf0bbbbdb49a7c62d30c15",
+ "first_seen": "2026-05-06 08:45:35",
+ "last_seen": null,
+ "file_name": "SBI Credit Card (2).apk",
+ "file_size": 14517056,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T149E6124BEE58CD5AECF65239FD32032334225DA84743C5BFA1A9BA393E731C24A915D1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:bHZWtmm12bxbpwWS9C96zwMvwH5STzfU/Wj5f:NAStwWbHgTbFj5f",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "malware",
+  "SBI"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "150",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2bd3c84e99c8d96bc328f7f8a6bb5f7395951c5b75720e15a593e66455a7335d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/2bd3c84e99c8d96bc328f7f8a6bb5f7395951c5b75720e15a593e66455a7335d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260506-kql9wshy9l/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-06 08:46:52",
+   "scanner_count": "24",
+   "scanner_match": "3",
+   "scanner_percent": "12.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69faffe2df14f1cb2acb6a81/reports/1644b807-36bf-45d7-bd26-bfd107828e41/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-06T07:01:00Z",
+   "last_seen": "2026-05-08T00:00:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/2bd3c84e99c8d96bc328f7f8a6bb5f7395951c5b75720e15a593e66455a7335d/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

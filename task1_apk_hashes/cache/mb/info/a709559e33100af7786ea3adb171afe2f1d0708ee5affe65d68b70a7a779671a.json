@@ -1,0 +1,104 @@
+{
+ "sha256_hash": "a709559e33100af7786ea3adb171afe2f1d0708ee5affe65d68b70a7a779671a",
+ "sha3_384_hash": "de527610e8b760d3506057ec294f7d5b1df49085b6b60083c2f2fab4d4c06e15348836d1753d577329be725df7635bfe",
+ "sha1_hash": "c7dd39a2a47e6706f57fa137b162e9d6f89d8ef3",
+ "md5_hash": "0f571c4d26ad7eabca615765ba29d67a",
+ "first_seen": "2026-08-22 12:07:44",
+ "last_seen": null,
+ "file_name": "SUD CHAQIRUVI_105.pdf.apk",
+ "file_size": 1061802,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "nrf322",
+ "origin_country": "GB",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T196352307FB8F19BCCC6624BC18D691046D182AB1A2DA931348053E95F6B0E91FE57EDF",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:ZWHQzcKiXthop0fVSXGYzcdJEtsaD2yT2wgWgprViaC:owzcKathokMXGYzczEtsMJPg1rVi5",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "87.0% (.APK) Android Package (27000/1/5)",
+  "12.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "Disguises as a PDF (\"SUD CHAQIRUVI.pdf\" = fake Uzbek court summons) via app label + icon spoofing. Package com.luzpvwir.xcyumjjmuf, launch activity in unrelated internal namespace nxqhtswvr.com.*. Requests REQUEST_INSTALL_PACKAGES (dropper) + persistent FOREGROUND_SERVICE_DATA_SYNC. Real payload appears to be encrypted/packed in assets/*.sps (largest: salxad.sps, 562KB) - no plaintext strings/URLs found via static analysis of classes.dex, likely loaded dynamically via DexClassLoader. Self-signed cert with fake DN (C=UZ, CN=jutec).",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "dropper",
+  "fake-pdf",
+  "sms-stealer-suspected",
+  "uzbekistan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.1114.origin.6457.4181.UNOFFICIAL"
+  ],
+  "downloads": "287",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a709559e33100af7786ea3adb171afe2f1d0708ee5affe65d68b70a7a779671a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260822-paw7daytht/",
+   "tags": [
+    "android",
+    "banker",
+    "defense_evasion",
+    "discovery"
+   ],
+   "signatures": [
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-08-22 12:08:15",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a89912c31c9a31bbfa9e707/reports/8cac236a-d3d2-4cd1-99ed-d2eb320664e0/overview"
+  }
+ },
+ "comments": null
+}

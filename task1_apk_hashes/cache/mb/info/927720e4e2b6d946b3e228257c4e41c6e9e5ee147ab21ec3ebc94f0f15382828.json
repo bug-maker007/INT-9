@@ -1,0 +1,108 @@
+{
+ "sha256_hash": "927720e4e2b6d946b3e228257c4e41c6e9e5ee147ab21ec3ebc94f0f15382828",
+ "sha3_384_hash": "908ad7692de3a2d2bcfffbe87e01cc616d0112e30a5f964289f73e15157788d18e752e97ef67ff18cc35250e974b8c7a",
+ "sha1_hash": "ddb11dd2fe8f537526835648410a0d6a61288a61",
+ "md5_hash": "7e5caf6daf51ca0924bdc936a1de5943",
+ "first_seen": "2021-10-16 18:13:49",
+ "last_seen": null,
+ "file_name": "Android_Guncelleme_build_flow.apk",
+ "file_size": 247010,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1C23412CB0BA56115F023FAB611E837FF76BB071097D92ED2093C09588DA21792FD9A1C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:+9mUDLD8BQLAIhofbtp/35A7O14HFfWNORdVBAPp0HWNOR173BAZ1z:+5DXsQsIebF1csNORd8PZNORATz",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.881.origin.6845.12040.UNOFFICIAL"
+  ],
+  "downloads": "454",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/927720e4e2b6d946b3e228257c4e41c6e9e5ee147ab21ec3ebc94f0f15382828/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/927720e4e2b6d946b3e228257c4e41c6e9e5ee147ab21ec3ebc94f0f15382828",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/211016-wvbjqschgq/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Checks Android system properties for emulator presence.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "https://budgetkiralik.com"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.BiurtcAdpoet",
+   "status": "MALICIOUS",
+   "first_seen": "2021-10-16 18:14:06",
+   "scanner_count": "28",
+   "scanner_match": "9",
+   "scanner_percent": "32.14"
+  }
+ },
+ "comments": null
+}

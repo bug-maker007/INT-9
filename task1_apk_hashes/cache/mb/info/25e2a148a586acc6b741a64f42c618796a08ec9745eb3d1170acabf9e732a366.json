@@ -1,0 +1,120 @@
+{
+ "sha256_hash": "25e2a148a586acc6b741a64f42c618796a08ec9745eb3d1170acabf9e732a366",
+ "sha3_384_hash": "a7061ada50b6b9912895963ec06338de4232894302fbfe01c0ac24669069647cbc8217aa9744bfc766c674b2917fe069",
+ "sha1_hash": "509a0950dd8cd98b6ffb9630011cd4f80c425d81",
+ "md5_hash": "fc9453d54b36587c70d3509ea6dce707",
+ "first_seen": "2022-11-24 08:02:46",
+ "last_seen": null,
+ "file_name": "SharkBot (11).apk",
+ "file_size": 7533237,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "SharkBot",
+ "imphash": null,
+ "tlsh": "T19E76018BEB18D82FC87B55B3CE76527332679D0601836B737508B20829775898F69FC6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:mA5jSJ4jEmfckitT6gD1C2LJck72usHtaxtu1VbQVsfLpq:my2mwmkFteghC66e2usHtaxtu11lLpq",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "48.1% (.APK) Android Package (38500/1/9)",
+  "16.8% (.JAR) Java Archive (13500/1/2)",
+  "15.6% (.VYM) VYM Mind Map (12500/1/3)",
+  "13.1% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.0% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SharkBot",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2022-10-13T21:03:02Z",
+   "valid_to": "2052-10-13T21:03:02Z",
+   "serial_number": "3105d8af1ab2d6f5a1a3a7c49ed169be98bf0adb",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "3eb0c74b7f1141b91389f237ca9375c768d991c76c771f05ed0e492583c9a7bb",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.DownLoader.1095.origin.9645.4869.UNOFFICIAL"
+  ],
+  "downloads": "274",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/25e2a148a586acc6b741a64f42c618796a08ec9745eb3d1170acabf9e732a366/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/25e2a148a586acc6b741a64f42c618796a08ec9745eb3d1170acabf9e732a366",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/221124-jxqp8aad29/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks Android system properties for emulator presence.",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Sharkbot",
+   "status": "MALICIOUS",
+   "first_seen": "2022-11-10 03:04:57",
+   "scanner_count": "26",
+   "scanner_match": "11",
+   "scanner_percent": "42.31"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "0.75",
+   "report_link": "https://www.filescan.io/uploads/637f253d151dc20f68a7b27a/reports/b4da7a18-06b2-46c5-89c8-cbf28a9c4e30/overview"
+  }
+ },
+ "comments": null
+}

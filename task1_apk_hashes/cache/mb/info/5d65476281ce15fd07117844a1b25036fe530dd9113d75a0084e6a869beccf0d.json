@@ -1,0 +1,161 @@
+{
+ "sha256_hash": "5d65476281ce15fd07117844a1b25036fe530dd9113d75a0084e6a869beccf0d",
+ "sha3_384_hash": "b505078ce04192de0a71ef2d473a9f1c11f13557e92997474ee61b188e9becabfde2dadcd2040121c2e4093bd3ad48a8",
+ "sha1_hash": "011f30711c39109685c62f538b5ac6c6b97ffe71",
+ "md5_hash": "1e69a09b341278197170a9b1a4a64e3a",
+ "first_seen": "2023-02-06 14:41:36",
+ "last_seen": "2023-02-06 17:48:49",
+ "file_name": "com.squarrosise.veterpolitical.apk",
+ "file_size": 18130867,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "HK",
+ "anonymous": 1,
+ "signature": "Harly",
+ "imphash": null,
+ "tlsh": "T1A707128BE708F9AFC4F65771CA37515332A38E21078396FA591DB23805B72C95B09BC6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:cSKP32yCWFPsPv4HxYIMEi9Wgl9W+YoazDIVD6bcAv6J+4TTLIU:7KP3fBQIs8+YoqDyDU7U",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "48.1% (.APK) Android Package (38500/1/9)",
+  "16.8% (.JAR) Java Archive (13500/1/2)",
+  "15.6% (.VYM) VYM Mind Map (12500/1/3)",
+  "13.1% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.0% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Harly",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2023-01-19T07:41:10Z",
+   "valid_to": "2053-01-19T07:41:10Z",
+   "serial_number": "447dea859eccf481fbd59aa0ad79af5702855ebf",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "06af8c117a89cab7f4b4480dd1a84037a067cc72db63c7f87b232eea0246c84f",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "298",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5d65476281ce15fd07117844a1b25036fe530dd9113d75a0084e6a869beccf0d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/5d65476281ce15fd07117844a1b25036fe530dd9113d75a0084e6a869beccf0d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "harly",
+   "score": "10",
+   "link": "https://tria.ge/reports/230206-r3l8zsed59/",
+   "tags": [
+    "family:harly",
+    "android",
+    "evasion",
+    "infostealer",
+    "ransomware",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Harly",
+     "score": "10"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Checks Android system properties for emulator presence.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation).",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "harly",
+     "c2": "https://fox.gvbkopdf.life"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2023-02-06 14:42:25",
+   "scanner_count": "26",
+   "scanner_match": "1",
+   "scanner_percent": "3.85"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.2",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/63e111bd1c9cbf7d62562438/reports/70713db4-5c17-42f3-b083-b38b74693c1f/overview"
+  }
+ },
+ "comments": null
+}

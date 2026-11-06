@@ -1,0 +1,104 @@
+{
+ "sha256_hash": "34285952e2dc998f9e94dc41228c6b74c3777b403e57fc239a362cc1e4e7cb71",
+ "sha3_384_hash": "46477e0f878dda115fab478485ec5d2a0c3b09e8263773dbe23d57a569beb88facf0bde0d8977b9f3dfaf59851852880",
+ "sha1_hash": "0f970d5c3c1d04740528a988a92ee72f4b3f5a81",
+ "md5_hash": "b7638ff22370a672f8da8ce79d5da97b",
+ "first_seen": "2021-08-25 16:03:28",
+ "last_seen": null,
+ "file_name": "Yerli_Gizli_Cekim_Ifsa_VIdeolar.apk",
+ "file_size": 3173424,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T10AE5336B9753F418C60312310113621B9AD1B97D98E5E93F4037049BAAEFEC89A1BCBD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:k/GrGuxWqpC50FKdLWI0GHzoJuft+o5L2pFFvC:k/GiSY50+WI/Toq15ip7vC",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "314",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1563829/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/34285952e2dc998f9e94dc41228c6b74c3777b403e57fc239a362cc1e4e7cb71/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/34285952e2dc998f9e94dc41228c6b74c3777b403e57fc239a362cc1e4e7cb71",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/210825-6v5hqbfjfx/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://denemeamaciyla.tk/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-08-25 16:04:17",
+   "scanner_count": "45",
+   "scanner_match": "6",
+   "scanner_percent": "13.33"
+  }
+ },
+ "comments": null
+}

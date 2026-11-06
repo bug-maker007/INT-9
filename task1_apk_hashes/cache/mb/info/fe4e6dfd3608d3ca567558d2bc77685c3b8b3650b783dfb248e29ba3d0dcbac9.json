@@ -1,0 +1,169 @@
+{
+ "sha256_hash": "fe4e6dfd3608d3ca567558d2bc77685c3b8b3650b783dfb248e29ba3d0dcbac9",
+ "sha3_384_hash": "f449a96e3e80361848820212e5549d46d2697cf557a5a9acdc1e0bb21d80925ba87ffa5683a395ccd65fc1aa04f8a76c",
+ "sha1_hash": "cb8ce2a7dab63d1de60f1216036644dba715b5eb",
+ "md5_hash": "7b39bf11b45453c54a771125af3787d3",
+ "first_seen": "2024-08-10 18:06:23",
+ "last_seen": null,
+ "file_name": "base.apk",
+ "file_size": 2895108,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T16DD52353FB66F96BD8F6C3322164163A25375E29C743A38E390833B565BB8D80F816D4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:KTbdsl35rnglmqdJy2WTx8Xt8VaamfvXV+1tda1Mt54OLkf2fbFfNTeMvOefo:KHy0mqTy2UU8ViQv+Mt54CjRFTeMvlfo",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "xiawanli",
+   "issuer_cn": "xiawanli",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2019-01-31T08:51:12Z",
+   "valid_to": "2044-01-25T08:51:12Z",
+   "serial_number": "5ecdfb71",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c081890cf2a1adf13e56d7b50a4f3d8edb35b7c46d6ccc732dd997b7e433be1d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.FileRepMalware.27842.27579.UNOFFICIAL"
+  ],
+  "downloads": "345",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "apk_flubot_w0",
+   "author": "Thomas Barabosch, Telekom Security",
+   "description": "matches on dumped, decrypted V/DEX files of Flubot version > 4.2",
+   "reference": null
+  },
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/fe4e6dfd3608d3ca567558d2bc77685c3b8b3650b783dfb248e29ba3d0dcbac9/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/fe4e6dfd3608d3ca567558d2bc77685c3b8b3650b783dfb248e29ba3d0dcbac9",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240810-wqarmsvepe/",
+   "tags": [
+    "family:irata",
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2024-08-10 18:07:06",
+   "scanner_count": "24",
+   "scanner_match": "8",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/66b7ac4a4cea245ec5b151e8/reports/8733387c-b6cf-4b56-b69a-f0621fbc22b5/overview"
+  }
+ },
+ "comments": null
+}

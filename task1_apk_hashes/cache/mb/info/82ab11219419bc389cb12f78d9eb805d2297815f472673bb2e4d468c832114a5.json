@@ -1,0 +1,122 @@
+{
+ "sha256_hash": "82ab11219419bc389cb12f78d9eb805d2297815f472673bb2e4d468c832114a5",
+ "sha3_384_hash": "4a7751256c5d700cd1b058480d03cdce6ece8e662c1d18468ac44c540bc523a64081eb300cbfaebb4a4d5c5b6de11c33",
+ "sha1_hash": "f21eccef88a2bce5a74fc84b917d25399b7ba6a6",
+ "md5_hash": "4ba0eefe26d249d370268139801bebf9",
+ "first_seen": "2022-07-22 09:40:46",
+ "last_seen": null,
+ "file_name": "ÙØ§ÛÙ Ø³Ú©Ø³Û.apk",
+ "file_size": 2092922,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1B6A51293E74BEC2AEA93C13AC3B8084F6D550C605658E3261752F56C8EF7E4486C9F8D",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:UROiVNPKQsX0J7fAnO3JO99XFz4elCN0K6Xz9yy7B9PZcfJBxz0lZgobtHB/ukTA:UVzCQskJEO3Jg9t4bOnzsyvPDZgmkN2u",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "android.spyware.IranPhishing",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "iran",
+  "malware",
+  "signed",
+  "smsspy",
+  "spy",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SmsSpy.10966.20746.16668.UNOFFICIAL"
+  ],
+  "downloads": "414",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "spyware"
+  },
+  {
+   "context": "dropped_by_malware",
+   "value": "smsspy"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/82ab11219419bc389cb12f78d9eb805d2297815f472673bb2e4d468c832114a5/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/82ab11219419bc389cb12f78d9eb805d2297815f472673bb2e4d468c832114a5",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220722-lnrl9sedem/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Piom",
+   "status": "MALICIOUS",
+   "first_seen": "2022-07-22 09:41:22",
+   "scanner_count": "26",
+   "scanner_match": "14",
+   "scanner_percent": "53.85"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62da70eff8c498cd9c53c225/reports/4df8c77c-5084-45de-bccc-6d9a49f0e4a0/overview"
+  }
+ },
+ "comments": null
+}

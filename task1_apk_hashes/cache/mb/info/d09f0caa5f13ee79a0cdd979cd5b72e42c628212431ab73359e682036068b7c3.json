@@ -1,0 +1,114 @@
+{
+ "sha256_hash": "d09f0caa5f13ee79a0cdd979cd5b72e42c628212431ab73359e682036068b7c3",
+ "sha3_384_hash": "6d161c20eb3846d41524f0d8e319d2cd05fd3302811033ba94cffd9db7def60e251de6c3c4a6b48c66f2562a6c8f0765",
+ "sha1_hash": "fd89554f4a41a3f82424c18e0aac0124ac379c9e",
+ "md5_hash": "a82c5a62353cc141a2e3d88f6e7f728b",
+ "first_seen": "2024-04-15 04:42:14",
+ "last_seen": null,
+ "file_name": "Application.apk",
+ "file_size": 4243893,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1B0162343F265E85BCCF1C3B212351A3A107B4D54C797B78AB41977BA68BBEE80B811C5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:7skTerCC/psokBGiXwkk04jhSsP2Nb4Px/qG57JlIXO:7s/V/psokBGiXwQ4jhSYm+/jI+",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2021-05-22T04:58:32Z",
+   "valid_to": "2120-09-04T04:58:32Z",
+   "serial_number": "0c11d603",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e702de593abce6259624b294b47a16a0239caa17322c3285b6d1c8acf7fbf30d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "421",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d09f0caa5f13ee79a0cdd979cd5b72e42c628212431ab73359e682036068b7c3/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/d09f0caa5f13ee79a0cdd979cd5b72e42c628212431ab73359e682036068b7c3",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240415-fb83wseg67/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2024-04-15 04:43:06",
+   "scanner_count": "23",
+   "scanner_match": "6",
+   "scanner_percent": "26.09"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/661cb0597ebd2dd8e38a6c6b/reports/35653cf5-2276-43d5-af05-c6dbe49adb06/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,124 @@
+{
+ "sha256_hash": "4f59c653be63b76afef598868785659dff0e3fa320884008fb6bb2e5639aa5bd",
+ "sha3_384_hash": "3e4da228ce9cf212040b49ecafbd3fe6bf843d122b9d85099e5b590c5f1e04679a7aa0e367044766c29e89bc0fcfa5cb",
+ "sha1_hash": "50a5dc62b9335610a7790e5a57466ac6c0989f93",
+ "md5_hash": "c141dbd38569bb42391bf82b84369f31",
+ "first_seen": "2022-06-03 02:10:28",
+ "last_seen": null,
+ "file_name": "gen_signed.apk",
+ "file_size": 38306,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T17403E1A3EBF5ECB9D8BBDF3B331D4A10FD5020D4AD2091239636D5588A5F86085CD98E",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "768:YBAG3nkHfiOzVpH30Lqz+BPZ1SE+HpFm15Rg6xdQS08sOXw2/snNvPz:YBXOzV930L2kLSE+nmjRg8N08sAMnNvr",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "Apk.SMSspy.IranPhishing",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "iran",
+  "malware",
+  "signed",
+  "sms",
+  "smsspy",
+  "spy",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "editor",
+   "issuer_cn": "editor",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-01-10T08:03:09Z",
+   "valid_to": "2115-12-17T08:03:09Z",
+   "serial_number": "231bc320",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "6215f00baa4bf18bab5792fc796bfc5555917240f14f7c7e672d956888d75c96",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SmsSpy.830.origin.19801.13348.UNOFFICIAL"
+  ],
+  "downloads": "652",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "smsspy"
+  },
+  {
+   "context": "dropped_by_malware",
+   "value": "SMSspy.IranPhishing"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/4f59c653be63b76afef598868785659dff0e3fa320884008fb6bb2e5639aa5bd/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/4f59c653be63b76afef598868785659dff0e3fa320884008fb6bb2e5639aa5bd",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220603-cl9wdsadgl/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SmsThief",
+   "status": "MALICIOUS",
+   "first_seen": "2022-06-03 02:11:05",
+   "scanner_count": "26",
+   "scanner_match": "13",
+   "scanner_percent": "50.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62996dd2b5fe347d254f1a83/reports/93db4b69-ac77-4153-b353-bd85c66fa587/overview"
+  }
+ },
+ "comments": null
+}

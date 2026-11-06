@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "df5944f9190614f04a8818a50438dfaf3339fa95289cdc0af54f8f239eb253fd",
+ "sha3_384_hash": "58b3a7309bfd894c192e956fd7fdfc76b8c965e04cf8d47614193d765f1da8b407998f56e940eaf7dd054c7cfcfac814",
+ "sha1_hash": "79589fd0ba7c1d0afc8c3d1e22ed60a38585348e",
+ "md5_hash": "749510b3010a45fea2d2763476e17511",
+ "first_seen": "2021-11-26 15:17:26",
+ "last_seen": null,
+ "file_name": "Voicemail86.apk",
+ "file_size": 5226532,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "FluBot",
+ "imphash": null,
+ "tlsh": "T1DF362369FE9EE4A3D003E4B4C1649987A508005D5A24F55B2A3692CC8EFED449B4FFCF",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:4mamSQUaXwpaqhRikhoWQafbXrXmZg5uQ+1xNGbFF8Djc13W3EAe:9SQUaXPSG9q5P+7NGbr8Ds3v",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "flubot",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "425",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/df5944f9190614f04a8818a50438dfaf3339fa95289cdc0af54f8f239eb253fd/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/df5944f9190614f04a8818a50438dfaf3339fa95289cdc0af54f8f239eb253fd",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/211126-spm4ssgdf4/",
+   "tags": [
+    "android",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Ransomware.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2021-11-26 15:18:47",
+   "scanner_count": "24",
+   "scanner_match": "11",
+   "scanner_percent": "45.83"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61a0fab0f36138de3f3f37aa/reports/297304bd-72ec-49e8-bed3-dfd38baf430f/overview"
+  }
+ },
+ "comments": null
+}

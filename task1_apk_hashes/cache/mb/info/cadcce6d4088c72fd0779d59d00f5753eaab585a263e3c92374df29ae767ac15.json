@@ -1,0 +1,130 @@
+{
+ "sha256_hash": "cadcce6d4088c72fd0779d59d00f5753eaab585a263e3c92374df29ae767ac15",
+ "sha3_384_hash": "9c2ec09c8d235f477ad481edf67b83fb43b32f6498f95a7f01c56990175d9eefdea4775bb21735ac331735b8082b75b6",
+ "sha1_hash": "2e03db0f3e6821374c6adbf9d9c2720a160773fb",
+ "md5_hash": "20266f76b272adda597190d0fa059424",
+ "first_seen": "2026-03-23 11:53:03",
+ "last_seen": null,
+ "file_name": "Chrome.apk",
+ "file_size": 2441463,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "CyberMAN_noBODY",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "BankBot",
+ "imphash": null,
+ "tlsh": "T1CCB5E046BB989F1EC877D1320C4A5235645AEC23C713C387D9782B6928AF6F44F117EA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:4U2nwzGPMWeoNeQlk1NnEorb4tZINseAm6rIqdd/Ww7/:4UHG/eQlkPbrb4nnm6E8/R/",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "bankbot",
+  "dropper",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "key_bvyavue",
+   "issuer_cn": "key_bvyavue",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2025-12-02T19:11:04Z",
+   "valid_to": "2053-04-19T19:11:04Z",
+   "serial_number": "1b27fc0dda9b0599",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "3304b57d531a0241365248f06a83bf8b1697c3fa7e0d2af342c6739fffe444b0",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "Unix.Dropper.Fakeapp-10014994-0"
+  ],
+  "downloads": "321",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://jpeg.ly/QnTSY"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/cadcce6d4088c72fd0779d59d00f5753eaab585a263e3c92374df29ae767ac15/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/cadcce6d4088c72fd0779d59d00f5753eaab585a263e3c92374df29ae767ac15",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260323-n2d97sbx8j/",
+   "tags": [
+    "android",
+    "defense_evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks the application is allowed to request package installs through the package installer",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Coper",
+   "status": "MALICIOUS",
+   "first_seen": "2026-03-23 10:15:12",
+   "scanner_count": "37",
+   "scanner_match": "13",
+   "scanner_percent": "35.14"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69c129aa2000fc76c3f90313/reports/a15f3718-8db8-4c34-9d2e-3527c7bc3677/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/cadcce6d4088c72fd0779d59d00f5753eaab585a263e3c92374df29ae767ac15/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

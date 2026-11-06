@@ -1,0 +1,118 @@
+{
+ "sha256_hash": "a710209edb0b786d20eed3ac5c656546e40da8a07e9f771014434cf656934778",
+ "sha3_384_hash": "e55e85fd3c9b8ee5cb3ad9d9a7be3b931edb145439e863074ce1b30f8ecd2b0abd45230d3d57be290b2ec1f76a337d66",
+ "sha1_hash": "dd5904819c3b1bfa42ccc3ac7849a5b58d6ef46a",
+ "md5_hash": "aeb1dd5f06964c09d00fd5212e3eb7ac",
+ "first_seen": "2026-08-04 13:30:21",
+ "last_seen": null,
+ "file_name": "a710209edb0b786d20eed3ac5c656546e40da8a07e9f771014434cf656934778.apk",
+ "file_size": 2577715,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1DDC5CE86FB58962FC8BA05330DEA923122578D478E839B437848375C79776E80F59FC9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:YHwBKhCTjPHOrEYVfXYpYFKmgej2y3UPyxEwwyY1I6CS4jaEyYS:waKhEZAYG2y3U6xEwC1IZfjnS",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker",
+  "nfc",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "np",
+   "issuer_cn": "np",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2021-04-25T09:03:56Z",
+   "valid_to": "3020-08-26T09:03:56Z",
+   "serial_number": "045ff9a3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "492682f877607ee99df2ddd2bd5953fd727bdf6e19d397de9dbbafd582bcad75",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "249",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a710209edb0b786d20eed3ac5c656546e40da8a07e9f771014434cf656934778/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": null,
+   "link": "https://tria.ge/reports/260804-qr76msfp5x/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ravartar",
+   "status": "MALICIOUS",
+   "first_seen": "2026-08-04 13:30:57",
+   "scanner_count": "38",
+   "scanner_match": "12",
+   "scanner_percent": "31.58"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a71e98d010cf453f816cd1a/reports/ba20e1f3-fcbc-4368-9175-f62a9fcfcd56/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-04T03:32:00Z",
+   "last_seen": "2026-08-05T13:58:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/a710209edb0b786d20eed3ac5c656546e40da8a07e9f771014434cf656934778/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

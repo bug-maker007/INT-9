@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "b2bc6d34c0c63b77be89d1c82b20512ad0519839665264c1b7ef13714fee4aaf",
+ "sha3_384_hash": "e95e220c78e6a2990f2d26a549cfb877997c75949a8f8f701006f064ffe7011d2dfa66827f0cd051c5e9f6aaf75390d1",
+ "sha1_hash": "0c7c6bd9baa48ac183ae38c36e370bfe8e05064f",
+ "md5_hash": "177abb273da12733bef7ac30b15764dd",
+ "first_seen": "2026-08-04 15:37:49",
+ "last_seen": null,
+ "file_name": "ClaroRed5G.apk",
+ "file_size": 9428289,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "arcvault",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T10E96F1B1B7610621F499723A39FFAA10F73E6CCCC6CA7A46048872F479362F43A55947",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:du3CRG7KckTyU1LglpGERwJFIeZEMwtPmoFXtfsqf:gCuKjTPLglhRwJTxUFXtfTf",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "50.0% (.APK) Android Package (27000/1/5)",
+  "23.1% (.VYM) VYM Mind Map (12500/1/3)",
+  "19.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "encrypted",
+  "Obfuscapk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Tool.Obfuscapk.1.28641.4258.UNOFFICIAL"
+  ],
+  "downloads": "325",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://actualiza-red5g.app/ClaroRed5G.apk"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3896907/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b2bc6d34c0c63b77be89d1c82b20512ad0519839665264c1b7ef13714fee4aaf/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260804-s29tbs1xcw/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Packed.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-08-04 15:38:36",
+   "scanner_count": "38",
+   "scanner_match": "5",
+   "scanner_percent": "13.16"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a720773b7fd608fc2be4652/reports/94e06588-09da-442f-9d79-a45997055419/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-04T13:13:00Z",
+   "last_seen": "2026-08-06T09:37:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/b2bc6d34c0c63b77be89d1c82b20512ad0519839665264c1b7ef13714fee4aaf/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

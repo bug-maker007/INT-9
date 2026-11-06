@@ -1,0 +1,95 @@
+{
+ "sha256_hash": "c2c29a35f3202b750d2bdc8eece7f4a117bdddade7238941d92f7e8ef731d000",
+ "sha3_384_hash": "9af2cc0c28bf0ce135d8df3342db40a7fd62830d0eb56a94d87060bcfacdacc1da541efc5b85fbd00a6e109b0679fe19",
+ "sha1_hash": "7dfb890f6c03025312ed38f5e1d6d3e675f0d8c9",
+ "md5_hash": "8a32373253b4096ca072b85f0e476ba8",
+ "first_seen": "2023-08-19 12:35:32",
+ "last_seen": null,
+ "file_name": "com.filemaster.nx.manager.apk",
+ "file_size": 10207431,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ReBensk",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1C8A62357F72CD42FC977A433CFBA522211A90D498683BB237915B21C2AB79849F49FC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:gQ2Jq/geR6QCRmVomHGfX8gTFeqalhODkSIjYm1VUbHlVR9HUGu:F2JqFJCRLmHGfX8umggrZmjHUGu",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "44.6% (.VYM) VYM Mind Map (12500/1/3)",
+  "37.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "14.2% (.ZIP) ZIP compressed archive (4000/1)",
+  "3.5% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "https://www.joesandbox.com/analysis/1293749",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Spyware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "257",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c2c29a35f3202b750d2bdc8eece7f4a117bdddade7238941d92f7e8ef731d000/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c2c29a35f3202b750d2bdc8eece7f4a117bdddade7238941d92f7e8ef731d000",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/230819-pswzbshh87/",
+   "tags": [
+    "android",
+    "linux"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Synder",
+   "status": "MALICIOUS",
+   "first_seen": "2023-08-19 03:13:31",
+   "scanner_count": "38",
+   "scanner_match": "8",
+   "scanner_percent": "21.05"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.2",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/64e0b733a29d57e20386ea50/reports/151e75ef-45b1-4138-8461-943e089c9d32/overview"
+  }
+ },
+ "comments": null
+}

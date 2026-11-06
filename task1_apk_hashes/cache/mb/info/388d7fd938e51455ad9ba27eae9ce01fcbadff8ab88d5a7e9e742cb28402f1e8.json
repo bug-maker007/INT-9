@@ -1,0 +1,124 @@
+{
+ "sha256_hash": "388d7fd938e51455ad9ba27eae9ce01fcbadff8ab88d5a7e9e742cb28402f1e8",
+ "sha3_384_hash": "9b7e324635f48b32db35f829bd4747efccc626c861cc97709d743c9b13cf0931748f81542f5bc2f119ce6091e0c33cb8",
+ "sha1_hash": "46005a2ca1f996f5edb63bd92be85d6161066b6e",
+ "md5_hash": "209c72641b099d7ca4e94d12d75eed31",
+ "first_seen": "2026-07-02 12:57:38",
+ "last_seen": null,
+ "file_name": "𝙿𝚛𝚒𝚟𝚊𝚝_𝚃𝟷𝚔𝚃𝚘𝚔𝟷𝟾.apk",
+ "file_size": 7016188,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T148662382FF45D82FC4B7853B4D53473122669C2E8A86A34798DC31586D7BAD84FCAEC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:fRg5Mg0ivGlOSaJDlippDUSVUuHRx6w587:oMg0vlOrSpQFuHRLC7",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Banker",
+  "Dropper",
+  "Malware",
+  "Riskware",
+  "signed",
+  "TikTok"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.7569.20199.11936.UNOFFICIAL"
+  ],
+  "downloads": "262",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/388d7fd938e51455ad9ba27eae9ce01fcbadff8ab88d5a7e9e742cb28402f1e8/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260702-p7nw9sg14p/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-07-02 12:58:31",
+   "scanner_count": "38",
+   "scanner_match": "6",
+   "scanner_percent": "15.79"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a46606c2dfae85a815a7922/reports/f290b892-29fa-4e02-a6ba-fa9ccac006b4/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-02T13:24:00Z",
+   "last_seen": "2026-07-04T10:00:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/388d7fd938e51455ad9ba27eae9ce01fcbadff8ab88d5a7e9e742cb28402f1e8/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

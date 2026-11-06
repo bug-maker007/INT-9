@@ -1,0 +1,123 @@
+{
+ "sha256_hash": "e5fa297d6ad6db8d44ecf767ce77ffc91147400c14f7c944699666f0157c653c",
+ "sha3_384_hash": "9fbaec05a157eeb5292bfc5de0d39320d47e7a66a8160b0bd8a956954d9f1cb23fdca7ab63693ffa44cc1850bd8dcd85",
+ "sha1_hash": "17aac7a7dbd83060fd72df8c8368369eabcf31f9",
+ "md5_hash": "ea27014f6ed1d83e3294c6d11ecfe0c7",
+ "first_seen": "2026-08-16 02:29:34",
+ "last_seen": null,
+ "file_name": "payload.apk",
+ "file_size": 5540721,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "BR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1FC46EF8BFB48A86AC4F753B24576532245474D268B43D7C76958323C28BB6D07F8EBC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:oAojgf3Xj/sIlIsIWbijKj60Jy92MLBo/KrrYC5npivsTLlJYUmol9v:dAgfzsIKI20J02MLJjiETLlJYUnr",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "40.0% (.APK) Android Package (27000/1/5)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "18.5% (.VYM) VYM Mind Map (12500/1/3)",
+  "15.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "283",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropped_by_sha256",
+   "value": "ff952f33bf27328caebb9ec9df979396c725a45cea5c516d81d9a309d6a77169"
+  },
+  {
+   "context": "dropped_by_md5",
+   "value": "c99c5309ddb31e3279a837bf0b8e31f8"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e5fa297d6ad6db8d44ecf767ce77ffc91147400c14f7c944699666f0157c653c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.06"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260816-czfjpsywcx/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Egairtigado",
+   "status": "MALICIOUS",
+   "first_seen": "2026-08-16 03:10:33",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/6a8120d344a6097a00b539e8/reports//overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-16T00:13:00Z",
+   "last_seen": "2026-08-16T02:34:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/e5fa297d6ad6db8d44ecf767ce77ffc91147400c14f7c944699666f0157c653c/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": [
+  {
+   "id": "427872",
+   "date_added": "2026-08-18 22:10:22",
+   "twitter_handle": null,
+   "display_name": null,
+   "comment": "How / where did you discover this? Banker malware is getting crazy lol. "
+  }
+ ]
+}

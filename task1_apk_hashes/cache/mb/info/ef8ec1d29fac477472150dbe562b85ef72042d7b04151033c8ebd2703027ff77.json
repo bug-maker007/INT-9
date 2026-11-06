@@ -1,0 +1,100 @@
+{
+ "sha256_hash": "ef8ec1d29fac477472150dbe562b85ef72042d7b04151033c8ebd2703027ff77",
+ "sha3_384_hash": "e7f7e405cb39c872be154d4b8a4e44c01f822f6c33b42f0b6be3555e208588d8bd2a3490947db0514a83ca47d6d60bd6",
+ "sha1_hash": "235d1d1ad7a9905464900468dc3028afb926b497",
+ "md5_hash": "be9d61e3363c3399b55a44895fd1cf60",
+ "first_seen": "2022-01-05 13:25:29",
+ "last_seen": null,
+ "file_name": "Hadise_Ifsa_build_obf_1.apk",
+ "file_size": 2007443,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1AF9533926B96A181C0EFC4B2067717D24F038B96EB80F5C73A1E582E5F6B7854B13DE4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:EZbhTkMnfZnPa7wp0TOH8wIr+7/WgbzuJtaB+:EZtTkwfDpAOH8wE+WgvuJtaE",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.11325.22157.517.UNOFFICIAL"
+  ],
+  "downloads": "403",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1951007/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ef8ec1d29fac477472150dbe562b85ef72042d7b04151033c8ebd2703027ff77/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ef8ec1d29fac477472150dbe562b85ef72042d7b04151033c8ebd2703027ff77",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220105-qph4qsada8/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2022-01-05 13:26:22",
+   "scanner_count": "28",
+   "scanner_match": "12",
+   "scanner_percent": "42.86"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61d59c6eaeeec3fd2dfd0801/reports/46aa4093-6f42-4b24-bae0-7519fc6029ed/overview"
+  }
+ },
+ "comments": null
+}

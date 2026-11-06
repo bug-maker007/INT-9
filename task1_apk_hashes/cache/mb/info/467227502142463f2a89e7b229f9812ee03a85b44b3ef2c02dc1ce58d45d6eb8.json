@@ -1,0 +1,118 @@
+{
+ "sha256_hash": "467227502142463f2a89e7b229f9812ee03a85b44b3ef2c02dc1ce58d45d6eb8",
+ "sha3_384_hash": "393ba00a6efcc4933a2b97888b51ed9c286cff32f81ce8a34f972bc0626778cb93702cfb1542a34760934a2da1318def",
+ "sha1_hash": "81de70fcf1ca4bd611381b31324b45ca6aa19e05",
+ "md5_hash": "d5c712d9c2332e6f9ffd105441e43cd2",
+ "first_seen": "2026-08-19 12:35:40",
+ "last_seen": null,
+ "file_name": "release.apk",
+ "file_size": 20338951,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T13B27238BFB48486BC4F783B245365B61048B4C258B43DBCBAD54363D28BB5D53F8A6D8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:Qkuj3DhQTW7U12IQFC9CWqad+Td+ZXrYsam7NuFqcggp4bN2i:+jlI9CWZ+J+6saHDgc4Rl",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "46.2% (.VYM) VYM Mind Map (12500/1/3)",
+  "38.8% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "14.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Malware",
+  "Riskware",
+  "SpyAgent",
+  "TikTok",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "259",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_CMD_Powershell_Usage",
+   "author": "XiAnzheng",
+   "description": "May Contain(Obfuscated or no) Powershell or CMD Command that can be abused by threat actor(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260819-ps5w8swvg1/",
+   "tags": [
+    "android",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-08-19 12:37:11",
+   "scanner_count": "37",
+   "scanner_match": "5",
+   "scanner_percent": "13.51"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a85a34cb5a5221aeae645d2/reports/13b7cde2-7ad9-4d04-81e7-078c723d0446/overview"
+  }
+ },
+ "comments": null
+}

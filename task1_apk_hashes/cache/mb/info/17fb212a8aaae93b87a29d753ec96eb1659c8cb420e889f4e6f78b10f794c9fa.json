@@ -1,0 +1,103 @@
+{
+ "sha256_hash": "17fb212a8aaae93b87a29d753ec96eb1659c8cb420e889f4e6f78b10f794c9fa",
+ "sha3_384_hash": "0c5ee7441e12c2e0d740561fbd3a900dae290cc29401163bcfb79163e780fd4ebf0e0a28b3800a7e04839a5f65e86468",
+ "sha1_hash": "fabff38efad1cbd74337313ed9c8dc84683467a6",
+ "md5_hash": "c9a27392973d54230f9847c1c90f8e38",
+ "first_seen": "2026-09-19 08:01:30",
+ "last_seen": null,
+ "file_name": "三井住友カードPoints.apk",
+ "file_size": 24673364,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ozuma5119",
+ "origin_country": "JP",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1584723CBF7D8A92EC4F74376C53A52A1510B4C268B83CBC75959323C28BB5D05E99BC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:3nZZgqQzBaaArWtzdsYC17kSSQvLiQExX0+4j60uj5MzBAWjqTfJywNQOeHl1aTO:3Zp0UjMzdsYC17gQ6xX0+EuFMzBEDrWn",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "65.0% (.APK) Android Package (27000/1/5)",
+  "25.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "264",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "ANDROID_Sample_Unique_5be608a5",
+   "author": "Marjoriefort",
+   "description": "Specimen unique (soumission Bazaar) - strings distinctifs propres au sample",
+   "reference": "5be608a563a02c94dbf3b1812b3aa0685a6f8228b5dc74c773cc3c912adef7ba.apk"
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.15"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": null,
+   "link": "https://tria.ge/reports/260919-jw468ada72/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-09-19 08:03:07",
+   "scanner_count": "38",
+   "scanner_match": "9",
+   "scanner_percent": "23.68"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6aae4187594b70eb4262efa8/reports/74ffd2be-2b64-45df-9f8c-49cd9ef55024/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-19T05:40:00Z",
+   "last_seen": "2026-09-19T07:27:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/17fb212a8aaae93b87a29d753ec96eb1659c8cb420e889f4e6f78b10f794c9fa/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

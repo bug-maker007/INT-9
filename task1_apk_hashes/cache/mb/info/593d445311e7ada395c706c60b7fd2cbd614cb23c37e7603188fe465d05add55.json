@@ -1,0 +1,99 @@
+{
+ "sha256_hash": "593d445311e7ada395c706c60b7fd2cbd614cb23c37e7603188fe465d05add55",
+ "sha3_384_hash": "83119ee82c035f04207047900a52273581d3a1ee6a6f9913747c76d6f63181fbf4c4e6266dd373fb50fb6c15cc43e352",
+ "sha1_hash": "c05f3107bda2c934741d83e69245714eadcb4b94",
+ "md5_hash": "3facbb2db4514bb75024c024cd6cb54c",
+ "first_seen": "2021-08-31 13:48:42",
+ "last_seen": null,
+ "file_name": "Chrome208724.apk",
+ "file_size": 4132272,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T1BE162346EB805873F5A399353219920BA8261E777151ED5B2AE7382F23C7F702F72C61",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:T24Y+9MFeGwb9+glbu1T2S/sYtlv338RYJL5fVvMiHlrqFlXVErx:i4ZuFU1lu17/VlJLxFXZqFlMx",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan0057d9de1.15205.1551.UNOFFICIAL"
+  ],
+  "downloads": "308",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/593d445311e7ada395c706c60b7fd2cbd614cb23c37e7603188fe465d05add55/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/593d445311e7ada395c706c60b7fd2cbd614cb23c37e7603188fe465d05add55",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210831-9clywc1gbn/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://bua591qkf2xx.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-31 13:49:08",
+   "scanner_count": "45",
+   "scanner_match": "6",
+   "scanner_percent": "13.33"
+  }
+ },
+ "comments": null
+}

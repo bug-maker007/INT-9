@@ -1,0 +1,109 @@
+{
+ "sha256_hash": "5af77b5f5d014162cd3bf43314ebb91f39658c5be335c1efff7c9564e298e719",
+ "sha3_384_hash": "f7712d2a987eb4c33f7f51b1e702a9c7f4dd1f1cea9bece958002e5fb4cfdbe43d3e92c5e561296e2241e7822f965a92",
+ "sha1_hash": "1a3b1a9190d65528e1ae896bd748453ee5cdaa43",
+ "md5_hash": "dc30a7a580cba933557de18f593a0b20",
+ "first_seen": "2026-05-11 18:57:56",
+ "last_seen": null,
+ "file_name": "rewards(2).apk",
+ "file_size": 15699428,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T169F63313FB1F995ADCF393377E22066614221C599B17C20B0A6573387EFB6C0DE5AA81",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:ZpvRYgwfqTmQFfcM5ipcSCSXOj8dNXM31kMo:ZpMyTmQfrEtVdSFkMo",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "ICICI",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "290",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Jeevan_Malware_Rewards",
+   "author": "ShriTiger",
+   "description": "Detects JeevanReward variants using Technical, Anti-Analysis, and Indian SE keywords",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5af77b5f5d014162cd3bf43314ebb91f39658c5be335c1efff7c9564e298e719/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/5af77b5f5d014162cd3bf43314ebb91f39658c5be335c1efff7c9564e298e719",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260511-xmqt5agy6x/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-11 18:58:36",
+   "scanner_count": "24",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a0226d4df14f1cb2ad05928/reports/2a3cee30-a6d2-45db-b117-9aa21d8fd4b4/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-12T02:45:00Z",
+   "last_seen": "2026-05-12T11:15:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/5af77b5f5d014162cd3bf43314ebb91f39658c5be335c1efff7c9564e298e719/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

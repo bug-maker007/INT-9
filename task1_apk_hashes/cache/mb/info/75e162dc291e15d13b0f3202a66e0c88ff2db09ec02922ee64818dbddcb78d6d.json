@@ -1,0 +1,131 @@
+{
+ "sha256_hash": "75e162dc291e15d13b0f3202a66e0c88ff2db09ec02922ee64818dbddcb78d6d",
+ "sha3_384_hash": "2b766176a3a6f3c8e7b555d6d65e590398552c7ba1485ee792c35fff25f2e6f78078074770a7bb76814b34a6cc6afb99",
+ "sha1_hash": "c701de3d0e55425394ccbf8e0967639e86f3c54e",
+ "md5_hash": "3baeaa766ea7f31a9147208efd957c75",
+ "first_seen": "2023-12-22 19:24:07",
+ "last_seen": null,
+ "file_name": "payload.apk",
+ "file_size": 997816,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "adm1n_usa32",
+ "origin_country": "RO",
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T1B325F143F262F82BCD36C0322688663951679D29CB03BB4A295973FE34F7ED84B456D0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:KncO+8IwCb8bBbZ/to5ljDuby198P58Zvb:KncD8IstbZ1Q6yPbj",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "hydra",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "qw",
+   "issuer_cn": "qw",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2019-05-19T13:10:26Z",
+   "valid_to": "2044-05-12T13:10:26Z",
+   "serial_number": "397825b8",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "03cbb3eb9947ad42bc792c721e6ce9a099d8a7c8a08f739bb0a5ecc6275145a6",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Hydra-I.3983.14355.UNOFFICIAL"
+  ],
+  "downloads": "589",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "urlhaus",
+   "value": "https://urlhaus.abuse.ch/url/2743489/"
+  },
+  {
+   "context": "urlhaus",
+   "value": "https://urlhaus.abuse.ch/url/2743488/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1473665/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1486848/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1592658/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/75e162dc291e15d13b0f3202a66e0c88ff2db09ec02922ee64818dbddcb78d6d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/75e162dc291e15d13b0f3202a66e0c88ff2db09ec02922ee64818dbddcb78d6d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/231222-x4yajafef6/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Hydra",
+   "status": "MALICIOUS",
+   "first_seen": "2019-06-20 10:33:01",
+   "scanner_count": "37",
+   "scanner_match": "14",
+   "scanner_percent": "37.84"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6585e28f7d4bdb7f8bfa7259/reports/492f9f7b-b5fa-4f5f-91e9-50cfc50f85b7/overview"
+  }
+ },
+ "comments": null
+}

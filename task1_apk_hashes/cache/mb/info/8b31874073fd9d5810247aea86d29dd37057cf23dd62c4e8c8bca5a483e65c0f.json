@@ -1,0 +1,194 @@
+{
+ "sha256_hash": "8b31874073fd9d5810247aea86d29dd37057cf23dd62c4e8c8bca5a483e65c0f",
+ "sha3_384_hash": "c7cea6e1cacd12aa02b25c2210240e65bf18d7b6289f3a6961c36205f768bbc3b07f17b362515910346aee652eb01a5d",
+ "sha1_hash": "2b055254418127b1af527e5d076f5fba541cce14",
+ "md5_hash": "c6e1011a467aae3846dbb759e721063b",
+ "first_seen": "2025-07-02 17:37:02",
+ "last_seen": "2025-07-02 18:26:10",
+ "file_name": "CertificatoSicurezza.apk",
+ "file_size": 23271196,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "BingoMod",
+ "imphash": null,
+ "tlsh": "T1F6376C09E403FD69D79968364D66C41967B1BC86FE8B1367F30EB7BF38A215D8A04384",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:+lg8UdyzmjWfPOaOMbUlNudOVZw6AikcYuCh5:78UdyzmFhbSeouCP",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "36.9% (.APK) Android Package (27000/1/5)",
+  "29.4% (.OXT) OpenOffice Extension (21500/1/3)",
+  "18.4% (.JAR) Java Archive (13500/1/2)",
+  "9.5% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "5.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "104-168-143-135",
+  "android",
+  "apk",
+  "BingoMod",
+  "certifica-lt-com",
+  "ITA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Ellie Johansson",
+   "issuer_cn": "Ellie Johansson",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2025-06-04T14:22:08Z",
+   "valid_to": "2052-10-20T14:22:08Z",
+   "serial_number": "256af1b2e0f66ba5",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "9698edd75c41875fe6687322710d608c75ac3bbf4060a2852d069b5b7fb8d172",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.1309.origin.6820.16499.UNOFFICIAL"
+  ],
+  "downloads": "229",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3574141/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "botnet_plaintext_c2",
+   "author": "cip",
+   "description": "Attempts to match at least some of the strings used in some botnet variants which use plaintext communication protocols.",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_CMD_Powershell_Usage",
+   "author": "XiAnzheng",
+   "description": "May Contain(Obfuscated or no) Powershell or CMD Command that can be abused by threat actor(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.70"
+  },
+  "Triage": {
+   "malware_family": "bingomod",
+   "score": "10",
+   "link": "https://tria.ge/reports/250702-v69p8szm12/",
+   "tags": [
+    "family:bingomod",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "BingoMod",
+     "score": "10"
+    },
+    {
+     "signature": "Bingomod family",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Requests allowing to install additional applications from unknown sources.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests modifying system settings.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "bingomod",
+     "c2": "104.168.143.135"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2025-06-27 16:10:29",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68656e4aee5b1c8f3d24fdbb/reports/e3173777-bbaf-432a-8584-17080c55502e/overview"
+  }
+ },
+ "comments": null
+}

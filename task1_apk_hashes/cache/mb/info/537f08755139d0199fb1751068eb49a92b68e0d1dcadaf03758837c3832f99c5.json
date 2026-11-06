@@ -1,0 +1,105 @@
+{
+ "sha256_hash": "537f08755139d0199fb1751068eb49a92b68e0d1dcadaf03758837c3832f99c5",
+ "sha3_384_hash": "1690a98cb3770710d35dbe619c774e2900d6ceb0e541ac2a84bf8734fb8e03b4ec1c53935d97cc8def30ea79861a7fdd",
+ "sha1_hash": "c5727db19a90d4ce60636add597cf879ef7d84ca",
+ "md5_hash": "562296b99a2019731809c99a846139e7",
+ "first_seen": "2026-07-02 21:15:48",
+ "last_seen": null,
+ "file_name": "res_obs_0.apk",
+ "file_size": 3686002,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T15E060117FFCA94BAECF243360E7563253602AC358B67A2879864327CA4B75D01F46DD8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:fQc6eL7ACQ9GPjpZyp5tWR4qLUrWKDCURs/4:fLcCQ6pZyp1qL5KDhs4",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Spynote"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "347",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/537f08755139d0199fb1751068eb49a92b68e0d1dcadaf03758837c3832f99c5/"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260702-z4zjpse12t/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-07-02 21:18:43",
+   "scanner_count": "24",
+   "scanner_match": "4",
+   "scanner_percent": "16.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a46d57b225e2fbf83f3e653/reports/826c97d7-cedb-43bf-ab15-52b017ce9bab/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-02T21:17:00Z",
+   "last_seen": "2026-07-04T10:00:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/537f08755139d0199fb1751068eb49a92b68e0d1dcadaf03758837c3832f99c5/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

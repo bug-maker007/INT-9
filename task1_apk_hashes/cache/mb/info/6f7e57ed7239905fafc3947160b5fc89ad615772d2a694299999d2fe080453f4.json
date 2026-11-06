@@ -1,0 +1,188 @@
+{
+ "sha256_hash": "6f7e57ed7239905fafc3947160b5fc89ad615772d2a694299999d2fe080453f4",
+ "sha3_384_hash": "4769886b9878a58cc17c66494668a8fc7689fc94dcdae09ff06e46a89a9af95856de8945befcf3d1eddb2bfbb099986f",
+ "sha1_hash": "d6fc3b5cc2e8a4964c4858fd515e9566e28aa29e",
+ "md5_hash": "763392481eb7481b63f34271168821cb",
+ "first_seen": "2023-03-07 07:17:35",
+ "last_seen": null,
+ "file_name": "Aras_Kargo.apk",
+ "file_size": 5171410,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "1ZRR4H",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "Sova",
+ "imphash": null,
+ "tlsh": "T1CC361243F7DAA92FECF3C3325775562626168C658703E6871904B27C18FBAC44A86FD8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:Av+dv9EEgB0Nbb3EX4cgY0RDNHApXnUdBtE6F428QdWET4CfhjCzOSr:AvC9AB0NvEXjMNHanMBtEM4cT4Cfoh",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "57.0% (.APK) Android Package (38500/1/9)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "15.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Sova"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.14465.16118.9185.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.28774.22237.UNOFFICIAL"
+  ],
+  "downloads": "285",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/6f7e57ed7239905fafc3947160b5fc89ad615772d2a694299999d2fe080453f4/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/6f7e57ed7239905fafc3947160b5fc89ad615772d2a694299999d2fe080453f4",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "sova_v5",
+   "score": "10",
+   "link": "https://tria.ge/reports/230307-h4yhzage8y/",
+   "tags": [
+    "family:sova",
+    "family:sova_v5",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "SOVA_v5 payload",
+     "score": "10"
+    },
+    {
+     "signature": "Sova",
+     "score": "10"
+    },
+    {
+     "signature": "Sova_v5",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "sova_v5",
+     "c2": "aHR0cDovL2Fha3NkazEyNTEyLm5ldDo1MDAw"
+    },
+    {
+     "extraction": "c2",
+     "family": "sova_v5",
+     "c2": "aHR0cDovL2Fha3NkazEyNTEyZ3MubmV0OjUwMDA\\u003d"
+    },
+    {
+     "extraction": "c2",
+     "family": "sova_v5",
+     "c2": "aHR0cDovL2FhYXNrc2FzZmRrMTI1YXNmMTIubmV0OjUwMDA\\u003d"
+    },
+    {
+     "extraction": "c2",
+     "family": "sova_v5",
+     "c2": "aHR0cDovL2Fhc2Zha3NkMjRrMTI1MTIubmV0OjUwMDA\\u003d"
+    },
+    {
+     "extraction": "c2",
+     "family": "sova_v5",
+     "c2": "aHR0cDovL2FhYWtzZGFzZmFrMTI1MTIubmV0OjUwMDA\\u003d"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.BankBot",
+   "status": "MALICIOUS",
+   "first_seen": "2023-02-20 08:03:06",
+   "scanner_count": "39",
+   "scanner_match": "8",
+   "scanner_percent": "20.51"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.1",
+   "confidence": "0.5",
+   "report_link": "https://www.filescan.io/uploads/6406e52c86426ca5a86ab534/reports/1fe29365-848c-4a20-919b-538a4a55e8f3/overview"
+  }
+ },
+ "comments": null
+}

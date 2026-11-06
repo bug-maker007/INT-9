@@ -1,0 +1,112 @@
+{
+ "sha256_hash": "dcf5acb06289b1d142a24df43d91f184873c3e26891a2254b43050cf61af074f",
+ "sha3_384_hash": "fc4846b40f5745f7924a80c26ae4187a3cf48029b19dbef878cfb5945f7fb7c3b60ecf1fdbf13894f63e6a4e16b0ba38",
+ "sha1_hash": "e13d921286085e5bc061dafcf6984b63badea0bb",
+ "md5_hash": "d2025ae034c4104448f015679e98ddfa",
+ "first_seen": "2021-10-09 16:16:02",
+ "last_seen": null,
+ "file_name": "yandex.ru.com_Porno_Video_Arsivi.apk",
+ "file_size": 153007,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T128E302A353962134E2AB9930A1E7533337B1476463F2E7DA23158904DE86BDA0FBDC19",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "3072:Sfmo7POe1xARG+3X0V5b+Q8ppg5Ds8P0ZZ:SfR7PBx7+3X0ziQ8numZ",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.8705.1083.27946.UNOFFICIAL"
+  ],
+  "downloads": "256",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1662374/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/dcf5acb06289b1d142a24df43d91f184873c3e26891a2254b43050cf61af074f/"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/dcf5acb06289b1d142a24df43d91f184873c3e26891a2254b43050cf61af074f",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/211009-tqsw4sfdbm/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "https://zonesget1.space/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2021-10-09 16:16:16",
+   "scanner_count": "28",
+   "scanner_match": "15",
+   "scanner_percent": "53.57"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6161c0467b67fa0cf5176718/reports/fbe42b39-e7f1-4c9e-806c-eaa265494f3b/overview"
+  }
+ },
+ "comments": null
+}

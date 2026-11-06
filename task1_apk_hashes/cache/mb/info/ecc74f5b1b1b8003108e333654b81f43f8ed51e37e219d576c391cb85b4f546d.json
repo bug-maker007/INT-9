@@ -1,0 +1,121 @@
+{
+ "sha256_hash": "ecc74f5b1b1b8003108e333654b81f43f8ed51e37e219d576c391cb85b4f546d",
+ "sha3_384_hash": "453582561275c96d791090e02983838140e617557a4bb4fb97a905d110bfee712ca9dc198501faf4cc779816a7c48eb0",
+ "sha1_hash": "67549a4d4a7b16f0077806c608a101eca70852c1",
+ "md5_hash": "7705b51ef8baa14f13f859bb09aba804",
+ "first_seen": "2021-03-23 19:46:25",
+ "last_seen": "2021-03-23 19:47:06",
+ "file_name": "multimedya.apk",
+ "file_size": 3739830,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ActorExpose",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "620633EE9F708889F1DB02F02B67CC1252B5274696D288CF8D3111BAD7E72C997446F9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:obiAfbZRCScvkTxPiehEkhdZqSjYlxfQsgrzcqnE8GJAI603:obJZcScvkTxfakhLjKfQ/rCr6S",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "APK"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.8694.23336.20522.UNOFFICIAL"
+  ],
+  "downloads": "259",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "PM_Zip_with_js",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/ecc74f5b1b1b8003108e333654b81f43f8ed51e37e219d576c391cb85b4f546d/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ecc74f5b1b1b8003108e333654b81f43f8ed51e37e219d576c391cb85b4f546d",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210323-xc57yqk17n/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    },
+    {
+     "signature": "",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://eksilmezlernokta3.club"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Boogr",
+   "status": "MALICIOUS",
+   "first_seen": "2021-03-23 09:26:24",
+   "scanner_count": "48",
+   "scanner_match": "8",
+   "scanner_percent": "16.67"
+  }
+ },
+ "comments": null
+}

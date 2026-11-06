@@ -1,0 +1,118 @@
+{
+ "sha256_hash": "00ba0d5aea129f098b5a609633ac77cd642fddba8b64f6332e49e6d33294992e",
+ "sha3_384_hash": "3a6279529b1a4f743175149467f04b015ed6d76043029f9a8d422c03f394c467c1057e50429d411d3805253f4176e07d",
+ "sha1_hash": "68ac8d9d452e4a2a19a016bd5d67cd058956d965",
+ "md5_hash": "1124bbbda3347b9d0bf59022e487935e",
+ "first_seen": "2026-09-18 20:05:54",
+ "last_seen": null,
+ "file_name": "00ba0d5aea129f098b5a609633ac77cd642fddba8b64f6332e49e6d33294992e.apk",
+ "file_size": 22678857,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "smica83",
+ "origin_country": "HU",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T15537234FE708B95AC8F3A3324A76D275A0074C268B83D6836948767C94B77D44F5AFC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:/dc9D3/YGaN2WteyXWsaFn0EFRwvDEVtF9k2Wj7h2twkUhVbP71r61YhSGInV8DU:Vo3/Za3odjntjw7EEjhQpgRrhSjV8DUl",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "RatHat",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Chen Lei",
+   "issuer_cn": "Chen Lei",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2026-04-04T00:11:34Z",
+   "valid_to": "2053-08-20T00:11:34Z",
+   "serial_number": "56837744",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c80355bea43b333be23ac156c2cf72ddd0cc06ffd3fa4ebd1209392b199650ed",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "295",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "ANDROID_Sample_Unique_5be608a5",
+   "author": "Marjoriefort",
+   "description": "Specimen unique (soumission Bazaar) - strings distinctifs propres au sample",
+   "reference": "5be608a563a02c94dbf3b1812b3aa0685a6f8228b5dc74c773cc3c912adef7ba.apk"
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": null,
+   "link": "https://tria.ge/reports/260918-yvjapa1zes/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-04-04 03:16:47",
+   "scanner_count": "36",
+   "scanner_match": "14",
+   "scanner_percent": "38.89"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6aad99ba7abf243803b95b2f/reports/15a8d703-5e9e-4e10-b05a-5b41d5dfdce9/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-04-03T22:21:00Z",
+   "last_seen": "2026-09-20T00:35:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/00ba0d5aea129f098b5a609633ac77cd642fddba8b64f6332e49e6d33294992e/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

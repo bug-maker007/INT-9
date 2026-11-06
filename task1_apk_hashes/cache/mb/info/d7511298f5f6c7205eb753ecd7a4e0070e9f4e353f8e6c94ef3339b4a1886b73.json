@@ -1,0 +1,78 @@
+{
+ "sha256_hash": "d7511298f5f6c7205eb753ecd7a4e0070e9f4e353f8e6c94ef3339b4a1886b73",
+ "sha3_384_hash": "c4c5a352b5258aea9c65f6295905060293d2f52a6c98b5a833937d58dd4247c6ba2ae8383b542c9bc180110a4a2ae687",
+ "sha1_hash": "de708dc470c4d06a7845dfc9b331a6bf61a520bf",
+ "md5_hash": "ade1103bc0846281305ec85703ee7308",
+ "first_seen": "2020-05-04 14:39:51",
+ "last_seen": null,
+ "file_name": "20gb_hediye_internet.apk",
+ "file_size": 585290,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mhmtayberk",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Anubis",
+ "imphash": null,
+ "tlsh": "8FC412C2BB63E439E13F04B28683539219372D0A2695FA5B3F4E75086C777A0DF1AC95",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:uZkhGoyQPoGLHTrgkhGoyQPoGLiVkhGoyQPoGLgkhGoyQPoGL8khGoyQPoGLhXmB:uZmyQgoTrgmyQg1VmyQgrmyQgtmyQg33",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "anubis",
+  "apk"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "Feb 29 01:33:46 2008 GMT",
+   "valid_to": "Jul 17 01:33:46 2035 GMT",
+   "serial_number": "936EACBE07F201DF",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "Andr.Trojan.Anubis-6692604-3"
+  ],
+  "downloads": "291",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "http://20-gbinternetbedava.net/"
+  },
+  {
+   "context": "dropped_by_malware",
+   "value": "Anubis"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Banker",
+   "status": "MALICIOUS",
+   "first_seen": "2020-05-04 15:33:15",
+   "scanner_count": "31",
+   "scanner_match": "13",
+   "scanner_percent": "41.94"
+  }
+ },
+ "comments": null
+}

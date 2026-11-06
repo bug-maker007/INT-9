@@ -1,0 +1,157 @@
+{
+ "sha256_hash": "19390c5069814743cf75a979e733e54846b26c38fef6e6063d2127d8fcd6dc25",
+ "sha3_384_hash": "eefd430aec85de3ebcb727d5a267f8a937b9f93994bcb14001b3b1a447f153cbdc54e12083ca719873b33fb0a76b4c72",
+ "sha1_hash": "c6e2cecf49e761cae125c8a7f1469535cc71d5a6",
+ "md5_hash": "a9c325de4633252138fb2892717feffd",
+ "first_seen": "2024-08-25 00:42:05",
+ "last_seen": null,
+ "file_name": "adl.apk",
+ "file_size": 2903308,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T13CD52353FA56F96BD8F6C3322064573A16365E28C743E74E390833B56AB78D80F816D8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:DTbdsl35rnglmqdJy2WTx8Xt8VaamfvXV+1tda1Mt54OLkf2fbFfNTeMv0HDHN:DHy0mqTy2UU8ViQv+Mt54CjRFTeMvWHN",
+ "magika": "jar",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Obfuscapk",
+   "issuer_cn": "Obfuscapk",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2019-08-15T18:58:38Z",
+   "valid_to": "2049-08-07T18:58:38Z",
+   "serial_number": "5f122eb3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "ed1399b288d3aac9ef9d43fcd9fbf90c7662b3ed0050b08f3c2988d24a8a42c9",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan-Spy.AndroidOS.SMSSpy.18027.14773.UNOFFICIAL"
+  ],
+  "downloads": "330",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "apk_flubot_w0",
+   "author": "Thomas Barabosch, Telekom Security",
+   "description": "matches on dumped, decrypted V/DEX files of Flubot version > 4.2",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/19390c5069814743cf75a979e733e54846b26c38fef6e6063d2127d8fcd6dc25/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/19390c5069814743cf75a979e733e54846b26c38fef6e6063d2127d8fcd6dc25",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240825-a2xjwsyfje/",
+   "tags": [
+    "family:irata",
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2024-08-25 00:43:06",
+   "scanner_count": "23",
+   "scanner_match": "7",
+   "scanner_percent": "30.43"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/66ca7e1706cd69fa60ba5123/reports/236e5e09-d072-4f58-8204-bbcec80db5a0/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,150 @@
+{
+ "sha256_hash": "51f9c37c3eec0b6f8325aa1c8fe64a0615ab920584042df557426473b1270b40",
+ "sha3_384_hash": "aa41b877360fe51f1b1a57528b2bb508d009b2393429de1a2dc0d5faf14a263092f25e6824722e96dece4d2fcaf270c7",
+ "sha1_hash": "828c76b5d980c893147bdee72eb3832227aff7f2",
+ "md5_hash": "36cd2ea94bcf9f9a9959dc4c1c489933",
+ "first_seen": "2023-02-08 15:47:55",
+ "last_seen": null,
+ "file_name": "51f9c37c3eec0b6f8325aa1c8fe64a0615ab920584042df557426473b1270b40",
+ "file_size": 1896652,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "HK",
+ "anonymous": 1,
+ "signature": "Ermac",
+ "imphash": null,
+ "tlsh": "T1EB9533AF0BA5CA77C5761571E0E35242A6327A6973A4F5B5D2C8B5CC3DF280C2103A9F",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:+/X7k/o4x1XuIEMYnpn2SL40UFi+xYxpEWWKRFd:+/rMr7XuamB264bFiAopJVR",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "49.3% (.APK) Android Package (38500/1/9)",
+  "17.9% (.ZIP) Opera Widget (14000/1/2)",
+  "17.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "5.1% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "https://www.threatfabric.com/blogs/ermac-another-cerberus-reborn.html",
+ "archive_pw": null,
+ "tags": [
+  "amplebot",
+  "android",
+  "apk",
+  "banking",
+  "blackrock",
+  "ermac",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.3927.8108.24006.UNOFFICIAL",
+   "Win.Malware.Agent-9377439-0"
+  ],
+  "downloads": "614",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/51f9c37c3eec0b6f8325aa1c8fe64a0615ab920584042df557426473b1270b40/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/51f9c37c3eec0b6f8325aa1c8fe64a0615ab920584042df557426473b1270b40",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "blackrock",
+   "score": "10",
+   "link": "https://tria.ge/reports/230208-xprt7sef58/",
+   "tags": [
+    "family:blackrock",
+    "android",
+    "banker",
+    "infostealer",
+    "ransomware",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "BlackRock",
+     "score": "10"
+    },
+    {
+     "signature": "BlackRock payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "7"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Android",
+   "status": "MALICIOUS",
+   "first_seen": "2020-06-27 22:29:19",
+   "scanner_count": "39",
+   "scanner_match": "24",
+   "scanner_percent": "61.54"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/63e3c434fc4dffab0ccf3474/reports/8df4d3f5-e4db-48e5-bf23-5a694e33e78d/overview"
+  }
+ },
+ "comments": null
+}

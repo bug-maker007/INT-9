@@ -1,0 +1,139 @@
+{
+ "sha256_hash": "a25bf4bdb2ed9872456af0057eb21ce31fd03d680d63a9da469519060b4814bc",
+ "sha3_384_hash": "eb63ebe748f63d3dd3f8945ffb91618e5718b3b4c865ec4b10ce360467ad4031766a32b0cc22b3cbd5c3fb7354ee861a",
+ "sha1_hash": "c1b3db52e0aa1798b9193ea7f1a2c8d7747aeec8",
+ "md5_hash": "0d4a272052b87d098271ddfb6f4ea191",
+ "first_seen": "2024-01-22 11:03:54",
+ "last_seen": null,
+ "file_name": "A25BF4BDB2ED9872456AF0057EB21CE31FD03D680D63A9DA469519060B4814BC.apk",
+ "file_size": 3621025,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "IT",
+ "anonymous": 1,
+ "signature": "BlackRock",
+ "imphash": null,
+ "tlsh": "T1C5F533DED3E0E57AD16E0479D44990D1D22486904202F32B92BC61ED7EE4EE5B237E1F",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:t91OL1lrWdyaMKcPr0clWlAP8r8VMZmARB9exM:t91OJlrWYf3lKAkroARB9exM",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "45.1% (.APK) Android Package (32500/1/6)",
+  "19.4% (.ZIP) Opera Widget (14000/1/2)",
+  "18.7% (.JAR) Java Archive (13500/1/2)",
+  "9.7% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "5.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "BlackRock"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.3927.8108.24006.UNOFFICIAL"
+  ],
+  "downloads": "534",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "NET",
+   "author": "malware-lu",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "blackrock",
+   "link": "https://mwdb.cert.pl/sample/a25bf4bdb2ed9872456af0057eb21ce31fd03d680d63a9da469519060b4814bc/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/a25bf4bdb2ed9872456af0057eb21ce31fd03d680d63a9da469519060b4814bc",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/240122-m59d3segdq/",
+   "tags": [
+    "android",
+    "banker",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "8"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Flubot",
+   "status": "MALICIOUS",
+   "first_seen": "2022-11-14 05:43:00",
+   "scanner_count": "23",
+   "scanner_match": "9",
+   "scanner_percent": "39.13"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65ae4ba287258803c23bae53/reports/4a633c06-009d-4b03-bf08-3fd996ec262c/overview"
+  }
+ },
+ "comments": null
+}

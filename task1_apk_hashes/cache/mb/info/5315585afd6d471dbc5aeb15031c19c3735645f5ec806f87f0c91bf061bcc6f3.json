@@ -1,0 +1,99 @@
+{
+ "sha256_hash": "5315585afd6d471dbc5aeb15031c19c3735645f5ec806f87f0c91bf061bcc6f3",
+ "sha3_384_hash": "b39fe7d7b182024b8d8466bb7adeb06c123885d6389eb7e5655e4f0d429566f4b63649c4d420e377041a3943759b50c9",
+ "sha1_hash": "c9b79ab4ad84cd03b9f407bdf317c6016a086921",
+ "md5_hash": "8d69dfc7d3b5c0287d903ab8ae77bddc",
+ "first_seen": "2021-08-25 16:03:38",
+ "last_seen": null,
+ "file_name": "Android_11_Surumu.apk",
+ "file_size": 3170610,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T174E5332DAB979968E4274373410B704737E532488485A63F49B8004E1EFBF69878FDBB",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:q1QJDqWMfANx6wJ3bVUyV2IGDU/oTADeI:q1MDbMwcwJ3f2Ig+L",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "316",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1563835/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5315585afd6d471dbc5aeb15031c19c3735645f5ec806f87f0c91bf061bcc6f3/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/5315585afd6d471dbc5aeb15031c19c3735645f5ec806f87f0c91bf061bcc6f3",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/210825-eqa1qqkpw2/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://turkifsapaylasim.com"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-08-25 16:04:20",
+   "scanner_count": "42",
+   "scanner_match": "6",
+   "scanner_percent": "14.29"
+  }
+ },
+ "comments": null
+}

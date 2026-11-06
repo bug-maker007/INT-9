@@ -1,0 +1,145 @@
+{
+ "sha256_hash": "3745e0fb7edbdd8da57f44f5ee1d2b2cc0db5d7f8b63ea69ce12ce561402cf17",
+ "sha3_384_hash": "6e2efc3e988d2fe8bb2a8a7cfacb4c08a1101fdb4b8e56d122603ba7590efa3ab9d8f1e649340b6c7ed2b4509cdca0be",
+ "sha1_hash": "50f84857d8085a33bac20902b1360f39cfb2d39d",
+ "md5_hash": "92e95c692fb97e11ed1d526f22374bb8",
+ "first_seen": "2024-01-08 18:20:57",
+ "last_seen": null,
+ "file_name": "VicTube_v1.1.2_apkfab.com.apk",
+ "file_size": 59025398,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "MaxMax66",
+ "origin_country": "FR",
+ "anonymous": 0,
+ "signature": "SpinOK",
+ "imphash": null,
+ "tlsh": "T13CD73393F3B9A81DF47B9035896921F1C4455E41C612EFEBA42833686AF3AD48F44FE1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:PxjZUMdYPSNZwmkaOh/zoY2LyXW8CQpbxjOz5Des/7GX6hZTuy8/:RZUMdESNOhh/uLyG8CQpblORjGqU9/",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "40.1% (.APK) Android Package (32500/1/6)",
+  "16.6% (.JAR) Java Archive (13500/1/2)",
+  "15.4% (.VYM) VYM Mind Map (12500/1/3)",
+  "12.9% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "8.6% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)"
+ ],
+ "comment": "an app to win \"free money\"",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "SpinOK"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2022-10-14T07:51:26Z",
+   "valid_to": "2052-10-14T07:51:26Z",
+   "serial_number": "7a3f29901dda5436c2a0d74e7856d88e10aae898",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "88fa2ec509ea3b64d32d1fb4674ee464c7135df84b08cc519da5a7c8861629ff",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "565",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/231217-wfnkragfb8"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "BitcoinAddress",
+   "author": "Didier Stevens (@DidierStevens)",
+   "description": "Contains a valid Bitcoin address",
+   "reference": null
+  },
+  {
+   "rule_name": "upxHook",
+   "author": "@r3dbU7z",
+   "description": "Detect artifacts from 'upxHook' - modification of UPX packer",
+   "reference": "https://bazaar.abuse.ch/sample/6352be8aa5d8063673aa428c3807228c40505004320232a23d99ebd9ef48478a/"
+  }
+ ],
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/3745e0fb7edbdd8da57f44f5ee1d2b2cc0db5d7f8b63ea69ce12ce561402cf17",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spinok",
+   "score": "10",
+   "link": "https://tria.ge/reports/240108-wzcbtsfaeq/",
+   "tags": [
+    "family:spinok",
+    "android",
+    "banker",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "8"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation)",
+     "score": "5"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spinok",
+     "c2": "https://d3hdbjtb1686tn.cloudfront.net/gpsdk.html"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.SpinOK",
+   "status": "MALICIOUS",
+   "first_seen": "2023-01-14 15:34:39",
+   "scanner_count": "37",
+   "scanner_match": "8",
+   "scanner_percent": "21.62"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.25",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/659c3d13fd5068bbc3cbccba/reports/6b57a551-0ee4-4c1e-a2d1-160b1fe22cd9/overview"
+  }
+ },
+ "comments": null
+}

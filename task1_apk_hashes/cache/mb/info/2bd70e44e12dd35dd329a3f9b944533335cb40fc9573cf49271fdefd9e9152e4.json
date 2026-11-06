@@ -1,0 +1,101 @@
+{
+ "sha256_hash": "2bd70e44e12dd35dd329a3f9b944533335cb40fc9573cf49271fdefd9e9152e4",
+ "sha3_384_hash": "b0f4754f5c028a3cba91bd0ef9547f8f1f67d6c0ebb0115abf9b0c1aa325fb2be208af5847b792572bed3dc5f69ffebb",
+ "sha1_hash": "47e65d278eea7a801bf7f6b5b4591e22b3ee9369",
+ "md5_hash": "2c0276d3d3d6f07d01e352dfbe0c5baa",
+ "first_seen": "2025-04-01 17:03:40",
+ "last_seen": null,
+ "file_name": "app-debug.apk",
+ "file_size": 3181728,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "PhoenixTU",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1C6E51282F3E9AD2FCD7381324FBA4B7A45464C428646D3175569B22C5DBB9C08F86FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:ug2AnJAQXkn56nK89Say0yo4/AVfwI+Bmek1QDAVVNOQMs5lXbzenm3:/G0kcsa/64XxQDAVVIQVlXbyM",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "65.0% (.APK) Android Package (27000/1/5)",
+  "25.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Keylogger",
+  "Spyware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "4323",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2bd70e44e12dd35dd329a3f9b944533335cb40fc9573cf49271fdefd9e9152e4/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Password Stealer",
+   "score": "0.90"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/2bd70e44e12dd35dd329a3f9b944533335cb40fc9573cf49271fdefd9e9152e4",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/250401-vlb88sswez/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2025-04-01 17:05:16",
+   "scanner_count": "24",
+   "scanner_match": "12",
+   "scanner_percent": "50.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67ec1c96f274bf2d8e2cbc9f/reports/040dfa03-56ee-46c6-91c5-d7a609f5a4ca/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,271 @@
+{
+ "sha256_hash": "841e432a41b9625040704fd636d4fc3814a6d4193fa315cd78cfed9aa3991c04",
+ "sha3_384_hash": "ba843058f8b7728fcd4b867b329c0493c0d88b83bb658419659d5dec422058cbbce606b672db00aaf04c12a70bb4a609",
+ "sha1_hash": "25471bfe242a46b434f9ee1e725340cc2375997a",
+ "md5_hash": "513a87f6f31293ef9cc0990dffdd7d0d",
+ "first_seen": "2026-04-06 06:09:24",
+ "last_seen": null,
+ "file_name": "841e432a41b9625040704fd636d4fc3814a6d4193fa315cd78cfed9aa3991c04.apk",
+ "file_size": 189275,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "IT",
+ "anonymous": 1,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T1F10423835D90786CC6A90D310BC90BB2F6DA2C4D65AAFB462444B5F8AFF38E41F40D6D",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "3072:k5lhQe0qu5d8kbdS65S/ecC2HQiINsYNr/FwLmbRULI6JzHPRM:k5l25iZWDIPIZBRchG",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Coper"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.Coper.13.origin.11348.8678.UNOFFICIAL"
+  ],
+  "downloads": "333",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/841e432a41b9625040704fd636d4fc3814a6d4193fa315cd78cfed9aa3991c04/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/841e432a41b9625040704fd636d4fc3814a6d4193fa315cd78cfed9aa3991c04",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/260406-gw7k8sev2x/",
+   "tags": [
+    "family:coper",
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo family",
+     "score": "10"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the unique device ID (IMEI, MEID, IMSI)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests accessing notifications (often used to intercept notifications before users become aware).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://shoprise57899321.shop/YmQ5ZDVkMzRkZjE5/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://emporiumwave245768.shop/YmQ5ZDVkMzRkZjE5/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://worldfusion891056.shop/YmQ5ZDVkMzRkZjE5/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://universevibe123459.shop/YmQ5ZDVkMzRkZjE5/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://emporiumdelight987656.shop/YmQ5ZDVkMzRkZjE5/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://thopris578993215.shop/YmQ5ZDVkMzRkZjE5/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://empoiumwave245768.shop/YmQ5ZDVkMzRkZjE5/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://worfusion891056.shop/YmQ5ZDVkMzRkZjE5/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://unirsevibe123459.shop/YmQ5ZDVkMzRkZjE5/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://eoriumdelight987656.shop/YmQ5ZDVkMzRkZjE5/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.BankerAgent",
+   "status": "MALICIOUS",
+   "first_seen": "2024-04-06 23:21:18",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69d34e4c2346b9da57c08b85/reports/7a5805ae-55be-4422-be11-da891299074a/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2024-04-05T19:13:00Z",
+   "last_seen": "2026-04-06T05:39:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/841e432a41b9625040704fd636d4fc3814a6d4193fa315cd78cfed9aa3991c04/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

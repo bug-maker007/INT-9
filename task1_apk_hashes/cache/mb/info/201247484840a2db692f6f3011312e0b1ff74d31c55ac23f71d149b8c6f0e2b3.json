@@ -1,0 +1,228 @@
+{
+ "sha256_hash": "201247484840a2db692f6f3011312e0b1ff74d31c55ac23f71d149b8c6f0e2b3",
+ "sha3_384_hash": "bcc1b8ee8dd6c19e95adceaa2a9e36ef7aba63ecff3c46107a3816275d98685d1a7354594c67a38f77288b9f25a46d8e",
+ "sha1_hash": "dd131b0fdcd656091e746964cf9ef67efd0bdde5",
+ "md5_hash": "afaae145e1445affb774be36f6db0023",
+ "first_seen": "2023-01-30 02:26:49",
+ "last_seen": null,
+ "file_name": "android.apk",
+ "file_size": 557526,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "adm1n_usa32",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "Octo",
+ "imphash": null,
+ "tlsh": "T17DC42359AD225E16DCA56F7F0B0A0F42DDE022B48B43F015E8D21D0DE427EC4E6ACDAC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:gTR5IYGdyfEEM/p/UdeEbL8yNeAb+aOHVqRg:EufedeKL9JGYRg",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "originally was a .zip file - filetype says .jar, looks like an apk to me\r\n",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Octo",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "385",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/201247484840a2db692f6f3011312e0b1ff74d31c55ac23f71d149b8c6f0e2b3/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.30"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/201247484840a2db692f6f3011312e0b1ff74d31c55ac23f71d149b8c6f0e2b3",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/230130-cxevdsdh23/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "ransomware",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://poolserverisippool.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://serversippoolcheck.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://serverspoolcheckip.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://serverscheckippool.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://ipcheckserverspool.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://bestscanipworld.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://scanbestipworld.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://ipbestscanworld.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://worldipbestscan.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://doublednscheck.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://dnscheckdouble.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://checkdoubledns.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://doublecheckdns.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://alldnsfastcheck.xyz/NmE0N2YwOWEzMTM3/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-01-27 18:19:37",
+   "scanner_count": "39",
+   "scanner_match": "15",
+   "scanner_percent": "38.46"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/63d72af789bd67c10fdb67f4/reports/67deb74c-f6ee-4e81-aa9c-8e85da69a54a/overview"
+  }
+ },
+ "comments": null
+}

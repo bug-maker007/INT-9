@@ -1,0 +1,116 @@
+{
+ "sha256_hash": "ff20608f0d92ae1c6af3b4170e7627e1f292845df8d943a5bd3117fff04c1650",
+ "sha3_384_hash": "5433192a907445962cb8a1d71ca839ae404692f51cafcd2c664e4777f3839b8af48d7a09e3ab55b3130e31717877296c",
+ "sha1_hash": "26fa0aef74b9914f302bf8bf01c8ce82043d410b",
+ "md5_hash": "f859a0b06d2eaf5b7916755c0ab0f8a2",
+ "first_seen": "2024-03-11 12:30:37",
+ "last_seen": null,
+ "file_name": "Application.apk",
+ "file_size": 3091741,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T10FE52343F266E94BC872D1732295173A10278D18C647FB477959B7BA38BBEEC0B816D0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:ounwv2WHwr9tZ6ekkLL5Tk9oxp1RxJVJgda5KBH4UJk95IuyVWU/qEE0nWXPJ:oxvLH6NpkkZ+ox3RxJUEKBHJJk9oVNxs",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2021-05-22T04:58:32Z",
+   "valid_to": "2120-09-04T04:58:32Z",
+   "serial_number": "0c11d603",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e702de593abce6259624b294b47a16a0239caa17322c3285b6d1c8acf7fbf30d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.989.origin.25051.24953.UNOFFICIAL"
+  ],
+  "downloads": "404",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ff20608f0d92ae1c6af3b4170e7627e1f292845df8d943a5bd3117fff04c1650/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.09"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ff20608f0d92ae1c6af3b4170e7627e1f292845df8d943a5bd3117fff04c1650",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240311-pp2emscb5w/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Boogr",
+   "status": "MALICIOUS",
+   "first_seen": "2024-03-11 12:31:13",
+   "scanner_count": "24",
+   "scanner_match": "5",
+   "scanner_percent": "20.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65eef98a204403ca94d37067/reports/04447796-669c-418a-96db-b5efde4973f2/overview"
+  }
+ },
+ "comments": null
+}

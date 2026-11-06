@@ -1,0 +1,128 @@
+{
+ "sha256_hash": "31b9511b3d9e5b891071ba6490eb8ed1d8bc197e74e641b96d8d32cdd064ede7",
+ "sha3_384_hash": "371fb5c188bd07101230c272097ef31e3ef54e994c196cbe5d1a31bca05e5598dd9afbee42727481b99f10db4a8184fd",
+ "sha1_hash": "fe21820d6bfd03b9f028f3c4e0de7632ab43dd9f",
+ "md5_hash": "04172579e214e11db1c7011aa6cda228",
+ "first_seen": "2025-03-07 14:18:53",
+ "last_seen": null,
+ "file_name": "Install-Pro.apk",
+ "file_size": 22680040,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T1B937D01A37418F39E46D2931C04F13674117BE055EA152D729AAF20CEA3F6F36EF5A82",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:K8FFrQute2NDdn4tgBEP67tsKEJXcMri0watNmZsguO:JFTe2NF4y2PGtsKYcMG03NmH",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "https://mega.nz/file/UsAzHRRJ#9xV_dc6WoeSFFTHquDgadxUjTo__fEcHxuHUFTmixXo/utmPass/ZyvjJE0jFx/token/WwKY/date/1741356448/1\r\n\r\nC2:\r\n8f283f6b3091eb13882b47847d14f851.xyz\r\n31eb7d75710b8d06fa9bb863694d121d.info\r\nae46c7e6e40dbeaa639c51d92f0c219e.shop\r\n40fec89163387f097cbabf4077c91bf7.top",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Coper",
+  "Octo"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "1244",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/250307-rfq9es1vgx/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Linux_Trojan_Generic_5420d3e7",
+   "author": "Elastic Security",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/31b9511b3d9e5b891071ba6490eb8ed1d8bc197e74e641b96d8d32cdd064ede7",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/250307-rm2cza1xbz/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "privilege_escalation",
+    "rat",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://40fec89163387f097cbabf4077c91bf7.top"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-03-07 14:19:23",
+   "scanner_count": "38",
+   "scanner_match": "4",
+   "scanner_percent": "10.53"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67cb00683c5f644bd947f04d/reports/fd77ddd5-ec66-48ba-87c2-8781ca8fc6c1/overview"
+  }
+ },
+ "comments": null
+}

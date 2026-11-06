@@ -1,0 +1,208 @@
+{
+ "sha256_hash": "9210aa62276b4d2fb3ec41d5fb296c8555f5f9d42c16166cae76400e156fc451",
+ "sha3_384_hash": "867ed71ef2792289e68293fa65b3b4d7efc052250c68f8272d67f1b586f952e0ec0906bebe68a120116f5cb0f62d3b0f",
+ "sha1_hash": "93faaba9b198136963aacf4d3014230c19dd06a5",
+ "md5_hash": "8d52a7ba3c959128467d4bcd721c3aad",
+ "first_seen": "2026-10-10 11:03:16",
+ "last_seen": null,
+ "file_name": "Services.apk",
+ "file_size": 2048067,
+ "file_type_mime": "application/vnd.android.package-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "adliwahid",
+ "origin_country": "NL",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1D395338DCA315BA3DD2A5CB0DAD286F52DCAFD04D667E719DDF01D0FCB8050A624C692",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:kmYmYJ6VGp2tC0lLCqXUgp9RxgQ19+1kOOr:LlVGuCcLCrqx9kkt",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2026-07-23T04:47:13Z",
+   "valid_to": "2056-07-15T04:47:13Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "406433d46aee56662e991d69b86935be48723f16855f237fc10e1c3f373c0d2b",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "Sanesecurity.Malware.29052.TSource.UNOFFICIAL",
+   "Sanesecurity.Malware.31075.LX.BOT.UNOFFICIAL",
+   "Unix.Trojan.Gafgyt-9940653-0"
+  ],
+  "downloads": "214",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3946263/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "ELF_Packer_Dropper_Fileless_Armhf",
+   "author": "Serhii Kocherhan",
+   "description": "Detects obfuscated Linux ELF packers/droppers featuring ChaCha20/RC4 decryption, memfd_create/execveat fileless execution capabilities, and unique binary artifacts.",
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseapps2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise apps",
+   "reference": null
+  },
+  {
+   "rule_name": "golang",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Jeevan_Malware_Rewards",
+   "author": "ShriTiger",
+   "description": "Detects JeevanReward variants using Technical, Anti-Analysis, and Indian SE keywords",
+   "reference": null
+  },
+  {
+   "rule_name": "linux_generic_ipv6_catcher",
+   "author": "@_lubiedo",
+   "description": "ELF samples using IPv6 addresses",
+   "reference": null
+  },
+  {
+   "rule_name": "LIN_Malware_Unknown_ForgeAuto_0daebbb8",
+   "author": "Marjoriefort",
+   "description": "Detects Unknown (elf, etat binaire)",
+   "reference": null
+  },
+  {
+   "rule_name": "MIRAI_TELNETCURL_payload",
+   "author": "AfterPacket",
+   "description": "Mirai-lineage ELF payload carrying the leaked-source decoy domain",
+   "reference": "https://github.com/Afterpacket/drosera-threat-intel"
+  },
+  {
+   "rule_name": "NSVPS_Hydra_SSH_Bruteforce",
+   "author": "sanad (NSVPS-SOC)",
+   "description": "Hydra SSH brute-force campaign credentials pattern from NSVPS honeypot",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "RIPEMD160_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for RIPEMD-160 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "SHA1_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for SHA1 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "SHA512_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for SHA384/SHA512 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "TH_Generic_MassHunt_Linux_Malware_2026_CYFARE",
+   "author": "CYFARE",
+   "description": "Generic Linux malware mass-hunt rule - 2026",
+   "reference": "https://cyfare.net/"
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/9210aa62276b4d2fb3ec41d5fb296c8555f5f9d42c16166cae76400e156fc451/"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/261010-m6cfqsvw9r/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-10-09 14:54:12",
+   "scanner_count": "36",
+   "scanner_match": "15",
+   "scanner_percent": "41.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6aca1c2913c8dcdfcd0bad00/reports/6aee7e73-36ae-4edf-9264-36849176ae68/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-10-09T05:28:00Z",
+   "last_seen": "2026-10-11T17:45:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/9210aa62276b4d2fb3ec41d5fb296c8555f5f9d42c16166cae76400e156fc451/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

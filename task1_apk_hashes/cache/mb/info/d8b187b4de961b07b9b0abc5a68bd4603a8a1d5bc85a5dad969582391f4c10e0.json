@@ -1,0 +1,104 @@
+{
+ "sha256_hash": "d8b187b4de961b07b9b0abc5a68bd4603a8a1d5bc85a5dad969582391f4c10e0",
+ "sha3_384_hash": "4d9e96b769f1a0580e54c0b5325107128e2a23bc7fcdbbe8d377be295ab371dec49a93082ad6fd94b8dd1ce2fdcf8fe3",
+ "sha1_hash": "f4192594a2c04207a2c26dffc88f1a73646cdf1e",
+ "md5_hash": "26147013adb96c88cd017cbae38fdea2",
+ "first_seen": "2026-09-07 07:10:50",
+ "last_seen": null,
+ "file_name": "GAMEAPP.apk",
+ "file_size": 2325406,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "US",
+ "anonymous": 1,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1BCB522E6B315553BCABF5733A5AB122127768E40B6927B076444343CEE7B3888F5EE01",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:j+Rg+tPg1Th5NJd7WaRh5P6yT2UVJ8n23sBpmMR0MvPSqazQJeVNYzW1:ygeo/Ph5P6uqsYH0W9gb/",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "65.0% (.APK) Android Package (27000/1/5)",
+  "25.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SHAPARAK"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Siggen.Susp2.9124.19350.4820.UNOFFICIAL"
+  ],
+  "downloads": "219",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d8b187b4de961b07b9b0abc5a68bd4603a8a1d5bc85a5dad969582391f4c10e0/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260907-hz77ls1dle/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-09-04 23:34:34",
+   "scanner_count": "36",
+   "scanner_match": "8",
+   "scanner_percent": "22.22"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a9e63a91d77b21ae092896d/reports/ae77b907-62af-4ad0-bfc5-1c89b076602d/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-04T08:21:00Z",
+   "last_seen": "2026-09-04T10:08:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/d8b187b4de961b07b9b0abc5a68bd4603a8a1d5bc85a5dad969582391f4c10e0/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

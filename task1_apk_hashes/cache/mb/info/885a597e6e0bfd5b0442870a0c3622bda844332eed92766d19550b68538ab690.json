@@ -1,0 +1,105 @@
+{
+ "sha256_hash": "885a597e6e0bfd5b0442870a0c3622bda844332eed92766d19550b68538ab690",
+ "sha3_384_hash": "600f31ef6609d0de70b2d2f1a8c4b72619c9e1d9db5e9ad2194c3ebaed276ff0a7f61d9386efcf7e5e843ab71915e008",
+ "sha1_hash": "585a4be81de79ce55c4e75939207b256c30a48d9",
+ "md5_hash": "cab0d145dedc9f5f7f91dfb8394e0421",
+ "first_seen": "2021-10-09 11:37:10",
+ "last_seen": null,
+ "file_name": "Android System.apk",
+ "file_size": 3077206,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T125E533C0A7009CBDE3AFE930C4E3A5E7722195D25980A56F351F81A5CF99EA01781EFD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:DgIpg6u6he+ufNKq6qZ9HMXkVBsbPNF5z/lMrHkHtSKsfgxwMOwT07DnZs:DtK6u6E+s8qfHgkzsbFTzybzKsKlWz2",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "285",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/885a597e6e0bfd5b0442870a0c3622bda844332eed92766d19550b68538ab690/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/885a597e6e0bfd5b0442870a0c3622bda844332eed92766d19550b68538ab690",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/211009-nrp9qafbf5/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://yabanhayatbayat100xyz.site"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-10-09 11:38:07",
+   "scanner_count": "45",
+   "scanner_match": "7",
+   "scanner_percent": "15.56"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61617f1d7b67fa0cf5172589/reports/b375e03e-d050-456f-936d-1f9c6bc347ce/overview"
+  }
+ },
+ "comments": null
+}

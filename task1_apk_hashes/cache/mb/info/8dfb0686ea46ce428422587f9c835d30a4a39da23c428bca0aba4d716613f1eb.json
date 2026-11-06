@@ -1,0 +1,140 @@
+{
+ "sha256_hash": "8dfb0686ea46ce428422587f9c835d30a4a39da23c428bca0aba4d716613f1eb",
+ "sha3_384_hash": "56846fc1ff3b1ea7b6a6c47b353cde539cddbff98d693c63b8eeabbc42560bab4aa5bb27450378f3deec5411b355a46b",
+ "sha1_hash": "03478d310891cf2926489dc084ab2a7e59baaaee",
+ "md5_hash": "6061dede1abcb99133778e7bfe2e5c3b",
+ "first_seen": "2026-08-19 12:54:18",
+ "last_seen": null,
+ "file_name": "NextGen_mParivahan.apk",
+ "file_size": 7849354,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1758633F37C35F5A1FCE9523CEEA3AB581E216E16B98132387C4EC9A7C5885B254C814D",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:gseIb7656xQL0S7LYjkOZoIIPpPWGQkf+pJPYZHBS:gXy7656xQLNLv+oIIBPWGQ/4ZHBS",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "GOI",
+  "mParivahan",
+  "Riskware",
+  "signed",
+  "SmsSniffer"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "editor",
+   "issuer_cn": "editor",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-01-10T08:03:09Z",
+   "valid_to": "2115-12-17T08:03:09Z",
+   "serial_number": "231bc320",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "6215f00baa4bf18bab5792fc796bfc5555917240f14f7c7e672d956888d75c96",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.PUA.Tool.Obfuscapk.1.11777.32706.UNOFFICIAL"
+  ],
+  "downloads": "382",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "enterpriseapps2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise apps",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8dfb0686ea46ce428422587f9c835d30a4a39da23c428bca0aba4d716613f1eb/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260819-p5e7cafb77/",
+   "tags": [
+    "android",
+    "impact"
+   ],
+   "signatures": [
+    {
+     "signature": "Declares services with permission to bind to the system",
+     "score": "6"
+    },
+    {
+     "signature": "Requests dangerous framework permissions",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-08-19 12:55:46",
+   "scanner_count": "24",
+   "scanner_match": "5",
+   "scanner_percent": "20.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a85a784553aa87fab987af0/reports/f7c80286-528e-4b68-a13f-218168fd184e/overview"
+  }
+ },
+ "comments": null
+}

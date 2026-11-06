@@ -1,0 +1,124 @@
+{
+ "sha256_hash": "e4acebbaf1008ad281cd36a9b49d7b549db310267df7ddd69e4aa82b967eb4ca",
+ "sha3_384_hash": "4fcba57916b3ef4d870ac7c2e8b374939155519740b46d8a1fe076065955bb8b9bda47bfc5e594d5f327e7b6aff10a7c",
+ "sha1_hash": "4a93c6a54fb47a4c097df7f68365e00f16a0d537",
+ "md5_hash": "c0612f3dca8fa12288dcf97ed2efeffe",
+ "first_seen": "2025-12-19 07:58:47",
+ "last_seen": null,
+ "file_name": "Chrome.apk",
+ "file_size": 1256192,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "CyberMAN_noBODY",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "BankBot",
+ "imphash": null,
+ "tlsh": "T1DE45BE42F7D8A52EF8F78B328FB6456A0507AD6ACB43D3835954737C18B7AC04E85E84",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:xgSPgUnSjr7TXvNzpZF9OYvcjKNDAd5gxMDd+zCO8fTNnn6oY:xgSYUaDVzpz9ncjKNDAdBd8p8f0oY",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "bankbot",
+  "banker",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "np",
+   "issuer_cn": "np",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2021-04-25T09:03:56Z",
+   "valid_to": "3020-08-26T09:03:56Z",
+   "serial_number": "045ff9a3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "492682f877607ee99df2ddd2bd5953fd727bdf6e19d397de9dbbafd582bcad75",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "309",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e4acebbaf1008ad281cd36a9b49d7b549db310267df7ddd69e4aa82b967eb4ca/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/e4acebbaf1008ad281cd36a9b49d7b549db310267df7ddd69e4aa82b967eb4ca",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/251219-jvmksagy3a/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Anubis",
+   "status": "MALICIOUS",
+   "first_seen": "2023-08-23 17:55:08",
+   "scanner_count": "38",
+   "scanner_match": "11",
+   "scanner_percent": "28.95"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/694505cd3f8fdbf8e94bd0c3/reports/dbed03af-ed36-409b-9edf-6c4bd1e46f29/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2023-08-21T13:09:00Z",
+   "last_seen": "2025-12-20T05:37:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/e4acebbaf1008ad281cd36a9b49d7b549db310267df7ddd69e4aa82b967eb4ca/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

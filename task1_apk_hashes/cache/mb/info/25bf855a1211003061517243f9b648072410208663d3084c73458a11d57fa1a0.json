@@ -1,0 +1,92 @@
+{
+ "sha256_hash": "25bf855a1211003061517243f9b648072410208663d3084c73458a11d57fa1a0",
+ "sha3_384_hash": "1ae74b30e79e2215dfd2730d4fced5d54ed0f6edbeb27d21c2f37eeed0c2e50b35fae897d11ed593ad2a6209071c79a5",
+ "sha1_hash": "6b40677d775473c4e8fe06614b06e6780bcab397",
+ "md5_hash": "28410521a9b1c16fdb9f023140dea669",
+ "first_seen": "2021-10-23 08:28:39",
+ "last_seen": null,
+ "file_name": "Android-Update.apk",
+ "file_size": 2410344,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T138B512847D90D849E45EFA3885ED8042E3F72ED00D75182EAFE5B9980EB2CCD5DC54AB",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:AOGrydMxjuHJjNpOesFQnC9S5t8Lyl55pv5CcLcLWpxr+YeXV6P46Kzydb:AtGMxjuHJ5pASnC9emel/pM/LW36YeFY",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.ScytheSCF.GG.24559.30977.UNOFFICIAL"
+  ],
+  "downloads": "529",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "BitcoinAddress",
+   "author": "Didier Stevens (@DidierStevens)",
+   "description": "Contains a valid Bitcoin address",
+   "reference": ""
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/25bf855a1211003061517243f9b648072410208663d3084c73458a11d57fa1a0/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/25bf855a1211003061517243f9b648072410208663d3084c73458a11d57fa1a0",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/211023-kdkkjadbeq/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2021-10-23 08:29:05",
+   "scanner_count": "28",
+   "scanner_match": "14",
+   "scanner_percent": "50.00"
+  },
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6174f6669a5a1e91c5d1f45e/reports/3d6ec346-cd41-4ac0-8c3c-d3d1278f2bb4/overview"
+  }
+ },
+ "comments": null
+}

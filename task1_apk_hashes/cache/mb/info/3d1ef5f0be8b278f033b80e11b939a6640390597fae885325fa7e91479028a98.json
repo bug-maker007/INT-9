@@ -1,0 +1,126 @@
+{
+ "sha256_hash": "3d1ef5f0be8b278f033b80e11b939a6640390597fae885325fa7e91479028a98",
+ "sha3_384_hash": "7874a46d47afbb33996ef75cce90955fe0d50d784808df5382ea5806d5adbf8c2476491a77f8f488c46a72e96bd3e2f9",
+ "sha1_hash": "56e8085c01d017148b91f32cd8357a705553f381",
+ "md5_hash": "12fe57fa1207f2e6814e7be67872d6d7",
+ "first_seen": "2023-01-08 07:16:45",
+ "last_seen": null,
+ "file_name": "ExMuslims_Of_Kerala.apk",
+ "file_size": 5938157,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "SG",
+ "anonymous": 1,
+ "signature": "SpyMax",
+ "imphash": null,
+ "tlsh": "T198562295BBC5FC2FCD3798324BB6876E56964C068686D3278924B51C4CBB9C04F89FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:gGrWyHFlHgPsblOPSkGFw29q4VdkK2NO9UVnHxytkHWhY8FAIL06csl0O0W:ZGJPSbwrKkbNgMRKk2h3FLLb0K",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "57.0% (.APK) Android Package (38500/1/9)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "15.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "signed",
+  "spymax",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "medialiveindia@gmail.com",
+   "issuer_cn": "medialiveindia@gmail.com",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2018-02-25T16:56:44Z",
+   "valid_to": "2045-07-13T16:56:44Z",
+   "serial_number": "78ec6f23",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "abc9629fe264ec76560a6262f27bbb6a43f23b747b0f90321a9ca7eff8b6ac67",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "423",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://drive.google.com/file/d/1I1BJTn_TFEuqmd4xikHf0HRAxoD6Yi6a/view"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3d1ef5f0be8b278f033b80e11b939a6640390597fae885325fa7e91479028a98/"
+  },
+  "YOROI_YOMI": {
+   "detection": "SpyMax",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/3d1ef5f0be8b278f033b80e11b939a6640390597fae885325fa7e91479028a98",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/230108-h4cw9sgd3x/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Binary.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-01-08 07:17:15",
+   "scanner_count": "26",
+   "scanner_match": "2",
+   "scanner_percent": "7.69"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.2",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/63ba6def0e926711fd77b0ff/reports/cd99f957-ba91-46cf-a315-13b02eba9cce/overview"
+  }
+ },
+ "comments": null
+}

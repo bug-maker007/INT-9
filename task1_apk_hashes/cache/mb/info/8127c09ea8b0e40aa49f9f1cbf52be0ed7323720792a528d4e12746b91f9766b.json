@@ -1,0 +1,153 @@
+{
+ "sha256_hash": "8127c09ea8b0e40aa49f9f1cbf52be0ed7323720792a528d4e12746b91f9766b",
+ "sha3_384_hash": "c9fc0ec40885e8bb3537730d168576328ecec8c59bc491a3b170c9a444ef4ddb06b840acee1b986747bd39c9fb43ff78",
+ "sha1_hash": "5f8e24c5c624d9685cf3d378a88b6308bde53555",
+ "md5_hash": "1e71680219b4082efe21796f04b4755c",
+ "first_seen": "2026-01-04 14:34:10",
+ "last_seen": null,
+ "file_name": "ready.apk",
+ "file_size": 8907440,
+ "file_type_mime": "application/octet-stream",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "burger403",
+ "origin_country": "NL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T16F96F117FA44CBC3C06D93F57A530FA82E371F4881816ADB08543A9E2E762D24ED69DD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:d41pQ3bktkNMkvVklNyEBtO/WmsJBVumzbzdGGnQTODvUzYqp0cggNykO:d4vSesMkvGGErfBYmzbzBQTJ0tg8",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "96.7% (.HTP) HomeLab/BraiLab Tape image (256000/1)",
+  "1.8% (.ATN) Photoshop Action (5007/6/1)",
+  "0.9% (.ASSETS) Unity binary serialized Assets (generic) (2509/3/1)",
+  "0.3% (.BIN/MACBIN) MacBinary 1 (1033/5)",
+  "0.0% (.SMT) Memo File Apollo Database Engine (88/84)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "spynote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "md5WithRSAEncryption",
+   "valid_from": "2008-04-15T23:40:57Z",
+   "valid_to": "2035-09-01T23:40:57Z",
+   "serial_number": "f2b98e6123572c4e",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "465983f7791f2abeb43ea2cbdc7f21a8260b72bc08a55c839fc1a43bc741a81e",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "348",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "test_Malaysia",
+   "author": "rectifyq",
+   "description": "Detects file containing malaysia string",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8127c09ea8b0e40aa49f9f1cbf52be0ed7323720792a528d4e12746b91f9766b/"
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/260106-jdjgssev6b/",
+   "tags": [
+    "family:spynote"
+   ],
+   "signatures": [
+    {
+     "signature": "Enumerates physical storage devices",
+     "score": "3"
+    },
+    {
+     "signature": "Modifies registry class",
+     "score": null
+    },
+    {
+     "signature": "Suspicious use of SetWindowsHookEx",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "shabi9988-64207.portmap.host:64207"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Anubis",
+   "status": "MALICIOUS",
+   "first_seen": "2026-01-04 17:33:16",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/695aa7e8127d6a14e0cf813f/reports/586c826b-e459-4880-9f7f-310571da21a8/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "unknown",
+   "first_seen": "2026-01-04T11:35:00Z",
+   "last_seen": "2026-01-04T11:42:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/8127c09ea8b0e40aa49f9f1cbf52be0ed7323720792a528d4e12746b91f9766b/results?tab=lookup",
+   "detections": [
+    "HEUR:Trojan-Spy.AndroidOS.SpyNote.aw",
+    "HEUR:Trojan-Spy.AndroidOS.SpyNote.as",
+    "HEUR:Trojan-Banker.AndroidOS.Agent.nd",
+    "HEUR:Trojan-Spy.AndroidOS.SpyNote.by",
+    "HEUR:Trojan-Spy.AndroidOS.SpyNote.bv"
+   ]
+  }
+ },
+ "comments": null
+}

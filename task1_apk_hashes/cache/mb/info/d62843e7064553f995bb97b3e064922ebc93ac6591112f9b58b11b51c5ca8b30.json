@@ -1,0 +1,83 @@
+{
+ "sha256_hash": "d62843e7064553f995bb97b3e064922ebc93ac6591112f9b58b11b51c5ca8b30",
+ "sha3_384_hash": "ddec1d4895d6f32f322fb6c70d9b7774834604093bc477e90c973bbf97ec73491cfc808bedbe26b80876d75da978b053",
+ "sha1_hash": "37470bd54c24ec5b42ee982bcd8df2f6255f3fa9",
+ "md5_hash": "7aa3538e663b6f580f821a9b345ec187",
+ "first_seen": "2021-09-07 11:48:32",
+ "last_seen": null,
+ "file_name": "DHL25.apk",
+ "file_size": 2778048,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "_TripleE_",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "FluBot",
+ "imphash": null,
+ "tlsh": "T110D51295FEAEE51AD103E134D164D8839608444CC988FB6F1A3A914E5EFBC44AB07FDE",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:4mVRrmFXYEjfe1JVBm8V/nHNtENwbGO0Lav9QMmqW8bvtDEf3RW:4MrKZbSJVBdV/HTDb7P1QzsLtqW",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "FluBot"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "316",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d62843e7064553f995bb97b3e064922ebc93ac6591112f9b58b11b51c5ca8b30/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/d62843e7064553f995bb97b3e064922ebc93ac6591112f9b58b11b51c5ca8b30",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210907-ny1n2acea2/",
+   "tags": [
+    "android",
+    "obfuscation"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-09-07 11:49:07",
+   "scanner_count": "28",
+   "scanner_match": "11",
+   "scanner_percent": "39.29"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,127 @@
+{
+ "sha256_hash": "92961b73092ec2355b133a3de81ce40245f391b229e5699b263fb596184c7ad4",
+ "sha3_384_hash": "d2cadcec00cf9433a1e2bf8f431dc9dc75918a396f6d92782cb98830c40f14e2e36eb9d56e4954ef9e35f83de899bd0d",
+ "sha1_hash": "6d74b998553cb42995a1b8fd2c7909404b643c89",
+ "md5_hash": "7e09dabcefa606614038e0fb7861e60d",
+ "first_seen": "2021-12-07 21:36:54",
+ "last_seen": null,
+ "file_name": "vpc0uUb5QX.apk",
+ "file_size": 361949,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T14A7422DB27ED2A2FD053F934A7163A573D7B026002F582564D69A008DDF38C25FACA9D",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:tw+AWpD/RcswEW62dcTMq8WbxL70Dv7QlEoABAOBAJaQWNORyWNORkum0L:tqWpj6swP6R4wL70Dv7QlLzGNORtNORf",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.873.origin.10740.25232.UNOFFICIAL"
+  ],
+  "downloads": "440",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1864106/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/92961b73092ec2355b133a3de81ce40245f391b229e5699b263fb596184c7ad4/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/92961b73092ec2355b133a3de81ce40245f391b229e5699b263fb596184c7ad4",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/211207-1ggk2sgah3/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": " http://feryonetsesdomez.net "
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2021-12-07 21:37:11",
+   "scanner_count": "28",
+   "scanner_match": "16",
+   "scanner_percent": "57.14"
+  },
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61afd404fa72c81b5b109686/reports/8240e255-7a83-471a-9dec-294dfeaba520/overview"
+  }
+ },
+ "comments": null
+}

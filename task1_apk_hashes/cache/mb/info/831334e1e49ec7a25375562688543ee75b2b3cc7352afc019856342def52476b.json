@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "831334e1e49ec7a25375562688543ee75b2b3cc7352afc019856342def52476b",
+ "sha3_384_hash": "855fba650b6f9458cfdf715b9c5dd26533eb65ece39cf9a5eb868d67e21860e9441fa9f180c7e687855f5e91f0321953",
+ "sha1_hash": "ac0561ee9acc38c138409d03a24bdd992a5b1d96",
+ "md5_hash": "c10d38a63e776e5940d281bddbb497d4",
+ "first_seen": "2021-11-02 09:05:26",
+ "last_seen": null,
+ "file_name": "831334e1e49ec7a25375562688543ee75b2b3cc7352afc019856342def52476b.apk",
+ "file_size": 4988964,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "alberto__segura",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "FluBot",
+ "imphash": null,
+ "tlsh": "T14B36231BBEDED01AD147D074D169D8678038450D6998FA3B2A6E84AC4AFAC45DB03FCF",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:5qBTEbLg6IcV1bVGgecr2uoyoqxQ7jjrXJ7dGK4z11GafG63W3KL:5BGcV1bVbjCuoyoqxIxGKk1QafN3BL",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "flubot",
+  "v4.9"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "415",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/831334e1e49ec7a25375562688543ee75b2b3cc7352afc019856342def52476b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.50"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/831334e1e49ec7a25375562688543ee75b2b3cc7352afc019856342def52476b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "flubot",
+   "score": "10",
+   "link": "https://tria.ge/reports/211102-k2rczshbdj/",
+   "tags": [
+    "family:flubot",
+    "android",
+    "banker",
+    "infostealer",
+    "ransomware",
+    "suricata",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "FluBot",
+     "score": "10"
+    },
+    {
+     "signature": "FluBot Payload",
+     "score": "10"
+    },
+    {
+     "signature": "suricata: ET MALWARE Possible Compromised Host AnubisNetworks Sinkhole Cookie Value Snkz",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-11-02 09:06:08",
+   "scanner_count": "45",
+   "scanner_match": "9",
+   "scanner_percent": "20.00"
+  },
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6180ff809982ff7c3f7a789b/reports/b73ff29b-3145-4258-80d4-2bdff15df389/overview"
+  }
+ },
+ "comments": null
+}

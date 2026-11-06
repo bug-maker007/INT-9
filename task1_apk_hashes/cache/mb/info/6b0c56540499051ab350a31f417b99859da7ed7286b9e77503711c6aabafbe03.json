@@ -1,0 +1,113 @@
+{
+ "sha256_hash": "6b0c56540499051ab350a31f417b99859da7ed7286b9e77503711c6aabafbe03",
+ "sha3_384_hash": "ffbb9606f8d924a0f7afeaffd5bed83aa427d031464091d8823c4049bb49114bed38c42aeb62f37de29a7ba4b09f6e95",
+ "sha1_hash": "bbcf3c9b3826c01088de026403265db6b25faeed",
+ "md5_hash": "ca87e50fbcc0a23f75fcb3799c26996f",
+ "first_seen": "2026-03-15 04:46:32",
+ "last_seen": null,
+ "file_name": "SafeGuardPro.apk",
+ "file_size": 5572724,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T13846018AF755963FC8BB95338A6A43352662DC12CE839B437888726C6C7728D5F14FC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:hMdmJoNbJoNnJoNiJoNbJoNyJoNyJoN5JoNxJoNeJoNO83WY:hIAeiHi7L0wHg",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "50.0% (.APK) Android Package (27000/1/5)",
+  "23.1% (.VYM) VYM Mind Map (12500/1/3)",
+  "19.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "SafeGuard"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.DownLoader.1171.origin.13219.11360.UNOFFICIAL"
+  ],
+  "downloads": "249",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/6b0c56540499051ab350a31f417b99859da7ed7286b9e77503711c6aabafbe03/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/6b0c56540499051ab350a31f417b99859da7ed7286b9e77503711c6aabafbe03",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260315-femn3aa16r/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-03-13 05:53:32",
+   "scanner_count": "23",
+   "scanner_match": "2",
+   "scanner_percent": "8.70"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69b639d1677ac46843a5392d/reports/5f5691e6-4dce-45e1-96c3-bc966faae4e9/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/6b0c56540499051ab350a31f417b99859da7ed7286b9e77503711c6aabafbe03/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

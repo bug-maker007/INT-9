@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "ff6d4078a1ccd4248cd5a9f235944af6f4e388c418f54aeffefea5f5d6d0ee82",
+ "sha3_384_hash": "da4b08ffc2ab1c148ccba4ba5948997b1db5edae64b3cdd2a8ffdcd4914b1d12463f4f48e61efb0ec6b7d274a8a82c0a",
+ "sha1_hash": "fc17e88750f2a7794ad7cbe3d8da2211572952ce",
+ "md5_hash": "b92612177afaab7a9bc43a951bf5a15d",
+ "first_seen": "2026-05-08 09:50:45",
+ "last_seen": null,
+ "file_name": "icici-app.apk",
+ "file_size": 19551826,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1D317CE23F5156996D9D6A235F0E7279136300E440793A239271FF02AFDF25CECA66EC2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:3KdOhRZtmMbR78V4DSDkY3B7aXF4b+rytj8ouNqmjXgB8498DqmY:thRX5RoV4YkI5a1iCC8BNFXF4oY",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "ICICI",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "205",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Jeevan_Malware_Rewards",
+   "author": "ShriTiger",
+   "description": "Detects JeevanReward variants using Technical, Anti-Analysis, and Indian SE keywords",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ff6d4078a1ccd4248cd5a9f235944af6f4e388c418f54aeffefea5f5d6d0ee82/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ff6d4078a1ccd4248cd5a9f235944af6f4e388c418f54aeffefea5f5d6d0ee82",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-lzpxtaaw7p/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Packed.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-01-31 09:52:24",
+   "scanner_count": "36",
+   "scanner_match": "6",
+   "scanner_percent": "16.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fdb21b2fcb905ec28812cf/reports/721c4b80-55e7-423f-8004-da9d48c07214/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-01-31T05:01:00Z",
+   "last_seen": "2026-04-27T21:21:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/ff6d4078a1ccd4248cd5a9f235944af6f4e388c418f54aeffefea5f5d6d0ee82/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

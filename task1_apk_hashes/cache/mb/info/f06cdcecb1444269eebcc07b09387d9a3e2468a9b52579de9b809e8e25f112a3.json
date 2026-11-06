@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "f06cdcecb1444269eebcc07b09387d9a3e2468a9b52579de9b809e8e25f112a3",
+ "sha3_384_hash": "6084943e60674867a7d3f6d8f7f9a8bc6b58607c50dbef691dd1bd4357844d15049ea9d31872ae037843a800e18bce26",
+ "sha1_hash": "d1501463af0b85c144d7bba25b813c980ce6dc41",
+ "md5_hash": "4b34e2952b7cc571fc5dbc2cab553455",
+ "first_seen": "2026-05-08 09:55:52",
+ "last_seen": "2026-05-08 09:57:00",
+ "file_name": "iMobile Lite(17).apk",
+ "file_size": 14885374,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T113E6BD23F50529AADDC6A135F5E3579573301A440393A329671FE02AFDE21CECA37AD2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:zX5MKqfl4p1LdBEeBrzBhykf0XPUcg+n7roghVc5T1U66jwX80:rNqt4dRBnBhNMXsZ+ngnegX80",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "ICICI",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "254",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_CMD_Powershell_Usage",
+   "author": "XiAnzheng",
+   "description": "May Contain(Obfuscated or no) Powershell or CMD Command that can be abused by threat actor(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/f06cdcecb1444269eebcc07b09387d9a3e2468a9b52579de9b809e8e25f112a3/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/f06cdcecb1444269eebcc07b09387d9a3e2468a9b52579de9b809e8e25f112a3",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-lzvhasaw9j/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-08 09:56:54",
+   "scanner_count": "38",
+   "scanner_match": "5",
+   "scanner_percent": "13.16"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fdb34c86e92bda70244365/reports/bd70b5e6-96c1-4889-82a4-495b71c38b16/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-02-24T06:08:00Z",
+   "last_seen": "2026-02-24T12:49:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/f06cdcecb1444269eebcc07b09387d9a3e2468a9b52579de9b809e8e25f112a3/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,182 @@
+{
+ "sha256_hash": "fef611ec877bebdb9b9a5b454b23dc5b9d0e3cbcd8743501392f71c5e6d2b661",
+ "sha3_384_hash": "d755b8f8424b11912236a147d820aab071e199cf4b5089f974e514d22ac75ef24f7c2147cfd90fe5b19abc31008430ca",
+ "sha1_hash": "afd4122b722bb84668434869ba514232b41f8e8d",
+ "md5_hash": "8ebbed8b95fba632be8374c753767622",
+ "first_seen": "2026-02-06 11:51:52",
+ "last_seen": null,
+ "file_name": "Smart Cleaner_1.0.3.apk",
+ "file_size": 11598471,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "HK",
+ "anonymous": 1,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T146C6225AF32CA02FD97B543349B6122102570D478E83AB93BA19724D29FB6C84F5EFC5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:Giz9af5CxnXKq0Pv5lI+A5RNG49SjVFDAk6fKDsnYeIaZcg/P7nC9zu:daf+nl0Pv5WAQSjrDu+s+gu9q",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "35.7% (.APK) Android Package (27000/1/5)",
+  "17.8% (.JAR) Java Archive (13500/1/2)",
+  "16.5% (.VYM) VYM Mind Map (12500/1/3)",
+  "13.9% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "10.5% (.XPI) Mozilla Firefox browser extension (8000/1/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Joker",
+  "Malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "251",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://play.google.com/store/apps/details?id=com.cleaner.phoneclean.smartcleaner"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/fef611ec877bebdb9b9a5b454b23dc5b9d0e3cbcd8743501392f71c5e6d2b661/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/fef611ec877bebdb9b9a5b454b23dc5b9d0e3cbcd8743501392f71c5e6d2b661",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/260206-n1t92aa18h/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-02-06 07:09:00",
+   "scanner_count": "36",
+   "scanner_match": "1",
+   "scanner_percent": "2.78"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6985d5f0981ff1d38a4b3622/reports/385d3906-5f42-4126-b243-8cd3f7364406/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Clean",
+   "file_type": "apk",
+   "first_seen": "2026-02-06T20:12:00Z",
+   "last_seen": "2026-02-06T20:36:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/fef611ec877bebdb9b9a5b454b23dc5b9d0e3cbcd8743501392f71c5e6d2b661/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

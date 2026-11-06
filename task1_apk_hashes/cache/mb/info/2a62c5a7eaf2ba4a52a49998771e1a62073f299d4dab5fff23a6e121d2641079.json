@@ -1,0 +1,109 @@
+{
+ "sha256_hash": "2a62c5a7eaf2ba4a52a49998771e1a62073f299d4dab5fff23a6e121d2641079",
+ "sha3_384_hash": "8abad6518eafd6578ec814607297de924e5e99f233c99243978661c03fdffe3b06f704d47cbe18bce6839b67bfdb31d3",
+ "sha1_hash": "fb59829aa63acbd47122e5baca2ee29057838b42",
+ "md5_hash": "2baa599512241cc055cacc1647046e86",
+ "first_seen": "2026-05-08 08:46:28",
+ "last_seen": "2026-05-08 08:56:04",
+ "file_name": "iMobile Lite(4).apk",
+ "file_size": 14880706,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T146E6224AF304982AE4F7523739B6436651131C268B43C6CB7960F23C6EBB6E54F1EB94",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:uiEODRZEtx8ZbP+m0/ccm/q7ilalOmCgJnic+6bntDfaL6Tq7DJ7lNMm8UmiKVz:ucEotwm6qaMhT6bntDfa5/Jx2fiKVz",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "ICICI",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "146",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2a62c5a7eaf2ba4a52a49998771e1a62073f299d4dab5fff23a6e121d2641079/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/2a62c5a7eaf2ba4a52a49998771e1a62073f299d4dab5fff23a6e121d2641079",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-kp2cesez2w/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-12-12 18:26:32",
+   "scanner_count": "24",
+   "scanner_match": "3",
+   "scanner_percent": "12.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fda31986e92bda70242a81/reports/3e8fa733-8bb6-4bed-a433-d1a0c8986e91/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-12-18T16:57:00Z",
+   "last_seen": "2026-05-08T07:37:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/2a62c5a7eaf2ba4a52a49998771e1a62073f299d4dab5fff23a6e121d2641079/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

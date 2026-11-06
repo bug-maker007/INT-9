@@ -1,0 +1,114 @@
+{
+ "sha256_hash": "f46b863952599b91a4d2d682a80f345dfa03fad473d1938f2c53a3139c87a019",
+ "sha3_384_hash": "195cccc7ea4e834de382114bde0ebac72b4517f931896900b4c5da019fb9e230ca241fb6ccfe37e06c57f431c77401c9",
+ "sha1_hash": "b9b4057708dbde39e36215ebbb16198aefb212d9",
+ "md5_hash": "1b4d5944cb8b96793638cdc17165ee2e",
+ "first_seen": "2025-06-02 23:31:08",
+ "last_seen": null,
+ "file_name": "City Cleaning SI.apk",
+ "file_size": 4627911,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T1E626F103FB45D687D8AA83F26B730DA92A071F55C6026AE70851367E2E772C10ED67CC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:exZ2m0zEKx0RIlfRSBrMjSv+1KmPOmzBzBpT40t4zWpJQ:e72NzEKKaSB4GWLBztjwWQ",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "33.7% (.APK) Android Package (27000/1/5)",
+  "16.8% (.JAR) Java Archive (13500/1/2)",
+  "16.8% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "14.3% (.SUBLIME-PACKAGE) Sublime Text Package (generic) (11500/1/3)",
+  "13.1% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Spynote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "zANB",
+   "issuer_cn": "zANB",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2023-11-30T17:10:14Z",
+   "valid_to": "3023-04-02T17:10:14Z",
+   "serial_number": "1601bf7d",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "17cc2fd9384fb84327b28fba435cda8cd1150b1f0246b3b0cd12ae49a8fee2a8",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "148",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "test_Malaysia",
+   "author": "rectifyq",
+   "description": "Detects file containing malaysia string",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/f46b863952599b91a4d2d682a80f345dfa03fad473d1938f2c53a3139c87a019",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-06-02 09:23:07",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ]
+ },
+ "comments": null
+}

@@ -1,0 +1,138 @@
+{
+ "sha256_hash": "4067054f202cc8e87557915783d4468b54985c5cc7b0b57df98ffbb106475196",
+ "sha3_384_hash": "980cb4d6883739ef2b43464b5cefbe2cec50934c060d777818dafd265ec45a9c4fee41cbd6f6736d3aaa28e873ee304e",
+ "sha1_hash": "6210e111a2c5dfbdb5d2c04fda48f4ca3d08b630",
+ "md5_hash": "4642c7a56039a82d8268282802c2fee9",
+ "first_seen": "2022-09-07 05:27:49",
+ "last_seen": "2022-09-07 05:27:57",
+ "file_name": "4067054f202cc8e87557915783d4468b54985c5cc7b0b57df98ffbb106475196.apk",
+ "file_size": 2982939,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0025Cuan",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "TeaBot",
+ "imphash": null,
+ "tlsh": "T1EED533D27285FAB0C5ABD337A1B49967F51D0AF98304F38322847AA53EFBC445B29D50",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:DwgcICrG/hqSniYtN25YhcKWaCE5nduTMF5/9sIjZgKlN0q/uLSnls:crG/QQiYtEYhcKDC0ndWMP/9s8ZgyNlS",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "TeaBot"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "319",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/4067054f202cc8e87557915783d4468b54985c5cc7b0b57df98ffbb106475196/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/4067054f202cc8e87557915783d4468b54985c5cc7b0b57df98ffbb106475196",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "teabot",
+   "score": "10",
+   "link": "https://tria.ge/reports/220907-f51cvagchm/",
+   "tags": [
+    "family:teabot",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "TeaBot",
+     "score": "10"
+    },
+    {
+     "signature": "TeaBot payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-01-24 00:16:55",
+   "scanner_count": "27",
+   "scanner_match": "12",
+   "scanner_percent": "44.44"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/63182be4fec190e8fc3af4e2/reports/095348c1-958d-48b7-8007-d989059c486b/overview"
+  }
+ },
+ "comments": null
+}

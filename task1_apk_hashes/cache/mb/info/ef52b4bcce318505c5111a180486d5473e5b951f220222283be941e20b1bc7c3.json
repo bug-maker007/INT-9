@@ -1,0 +1,112 @@
+{
+ "sha256_hash": "ef52b4bcce318505c5111a180486d5473e5b951f220222283be941e20b1bc7c3",
+ "sha3_384_hash": "3938b109451bdc05e58726d327297d301aeeba134dfb37b7e81b39bd9301ff2956522bf109cc853b9d7f9da41e764c80",
+ "sha1_hash": "30eb0ad5f32e37e6be7ac8dd5ad47f791c96e345",
+ "md5_hash": "7200ef1937fda04d45004e29b0455285",
+ "first_seen": "2023-07-15 06:26:06",
+ "last_seen": null,
+ "file_name": "DIY Sticker Maker_1.2.20.apk",
+ "file_size": 13952470,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "500mk500",
+ "origin_country": "UA",
+ "anonymous": 0,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T158E60117E32859AAD4A61671897B317181894C235FC3AED27D2C762C1FBB5EC8B19FC0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:tYmRJoaoixYLzA9DI5BGsCMl+TZN/wJonxUY/3QK5vO:PRJoaOI9DaB3CfTHV/3QU2",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "44.6% (.VYM) VYM Mind Map (12500/1/3)",
+  "37.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "14.2% (.ZIP) ZIP compressed archive (4000/1)",
+  "3.5% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "joker"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "258",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/ReBensk/status/1680098928245571584"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "Android Joker"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ef52b4bcce318505c5111a180486d5473e5b951f220222283be941e20b1bc7c3/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Joker",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ef52b4bcce318505c5111a180486d5473e5b951f220222283be941e20b1bc7c3",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/230715-g7rn6ahb37/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Checks Android system properties for emulator presence.",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2023-07-15 06:27:16",
+   "scanner_count": "24",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.2",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/64b23c387a9c6ddebf0abccf/reports/5906d8e7-0347-467f-a211-7bf4a5e18a1c/overview"
+  }
+ },
+ "comments": null
+}

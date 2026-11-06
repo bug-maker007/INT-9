@@ -1,0 +1,120 @@
+{
+ "sha256_hash": "671ab754a8016c1a99451056bfbc4ff4b2e069e687579d2512c221bc3be6bcae",
+ "sha3_384_hash": "c255e8fb221efe10f4c83f4c56fad31e95d561ff065602dfa28873d5abe5e64fa144a89ee780801eef538aa85c617ed1",
+ "sha1_hash": "00def7836eefea400ee3839697bf7c1fdc231dbf",
+ "md5_hash": "d608b00b3814f1d793df5f8142a38432",
+ "first_seen": "2024-03-18 00:43:24",
+ "last_seen": null,
+ "file_name": "Application.apk",
+ "file_size": 2709239,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T192C50183E755582FC5FB833A46760B2A85474C6A8B83D3974964B33C6CBBAC45F81F84",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:b7W9j4LH5G+8hAqt20Agh/k456qAptb4PTignlgEQbULJbmyEd:b7jH5G+wAt0ABqstUmgnmULk",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "52.8% (.APK) Android Package (32500/1/6)",
+  "21.9% (.JAR) Java Archive (13500/1/2)",
+  "17.0% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "6.5% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.6% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "355",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/671ab754a8016c1a99451056bfbc4ff4b2e069e687579d2512c221bc3be6bcae/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/671ab754a8016c1a99451056bfbc4ff4b2e069e687579d2512c221bc3be6bcae",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/240318-a3gvtsbh66/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-03-18 00:44:06",
+   "scanner_count": "24",
+   "scanner_match": "5",
+   "scanner_percent": "20.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65f78e53757c624818b186c5/reports/dff9fb26-b9a8-4e37-a615-9a71937956cf/overview"
+  }
+ },
+ "comments": null
+}

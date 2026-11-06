@@ -1,0 +1,103 @@
+{
+ "sha256_hash": "9f41dff89cd49eadea3d1e3b98b58402b9cda6b54eebc62a371568b5a607d849",
+ "sha3_384_hash": "5f7bbd0f897d6720ff2864acb8477b3382cda12a87fddcacf38cde619145346dd35f7db94c4bb75109b34654b4c6cf06",
+ "sha1_hash": "1a822e7e3f915353b723009c47b981048c847210",
+ "md5_hash": "6410a472bd0c90fa069bfacf10cdc840",
+ "first_seen": "2021-07-14 11:07:07",
+ "last_seen": null,
+ "file_name": "9f41dff89cd49eadea3d1e3b98b58402b9cda6b54eebc62a371568b5a607d849.apk",
+ "file_size": 3154878,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "alberto__segura",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "FluBot",
+ "imphash": null,
+ "tlsh": "T1A9E52295FF9EE417C00BD8398164D5879848844C8B48FB5BAA3E939C0AF6D44A743EDF",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:LL/veGrKNkHSvYAgYY9cKQHPfZc7DI1SSNwXQ89O4kgzfimGR0IVw36vY5:LLbKqyvYAtqLCHZcnX9XNKgzqmHIA5",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": "#Flubot 4.7",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "flubot"
+ ],
+ "code_sign": null,
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.9305.25090.4050.UNOFFICIAL"
+  ],
+  "downloads": "285",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/9f41dff89cd49eadea3d1e3b98b58402b9cda6b54eebc62a371568b5a607d849/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/9f41dff89cd49eadea3d1e3b98b58402b9cda6b54eebc62a371568b5a607d849",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "flubot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210714-mgt7xdqmf2/",
+   "tags": [
+    "family:flubot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "FluBot",
+     "score": "10"
+    },
+    {
+     "signature": "FluBot Payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.BankBot",
+   "status": "MALICIOUS",
+   "first_seen": "2021-07-14 09:42:31",
+   "scanner_count": "29",
+   "scanner_match": "11",
+   "scanner_percent": "37.93"
+  }
+ },
+ "comments": null
+}

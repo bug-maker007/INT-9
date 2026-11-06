@@ -1,0 +1,141 @@
+{
+ "sha256_hash": "ff952f33bf27328caebb9ec9df979396c725a45cea5c516d81d9a309d6a77169",
+ "sha3_384_hash": "973dd788319525b2a50fd6109c41ca1741bf2073325d72ab0d239b0f0404fa38308023947519a6c7d8483a3e951f1ff7",
+ "sha1_hash": "666e55a6b3e4e37c3d0eabe6cc61f3cd29ba9014",
+ "md5_hash": "c99c5309ddb31e3279a837bf0b8e31f8",
+ "first_seen": "2026-08-16 02:28:32",
+ "last_seen": null,
+ "file_name": "C6BANK.apk",
+ "file_size": 5730733,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "BR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1BE463317CF0EAECED7F2E3389332602B91377564478A9397E9A452A068F76E0CF56540",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:6FlpyF6pdjoS4q+CKXSwYluEc2ek3xepzgvO13hnVeZ0gU:R0qq+CKXSBudxdpzgW133w0gU",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.7836.12554.5532.UNOFFICIAL"
+  ],
+  "downloads": "254",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_sha256",
+   "value": "e5fa297d6ad6db8d44ecf767ce77ffc91147400c14f7c944699666f0157c653c"
+  },
+  {
+   "context": "dropping_md5",
+   "value": "ea27014f6ed1d83e3294c6d11ecfe0c7"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ff952f33bf27328caebb9ec9df979396c725a45cea5c516d81d9a309d6a77169/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260816-cyrwcabq4t/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ravartar",
+   "status": "MALICIOUS",
+   "first_seen": "2026-08-14 06:25:05",
+   "scanner_count": "23",
+   "scanner_match": "9",
+   "scanner_percent": "39.13"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a81208772562b73b1582893/reports/f2b695dc-bbf4-4aa7-98e2-94f5a678edc5/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-13T17:29:00Z",
+   "last_seen": "2026-08-16T02:34:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/ff952f33bf27328caebb9ec9df979396c725a45cea5c516d81d9a309d6a77169/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

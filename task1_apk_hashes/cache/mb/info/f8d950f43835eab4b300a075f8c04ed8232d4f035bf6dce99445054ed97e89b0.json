@@ -1,0 +1,82 @@
+{
+ "sha256_hash": "f8d950f43835eab4b300a075f8c04ed8232d4f035bf6dce99445054ed97e89b0",
+ "sha3_384_hash": "796454dfac63acbeb3718f961cad7d017f70f1f98d0c424514653a92b881cf48bdef024a0e624f9052350e059b82e18e",
+ "sha1_hash": "3ce31150929c6e0dbddf32607c58589bbd68095d",
+ "md5_hash": "aa2abc87e71ec70eee4fc7550124754d",
+ "first_seen": "2021-02-21 18:32:39",
+ "last_seen": null,
+ "file_name": "tmpb3kwiywr",
+ "file_size": 2874671,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "U039b",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "ADD533A74F52C439D01BCE35A457E9F2EC2CC7A44451A46F28A0A44EFCA1DB98A12DFD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:ph4aYAkN866jqlqDPHEGSooithDakwzYwuLAuChzFvdYm5SsqrckpCc:fbM8Vm8rEuhD5wkNLahoISHgkpCc",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.6438.32687.22339.UNOFFICIAL"
+  ],
+  "downloads": "203",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://beta.pithus.org/report/f8d950f43835eab4b300a075f8c04ed8232d4f035bf6dce99445054ed97e89b0"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "PM_Zip_with_js",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/f8d950f43835eab4b300a075f8c04ed8232d4f035bf6dce99445054ed97e89b0/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": null,
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Boogr",
+   "status": "MALICIOUS",
+   "first_seen": "2021-01-19 08:30:57",
+   "scanner_count": "46",
+   "scanner_match": "7",
+   "scanner_percent": "15.22"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,152 @@
+{
+ "sha256_hash": "ca52e6accd7ba754dec8f355a84083252dedb0945cc4335e96af46596432480d",
+ "sha3_384_hash": "85fd4f39ba067ef6d50766cfe2e88161e72ec9f419b7b0f7bb57d247827ecf02de690e1e1afa685a8747790a1b09674f",
+ "sha1_hash": "879074a6bad2a2fc602b550b12fecf686d766ad1",
+ "md5_hash": "7d45ad47b37ae726def46854636f31be",
+ "first_seen": "2026-05-06 08:29:33",
+ "last_seen": null,
+ "file_name": "Indiemobile APP(3).apk",
+ "file_size": 12813950,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T14DD63361F6C54F41D8F38373C5724262347ADE61AF03C6176808773E243BAE4A76AAD6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:++yabTuRsISqmVaRadB9rFpZktabjDnAogWMHxjBO5Eix/pU1ocf+u:+BaosISqYNFw8TnAkMHxjdKU6cf+u",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "indusland",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "130",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "MD5_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for MD5 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "RIPEMD160_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for RIPEMD-160 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "SHA1_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for SHA1 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_CMD_Powershell_Usage",
+   "author": "XiAnzheng",
+   "description": "May Contain(Obfuscated or no) Powershell or CMD Command that can be abused by threat actor(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ca52e6accd7ba754dec8f355a84083252dedb0945cc4335e96af46596432480d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/ca52e6accd7ba754dec8f355a84083252dedb0945cc4335e96af46596432480d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260506-kem22shx2k/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-06 08:31:10",
+   "scanner_count": "24",
+   "scanner_match": "2",
+   "scanner_percent": "8.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fafc417d31ad7bba4ea810/reports/1806a677-f4b5-41fa-be3d-c74d4f6cec45/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-06T06:57:00Z",
+   "last_seen": "2026-05-08T00:00:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/ca52e6accd7ba754dec8f355a84083252dedb0945cc4335e96af46596432480d/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

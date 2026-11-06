@@ -1,0 +1,123 @@
+{
+ "sha256_hash": "fe8361e992d3c440910c1d96f5e982040318c027b4a14bbef5894893a7ea11b5",
+ "sha3_384_hash": "5eb33575c443e9d153d59e6096175a458aead153fb608b8e635bf9a1ee89f6154fe2887cbd2202d61ac063ee9062a2e2",
+ "sha1_hash": "f1c9e9b7bf940eeda9e12f2e8e8cab09aeb1771e",
+ "md5_hash": "800b54fe297a0b81f77fefc679cd82e6",
+ "first_seen": "2022-07-15 11:50:55",
+ "last_seen": null,
+ "file_name": "edalathamrah.apk",
+ "file_size": 2482015,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T18FB5F083F7E95E2FCC73C1321F96063526528E1AC692E34B54583B7D68BB6E40E857C8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:L0wnN4TFhey+r9AOy5zlnko/PSs5oOtyFDA4KW9T9Jv6uxYp5Xgr4:wwwN+iBlndSsuOtwA0THcj",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "57.0% (.APK) Android Package (38500/1/9)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "15.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "Malware Phishing system of Electronic Judicial Services System Iran.\r\n",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "iran",
+  "malware",
+  "signed",
+  "smsspy",
+  "spy",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Live Chat",
+   "issuer_cn": "Live Chat",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2022-07-10T18:28:26Z",
+   "valid_to": "2031-07-08T18:28:26Z",
+   "serial_number": "3794e247",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "04252eae82a77547bf20b2ab5b6b229af43963b79a85434ce20dee12118a4f10",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Spyware005959371.13157.7845.UNOFFICIAL"
+  ],
+  "downloads": "389",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "spyware"
+  },
+  {
+   "context": "dropped_by_malware",
+   "value": "smsspy"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/fe8361e992d3c440910c1d96f5e982040318c027b4a14bbef5894893a7ea11b5/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/fe8361e992d3c440910c1d96f5e982040318c027b4a14bbef5894893a7ea11b5",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220715-nz5z5sbddp/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SmsThief",
+   "status": "MALICIOUS",
+   "first_seen": "2022-07-15 11:51:24",
+   "scanner_count": "26",
+   "scanner_match": "7",
+   "scanner_percent": "26.92"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62d154ad3ec0b068997b7446/reports/90202a2a-4314-40d0-afc5-89c81ca635d4/overview"
+  }
+ },
+ "comments": null
+}

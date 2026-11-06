@@ -1,0 +1,166 @@
+{
+ "sha256_hash": "ef94a5ecaf100b9c9102b101b98f8c01fae9ea9304e5b8fbf6097beec59ad885",
+ "sha3_384_hash": "a40cb7c18e7eb5a72d2f608bee43f802b78a40ca865e71d3b6e106b02bf7b5e22953fe828d2a057209bb6df1960888d9",
+ "sha1_hash": "749aed0b75a6e115c0135abd616104be563c0d91",
+ "md5_hash": "86e8f6621dae6dcea005ec58e32fbabc",
+ "first_seen": "2026-06-27 18:49:48",
+ "last_seen": null,
+ "file_name": "NightmareClient.apk",
+ "file_size": 6443919,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T17556E103FD09CF9AE6B983B4E63B554237037F07C881466B0205B26E6B729D937DD989",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:uxDWz8ypanPAf8RinM6Bopvfzemz5zBkTG0tRzDDpV:uxDeU4fFMk6lzMNpxV",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "39.4% (.APK) Android Package (27000/1/5)",
+  "19.7% (.JAR) Java Archive (13500/1/2)",
+  "19.7% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "15.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "SpyNote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Siggen.Susp.6703.10528.10086.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Spy.AndroidOS.Agent.14740.430.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Spy.AndroidOS.Agent.28810.19351.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Spy.AndroidOS.Agent.743.24771.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Spy.AndroidOS.Banker.18867.19411.UNOFFICIAL"
+  ],
+  "downloads": "338",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_sha256",
+   "value": "4b846be26d903834219e4369bd48097e04642f5f4abaec582e3e73692947d4f0"
+  },
+  {
+   "context": "dropping_md5",
+   "value": "dd74283f3f8aecdf765960a3fb351c39"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ef94a5ecaf100b9c9102b101b98f8c01fae9ea9304e5b8fbf6097beec59ad885/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/260627-xhabksds7q/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Family: Spynote",
+     "score": "10"
+    },
+    {
+     "signature": "Spynote payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.AVerseFalc",
+   "status": "MALICIOUS",
+   "first_seen": "2026-06-22 05:53:30",
+   "scanner_count": "24",
+   "scanner_match": "15",
+   "scanner_percent": "62.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a401b81256ae77cec0d7f00/reports/00fb19c9-735b-4f73-9180-2a51a2898a91/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-06-22T01:38:00Z",
+   "last_seen": "2026-06-29T04:56:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/ef94a5ecaf100b9c9102b101b98f8c01fae9ea9304e5b8fbf6097beec59ad885/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

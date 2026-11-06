@@ -1,0 +1,111 @@
+{
+ "sha256_hash": "a0181864eed9294cac0d278fa0eadabe68b3adb333eeb2e26cc082836f82489d",
+ "sha3_384_hash": "aa7dd5d20defc4776858d22e00cbd5dd91de359959256f3059e46d78f8aa282ace3ddcb6b82858620482bab6e09ea36f",
+ "sha1_hash": "a362e1aaf8bc7a7491b10eab252c3b7ee8532a46",
+ "md5_hash": "c23426edaf37a2fc6fc3a6e5daa17bfa",
+ "first_seen": "2021-08-13 12:35:35",
+ "last_seen": null,
+ "file_name": "Flubot 4.8.apk",
+ "file_size": 3998656,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "FluBot",
+ "imphash": null,
+ "tlsh": "T180062219BFAEE89BF007A23A9064A4C79408444D9908F95F3A23915C5EF7D447B83FDE",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:e5bwkHNRfCwdA0cduVE7AxeQrUsVinobTdp6n:eFo0cdu+AxeMxTdwn",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Flubot",
+  "signed",
+  "v4.8"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "PhishTank.Phishing.7098326.UNOFFICIAL"
+  ],
+  "downloads": "323",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/alberto__segura/status/1426152674303561728?s=20"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a0181864eed9294cac0d278fa0eadabe68b3adb333eeb2e26cc082836f82489d/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/a0181864eed9294cac0d278fa0eadabe68b3adb333eeb2e26cc082836f82489d",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210813-n1x1g62nlj/",
+   "tags": [
+    "android",
+    "obfuscation"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-13 12:36:21",
+   "scanner_count": "45",
+   "scanner_match": "8",
+   "scanner_percent": "17.78"
+  }
+ },
+ "comments": null
+}

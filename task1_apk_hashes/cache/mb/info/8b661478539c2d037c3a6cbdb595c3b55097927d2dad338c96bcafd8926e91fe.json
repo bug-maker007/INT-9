@@ -1,0 +1,121 @@
+{
+ "sha256_hash": "8b661478539c2d037c3a6cbdb595c3b55097927d2dad338c96bcafd8926e91fe",
+ "sha3_384_hash": "4b646fd4869f54aa31f0aa8fc38ba45ad4081d819d8bf7d5b27051cd80dbe6986055be4ce141a8dece244524c9336aff",
+ "sha1_hash": "8f37b442613dae153b57558b582b3a678220e309",
+ "md5_hash": "f7d52cd712a6cc34b2ba8833af107fd1",
+ "first_seen": "2022-03-09 07:21:52",
+ "last_seen": null,
+ "file_name": "psk.apk",
+ "file_size": 1429430,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T17665F186B7C1AC2FCCB7C4350F5A8325A6569D57C687D307A9943A3C6EBB7D00E48AC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:e3W3BW9f5P5MRNFsUdyTIXNtnbHVJ/I0NXzw5ZrFU7SLMuBUVrMUBsycgwDpo6N:e36kPYtdyW3/dIBU7SL1mMQsycgwDH",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "coper",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.PUA.DebugKey.3251.16187.UNOFFICIAL"
+  ],
+  "downloads": "305",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8b661478539c2d037c3a6cbdb595c3b55097927d2dad338c96bcafd8926e91fe/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/8b661478539c2d037c3a6cbdb595c3b55097927d2dad338c96bcafd8926e91fe",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/220309-h683gsehc3/",
+   "tags": [
+    "android",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Checks Qemu related system properties.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SmsThief",
+   "status": "MALICIOUS",
+   "first_seen": "2022-03-09 07:22:19",
+   "scanner_count": "27",
+   "scanner_match": "12",
+   "scanner_percent": "44.44"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6228559e0cd58dbd926cdd1b/reports/0ebdb6fd-4a26-44a7-b675-13becb3816e5/overview"
+  }
+ },
+ "comments": null
+}

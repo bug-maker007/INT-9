@@ -1,0 +1,280 @@
+{
+ "sha256_hash": "dc2a780f6abb9f0ec0a6675f20acb91ebe2a8748297682a59daf9164fbea2ee8",
+ "sha3_384_hash": "a0fdc800d9248b2531b5b26efd181771eb326b7ce04fe4a1c263fc64537180ecb791515f35432bc92a5b81719b37a703",
+ "sha1_hash": "dd4aefc0c93dee4b63e8271c091eaf773b401737",
+ "md5_hash": "a17b06d4aa39ef2e1f3596cb72cb3911",
+ "first_seen": "2026-02-28 21:10:40",
+ "last_seen": null,
+ "file_name": "Chrome.apk",
+ "file_size": 2938129,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T1ECD5333FF869528ED9D4E37B98890DBAF071765CD323951E2CA032582E453CFC9249B9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:8+PmTcc+j4+srCdSgqzVg2ZCXbkKw0/M62vEHGJogKjOAUPP9AWtyus7q/:8+sc14JWdEZpg9pMrvPJpKjOHtAWY4/",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Coper",
+  "FakeChrome",
+  "Octo",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "Unix.Dropper.Fakeapp-10014994-0"
+  ],
+  "downloads": "336",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/dc2a780f6abb9f0ec0a6675f20acb91ebe2a8748297682a59daf9164fbea2ee8/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/dc2a780f6abb9f0ec0a6675f20acb91ebe2a8748297682a59daf9164fbea2ee8",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/260228-z1p6vsgy6d/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo family",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests accessing notifications (often used to intercept notifications before users become aware).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests modifying system settings.",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://personbro.com/YjQ1YmQ0ZGE5ODIz/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://p4ersonbro.com/YjQ1YmQ0ZGE5ODIz/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://pers6onbro.com/YjQ1YmQ0ZGE5ODIz/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://p1ersonbro.com/YjQ1YmQ0ZGE5ODIz/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://pers4onbro.com/YjQ1YmQ0ZGE5ODIz/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://p7ersonbro.com/YjQ1YmQ0ZGE5ODIz/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://perso3nbro.com/YjQ1YmQ0ZGE5ODIz/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://pe1rsonbro.com/YjQ1YmQ0ZGE5ODIz/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://per2sonbro.com/YjQ1YmQ0ZGE5ODIz/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-05-24 13:31:50",
+   "scanner_count": "38",
+   "scanner_match": "14",
+   "scanner_percent": "36.84"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69a359f791ad9169e534dd4f/reports/ad28b500-009f-4f12-bb43-71ca971fd07a/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-05-23T17:06:00Z",
+   "last_seen": "2025-11-20T22:29:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/dc2a780f6abb9f0ec0a6675f20acb91ebe2a8748297682a59daf9164fbea2ee8/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

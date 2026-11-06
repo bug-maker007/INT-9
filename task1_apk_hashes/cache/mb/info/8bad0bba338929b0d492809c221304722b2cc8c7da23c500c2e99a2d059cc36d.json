@@ -1,0 +1,126 @@
+{
+ "sha256_hash": "8bad0bba338929b0d492809c221304722b2cc8c7da23c500c2e99a2d059cc36d",
+ "sha3_384_hash": "ca3fcbfeaae50c0089a8c7f4d8d3fed2ea28ba50ff2f52a4049b68e74857638641d71ab483cac4e62c372297d7cba577",
+ "sha1_hash": "5d1490f962ae46f92627ac1fea1631325be69ee0",
+ "md5_hash": "edcc51ac0734e2edf0a40a4a4a48d210",
+ "first_seen": "2026-09-04 09:10:12",
+ "last_seen": null,
+ "file_name": "abonent.apk",
+ "file_size": 8096091,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Parper",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1D6862381FF95D82ED4B785330A9B0636626ACC1EC783930BA4DC761928776C84FD9ED4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:kcX3jxpOivcCuX2j3unVq29uj2JPavoq+02Roq:kcHjxUAcLUunVqiuyxaQqp2Roq",
+ "magika": "zip",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "mamont"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.Mamont.287.origin.21852.13602.UNOFFICIAL"
+  ],
+  "downloads": "286",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  },
+  {
+   "rule_name": "SUSP_XORed_Mozilla_Oct19",
+   "author": "Florian Roth",
+   "description": "Detects suspicious single byte XORed keyword 'Mozilla/5.0' - it uses yara's XOR modifier and therefore cannot print the XOR key. You can use the CyberChef recipe linked in the reference field to brute force the used key.",
+   "reference": "https://gchq.github.io/CyberChef/#recipe=XOR_Brute_Force()"
+  },
+  {
+   "rule_name": "SUSP_XORed_Mozilla_RID2DB4",
+   "author": "Florian Roth",
+   "description": "Detects suspicious XORed keyword - Mozilla/5.0",
+   "reference": "Internal Research"
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8bad0bba338929b0d492809c221304722b2cc8c7da23c500c2e99a2d059cc36d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260904-k498waszgw/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2026-08-27 23:46:24",
+   "scanner_count": "21",
+   "scanner_match": "8",
+   "scanner_percent": "38.10"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a9a8b0656c92a15f9fc8f21/reports/2d9b0e65-a5d6-46a5-b6df-deadfdf15472/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-27T12:29:00Z",
+   "last_seen": "2026-09-05T21:33:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/8bad0bba338929b0d492809c221304722b2cc8c7da23c500c2e99a2d059cc36d/results?tab=lookup",
+   "detections": [
+    "HEUR:Trojan-Dropper.AndroidOS.Mamont.bl",
+    "HEUR:Trojan-Dropper.AndroidOS.Mamont.aq"
+   ]
+  }
+ },
+ "comments": null
+}

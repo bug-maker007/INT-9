@@ -1,0 +1,179 @@
+{
+ "sha256_hash": "e9a0b8b780999a64838c492b70032a076d052eb321c99d68ab1d230bd91d0100",
+ "sha3_384_hash": "97629b530cd7ba31f6e02b31d6c2bc0ebc2ee405613eef0897562f3fc128c430c8c1cdf1eeef2c756219490776bb6a28",
+ "sha1_hash": "86c80f1b6c24f461bbee3834f8b9a0dcca004ddb",
+ "md5_hash": "8a266e277c61ffd6afa3d15b8691b9fb",
+ "first_seen": "2025-01-13 17:48:47",
+ "last_seen": null,
+ "file_name": "e9a0b8b780999a64838c492b70032a076d052eb321c99d68ab1d230bd91d0100.apk",
+ "file_size": 761719,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Alonso168957071",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T140F42354DD68C923CD8B4C7D511EA7E961CBA9C3021EA8ED573231C8162FE346FA468B",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:enkKNtKV4blNgi/+ZAQEoEmry4UQ/vRja9LXS11lrV3sQyA2pyksWHB+zsQI5y:dKNtKSbvgiWXmmrbHnRm9w2tiwhYu5y",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Spyware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Andr.SpyAgent-F.1627.31211.UNOFFICIAL",
+   "SecuriteInfo.com.Android.Backdoor.200.origin.325.22824.UNOFFICIAL"
+  ],
+  "downloads": "519",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_PowerShell_Obfuscation",
+   "author": "daniyyell",
+   "description": "Detects obfuscated PowerShell commands commonly used in malicious scripts.",
+   "reference": null
+  },
+  {
+   "rule_name": "elf_arm_mips_ko_so",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseapps2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise apps",
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseunix2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise UNIX",
+   "reference": null
+  },
+  {
+   "rule_name": "F01_s1ckrule",
+   "author": "s1ckb017",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "ldpreload",
+   "author": "xorseed",
+   "description": null,
+   "reference": "https://stuff.rop.io/"
+  },
+  {
+   "rule_name": "linux_generic_ipv6_catcher",
+   "author": "@_lubiedo",
+   "description": "ELF samples using IPv6 addresses",
+   "reference": null
+  },
+  {
+   "rule_name": "MD5_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for MD5 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e9a0b8b780999a64838c492b70032a076d052eb321c99d68ab1d230bd91d0100/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.14"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/e9a0b8b780999a64838c492b70032a076d052eb321c99d68ab1d230bd91d0100",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/250113-wdz6rstmdq/",
+   "tags": [
+    "android",
+    "discovery",
+    "execution",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about the current Wi-Fi connection",
+     "score": "6"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2017-06-05 03:58:22",
+   "scanner_count": "24",
+   "scanner_match": "12",
+   "scanner_percent": "50.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6785524ed44b88b5b101fa12/reports/9f76e777-ed57-4b2c-88a1-8979cef9d4dc/overview"
+  }
+ },
+ "comments": null
+}

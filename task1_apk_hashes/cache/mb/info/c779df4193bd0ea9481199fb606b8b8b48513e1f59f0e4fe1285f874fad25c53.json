@@ -1,0 +1,134 @@
+{
+ "sha256_hash": "c779df4193bd0ea9481199fb606b8b8b48513e1f59f0e4fe1285f874fad25c53",
+ "sha3_384_hash": "7783a778767ba09c5a554da7071b8f596e88e2310950f5c6c68d4f013e1d93b8c5953149c197c3c2015fbdb5425e0a4d",
+ "sha1_hash": "51ed5cb44ed7f7f7c2685d0ef3196a14b37c9b40",
+ "md5_hash": "cbc18902f159c1bf4a3a2b62c615a263",
+ "first_seen": "2023-10-08 20:17:14",
+ "last_seen": null,
+ "file_name": "saham.apk",
+ "file_size": 1858937,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1A9851247F66AB907C831C0323185263A25164D19D942FB0A3E4D37FA2FB7DE88F856E4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:vs/ikkp7XQojNwE2e0zBTw3kXQ/QKDwUqQ/LHe/kl/gRz:wikkpX9wE2e0zBT2kXQo7AKY/gd",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "40.1% (.APK) Android Package (32500/1/6)",
+  "37.0% (.SPE) SPSS Extension (30000/1/7)",
+  "16.6% (.JAR) Java Archive (13500/1/2)",
+  "4.9% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.2% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Anywhere Software",
+   "issuer_cn": "Anywhere Software",
+   "algorithm": "dsaWithSHA1",
+   "valid_from": "2016-08-24T08:23:07Z",
+   "valid_to": "2054-12-23T08:23:07Z",
+   "serial_number": "58118218",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "32752470a35a7bb0a2991180f02baff49a41b9d6b2b5e44e8aa7cb736752e003",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.Lydia.8.11952.30125.UNOFFICIAL"
+  ],
+  "downloads": "177",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2718163/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c779df4193bd0ea9481199fb606b8b8b48513e1f59f0e4fe1285f874fad25c53/"
+  },
+  "YOROI_YOMI": {
+   "detection": "DriveBy Activity",
+   "score": "0.90"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c779df4193bd0ea9481199fb606b8b8b48513e1f59f0e4fe1285f874fad25c53",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/231008-y29q8aab98/",
+   "tags": [
+    "family:irata",
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyAgent",
+   "status": "MALICIOUS",
+   "first_seen": "2023-10-08 20:18:06",
+   "scanner_count": "23",
+   "scanner_match": "11",
+   "scanner_percent": "47.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65230e7c426c8727d6f49e48/reports/4d27125e-cef4-4b75-ba7c-158d9c7ef458/overview"
+  }
+ },
+ "comments": null
+}

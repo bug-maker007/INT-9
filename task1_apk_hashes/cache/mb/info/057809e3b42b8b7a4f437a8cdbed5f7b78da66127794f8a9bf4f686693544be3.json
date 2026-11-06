@@ -1,0 +1,125 @@
+{
+ "sha256_hash": "057809e3b42b8b7a4f437a8cdbed5f7b78da66127794f8a9bf4f686693544be3",
+ "sha3_384_hash": "e45a0d8a347cb5b01a68af8b2a5710005b2b0a8577e261bc5422ab1643292964831d53653607a506d34d43d9d0b2500c",
+ "sha1_hash": "c939e399263a53f5e5e4563085e5ff85a7ab0352",
+ "md5_hash": "1742936fc3118792758eaecef0991ea3",
+ "first_seen": "2021-08-10 15:14:43",
+ "last_seen": null,
+ "file_name": "Android-Guncelleme.apk",
+ "file_size": 2771798,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T1BCD5336A67935C09D1270236C2032287FC2629ECCDF5B6EF95B104941DEBD9A8B25DFC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:rPUYehPA5dhtJMZejNQLHmWSCcA0+RBKCRvwCXj0AxhAg6o:LUYexAbdMZUOlh9xwCXoAxhKo",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "alien",
+  "alienbot",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan005633ff1.21710.20623.UNOFFICIAL"
+  ],
+  "downloads": "287",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1522365/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/057809e3b42b8b7a4f437a8cdbed5f7b78da66127794f8a9bf4f686693544be3/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/057809e3b42b8b7a4f437a8cdbed5f7b78da66127794f8a9bf4f686693544be3",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210810-n8791blxws/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://rareqtereqqer.sbs"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-10 15:15:07",
+   "scanner_count": "45",
+   "scanner_match": "8",
+   "scanner_percent": "17.78"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ]
+ },
+ "comments": [
+  {
+   "id": "21528",
+   "date_added": "2021-08-10 15:33:15",
+   "twitter_handle": "unidentified0xc",
+   "display_name": "unidentified ",
+   "comment": "c2 http://rareqtereqqer.sbs\n"
+  }
+ ]
+}

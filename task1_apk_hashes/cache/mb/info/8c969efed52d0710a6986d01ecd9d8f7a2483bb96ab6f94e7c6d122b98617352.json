@@ -1,0 +1,140 @@
+{
+ "sha256_hash": "8c969efed52d0710a6986d01ecd9d8f7a2483bb96ab6f94e7c6d122b98617352",
+ "sha3_384_hash": "85908ea074a54352f511d9b14812388cdc36c1c3534b9b8ddf817dfb9937da460564ec28ffb3b02aaed8050ed52dfc04",
+ "sha1_hash": "e011a4508b86867445e6a77d54f66864503ff716",
+ "md5_hash": "a8c01d0e2238f7b8a63d6bcc7a151825",
+ "first_seen": "2025-10-31 09:04:20",
+ "last_seen": null,
+ "file_name": "Google Translate.apk",
+ "file_size": 4927155,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T1823633809382D4A6F36741BB856282F1F5A62F223BF50FC534517E3858FFA694B73858",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:DL3q+gEbmY+axkygKig6LUmMlCNV+/R2m5crF/Di:DL3qGSYag4ysDdscrFri",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Google Translate",
+  "malware",
+  "SpyNote"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "302",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "test_Malaysia",
+   "author": "rectifyq",
+   "description": "Detects file containing malaysia string",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8c969efed52d0710a6986d01ecd9d8f7a2483bb96ab6f94e7c6d122b98617352/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/251031-k4j2pawnaq/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "execution",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "note-road.gl.at.ply.gg:14466"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.SpyMax",
+   "status": "MALICIOUS",
+   "first_seen": "2025-10-30 22:09:43",
+   "scanner_count": "38",
+   "scanner_match": "12",
+   "scanner_percent": "31.58"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69047c89a3d16310952351fc/reports/8d24c619-ad27-460c-87f2-d480f5280b9b/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-10-30T17:01:00Z",
+   "last_seen": "2025-10-31T12:36:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/8c969efed52d0710a6986d01ecd9d8f7a2483bb96ab6f94e7c6d122b98617352/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

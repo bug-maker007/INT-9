@@ -1,0 +1,85 @@
+{
+ "sha256_hash": "9624131c01da6d5b61225a465a83efd32291fa3f2352445c3c052d9d8cfb2daa",
+ "sha3_384_hash": "9bd0db407b3a8a12a8ac6619078dfb75a507cb101d6c66d1cf3e138287cbfb74714bf32a355d8ae53c5afc546042e4e6",
+ "sha1_hash": "949fe441372aad3c1212cc9c09641074f5dd3269",
+ "md5_hash": "d7f56c6c1f77ea488e7f0ac18d3b7ffd",
+ "first_seen": "2021-09-07 10:48:07",
+ "last_seen": null,
+ "file_name": "Voicemail89.apk",
+ "file_size": 4391872,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "_TripleE_",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "FluBot",
+ "imphash": null,
+ "tlsh": "T1E5162211BEAEE427D047E0359365E5A7990C844C8A2AFD1F6E22914C4DFBC05AB0BFDD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:kHVEQyY6+r+a37N8U6xJPS8DWNJftpcZOGVSrH9923EVl:kHGHPLa3hDhwmJQIrH9923yl",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "FluBot"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "PhishTank.Phishing.7098326.UNOFFICIAL"
+  ],
+  "downloads": "304",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/9624131c01da6d5b61225a465a83efd32291fa3f2352445c3c052d9d8cfb2daa/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/9624131c01da6d5b61225a465a83efd32291fa3f2352445c3c052d9d8cfb2daa",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210907-mwn2saffdj/",
+   "tags": [
+    "android",
+    "obfuscation"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-23 19:41:38",
+   "scanner_count": "28",
+   "scanner_match": "9",
+   "scanner_percent": "32.14"
+  }
+ },
+ "comments": null
+}

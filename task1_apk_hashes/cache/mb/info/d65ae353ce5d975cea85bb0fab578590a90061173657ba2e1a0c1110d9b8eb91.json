@@ -1,0 +1,142 @@
+{
+ "sha256_hash": "d65ae353ce5d975cea85bb0fab578590a90061173657ba2e1a0c1110d9b8eb91",
+ "sha3_384_hash": "6c5a690880e9180338fd0a6b5d7222f651dec5408aba9bd2cb2ec008d3b1b431291ac2389bf05c973ac1c4ce22f0d5be",
+ "sha1_hash": "2eb5708467d480a6dd07fb1283366f729926976f",
+ "md5_hash": "d7678cf0d4bbaf4db0702b8e2412a74c",
+ "first_seen": "2022-09-25 14:11:09",
+ "last_seen": null,
+ "file_name": "D65AE353CE5D975CEA85BB0FAB578590A90061173657BA2E1A0C1110D9B8EB91.apk",
+ "file_size": 3677737,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "myonium1",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "TeaBot",
+ "imphash": null,
+ "tlsh": "T10F06335253488CBED4BFD33A02E442BBF5649F1451A1E7DB6B217080A936E458F3BCE6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:wLzMSyy/g3dGxaMmSDk5GkL7WQ3aWTBDxP26O:GvykxaMTDML7xaWTbOB",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "57.0% (.APK) Android Package (38500/1/9)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "15.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Anatsa",
+  "apk",
+  "signed",
+  "Teabot"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "Sanesecurity.Foxhole.JS_Zip_20.UNOFFICIAL"
+  ],
+  "downloads": "493",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d65ae353ce5d975cea85bb0fab578590a90061173657ba2e1a0c1110d9b8eb91/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/d65ae353ce5d975cea85bb0fab578590a90061173657ba2e1a0c1110d9b8eb91",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "teabot",
+   "score": "10",
+   "link": "https://tria.ge/reports/220925-rhvdvsfac5/",
+   "tags": [
+    "family:teabot",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "TeaBot",
+     "score": "10"
+    },
+    {
+     "signature": "TeaBot payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2022-09-20 05:59:22",
+   "scanner_count": "41",
+   "scanner_match": "16",
+   "scanner_percent": "39.02"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/633061d5141091691c87b00b/reports/70463607-9595-4957-80ff-175bc241e2b8/overview"
+  }
+ },
+ "comments": null
+}

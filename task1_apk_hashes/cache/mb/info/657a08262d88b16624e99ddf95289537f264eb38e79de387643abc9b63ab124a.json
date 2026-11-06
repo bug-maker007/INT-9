@@ -1,0 +1,323 @@
+{
+ "sha256_hash": "657a08262d88b16624e99ddf95289537f264eb38e79de387643abc9b63ab124a",
+ "sha3_384_hash": "aee1cc4e100c91e0dcc9eb4035e4f4758e5c92fdb8ff22f2f7945d4fc97495a85a6ee6d6c0f8c3c441d12c3071217297",
+ "sha1_hash": "2950b4b45ab2ae9f6395393e56dba8d1fcb53ad6",
+ "md5_hash": "6ae01e2cd037b4f078e34fc17660e506",
+ "first_seen": "2025-10-17 21:42:31",
+ "last_seen": null,
+ "file_name": "Chrome.apk",
+ "file_size": 2514213,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T1BFC52377DD5232AED680A33304C95C6666B1B38192B35C1C35AC32AA1FA9FCE6F35570",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:akZAD2YlRc+h10n+qEQAIt1H9L7NdCmm61KlH2WNeLF/iNR4zGgTrfXdqOLSdwmL:FZAD2eNW+qZfFLp4xTNeLN6RTorrS6mL",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "Octo/Coper C2:\r\nhttps://yesmincanruslane.xyz/YjVmNGU0NmNhODlm/\r\nhttps://kaderbaglantilarindayanisma.xyz/YjVmNGU0NmNhODlm/\r\nhttps://sevgikadervedostlukhikayesi.xyz/YjVmNGU0NmNhODlm/\r\nhttps://kaderseverleryolculuknotlari.xyz/YjVmNGU0NmNhODlm/\r\nhttps://kadersohbetleriilepaylasim.xyz/YjVmNGU0NmNhODlm/\r\nhttps://kaderinyansimalarindankareler.xyz/YjVmNGU0NmNhODlm/\r\nhttps://kaderduygularivebaglantilar.xyz/YjVmNGU0NmNhODlm/\r\nhttps://kadersevgininkalptenhikayesi.xyz/YjVmNGU0NmNhODlm/\r\nhttps://kaderdostlukvegizemlianilar.xyz/YjVmNGU0NmNhODlm/\r\nhttps://kadersozlerlehikayeveriyor.xyz/YjVmNGU0NmNhODlm/\r\nhttps://kaderlerarasisamimiuyum.xyz/YjVmNGU0NmNhODlm/\r\nhttps://kaderduygusalbagvetutkular.xyz/YjVmNGU0NmNhODlm/\r\nhttps://kaderseverlerinrenklidunyasi.xyz/YjVmNGU0NmNhODlm/\r\nhttps://kadersanatisozlerdeninsanlara.xyz/YjVmNGU0NmNhODlm/\r\nhttps://kadersevgiyletasanumut.xyz/YjVmNGU0NmNhODlm/\r\nhttps://kaderseverlerpaylasimbahcesi.xyz/YjVmNGU0NmNhODlm/\r\nhttps://kaderdostlarivehayatbaglari.xyz/YjVmNGU0NmNhODlm/\r\nhttps://kadersanatinrenkligolgeleri.xyz/YjVmNGU0NmNhODlm/\r\nhttps://kaderinhayatdolasimbirligi.xyz/YjVmNGU0NmNhODlm/\r\nhttps://kaderinsadekalptenyansimalari.xyz/YjVmNGU0NmNhODlm/\r\n",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Coper",
+  "Octo",
+  "signed",
+  "TUR"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "no reply from clamd"
+  ],
+  "downloads": "229",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/251017-z4zjpsvmds/behavioral1"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "Linux_Generic_Threat_a8faf785",
+   "author": "Elastic Security",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "SUSP_Websites",
+   "author": "SECUINFRA Falcon Team",
+   "description": "Detects the reference of suspicious sites that might be used to download further malware",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/657a08262d88b16624e99ddf95289537f264eb38e79de387643abc9b63ab124a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/251017-1kt1jsfs4c/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo family",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests accessing notifications (often used to intercept notifications before users become aware).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests modifying system settings.",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://yesmincanruslane.xyz/YjVmNGU0NmNhODlm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kaderbaglantilarindayanisma.xyz/YjVmNGU0NmNhODlm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://sevgikadervedostlukhikayesi.xyz/YjVmNGU0NmNhODlm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kaderseverleryolculuknotlari.xyz/YjVmNGU0NmNhODlm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kadersohbetleriilepaylasim.xyz/YjVmNGU0NmNhODlm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kaderinyansimalarindankareler.xyz/YjVmNGU0NmNhODlm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kaderduygularivebaglantilar.xyz/YjVmNGU0NmNhODlm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kadersevgininkalptenhikayesi.xyz/YjVmNGU0NmNhODlm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kaderdostlukvegizemlianilar.xyz/YjVmNGU0NmNhODlm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kadersozlerlehikayeveriyor.xyz/YjVmNGU0NmNhODlm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kaderlerarasisamimiuyum.xyz/YjVmNGU0NmNhODlm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kaderduygusalbagvetutkular.xyz/YjVmNGU0NmNhODlm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kaderseverlerinrenklidunyasi.xyz/YjVmNGU0NmNhODlm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kadersanatisozlerdeninsanlara.xyz/YjVmNGU0NmNhODlm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kadersevgiyletasanumut.xyz/YjVmNGU0NmNhODlm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kaderseverlerpaylasimbahcesi.xyz/YjVmNGU0NmNhODlm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kaderdostlarivehayatbaglari.xyz/YjVmNGU0NmNhODlm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kadersanatinrenkligolgeleri.xyz/YjVmNGU0NmNhODlm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kaderinhayatdolasimbirligi.xyz/YjVmNGU0NmNhODlm/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kaderinsadekalptenyansimalari.xyz/YjVmNGU0NmNhODlm/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-01-06 23:50:47",
+   "scanner_count": "36",
+   "scanner_match": "22",
+   "scanner_percent": "61.11"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68f2b87111ff3db29f634162/reports/cf08fa69-a3e6-43ae-be07-fe58e9285497/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-01-05T18:39:00Z",
+   "last_seen": "2025-07-05T22:08:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/657a08262d88b16624e99ddf95289537f264eb38e79de387643abc9b63ab124a/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

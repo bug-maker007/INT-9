@@ -1,0 +1,138 @@
+{
+ "sha256_hash": "9b56a65de5047abefb18afb69bf1390aab199e9d27540535038fc5d9ba480659",
+ "sha3_384_hash": "d8ca24f8655703ed7138d0a9f538d66458c8f41de8c812a462f151a9e601297aa167e220f764c06837917c4f8f853765",
+ "sha1_hash": "e1ac96b7b9f94a673fa59dba63b544d714dff8c1",
+ "md5_hash": "711f2e277264c58d3aa648c31e5e6837",
+ "first_seen": "2026-08-27 19:33:08",
+ "last_seen": null,
+ "file_name": "DIXMAX TV35.apk",
+ "file_size": 15533465,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T19AF6338A32CFA0E7DC77A6318B7D935411A62C42572789131614B53D293FBE9EB01FB8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:H/15mESkedpjoKtveQ7y4fy5PjmcNFzq+w2:H9Skf+vnQNtq+w2",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "md5WithRSAEncryption",
+   "valid_from": "2008-04-15T22:40:50Z",
+   "valid_to": "2035-09-01T22:40:50Z",
+   "serial_number": "b3998086d056cffa",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "241",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_sha256",
+   "value": "0d5256da8cb8e75ef8042a846a698f0c4a571bab41c29892de67bbdb4b8eac32"
+  },
+  {
+   "context": "dropping_md5",
+   "value": "b967a24ccdf9f636a02ceda45ad161ff"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/9b56a65de5047abefb18afb69bf1390aab199e9d27540535038fc5d9ba480659/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260827-x9nchsah55/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ravartar",
+   "status": "MALICIOUS",
+   "first_seen": "2026-08-25 05:00:00",
+   "scanner_count": "24",
+   "scanner_match": "12",
+   "scanner_percent": "50.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a9090ffc03ccde7b7758ce6/reports/25a1dbd1-c1c0-492a-b86f-fe84f368e3f9/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-24T09:35:00Z",
+   "last_seen": "2026-08-27T23:51:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/9b56a65de5047abefb18afb69bf1390aab199e9d27540535038fc5d9ba480659/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

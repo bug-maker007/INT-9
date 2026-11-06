@@ -1,0 +1,154 @@
+{
+ "sha256_hash": "25667ae1985d40a41e1e02fa1e1eb0067b9f4013b0701db84fea48f4538adae5",
+ "sha3_384_hash": "2b34b550387919f5d3c8c36bef085e4635029b2f7b5dacce82268a44aecfc24b6e4097ef4228d104fa1375df18db7ab0",
+ "sha1_hash": "973423d6bc0ee5eeaaf407783d812f1b2eb0c870",
+ "md5_hash": "39ac03c6a8ee2108debbfcf391268c2e",
+ "first_seen": "2026-09-06 19:27:06",
+ "last_seen": null,
+ "file_name": "NordVPN_Бесплатный.vpn.apk",
+ "file_size": 8622696,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Parper",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1D796123189C93861C073967549E60A92A3FD97771342C23E1AB0E414FDEFAD7DA06CB6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:YbjTnGExVCuncvYoUqaqtRthRAw3AelZ8EWwpmIwc:qGExVCElqVt77AwQIZ8Edwc",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "209",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/25667ae1985d40a41e1e02fa1e1eb0067b9f4013b0701db84fea48f4538adae5/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260906-x58gwsfm81/",
+   "tags": [
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-09-06 19:27:26",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a9dbe964d386ea72bb08734/reports/affaf0c9-9827-4296-97f8-fffe703fea09/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-06T16:22:00Z",
+   "last_seen": "2026-09-06T16:54:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/25667ae1985d40a41e1e02fa1e1eb0067b9f4013b0701db84fea48f4538adae5/results?tab=lookup",
+   "detections": [
+    "HEUR:Trojan-Dropper.AndroidOS.Creduz.t"
+   ]
+  }
+ },
+ "comments": null
+}

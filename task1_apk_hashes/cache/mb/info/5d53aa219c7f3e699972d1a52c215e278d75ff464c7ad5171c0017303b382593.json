@@ -1,0 +1,134 @@
+{
+ "sha256_hash": "5d53aa219c7f3e699972d1a52c215e278d75ff464c7ad5171c0017303b382593",
+ "sha3_384_hash": "46e8bf8321e7b6feabaad1b9ec6eab6459ec26debb0966847ca56fea45b2780ff35f94a52441560bfa9f57c5e3e999dd",
+ "sha1_hash": "75477f838d03c1a700d611eddc9ee7d51fb03bc2",
+ "md5_hash": "78629ecf2c2ee465d1cc7c9a53c1fb3c",
+ "first_seen": "2026-07-28 16:32:35",
+ "last_seen": "2026-07-29 12:12:46",
+ "file_name": "Pоpnо20+.apk",
+ "file_size": 6589792,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1C5662282FF46D52EC873403709964732631ADD5ECA8A934794EC3A295C77AC84FDAEC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:TQ3zMB2rAaiULeYgnvhco+d7xO9i4uf1ptll:kD7riULe/v+o+2uprl",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Banker",
+  "Riskware",
+  "signed",
+  "SmsSpy",
+  "TikTok"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "md5WithRSAEncryption",
+   "valid_from": "2008-07-23T21:57:59Z",
+   "valid_to": "2035-12-09T21:57:59Z",
+   "serial_number": "f2a73396bd38767a",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "28bbfe4a7b97e74681dc55c2fbb6ccb8d6c74963733f6af6ae74d8c3a6e879fd",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.Mamont.287.origin.21027.27407.UNOFFICIAL"
+  ],
+  "downloads": "293",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "SUSP_XORed_Mozilla_Oct19",
+   "author": "Florian Roth",
+   "description": "Detects suspicious single byte XORed keyword 'Mozilla/5.0' - it uses yara's XOR modifier and therefore cannot print the XOR key. You can use the CyberChef recipe linked in the reference field to brute force the used key.",
+   "reference": "https://gchq.github.io/CyberChef/#recipe=XOR_Brute_Force()"
+  },
+  {
+   "rule_name": "SUSP_XORed_Mozilla_RID2DB4",
+   "author": "Florian Roth",
+   "description": "Detects suspicious XORed keyword - Mozilla/5.0",
+   "reference": "Internal Research"
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5d53aa219c7f3e699972d1a52c215e278d75ff464c7ad5171c0017303b382593/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260728-t2cdha1yay/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-07-28 16:33:44",
+   "scanner_count": "24",
+   "scanner_match": "4",
+   "scanner_percent": "16.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a68d9af2b567f4210665150/reports/42ef277b-4a52-470f-80da-62a5acf7bd79/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-28T14:37:00Z",
+   "last_seen": "2026-07-29T11:46:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/5d53aa219c7f3e699972d1a52c215e278d75ff464c7ad5171c0017303b382593/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

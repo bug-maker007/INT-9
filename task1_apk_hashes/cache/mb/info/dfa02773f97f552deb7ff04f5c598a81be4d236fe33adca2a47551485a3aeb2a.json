@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "dfa02773f97f552deb7ff04f5c598a81be4d236fe33adca2a47551485a3aeb2a",
+ "sha3_384_hash": "0b3e29ff18af4cbb63da880e87165e3a13a37f59eadfa2eb589b0a3b82fdd15cbb1db3f91aab088e70d23006ff15f4cc",
+ "sha1_hash": "b0ff7acf6802277633468c3ee5aae55c52cca833",
+ "md5_hash": "ad06565482c88f6bcdfd683b63f3a527",
+ "first_seen": "2026-05-08 09:38:33",
+ "last_seen": null,
+ "file_name": "indiemobile (5).apk",
+ "file_size": 18241104,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T17007CE23F50569A6CED6A135F5E3079172340D540793A2392B1FF026FEF25CECA66AC2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:Ra1O9vFx1DAH6fWs1A74tgLBzfpsAvgvUa4/u7:x46f/16LBzx/gvE4",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "IndusInd",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "162",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Jeevan_Malware_Rewards",
+   "author": "ShriTiger",
+   "description": "Detects JeevanReward variants using Technical, Anti-Analysis, and Indian SE keywords",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/dfa02773f97f552deb7ff04f5c598a81be4d236fe33adca2a47551485a3aeb2a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/dfa02773f97f552deb7ff04f5c598a81be4d236fe33adca2a47551485a3aeb2a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-lnmy3sav3m/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-08 09:39:40",
+   "scanner_count": "38",
+   "scanner_match": "5",
+   "scanner_percent": "13.16"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fdaf54df14f1cb2acda2e7/reports/22a05fad-13c6-4981-9f4c-fc86bfe5253c/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-08T07:24:00Z",
+   "last_seen": "2026-05-08T16:43:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/dfa02773f97f552deb7ff04f5c598a81be4d236fe33adca2a47551485a3aeb2a/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

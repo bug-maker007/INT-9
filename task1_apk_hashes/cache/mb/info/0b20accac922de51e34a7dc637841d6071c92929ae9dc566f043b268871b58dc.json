@@ -1,0 +1,101 @@
+{
+ "sha256_hash": "0b20accac922de51e34a7dc637841d6071c92929ae9dc566f043b268871b58dc",
+ "sha3_384_hash": "eb3821482a2d71bfa6becf6f2284b2e061ec90446dfb4a6089d94698baa309db1ad9c70653b3229ea16ca8c5b69ed13a",
+ "sha1_hash": "2cc0c9b7ffe598f2af7a40141270f901699b0156",
+ "md5_hash": "b7fd23008ba0a521e2155fab6e50433c",
+ "first_seen": "2021-08-18 16:13:24",
+ "last_seen": null,
+ "file_name": "30284_Video_Oynatıcı.apk",
+ "file_size": 3504903,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T163F533CA9D46A185C997B93DC840E5AFD62046ACA325F81F1716950C4CF2FA9F71FC0B",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:6hskdTAKH/appP/VbuB4ZzbjtiiLd1Vn8t8QtoLf6I5:6hVx/aDlnzbj9Z86MoLfX5",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "hydra"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "224",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/0b20accac922de51e34a7dc637841d6071c92929ae9dc566f043b268871b58dc/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.03"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/0b20accac922de51e34a7dc637841d6071c92929ae9dc566f043b268871b58dc",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/210818-45kah85k3j/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hydra",
+     "c2": "http://leopoldpaine27.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Bian",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-18 16:14:16",
+   "scanner_count": "46",
+   "scanner_match": "9",
+   "scanner_percent": "19.57"
+  }
+ },
+ "comments": null
+}

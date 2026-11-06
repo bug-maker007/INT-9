@@ -1,0 +1,100 @@
+{
+ "sha256_hash": "a34c1e334e9d76e97b8e8ac6b88bbc45cbed7ab7fc3a62e2f348c940136778af",
+ "sha3_384_hash": "0df5903f6455489e3e93c4314abe0ea1ce6bb3800cb15dd610bc8bd1c42920dfa629065db2b9fd7edf358ff8ebba53d7",
+ "sha1_hash": "70d690a40fb7307280d2bebf77615e757c7f6513",
+ "md5_hash": "bd0ee78cded55ff30a37c670cfa66236",
+ "first_seen": "2021-05-23 18:27:20",
+ "last_seen": "2021-05-28 09:08:52",
+ "file_name": "DHL663.apk",
+ "file_size": 4247039,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Teabot",
+ "imphash": null,
+ "tlsh": "73160108FFA49841C016AFB1548A4987941B43592EBDF0BF2F6994CC78A7C581687EFF",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:k5GKk+jrrhCMTMI+On1L0Mcuw4P4dhdJAiA0vd3iYZQl:SGa7lYRQh0McufP0AiLsH",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "signed",
+  "Teabot"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.9280.22017.27519.UNOFFICIAL"
+  ],
+  "downloads": "354",
+  "uploads": "5",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "anubis",
+   "link": "https://mwdb.cert.pl/sample/a34c1e334e9d76e97b8e8ac6b88bbc45cbed7ab7fc3a62e2f348c940136778af/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/a34c1e334e9d76e97b8e8ac6b88bbc45cbed7ab7fc3a62e2f348c940136778af",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/210523-blztdjdtq2/",
+   "tags": [
+    "android",
+    "obfuscation"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2021-05-23 18:28:08",
+   "scanner_count": "47",
+   "scanner_match": "9",
+   "scanner_percent": "19.15"
+  }
+ },
+ "comments": null
+}

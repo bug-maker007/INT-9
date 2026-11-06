@@ -1,0 +1,145 @@
+{
+ "sha256_hash": "93880cd38abffa10e753c17ae7c14f0833356cba601bd1a3d3998859f47c900f",
+ "sha3_384_hash": "56140b51a2e39c9551ac802487f4eadcd6c2cdd463ec0786a1e03a45e91f17ad2b33662bfbdaca684aaebc1b925fd485",
+ "sha1_hash": "92c1abc9ef94af9701608012e0c9f1f0c94fdb89",
+ "md5_hash": "1af8aabf1bab2c4ed825d24aad6fdf25",
+ "first_seen": "2022-09-25 14:07:41",
+ "last_seen": "2022-09-25 14:11:05",
+ "file_name": "93880CD38ABFFA10E753C17AE7C14F0833356CBA601BD1A3D3998859F47C900F.apk",
+ "file_size": 3875576,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": null,
+ "anonymous": 1,
+ "signature": "TeaBot",
+ "imphash": null,
+ "tlsh": "T1D10633869274C806C36FD234DDE600B36B0A6368C58BE1CE6E45B0DDE566F017E5BE78",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:kSdN59E3uUN+bHVG3ZRrGft4dG1kdS0ey/lR:ld5iuUNkVDV4YadlT",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Anatsa",
+  "apk",
+  "signed",
+  "Teabot"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "np",
+   "issuer_cn": "np",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2021-04-25T09:03:56Z",
+   "valid_to": "3020-08-26T09:03:56Z",
+   "serial_number": "045ff9a3",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "492682f877607ee99df2ddd2bd5953fd727bdf6e19d397de9dbbafd582bcad75",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.11138.5797.12212.UNOFFICIAL"
+  ],
+  "downloads": "460",
+  "uploads": "4",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/93880cd38abffa10e753c17ae7c14f0833356cba601bd1a3d3998859f47c900f/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/93880cd38abffa10e753c17ae7c14f0833356cba601bd1a3d3998859f47c900f",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "teabot",
+   "score": "10",
+   "link": "https://tria.ge/reports/220925-rfjjksfab2/",
+   "tags": [
+    "family:teabot",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "TeaBot",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Anubis",
+   "status": "MALICIOUS",
+   "first_seen": "2022-08-16 13:14:10",
+   "scanner_count": "26",
+   "scanner_match": "13",
+   "scanner_percent": "50.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6330611bda5bfff0bb74caf2/reports/a9d8bf1c-6cc8-46e0-9db1-e78a75677a7c/overview"
+  }
+ },
+ "comments": null
+}

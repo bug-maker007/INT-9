@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "fc72694baf8bac4382548b4782436884f4425adfe696ef6bb959bf45142863aa",
+ "sha3_384_hash": "ff8011ae957b609c4129aace8f3ca3159e293c22ecbffe198d70e9b62586a3a4a256c6ab6559d0072af158a1c12af0d5",
+ "sha1_hash": "59adcd7b859c4965a671d733ab9f17c0e4af72cd",
+ "md5_hash": "dab17173b380d237ffc141531796987d",
+ "first_seen": "2024-03-24 23:49:38",
+ "last_seen": null,
+ "file_name": "ebla.apk",
+ "file_size": 3925643,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T16806ADDAE7D4A95FC4F39332D17652A1424B4D228B83DFC37954363C29BB6D00E5AAC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:L9X/bDeM7qvOLwpT2I0u/WQqoTwr5qZXuzGxBvfUemGXM:5bDeNWI0uBbxBvYGc",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "43.9% (.APK) Android Package (32500/1/6)",
+  "18.2% (.JAR) Java Archive (13500/1/2)",
+  "16.8% (.VYM) VYM Mind Map (12500/1/3)",
+  "14.1% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2021-05-22T04:58:32Z",
+   "valid_to": "2120-09-04T04:58:32Z",
+   "serial_number": "0c11d603",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e702de593abce6259624b294b47a16a0239caa17322c3285b6d1c8acf7fbf30d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "654",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/fc72694baf8bac4382548b4782436884f4425adfe696ef6bb959bf45142863aa/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/fc72694baf8bac4382548b4782436884f4425adfe696ef6bb959bf45142863aa",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/240324-3vkkzadc7s/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-03-24 23:50:06",
+   "scanner_count": "24",
+   "scanner_match": "7",
+   "scanner_percent": "29.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6600bc2c7e414bfaaec14b05/reports/dd28d837-2ee3-4b1b-84da-c9623aaebe68/overview"
+  }
+ },
+ "comments": null
+}

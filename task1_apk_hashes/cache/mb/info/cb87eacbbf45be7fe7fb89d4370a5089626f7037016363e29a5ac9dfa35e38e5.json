@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "cb87eacbbf45be7fe7fb89d4370a5089626f7037016363e29a5ac9dfa35e38e5",
+ "sha3_384_hash": "c68815030c8455c58262e62112a29e1372493a2a86b7964532b87955cde1985282c7357211d2e4402158b8bd457b149f",
+ "sha1_hash": "d3b9aa7e99264db97300ec3c8606d2acb8ff1d5e",
+ "md5_hash": "4ed5b237f4d6bd8119305e0ad8b4224d",
+ "first_seen": "2026-05-08 08:49:11",
+ "last_seen": null,
+ "file_name": "iMobile Lite (25).apk",
+ "file_size": 16242430,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1EEF6121EE648AD2FE8F7E3347C36466224255C698F03D58B7838B63D2DB74C94B962D0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:SbTMkfCL144Cq0fpuFpNnkt7SRBAN5+XLq:t1PCq0fUFE0BA+XO",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "ICICI",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "137",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/cb87eacbbf45be7fe7fb89d4370a5089626f7037016363e29a5ac9dfa35e38e5/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/cb87eacbbf45be7fe7fb89d4370a5089626f7037016363e29a5ac9dfa35e38e5",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-kr1tnsez41/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-08 08:51:03",
+   "scanner_count": "38",
+   "scanner_match": "4",
+   "scanner_percent": "10.53"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fda39cdf14f1cb2acd96c9/reports/89f25ca0-180f-481d-a34d-68835a48e33d/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-08T07:20:00Z",
+   "last_seen": "2026-05-08T16:54:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/cb87eacbbf45be7fe7fb89d4370a5089626f7037016363e29a5ac9dfa35e38e5/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,107 @@
+{
+ "sha256_hash": "4820b3beb705e44ffd80847e400161559159908dd286462db5f210079a0f4506",
+ "sha3_384_hash": "0f4bf04ac07fc18fbc7f55a5f2ab30ef6bc727cd5fd35ef2d79177f4250fe61f809b14186f4e214045bb41339f29d755",
+ "sha1_hash": "715d86e8b113e84be42b4c3625444a8ac16842f5",
+ "md5_hash": "f3fede566d82da89e3f206fde9f963e4",
+ "first_seen": "2026-10-01 13:29:16",
+ "last_seen": null,
+ "file_name": "Cloudflare.apk",
+ "file_size": 20732752,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "NO",
+ "anonymous": 1,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T17F272216EF447E79C9F7013659BB8A188C424D0447C7D883AF99357C1CBB6F0AB29AD8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:9PgodjbxiUttQDJ6Tnzm+yzLHGSVvmVxvrbp5m:9PTdjb8Uttre+gHgZ5m",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "45.3% (.APK) Android Package (27000/1/5)",
+  "20.1% (.BIN/ZIP) 1C:Enterprise bundled add-in (12000/1/2)",
+  "17.6% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "10.0% (.WMZ) Windows Media Player skin (6000/1/1)",
+  "6.7% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "221",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "ANDROID_Sample_Unique_5be608a5",
+   "author": "Marjoriefort",
+   "description": "Specimen unique (soumission Bazaar) - strings distinctifs propres au sample",
+   "reference": "5be608a563a02c94dbf3b1812b3aa0685a6f8228b5dc74c773cc3c912adef7ba.apk"
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "3",
+   "link": "https://tria.ge/reports/261001-qrz52acg62/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2026-09-25 00:03:46",
+   "scanner_count": "38",
+   "scanner_match": "5",
+   "scanner_percent": "13.16"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6abe60759208e16e4a04fd78/reports/add363b3-9e2b-49ac-832e-9b372c54d7c4/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-23T15:25:00Z",
+   "last_seen": "2026-09-29T11:40:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/4820b3beb705e44ffd80847e400161559159908dd286462db5f210079a0f4506/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,90 @@
+{
+ "sha256_hash": "6496931678cdd40d021d0e17d9087b10dda4ac187a54b0250ca917df4f02ce04",
+ "sha3_384_hash": "c1987c4c7fe4dc1dd48ffee3fcc33f78b976438f0113183641082244fdb874128fe62ca29d66fcdaf2a1d4951b83522c",
+ "sha1_hash": "d63155e04a793241c34feec1857372db7b788bf5",
+ "md5_hash": "bfdcc19b75c80a2c727fe89e6d1de5ee",
+ "first_seen": "2021-04-28 20:15:35",
+ "last_seen": null,
+ "file_name": "anitur.apk",
+ "file_size": 1074535,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ActorExpose",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Anubis",
+ "imphash": null,
+ "tlsh": "083523E623D9E4A2F86981B32609795EFE846F34C01C9C158DC479732DA472730E5DBE",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:g/ZjgJ7Mf/KvDoL8xnYaQ07jOHfGINOIINOkINO9INOOINOT:g/ZgGfuEWQ0gfpNCNwNzN2NA",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": null,
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "159",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/6496931678cdd40d021d0e17d9087b10dda4ac187a54b0250ca917df4f02ce04/"
+  },
+  "Triage": {
+   "malware_family": "anubis",
+   "score": "10",
+   "link": "https://tria.ge/reports/210428-ldqt3ac7xs/",
+   "tags": [
+    "family:anubis",
+    "android",
+    "banker",
+    "infostealer",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Anubis banker",
+     "score": "10"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "anubis",
+     "c2": "http://ktosdelaetskrintotpidor.com"
+    },
+    {
+     "extraction": "c2",
+     "family": "anubis",
+     "c2": "http://sositehuypidarasi.com"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2021-04-28 20:16:16",
+   "scanner_count": "47",
+   "scanner_match": "9",
+   "scanner_percent": "19.15"
+  }
+ },
+ "comments": null
+}

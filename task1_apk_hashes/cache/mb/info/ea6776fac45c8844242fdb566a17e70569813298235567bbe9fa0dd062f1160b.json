@@ -1,0 +1,95 @@
+{
+ "sha256_hash": "ea6776fac45c8844242fdb566a17e70569813298235567bbe9fa0dd062f1160b",
+ "sha3_384_hash": "d52dd15cfc5e54fc5290f01dc4c8cd2d42a98afe62af0021da5ec19a023290bb79cb279e89eefb3581ceecf9f581d7a6",
+ "sha1_hash": "f2f3f6344e054a03cd83e2e2f00af2af3d59f1c5",
+ "md5_hash": "891d5d2c397e9ad5fed5685f78657d4b",
+ "first_seen": "2021-10-18 08:14:27",
+ "last_seen": null,
+ "file_name": "Voicemailx30.apk",
+ "file_size": 4875200,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "cocaman",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "FluBot",
+ "imphash": null,
+ "tlsh": "T173362325FDAEE427D20FD139C5A499CBD508655C8908FD1B2A26804C4EE6EC09BCBFDD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:UHIuiDQ9wfSVdDp6gDkTjhJfB5oxlAuEk0Olk0mYjFpfYgQ+Q67D2t:Uor4pVZp6PjbfskXX+3PQd67O",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Flubot"
+ ],
+ "code_sign": null,
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.PUA.Android.JPush-1.UNOFFICIAL"
+  ],
+  "downloads": "355",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ea6776fac45c8844242fdb566a17e70569813298235567bbe9fa0dd062f1160b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ea6776fac45c8844242fdb566a17e70569813298235567bbe9fa0dd062f1160b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/211018-j5ktyaebbl/",
+   "tags": [
+    "android",
+    "obfuscation"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-10-18 08:15:09",
+   "scanner_count": "45",
+   "scanner_match": "11",
+   "scanner_percent": "24.44"
+  },
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "0.6",
+   "report_link": "https://www.filescan.io/uploads/616d2d0aa9d585e6d52ba06b/reports/68585698-8deb-45a0-a2fa-9109a0b2091b/overview"
+  }
+ },
+ "comments": null
+}

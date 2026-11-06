@@ -1,0 +1,109 @@
+{
+ "sha256_hash": "ee5632e3c0717693c9ab993c2b0c5b6edb503383215895f99800d915d92d1b8e",
+ "sha3_384_hash": "b8e0d66977eaa492fb75ba37ec5e3cb11e207409d8c915bbe44016693c7ac32613074c23e98c736d837bc4a715b35615",
+ "sha1_hash": "fab5bd3e1504011efe253dfc344852f6b5c644a1",
+ "md5_hash": "8d244ac025fb51c1348003dc9c3c3ea2",
+ "first_seen": "2021-08-20 20:22:57",
+ "last_seen": null,
+ "file_name": "Ifsa_Videosu.apk",
+ "file_size": 3461547,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T199F5331ADB568C0CEA279A32808366C22755220906D3BDBF1A3654C1247FED5BB5FCE7",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:771bqaWjVs+yld286HLJ9USJ1Wad4g7f/S6/LB+hYcx19CFMbDTt/u6DI6GHwZyM:WVsjl/UoSqaXqIF+kaDTQAyCjenE",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "alien",
+  "alienbot",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.ScytheSCF.GG.7691.31191.UNOFFICIAL"
+  ],
+  "downloads": "280",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1549998/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/ee5632e3c0717693c9ab993c2b0c5b6edb503383215895f99800d915d92d1b8e/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ee5632e3c0717693c9ab993c2b0c5b6edb503383215895f99800d915d92d1b8e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210820-6fb97sdp2j/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads name of network operator",
+     "score": "6"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "https://instagrambuyukprofil.com"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Boogr",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-20 20:23:08",
+   "scanner_count": "46",
+   "scanner_match": "8",
+   "scanner_percent": "17.39"
+  }
+ },
+ "comments": null
+}

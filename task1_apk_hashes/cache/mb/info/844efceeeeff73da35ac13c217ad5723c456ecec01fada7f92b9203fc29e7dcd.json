@@ -1,0 +1,132 @@
+{
+ "sha256_hash": "844efceeeeff73da35ac13c217ad5723c456ecec01fada7f92b9203fc29e7dcd",
+ "sha3_384_hash": "3ce0214a3086b1c8e1a8aa408ce274921e9787e5f279b734a7ed58aa2e416ccfd23fb80bb7cd6434f10d8086b4f3a6c4",
+ "sha1_hash": "9d54231e93035fcde45851fcf26795d8fe366a7a",
+ "md5_hash": "b87fea08d3fd6f9d0a4a46b18b5b3f8e",
+ "first_seen": "2022-11-24 08:02:53",
+ "last_seen": null,
+ "file_name": "SharkBot (12).apk",
+ "file_size": 16492686,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "SharkBot",
+ "imphash": null,
+ "tlsh": "T13DF6224BFB98CA1EC8336132C82B423372570D155A42A7B72619F72C29B7DD14F56BCA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:v4irHAeHcBmacX7X52NWdXJq2TN51XcwnpObrfum7m:lg2CqgY5NpOLm",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "50.9% (.APK) Android Package (38500/1/9)",
+  "17.8% (.JAR) Java Archive (13500/1/2)",
+  "13.9% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "10.5% (.XPI) Mozilla Firefox browser extension (8000/1/1)",
+  "5.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SharkBot",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2022-06-27T12:59:14Z",
+   "valid_to": "2052-06-27T12:59:14Z",
+   "serial_number": "682e8d43aca3680ff9e93927d8a4c5c599a9206e",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "4dba80c62b7cc769c1b687513abb00267e832ba509761eb3037e7b5c8ba02c7c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.DownLoader.1095.origin.16664.27770.UNOFFICIAL"
+  ],
+  "downloads": "280",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/844efceeeeff73da35ac13c217ad5723c456ecec01fada7f92b9203fc29e7dcd/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/844efceeeeff73da35ac13c217ad5723c456ecec01fada7f92b9203fc29e7dcd",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/221124-jxq1zsdc5y/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2022-09-13 16:59:17",
+   "scanner_count": "26",
+   "scanner_match": "9",
+   "scanner_percent": "34.62"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "0.75",
+   "report_link": "https://www.filescan.io/uploads/637f253f151dc20f68a7b27c/reports/4efbde01-471d-47d2-840d-d3fc39b80d65/overview"
+  }
+ },
+ "comments": null
+}

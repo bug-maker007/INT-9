@@ -1,0 +1,116 @@
+{
+ "sha256_hash": "5b6bcc94f920dc2c4bef3314400d9074bda89ea19d4486684713315530202fe9",
+ "sha3_384_hash": "e669658439085f765984c6273dafeeffd716965fd080572df10c8d08ce145fe5484c880c532f66a3861541b2f6a57f05",
+ "sha1_hash": "271aae3de419fd12dfdf7f82fd22e8908f8807aa",
+ "md5_hash": "35b692c4e0dcb0cfba785ebb3a73b233",
+ "first_seen": "2021-10-09 16:15:56",
+ "last_seen": null,
+ "file_name": "Android_Guncelleme_build_flow.apk",
+ "file_size": 197073,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T15914129397B820EEE497B7748BE663635A7714CCA7D9A7C639102085AC1731B0F1CE16",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:1e9CRwa/WiYxQNrv1l5VUHVYPrF2P60Op0b8cy:1eYea/WiYxQNlVUHV6JO4yb8r",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.833.origin.25587.8226.UNOFFICIAL"
+  ],
+  "downloads": "256",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1662370/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5b6bcc94f920dc2c4bef3314400d9074bda89ea19d4486684713315530202fe9/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/5b6bcc94f920dc2c4bef3314400d9074bda89ea19d4486684713315530202fe9",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/211009-tqsw4sfce6/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "https://suleymandemirlendinizz.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.BiurtcAdpoet",
+   "status": "MALICIOUS",
+   "first_seen": "2021-10-09 16:16:14",
+   "scanner_count": "45",
+   "scanner_match": "9",
+   "scanner_percent": "20.00"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "0.6666666666666667",
+   "report_link": "https://www.filescan.io/uploads/6161c045334ba92bd92344e2/reports/5ea57380-b886-4d8b-8bb2-5938b95d88aa/overview"
+  }
+ },
+ "comments": null
+}

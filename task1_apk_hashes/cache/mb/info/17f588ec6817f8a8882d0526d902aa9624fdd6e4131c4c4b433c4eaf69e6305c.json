@@ -1,0 +1,119 @@
+{
+ "sha256_hash": "17f588ec6817f8a8882d0526d902aa9624fdd6e4131c4c4b433c4eaf69e6305c",
+ "sha3_384_hash": "8c05cfce9cc13748bf7f452dc9d6bfd3971f36be75e2d6b9ad332234b40b01f90c6bba53efa56b3b10d4c54cb5fa93e6",
+ "sha1_hash": "7a306134e8d577a8a3b629e6f3d1f8e44e590caf",
+ "md5_hash": "ad22661478606f0b1c292e71237cf914",
+ "first_seen": "2025-05-18 12:06:12",
+ "last_seen": null,
+ "file_name": "TG_76720002_ko76720002-u4d3xtw.apk",
+ "file_size": 82618356,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T1CC0823E7F3304D3DD5370672955D6172EA294E209A23E30F6408B63DBEB32E24A857E5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:cAYQ7Ox+9PB7RDpca8axWp9kN1yiwDwAjDyQWV6Mq/CzSfpfXk6Hxd0gNkQ:1+x+5B7NXDRhw8AjVz/TxU6HH02",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "https://d2mudngiasilce.cloudfront.net/TG_76720002_ko76720002-u4d3xtw.apk?Expires=1747572446\r\n\r\nDomains contacted by Triada:\r\nhnkcmn.lvditoys.com \r\nbk79n.uedfd.com \r\nvvu2.r9rw.com \r\ntfidlv.u02cx.com\r\nhcnk.uedfd.com \r\nj9elr4.ik27s.com \r\n5k6ph8.qz94.com \r\nn6x5.uedfd.com\r\nURLs contacted by Triada:\r\nhttp://5k6ph8.qz94.com:10721/ProxyGateway/apply/service?cd=76720002&dvid=1271119017&device=google_Android+SDK+built+for+x86_64\r\n\r\nIP Address and Port found in URL:\r\n47.236.54.218:10721\r\n",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "sadfa",
+   "issuer_cn": "sadfa",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2025-05-12T06:19:53Z",
+   "valid_to": "2050-05-06T06:19:53Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "5fef09552bf8da19c1d47d96359adc71f044d76cb5081cb492ae3eaebf017121",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "780",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/250518-n2hydscr8v/behavioral1"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3546390/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/17f588ec6817f8a8882d0526d902aa9624fdd6e4131c4c4b433c4eaf69e6305c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/250518-plt66adl3z/",
+   "tags": [
+    "android",
+    "defense_evasion",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-05-15 17:48:18",
+   "scanner_count": "37",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6829d1b6bff72ff46b65c1d8/reports/b3621586-fcd7-4577-99ce-a338019be096/overview"
+  }
+ },
+ "comments": null
+}

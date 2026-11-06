@@ -1,0 +1,163 @@
+{
+ "sha256_hash": "1bdb7b83f3964b84d03694bbbc66a02f5a270043b8ac635932d9de12b81b172e",
+ "sha3_384_hash": "a2bcac2fe898b5043bbc2b703f5f08ceb626d12cce5905ce75e7aed0f523923872110d3e2db7e39bf935c0e0a53b176e",
+ "sha1_hash": "0867aa81c1cd5edd768caa6843ab0a7ef6b03a42",
+ "md5_hash": "6ee3ce7f67d88d9fd51b3342d872912c",
+ "first_seen": "2023-06-20 12:35:10",
+ "last_seen": "2023-06-20 12:35:11",
+ "file_name": "Flashiplayer.apk",
+ "file_size": 3616948,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "KAAN",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "BankBot",
+ "imphash": null,
+ "tlsh": "T168F533C3AAA2B48DECD989B0F52A5443D61189C56978F3EE312D4A50C807361DF27E7F",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:ieErtZDhPCabIqyOqds64/56yQ8YmCaXyW:ie4jPCZcqdgDQ8YmCq",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "bankbot",
+  "banker",
+  "dropper",
+  "fis",
+  "hqwar",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.8913.18581.18909.UNOFFICIAL"
+  ],
+  "downloads": "444",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1bdb7b83f3964b84d03694bbbc66a02f5a270043b8ac635932d9de12b81b172e/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/1bdb7b83f3964b84d03694bbbc66a02f5a270043b8ac635932d9de12b81b172e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/230620-pswzbsbh82/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "ransomware",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Renames multiple (1034) files with added filename extension",
+     "score": "9"
+    },
+    {
+     "signature": "Renames multiple (1086) files with added filename extension",
+     "score": "9"
+    },
+    {
+     "signature": "Renames multiple (1170) files with added filename extension",
+     "score": "9"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://144.76.80.117"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.PUA.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2021-04-14 03:41:12",
+   "scanner_count": "37",
+   "scanner_match": "9",
+   "scanner_percent": "24.32"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/64919d340f5b3414b1c8105e/reports/ecc3164f-9b19-4cc0-b0f2-f4dc80bb5859/overview"
+  }
+ },
+ "comments": null
+}

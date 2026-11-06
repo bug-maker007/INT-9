@@ -1,0 +1,127 @@
+{
+ "sha256_hash": "087988a6259e8fd826f8cd54ea22f12c74037eb00b1ffcfe9e8473def4fd06d9",
+ "sha3_384_hash": "c93bb8fbb4f42d121f4a03b2669a94ad1ba53f73381513033ad6bd2bbd6621d7a1fca7563b49b7908f4a67a084d4bae8",
+ "sha1_hash": "690b71675b9331f35a0bc88d50e28e03354069e0",
+ "md5_hash": "cfeb62a7a0106ceecafe9fbbe13fa444",
+ "first_seen": "2025-01-05 22:31:11",
+ "last_seen": "2025-01-05 22:46:26",
+ "file_name": "WA-Gold-V39.apk",
+ "file_size": 89468273,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T15A182351E7A8DC1BC1F3F332CA32217756980E509B17E6272906F27C6AB3AC59646FC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:+ZCEKEu51mcWvgekZ+VwZuKh2s08xGP52hG7d1dDR5K4oRjxXB:+1O1mLoeDGuKss08xjhGB/DRgxXB",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "21.8% (.SPE) SPSS Extension (30000/1/7)",
+  "19.7% (.APK) Android Package (27000/1/5)",
+  "15.6% (.OXT) OpenOffice Extension (21500/1/3)",
+  "9.8% (.JAR) Java Archive (13500/1/2)",
+  "9.1% (.VYM) VYM Mind Map (12500/1/3)"
+ ],
+ "comment": "https://watsgoldapp.com/ => https://www.4sync.com/mobile/sEzvgG5d/WA-Gold-V39.html",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "250",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/250105-2cca7sxqgz/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/087988a6259e8fd826f8cd54ea22f12c74037eb00b1ffcfe9e8473def4fd06d9",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "triada",
+   "score": "10",
+   "link": "https://tria.ge/reports/250105-2fycvaxrct/",
+   "tags": [
+    "family:triada",
+    "android",
+    "discovery",
+    "persistence",
+    "upx"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2024-10-24 05:00:27",
+   "scanner_count": "38",
+   "scanner_match": "2",
+   "scanner_percent": "5.26"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/677b086533e30bee8f8352bc/reports/b35a8777-4bcf-4833-ba99-3f073828fe2c/overview"
+  }
+ },
+ "comments": null
+}

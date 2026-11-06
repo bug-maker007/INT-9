@@ -1,0 +1,99 @@
+{
+ "sha256_hash": "c4648a8011f5d3e18feeb69c079e6af6e8c51321a9e7b5493bbf50e6fbfc1bfe",
+ "sha3_384_hash": "c51fabf0bba953ce231a8f91cb4a454a245aa934bb187ba7315d80f206b8f35e095ee410b75365d13cb81410379aa123",
+ "sha1_hash": "e3641b6f79cf1af7d1c15b65a5ade7499023182e",
+ "md5_hash": "2c31fdb2c51684b9e44c3f4851d91eac",
+ "first_seen": "2021-09-04 15:02:07",
+ "last_seen": null,
+ "file_name": "Android-Update.apk",
+ "file_size": 3483180,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1BFF5332B7A13890ADB0B007781476EBABD85929C65D1B31F1C7A44568FF1FCC5B27CA2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:9HTiFYHt9ISHgXNlkRWG3f6HWeMxlkE0M5+If7FpJF2W8RH85VV4CHzpg8m7Kob0:AqHPINlkoVH9cZ0M8iLF2FSSCHFM/0Dl",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "333",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c4648a8011f5d3e18feeb69c079e6af6e8c51321a9e7b5493bbf50e6fbfc1bfe/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c4648a8011f5d3e18feeb69c079e6af6e8c51321a9e7b5493bbf50e6fbfc1bfe",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/210904-se2t7sece5/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://adamhaolmadibudagitti.site"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-09-04 15:03:07",
+   "scanner_count": "43",
+   "scanner_match": "6",
+   "scanner_percent": "13.95"
+  }
+ },
+ "comments": null
+}

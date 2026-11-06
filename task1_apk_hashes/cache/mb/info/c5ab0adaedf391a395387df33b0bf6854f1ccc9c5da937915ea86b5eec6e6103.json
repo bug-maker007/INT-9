@@ -1,0 +1,143 @@
+{
+ "sha256_hash": "c5ab0adaedf391a395387df33b0bf6854f1ccc9c5da937915ea86b5eec6e6103",
+ "sha3_384_hash": "a1e42262445e82119a3f1a129c2b7099411fe8021ee333d285f7ef5f97e9b1b65bc511fd65d8e12b06c0deff216a4253",
+ "sha1_hash": "3db0f3cb7565a183f8601f5515315ce8e36823d5",
+ "md5_hash": "54a7d8d8f6ee586e266f369b0a8a8dee",
+ "first_seen": "2025-12-29 23:36:30",
+ "last_seen": null,
+ "file_name": "evil.apk",
+ "file_size": 2332330,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "AndroRAT",
+ "imphash": null,
+ "tlsh": "T19FB5F042BBC4AC1FCCB3D4324BB5877B11455D8A868AD313CA60B65C5DB7EC09E86EC9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:CY9l8FXNHt0RIoeXVQ/lTiiLl8qLmRk4kNtwHDAdgvY9Wh:t9l8F9aeoeXVElTiiJjgaMAV9Wh",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "AndroRAT",
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "279",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c5ab0adaedf391a395387df33b0bf6854f1ccc9c5da937915ea86b5eec6e6103/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.69"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/c5ab0adaedf391a395387df33b0bf6854f1ccc9c5da937915ea86b5eec6e6103",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "androrat",
+   "score": "10",
+   "link": "https://tria.ge/reports/251229-3mbcbsyjbs/",
+   "tags": [
+    "family:androrat",
+    "android",
+    "discovery",
+    "evasion",
+    "execution",
+    "persistence",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "androrat",
+     "c2": "192.169.x.x:8000"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyAgent",
+   "status": "MALICIOUS",
+   "first_seen": "2025-12-29 23:37:23",
+   "scanner_count": "23",
+   "scanner_match": "11",
+   "scanner_percent": "47.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/695310af127d6a14e0c7581a/reports/c424eb02-ef01-4c22-b449-6e6908f9f640/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-12-29T20:38:00Z",
+   "last_seen": "2025-12-31T16:20:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/c5ab0adaedf391a395387df33b0bf6854f1ccc9c5da937915ea86b5eec6e6103/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

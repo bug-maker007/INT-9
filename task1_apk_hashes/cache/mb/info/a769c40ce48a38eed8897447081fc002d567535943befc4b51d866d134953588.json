@@ -1,0 +1,196 @@
+{
+ "sha256_hash": "a769c40ce48a38eed8897447081fc002d567535943befc4b51d866d134953588",
+ "sha3_384_hash": "848d50d06509580df4d88ffeb082ae9890e37034b8908950d741f0ee5b7d6e85b152a59ac915b921cadeded6d6ec5b11",
+ "sha1_hash": "f617f3124f7dcfe05a4f151d088c6d7f0b7db434",
+ "md5_hash": "519977b88f3c5bbb254def1847f40da2",
+ "first_seen": "2025-07-02 23:39:01",
+ "last_seen": null,
+ "file_name": "a769c40ce48a38eed8897447081fc002d567535943befc4b51d866d134953588.apk",
+ "file_size": 23332636,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "BingoMod",
+ "imphash": null,
+ "tlsh": "T17C375C09E403FD69C79968764D66C41967B1BC86FE8B1367F30EB7BF38A215D8608384",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:0PTzrvsyWfkpQjfEOijaDSurXbOlLxdu6EmrRWZzzdOVZjcSpqviwh1YTY/mKd1u:0PT3jWfPOaOMbUDN8dOVZw6AikcYuCiv",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "36.9% (.APK) Android Package (27000/1/5)",
+  "29.4% (.OXT) OpenOffice Extension (21500/1/3)",
+  "18.4% (.JAR) Java Archive (13500/1/2)",
+  "9.5% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "5.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "BingoMod",
+  "signed",
+  "Spy-Agent-DUD"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "James Smith",
+   "issuer_cn": "James Smith",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2025-04-08T12:31:40Z",
+   "valid_to": "2052-08-24T12:31:40Z",
+   "serial_number": "c33e1bf538772c11",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a07bcdb54150c21200ec098cdca6e822f4a94568e2e4e2fa6da8f93ad1eeb202",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "206",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "botnet_plaintext_c2",
+   "author": "cip",
+   "description": "Attempts to match at least some of the strings used in some botnet variants which use plaintext communication protocols.",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_CMD_Powershell_Usage",
+   "author": "XiAnzheng",
+   "description": "May Contain(Obfuscated or no) Powershell or CMD Command that can be abused by threat actor(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "Warp",
+   "author": "Seth Hardy",
+   "description": "Warp",
+   "reference": null
+  },
+  {
+   "rule_name": "WarpStrings",
+   "author": "Seth Hardy",
+   "description": "Warp Identifying Strings",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "bingomod",
+   "score": "10",
+   "link": "https://tria.ge/reports/250702-3ndh3sbl5s/",
+   "tags": [
+    "family:bingomod",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "BingoMod",
+     "score": "10"
+    },
+    {
+     "signature": "Bingomod family",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Requests allowing to install additional applications from unknown sources.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests modifying system settings.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "bingomod",
+     "c2": "23.254.226.46"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-04-15 17:06:49",
+   "scanner_count": "24",
+   "scanner_match": "3",
+   "scanner_percent": "12.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6865c326714e106cecba5290/reports/861438ba-965b-457b-bdfb-376a44127740/overview"
+  }
+ },
+ "comments": null
+}

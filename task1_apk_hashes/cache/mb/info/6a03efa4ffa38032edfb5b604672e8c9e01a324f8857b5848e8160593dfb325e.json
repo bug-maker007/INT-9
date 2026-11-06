@@ -1,0 +1,117 @@
+{
+ "sha256_hash": "6a03efa4ffa38032edfb5b604672e8c9e01a324f8857b5848e8160593dfb325e",
+ "sha3_384_hash": "f3fe515c923d4e4b52196b1e646636a760b7cd2a1216ae0ae098df4b19486008c361010a51671397e59bf9e571e0ecf3",
+ "sha1_hash": "64c4b39176709a7fa9be936b925b17fb53544da9",
+ "md5_hash": "1edd97885a8a7e88694be9971ac317e5",
+ "first_seen": "2021-06-01 06:47:06",
+ "last_seen": null,
+ "file_name": "DHL706.apk",
+ "file_size": 4235044,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "FluBot",
+ "imphash": null,
+ "tlsh": "38162326FEADE81AC00BE136C971D557D408207E6614F61B1B75888C4EBBD81EB0BEDD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:s5knISHh3FZNqsf44bTUIYiFZBrzXUpBJ1FS3VfTvOGn/Ms:oknhlj7bUIYi5rzXUbJ1FS3VOGn/Ms",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Flubot",
+  "signed",
+  "v4.4"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.9305.5975.32388.UNOFFICIAL"
+  ],
+  "downloads": "335",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/alberto__segura/status/1399612512539189248?s=20"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/6a03efa4ffa38032edfb5b604672e8c9e01a324f8857b5848e8160593dfb325e/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/6a03efa4ffa38032edfb5b604672e8c9e01a324f8857b5848e8160593dfb325e",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "10",
+   "link": "https://tria.ge/reports/210601-kafry59dt6/",
+   "tags": [
+    "android",
+    "obfuscation",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-05-31 22:48:38",
+   "scanner_count": "45",
+   "scanner_match": "6",
+   "scanner_percent": "13.33"
+  }
+ },
+ "comments": null
+}

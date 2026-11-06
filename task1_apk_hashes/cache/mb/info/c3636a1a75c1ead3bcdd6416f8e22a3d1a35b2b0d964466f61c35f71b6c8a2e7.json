@@ -1,0 +1,125 @@
+{
+ "sha256_hash": "c3636a1a75c1ead3bcdd6416f8e22a3d1a35b2b0d964466f61c35f71b6c8a2e7",
+ "sha3_384_hash": "f403ffef853513d21330045f01965c1ec87ea1b393b3d5e373dec3c1631782ac8819c44f2fb805b18cf68cac952ced4b",
+ "sha1_hash": "9aedae2a76d07d4f43883ae333c20ac02e0e64a8",
+ "md5_hash": "79c3b0c2150a63ee1156fc91b664d1af",
+ "first_seen": "2022-11-28 13:36:14",
+ "last_seen": null,
+ "file_name": "SBI-KYC.apk",
+ "file_size": 5404784,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "HK",
+ "anonymous": 1,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T15646F08AF748A92FCC7750324DAA523651874CC68E82DB837948771C69BB6D40F5EBCC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:/v87EsrYkSiO7jTp0RF5x2wpAdYDD8hcJnohCi123dsZhR7sCKezl8Nc6k5R6b2D:/v3TEiYbJnor123SRJ8Nc6k5RXD",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "57.0% (.APK) Android Package (38500/1/9)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "15.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "banker",
+  "signed",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SmsSpy.11484.20014.27972.UNOFFICIAL",
+   "SecuriteInfo.com.TrojanSpy.AndroidOS.SMSSpy.L.MTB.32081.6629.UNOFFICIAL"
+  ],
+  "downloads": "406",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/ReBensk/status/1597189188549386240"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c3636a1a75c1ead3bcdd6416f8e22a3d1a35b2b0d964466f61c35f71b6c8a2e7/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c3636a1a75c1ead3bcdd6416f8e22a3d1a35b2b0d964466f61c35f71b6c8a2e7",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/221128-qwslrafh78/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Rewardsteal",
+   "status": "MALICIOUS",
+   "first_seen": "2022-11-28 09:29:19",
+   "scanner_count": "26",
+   "scanner_match": "9",
+   "scanner_percent": "34.62"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6384b97f536377388865eb76/reports/c636203b-26c9-4f2e-95f5-30a3e01db6f8/overview"
+  }
+ },
+ "comments": null
+}

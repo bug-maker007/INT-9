@@ -1,0 +1,111 @@
+{
+ "sha256_hash": "b24ce50e41155bd953bdcb8f66b1bb885687c60aba72a15013080971a7c14b9a",
+ "sha3_384_hash": "439213e9ea8278d62faf5a8c544e4393e68efac9c1cff4bb5d4829222a9273341a0a59c0dd6c68c71b8c6f468644f589",
+ "sha1_hash": "17752a90b299859ea60fafb7fe74a343e90dd538",
+ "md5_hash": "e97cb0f67323839ba797f3e92ed68d41",
+ "first_seen": "2025-10-10 10:40:12",
+ "last_seen": null,
+ "file_name": "Redeem_Code_1759993402330.apk",
+ "file_size": 67189597,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T109E712E3E319AC79D0F34336937520A7B9260E609753F366050AB6386EF39DC8149EE5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:YD+vKdHG01mbH61vjAC+lZ13csa690tdK5vg8n:YD+O1jJ0C+ttl2K5Y8n",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Malware",
+  "signed",
+  "Triada",
+  "Trojan",
+  "VideoCall"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "40l77VV9",
+   "issuer_cn": "40l77VV9",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2025-10-09T07:03:19Z",
+   "valid_to": "2035-10-07T07:03:19Z",
+   "serial_number": "da4435590cd9e6ce",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "ca469de8946e10dc0ad9cb6768eedf34153e3318e4d12bca714bc7004e1830d2",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "337",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/b24ce50e41155bd953bdcb8f66b1bb885687c60aba72a15013080971a7c14b9a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/251010-mvhhlstps9/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2025-10-10 10:50:57",
+   "scanner_count": "38",
+   "scanner_match": "4",
+   "scanner_percent": "10.53"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68e8e43671883144ef303095/reports/5833fa4e-07fc-4d91-a16c-645ae7d102e9/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-10-10T08:46:00Z",
+   "last_seen": "2025-10-10T12:53:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/b24ce50e41155bd953bdcb8f66b1bb885687c60aba72a15013080971a7c14b9a/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

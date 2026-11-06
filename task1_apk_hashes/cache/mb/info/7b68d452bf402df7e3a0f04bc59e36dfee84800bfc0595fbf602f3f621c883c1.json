@@ -1,0 +1,137 @@
+{
+ "sha256_hash": "7b68d452bf402df7e3a0f04bc59e36dfee84800bfc0595fbf602f3f621c883c1",
+ "sha3_384_hash": "60b0c002acd548f2b1f0403a6a6ec3985dc7522055417964149c3413d5e5c730a2215629cf9e0b0bb34034b4eda8b896",
+ "sha1_hash": "add6676970143f40635056e7889c3fed0c2cf734",
+ "md5_hash": "5a2d95bd313bea27872d276c72a9cbff",
+ "first_seen": "2026-03-25 03:01:52",
+ "last_seen": null,
+ "file_name": "Quick Cleaner_8.8.apk",
+ "file_size": 34725213,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "HK",
+ "anonymous": 1,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T13A77237A9318346AD43A91B75E1E3A79328D0D787B42A7E71401B2DD28F36E48709FC7",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "786432:hLZ+pxAvbt30JhQ7v41XAKIIYZlTmwIblNsbo:9pvbxvuAKpYPtIvh",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "44.6% (.APK) Android Package (27000/1/5)",
+  "18.1% (.CATROBAT) Pocket Code/Catroid Catrobat Project (11000/1/2)",
+  "17.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "13.2% (.WIDGET) Konfabulator widget (8000/1/2)",
+  "6.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Joker",
+  "Malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "209",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://play.google.com/store/apps/details?id=com.incleaner.quicktool.filesover"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "dependsonpythonailib",
+   "author": "Tim Brown",
+   "description": "Hunts for dependencies on Python AI libraries",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_CMD_Powershell_Usage",
+   "author": "XiAnzheng",
+   "description": "May Contain(Obfuscated or no) Powershell or CMD Command that can be abused by threat actor(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.30"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/7b68d452bf402df7e3a0f04bc59e36dfee84800bfc0595fbf602f3f621c883c1",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260325-djp9msev3q/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-03-25 03:02:36",
+   "scanner_count": "24",
+   "scanner_match": "0",
+   "scanner_percent": "0.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69c350460ab403384b57fbb6/reports/bbe15f3f-fc49-472a-b76d-7df9a5e9aee8/overview"
+  },
+  "Kaspersky": {
+   "verdict": "NotCategorized",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/7b68d452bf402df7e3a0f04bc59e36dfee84800bfc0595fbf602f3f621c883c1/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

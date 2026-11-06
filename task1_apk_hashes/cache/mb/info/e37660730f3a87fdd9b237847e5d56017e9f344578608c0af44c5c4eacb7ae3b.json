@@ -1,0 +1,99 @@
+{
+ "sha256_hash": "e37660730f3a87fdd9b237847e5d56017e9f344578608c0af44c5c4eacb7ae3b",
+ "sha3_384_hash": "50cdcba696a2fddc696ca7b69474852ae49bcdd5c6c273b691634d82bf2e364dd97643d171abb8fe08284ec4871621a4",
+ "sha1_hash": "caa22afad87d73792e7209224eb7cdaea9b5a416",
+ "md5_hash": "faecf55db465a39442e679e6fe47ab9a",
+ "first_seen": "2021-09-02 00:06:04",
+ "last_seen": null,
+ "file_name": "Android System Update.apk",
+ "file_size": 3317371,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1AEE53317EE83AA15E1A7C33640535A677BBA22CDA5D1603F0E7748819CE68F04E12DFD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:MacDQCcxnv8BqxVlLX5PlI9bgkaFivU/D4pIrHjo:MacDQCclwqxVbPlI9bPaFiyo",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "270",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e37660730f3a87fdd9b237847e5d56017e9f344578608c0af44c5c4eacb7ae3b/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/e37660730f3a87fdd9b237847e5d56017e9f344578608c0af44c5c4eacb7ae3b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/210902-fnnpqcp8as/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://tamakontelloycaxyz.site"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Boogr",
+   "status": "MALICIOUS",
+   "first_seen": "2021-09-02 00:07:05",
+   "scanner_count": "45",
+   "scanner_match": "7",
+   "scanner_percent": "15.56"
+  }
+ },
+ "comments": null
+}

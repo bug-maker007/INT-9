@@ -1,0 +1,202 @@
+{
+ "sha256_hash": "7129d6c57182f4e53a4fd0f6aac15de30ffc5bfa34bc639a19ee39d2856b3c07",
+ "sha3_384_hash": "2f2f9dd9bcb8393c7a573f06aa14073c85e2d1a8a599f4ffd805e2f5943b9f1c6f5e7b09be82538fb5ce8357795977d5",
+ "sha1_hash": "7e03e82359000bb144c2133cc1e31d3d4c0d045c",
+ "md5_hash": "b2c5e29222f57cf91d30d37b8ec54cc3",
+ "first_seen": "2025-09-23 13:45:25",
+ "last_seen": null,
+ "file_name": "1.apk",
+ "file_size": 3961188,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "AE",
+ "anonymous": 1,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T15F06DF47EB48CA97C8FA83F56B370DA92E070F24C6429AEB4411767E2D771D01DD6A8C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:euHWKqtFyQneDN2vnxf6dmRaY+1C80cmzZzdGGuQTOIXUJYqC0cg93+BJikhr1:H5aaNG0N0cmzZzBBTl0t9udx",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "33.7% (.APK) Android Package (27000/1/5)",
+  "16.8% (.JAR) Java Archive (13500/1/2)",
+  "16.8% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "14.3% (.SUBLIME-PACKAGE) Sublime Text Package (generic) (11500/1/3)",
+  "13.1% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "SpyNote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "md5WithRSAEncryption",
+   "valid_from": "2008-04-15T23:40:57Z",
+   "valid_to": "2035-09-01T23:40:57Z",
+   "serial_number": "f2b98e6123572c4e",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "465983f7791f2abeb43ea2cbdc7f21a8260b72bc08a55c839fc1a43bc741a81e",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "no reply from clamd"
+  ],
+  "downloads": "204",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "urlhaus",
+   "value": "https://urlhaus.abuse.ch/url/3630333/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "botnet_plaintext_c2",
+   "author": "cip",
+   "description": "Attempts to match at least some of the strings used in some botnet variants which use plaintext communication protocols.",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7129d6c57182f4e53a4fd0f6aac15de30ffc5bfa34bc639a19ee39d2856b3c07/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/7129d6c57182f4e53a4fd0f6aac15de30ffc5bfa34bc639a19ee39d2856b3c07",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250923-q2xsna1zev/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "persistence",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "81.31.197.165:7771"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2024-03-11 00:05:15",
+   "scanner_count": "37",
+   "scanner_match": "13",
+   "scanner_percent": "35.14"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68d2a4b4c24f53840f2ebc1c/reports/513502b9-8107-4860-96f5-9efddcfa9117/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2024-03-10T19:43:00Z",
+   "last_seen": "2024-03-10T19:43:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/7129d6c57182f4e53a4fd0f6aac15de30ffc5bfa34bc639a19ee39d2856b3c07/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,103 @@
+{
+ "sha256_hash": "617f49731ec94e41d229f5686f587f00b979b9c5b2e881a0d0b4c24e579bd34d",
+ "sha3_384_hash": "844cbd3b786f273cc7da910bd5390a7fa3580cd04274310ee463ee8d9ccc0911ed1669599401b3effc3a4bf0ef197994",
+ "sha1_hash": "ec6bfa143e881143b810aba6c0915f59df615172",
+ "md5_hash": "1ffa2ea1e2b21aebb0e69af93c246f59",
+ "first_seen": "2026-10-16 17:11:31",
+ "last_seen": null,
+ "file_name": "CFETEITServicio.apk",
+ "file_size": 25901442,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "bt0dotninja",
+ "origin_country": "MX",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1E847E023F515A99ACDC6A235F1E3679532301E0807939279270FF026FDF25CE8666ED2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "786432:eUw5lqWFVcAjoLihTWkVjRIXKnVKxeUwJQA:eHPFCUh79uKVKXfA",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "exe"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "153",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Jeevan_Malware_Rewards",
+   "author": "ShriTiger",
+   "description": "Detects JeevanReward variants using Technical, Anti-Analysis, and Indian SE keywords",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/261016-x9sx1aby9n/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Packed.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-01-21 06:04:04",
+   "scanner_count": "36",
+   "scanner_match": "9",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6ad27c0b2b4ae894419597d0/reports/818d14cb-1794-4e0d-9f9e-4ef087d901cf/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-01-20T23:21:00Z",
+   "last_seen": "2026-10-17T20:19:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/617f49731ec94e41d229f5686f587f00b979b9c5b2e881a0d0b4c24e579bd34d/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

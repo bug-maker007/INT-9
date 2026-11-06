@@ -1,0 +1,160 @@
+{
+ "sha256_hash": "814cd115a30c5b4bfbb276524774a3ad2396e7f346c9f083983131b3e08200d2",
+ "sha3_384_hash": "c281b0872bd2e0a34b860526cb18970a94d46d2fc47faed8f1f3b30976b180d23d5eed098b131bf0810eecd766330e0a",
+ "sha1_hash": "93a4f600802a7ebbdb3942d5dece330647ee4bd0",
+ "md5_hash": "f6e5b0295cd87069e7c519cb28f9d495",
+ "first_seen": "2026-03-21 20:50:43",
+ "last_seen": null,
+ "file_name": "Zenin.apk",
+ "file_size": 782638,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T14EF48C86F70AB863C9F7C7368275866AC9160D654B53E3871985723C1DBBBC08B85FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:iYJ6sgRMLzXHGrfgVKR9ubWZlxi2odwvi/RwncvOXyX:9J6s9LzXHGrYVKR9ubsPgw6ucvOg",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "SpyNote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Backdoor.791.origin.21864.12548.UNOFFICIAL"
+  ],
+  "downloads": "390",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/814cd115a30c5b4bfbb276524774a3ad2396e7f346c9f083983131b3e08200d2/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.49"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/814cd115a30c5b4bfbb276524774a3ad2396e7f346c9f083983131b3e08200d2",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/260321-zm99wabt6z/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "banker",
+    "defense_evasion",
+    "discovery",
+    "impact",
+    "persistence",
+    "privilege_escalation"
+   ],
+   "signatures": [
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "6"
+    },
+    {
+     "signature": "Tries to add a device administrator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "tcp.cloudpub.ru:57786"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Tripoli",
+   "status": "MALICIOUS",
+   "first_seen": "2026-03-21 20:51:26",
+   "scanner_count": "38",
+   "scanner_match": "22",
+   "scanner_percent": "57.89"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69bf04c5493cb7d62d0b56fd/reports/10777850-675a-40aa-b858-ae77f6699ff6/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/814cd115a30c5b4bfbb276524774a3ad2396e7f346c9f083983131b3e08200d2/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

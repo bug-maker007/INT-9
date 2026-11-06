@@ -1,0 +1,112 @@
+{
+ "sha256_hash": "fa767f2e2febf03528cc360ba154fd65774132cad9dcfa7805b54c3f870e2c79",
+ "sha3_384_hash": "396c002b416b8a0f2b225078fd4141eb8f1032c60b2702e83c32d4a786cb58325cacb1591bac309e6c35568262aae7fc",
+ "sha1_hash": "2c8c4691c8286b416e3a0f2462b69bbee04c12d0",
+ "md5_hash": "9ab846212ddbc8c3e1ffb7d65c0dbe78",
+ "first_seen": "2023-03-06 11:14:57",
+ "last_seen": null,
+ "file_name": "Chrome.apk",
+ "file_size": 3131919,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "sysk1ll3r",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T185E52343BA95C9A2D87EC6308FB186E4167BBD10CE4A9B673A0C331D19777D14F23A64",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:VuDnc1XH5KFV67DRKa8Eo3+leIP7k/XH/Pw4bxHeWbpXr6trjlnN:sDnc1XHEFVOo3ye0w/vP3bxHFl2trv",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "57.0% (.APK) Android Package (38500/1/9)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "15.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "antivm",
+  "apk",
+  "signed",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "android-debug",
+   "issuer_cn": "android-debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2012-01-07T05:25:06Z",
+   "valid_to": "2285-10-22T05:25:06Z",
+   "serial_number": "70114e4d",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "5c387b7f7a1c1cc01ecccf86c3664cef662d79c6c8c174eac8d3240b7713bd17",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SpyMax.20.origin.1494.31941.UNOFFICIAL"
+  ],
+  "downloads": "366",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/fa767f2e2febf03528cc360ba154fd65774132cad9dcfa7805b54c3f870e2c79/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.06"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/fa767f2e2febf03528cc360ba154fd65774132cad9dcfa7805b54c3f870e2c79",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "1",
+   "link": "https://tria.ge/reports/230306-nckexsca55/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2023-02-28 01:20:21",
+   "scanner_count": "25",
+   "scanner_match": "12",
+   "scanner_percent": "48.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/6405cb38bfec0852a68faed9/reports//overview"
+  }
+ },
+ "comments": null
+}

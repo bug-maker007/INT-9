@@ -1,0 +1,133 @@
+{
+ "sha256_hash": "3d4f63fc88ec8a4dfc9a5c3fee1a59ded40bbb2f4f04ed937c135b144e8a166d",
+ "sha3_384_hash": "8147896568e722b69ffa364cc731fa022a664ee4dc8dfe4030b7ee898cebdc7a67b4cd3dc0d9645e4330989e8ab6e832",
+ "sha1_hash": "0933eb400c15bdbbc075dbfb447cc81c2308e035",
+ "md5_hash": "5d082ee96d47c95b57141c58c1101556",
+ "first_seen": "2024-02-29 14:36:26",
+ "last_seen": null,
+ "file_name": "base.apk",
+ "file_size": 4628592,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "TR",
+ "anonymous": 1,
+ "signature": "GodFather",
+ "imphash": null,
+ "tlsh": "T18426EF46FB44A97BC4F7833242756626513ACC258B43E6872D6C723C18B7ADC4B86FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:JaG20AJgNs1g1j1sv4dDv23eAbwdclxBfefdyoMOzfr9+fh:UG29gN9UydSccxB2fdy3Fh",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "52.8% (.APK) Android Package (32500/1/6)",
+  "21.9% (.JAR) Java Archive (13500/1/2)",
+  "17.0% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "6.5% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.6% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "GodFather",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "md5WithRSAEncryption",
+   "valid_from": "2008-04-15T22:40:50Z",
+   "valid_to": "2035-09-01T22:40:50Z",
+   "serial_number": "b3998086d056cffa",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c8a2e9bccf597c2fb6dc66bee293fc13f2fc47ec77bc6b2b0d52c11f51192ab8",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Obfuscated.17748.10356.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Banker.AndroidOS.GodFather.4805.6221.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Spy.AndroidOS.Banker.9365.25951.UNOFFICIAL"
+  ],
+  "downloads": "467",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3d4f63fc88ec8a4dfc9a5c3fee1a59ded40bbb2f4f04ed937c135b144e8a166d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/3d4f63fc88ec8a4dfc9a5c3fee1a59ded40bbb2f4f04ed937c135b144e8a166d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "godfather",
+   "score": "10",
+   "link": "https://tria.ge/reports/240229-rzpvpsce66/",
+   "tags": [
+    "family:godfather",
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "godfather",
+     "c2": "https://t.me/kuterocaviroski"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.BankBot",
+   "status": "MALICIOUS",
+   "first_seen": "2024-02-26 16:46:12",
+   "scanner_count": "23",
+   "scanner_match": "5",
+   "scanner_percent": "21.74"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65e096925382d6240abb6f43/reports/6fd578ff-33e0-49f8-bdec-abfab3fe47a4/overview"
+  }
+ },
+ "comments": null
+}

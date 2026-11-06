@@ -1,0 +1,148 @@
+{
+ "sha256_hash": "9df10232d4f88ee647da3f00cc01d6524c530c897f3fbe764133f9de1f41910f",
+ "sha3_384_hash": "b398125376eb31bea6bff9593ad303546a5ea21295bece2309c3a80ca57e88830fcb0890afba2c955271507b90d63790",
+ "sha1_hash": "c101d2a01e0fc4ca035cfe434782426c19494bc8",
+ "md5_hash": "26ee7d061025d192ad00b72ce2639536",
+ "first_seen": "2026-05-08 09:24:56",
+ "last_seen": "2026-05-08 09:25:35",
+ "file_name": "stepapp.apk",
+ "file_size": 15168982,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1E5E61287FBC8986AC0F35732C5755AA144474C264B83DB839E58763C68BB6E05F1AFC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:J0zs4+kdynqGWizpe5rebEui78nBPu5X+Ud06eRLFZh7H/bYDQlNMjpP1x4:cs4+fnIkIWEzQBPu54jth7fbY7pPT4",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "50.0% (.APK) Android Package (27000/1/5)",
+  "23.1% (.VYM) VYM Mind Map (12500/1/3)",
+  "19.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "186",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/9df10232d4f88ee647da3f00cc01d6524c530c897f3fbe764133f9de1f41910f/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/9df10232d4f88ee647da3f00cc01d6524c530c897f3fbe764133f9de1f41910f",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260508-ldzj5afs8w/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-12-11 10:37:18",
+   "scanner_count": "24",
+   "scanner_match": "5",
+   "scanner_percent": "20.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fdac1586e92bda7024384f/reports/5cccf424-8e73-46ba-a3b1-3900651bda2a/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-12-10T08:29:00Z",
+   "last_seen": "2025-12-10T09:15:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/9df10232d4f88ee647da3f00cc01d6524c530c897f3fbe764133f9de1f41910f/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

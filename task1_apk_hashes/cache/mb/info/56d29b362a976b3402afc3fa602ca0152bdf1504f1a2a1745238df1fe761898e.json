@@ -1,0 +1,114 @@
+{
+ "sha256_hash": "56d29b362a976b3402afc3fa602ca0152bdf1504f1a2a1745238df1fe761898e",
+ "sha3_384_hash": "edb92a08d434c3432930849266a278378dda16bc68191ba56eb3e12d796a89b647086875e1607e3112d728bde7afe6fc",
+ "sha1_hash": "a41d1995cedcfd62cd41e569255e595f80c2c455",
+ "md5_hash": "9adeb0d560123f1ac3cb9c5b1b3187c5",
+ "first_seen": "2026-05-06 09:43:10",
+ "last_seen": "2026-05-06 09:44:23",
+ "file_name": "dmart (8).apk",
+ "file_size": 15181411,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T161E6122AF74A6CAFD9F7E3346D3A17A610256C258F03E18B7864B73C29F35C55A4A1C0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:TknkBg78yko0Ejpm//xEDdpJCBZmBAncBeGV7deF:TS78rsj0EDEZ6QGVM",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Dmart",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "155",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/56d29b362a976b3402afc3fa602ca0152bdf1504f1a2a1745238df1fe761898e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/56d29b362a976b3402afc3fa602ca0152bdf1504f1a2a1745238df1fe761898e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260506-lqn9xsat9m/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-06 09:44:39",
+   "scanner_count": "24",
+   "scanner_match": "2",
+   "scanner_percent": "8.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fb0d362fcb905ec28271a0/reports/8a3c8c44-1551-48f4-ad76-5da72a7192c1/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-06T07:59:00Z",
+   "last_seen": "2026-05-08T00:00:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/56d29b362a976b3402afc3fa602ca0152bdf1504f1a2a1745238df1fe761898e/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

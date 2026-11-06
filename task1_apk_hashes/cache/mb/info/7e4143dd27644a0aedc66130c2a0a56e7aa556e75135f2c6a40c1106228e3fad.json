@@ -1,0 +1,150 @@
+{
+ "sha256_hash": "7e4143dd27644a0aedc66130c2a0a56e7aa556e75135f2c6a40c1106228e3fad",
+ "sha3_384_hash": "8096200b1832b47b1e313e509ca7f49d46bfadc32ff2383ffcda0bc08ec80c7ea17c1694f87d1ddd702dd122a0686e41",
+ "sha1_hash": "6da1a8574e1cd927a139c7be328b867c243070d5",
+ "md5_hash": "1f5c2daab9da9349c61abe950c661aba",
+ "first_seen": "2024-04-28 23:11:28",
+ "last_seen": null,
+ "file_name": "Application.apk",
+ "file_size": 1991406,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T13A951243F626A45BD9F6D33221791232503B4D29CB47E78B2A483BBA78F79EC47461D0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:9//SRcduCkmkYwPxtlOHiPJ+PSD/yS+0VTWtHubvw8wiOZSmKIM7:VKR8uCbkX5ss0PSD6ECtObvXwiO4N7",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "395",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7e4143dd27644a0aedc66130c2a0a56e7aa556e75135f2c6a40c1106228e3fad/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/7e4143dd27644a0aedc66130c2a0a56e7aa556e75135f2c6a40c1106228e3fad",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240428-26tgksbe54/",
+   "tags": [
+    "family:irata",
+    "android",
+    "discovery",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Checks if the internet connection is available",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "irata",
+     "c2": "https://vahidtried.nitrocp.site/wa//contact.php?result=ok&action=upload&androidid="
+    },
+    {
+     "extraction": "c2",
+     "family": "irata",
+     "c2": "https://vahidtried.nitrocp.site/wa//requests.php"
+    },
+    {
+     "extraction": "c2",
+     "family": "irata",
+     "c2": "https://vahidtried.nitrocp.site/wa//sms.php?result=ok&action=upload&androidid="
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Backdoor.Basdoor",
+   "status": "MALICIOUS",
+   "first_seen": "2024-04-24 13:24:36",
+   "scanner_count": "24",
+   "scanner_match": "11",
+   "scanner_percent": "45.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/662ed7c247bfd8641eb9996b/reports/cf17bac7-fc6d-433b-b3da-f2c078e535c1/overview"
+  }
+ },
+ "comments": null
+}

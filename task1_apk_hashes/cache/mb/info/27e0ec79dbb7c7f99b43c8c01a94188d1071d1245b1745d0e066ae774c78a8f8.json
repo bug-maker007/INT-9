@@ -1,0 +1,140 @@
+{
+ "sha256_hash": "27e0ec79dbb7c7f99b43c8c01a94188d1071d1245b1745d0e066ae774c78a8f8",
+ "sha3_384_hash": "efe18d67605eb599a6eb6f03a3d8fcf24fe85407f249ff1eb48464e5f23c5866a25d5bc9be46d109bfdc380ed65550a0",
+ "sha1_hash": "91639afbface1289c1f35ed1e822843ad75514a7",
+ "md5_hash": "aa294efd44594b64eb93904dbb3c7a2c",
+ "first_seen": "2022-08-17 16:02:02",
+ "last_seen": null,
+ "file_name": "Santander-trusteer.apk",
+ "file_size": 3239219,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "1ZRR4H",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "BRATA",
+ "imphash": null,
+ "tlsh": "T1F8E533ACBB4AD115C0951E7164165DF7C308C39CA6C0AE675EC6EA4A8EB3D02FF12CE5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:1eVM3OTHHj0B8GJPl1LUV9dcKUQA1QgfJRbdpA52:sVM3OvGdLMdXUb1QMRhp02",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "BRATA",
+  "carriagetourbrussels-com",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Packed.54935.21118.1604.UNOFFICIAL"
+  ],
+  "downloads": "538",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "BitcoinAddress",
+   "author": "Didier Stevens (@DidierStevens)",
+   "description": "Contains a valid Bitcoin address",
+   "reference": ""
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/27e0ec79dbb7c7f99b43c8c01a94188d1071d1245b1745d0e066ae774c78a8f8/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/27e0ec79dbb7c7f99b43c8c01a94188d1071d1245b1745d0e066ae774c78a8f8",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "brata",
+   "score": "10",
+   "link": "https://tria.ge/reports/220817-tgtr2shgam/",
+   "tags": [
+    "family:brata",
+    "android",
+    "banker",
+    "infostealer",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Brata",
+     "score": "10"
+    },
+    {
+     "signature": "Brata payload",
+     "score": "10"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.BasBanke",
+   "status": "MALICIOUS",
+   "first_seen": "2022-08-17 16:03:29",
+   "scanner_count": "39",
+   "scanner_match": "8",
+   "scanner_percent": "20.51"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62fd117d3cbb9456913d0af2/reports/fefad14a-3ce3-47a2-89f3-ef3697e7faf6/overview"
+  }
+ },
+ "comments": null
+}

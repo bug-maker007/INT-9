@@ -1,0 +1,158 @@
+{
+ "sha256_hash": "4b2b411e03aafaa19ea93286fadd39a5134f4a039db2d5019b1054547c0d5601",
+ "sha3_384_hash": "d60710d79a69725886fa3129e93793e156366e192c0cdaed88f04ee9520724c6bb909829e09315659bad17af588df5d2",
+ "sha1_hash": "b7344760b4ae009650f2702dbf94f5654cf5c80c",
+ "md5_hash": "c181230a4008a8f42a4f03b63ba69a7a",
+ "first_seen": "2025-06-25 18:51:29",
+ "last_seen": null,
+ "file_name": "ready.apk",
+ "file_size": 9903848,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "burger403",
+ "origin_country": "NL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T123A6F143FB45CA9BD8A983F16B370FA92A130F28C643AAD74055766F2E774C14D85ACC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:ZLNRZKC/8A3NSwgnuzd+RAVY/cgDmzw8zByTA0tsDKek:NNiC/hSuzd+RB/JizwLr9",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "33.7% (.APK) Android Package (27000/1/5)",
+  "16.8% (.JAR) Java Archive (13500/1/2)",
+  "16.8% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "14.3% (.SUBLIME-PACKAGE) Sublime Text Package (generic) (11500/1/3)",
+  "13.1% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "spynote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "md5WithRSAEncryption",
+   "valid_from": "2008-04-15T23:40:57Z",
+   "valid_to": "2035-09-01T23:40:57Z",
+   "serial_number": "f2b98e6123572c4e",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "465983f7791f2abeb43ea2cbdc7f21a8260b72bc08a55c839fc1a43bc741a81e",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SpyMax.37.origin.18059.18102.UNOFFICIAL",
+   "SecuriteInfo.com.Android.SpyMax.37.origin.21157.23321.UNOFFICIAL"
+  ],
+  "downloads": "8280",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/4b2b411e03aafaa19ea93286fadd39a5134f4a039db2d5019b1054547c0d5601/"
+  },
+  "YOROI_YOMI": {
+   "detection": "SpyNote",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/4b2b411e03aafaa19ea93286fadd39a5134f4a039db2d5019b1054547c0d5601",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250625-xhvbragl2w/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "execution",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-06-25 18:52:38",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/685c45423faf8fcd7d422049/reports/4d2c9a2b-c0c3-4c64-bf79-8ef02dd533bc/overview"
+  }
+ },
+ "comments": null
+}

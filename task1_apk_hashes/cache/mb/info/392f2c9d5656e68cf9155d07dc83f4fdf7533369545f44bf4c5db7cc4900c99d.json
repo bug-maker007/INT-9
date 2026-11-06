@@ -1,0 +1,105 @@
+{
+ "sha256_hash": "392f2c9d5656e68cf9155d07dc83f4fdf7533369545f44bf4c5db7cc4900c99d",
+ "sha3_384_hash": "22e1c8f75dc54ff56622a5d57bd403a2e42ac6f2323a55b5288baf745030c47aeb209d1b565eb62e21f507213774141a",
+ "sha1_hash": "13aeaea9b7601539a170e38a56dd44173454c668",
+ "md5_hash": "29005e3560f583a14d22f348dc7e3db1",
+ "first_seen": "2021-10-14 19:44:30",
+ "last_seen": null,
+ "file_name": "Android_Guncelleme (1).apk",
+ "file_size": 2790232,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1DED522D40B426CB9C5794D35634361A27D301A12BBA7ED7B147A74B1BFA3A20824BFF4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:8GS4YhJIRbSWNQhxZDIUo9yYThVD6ST4I7NmfP3BDjyEmakQDPr4qA:8GTkItS8mZRo9vhVGSsI7Nm35GxakQDy",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "379",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "anubis",
+   "link": "https://mwdb.cert.pl/sample/392f2c9d5656e68cf9155d07dc83f4fdf7533369545f44bf4c5db7cc4900c99d/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/392f2c9d5656e68cf9155d07dc83f4fdf7533369545f44bf4c5db7cc4900c99d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/211014-ygds2sbabl/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://194.163.187.220"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-10-14 19:45:07",
+   "scanner_count": "35",
+   "scanner_match": "5",
+   "scanner_percent": "14.29"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/616888c29fb4d8593d653024/reports/8bc93959-d0d6-432d-87b3-67928fbb6748/overview"
+  }
+ },
+ "comments": null
+}

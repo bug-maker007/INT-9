@@ -1,0 +1,175 @@
+{
+ "sha256_hash": "97e63e6063345318325b666c54cdffb474725349d948626ef5671bb22020e335",
+ "sha3_384_hash": "7d83279c38198b51fb36e1cc59d14deffb43516e008c1504313c7f3b723c937cf48c6d9dc7cc59f10ff2040f867b776c",
+ "sha1_hash": "825fe03f6a74c64c67c9d3397e171c9fd0c1bbaa",
+ "md5_hash": "6c92b035eb2d537146d480dfb1d0cec8",
+ "first_seen": "2024-08-01 10:30:46",
+ "last_seen": null,
+ "file_name": "My Personal Family Pics.apk",
+ "file_size": 45843,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "SpyMax",
+ "imphash": null,
+ "tlsh": "T12123E107AF9584CAFF1B9B3443F7E61AFD32CBE0154486875A2DAD346CD1A602741E8D",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "768:qUAcH4h5nNNW35xw2m0sQZnBF2pDAY9NAWW/GCFzKmK/3Sd7:qj35NedFZnOAY9NAWWdFzkvC7",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "5-189-136-230",
+  "apk",
+  "signed",
+  "SpyMax"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "368",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "QbotStuff",
+   "author": "anonymous",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "SUSP_Websites",
+   "author": "SECUINFRA Falcon Team",
+   "description": "Detects the reference of suspicious sites that might be used to download further malware",
+   "reference": null
+  },
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/97e63e6063345318325b666c54cdffb474725349d948626ef5671bb22020e335/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/97e63e6063345318325b666c54cdffb474725349d948626ef5671bb22020e335",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spymax",
+   "score": "10",
+   "link": "https://tria.ge/reports/240801-mkc55szhkc/",
+   "tags": [
+    "family:spymax",
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Legitimate hosting services abused for malware hosting/C2",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spymax",
+     "c2": "5.189.136.230:7860"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2024-07-25 12:11:54",
+   "scanner_count": "38",
+   "scanner_match": "11",
+   "scanner_percent": "28.95"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/66ab63f6dfa8b2fced50b18a/reports/df40c00a-7fda-4004-b74b-f6b893f73ed6/overview"
+  }
+ },
+ "comments": null
+}

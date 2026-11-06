@@ -1,0 +1,99 @@
+{
+ "sha256_hash": "34bec3b2747ed7531993c73f04968c56e79f05f3b26b91cad256c9bbd5cf1beb",
+ "sha3_384_hash": "be59d7bb2bd07d3e8f487f397d0e5402221f11f87fd5edf1ee54c6fbf7dcec80bcbca2b0bad6a58ae60ccad3704738e3",
+ "sha1_hash": "a29e9a87eba94d9019b50326434cd0837d5c3966",
+ "md5_hash": "0c43708df373ed87213329c50381b767",
+ "first_seen": "2021-04-24 15:32:04",
+ "last_seen": null,
+ "file_name": "Avast Antivirus ULTIMATE 2021.apk",
+ "file_size": 528987,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ActorExpose",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Anubis",
+ "imphash": null,
+ "tlsh": "36B423303FFDD8E9F1073A3094C7AE31550EE5691548A426368344AD2EF79C6E2F663A",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:sLDN8Aid8x4eQ8YSJM8OgFrar53im6opD5djTR:sPNGdWNOvgFrAimND9",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.670.origin.31604.9783.UNOFFICIAL"
+  ],
+  "downloads": "354",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/34bec3b2747ed7531993c73f04968c56e79f05f3b26b91cad256c9bbd5cf1beb/"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/34bec3b2747ed7531993c73f04968c56e79f05f3b26b91cad256c9bbd5cf1beb",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "anubis",
+   "score": "10",
+   "link": "https://tria.ge/reports/210424-hbqmyl95wx/",
+   "tags": [
+    "family:anubis",
+    "android",
+    "banker",
+    "infostealer",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Anubis banker",
+     "score": "10"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "anubis",
+     "c2": "http://ktosdelaetskrintotpidor.com"
+    },
+    {
+     "extraction": "c2",
+     "family": "anubis",
+     "c2": "http://sositehuypidarasi.com"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2021-04-24 15:32:13",
+   "scanner_count": "29",
+   "scanner_match": "10",
+   "scanner_percent": "34.48"
+  }
+ },
+ "comments": null
+}

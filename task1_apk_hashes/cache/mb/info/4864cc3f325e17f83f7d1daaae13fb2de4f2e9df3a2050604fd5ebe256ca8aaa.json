@@ -1,0 +1,140 @@
+{
+ "sha256_hash": "4864cc3f325e17f83f7d1daaae13fb2de4f2e9df3a2050604fd5ebe256ca8aaa",
+ "sha3_384_hash": "b395644621d1505a687a1a354efc79f306d73019c66b8fc4bfdfac7c0b3ab22e2917caac234c20c3358cd1d6ef9d3c4b",
+ "sha1_hash": "001046cc2e888ee4b9cddc71106ae8bb91bd0deb",
+ "md5_hash": "ca9f9081abe991d666fdd46a8cb01bad",
+ "first_seen": "2023-12-03 14:44:46",
+ "last_seen": null,
+ "file_name": "app.apk",
+ "file_size": 4289655,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1AD16BEC6FBD89C2FCC7720B5CA5A53B112265C198342CF836A54372C69B76E84F69BC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:Eg8gnW8glqBq6qwGna0R6rS+7fxDOz0giD0boTYrZRzEI:fW8gJiI6rdfxDOzWDu5",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "43.9% (.APK) Android Package (32500/1/6)",
+  "18.2% (.JAR) Java Archive (13500/1/2)",
+  "16.8% (.VYM) VYM Mind Map (12500/1/3)",
+  "14.1% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "test",
+   "issuer_cn": "test",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2023-10-21T20:42:26Z",
+   "valid_to": "2048-10-14T20:42:26Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "f876c79855027484f49788113d9062c338b7a33e86e42bc799bc3fab906bc6d5",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Siggen.Susp.5545.11009.19052.UNOFFICIAL"
+  ],
+  "downloads": "338",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "maldoc_getEIP_method_1",
+   "author": "Didier Stevens (https://DidierStevens.com)",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "meth_get_eip",
+   "author": "Willi Ballenthin",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/4864cc3f325e17f83f7d1daaae13fb2de4f2e9df3a2050604fd5ebe256ca8aaa/"
+  },
+  "YOROI_YOMI": {
+   "detection": "DriveBy Activity",
+   "score": "0.90"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/4864cc3f325e17f83f7d1daaae13fb2de4f2e9df3a2050604fd5ebe256ca8aaa",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/231203-r4qb2acc72/",
+   "tags": [
+    "family:irata",
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-12-03 14:45:09",
+   "scanner_count": "23",
+   "scanner_match": "9",
+   "scanner_percent": "39.13"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/656c946fd1277c463a238143/reports/bf0fc02e-d381-45ae-bc4e-43e3aa644a53/overview"
+  }
+ },
+ "comments": null
+}

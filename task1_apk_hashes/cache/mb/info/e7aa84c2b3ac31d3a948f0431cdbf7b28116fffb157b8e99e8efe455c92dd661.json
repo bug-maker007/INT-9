@@ -1,0 +1,144 @@
+{
+ "sha256_hash": "e7aa84c2b3ac31d3a948f0431cdbf7b28116fffb157b8e99e8efe455c92dd661",
+ "sha3_384_hash": "067eb9559d75172953283f056e10c20a856219657e084c4c8e525d3889033d9881991829b4644358eb10421cc5624ea3",
+ "sha1_hash": "12e98363539ad672a2c7effb04434fe28148dddd",
+ "md5_hash": "f967267c0bf0ae354bc39aaf80d6b65f",
+ "first_seen": "2026-02-15 17:51:48",
+ "last_seen": "2026-03-14 16:58:52",
+ "file_name": "update.apk",
+ "file_size": 1365190,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": "PixRevolution",
+ "imphash": null,
+ "tlsh": "T10C558B46FBD99E2ECC7340364F5A5631154AAD23C783C383D968365C78BB6E40E897E8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:RRy6s+Pbf4WAfNHvhvDHMU4zgdVHRhrV25agt/7N9EvKnAiu:RUAz4WAfphvDHMkdVxrgJ7Nvpu",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "109-110-184-242",
+  "200-9-154-125",
+  "apk",
+  "banker",
+  "correios-aplicativo-br-com",
+  "PixRevolution"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan.AndroidOS.Agent.9067.31992.UNOFFICIAL"
+  ],
+  "downloads": "199",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropped_by_sha256",
+   "value": "e9b41fd64d8702f974e63374a03ad914b6f1b24e8ddd96c29ff14ce81713676f"
+  },
+  {
+   "context": "dropped_by_md5",
+   "value": "1c705b18d3d7e5fa06c8719b0cab2411"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e7aa84c2b3ac31d3a948f0431cdbf7b28116fffb157b8e99e8efe455c92dd661/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/e7aa84c2b3ac31d3a948f0431cdbf7b28116fffb157b8e99e8efe455c92dd661",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260215-wftrrsgw7c/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-02-15 01:17:10",
+   "scanner_count": "23",
+   "scanner_match": "5",
+   "scanner_percent": "21.74"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/699207ce981ff1d38a56ad03/reports/9a237e56-2b0f-42e0-b84d-5dd7ea8173d6/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/e7aa84c2b3ac31d3a948f0431cdbf7b28116fffb157b8e99e8efe455c92dd661/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

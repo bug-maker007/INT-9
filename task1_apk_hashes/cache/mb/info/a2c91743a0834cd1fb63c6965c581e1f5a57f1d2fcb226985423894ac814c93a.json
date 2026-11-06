@@ -1,0 +1,97 @@
+{
+ "sha256_hash": "a2c91743a0834cd1fb63c6965c581e1f5a57f1d2fcb226985423894ac814c93a",
+ "sha3_384_hash": "4fab6ad44e3f0fbc239a4b95cd3c01739e08f320377c4105246c2029d190585cb6a8f2fb631fae9b861f7ec337a52d61",
+ "sha1_hash": "219008f34810ef684dbe0f3700fedea52d197a8e",
+ "md5_hash": "62f500d8d63a71a821f9de8932101be7",
+ "first_seen": "2021-11-18 13:34:59",
+ "last_seen": null,
+ "file_name": "db.apk",
+ "file_size": 9694264,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T11BA6339BE8C01183FF6B997F104B0544631049962693C43FC1882A985BE9FDD76EBDAF",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:vjmpFvagIUWhZu22HEJyQuzUZZyNWGsDWx0RiQdyjynFAL9Y:vj2W+2eMyQxH2WG4Wabyj40Y",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra",
+  "torhydra"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "212",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a2c91743a0834cd1fb63c6965c581e1f5a57f1d2fcb226985423894ac814c93a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/a2c91743a0834cd1fb63c6965c581e1f5a57f1d2fcb226985423894ac814c93a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/211118-qvn7yagcc9/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Anubis",
+   "status": "MALICIOUS",
+   "first_seen": "2021-11-15 19:47:00",
+   "scanner_count": "25",
+   "scanner_match": "8",
+   "scanner_percent": "32.00"
+  },
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/619656892695a62af9f30636/reports/1ad1f53e-0b8c-4b82-80a0-5df3dce679ed/overview"
+  }
+ },
+ "comments": null
+}

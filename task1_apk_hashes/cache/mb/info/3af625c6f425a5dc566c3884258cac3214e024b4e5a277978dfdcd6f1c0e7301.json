@@ -1,0 +1,157 @@
+{
+ "sha256_hash": "3af625c6f425a5dc566c3884258cac3214e024b4e5a277978dfdcd6f1c0e7301",
+ "sha3_384_hash": "159f8f2b037f765443699a091f0cdcb4f5d9414580b81b6717c01c8f06be3441f128175561c4ef91a004d7e19117ad00",
+ "sha1_hash": "66754f155d8e15e96b261ec9d1e113046f4d4c92",
+ "md5_hash": "4cd97fae361aaba503c9b1c0cb3fd7eb",
+ "first_seen": "2025-06-09 16:41:57",
+ "last_seen": "2025-06-24 09:53:30",
+ "file_name": "Execulator RAT.apk",
+ "file_size": 2967323,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "motmaenbash",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T139D52253F762A46BC8F2D37626755236117B5D298B43E78F3A04B7BA34BB9E80B404C1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:t81WdR4feeukjB2NA9vKG4WeOJ7tGei/hFDUkBlqQW7utuWkIGcJGMr:tvdR4f9ukN2NgSPqQWqtuw3r",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "iran",
+  "IRATA",
+  "malware",
+  "phishing",
+  "signed",
+  "trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "editor",
+   "issuer_cn": "editor",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-01-10T08:03:09Z",
+   "valid_to": "2115-12-17T08:03:09Z",
+   "serial_number": "231bc320",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "6215f00baa4bf18bab5792fc796bfc5555917240f14f7c7e672d956888d75c96",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.989.origin.13743.17440.UNOFFICIAL"
+  ],
+  "downloads": "340",
+  "uploads": "3",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3af625c6f425a5dc566c3884258cac3214e024b4e5a277978dfdcd6f1c0e7301/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Copybara",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/3af625c6f425a5dc566c3884258cac3214e024b4e5a277978dfdcd6f1c0e7301",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/250609-t7p7jsfk3y/",
+   "tags": [
+    "family:irata",
+    "android",
+    "discovery",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "irata",
+     "c2": "http://5.255.117.115:1117/api"
+    },
+    {
+     "extraction": "c2",
+     "family": "irata",
+     "c2": "http://5.255.117.115:1117/upload"
+    },
+    {
+     "extraction": "c2",
+     "family": "irata",
+     "c2": "http://5.255.117.115:1117/url"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-07-11 15:54:27",
+   "scanner_count": "36",
+   "scanner_match": "11",
+   "scanner_percent": "30.56"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/68470eee171e01f9593a90c6/reports//overview"
+  }
+ },
+ "comments": null
+}

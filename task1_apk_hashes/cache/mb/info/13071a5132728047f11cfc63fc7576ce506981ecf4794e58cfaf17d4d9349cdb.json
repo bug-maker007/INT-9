@@ -1,0 +1,116 @@
+{
+ "sha256_hash": "13071a5132728047f11cfc63fc7576ce506981ecf4794e58cfaf17d4d9349cdb",
+ "sha3_384_hash": "3cfdfdb89f111c70608099f2a68e35e1733241f846f7038a00cdb2473bcd048d722fabf6b0f393b2250de1f78af061c4",
+ "sha1_hash": "49974af557037cd5fe7aeacff31334598a396454",
+ "md5_hash": "e85acf42bb804f201e94105d1ec688e4",
+ "first_seen": "2021-10-11 17:48:13",
+ "last_seen": "2021-10-12 13:00:30",
+ "file_name": "Android_Update_build_flow.apk",
+ "file_size": 188330,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1EF0412DB8B70C99ED59778752BF3A75207BA89A0E3DBE391066EC0415C39ED01D36830",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "3072:DcLcelldC3cY4RB6klmflCpkFE6bBa15gFYIWe+XHK+FMn9LKAl+Az0DLK7t++wD:ocexO4RB6TlQkF3bBa15Ip0rW9+Al+Aq",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.833.origin.20972.6040.UNOFFICIAL"
+  ],
+  "downloads": "288",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1667743/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1670789/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/13071a5132728047f11cfc63fc7576ce506981ecf4794e58cfaf17d4d9349cdb/"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/13071a5132728047f11cfc63fc7576ce506981ecf4794e58cfaf17d4d9349cdb",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/211011-wd1gjahgcj/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "https://yurdadonusvakfi.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2021-10-11 17:49:04",
+   "scanner_count": "43",
+   "scanner_match": "11",
+   "scanner_percent": "25.58"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "0.6666666666666667",
+   "report_link": "https://www.filescan.io/uploads/61647910fd35fe780c388cce/reports/6b90eaa3-c45f-4040-9c1b-9fc4fa189c2d/overview"
+  }
+ },
+ "comments": null
+}

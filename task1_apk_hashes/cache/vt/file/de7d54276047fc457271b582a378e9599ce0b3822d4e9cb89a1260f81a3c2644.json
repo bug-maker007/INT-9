@@ -1,0 +1,1914 @@
+{
+ "type_tags": [
+  "executable",
+  "mobile",
+  "android",
+  "apk"
+ ],
+ "sha256": "de7d54276047fc457271b582a378e9599ce0b3822d4e9cb89a1260f81a3c2644",
+ "filecondis": {
+  "dhash": "0000001a1a190c00",
+  "raw_md5": "067a819100e9667f82f7eac94d03ba15"
+ },
+ "ssdeep": "1572864:OuKALSX9ZlRAJwrXw4zDNcWotB1szAJqOij98CYSGQcabbCT1VbgzBKuEd:OuKALmleuk4zDNstIOy8CYStDfCSKR",
+ "magic": "Zip archive data, at least v2.0 to extract, compression method=deflate",
+ "bundle_info": {
+  "highest_datetime": "1980-01-01 08:30:00",
+  "lowest_datetime": "1980-01-01 08:30:00",
+  "num_children": 11164,
+  "extensions": {
+   "jpg": 1,
+   "webp": 523,
+   "meta": 2,
+   "spo": 62,
+   "txt": 4,
+   "ttf": 6,
+   "profm": 1,
+   "xml": 56,
+   "lottie": 1,
+   "proto": 2,
+   "json": 26,
+   "version": 1,
+   "png": 93,
+   "tsv": 63,
+   "prof": 1,
+   "oba": 1,
+   "bin": 6,
+   "rng": 2,
+   "otf": 1,
+   "argo": 2,
+   "properties": 53,
+   "CoroutineExceptionHandler": 1,
+   "dex": 9,
+   "knm": 19,
+   "level": 1,
+   "svg": 11,
+   "BuiltInsLoader": 1,
+   "jwt": 2,
+   "kotlin_builtins": 7,
+   "dtd": 2,
+   "so": 6,
+   "xsd": 3,
+   "html": 2,
+   "pack": 1
+  },
+  "file_types": {
+   "XML": 70,
+   "DEX": 8,
+   "ZIP": 1,
+   "unknown": 816,
+   "ELF": 6,
+   "JPG": 1,
+   "JSON": 5,
+   "PNG": 93
+  },
+  "type": "APK",
+  "uncompressed_size": 126876004
+ },
+ "md5": "08fd47d4579bf2aa54a834368943d99c",
+ "times_submitted": 9,
+ "last_submission_date": 1773767615,
+ "first_submission_date": 1773480563,
+ "names": [
+  "de7d54276047fc457271b582a378e9599ce0b3822d4e9cb89a1260f81a3c2644",
+  "de7d54276047fc457271b582a378e9599ce0b3822d4e9cb89a1260f81a3c2644.apk",
+  "GBWhatsApp_Updated.apk"
+ ],
+ "magika": "APK",
+ "crowdsourced_yara_results": [
+  {
+   "ruleset_id": "0122a7f913",
+   "ruleset_version": "0122a7f913|589bbefc22847193cac455858fa15e627d671918",
+   "ruleset_name": "Windows_API_Function",
+   "rule_name": "Windows_API_Function",
+   "match_date": 1776964169,
+   "description": "This signature detects the presence of a number of Windows API functionality often seen within embedded executables. When this signature alerts on an executable, it is not an indication of malicious behavior. However, if seen firing in other file types, deeper investigation may be warranted.",
+   "author": "InQuest Labs",
+   "source": "https://github.com/InQuest/yara-rules-vt"
+  },
+  {
+   "ruleset_id": "0121ae37cc",
+   "ruleset_version": "0121ae37cc|589bbefc22847193cac455858fa15e627d671918",
+   "ruleset_name": "Adobe_XMP_Identifier",
+   "rule_name": "Adobe_XMP_Identifier",
+   "match_date": 1776964169,
+   "description": "This signature identifies Adobe Extensible Metadata Platform (XMP) identifiers embedded within files. Defined as a standard for mapping graphical asset relationships, XMP allows for tracking of both parent-child relationships and individual revisions. There are three categories of identifiers: original document, document, and instance. Generally, XMP data is stored in XML format, updated on save/copy, and embedded within the graphical asset. These identifiers can be used to track both malicious and benign graphics within common Microsoft and Adobe document lures.",
+   "author": "InQuest Labs",
+   "source": "https://github.com/InQuest/yara-rules-vt"
+  }
+ ],
+ "tags": [
+  "telephony",
+  "reflection",
+  "checks-gps",
+  "apk",
+  "sends-sms",
+  "obfuscated",
+  "contains-elf",
+  "android"
+ ],
+ "size": 99587225,
+ "trid": [
+  {
+   "file_type": "Android Package",
+   "probability": 87.0
+  },
+  {
+   "file_type": "ZIP compressed archive",
+   "probability": 12.9
+  }
+ ],
+ "last_modification_date": 1793869164,
+ "type_extension": "apk",
+ "type_tag": "android",
+ "last_analysis_stats": {
+  "malicious": 21,
+  "suspicious": 0,
+  "undetected": 43,
+  "harmless": 0,
+  "timeout": 0,
+  "confirmed-timeout": 3,
+  "failure": 0,
+  "type-unsupported": 9
+ },
+ "reputation": -13,
+ "sha1": "e6ef8f7908683eb6b9583be77c33cbc055d1b7fb",
+ "popular_threat_classification": {
+  "suggested_threat_label": "trojan.triada/xyxkxf",
+  "popular_threat_category": [
+   {
+    "count": 11,
+    "value": "trojan"
+   }
+  ],
+  "popular_threat_name": [
+   {
+    "count": 9,
+    "value": "triada"
+   },
+   {
+    "count": 2,
+    "value": "xyxkxf"
+   }
+  ]
+ },
+ "unique_sources": 7,
+ "androguard": {
+  "VTAndroidInfo": 2.0,
+  "Libraries": [
+   "androidx.window.extensions",
+   "androidx.window.sidecar",
+   "com.sec.android.app.multiwindow",
+   "org.apache.http.legacy"
+  ],
+  "AndroidApplicationError": false,
+  "MinSdkVersion": "21",
+  "AndroguardVersion": "4.1.2",
+  "Activities": [
+   "com.whatsapp.Main",
+   "androidx.car.app.CarAppPermissionActivity",
+   "androidx.credentials.playservices.controllers.identityauth.HiddenActivity",
+   "androidx.credentials.playservices.controllers.identitycredentials.IdentityCredentialApiHiddenActivity",
+   "com.android.billingclient.api.ProxyBillingActivity",
+   "com.android.billingclient.api.ProxyBillingActivityV2",
+   "com.facebook.smartcapture.view.IdCaptureActivity",
+   "com.facebook.smartcapture.view.SelfieCaptureActivity",
+   "com.facebook.smartcapture.view.SelfieCapturePermissionsActivity",
+   "com.facebook.smartcapture.view.SelfieDataInformationActivity",
+   "com.facebook.smartcapture.view.SelfieOnboardingActivity",
+   "com.facebook.smartcapture.view.SelfiePhotoCaptureActivity",
+   "com.facebook.smartcapture.view.SelfieReviewActivity",
+   "com.facebook.smartcapture.view.SelfieTimeoutActivity",
+   "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+   "com.google.android.gms.common.api.GoogleApiActivity",
+   "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+   "com.google.mlkit.vision.documentscanner.internal.GmsDocumentScanningDelegateActivity",
+   "com.meta.foa.cds.bottomsheet.WaFoaActivity",
+   "com.meta.foa.deeplink.WaCommonDeeplinkActivity",
+   "com.whatsapp.Conversation",
+   "com.whatsapp.accountdelete.account.delete.DeleteAccountActivity",
+   "com.whatsapp.accountdelete.account.delete.DeleteAccountConfirmation",
+   "com.whatsapp.accountdelete.account.delete.DeleteAccountFeedbackActivity",
+   "com.whatsapp.accountdelete.account.delete.deletev2.view.DeleteAccountV2Activity",
+   "com.whatsapp.accountdelete.phonematching.CountryPicker",
+   "com.whatsapp.accountlinking.auth.xfamily.ui.AccountLinkingWebAuthActivity",
+   "com.whatsapp.accountlinking.xfamily.ui.AccountLinkingNativeAuthActivity",
+   "com.whatsapp.accountswitching.product.account.remove.RemoveAccountActivity",
+   "com.whatsapp.accountswitching.routing.AccountSwitchingRoutingActivity",
+   "com.whatsapp.accountswitching.secondaryprocess.AccountSwitchingActivity",
+   "com.whatsapp.accountsync.CallContactLandingActivity",
+   "com.whatsapp.accountsync.LoginActivity",
+   "com.whatsapp.accountsync.ProfileActivity",
+   "com.whatsapp.ageverification.idv.AuthenticityActivity",
+   "com.whatsapp.aicreation.product.ui.AiAvatarCroppingActivity",
+   "com.whatsapp.aicreation.product.ui.AiCreationActivity",
+   "com.whatsapp.aihome.product.ui.AIHomeActivity",
+   "com.whatsapp.aiugccalling.product.ui.UgcCallingActivity",
+   "com.whatsapp.authentication.AppAuthSettingsActivity",
+   "com.whatsapp.authentication.AppAuthenticationActivity",
+   "com.whatsapp.authgraphql.ui.CommonBloksActivity",
+   "com.whatsapp.avatar.ui.editor.AvatarEditorLauncherActivity",
+   "com.whatsapp.avatar.ui.home.AvatarHomeActivity",
+   "com.whatsapp.avatar.ui.privacy.AvatarStickerAllowListPickerActivity",
+   "com.whatsapp.avatar.ui.privacy.AvatarStickerPrivacySettings",
+   "com.whatsapp.avatar.ui.profilephoto.AvatarProfilePhotoActivity",
+   "com.whatsapp.avatar.ui.profilephotocf.AvatarCoinFlipPoseSelectionActivity",
+   "com.whatsapp.backup.encryptedbackup.EncBackupMainActivity",
+   "com.whatsapp.backup.google.GoogleDriveNewUserSetupActivity",
+   "com.whatsapp.backup.google.RestoreFromBackupActivity",
+   "com.whatsapp.backup.google.RestoreTransferSelectorActivity",
+   "com.whatsapp.backup.google.SettingsGoogleDrive",
+   "com.whatsapp.backup.google.restart.RestartAppActivity",
+   "com.whatsapp.biz.BusinessProfileExtraFieldsActivity",
+   "com.whatsapp.biz.businessupsell.BusinessAppEducation",
+   "com.whatsapp.biz.linkedaccounts.LinkedAccountMediaView",
+   "com.whatsapp.bizintegrity.remediation.ui.VideoRemediationActivity",
+   "com.whatsapp.bizintegrity.ui.callpermission.callback.BizCallbackActivity",
+   "com.whatsapp.blockbusiness.BlockBusinessActivity",
+   "com.whatsapp.blockinguserinteraction.BlockingUserInteractionActivity",
+   "com.whatsapp.blocklist.ui.BlockList",
+   "com.whatsapp.bloks.wabloks.ui.WaBloksActivity",
+   "com.whatsapp.bloks.wabloks.ui.WaBloksActivityWithCustomPreloadScreens",
+   "com.whatsapp.bloks.wabloks.ui.WaBloksBottomSheetActivity",
+   "com.whatsapp.bloks.wabloks.ui.WaFcsBottomSheetModalActivity",
+   "com.whatsapp.bloks.wabloks.ui.WaFcsModalActivity",
+   "com.whatsapp.bloks.wabloks.ui.WaFcsPreloadedBloksActivity",
+   "com.whatsapp.bloks.wabloks.ui.bottomsheet.BloksCDSBottomSheetActivity",
+   "com.whatsapp.bloks.wabloks.ui.bottomsheet.BloksCDSPreloadCDSBottomSheetActivity",
+   "com.whatsapp.bloks.wabloks.ui.screenquery.WaSqBloksActivity",
+   "com.whatsapp.bot.botmemory.MemoryActivity",
+   "com.whatsapp.bot.proactivemessage.ui.ProactiveMessageSettingsActivity",
+   "com.whatsapp.bot.product.album.BotMediaAlbumActivity",
+   "com.whatsapp.bot.product.album.BotMediaViewActivity",
+   "com.whatsapp.bot.product.onboarding.BotOnboardingActivity",
+   "com.whatsapp.bot.voice.RequestAiVoicePermissionActivity",
+   "com.whatsapp.businesscollection.ui.view.activity.CollectionProductListActivity",
+   "com.whatsapp.businessproduct.ui.biz.product.view.activity.ProductDetailActivity",
+   "com.whatsapp.businessprofile.businesscompliance.view.BusinessComplianceDetailActivity",
+   "com.whatsapp.calling.ui.SystemDialerCallLandingActivity",
+   "com.whatsapp.calling.ui.VoipActivityV2",
+   "com.whatsapp.calling.ui.VoipActivityV3",
+   "com.whatsapp.calling.ui.VoipAppUpdateActivity",
+   "com.whatsapp.calling.ui.VoipNotAllowedActivity",
+   "com.whatsapp.calling.ui.VoipPermissionsActivity",
+   "com.whatsapp.calling.ui.callhistory.calllog.CallLogActivityV2",
+   "com.whatsapp.calling.ui.callhistory.group.GroupCallLogActivity",
+   "com.whatsapp.calling.ui.callhistory.group.GroupCallParticipantPicker",
+   "com.whatsapp.calling.ui.callhistory.group.GroupCallParticipantPickerSheet",
+   "com.whatsapp.calling.ui.calllink.view.CallLinkActivity",
+   "com.whatsapp.calling.ui.callrating.CallRatingActivity",
+   "com.whatsapp.calling.ui.dialer.DialerActivity",
+   "com.whatsapp.calling.ui.favorite.FavoritePicker",
+   "com.whatsapp.calling.ui.favorite.calllist.FavoriteCallListActivity",
+   "com.whatsapp.calling.ui.psa.view.GroupCallPsaActivity",
+   "com.whatsapp.calling.ui.spam.CallSpamActivity",
+   "com.whatsapp.calling.ui.upcoming.calllist.UpcomingCallListActivity",
+   "com.whatsapp.calling.upsell.PostCallUpsellActivity",
+   "com.whatsapp.calling.wearableupsell.PostCallWearableUpsellActivity"
+  ],
+  "certificate": {
+   "Subject": {
+    "DN": "C:Country, CN:Common Name, L:Locality, O:Organization, ST:State, OU:Organizational Unit",
+    "C": "Country",
+    "CN": "Common Name",
+    "L": "Locality",
+    "O": "Organization",
+    "ST": "State",
+    "OU": "Organizational Unit"
+   },
+   "validto": "2051-08-20 03:14:40",
+   "serialnumber": "aafd9f477aa173cc",
+   "thumbprint": "7192bf38839077fc07a4c7ccba21c1351d20bc98",
+   "validfrom": "2024-04-03 03:14:40",
+   "Issuer": {
+    "DN": "C:Country, CN:Common Name, L:Locality, O:Organization, ST:State, OU:Organizational Unit",
+    "C": "Country",
+    "CN": "Common Name",
+    "L": "Locality",
+    "O": "Organization",
+    "ST": "State",
+    "OU": "Organizational Unit"
+   }
+  },
+  "AndroidApplication": 1,
+  "RiskIndicator": {
+   "APK": {
+    "DEX": 9,
+    "ZIP": 1
+   },
+   "PERM": {
+    "INSTANT": 12,
+    "PRIVACY": 7,
+    "DANGEROUS": 15,
+    "APPOP": 2,
+    "INTERNET": 1,
+    "SIGNATURE": 1,
+    "NORMAL": 32,
+    "PRIVILEGED": 1
+   }
+  },
+  "AndroidVersionCode": "260176000",
+  "Package": "com.agentpushs.jow",
+  "Services": [
+   "androidx.core.telecom.internal.JetpackConnectionService",
+   "androidx.credentials.playservices.CredentialProviderMetadataHolder",
+   "androidx.room.MultiInstanceInvalidationService",
+   "androidx.sharetarget.ChooserTargetServiceCompat",
+   "androidx.work.impl.background.systemalarm.SystemAlarmService",
+   "androidx.work.impl.background.systemjob.SystemJobService",
+   "androidx.work.impl.foreground.SystemForegroundService",
+   "com.facebook.video.heroplayer.service.HeroKeepAliveService",
+   "com.google.android.gms.auth.api.signin.RevocationBoundService",
+   "com.google.android.gms.metadata.ModuleDependencies",
+   "com.google.android.gms.nearby.exposurenotification.WakeUpService",
+   "com.google.firebase.components.ComponentDiscoveryService",
+   "com.google.firebase.messaging.FirebaseMessagingService",
+   "com.google.mlkit.common.internal.MlKitComponentDiscoveryService",
+   "com.meta.wearable.acdc.sdk.service.ACDCRegistrationService",
+   "com.whatsapp.accountlinking.ipc.service.WaAccountsCenterService",
+   "com.whatsapp.accountsync.AccountAuthenticatorService",
+   "com.whatsapp.alarmservice.AlarmService",
+   "com.whatsapp.backup.google.GoogleBackupService",
+   "com.whatsapp.calling.service.VoiceFGService",
+   "com.whatsapp.calling.telecom.SelfManagedConnectionService",
+   "com.whatsapp.consumer.notification.AndroidWear",
+   "com.whatsapp.consumer.notification.DirectReplyService",
+   "com.whatsapp.consumer.widget.WidgetService",
+   "com.whatsapp.contact.ui.sync.ContactsSyncAdapterService",
+   "com.whatsapp.infra.crash.upload.ExceptionsUploadService",
+   "com.whatsapp.infra.perf.profilo.ProfiloUploadService",
+   "com.whatsapp.infra.push.GcmListenerService",
+   "com.whatsapp.infra.push.RegistrationIntentService",
+   "com.whatsapp.instrumentation.product.api.InstrumentationService",
+   "com.whatsapp.instrumentation.product.service.InstrumentationFGService",
+   "com.whatsapp.locationsharing.location.LocationSharingService",
+   "com.whatsapp.media.ExternalMediaManager",
+   "com.whatsapp.media.audio.service.BackgroundMediaControlService",
+   "com.whatsapp.media.download.service.MediaDownloadJobService",
+   "com.whatsapp.media.download.service.MediaDownloadService",
+   "com.whatsapp.media.transcode.MediaTranscodeService",
+   "com.whatsapp.media.upload.jobs.MediaUploadJobService",
+   "com.whatsapp.messageservice.messaging.MessageService",
+   "com.whatsapp.messaging.service.GcmFGService",
+   "com.whatsapp.migration.android.integration.service.GoogleMigrateService",
+   "com.whatsapp.migration.export.service.MessagesExporterService",
+   "com.whatsapp.migration.transfer.network.service.WifiGroupCreatorP2pTransferService",
+   "com.whatsapp.migration.transfer.network.service.WifiGroupScannerP2pTransferService",
+   "com.whatsapp.networkavailable.service.UnsentMessagesNetworkAvailableJob",
+   "com.whatsapp.payments.brazilpay.ui.viewmodel.BrazilBankListFetchService",
+   "com.whatsapp.voicemessaging.productinfra.VoiceMessagingService",
+   "com.whatsapp.wearos.WearOsListenerService",
+   "org.npci.upi.security.pinactivitycomponent.CLRemoteServiceImpl"
+  ],
+  "AndroidVersionName": "2.26.1.76",
+  "TargetSdkVersion": "35",
+  "AndroidApplicationInfo": "APK",
+  "Providers": [
+   "androidx.car.app.connection.provider",
+   "androidx.core.content.FileProvider",
+   "com.facebook.secure.fileprovider.SecureFileProvider",
+   "com.google.firebase.provider.FirebaseInitProvider",
+   "com.google.mlkit.common.internal.MlKitInitProvider",
+   "com.whatsapp.accesslibraryprovider.provider.FamilyAppsUserValuesProvider",
+   "com.whatsapp.accountswitching.AccountSwitchingContentProvider",
+   "com.whatsapp.backup.google.restart.RestartAppContentProvider",
+   "com.whatsapp.instrumentation.product.api.InstrumentationProvider",
+   "com.whatsapp.media.contentprovider.MediaProvider",
+   "com.whatsapp.migration.export.api.ExportMigrationContentProvider",
+   "com.whatsapp.pixel.besties.provider.PixelBestiesApiContentProvider",
+   "com.whatsapp.registration.directmigration.DirectMigrationContentProvider",
+   "com.whatsapp.registration.directmigration.MigrationContentProvider",
+   "com.whatsapp.stickers.ui.storage.WhitelistPackQueryContentProvider"
+  ],
+  "Receivers": [
+   "androidx.car.app.notification.CarAppNotificationBroadcastReceiver",
+   "androidx.core.telecom.internal.MuteStateReceiver",
+   "androidx.profileinstaller.ProfileInstallReceiver",
+   "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+   "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+   "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+   "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+   "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+   "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+   "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+   "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+   "com.facebook.oxygen.preloads.sdk.firstparty.settings.wa.ITA",
+   "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+   "com.whatsapp.accountswitching.notifications.InactiveAccountNotificationReceiver",
+   "com.whatsapp.alarmservice.AlarmBroadcastReceiver",
+   "com.whatsapp.appwidget.WidgetProvider",
+   "com.whatsapp.banner.LargeScreenFileSharingUpsellBannerReceiver",
+   "com.whatsapp.calling.calllink.CallLinkShareReceiver",
+   "com.whatsapp.calling.callnotification.DeclineIntentReceiver",
+   "com.whatsapp.companiondevice.devices.CompanionDeviceVerificationReceiver",
+   "com.whatsapp.companionmode.CompanionStateHolder$CompanionLogoutStateReceiver",
+   "com.whatsapp.companionmode.CompanionStateHolder$CompanionPreferenceStateReceiver",
+   "com.whatsapp.consumer.notification.MessageNotificationDismissedReceiver",
+   "com.whatsapp.consumer.notification.MissedCallNotificationDismissedReceiver",
+   "com.whatsapp.consumer.registration.PreRegNotificationLearnMoreReceiver",
+   "com.whatsapp.contact.TellAFriendReceiver",
+   "com.whatsapp.event.notification.events.EventStartAlarmReceiver",
+   "com.whatsapp.infra.push.WAFbnsPreloadReceiver",
+   "com.whatsapp.infra.systemreceivers.appupdated.AppUpdatedReceiver",
+   "com.whatsapp.infra.systemreceivers.boot.BootReceiver",
+   "com.whatsapp.inorganicnotifications.InorganicNotificationDismissedReceiver",
+   "com.whatsapp.instrumentation.product.notification.DelayedNotificationReceiver",
+   "com.whatsapp.interop.notification.InteropNotificationDismissReceiver",
+   "com.whatsapp.locationsharing.location.FinalLiveLocationBroadcastReceiver",
+   "com.whatsapp.media.ExternalMediaManager$ExternalMediaStateReceiver",
+   "com.whatsapp.metaai.ui.widget.MetaAiAppWidgetProvider",
+   "com.whatsapp.migration.android.api.DeferredRestoreBroadcastReceiver",
+   "com.whatsapp.ml.v2.actions.MLModelDownloadCancelReceiver",
+   "com.whatsapp.notification.MessageOtpNotificationBroadcastReceiver",
+   "com.whatsapp.otpmessage.notification.OtpZeroTapMarkAsReadNotificationHandlerReceiver",
+   "com.whatsapp.otpmessage.otp.OtpIdentityHashRequestedReceiver",
+   "com.whatsapp.otpmessage.otp.OtpRequestedReceiver",
+   "com.whatsapp.phoneid.PhoneIdRequestReceiver",
+   "com.whatsapp.registration.app.notifications.EnterPhoneNumberNotificationReceiver",
+   "com.whatsapp.registration.app.notifications.OnboardingIncompleteReceiver",
+   "com.whatsapp.registration.app.notifications.RegRetryVerificationReceiver",
+   "com.whatsapp.registration.app.verifyphone.SMSRetrieverAppInactiveReceiver",
+   "com.whatsapp.registration.core.accounttransfer.AccountTransferReceiver",
+   "com.whatsapp.registration.directmigration.MigrationProviderOrderedBroadcastReceiver",
+   "com.whatsapp.registration.directmigration.MigrationRequesterBroadcastReceiver",
+   "com.whatsapp.registration.ui.RegistrationCompletedReceiver",
+   "com.whatsapp.reminders.logging.ReminderNotificationDismissedReceiver",
+   "com.whatsapp.status.api.notifications.StatusNotificationDismissReceiver"
+  ],
+  "StringsInformation": [
+   "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+   "http://www.android.com/",
+   "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+   "http://xmlpull.org/v1/doc/features.html#indent-output",
+   "https://%s/%s/%s",
+   "https://business.facebook.com/latest/inbox/",
+   "https://crashlogs.whatsapp.net/wa_clb_data",
+   "https://crashlogs.whatsapp.net/wa_fls_upload_check",
+   "https://faq.whatsapp.com/1134168457974360",
+   "https://faq.whatsapp.com/253337763937767",
+   "https://faq.whatsapp.com/3350582171851112",
+   "https://faq.whatsapp.com/471028794851214",
+   "https://faq.whatsapp.com/659113242716268/",
+   "https://faq.whatsapp.com/725152392426717",
+   "https://faq.whatsapp.com/general/28030015/",
+   "https://faq.whatsapp.com/general/payments/learn-more-about-identity-documents-br",
+   "https://faq.whatsapp.com/payments",
+   "https://faq.whatsapp.com/smba/security-and-privacy/about-updates-to-business-terms/",
+   "https://fb.com/copy/",
+   "https://flows.whatsapp.net/flows",
+   "https://flows.whatsapp.net/flows-app/catalog",
+   "https://flows.whatsapp.net/flows/cache_management/",
+   "https://m.facebook.com/page_promotions/create",
+   "https://m.facebook.com/page_promotions/create?objective=boosted_post",
+   "https://maps.google.com/maps?q=",
+   "https://meta-ohttp-relay-prod.fastly-edge.com/",
+   "https://meta.com/help/642437007866653",
+   "https://mmg.whatsapp.net",
+   "https://mmg.whatsapp.net/proxygen/health",
+   "https://pps.whatsapp.net",
+   "https://secure.facebook.com/payments/generate_token",
+   "https://wa.me",
+   "https://wa.me/ais/",
+   "https://wa.me/qr/",
+   "https://whatsapp.com/legal/business-app-privacy-policy",
+   "https://www.facebook.com/help/111814505650678",
+   "https://www.facebook.com/privacy/policy/?section_id=3-HowIsYourInformation",
+   "https://www.meta.com/",
+   "https://www.meta.com/ai-glasses/shop-all/?utm_source=whatsapp&utm_medium=growth_social&utm_campaign=meta_ai_contact_info_page&utm_content=shop_now_cta&utm_placement=wa_meta_ai_contact_info",
+   "https://www.meta.com/smart-glasses/",
+   "https://www.whatsapp.com/coupon?code=",
+   "https://www.whatsapp.com/legal/#cookies",
+   "https://www.whatsapp.com/legal/#privacy-policy",
+   "https://www.whatsapp.com/legal/#privacy-policy-managing-and-deleting-your-information",
+   "https://www.whatsapp.com/legal/#privacy-policy-our-global-operations",
+   "https://www.whatsapp.com/legal/#terms-of-service",
+   "https://www.whatsapp.com/legal/payments/privacy-policy",
+   "https://www.whatsapp.com/legal/payments/terms",
+   "https://www.whatsapp.com/legal/privacy-policy-eea#privacy-policy-how-we-work-with-other-meta-companies",
+   "https://www.whatsapp.com/legal/terms-of-service",
+   "https://www.whatsapp.com/otp",
+   "https://www.whatsapp.com/otp/code",
+   "https://www.whatsapp.com/otp/copy/"
+  ],
+  "main_activity": "com.whatsapp.Main",
+  "intent_filters": {
+   "Services": {
+    "com.whatsapp.accountlinking.ipc.service.WaAccountsCenterService": {
+     "action": [
+      "com.whatsapp.wfl.OPERATION"
+     ],
+     "category": [
+      "android.intent.category.DEFAULT"
+     ]
+    },
+    "com.google.firebase.messaging.FirebaseMessagingService": {
+     "action": [
+      "com.google.firebase.MESSAGING_EVENT"
+     ]
+    },
+    "com.whatsapp.calling.telecom.SelfManagedConnectionService": {
+     "action": [
+      "android.telecom.ConnectionService"
+     ]
+    },
+    "com.meta.wearable.acdc.sdk.service.ACDCRegistrationService": {
+     "action": [
+      "com.meta.wearable.acdc.sdk.service.ACDCRegistrationService.BIND"
+     ],
+     "category": [
+      "android.intent.category.DEFAULT"
+     ]
+    },
+    "com.whatsapp.accountsync.AccountAuthenticatorService": {
+     "action": [
+      "android.accounts.AccountAuthenticator"
+     ]
+    },
+    "com.google.android.gms.metadata.ModuleDependencies": {
+     "action": [
+      "com.google.android.gms.metadata.MODULE_DEPENDENCIES"
+     ]
+    },
+    "androidx.core.telecom.internal.JetpackConnectionService": {
+     "action": [
+      "android.telecom.ConnectionService"
+     ]
+    },
+    "com.whatsapp.infra.push.GcmListenerService": {
+     "action": [
+      "com.google.firebase.MESSAGING_EVENT"
+     ]
+    },
+    "com.whatsapp.contact.ui.sync.ContactsSyncAdapterService": {
+     "action": [
+      "android.content.SyncAdapter"
+     ]
+    },
+    "androidx.sharetarget.ChooserTargetServiceCompat": {
+     "action": [
+      "android.service.chooser.ChooserTargetService"
+     ]
+    },
+    "org.npci.upi.security.pinactivitycomponent.CLRemoteServiceImpl": {
+     "action": [
+      "org.npci.upi.security.services.CLRemoteService"
+     ]
+    },
+    "com.whatsapp.wearos.WearOsListenerService": {
+     "action": [
+      "com.google.android.gms.wearable.BIND_LISTENER",
+      "com.google.android.gms.wearable.MESSAGE_RECEIVED"
+     ]
+    },
+    "com.whatsapp.instrumentation.product.api.InstrumentationService": {
+     "action": [
+      "com.whatsapp.instrumentation.REQUEST"
+     ],
+     "category": [
+      "android.intent.category.DEFAULT"
+     ]
+    }
+   },
+   "Activities": {
+    "com.whatsapp.identity.ui.IdentityVerificationActivity": {
+     "action": [
+      "android.nfc.action.NDEF_DISCOVERED"
+     ],
+     "category": [
+      "android.intent.category.DEFAULT"
+     ]
+    },
+    "com.whatsapp.accountsync.ProfileActivity": {
+     "action": [
+      "android.intent.action.VIEW"
+     ],
+     "category": [
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE"
+     ]
+    },
+    "com.whatsapp.camera.ui.LauncherCameraActivity": {
+     "action": [
+      "android.intent.action.CREATE_SHORTCUT"
+     ]
+    },
+    "com.whatsapp.Conversation": {
+     "action": [
+      "android.intent.action.VIEW",
+      "android.intent.action.SENDTO",
+      "com.whatsapp.Conversation"
+     ],
+     "category": [
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE"
+     ]
+    },
+    "com.whatsapp.accountsync.CallContactLandingActivity": {
+     "action": [
+      "android.intent.action.VIEW"
+     ],
+     "category": [
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE"
+     ]
+    },
+    "com.whatsapp.Main": {
+     "action": [
+      "android.intent.action.MAIN"
+     ],
+     "category": [
+      "android.intent.category.LAUNCHER",
+      "android.intent.category.MULTIWINDOW_LAUNCHER"
+     ]
+    },
+    "com.whatsapp.home.ui.HomeActivity": {
+     "action": [
+      "android.nfc.action.NDEF_DISCOVERED",
+      "android.intent.action.VIEW"
+     ],
+     "category": [
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE"
+     ]
+    },
+    "com.whatsapp.identity.ui.ScanQrCodeActivity": {
+     "action": [
+      "android.nfc.action.NDEF_DISCOVERED"
+     ],
+     "category": [
+      "android.intent.category.DEFAULT"
+     ]
+    },
+    "com.whatsapp.cuif.ConsentActivity": {
+     "action": [
+      "android.intent.action.VIEW"
+     ],
+     "category": [
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE"
+     ]
+    },
+    "com.whatsapp.contact.ui.picker.ContactPicker": {
+     "action": [
+      "android.intent.action.PICK",
+      "android.intent.action.SEND",
+      "android.intent.action.SEND_MULTIPLE",
+      "android.intent.action.CREATE_SHORTCUT"
+     ],
+     "category": [
+      "android.intent.category.DEFAULT",
+      "com.whatsapp"
+     ]
+    },
+    "com.whatsapp.payments.indiaupi.receiver.IndiaUpiPayIntentReceiverActivity": {
+     "action": [
+      "android.intent.action.VIEW"
+     ],
+     "category": [
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE"
+     ]
+    },
+    "com.whatsapp.authentication.AppAuthenticationActivity": {
+     "action": [
+      "android.appwidget.action.APPWIDGET_CONFIGURE"
+     ]
+    },
+    "com.whatsapp.migration.export.ui.ExportMigrationActivity": {
+     "action": [
+      "com.whatsapp.intent.action.migrate.ios.START"
+     ],
+     "category": [
+      "android.intent.category.DEFAULT"
+     ]
+    },
+    "com.whatsapp.accountlinking.auth.xfamily.ui.AccountLinkingWebAuthActivity": {
+     "action": [
+      "android.intent.action.VIEW"
+     ],
+     "category": [
+      "android.intent.category.DEFAULT",
+      "android.intent.category.BROWSABLE"
+     ]
+    }
+   },
+   "Receivers": {
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy": {
+     "action": [
+      "android.intent.action.BATTERY_OKAY",
+      "android.intent.action.BATTERY_LOW"
+     ]
+    },
+    "com.whatsapp.registration.directmigration.MigrationRequesterBroadcastReceiver": {
+     "action": [
+      "com.whatsapp.registration.directmigration.providerIsLoggedOutAction",
+      "com.whatsapp.registration.directmigration.providerAppMigrationSpaceNeededAction"
+     ]
+    },
+    "com.whatsapp.phoneid.PhoneIdRequestReceiver": {
+     "action": [
+      "com.facebook.GET_PHONE_ID"
+     ]
+    },
+    "com.whatsapp.infra.push.WAFbnsPreloadReceiver": {
+     "action": [
+      "com.facebook.rti.fbns.intent.RECEIVE"
+     ],
+     "category": [
+      "com.whatsapp"
+     ]
+    },
+    "com.whatsapp.registration.core.accounttransfer.AccountTransferReceiver": {
+     "action": [
+      "com.google.android.gms.auth.START_ACCOUNT_EXPORT"
+     ]
+    },
+    "com.whatsapp.media.ExternalMediaManager$ExternalMediaStateReceiver": {
+     "action": [
+      "android.intent.action.MEDIA_BAD_REMOVAL",
+      "android.intent.action.MEDIA_EJECT",
+      "android.intent.action.MEDIA_MOUNTED",
+      "android.intent.action.MEDIA_REMOVED",
+      "android.intent.action.MEDIA_SHARED",
+      "android.intent.action.MEDIA_UNMOUNTED"
+     ]
+    },
+    "com.whatsapp.accountswitching.notifications.InactiveAccountNotificationReceiver": {
+     "action": [
+      "com.whatsapp.accountswitching.inactiveaccount.IgnoreCall"
+     ]
+    },
+    "com.whatsapp.metaai.ui.widget.MetaAiAppWidgetProvider": {
+     "action": [
+      "android.appwidget.action.APPWIDGET_UPDATE"
+     ]
+    },
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy": {
+     "action": [
+      "android.intent.action.ACTION_POWER_CONNECTED",
+      "android.intent.action.ACTION_POWER_DISCONNECTED"
+     ]
+    },
+    "com.whatsapp.migration.android.api.DeferredRestoreBroadcastReceiver": {
+     "action": [
+      "com.google.android.apps.pixelmigrate.IOS_APP_DATA_AVAILABLE"
+     ]
+    },
+    "androidx.profileinstaller.ProfileInstallReceiver": {
+     "action": [
+      "androidx.profileinstaller.action.INSTALL_PROFILE",
+      "androidx.profileinstaller.action.SKIP_FILE",
+      "androidx.profileinstaller.action.SAVE_PROFILE",
+      "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+     ]
+    },
+    "androidx.work.impl.background.systemalarm.RescheduleReceiver": {
+     "action": [
+      "android.intent.action.BOOT_COMPLETED",
+      "android.intent.action.TIME_SET",
+      "android.intent.action.TIMEZONE_CHANGED"
+     ]
+    },
+    "com.whatsapp.instrumentation.product.notification.DelayedNotificationReceiver": {
+     "action": [
+      "com.whatsapp.instrumentation.product.notification.DelayedNotificationReceiver.SHOW_DELAYED_NOTIFICATION"
+     ]
+    },
+    "com.whatsapp.registration.app.notifications.OnboardingIncompleteReceiver": {
+     "action": [
+      "com.whatsapp.alarm.ONBOARDING_INCOMPLETE"
+     ]
+    },
+    "androidx.work.impl.diagnostics.DiagnosticsReceiver": {
+     "action": [
+      "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+     ]
+    },
+    "com.whatsapp.notification.MessageOtpNotificationBroadcastReceiver": {
+     "action": [
+      "com.whatsapp.notification.MessageOtpNotificationBroadcastReceiver.RECEIVE"
+     ]
+    },
+    "com.whatsapp.locationsharing.location.FinalLiveLocationBroadcastReceiver": {
+     "action": [
+      "com.whatsapp.locationsharing.location.FinalLiveLocationBroadcastReceiver.RECEIVE"
+     ]
+    },
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy": {
+     "action": [
+      "android.net.conn.CONNECTIVITY_CHANGE"
+     ]
+    },
+    "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver": {
+     "action": [
+      "androidx.work.impl.background.systemalarm.UpdateProxies"
+     ]
+    },
+    "com.whatsapp.appwidget.WidgetProvider": {
+     "action": [
+      "android.appwidget.action.APPWIDGET_UPDATE"
+     ]
+    },
+    "com.whatsapp.registration.ui.RegistrationCompletedReceiver": {
+     "action": [
+      "com.whatsapp.SMBRegistrationCompleted"
+     ]
+    },
+    "com.whatsapp.infra.systemreceivers.boot.BootReceiver": {
+     "action": [
+      "android.intent.action.BOOT_COMPLETED"
+     ]
+    },
+    "com.whatsapp.registration.app.notifications.RegRetryVerificationReceiver": {
+     "action": [
+      "com.whatsapp.alarm.REGISTRATION_RETRY",
+      "com.whatsapp.alarm.SMS_RECEIVED_WHILE_INACTIVE"
+     ]
+    },
+    "com.whatsapp.consumer.notification.MissedCallNotificationDismissedReceiver": {
+     "action": [
+      "com.whatsapp.consumer.notification.MissedCallNotificationDismissedReceiver.DISMISS"
+     ]
+    },
+    "com.whatsapp.infra.systemreceivers.appupdated.AppUpdatedReceiver": {
+     "action": [
+      "android.intent.action.MY_PACKAGE_REPLACED"
+     ]
+    },
+    "com.whatsapp.otpmessage.otp.OtpRequestedReceiver": {
+     "action": [
+      "com.whatsapp.otp.OTP_REQUESTED"
+     ]
+    },
+    "com.whatsapp.consumer.notification.MessageNotificationDismissedReceiver": {
+     "action": [
+      "com.whatsapp.consumer.notification.MessageNotificationDismissedReceiver.DISMISS"
+     ]
+    },
+    "androidx.core.telecom.internal.MuteStateReceiver": {
+     "action": [
+      "android.media.action.MICROPHONE_MUTE_CHANGED"
+     ]
+    },
+    "com.whatsapp.registration.app.verifyphone.SMSRetrieverAppInactiveReceiver": {
+     "action": [
+      "com.google.android.gms.auth.api.phone.SMS_RETRIEVED"
+     ]
+    },
+    "com.whatsapp.otpmessage.otp.OtpIdentityHashRequestedReceiver": {
+     "action": [
+      "com.whatsapp.otp.ID_HASH_REQUESTED"
+     ]
+    },
+    "com.whatsapp.calling.callnotification.DeclineIntentReceiver": {
+     "action": [
+      "com.whatsapp.calling.hangup_call",
+      "com.whatsapp.calling.reject_call",
+      "com.whatsapp.calling.reject_group_reminder",
+      "com.whatsapp.calling.end_bot_call"
+     ]
+    },
+    "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy": {
+     "action": [
+      "android.intent.action.DEVICE_STORAGE_LOW",
+      "android.intent.action.DEVICE_STORAGE_OK"
+     ]
+    },
+    "com.whatsapp.reminders.logging.ReminderNotificationDismissedReceiver": {
+     "action": [
+      "com.whatsapp.reminders.NOTIFICATION_DISMISS"
+     ]
+    },
+    "com.google.firebase.iid.FirebaseInstanceIdReceiver": {
+     "action": [
+      "com.google.android.c2dm.intent.RECEIVE"
+     ]
+    },
+    "com.whatsapp.registration.app.notifications.EnterPhoneNumberNotificationReceiver": {
+     "action": [
+      "com.whatsapp.alarm.ENTER_PHONE_NUMBER"
+     ]
+    },
+    "com.whatsapp.registration.directmigration.MigrationProviderOrderedBroadcastReceiver": {
+     "action": [
+      "com.whatsapp.registration.directmigration.initialMigrationInfoAction",
+      "com.whatsapp.registration.directmigration.recoveryTokenAction",
+      "com.whatsapp.registration.directmigration.setMigrationStateOnProviderSide"
+     ]
+    }
+   }
+  },
+  "permission_details": {
+   "android.permission.FOREGROUND_SERVICE_MICROPHONE": {
+    "permission_type": "normal|instant",
+    "short_description": "run foreground service with the type microphone",
+    "full_description": "Allows the app to make use of foreground services with the type microphone"
+   },
+   "android.permission.READ_SYNC_SETTINGS": {
+    "permission_type": "normal",
+    "short_description": "read sync settings",
+    "full_description": "Allows the app to read the sync settings for an account. For example, this can determine whether the People app is synced with an account."
+   },
+   "com.huawei.android.launcher.permission.WRITE_SETTINGS": {
+    "permission_type": "normal",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "com.android.launcher.permission.UNINSTALL_SHORTCUT": {
+    "permission_type": "normal",
+    "short_description": "uninstall shortcuts",
+    "full_description": "Allows the application to remove\n        Homescreen shortcuts without user intervention."
+   },
+   "android.permission.USE_CREDENTIALS": {
+    "permission_type": "dangerous",
+    "short_description": "use accounts on the device",
+    "full_description": "Allows the app to request authentication tokens."
+   },
+   "android.permission.FOREGROUND_SERVICE_CAMERA": {
+    "permission_type": "normal|instant",
+    "short_description": "run foreground service with the type camera",
+    "full_description": "Allows the app to make use of foreground services with the type camera"
+   },
+   "android.permission.USE_FULL_SCREEN_INTENT": {
+    "permission_type": "normal|appop",
+    "short_description": "display notifications as full screen activities on a locked device",
+    "full_description": "Allows the app to display notifications as full screen activities on a locked device"
+   },
+   "android.permission.NEARBY_WIFI_DEVICES": {
+    "permission_type": "dangerous",
+    "short_description": "interact with nearby Wiu2011Fi devices",
+    "full_description": "Allows the app to advertise, connect, and determine the relative position of nearby Wiu2011Fi devices"
+   },
+   "android.permission.ACCESS_MEDIA_LOCATION": {
+    "permission_type": "dangerous",
+    "short_description": "read locations from your media collection",
+    "full_description": "Allows the app to read locations from your media collection."
+   },
+   "android.permission.CHANGE_NETWORK_STATE": {
+    "permission_type": "normal",
+    "short_description": "change network connectivity",
+    "full_description": "Allows the app to change the state of network connectivity."
+   },
+   "android.permission.READ_BASIC_PHONE_STATE": {
+    "permission_type": "normal",
+    "short_description": "read basic telephony status and identity ",
+    "full_description": "Allows the app to access the basic telephony\n        features of the device."
+   },
+   "android.permission.BLUETOOTH": {
+    "permission_type": "normal",
+    "short_description": "pair with Bluetooth devices",
+    "full_description": "Allows the app to view the\n      configuration of the Bluetooth on the phone, and to make and accept\n      connections with paired devices."
+   },
+   "android.permission.CAMERA": {
+    "permission_type": "dangerous|instant",
+    "short_description": "take pictures and videos",
+    "full_description": "This app can take pictures and record videos using the camera while the app is in use."
+   },
+   "android.permission.INTERNET": {
+    "permission_type": "normal|instant",
+    "short_description": "have full network access",
+    "full_description": "Allows the app to create\n     network sockets and use custom network protocols. The browser and other\n     applications provide means to send data to the internet, so this\n     permission is not required to send data to the internet."
+   },
+   "android.permission.BLUETOOTH_CONNECT": {
+    "permission_type": "dangerous",
+    "short_description": "connect to paired Bluetooth devices",
+    "full_description": "Allows the app to connect to paired Bluetooth devices"
+   },
+   "com.google.android.providers.gsf.permission.READ_GSERVICES": {
+    "permission_type": "normal",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "android.permission.MANAGE_OWN_CALLS": {
+    "permission_type": "normal",
+    "short_description": "route calls through the system",
+    "full_description": "Allows the app to route its calls through the system in\n        order to improve the calling experience."
+   },
+   "android.permission.READ_MEDIA_VIDEO": {
+    "permission_type": "dangerous",
+    "short_description": "read video files from shared storage",
+    "full_description": "Allows the app to read video files from your shared storage."
+   },
+   "com.android.vending.BILLING": {
+    "permission_type": "normal",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "android.permission.BLUETOOTH_ADMIN": {
+    "permission_type": "normal",
+    "short_description": "access Bluetooth settings",
+    "full_description": "Allows the app to configure\n      the local Bluetooth phone, and to discover and pair with remote devices."
+   },
+   "android.permission.NFC": {
+    "permission_type": "normal",
+    "short_description": "control Near Field Communication",
+    "full_description": "Allows the app to communicate\n      with Near Field Communication (NFC) tags, cards, and readers."
+   },
+   "android.permission.MANAGE_ACCOUNTS": {
+    "permission_type": "dangerous",
+    "short_description": "add or remove accounts",
+    "full_description": "Allows the app to\n    perform operations like adding and removing accounts, and deleting\n    their password."
+   },
+   "android.permission.READ_PROFILE": {
+    "permission_type": "dangerous",
+    "short_description": "read your own contact card",
+    "full_description": "Allows the app to read\n     personal profile information stored on your device, such as your name and\n     contact information. This means the app can identify you and may send your\n     profile information to others."
+   },
+   "android.permission.USE_FINGERPRINT": {
+    "permission_type": "normal",
+    "short_description": "use fingerprint hardware",
+    "full_description": "Allows the app to use fingerprint hardware for authentication"
+   },
+   "com.agentpushs.jow.permission.BROADCAST": {
+    "permission_type": "signature",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "com.android.launcher.permission.INSTALL_SHORTCUT": {
+    "permission_type": "normal",
+    "short_description": "install shortcuts",
+    "full_description": "Allows an application to add\n        Homescreen shortcuts without user intervention."
+   },
+   "com.agentpushs.jow.permission.REGISTRATION": {
+    "permission_type": "signature",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "com.sec.android.provider.badge.permission.WRITE": {
+    "permission_type": "normal",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "android.permission.SCHEDULE_EXACT_ALARM": {
+    "permission_type": "signature|privileged|appop",
+    "short_description": "Schedule precisely timed actions",
+    "full_description": "This app can schedule work to happen at a desired time in the future. This also means that the app can run when youu2019re not actively using the device."
+   },
+   "com.google.android.c2dm.permission.RECEIVE": {
+    "permission_type": "normal",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "android.permission.ACCESS_NETWORK_STATE": {
+    "permission_type": "normal|instant",
+    "short_description": "view network connections",
+    "full_description": "Allows the app to view\n      information about network connections such as which networks exist and are\n      connected."
+   },
+   "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE": {
+    "permission_type": "normal",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "android.permission.GET_TASKS": {
+    "permission_type": "normal",
+    "short_description": "retrieve running apps",
+    "full_description": "Allows the app to retrieve information\n       about currently and recently running tasks.  This may allow the app to\n       discover information about which applications are used on the device."
+   },
+   "android.permission.READ_MEDIA_VISUAL_USER_SELECTED": {
+    "permission_type": "dangerous",
+    "short_description": "read user selected image and video files from shared storage",
+    "full_description": "Allows the app to read image and video files that you select from your shared storage."
+   },
+   "android.permission.INSTALL_SHORTCUT": {
+    "permission_type": "normal",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "com.htc.launcher.permission.UPDATE_SHORTCUT": {
+    "permission_type": "normal",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "android.permission.FOREGROUND_SERVICE_PHONE_CALL": {
+    "permission_type": "normal|instant",
+    "short_description": "run foreground service with the type phoneCall",
+    "full_description": "Allows the app to make use of foreground services with the type phoneCall"
+   },
+   "com.htc.launcher.permission.READ_SETTINGS": {
+    "permission_type": "normal",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "com.agentpushs.jow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION": {
+    "permission_type": "signature",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "android.permission.WRITE_EXTERNAL_STORAGE": {
+    "permission_type": "dangerous",
+    "short_description": "modify or delete the contents of your shared storage",
+    "full_description": "Allows the app to write the contents of your shared storage."
+   },
+   "android.permission.POST_NOTIFICATIONS": {
+    "permission_type": "dangerous|instant",
+    "short_description": "show notifications",
+    "full_description": "Allows the app to show notifications"
+   },
+   "android.permission.READ_PHONE_NUMBERS": {
+    "permission_type": "dangerous|instant",
+    "short_description": "read phone numbers",
+    "full_description": "Allows the app to access the phone numbers of the device."
+   },
+   "android.permission.READ_EXTERNAL_STORAGE": {
+    "permission_type": "dangerous",
+    "short_description": "read the contents of your shared storage",
+    "full_description": "Allows the app to read the contents of your shared storage."
+   },
+   "android.permission.RECEIVE_BOOT_COMPLETED": {
+    "permission_type": "normal",
+    "short_description": "run at startup",
+    "full_description": "Allows the app to\n        have itself started as soon as the system has finished booting.\n        This can make it take longer to start the phone and allow the\n        app to slow down the overall phone by always running."
+   },
+   "android.permission.READ_MEDIA_IMAGES": {
+    "permission_type": "dangerous",
+    "short_description": "read image files from shared storage",
+    "full_description": "Allows the app to read image files from your shared storage."
+   },
+   "android.permission.ACCESS_WIFI_STATE": {
+    "permission_type": "normal",
+    "short_description": "view Wi-Fi connections",
+    "full_description": "Allows the app to view information\n      about Wi-Fi networking, such as whether Wi-Fi is enabled and name of\n      connected Wi-Fi devices."
+   },
+   "com.agentpushs.jow.sticker.READ": {
+    "permission_type": "normal",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "android.permission.AUTHENTICATE_ACCOUNTS": {
+    "permission_type": "dangerous",
+    "short_description": "create accounts and set passwords",
+    "full_description": "Allows the app\n    to use the account authenticator capabilities of the\n    AccountManager, including creating accounts and getting and\n    setting their passwords."
+   },
+   "android.permission.FOREGROUND_SERVICE_DATA_SYNC": {
+    "permission_type": "normal|instant",
+    "short_description": "run foreground service with the type dataSync",
+    "full_description": "Allows the app to make use of foreground services with the type dataSync"
+   },
+   "android.permission.READ_MEDIA_AUDIO": {
+    "permission_type": "dangerous",
+    "short_description": "read audio files from shared storage",
+    "full_description": "Allows the app to read audio files from your shared storage."
+   },
+   "com.agentpushs.jow.permission.MAPS_RECEIVE": {
+    "permission_type": "signature",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "com.google.android.gms.permission.AD_ID": {
+    "permission_type": "normal",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "android.permission.WRITE_SYNC_SETTINGS": {
+    "permission_type": "normal",
+    "short_description": "toggle sync on and off",
+    "full_description": "Allows an app to modify the sync settings for an account.  For example, this can be used to enable sync of the People app with an account."
+   },
+   "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE": {
+    "permission_type": "normal",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "android.permission.BLUETOOTH_SCAN": {
+    "permission_type": "dangerous",
+    "short_description": "discover and pair nearby Bluetooth devices",
+    "full_description": "Allows the app to discover and pair nearby Bluetooth devices"
+   },
+   "android.permission.FOREGROUND_SERVICE": {
+    "permission_type": "normal|instant",
+    "short_description": "run foreground service",
+    "full_description": "Allows the app to make use of foreground services."
+   },
+   "android.permission.USE_BIOMETRIC": {
+    "permission_type": "normal",
+    "short_description": "use biometric hardware",
+    "full_description": "Allows the app to use biometric hardware for authentication"
+   },
+   "android.permission.GET_CLIPS": {
+    "permission_type": "normal",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "android.permission.WRITE_CONTACTS": {
+    "permission_type": "dangerous",
+    "short_description": "modify your contacts",
+    "full_description": "Allows the app to modify the data about your contacts stored on your phone.\n      This permission allows apps to delete contact data."
+   },
+   "android.permission.BLUETOOTH_ADVERTISE": {
+    "permission_type": "dangerous",
+    "short_description": "advertise to nearby Bluetooth devices",
+    "full_description": "Allows the app to advertise to nearby Bluetooth devices"
+   },
+   "android.permission.VIBRATE": {
+    "permission_type": "normal|instant",
+    "short_description": "control vibration",
+    "full_description": "Allows the app to control the vibrator."
+   },
+   "com.sonyericsson.home.permission.BROADCAST_BADGE": {
+    "permission_type": "normal",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "android.permission.RUN_USER_INITIATED_JOBS": {
+    "permission_type": "normal",
+    "short_description": "",
+    "full_description": ""
+   },
+   "com.huawei.android.launcher.permission.READ_SETTINGS": {
+    "permission_type": "normal",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION": {
+    "permission_type": "normal|instant",
+    "short_description": "run foreground service with the type mediaProjection",
+    "full_description": "Allows the app to make use of foreground services with the type mediaProjection"
+   },
+   "android.permission.READ_SYNC_STATS": {
+    "permission_type": "normal",
+    "short_description": "read sync statistics",
+    "full_description": "Allows an app to read the sync stats for an account, including the history of sync events and how much data is synced. "
+   },
+   "com.facebook.services.identity.FEO2": {
+    "permission_type": "normal",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "android.permission.WAKE_LOCK": {
+    "permission_type": "normal|instant",
+    "short_description": "prevent phone from sleeping",
+    "full_description": "Allows the app to prevent the phone from going to sleep."
+   },
+   "com.huawei.android.launcher.permission.CHANGE_BADGE": {
+    "permission_type": "normal",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "android.permission.CHANGE_WIFI_STATE": {
+    "permission_type": "normal",
+    "short_description": "connect and disconnect from Wi-Fi",
+    "full_description": "Allows the app to connect to and\n      disconnect from Wi-Fi access points and to make changes to device\n      configuration for Wi-Fi networks."
+   },
+   "android.permission.RECORD_AUDIO": {
+    "permission_type": "dangerous|instant",
+    "short_description": "record audio",
+    "full_description": "This app can record audio using the microphone while the app is in use."
+   },
+   "android.permission.READ_CONTACTS": {
+    "permission_type": "dangerous",
+    "short_description": "read your contacts",
+    "full_description": "Allows the app to read data about your contacts stored on your phone.\n      Apps will also have access to the accounts on your phone that have created contacts.\n      This may include accounts created by apps you have installed.\n      This permission allows apps to save your contact data, and malicious apps may share contact data without your knowledge."
+   },
+   "android.permission.DETECT_SCREEN_CAPTURE": {
+    "permission_type": "normal",
+    "short_description": "detect screen captures of app windows",
+    "full_description": "This app will get notified when a screenshot is taken while the app is in use."
+   },
+   "android.permission.BROADCAST_STICKY": {
+    "permission_type": "normal",
+    "short_description": "send sticky broadcast",
+    "full_description": "Allows the app to\n    send sticky broadcasts, which remain after the broadcast ends. Excessive\n    use may make the phone slow or unstable by causing it to use too\n    much memory."
+   },
+   "android.permission.MODIFY_AUDIO_SETTINGS": {
+    "permission_type": "normal",
+    "short_description": "change your audio settings",
+    "full_description": "Allows the app to modify global audio settings such as volume and which speaker is used for output."
+   },
+   "android.permission.FOREGROUND_SERVICE_LOCATION": {
+    "permission_type": "normal|instant",
+    "short_description": "run foreground service with the type location",
+    "full_description": "Allows the app to make use of foreground services with the type location"
+   },
+   "com.sec.android.provider.badge.permission.READ": {
+    "permission_type": "normal",
+    "short_description": "Unknown permission from android reference",
+    "full_description": "Unknown permission from android reference"
+   },
+   "android.permission.GET_ACCOUNTS": {
+    "permission_type": "dangerous",
+    "short_description": "find accounts on the device",
+    "full_description": "Allows the app to get\n      the list of accounts known by the phone.  This may include any accounts\n      created by applications you have installed."
+   }
+  }
+ },
+ "permhash": "73a4cd30d3789447847696c6b2ae6ce5b6c36b83403270163a199c449abba0a0",
+ "type_description": "Android",
+ "total_votes": {
+  "harmless": 0,
+  "malicious": 3
+ },
+ "meaningful_name": "de7d54276047fc457271b582a378e9599ce0b3822d4e9cb89a1260f81a3c2644.apk",
+ "last_analysis_results": {
+  "Bkav": {
+   "method": "blacklist",
+   "engine_name": "Bkav",
+   "engine_version": "2.0.0.1",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Lionic": {
+   "method": "blacklist",
+   "engine_name": "Lionic",
+   "engine_version": "8.16",
+   "engine_update": "20260423",
+   "category": "malicious",
+   "result": "Trojan.AndroidOS.Triada.C!c"
+  },
+  "Elastic": {
+   "method": "blacklist",
+   "engine_name": "Elastic",
+   "engine_version": "4.0.256",
+   "engine_update": "20260422",
+   "category": "undetected",
+   "result": null
+  },
+  "MicroWorld-eScan": {
+   "method": "blacklist",
+   "engine_name": "MicroWorld-eScan",
+   "engine_version": "14.0.409.0",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "CTX": {
+   "method": "blacklist",
+   "engine_name": "CTX",
+   "engine_version": "2024.8.29.1",
+   "engine_update": "20260423",
+   "category": "malicious",
+   "result": "apk.trojan.triada"
+  },
+  "CAT-QuickHeal": {
+   "method": "blacklist",
+   "engine_name": "CAT-QuickHeal",
+   "engine_version": "22.00",
+   "engine_update": "20260422",
+   "category": "undetected",
+   "result": null
+  },
+  "ALYac": {
+   "method": "blacklist",
+   "engine_name": "ALYac",
+   "engine_version": "2.0.0.10",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Malwarebytes": {
+   "method": "blacklist",
+   "engine_name": "Malwarebytes",
+   "engine_version": "3.1.0.231",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Zillya": {
+   "method": "blacklist",
+   "engine_name": "Zillya",
+   "engine_version": "2.0.0.5586",
+   "engine_update": "20260422",
+   "category": "undetected",
+   "result": null
+  },
+  "Sangfor": {
+   "method": "blacklist",
+   "engine_name": "Sangfor",
+   "engine_version": "2.22.3.0",
+   "engine_update": "20260420",
+   "category": "undetected",
+   "result": null
+  },
+  "Trustlook": {
+   "method": "blacklist",
+   "engine_name": "Trustlook",
+   "engine_version": "1.0",
+   "engine_update": "20260423",
+   "category": "malicious",
+   "result": "Android.Malware.General"
+  },
+  "Alibaba": {
+   "method": "blacklist",
+   "engine_name": "Alibaba",
+   "engine_version": "0.3.0.5",
+   "engine_update": "20190527",
+   "category": "malicious",
+   "result": "Trojan:Android/Triada.0533906e"
+  },
+  "K7GW": {
+   "method": "blacklist",
+   "engine_name": "K7GW",
+   "engine_version": "14.48.59292",
+   "engine_update": "20260423",
+   "category": "malicious",
+   "result": "Trojan ( 0001140e1 )"
+  },
+  "K7AntiVirus": {
+   "method": "blacklist",
+   "engine_name": "K7AntiVirus",
+   "engine_version": "14.48.59291",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Arcabit": {
+   "method": "blacklist",
+   "engine_name": "Arcabit",
+   "engine_version": "2025.0.0.23",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Baidu": {
+   "method": "blacklist",
+   "engine_name": "Baidu",
+   "engine_version": "1.0.0.2",
+   "engine_update": "20190318",
+   "category": "undetected",
+   "result": null
+  },
+  "SymantecMobileInsight": {
+   "method": "blacklist",
+   "engine_name": "SymantecMobileInsight",
+   "engine_version": "2.0",
+   "engine_update": "20260123",
+   "category": "malicious",
+   "result": "AppRisk:Generisk"
+  },
+  "Symantec": {
+   "method": "blacklist",
+   "engine_name": "Symantec",
+   "engine_version": "1.22.0.0",
+   "engine_update": "20260423",
+   "category": "malicious",
+   "result": "Trojan.Gen.NPE"
+  },
+  "ESET-NOD32": {
+   "method": "blacklist",
+   "engine_name": "ESET-NOD32",
+   "engine_version": "18.2.18.0",
+   "engine_update": "20260423",
+   "category": "malicious",
+   "result": "Generik.KKQUHAU trojan"
+  },
+  "TrendMicro-HouseCall": {
+   "method": "blacklist",
+   "engine_name": "TrendMicro-HouseCall",
+   "engine_version": "24.550.0.1002",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Avast": {
+   "method": "blacklist",
+   "engine_name": "Avast",
+   "engine_version": "23.9.8494.0",
+   "engine_update": "20260322",
+   "category": "undetected",
+   "result": null
+  },
+  "ClamAV": {
+   "method": "blacklist",
+   "engine_name": "ClamAV",
+   "engine_version": "1.5.2.0",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Kaspersky": {
+   "method": "blacklist",
+   "engine_name": "Kaspersky",
+   "engine_version": "22.0.1.28",
+   "engine_update": "20260423",
+   "category": "malicious",
+   "result": "HEUR:Trojan.AndroidOS.Triada.pac"
+  },
+  "BitDefender": {
+   "method": "blacklist",
+   "engine_name": "BitDefender",
+   "engine_version": "7.2",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "NANO-Antivirus": {
+   "method": "blacklist",
+   "engine_name": "NANO-Antivirus",
+   "engine_version": "1.0.170.26895",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "SUPERAntiSpyware": {
+   "method": "blacklist",
+   "engine_name": "SUPERAntiSpyware",
+   "engine_version": "5.6.0.1032",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Rising": {
+   "method": "blacklist",
+   "engine_name": "Rising",
+   "engine_version": "25.0.0.28",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Emsisoft": {
+   "method": "blacklist",
+   "engine_name": "Emsisoft",
+   "engine_version": "2024.8.0.61147",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "F-Secure": {
+   "method": "blacklist",
+   "engine_name": "F-Secure",
+   "engine_version": "18.10.1547.307",
+   "engine_update": "20260423",
+   "category": "malicious",
+   "result": "Malware.ANDROID/AVE.Evo.xyxkxf"
+  },
+  "DrWeb": {
+   "method": "blacklist",
+   "engine_name": "DrWeb",
+   "engine_version": "7.0.75.2070",
+   "engine_update": "20260423",
+   "category": "malicious",
+   "result": "Android.Triada.634.origin"
+  },
+  "VIPRE": {
+   "method": "blacklist",
+   "engine_name": "VIPRE",
+   "engine_version": "6.0.0.35",
+   "engine_update": "20260422",
+   "category": "undetected",
+   "result": null
+  },
+  "TrendMicro": {
+   "method": "blacklist",
+   "engine_name": "TrendMicro",
+   "engine_version": "24.550.0.1002",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "McAfeeD": {
+   "method": "blacklist",
+   "engine_name": "McAfeeD",
+   "engine_version": "1.2.0.14532",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "CMC": {
+   "method": "blacklist",
+   "engine_name": "CMC",
+   "engine_version": "2.4.2022.1",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Sophos": {
+   "method": "blacklist",
+   "engine_name": "Sophos",
+   "engine_version": "3.4.1.0",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Ikarus": {
+   "method": "blacklist",
+   "engine_name": "Ikarus",
+   "engine_version": "6.4.16.0",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Avast-Mobile": {
+   "method": "blacklist",
+   "engine_name": "Avast-Mobile",
+   "engine_version": "260423-02",
+   "engine_update": "20260423",
+   "category": "malicious",
+   "result": "APK:RepMalware [Trj]"
+  },
+  "Jiangmin": {
+   "method": "blacklist",
+   "engine_name": "Jiangmin",
+   "engine_version": "16.0.100",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Webroot": {
+   "method": "blacklist",
+   "engine_name": "Webroot",
+   "engine_version": "1.9.0.8",
+   "engine_update": "20250227",
+   "category": "undetected",
+   "result": null
+  },
+  "Google": {
+   "method": "blacklist",
+   "engine_name": "Google",
+   "engine_version": "1776960147",
+   "engine_update": "20260423",
+   "category": "malicious",
+   "result": "Detected"
+  },
+  "Avira": {
+   "method": "blacklist",
+   "engine_name": "Avira",
+   "engine_version": "8.3.3.24",
+   "engine_update": "20260423",
+   "category": "malicious",
+   "result": "ANDROID/AVE.Evo.xyxkxf"
+  },
+  "Antiy-AVL": {
+   "method": "blacklist",
+   "engine_name": "Antiy-AVL",
+   "engine_version": "3.0",
+   "engine_update": "20260423",
+   "category": "malicious",
+   "result": "Trojan/Android.Triada"
+  },
+  "Kingsoft": {
+   "method": "blacklist",
+   "engine_name": "Kingsoft",
+   "engine_version": "None",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Gridinsoft": {
+   "method": "blacklist",
+   "engine_name": "Gridinsoft",
+   "engine_version": "1.0.244.174",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Xcitium": {
+   "method": "blacklist",
+   "engine_name": "Xcitium",
+   "engine_version": "38590",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Microsoft": {
+   "method": "blacklist",
+   "engine_name": "Microsoft",
+   "engine_version": "1.1.26030.3008",
+   "engine_update": "20260423",
+   "category": "malicious",
+   "result": "Trojan:Win32/Alevaul!rfn"
+  },
+  "ViRobot": {
+   "method": "blacklist",
+   "engine_name": "ViRobot",
+   "engine_version": "2014.3.20.0",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "ZoneAlarm": {
+   "method": "blacklist",
+   "engine_name": "ZoneAlarm",
+   "engine_version": "6.24-114820454",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "GData": {
+   "method": "blacklist",
+   "engine_name": "GData",
+   "engine_version": "GD:27.44297AVA:64.31099",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Varist": {
+   "method": "blacklist",
+   "engine_name": "Varist",
+   "engine_version": "6.6.1.3",
+   "engine_update": "20260423",
+   "category": "malicious",
+   "result": "ABmRisk.FGJL-"
+  },
+  "BitDefenderFalx": {
+   "method": "blacklist",
+   "engine_name": "BitDefenderFalx",
+   "engine_version": "2.0.936",
+   "engine_update": "20251216",
+   "category": "malicious",
+   "result": "Android.Riskware.FakeApp.AFJ"
+  },
+  "AhnLab-V3": {
+   "method": "blacklist",
+   "engine_name": "AhnLab-V3",
+   "engine_version": "3.30.0.10666",
+   "engine_update": "20260423",
+   "category": "malicious",
+   "result": "Trojan/Android.Triada.1326955"
+  },
+  "Acronis": {
+   "method": "blacklist",
+   "engine_name": "Acronis",
+   "engine_version": "1.2.0.121",
+   "engine_update": "20240328",
+   "category": "undetected",
+   "result": null
+  },
+  "VBA32": {
+   "method": "blacklist",
+   "engine_name": "VBA32",
+   "engine_version": "5.5.1",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "TACHYON": {
+   "method": "blacklist",
+   "engine_name": "TACHYON",
+   "engine_version": "2026-04-23.02",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Zoner": {
+   "method": "blacklist",
+   "engine_name": "Zoner",
+   "engine_version": "2.2.2.0",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Tencent": {
+   "method": "blacklist",
+   "engine_name": "Tencent",
+   "engine_version": "1.0.0.1",
+   "engine_update": "20260423",
+   "category": "malicious",
+   "result": "Android.Trojan.Triada.Jmnw"
+  },
+  "Yandex": {
+   "method": "blacklist",
+   "engine_name": "Yandex",
+   "engine_version": "5.5.2.24",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "huorong": {
+   "method": "blacklist",
+   "engine_name": "huorong",
+   "engine_version": "cce2406:cce2406:8748742:8748742",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "MaxSecure": {
+   "method": "blacklist",
+   "engine_name": "MaxSecure",
+   "engine_version": "1.0.0.1",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "Fortinet": {
+   "method": "blacklist",
+   "engine_name": "Fortinet",
+   "engine_version": "7.0.30.0",
+   "engine_update": "20260423",
+   "category": "malicious",
+   "result": "Android/Triada.631!tr"
+  },
+  "AVG": {
+   "method": "blacklist",
+   "engine_name": "AVG",
+   "engine_version": "23.9.8494.0",
+   "engine_update": "20260322",
+   "category": "undetected",
+   "result": null
+  },
+  "Panda": {
+   "method": "blacklist",
+   "engine_name": "Panda",
+   "engine_version": "4.6.4.2",
+   "engine_update": "20260423",
+   "category": "undetected",
+   "result": null
+  },
+  "CrowdStrike": {
+   "method": "blacklist",
+   "engine_name": "CrowdStrike",
+   "engine_version": "1.0",
+   "engine_update": "20251219",
+   "category": "undetected",
+   "result": null
+  },
+  "Skyhigh": {
+   "method": "blacklist",
+   "engine_name": "Skyhigh",
+   "engine_version": null,
+   "engine_update": "20260430",
+   "category": "confirmed-timeout",
+   "result": null
+  },
+  "VirIT": {
+   "method": "blacklist",
+   "engine_name": "VirIT",
+   "engine_version": "9.5.1193",
+   "engine_update": "20260423",
+   "category": "confirmed-timeout",
+   "result": null
+  },
+  "TrellixENS": {
+   "method": "blacklist",
+   "engine_name": "TrellixENS",
+   "engine_version": "6.0.6.653",
+   "engine_update": "20260430",
+   "category": "confirmed-timeout",
+   "result": null
+  },
+  "DeepInstinct": {
+   "method": "blacklist",
+   "engine_name": "DeepInstinct",
+   "engine_version": "5.0.0.8",
+   "engine_update": "20260422",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "tehtris": {
+   "method": "blacklist",
+   "engine_name": "tehtris",
+   "engine_version": "v0.1.4",
+   "engine_update": "20260423",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "APEX": {
+   "method": "blacklist",
+   "engine_name": "APEX",
+   "engine_version": "6.772",
+   "engine_update": "20260422",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "Paloalto": {
+   "method": "blacklist",
+   "engine_name": "Paloalto",
+   "engine_version": "0.9.0.1003",
+   "engine_update": "20260423",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "Cynet": {
+   "method": "blacklist",
+   "engine_name": "Cynet",
+   "engine_version": "4.0.3.4",
+   "engine_update": "20260423",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "Trapmine": {
+   "method": "blacklist",
+   "engine_name": "Trapmine",
+   "engine_version": "4.0.11.0",
+   "engine_update": "20260331",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "Cylance": {
+   "method": "blacklist",
+   "engine_name": "Cylance",
+   "engine_version": "3.0.0.0",
+   "engine_update": "20260423",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "SentinelOne": {
+   "method": "blacklist",
+   "engine_name": "SentinelOne",
+   "engine_version": "7.6.2.19",
+   "engine_update": "20260324",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "alibabacloud": {
+   "method": "blacklist",
+   "engine_name": "alibabacloud",
+   "engine_version": "2.2.0",
+   "engine_update": "20250321",
+   "category": "type-unsupported",
+   "result": null
+  }
+ },
+ "last_analysis_date": 1776963997,
+ "vhash": "b24d8ee213883b8c979b8eb5444f7dc4",
+ "tlsh": "T16528128AFB8DDC1DC9F759319B0A5BE6560D5E244A52E7D72B00720D2C73AE84B0EDC8"
+}

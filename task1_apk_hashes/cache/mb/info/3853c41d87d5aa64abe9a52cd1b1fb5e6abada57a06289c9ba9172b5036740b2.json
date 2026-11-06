@@ -1,0 +1,164 @@
+{
+ "sha256_hash": "3853c41d87d5aa64abe9a52cd1b1fb5e6abada57a06289c9ba9172b5036740b2",
+ "sha3_384_hash": "e9829f432f8cab2c766419113069534723fff9e63a76d0d894782a1c262eaff48676bded192c7a7bd1af3196460ee779",
+ "sha1_hash": "50d5e395bc03141f01a14f41bad7c2ae2bd56a7f",
+ "md5_hash": "8ba9ab6f4d566d3ef96cee9a8a0c14ac",
+ "first_seen": "2024-11-04 13:31:12",
+ "last_seen": null,
+ "file_name": "MECB_251024.apk",
+ "file_size": 96202221,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": "Vultur",
+ "imphash": null,
+ "tlsh": "T1AF28334AF3C4A8AEC8F393B14D71815B510A5C69AB53D787A908B23D38F36E0461BDDD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:bw8MZBqVH7ksjQQ7fbEo9PCxyCPrgToiMaSr9vvfwbq2tCGfir676HhVSql8:0zHqVH7ksUQ7j3CxyCPNDzr9vvfwbhCy",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "36.4% (.APK) Android Package (27000/1/5)",
+  "18.2% (.JAR) Java Archive (13500/1/2)",
+  "14.8% (.CATROBAT) Pocket Code/Catroid Catrobat Project (11000/1/2)",
+  "14.1% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "10.8% (.XPI) Mozilla Firefox browser extension (8000/1/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "vultur"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "257",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/3853c41d87d5aa64abe9a52cd1b1fb5e6abada57a06289c9ba9172b5036740b2",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/241104-qsynlasrap/",
+   "tags": [
+    "android",
+    "banker",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation)",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2024-11-04 13:32:24",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/6728ccd75c437fc3ad4fb9c8/reports//overview"
+  }
+ },
+ "comments": null
+}

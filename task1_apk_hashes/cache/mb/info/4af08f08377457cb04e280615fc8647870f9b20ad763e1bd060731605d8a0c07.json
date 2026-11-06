@@ -1,0 +1,164 @@
+{
+ "sha256_hash": "4af08f08377457cb04e280615fc8647870f9b20ad763e1bd060731605d8a0c07",
+ "sha3_384_hash": "ee1ae9cbb4e66ace6ba6ea8c4bdf9d526ed4dbc048117e3e4cf9b4ae06420c077c00353fe04d1a6588314a5fb799e937",
+ "sha1_hash": "669586cf3420920c9cbf95505fc6cac79fff6f50",
+ "md5_hash": "738eabdbc44278bbfc7ecc468c073914",
+ "first_seen": "2026-02-02 15:50:03",
+ "last_seen": null,
+ "file_name": "4af08f08377457cb04e280615fc8647870f9b20ad763e1bd060731605d8a0c07.apk",
+ "file_size": 1385614,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": "PixRevolution",
+ "imphash": null,
+ "tlsh": "T1D0557B41FBE99E2ECC7380360F4A5631255AAD23C743C343D968365C78BB6E40E867E9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:zHlTblE1dNeDqrxI3vDHMU4zgdoCy2cagn557N9CUXSHBb:zJ8NZuvDHMkdoGgnb7NIb",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker",
+  "PixRevolution",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Lite Platform",
+   "issuer_cn": "Lite Platform",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2026-01-20T14:45:59Z",
+   "valid_to": "2053-06-07T14:45:59Z",
+   "serial_number": "4d2f5cd2bdefae2c",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "52772b1c830f3c334876088467f7eba522a802fc3fd72055443d50e71015ba1a",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "212",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/4af08f08377457cb04e280615fc8647870f9b20ad763e1bd060731605d8a0c07/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/4af08f08377457cb04e280615fc8647870f9b20ad763e1bd060731605d8a0c07",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/260202-tay37ady8d/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Checks known Qemu files.",
+     "score": "7"
+    },
+    {
+     "signature": "Checks known Qemu pipes.",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-01-24 11:06:06",
+   "scanner_count": "38",
+   "scanner_match": "3",
+   "scanner_percent": "7.89"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/6980c811552d46acbff037b6/reports//overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-01-24T01:34:00Z",
+   "last_seen": "2026-01-24T01:50:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/4af08f08377457cb04e280615fc8647870f9b20ad763e1bd060731605d8a0c07/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

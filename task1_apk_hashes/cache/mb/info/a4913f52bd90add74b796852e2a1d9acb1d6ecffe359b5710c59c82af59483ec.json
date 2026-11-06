@@ -1,0 +1,158 @@
+{
+ "sha256_hash": "a4913f52bd90add74b796852e2a1d9acb1d6ecffe359b5710c59c82af59483ec",
+ "sha3_384_hash": "d68052eb7eec66e1dbb6c2edb1fc313655125e178571a2bd1fcd2382fbc9c2578aee2463cffeee765ac41ce2ea567321",
+ "sha1_hash": "8f37a3e2017d543f4a788de3b05889e5e0bc4b06",
+ "md5_hash": "48ab25bc1b06eaf2cbbdfed3c3127cea",
+ "first_seen": "2025-07-22 18:01:52",
+ "last_seen": "2025-08-10 09:40:41",
+ "file_name": "EarthVPN-(v1.3.0).apk",
+ "file_size": 59224493,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0xfluxsec",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1DDD733D6BB48EC3FD1B321B38A129121B6764C168B03661365043A5EAD737E44F9DBCB",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:hxrFAjkSqgOHvsvZIw5OA+JiHvvJv3kWhFUs5oYl0pdNpDoiPtYBc:DFUEURo3J+5v3kWhFU+oIspEild",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "DCHSpy",
+  "MuddyWater",
+  "signed",
+  "Spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2022-07-05T15:22:54Z",
+   "valid_to": "2052-06-27T15:22:54Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "cd7cf3738547a1786094274f6e8a9e20595da1b1117453f5c49f7e7dd8a22fbd",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "284",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://fluxsec.red/analysing-Iranian-APT-MuddyWater-mobile-spyware-free-vpn-comodo"
+  },
+  {
+   "context": "links",
+   "value": "https://www.lookout.com/threat-intelligence/article/lookout-discovers-iranian-dchsy-surveillanceware"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "botnet_plaintext_c2",
+   "author": "cip",
+   "description": "Attempts to match at least some of the strings used in some botnet variants which use plaintext communication protocols.",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/a4913f52bd90add74b796852e2a1d9acb1d6ecffe359b5710c59c82af59483ec",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Suspicious Decryption Secret",
+     "description": "Asset was password protected with a secret known to be used in recent malware campaigns."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/250722-wmp26aen3s/",
+   "tags": [
+    "android",
+    "discovery",
+    "execution",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.DCHSpy",
+   "status": "MALICIOUS",
+   "first_seen": "2025-07-22 01:18:36",
+   "scanner_count": "24",
+   "scanner_match": "7",
+   "scanner_percent": "29.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/687fd2378a7d628a81bd3176/reports/f3eb82b6-a125-4f44-8e2d-81f7a2b21bde/overview"
+  }
+ },
+ "comments": null
+}

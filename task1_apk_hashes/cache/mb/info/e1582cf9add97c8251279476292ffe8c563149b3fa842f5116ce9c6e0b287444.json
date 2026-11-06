@@ -1,0 +1,122 @@
+{
+ "sha256_hash": "e1582cf9add97c8251279476292ffe8c563149b3fa842f5116ce9c6e0b287444",
+ "sha3_384_hash": "6526efec1ba25a19712b7bef07542fd2ee66faedf6f94b8d629669dbd36e3d045b648b5df71d69d50b07cf543ae4a370",
+ "sha1_hash": "b35b8b14dc2cb956576108f9746c7f9ffc866980",
+ "md5_hash": "feaf74b0a0f21dcbc00a2d5005bafa45",
+ "first_seen": "2024-02-18 23:47:47",
+ "last_seen": null,
+ "file_name": "KissLand.apk",
+ "file_size": 4039069,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T15F162313F6B69917C5F6C37222252A3940770E25C743B64A35087BF928FBEEC0B856E5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:zGZTSHh5MkkmXYPsWOx9zMsOhl5Z5IpOyfmQY0Gitk+HWoCz:zGZTSHMaoUFPgsOhl5Z2pOyW0GitnHW/",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.989.origin.19296.8882.UNOFFICIAL"
+  ],
+  "downloads": "640",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e1582cf9add97c8251279476292ffe8c563149b3fa842f5116ce9c6e0b287444/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/e1582cf9add97c8251279476292ffe8c563149b3fa842f5116ce9c6e0b287444",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240218-3tenbsfg2w/",
+   "tags": [
+    "family:irata",
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-02-18 23:48:07",
+   "scanner_count": "23",
+   "scanner_match": "8",
+   "scanner_percent": "34.78"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65d2973322703c3491a4504e/reports/fc82095e-461c-45ac-bd9e-4d0aa2879a48/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,135 @@
+{
+ "sha256_hash": "15569757171999c15ac7ab7248bb75efb9bcb7a273c5fe4e59fde2d7582e0e0d",
+ "sha3_384_hash": "82f5a7810204f3caca62959440d891d1f6eacca0ca8a767e4b5a5a5b5b32fd153fedc44c6bb602aa190d851c61c90985",
+ "sha1_hash": "13351028ea188471146659ce974081e76c49c56c",
+ "md5_hash": "4fbc58311f21448bf37303979b505c15",
+ "first_seen": "2023-04-13 13:03:14",
+ "last_seen": null,
+ "file_name": "AdultFriendFinderApp.apk",
+ "file_size": 3629925,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "HK",
+ "anonymous": 1,
+ "signature": "Chameleon",
+ "imphash": null,
+ "tlsh": "T1D0F51296F3ABEC44DE8AC63552B60083B935C2188251F6BA1C12F41E5DDBED1CD0DEDA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:5AhVQN3UE6jMGHqvnOQ/5Y7iZ4DYXIx07c4BBI:ujQxT6jMGKvB5Y2Z/6icN",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "60.1% (.APK) Android Package (38500/1/9)",
+  "21.0% (.JAR) Java Archive (13500/1/2)",
+  "10.9% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "6.2% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.5% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "banking",
+  "chameleon",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.14465.7433.14405.UNOFFICIAL"
+  ],
+  "downloads": "414",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://blog.cyble.com/2023/04/13/chameleon-a-new-android-malware-spotted-in-the-wild/?utm_content=245135784&utm_medium=social&utm_source=twitter&hss_channel=tw-1141929006603866117"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/15569757171999c15ac7ab7248bb75efb9bcb7a273c5fe4e59fde2d7582e0e0d/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/15569757171999c15ac7ab7248bb75efb9bcb7a273c5fe4e59fde2d7582e0e0d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/230413-qaxnksbe69/",
+   "tags": [
+    "android",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks Android system properties for emulator presence.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-01-09 03:48:06",
+   "scanner_count": "21",
+   "scanner_match": "9",
+   "scanner_percent": "42.86"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6437fdc3b4ec50bace5ffaf3/reports/5cc94e0d-ee34-473e-af5b-67433af3f68d/overview"
+  }
+ },
+ "comments": null
+}

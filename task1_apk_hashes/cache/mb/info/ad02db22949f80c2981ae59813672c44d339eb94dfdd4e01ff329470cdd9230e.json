@@ -1,0 +1,133 @@
+{
+ "sha256_hash": "ad02db22949f80c2981ae59813672c44d339eb94dfdd4e01ff329470cdd9230e",
+ "sha3_384_hash": "bbdad356c90aeb70e9d9722e0595554341814ff3ff2c0c6c5d46369bb8586dfb18eb146870c9c1e7af5098d66e6955ba",
+ "sha1_hash": "b045cbc21b94c742c98beb2bd8f76b36e9a964fa",
+ "md5_hash": "780c88f948825264b61a7c08f8ff937e",
+ "first_seen": "2026-02-28 20:48:48",
+ "last_seen": null,
+ "file_name": "Indecopi (1).apk",
+ "file_size": 7628974,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T1E5762212FF46D46FC5FB82374A7A02362A165C5D86538B9759A8B13C1CBF9C04BD2EC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:wKl2EBjygOhoV1LWqwK/33AFfyDzV+Qc56u/Io7di283LYilbg1+V29ANFQZaZNA:6EBMhQZvAfdRTQ22YiCPiNCZKn2j2KHn",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "SpyNote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "235",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ad02db22949f80c2981ae59813672c44d339eb94dfdd4e01ff329470cdd9230e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/ad02db22949f80c2981ae59813672c44d339eb94dfdd4e01ff329470cdd9230e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/260228-zl4eyagt5d/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "persistence"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2026-02-26 06:26:14",
+   "scanner_count": "36",
+   "scanner_match": "12",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69a354ca97feb4afd661c701/reports/ef470175-4e37-44b2-a76f-1e2453177d81/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/ad02db22949f80c2981ae59813672c44d339eb94dfdd4e01ff329470cdd9230e/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,109 @@
+{
+ "sha256_hash": "40b8a8fd2f4743534ad184be95299a8e17d029a7ce5bc9eaeb28c5401152460d",
+ "sha3_384_hash": "e1e26621eea94598ac53646cf5283e839c94d427043523b395d47878010f7849f91fb653779699e7bb6ef6ce961149ce",
+ "sha1_hash": "77d3c32f030542d9002857c1a24b8efc5a82270f",
+ "md5_hash": "3f987e8f3855062d26a6253f75396c51",
+ "first_seen": "2021-01-12 21:42:21",
+ "last_seen": null,
+ "file_name": "tmpddh2p5rm",
+ "file_size": 2673032,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "U039b",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "BCC533D9BB018FE5C1F16778A0420A93827C9252D140E96745BE119DBC3DCB8AFA7DBC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:2e702tX7T5pH2BXoo+GvfQlFFTF+li/YprXC8p+jnGZVbUCuerYReARW:bftX7T51KoYqZ1Up+jnGZVoCT0DW",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "269",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://beta.pithus.org/report/40b8a8fd2f4743534ad184be95299a8e17d029a7ce5bc9eaeb28c5401152460d"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/40b8a8fd2f4743534ad184be95299a8e17d029a7ce5bc9eaeb28c5401152460d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Generisk",
+   "score": "0.40"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": null,
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210113-6mxfgr134n/",
+   "tags": [
+    "android",
+    "obfuscation",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Suspicious use of android.app.ActivityManager.getRunningServices",
+     "score": "3"
+    },
+    {
+     "signature": "Suspicious use of android.os.PowerManager$WakeLock.acquire",
+     "score": "3"
+    },
+    {
+     "signature": "Suspicious use of android.telephony.TelephonyManager.getLine1Number",
+     "score": "3"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2020-11-27 10:46:10",
+   "scanner_count": "29",
+   "scanner_match": "9",
+   "scanner_percent": "31.03"
+  }
+ },
+ "comments": null
+}

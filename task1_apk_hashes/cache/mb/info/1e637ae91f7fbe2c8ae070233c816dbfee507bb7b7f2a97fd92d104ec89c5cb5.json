@@ -1,0 +1,151 @@
+{
+ "sha256_hash": "1e637ae91f7fbe2c8ae070233c816dbfee507bb7b7f2a97fd92d104ec89c5cb5",
+ "sha3_384_hash": "2fb8a5450b61412367d8813cac25f70cb3271fdc1d1fb48057e79f36f03d90076be57f94d13deb05d9d5a8bca4b5d6dd",
+ "sha1_hash": "e0fb870dd1c7c2e8f29b14b92ec2d29488019ba3",
+ "md5_hash": "b129f041d987b5686d2a4aab748afd20",
+ "first_seen": "2026-05-06 09:02:49",
+ "last_seen": null,
+ "file_name": "app(15).apk",
+ "file_size": 11910399,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T19EC62255F359AB2FC877103349FA563222970D078A839B536928760C7DBBAF40F59BC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:x7BFqDo5vzIpTkgH1eshNN6kxnNEHv7xu8lIpTjOvNBatJwNz/6ZsPPy7L8K:x7BFqDo57IpTZYshK8nNWJZz8SzrC3j",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "malware",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "000000",
+   "issuer_cn": "000000",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2023-06-18T02:59:06Z",
+   "valid_to": "2048-06-11T02:59:06Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "4a37517dce52fb62f04b2a3721ef181c8e460756485a4201e8b91a57f3d4bd47",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "137",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1e637ae91f7fbe2c8ae070233c816dbfee507bb7b7f2a97fd92d104ec89c5cb5/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/1e637ae91f7fbe2c8ae070233c816dbfee507bb7b7f2a97fd92d104ec89c5cb5",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260506-kz8t9ah16m/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.PUA.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2026-05-06 09:04:29",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fb03de2fcb905ec2825cc1/reports/74751e6c-9137-462e-8c32-50025e0be119/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-06T07:57:00Z",
+   "last_seen": "2026-05-08T00:00:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/1e637ae91f7fbe2c8ae070233c816dbfee507bb7b7f2a97fd92d104ec89c5cb5/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

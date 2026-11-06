@@ -1,0 +1,128 @@
+{
+ "sha256_hash": "b9fd307d5a43dec31b053d3061920cfe73935900482f95049bbe6fbdf022aeb9",
+ "sha3_384_hash": "f4c53460fbefffac7faacd9539c9d402cc52289dc4bbfae31d62ddb43e67c9473a54cd3b5c9c5dca7d625dc54b5eaa47",
+ "sha1_hash": "a5a1029f93d2d8824ecd041e1ca5622b5f189c75",
+ "md5_hash": "53e09b4acaed09754ef3db56bc0067f9",
+ "first_seen": "2026-09-06 18:58:53",
+ "last_seen": null,
+ "file_name": "wrapper.apk",
+ "file_size": 11098134,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Xenofic",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1CFB63310C523BD01D9075DF822A959A37E62CDD683989BCCA255E3A8FFFD124185C2EF",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:e1TJCdTZFUapjDdjCOc0v9f0lC0cS+1Ay/t9DmxWcjp+T5vKE1cw8rkNgNB25Fc/:e1GTZdDoE9fn0cNj/3akcd/S7IkNgNBL",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "51.4% (.APK) Android Package (27000/1/5)",
+  "25.7% (.JAR) Java Archive (13500/1/2)",
+  "15.2% (.XPI) Mozilla Firefox browser extension (8000/1/1)",
+  "7.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "Multi-stage Android banking trojan dropper disguised as \"PNB Retirement HRMS Benefits Card Verification\" app. Uses AES-256-GCM encryption with HKDF key derivation to decrypt embedded payload. Wrapper package: wmhfnq.mvicfbs. Decrypts and installs payload APK (com.Sam.RtoEchallan). Part of \"SAM PANEL\" threat actor campaign targeting Indian banking customers.",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker",
+  "dropper",
+  "pnb",
+  "signed",
+  "trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "VIDA-KEY",
+   "issuer_cn": "VIDA-KEY",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2026-08-28T10:32:49Z",
+   "valid_to": "2054-01-13T10:32:49Z",
+   "serial_number": "7c40269384f7aafb",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "5e23465abff7de891791c0f9fc5864fe3b5348184641547805083b8849ae3906",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "multiple",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Siggen.Susp2.8834.19415.27055.UNOFFICIAL"
+  ],
+  "downloads": "390",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b9fd307d5a43dec31b053d3061920cfe73935900482f95049bbe6fbdf022aeb9/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260906-xm5y2sfj5x/",
+   "tags": [
+    "android",
+    "evasion",
+    "impact"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-09-06 18:59:17",
+   "scanner_count": "24",
+   "scanner_match": "7",
+   "scanner_percent": "29.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a9db8004d386ea72bb07d13/reports/22be2845-bf9f-4db8-a2a4-a2ccebd50d80/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-06T17:24:00Z",
+   "last_seen": "2026-09-06T18:43:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/b9fd307d5a43dec31b053d3061920cfe73935900482f95049bbe6fbdf022aeb9/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

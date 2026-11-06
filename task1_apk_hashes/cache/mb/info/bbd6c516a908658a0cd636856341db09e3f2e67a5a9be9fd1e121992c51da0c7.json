@@ -1,0 +1,122 @@
+{
+ "sha256_hash": "bbd6c516a908658a0cd636856341db09e3f2e67a5a9be9fd1e121992c51da0c7",
+ "sha3_384_hash": "484e15382b4fb6d0d23e645ef4dff704bdc5a3aa65dff3f9834fdf352ece110919795eb3d643a20fe1e9b330f69c622f",
+ "sha1_hash": "ce75c2b0b449f81be11284adac579a70bcc7d1e3",
+ "md5_hash": "3960b401fc189fd957564c0348550f2b",
+ "first_seen": "2026-06-24 18:12:43",
+ "last_seen": null,
+ "file_name": "AndroidAuto.apk",
+ "file_size": 6204201,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T139562346FA93E89ACCF6C33140B60B39613A1E2AD34793476375B6F468BBAE447471C1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:YctGbZgi40QT8nBP2BPv3tVooAlHAVdrwr1/RkgOqJd4bS306zShQvOsBMFIk:1nynBelvtVN161/RkgOSBMQvDMqk",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Irata",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "dpt",
+   "issuer_cn": "dpt",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2024-11-05T12:52:39Z",
+   "valid_to": "2049-10-30T12:52:39Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "b8d25b845f276e25851f7a86261fc9c98ed4802240c31b21d466958d5e25096c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "229",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/bbd6c516a908658a0cd636856341db09e3f2e67a5a9be9fd1e121992c51da0c7/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/260624-wt5feset6j/",
+   "tags": [
+    "family:irata",
+    "android",
+    "infostealer",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Egairtigado",
+   "status": "MALICIOUS",
+   "first_seen": "2026-06-21 20:05:00",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a3c1e5a9799578a6c4a40a9/reports/92dff154-5fbb-4800-8195-a7eec3572687/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-06-21T16:24:00Z",
+   "last_seen": "2026-06-25T23:49:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/bbd6c516a908658a0cd636856341db09e3f2e67a5a9be9fd1e121992c51da0c7/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

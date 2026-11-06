@@ -1,0 +1,91 @@
+{
+ "sha256_hash": "b891d85ac6d3cbd98f0178bb9b8768931bc4af6d3de5b45908d3a7632ef3c037",
+ "sha3_384_hash": "b4cc47fa3a4e90041f0feb77668b3cea65c6502130d0edb89aa78b8c2bd90c78062687da8c5b6fbbdf873e17df9c8ae4",
+ "sha1_hash": "d5281d96ce96a2d49c64adad13e02b08d0cead08",
+ "md5_hash": "b086c2ce099eea75708def458fef77c6",
+ "first_seen": "2026-08-22 08:44:13",
+ "last_seen": null,
+ "file_name": "app (1).apk",
+ "file_size": 5355128,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "IN",
+ "anonymous": 1,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1AE462302F75A9DAAC5F1C3362466073620331D21C347EA8B5A1877F939FBDD84B5AAC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:+iE03xH1kVbDxIwuDL78alBcHPHVVUgXnJg8VYMMxb451faDcE+:xE6VqbywY+1V5nJg8VYMMxkDB",
+ "magika": "zip",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SHAPARAK"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Siggen.Susp2.5198.22010.16122.UNOFFICIAL"
+  ],
+  "downloads": "202",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b891d85ac6d3cbd98f0178bb9b8768931bc4af6d3de5b45908d3a7632ef3c037/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260822-knwqjsxsc1/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-08-22 08:45:30",
+   "scanner_count": "24",
+   "scanner_match": "7",
+   "scanner_percent": "29.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a89616111a720a8a2c1824b/reports/9423410c-e1df-494d-a439-f70dbcc36a04/overview"
+  }
+ },
+ "comments": null
+}

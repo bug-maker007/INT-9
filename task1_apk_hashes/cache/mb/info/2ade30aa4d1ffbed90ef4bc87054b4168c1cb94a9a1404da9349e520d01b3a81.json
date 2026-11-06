@@ -1,0 +1,149 @@
+{
+ "sha256_hash": "2ade30aa4d1ffbed90ef4bc87054b4168c1cb94a9a1404da9349e520d01b3a81",
+ "sha3_384_hash": "842ab9a193f2dbb0fe128a61f5f3e615c84a22d1491a625aa47701866dadcd2df7e6d4f7bb5803e1affcc6c2d33e1ef4",
+ "sha1_hash": "b707c8fbea37b3256fe0f9ded40dab18affa9084",
+ "md5_hash": "f9686890d7367494e9a8d98a7c22b204",
+ "first_seen": "2025-01-05 22:48:52",
+ "last_seen": null,
+ "file_name": "Gold_WhatsApp_v35_00.apk",
+ "file_size": 82912859,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T1310812D7EB65EC55E0F3A736D631526669168C60AB13E3B31E02B13C2EF39C0A605EC5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:GS+RWt2OLFPZtlSY2e1c4s90MmDpPwpJL/B36mEJcXRMGDUz/L0XXh:7MWcYrS/eY0rDhmEJyRDq2h",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "26.3% (.APK) Android Package (27000/1/5)",
+  "20.9% (.OXT) OpenOffice Extension (21500/1/3)",
+  "13.1% (.JAR) Java Archive (13500/1/2)",
+  "10.7% (.CATROBAT) Pocket Code/Catroid Catrobat Project (11000/1/2)",
+  "10.2% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)"
+ ],
+ "comment": "https://whatapk.gold/ => https://apkstore.cloud/download/dXBsb2Fkcy9Hb2xkX1doYXRzQXBwX3YzNV8wMC5hcGs=/h/fcd07c595f27181df1843bdd03d250d5",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "270",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/250105-2g9r9sxres/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/2ade30aa4d1ffbed90ef4bc87054b4168c1cb94a9a1404da9349e520d01b3a81",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "triada",
+   "score": "10",
+   "link": "https://tria.ge/reports/250105-2rpj3syjav/",
+   "tags": [
+    "family:triada",
+    "android",
+    "discovery",
+    "execution",
+    "impact",
+    "persistence",
+    "upx"
+   ],
+   "signatures": [
+    {
+     "signature": "Patched UPX-packed file",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "UPX packed file",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.PUA.WAMod",
+   "status": "MALICIOUS",
+   "first_seen": "2023-11-27 12:50:31",
+   "scanner_count": "38",
+   "scanner_match": "2",
+   "scanner_percent": "5.26"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/677b0c9e4623b7f2c0acb837/reports/eee247f9-d601-4d48-93b0-48b28db9ab76/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,128 @@
+{
+ "sha256_hash": "e0171574e8d547f7ae80a7769ab84012feb1d97098dc9c5cfb04493a448fc28c",
+ "sha3_384_hash": "4e662f8147f230927059a4ed6f2359cc5d91c72f02881021b0bc6f3a950a345cccb17b5f7d9c506ff956668fd66054a2",
+ "sha1_hash": "03c85f1705c7252cc24f53cf981fae226f7e295e",
+ "md5_hash": "9e4852abad4aeea2fd71f928a032bf8b",
+ "first_seen": "2026-03-22 05:53:23",
+ "last_seen": null,
+ "file_name": "MParivahan.apk",
+ "file_size": 18938087,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1A217DE23F51529A6DEC5A134F4E7679537301A440793A238671FE02AFDB21DECA37AC2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:kOPUBb1VP0d4KVPJyKmEL4pqF2CbnUnYY6knzVJY/VS:/sRneVP8ze2CbUnEknJa/VS",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Dropper",
+  "GOI",
+  "Malware",
+  "mParivahan",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.MulDrop.8677.8995.17837.UNOFFICIAL"
+  ],
+  "downloads": "418",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseapps2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise apps",
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseunix2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise UNIX",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e0171574e8d547f7ae80a7769ab84012feb1d97098dc9c5cfb04493a448fc28c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/e0171574e8d547f7ae80a7769ab84012feb1d97098dc9c5cfb04493a448fc28c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260322-gl2bgaay6p/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.AVerseFalc",
+   "status": "MALICIOUS",
+   "first_seen": "2026-03-22 05:54:30",
+   "scanner_count": "38",
+   "scanner_match": "10",
+   "scanner_percent": "26.32"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69bf840b4678eefbc7b0caab/reports/fc5c061b-9bb8-4bfc-98d1-58c57ed255ee/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/e0171574e8d547f7ae80a7769ab84012feb1d97098dc9c5cfb04493a448fc28c/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

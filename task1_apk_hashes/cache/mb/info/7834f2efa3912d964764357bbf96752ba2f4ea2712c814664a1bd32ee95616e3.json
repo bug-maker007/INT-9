@@ -1,0 +1,134 @@
+{
+ "sha256_hash": "7834f2efa3912d964764357bbf96752ba2f4ea2712c814664a1bd32ee95616e3",
+ "sha3_384_hash": "e6df4542acf6ac90ca094f739783b5369309ad15986d162f0b62240b85e2eea7c20457a3cfb6aa93d42d72f6f8fb6100",
+ "sha1_hash": "5f282b55912913f79c1688efde6fc4a1fb33a490",
+ "md5_hash": "326e607e62c25fb7dee34c95fc404c45",
+ "first_seen": "2026-08-07 21:57:30",
+ "last_seen": null,
+ "file_name": "7834f2efa3912d964764357bbf96752ba2f4ea2712c814664a1bd32ee95616e3.apk",
+ "file_size": 7131363,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "BR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T12976128FEF136EA4D4CD65358CBA2F49BB7D169EA3405B0B43B1E130ADCB6D50069A4C",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:riQTRMN6xgFSJvrTxZ4a4xQoeapcZ6DonUZnq5Ia843faHX:riQTRMN6xgFSJjHd4SDaKZ68UZnqQ4fO",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.1214.origin.20447.18314.UNOFFICIAL",
+   "SecuriteInfo.com.Android.Banker.1214.origin.4098.8896.UNOFFICIAL"
+  ],
+  "downloads": "253",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Detect_all_IPv6_variants",
+   "author": "Bierchermuesli",
+   "description": "Generic IPv6 catcher",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7834f2efa3912d964764357bbf96752ba2f4ea2712c814664a1bd32ee95616e3/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260807-1vq2msdj6x/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SAgnt",
+   "status": "MALICIOUS",
+   "first_seen": "2026-08-07 02:06:30",
+   "scanner_count": "24",
+   "scanner_match": "7",
+   "scanner_percent": "29.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a765509c69bb151a38754fa/reports/07df277b-cad4-46ca-b2be-91e6232b28c5/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-16T15:46:00Z",
+   "last_seen": "2026-08-08T00:08:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/7834f2efa3912d964764357bbf96752ba2f4ea2712c814664a1bd32ee95616e3/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": [
+  {
+   "id": "402967",
+   "date_added": "2026-08-08 20:46:08",
+   "twitter_handle": null,
+   "display_name": null,
+   "comment": "The **BRADESCO Android Banking Trojan** is a sophisticated, two-stage malware targeting Brazilian financial institutions, with a primary focus on **Banco Bradesco**.   This malware, which belongs to the **BrazKing lineage**—a family known for its modular design, accessibility-service abuse, and overlay-based credential theft."
+  }
+ ]
+}

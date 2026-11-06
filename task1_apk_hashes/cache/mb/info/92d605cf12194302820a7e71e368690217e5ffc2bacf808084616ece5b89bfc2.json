@@ -1,0 +1,112 @@
+{
+ "sha256_hash": "92d605cf12194302820a7e71e368690217e5ffc2bacf808084616ece5b89bfc2",
+ "sha3_384_hash": "8afda36389875e95bc42424d9c1e57bf2ceba662fd9ea45251352311e7c320e38b819344b62f78ff68d17ba89bd484f6",
+ "sha1_hash": "36763e99e82972699feb3042e1e56dd081861806",
+ "md5_hash": "33e83defff884eefa65a9c2b6e4072e5",
+ "first_seen": "2026-08-21 07:18:27",
+ "last_seen": null,
+ "file_name": "33e83defff884eefa65a9c2b6e4072e5.apk",
+ "file_size": 1234175,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "myonium1",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1C445123EE71CD126E81BF339E135188F040C0485AA59FA6A1A65D55CCEFFCE4D688BB4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:I308+UUsDyS9NMIMy+LIMgtm387Jymzgd1bRojm3:fdWzMIMyAgQ3Awdd1bqjm3",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "Fire VPN",
+ "archive_pw": null,
+ "tags": [
+  "Android Malware",
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.Mamont.257.origin.8247.31403.UNOFFICIAL"
+  ],
+  "downloads": "301",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/92d605cf12194302820a7e71e368690217e5ffc2bacf808084616ece5b89bfc2/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260821-h5lwkavfqf/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Banbra",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-08-21 07:19:23",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a87fbf25277115c0171de6d/reports/b109260b-1b5b-4d15-af2e-e56d6e29d8e6/overview"
+  }
+ },
+ "comments": [
+  {
+   "id": "433968",
+   "date_added": "2026-08-21 08:38:54",
+   "twitter_handle": null,
+   "display_name": null,
+   "comment": "Here is the full reverse engineering report and configuration extraction for this sample: https://github.com/CtxtArc/malware-analysis/tree/main/92d605cf12194302820a7e71e368690217e5ffc2bacf808084616ece5b89bfc2 .\nKey findings from the analysis:\nExecution Chain: Android application bootstrap → social-engineered permission/role acquisition → persistent foreground service → Telegram polling C2.\n\nPersistence: Uses multiple independent persistence and resurrection mechanisms, including BOOT_COMPLETED, MY_PACKAGE_REPLACED, exact AlarmManager timers, foreground services, WorkManager, WakeLock, screen/unlock receivers, and SMS-triggered service restarts.\nSMS & Call Interception: Incoming SMS messages are captured and forwarded to the attacker's Telegram infrastructure. Incoming caller numbers are also recorded and reported to the C2.\nNotification Theft & Suppression: A NotificationListenerService cancels notifications immediately after they are posted, while extracting their application name and text. This allows the malware to steal OTP/push-notification content while preventing the victim from seeing it.\n\nRemote Control: The Telegram C2 supports remote SMS sending, USSD requests, installed-application enumeration, device online-status reporting, credential refresh, and remote self-destruct functionality.\nCredential Protection: Telegram bot credentials are AES-CBC encrypted in SharedPreferences. The encryption key is reconstructed by the native libsec-lib.so library and was successfully recovered through native reverse engineering.\nTargeting: The malware fingerprints installed applications, with particular interest in Russian banking, government, cryptocurrency, e-commerce, social-media, mail, taxi, and delivery applications.\n\nSelf-Destruct: The malware monitors for revocation of READ_SMS; when detected, it alerts the C2, sets a persistent self_destructed flag, terminates its execution paths, and prevents future service restarts.\nInfrastructure / Attribution: The recovered configuration exposed an operational Telegram bot and attacker-controlled Telegram infrastructure associated with the sample.\nIOCs & Artifacts: The analysis includes the package name, C2 infrastructure, native library, encrypted credential locations, SharedPreferences keys, notification channel, service/alarm identifiers, WorkManager tags, log tags, and relevant Android broadcast actions.\nUnreversed Components: TelegramPollingService.c(), several coroutine state machines, AutoReportWorker, portions of MainActivity, and additional /radar_* command branches remain partially unresolved and are documented with recommended next steps for further Smali/dynamic analysis."
+  }
+ ]
+}

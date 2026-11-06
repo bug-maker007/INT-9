@@ -1,0 +1,137 @@
+{
+ "sha256_hash": "7138689203dc5a2fe9cfcb84c39885e4b53eec9a72f37e36ddee61490f8217ca",
+ "sha3_384_hash": "e51a7b31871c07f23c4d64062f01b8307529d50343b4c71c06f30694d02933d709f1122a5fbe4d8aa00dffc797136531",
+ "sha1_hash": "0dae181a63d32fdbc7fa2c3f00fdffb1a48bb957",
+ "md5_hash": "99bd34fa6745f385d374847db6ac30e0",
+ "first_seen": "2020-11-20 20:32:04",
+ "last_seen": null,
+ "file_name": "eDestek.apk",
+ "file_size": 2284632,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ArkbirdDevil",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Anubis",
+ "imphash": null,
+ "tlsh": "52B52307FF8E8855C213F937A66601D2163B28160A56B8B71F6A73243FB6ED007A5DF4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:7LRTV+aJU5pToLxSZl6O1dVfQanFFTF+6qfZ8sB3uB3y7HJrS96RU:7t/UvotSiO1NZyRD2i7HJrI",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "anubis",
+  "apk",
+  "banker"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "578",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/malwrhunterteam/status/1329879627721039873"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7138689203dc5a2fe9cfcb84c39885e4b53eec9a72f37e36ddee61490f8217ca/"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": null,
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "anubis",
+   "score": "10",
+   "link": "https://tria.ge/reports/201120-qgfskqp4mx/",
+   "tags": [
+    "family:anubis",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Anubis banker",
+     "score": "10"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads name of network operator",
+     "score": "6"
+    },
+    {
+     "signature": "Suspicious use of android.app.ActivityManager.getRunningServices",
+     "score": "3"
+    },
+    {
+     "signature": "Suspicious use of android.os.PowerManager$WakeLock.acquire",
+     "score": "3"
+    },
+    {
+     "signature": "Suspicious use of android.telephony.TelephonyManager.getLine1Number",
+     "score": "3"
+    },
+    {
+     "signature": "Suspicious use of android.telephony.TelephonyManager.getNetworkCountryIso",
+     "score": "3"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "anubis",
+     "c2": "https://kendi-resim-sayfam-ozel.me/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2020-11-20 20:33:05",
+   "scanner_count": "29",
+   "scanner_match": "13",
+   "scanner_percent": "44.83"
+  }
+ },
+ "comments": null
+}

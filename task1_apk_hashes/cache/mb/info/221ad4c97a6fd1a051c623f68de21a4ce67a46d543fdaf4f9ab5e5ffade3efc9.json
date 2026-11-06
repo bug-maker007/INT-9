@@ -1,0 +1,137 @@
+{
+ "sha256_hash": "221ad4c97a6fd1a051c623f68de21a4ce67a46d543fdaf4f9ab5e5ffade3efc9",
+ "sha3_384_hash": "7c0ba938a51fd275a531d9f2bc7306a8d4856b8759f2fa70584d306b1710cdd4a8bc8c18214d77e345f24389579f9789",
+ "sha1_hash": "d41d9e10c8da4e64b81c05f1479d2efa40f21a9c",
+ "md5_hash": "433d78295b917843aedea5b7164546d0",
+ "first_seen": "2022-07-16 19:18:29",
+ "last_seen": null,
+ "file_name": "divar.apk",
+ "file_size": 2410046,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T101B5F082F7E95D2FCC77C0320BAA533512569E16C653E74B644837BD287BAE80E85BC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:onTNnHNhrC5MUsrKMzddmT/7YwUbvTrgXXgsp3OWtDJpVGnYamb9Yp5LXHNA:CTNnzC5MzKMzfmTh8brgXjtDJpgn5XNA",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "57.0% (.APK) Android Package (38500/1/9)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "15.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.4% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "Apk.spyware.IranPhishing",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "iran",
+  "malware",
+  "Phishing",
+  "signed",
+  "smsspy",
+  "spy",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Live Chat",
+   "issuer_cn": "Live Chat",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2022-07-10T18:28:26Z",
+   "valid_to": "2031-07-08T18:28:26Z",
+   "serial_number": "3794e247",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "04252eae82a77547bf20b2ab5b6b229af43963b79a85434ce20dee12118a4f10",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "multiple",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.Agent.CGM.5327.25161.UNOFFICIAL"
+  ],
+  "downloads": "480",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "spyware"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "Apk.spyware.IranPhishing"
+  },
+  {
+   "context": "dropped_by_malware",
+   "value": "smsspy"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2257660/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/221ad4c97a6fd1a051c623f68de21a4ce67a46d543fdaf4f9ab5e5ffade3efc9/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/221ad4c97a6fd1a051c623f68de21a4ce67a46d543fdaf4f9ab5e5ffade3efc9",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220716-x1jmzadfe6/",
+   "tags": [],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SmsThief",
+   "status": "MALICIOUS",
+   "first_seen": "2022-07-15 22:45:44",
+   "scanner_count": "26",
+   "scanner_match": "8",
+   "scanner_percent": "30.77"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/62d30f9fd6d93426cef5acb7/reports//overview"
+  }
+ },
+ "comments": null
+}

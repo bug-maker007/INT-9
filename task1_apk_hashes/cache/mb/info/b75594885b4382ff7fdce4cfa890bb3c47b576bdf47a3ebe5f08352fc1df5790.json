@@ -1,0 +1,149 @@
+{
+ "sha256_hash": "b75594885b4382ff7fdce4cfa890bb3c47b576bdf47a3ebe5f08352fc1df5790",
+ "sha3_384_hash": "1e6ff543cef2dcaadd6c8bbda28c9ec38d2692c2fe0d96d2badcdad3a67c7e2a345483f3ffd2a6084ca5dc2c0dcc0d19",
+ "sha1_hash": "c3189ad45becfc7f80bc0d3b7271b3a39c21e5a6",
+ "md5_hash": "3cded602dc6eeae332cfb4efc766f981",
+ "first_seen": "2026-07-28 11:59:38",
+ "last_seen": null,
+ "file_name": "Digikala_job.apk",
+ "file_size": 8061368,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "GB",
+ "anonymous": 1,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T16E863302FB927DAAC4E6D33011B9172660364F55930BA78B6370B7F928B7BD85B431C6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:+C8KA9chuzXZOoIOtT79UwruqBtEKwISLCjTUnUSV8+/j:+nKAlzooIylmkEmTUnU4n7",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "malware-analysis",
+  "SHAPARAK",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "dpt",
+   "issuer_cn": "dpt",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2024-11-05T12:52:39Z",
+   "valid_to": "2049-10-30T12:52:39Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "b8d25b845f276e25851f7a86261fc9c98ed4802240c31b21d466958d5e25096c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "236",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b75594885b4382ff7fdce4cfa890bb3c47b576bdf47a3ebe5f08352fc1df5790/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/260728-qjpz4aal2v/",
+   "tags": [
+    "family:irata",
+    "android",
+    "defense_evasion",
+    "discovery",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-07-18 19:10:55",
+   "scanner_count": "36",
+   "scanner_match": "3",
+   "scanner_percent": "8.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a68abf1c8c78a2f3351eda1/reports/b60bb7f1-11e6-41f9-9338-7f49b52fcaa3/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-18T14:16:00Z",
+   "last_seen": "2026-07-29T07:23:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/b75594885b4382ff7fdce4cfa890bb3c47b576bdf47a3ebe5f08352fc1df5790/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

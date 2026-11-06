@@ -1,0 +1,181 @@
+{
+ "sha256_hash": "d0a15d8c5c2ea81c9d47e2553346e1713bfdb007f41d7c5d35a38d06d8611921",
+ "sha3_384_hash": "40c918ad4ab5d070e99271981eff951c810596099999488e49d0b78ba452b08d9b02f2ae780a43d18a1ba823e43e9d56",
+ "sha1_hash": "3dfbf10fe8517a01ee14d13c9f627be27b6df047",
+ "md5_hash": "94d0f3e43f95900c112c0a63471a9efb",
+ "first_seen": "2026-01-12 08:17:08",
+ "last_seen": null,
+ "file_name": "Storage Junk Cleaner_1.4.apk",
+ "file_size": 7442301,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "FR",
+ "anonymous": 1,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T16376129EE31CA42FD47754B24EBA6621024B4C438283ABA3B655730D39B75C88F5EFD4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:h4aRDyAqdcvr7c2GmLoN2mcrIsheUSkP2w76VEVdSYcaEHGraAgKcL2JszGeWT8R:emyAcRWIs8vkP2wWKUfy27CnTZiWO",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "35.7% (.APK) Android Package (27000/1/5)",
+  "17.8% (.JAR) Java Archive (13500/1/2)",
+  "16.5% (.VYM) VYM Mind Map (12500/1/3)",
+  "13.9% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "10.5% (.XPI) Mozilla Firefox browser extension (8000/1/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Joker",
+  "Malware",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2026-01-09T06:41:27Z",
+   "valid_to": "2056-01-09T06:41:27Z",
+   "serial_number": "aa05c33d69fc2644854e984bb976f0df4c36f919",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "be7a267b4ef5fafaefdf32a931cc7f10cdc670e158d2528df2866c9f3e31b0af",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "244",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://play.google.com/store/apps/details?id=com.junk.space.clean.storage"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d0a15d8c5c2ea81c9d47e2553346e1713bfdb007f41d7c5d35a38d06d8611921/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/d0a15d8c5c2ea81c9d47e2553346e1713bfdb007f41d7c5d35a38d06d8611921",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/260112-j6xvwsay6e/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-01-12 08:17:31",
+   "scanner_count": "24",
+   "scanner_match": "1",
+   "scanner_percent": "4.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6964ae161a20a4c87b1b2898/reports/3818c165-47f4-446f-bb18-c8bcc9ddbddb/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Clean",
+   "file_type": "apk",
+   "first_seen": "2026-01-12T11:24:00Z",
+   "last_seen": "2026-01-12T11:43:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/d0a15d8c5c2ea81c9d47e2553346e1713bfdb007f41d7c5d35a38d06d8611921/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

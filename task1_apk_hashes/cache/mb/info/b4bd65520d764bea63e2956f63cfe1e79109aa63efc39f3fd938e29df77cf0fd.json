@@ -1,0 +1,165 @@
+{
+ "sha256_hash": "b4bd65520d764bea63e2956f63cfe1e79109aa63efc39f3fd938e29df77cf0fd",
+ "sha3_384_hash": "5396fed92f395981b86fcc21bcdbc2eb3790111e7a46609650ac9a0210a860205170fe41035422a95d98fbc1a7d291dc",
+ "sha1_hash": "b8df9c4fbc07539f5b25929b132d97c1416b6710",
+ "md5_hash": "18a3c09ce58b3db05cf248730adb6bd0",
+ "first_seen": "2024-03-24 00:31:30",
+ "last_seen": null,
+ "file_name": "AndroidUpdates.apk",
+ "file_size": 370274,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Alonso168957071",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "Anubis",
+ "imphash": null,
+ "tlsh": "T16B742315E8EA4391F027B6FD591737ABE824935752EC3B09374849C8F9DAC99AF2C304",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:DTomipFaxl2ZkyY47C+uGFKkOsOQwT7gTnEJD0VilSIKexXSFuauAvGh:DUmipFayvu+uqKkKQ+DliFuauAvGh",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "Anubis",
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Cyhinx",
+   "issuer_cn": "Cyhinx",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2019-01-24T16:04:39Z",
+   "valid_to": "2046-06-11T16:04:39Z",
+   "serial_number": "65c51109",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a996cb0f13137d4065be811783a60ac5ca5476f1dec350f13fd7418a2a204506",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "618",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b4bd65520d764bea63e2956f63cfe1e79109aa63efc39f3fd938e29df77cf0fd/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Anubis",
+   "score": "0.90"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/b4bd65520d764bea63e2956f63cfe1e79109aa63efc39f3fd938e29df77cf0fd",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "anubis",
+   "score": "10",
+   "link": "https://tria.ge/reports/240324-avl5kshe2t/",
+   "tags": [
+    "family:anubis",
+    "android",
+    "banker",
+    "collection",
+    "discovery",
+    "evasion",
+    "infostealer",
+    "persistence",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Anubis banker",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "8"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "7"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation)",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "anubis",
+     "c2": "https://qzwrxetcryvtubynumnuybtvrcewsdcfv.com"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2019-04-10 15:15:58",
+   "scanner_count": "38",
+   "scanner_match": "18",
+   "scanner_percent": "47.37"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65ff74847e414bfaaebee44c/reports/a4ef7159-370f-41ff-9b25-cfefe8baaaae/overview"
+  }
+ },
+ "comments": null
+}

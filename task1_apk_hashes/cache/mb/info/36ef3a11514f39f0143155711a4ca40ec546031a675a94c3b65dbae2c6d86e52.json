@@ -1,0 +1,162 @@
+{
+ "sha256_hash": "36ef3a11514f39f0143155711a4ca40ec546031a675a94c3b65dbae2c6d86e52",
+ "sha3_384_hash": "dea179088abcbe80121beba4293ac112f9f4033ff51ac6a59dd6086bec0f758c36bef8e5b3f3e4231bfa23c28d59cafa",
+ "sha1_hash": "9520bc32a31773126ec776985e8ca9896a3a0478",
+ "md5_hash": "f080a7e25bacfb2435cc9f5bdc4c12c3",
+ "first_seen": "2026-07-29 06:06:23",
+ "last_seen": null,
+ "file_name": "36ef3a11514f39f0143155711a4ca40ec546031a675a94c3b65dbae2c6d86e52.apk",
+ "file_size": 9673534,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "Copybara",
+ "imphash": null,
+ "tlsh": "T1BFA63313F24A8E9BF1765B399D6462C5113E3C14CF5387976966733C18BA6E08F23B82",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:1u+Nlh8Eu1wWwPLCLH+QN4ut1eMSsiYmIJLmjOItCrsbyQmKoThwp9so0GHbp:eD1xwPmLH+luHeFWmIJSamCwy17Yp",
+ "magika": "jar",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "37-148-161-44",
+  "apk",
+  "Copybara"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "204",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "tico_android",
+   "author": "Alberto Segura",
+   "description": "Detects tico Android bots files",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/36ef3a11514f39f0143155711a4ca40ec546031a675a94c3b65dbae2c6d86e52/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "copybara",
+   "score": "10",
+   "link": "https://tria.ge/reports/260729-gt2xzahr6y/",
+   "tags": [
+    "family:copybara",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about the current Wi-Fi connection",
+     "score": "6"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation)",
+     "score": "5"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "copybara",
+     "c2": "37.148.161.44"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-03-30 20:05:27",
+   "scanner_count": "38",
+   "scanner_match": "5",
+   "scanner_percent": "13.16"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/6a69986b8712d08d93783d1a/reports//overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-03-30T13:21:00Z",
+   "last_seen": "2026-07-30T07:19:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/36ef3a11514f39f0143155711a4ca40ec546031a675a94c3b65dbae2c6d86e52/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

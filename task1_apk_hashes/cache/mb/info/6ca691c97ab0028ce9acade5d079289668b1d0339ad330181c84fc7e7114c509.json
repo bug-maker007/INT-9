@@ -1,0 +1,148 @@
+{
+ "sha256_hash": "6ca691c97ab0028ce9acade5d079289668b1d0339ad330181c84fc7e7114c509",
+ "sha3_384_hash": "46396f84dcd646b77447b5280367ea7ec62d3c50d033b0857fe6f7e1e09de219001cf3bcc25fe5ddac25596b0c2922eb",
+ "sha1_hash": "47c3a8e85e57a263a911c9f670e014b420866722",
+ "md5_hash": "12215a810e34537734e8802673a35c2d",
+ "first_seen": "2025-11-07 06:45:49",
+ "last_seen": null,
+ "file_name": "7ec62d3c50d033b0857fe6f7e1e09de219001cf3bcc25fe5ddac25596b0c2922.apk",
+ "file_size": 8711027,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "juroots",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": "Hook",
+ "imphash": null,
+ "tlsh": "T1BB96124AFB48B59AC4F7573385B9923241474C268B83D6835D58B23C5DBBAF00F5ABC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:kAD11ar8RAb2GWt/HM/Gqniw1kdRDcCekj1y6n7c4:n1ar8/GRniwwws5y+7c4",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "65.0% (.APK) Android Package (27000/1/5)",
+  "25.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.6% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hook"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "286",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3698676/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/6ca691c97ab0028ce9acade5d079289668b1d0339ad330181c84fc7e7114c509/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "hook",
+   "score": "10",
+   "link": "https://tria.ge/reports/251107-hjtpaa1jct/",
+   "tags": [
+    "family:ermac",
+    "family:hook",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hook",
+     "c2": "http://hrjob-forward-build.store"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2025-11-04 03:35:03",
+   "scanner_count": "24",
+   "scanner_match": "8",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/690d95c2fad650b0c998576d/reports/55a3e4ec-9e97-455e-a21d-2f1653309e8b/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-11-03T22:36:00Z",
+   "last_seen": "2025-11-08T10:35:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/6ca691c97ab0028ce9acade5d079289668b1d0339ad330181c84fc7e7114c509/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

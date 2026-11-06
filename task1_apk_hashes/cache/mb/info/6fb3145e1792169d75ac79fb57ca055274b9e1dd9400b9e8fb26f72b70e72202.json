@@ -1,0 +1,160 @@
+{
+ "sha256_hash": "6fb3145e1792169d75ac79fb57ca055274b9e1dd9400b9e8fb26f72b70e72202",
+ "sha3_384_hash": "6cbe91bd81560c1928858f0f8e8f630f43989d380981adf11ecec718c7f4220f41fa8436c3ab769dc7b0178747a232ba",
+ "sha1_hash": "c314730bdb38f28ed8b2ab33b5a1a072616ab313",
+ "md5_hash": "c6860ddbd5a5cc6a48c43056881e45ca",
+ "first_seen": "2026-05-08 08:59:34",
+ "last_seen": null,
+ "file_name": "VSSID(1).apk",
+ "file_size": 23108938,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1C237D005F20C662AD9C6F07DAD8605E2B536BC8A6350C5463537B32DFAB37D48B267E0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:iBWrMQ/Q6hZVc/0F70EgdVf6Ans1sgAXFNgI7a7/Y3Zu9yzhLrZy6epA0RMplixk:iFQ/py/0FaSs3FNgIuM9zhL9OYlixy4S",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "50.0% (.APK) Android Package (27000/1/5)",
+  "23.1% (.VYM) VYM Mind Map (12500/1/3)",
+  "19.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "malware",
+  "VSSID"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "161",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "Detect_all_IPv6_variants",
+   "author": "Bierchermuesli",
+   "description": "Generic IPv6 catcher",
+   "reference": null
+  },
+  {
+   "rule_name": "ldpreload",
+   "author": "xorseed",
+   "description": null,
+   "reference": "https://stuff.rop.io/"
+  },
+  {
+   "rule_name": "MD5_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for MD5 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "RIPEMD160_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for RIPEMD-160 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "SHA1_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for SHA1 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "SHA512_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for SHA384/SHA512 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.35"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/6fb3145e1792169d75ac79fb57ca055274b9e1dd9400b9e8fb26f72b70e72202",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-ky3a3sh12p/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Win32.Trojan.Kepavll",
+   "status": "MALICIOUS",
+   "first_seen": "2025-11-08 15:18:51",
+   "scanner_count": "36",
+   "scanner_match": "18",
+   "scanner_percent": "50.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fda66286e92bda70242fc0/reports/f7973fb0-293d-42da-8498-7112d7cf09e9/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-11-08T10:24:00Z",
+   "last_seen": "2026-05-08T08:32:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/6fb3145e1792169d75ac79fb57ca055274b9e1dd9400b9e8fb26f72b70e72202/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

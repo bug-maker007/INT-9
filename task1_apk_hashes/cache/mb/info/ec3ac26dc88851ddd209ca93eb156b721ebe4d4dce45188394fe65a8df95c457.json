@@ -1,0 +1,147 @@
+{
+ "sha256_hash": "ec3ac26dc88851ddd209ca93eb156b721ebe4d4dce45188394fe65a8df95c457",
+ "sha3_384_hash": "ce52b489313ce6487425775f3ed73714822839d2c6bd16f7a4062791f9340e373f92f479034a6a5793a002246b44abb2",
+ "sha1_hash": "7ecf8881d6ae63e26daa09624d9a259d1271dd92",
+ "md5_hash": "00020172a5cbf3d0f836af22ac103d61",
+ "first_seen": "2026-06-17 13:00:48",
+ "last_seen": null,
+ "file_name": "dropper-TikTok_18_._Content_Entertainment-20260520193702.apk",
+ "file_size": 70144681,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T18CF73392EBE92459DCF7DB364B210925A643ACA7CB6357D76A04333D2033BC49D41F8A",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:0+PX97BqKp7Ro+jCAbPK7Yvs1z/26xzfezvv2/Jc1l:0eBbRoJ7pnxzf2vvk6l",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "39.7% (.APK) Android Package (27000/1/5)",
+  "19.8% (.JAR) Java Archive (13500/1/2)",
+  "19.1% (.ZAE) Compressed COLLADA Digital Asset Exchange (13000/1/2)",
+  "15.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Banker",
+  "Dropper",
+  "signed",
+  "TikTok"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "editor",
+   "issuer_cn": "editor",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-01-10T08:03:09Z",
+   "valid_to": "2115-12-17T08:03:09Z",
+   "serial_number": "231bc320",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "6215f00baa4bf18bab5792fc796bfc5555917240f14f7c7e672d956888d75c96",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "234",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260617-p9kbvsfz4j/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Win32.Trojan.Ravartar",
+   "status": "MALICIOUS",
+   "first_seen": "2026-06-17 13:04:34",
+   "scanner_count": "24",
+   "scanner_match": "5",
+   "scanner_percent": "20.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a329ab590632a45f7259562/reports/80a3a3f4-a236-47a8-8b24-9f491a21833d/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-06-17T12:06:00Z",
+   "last_seen": "2026-06-18T18:11:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/ec3ac26dc88851ddd209ca93eb156b721ebe4d4dce45188394fe65a8df95c457/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

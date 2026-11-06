@@ -1,0 +1,159 @@
+{
+ "sha256_hash": "eb2f45849072ef2f4d638ce47b4f5a7b277c4569896f756a1bdc69d519530f79",
+ "sha3_384_hash": "b474589e9e73116b62bc05a229698bb92c7a8bc4d8ec0ebf83c2494fe5e59cd42d268a33d713d3f8c2dd188d3cc27c52",
+ "sha1_hash": "d7ed8ef2bcfdd0a4d9dd80a55180cf24240a3121",
+ "md5_hash": "4a221804f5dec022c97fb357a9cfaef3",
+ "first_seen": "2022-09-21 09:14:01",
+ "last_seen": null,
+ "file_name": "CoinbaseUpdate20.14.apk",
+ "file_size": 2925934,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T1E5D52354E550D418C165A77186B785B26D384B340B22F62F1BA1F9BA4BF2FCA130ADFC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:gczMN3P6UMvE2d8J+qE2WsSYuy3raEasn5KXyG7TLoGDtcX7LprG9:3Y6U8E2dgXE2mYuy3Hasn8XyGHLooars",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "BankBot",
+  "Fake Coinbase",
+  "Hydra",
+  "ITA",
+  "malware",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SMS-10.UNOFFICIAL"
+  ],
+  "downloads": "656",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/D3LabIT/status/1572161218697363457?s=20&t=w1EWuQBbdtUmHRkvwcwSqA"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2309027/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/eb2f45849072ef2f4d638ce47b4f5a7b277c4569896f756a1bdc69d519530f79/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/eb2f45849072ef2f4d638ce47b4f5a7b277c4569896f756a1bdc69d519530f79",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/220921-k7cf1sfhf8/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Hydra payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "7"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hydra",
+     "c2": "http://lalabanda.com"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Bian",
+   "status": "MALICIOUS",
+   "first_seen": "2022-09-20 10:04:15",
+   "scanner_count": "25",
+   "scanner_match": "14",
+   "scanner_percent": "56.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/632ad5e5b333b2ec6b3d9beb/reports/b4899785-d6bc-46a0-bb34-3dabb13a7635/overview"
+  }
+ },
+ "comments": null
+}

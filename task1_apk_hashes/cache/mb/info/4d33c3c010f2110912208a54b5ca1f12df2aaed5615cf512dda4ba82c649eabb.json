@@ -1,0 +1,128 @@
+{
+ "sha256_hash": "4d33c3c010f2110912208a54b5ca1f12df2aaed5615cf512dda4ba82c649eabb",
+ "sha3_384_hash": "00b78156b2ab843ee9ddc6afa1e90c3437e7be985d61750b6a213192f29913d9873c28b72f2c94c1070d325d74721c49",
+ "sha1_hash": "95a6959a752d9d0d2f11c902512f19aee7fb6787",
+ "md5_hash": "2c0f13b0cdce60ec006f155362da5443",
+ "first_seen": "2021-08-10 13:43:57",
+ "last_seen": null,
+ "file_name": "YERLI_PORNO_IFSA_VIDEOLARI.apk",
+ "file_size": 2842504,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T1E4D5335AE787840ED517437783076AC73A61509C4BE7BC7F0A7980991CA7EC48E1BCBA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:Rd9FiO5lXJ8k5hRfUAfHN728s5zx0a9HkKWSbatOBAKVkekqa9WWaqckuCD5:/9FiSlXJ8k5hR8cNK8Q9VDatYQL9Wzo",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": "download https://cdn.discordapp.com/attachments/868069217587560448/874621034601541662/YERLI_PORNO_IFSA_VIDEOLARI.apk",
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "alienbot",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "221",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/unidentified0xc/status/1425086803120435201"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1522188/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/4d33c3c010f2110912208a54b5ca1f12df2aaed5615cf512dda4ba82c649eabb/"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/4d33c3c010f2110912208a54b5ca1f12df2aaed5615cf512dda4ba82c649eabb",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210810-88f2k3ln5e/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": " http://buralarnelerhkaldadad.club "
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-08-10 13:44:11",
+   "scanner_count": "46",
+   "scanner_match": "6",
+   "scanner_percent": "13.04"
+  }
+ },
+ "comments": [
+  {
+   "id": "21513",
+   "date_added": "2021-08-10 13:45:30",
+   "twitter_handle": "unidentified0xc",
+   "display_name": "unidentified ",
+   "comment": "path https://cdn.discordapp.com/attachments/868069217587560448/874621034601541662/YERLI_PORNO_IFSA_VIDEOLARI.apk"
+  },
+  {
+   "id": "21524",
+   "date_added": "2021-08-10 15:32:50",
+   "twitter_handle": "unidentified0xc",
+   "display_name": "unidentified ",
+   "comment": "c2 http://buralarnelerhkaldadad.club\n"
+  }
+ ]
+}

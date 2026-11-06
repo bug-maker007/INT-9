@@ -1,0 +1,186 @@
+{
+ "sha256_hash": "a4cf05a4c1e0b90781c5de2621fec4e6678e59308cc8904444d12f2c7bf82de1",
+ "sha3_384_hash": "42baf7eaffca00f71498c855887d271aabe644eb18221e03793fe2018af93f33966793cf5271eaca48c95946653dd37f",
+ "sha1_hash": "35a5589f8075a50d1331e4500921b58b70cc2ae4",
+ "md5_hash": "a5293a6a0864a0b3fa73534a04cd2b62",
+ "first_seen": "2025-12-04 03:28:17",
+ "last_seen": null,
+ "file_name": "Ultimate Space Cleaner_13.1.45.apk",
+ "file_size": 15883835,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "FR",
+ "anonymous": 1,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T141F6239AEB1DE83EC47B5073CE66966332A78D0145836773351CB31C2AB35499F0ABC6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:+mYFWmRlkeKRW9QI/TsZehiA1WJrful5xr:RYFnROWV+pA1WJLcxr",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "43.5% (.APK) Android Package (27000/1/5)",
+  "20.1% (.VYM) VYM Mind Map (12500/1/3)",
+  "16.9% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "12.9% (.XPI) Mozilla Firefox browser extension (8000/1/1)",
+  "6.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Bill Fraud",
+  "Joker",
+  "Malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "221",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://play.google.com/store/apps/details?id=com.utamivet.bossel.space"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a4cf05a4c1e0b90781c5de2621fec4e6678e59308cc8904444d12f2c7bf82de1/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/a4cf05a4c1e0b90781c5de2621fec4e6678e59308cc8904444d12f2c7bf82de1",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/251204-d11fyacp3s/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation)",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-12-04 03:29:18",
+   "scanner_count": "24",
+   "scanner_match": "1",
+   "scanner_percent": "4.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6931000aff25e40750d2d5a0/reports/5b3c0fc8-0e00-44c3-89ce-d1f52fc49c15/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Clean",
+   "file_type": "apk",
+   "first_seen": "2025-12-04T06:46:00Z",
+   "last_seen": "2025-12-04T07:03:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/a4cf05a4c1e0b90781c5de2621fec4e6678e59308cc8904444d12f2c7bf82de1/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

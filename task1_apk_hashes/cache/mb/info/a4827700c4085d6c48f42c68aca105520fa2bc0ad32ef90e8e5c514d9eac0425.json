@@ -1,0 +1,163 @@
+{
+ "sha256_hash": "a4827700c4085d6c48f42c68aca105520fa2bc0ad32ef90e8e5c514d9eac0425",
+ "sha3_384_hash": "2cecc59240e574e7bbdd26563db418fbaef06bfce9b5a413e15bb58f1c7de3e58766ffe6d58a75e0afc21cc26b548607",
+ "sha1_hash": "7141163cdcd682e0ef56fba8d5ec96d56634ffb8",
+ "md5_hash": "893c2ed92bc34ff4173635574a63a71a",
+ "first_seen": "2023-11-13 11:55:23",
+ "last_seen": null,
+ "file_name": "benzin.apk",
+ "file_size": 4305325,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1851633A7EA8EE41AD48361B0C1D539C61887A3417136EF2FCEF04C45A5A7C25A347FDA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:a37mAxZtbLf38bD+1T6qeEKe/LQBxftXuDMhg:axlXcdEK623hg",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "fly",
+   "issuer_cn": "fly",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2019-12-19T07:36:02Z",
+   "valid_to": "2044-12-12T07:36:02Z",
+   "serial_number": "10c54f92",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "976b580363b9a4f0d5ea19a96188b407cd7e681242f0106ac9079042131adc46",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Packed.54935.25397.30303.UNOFFICIAL"
+  ],
+  "downloads": "239",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2730269/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "BitcoinAddress",
+   "author": "Didier Stevens (@DidierStevens)",
+   "description": "Contains a valid Bitcoin address",
+   "reference": null
+  },
+  {
+   "rule_name": "Packer_Android_src",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android_src",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a4827700c4085d6c48f42c68aca105520fa2bc0ad32ef90e8e5c514d9eac0425/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/a4827700c4085d6c48f42c68aca105520fa2bc0ad32ef90e8e5c514d9eac0425",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/231113-n31jtscd8y/",
+   "tags": [
+    "family:irata",
+    "android",
+    "evasion",
+    "infostealer",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Irata",
+     "score": "10"
+    },
+    {
+     "signature": "Irata payload",
+     "score": "10"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Realrat",
+   "status": "MALICIOUS",
+   "first_seen": "2023-11-05 15:06:14",
+   "scanner_count": "24",
+   "scanner_match": "13",
+   "scanner_percent": "54.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65520ed8946b6ab22460e263/reports/29284cda-956f-4173-a98f-71812422feea/overview"
+  }
+ },
+ "comments": null
+}

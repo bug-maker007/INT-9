@@ -1,0 +1,111 @@
+{
+ "sha256_hash": "da43b86847f10c4578be3c80104729f243c6724d9f151bf8cfe087d09a9f74b9",
+ "sha3_384_hash": "06d54ed81afbce5872380779d1fc4fe833bc6caee15f1bafe3884f086276b64c464791a89882379153f720ddc9388da5",
+ "sha1_hash": "d743eb9a025a156a0beae18022dd05b0b91487f6",
+ "md5_hash": "9b3baa70f573d608d580054af58a8b98",
+ "first_seen": "2021-08-11 08:40:51",
+ "last_seen": null,
+ "file_name": "Turk_ifsa_Gizli_Cekim_obf.apk",
+ "file_size": 3131260,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T102E5330EFB5EC448E2A743330143364B277B989D548AB7690E36005968FBEDCC767DA6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:LlUlKomduypj6e/HpxQvtPJ7fxMUnjDCy+3llQJoNcry2V9ago4fwQJ5DYYSqzdF:Umdzp/hKtB7fxnjWyEiJo+rXvoPAK0zP",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "alienbot",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.PUA.DebugKey.6895.23042.UNOFFICIAL"
+  ],
+  "downloads": "236",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1524656/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/da43b86847f10c4578be3c80104729f243c6724d9f151bf8cfe087d09a9f74b9/"
+  },
+  "InQuest": {
+   "verdict": "SUSPICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/da43b86847f10c4578be3c80104729f243c6724d9f151bf8cfe087d09a9f74b9",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210811-vbqmerls12/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": " http://buralarnelernerelerhem.club "
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-11 08:41:04",
+   "scanner_count": "47",
+   "scanner_match": "9",
+   "scanner_percent": "19.15"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ]
+ },
+ "comments": null
+}

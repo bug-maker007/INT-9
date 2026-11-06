@@ -1,0 +1,119 @@
+{
+ "sha256_hash": "e75bcc316514dacde0453a0766b46bc7075159ff9ae31e1d955c48fb745bf97f",
+ "sha3_384_hash": "a1def248699cd53f5836a859229f177a309cba97225ad1ae9e8696fa8777339247e26e5c9329151747bc7d7dd51b875d",
+ "sha1_hash": "a32828458410e5bfef4e18627f72456dd70727f1",
+ "md5_hash": "631170cab53cef6a3cc8a73d35a88ec6",
+ "first_seen": "2021-10-14 12:55:26",
+ "last_seen": null,
+ "file_name": "AndroidUpdate (1).apk",
+ "file_size": 3037896,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1BEE533D5DF94B87BF54B6E3090E74065337A0789C467D06A321DA8E0EF2ADC05329FA6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:EdIk26OLx32qt5iB2sqyzOdyTdl6jIefQdjMb8kYNBfnzz77kNJR:EqKO932qXidSEpwEyqjO8PNBfPsJR",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.10989.13738.21350.UNOFFICIAL"
+  ],
+  "downloads": "358",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e75bcc316514dacde0453a0766b46bc7075159ff9ae31e1d955c48fb745bf97f/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/e75bcc316514dacde0453a0766b46bc7075159ff9ae31e1d955c48fb745bf97f",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/211014-p6dpxaheg4/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "https://budabelegedude111.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Cebruser",
+   "status": "MALICIOUS",
+   "first_seen": "2021-10-14 12:56:09",
+   "scanner_count": "28",
+   "scanner_match": "12",
+   "scanner_percent": "42.86"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/616828e81c2d58ba7406659d/reports/45d1c26d-cf79-46d7-8701-0ec1c9fb668c/overview"
+  }
+ },
+ "comments": [
+  {
+   "id": "27151",
+   "date_added": "2021-10-14 12:56:30",
+   "twitter_handle": "unidentified0xc",
+   "display_name": "unidentified ",
+   "comment": "original country turkey"
+  }
+ ]
+}

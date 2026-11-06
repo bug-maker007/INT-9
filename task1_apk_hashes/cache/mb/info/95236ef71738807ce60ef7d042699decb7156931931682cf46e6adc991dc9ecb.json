@@ -1,0 +1,107 @@
+{
+ "sha256_hash": "95236ef71738807ce60ef7d042699decb7156931931682cf46e6adc991dc9ecb",
+ "sha3_384_hash": "0e2f493dd16fa3ca3ad576eca66a64a6b95af1bfa5f66149962b9fd748c384f1024e40b93fdadeca8955c39bd663d9c4",
+ "sha1_hash": "90eea0d687fac4c09e2e4ca7ad41d3d2e2e222cc",
+ "md5_hash": "bf7acaa8e793d0724f57dff459080a30",
+ "first_seen": "2026-05-08 10:04:24",
+ "last_seen": null,
+ "file_name": "iMobile Lite(22).apk",
+ "file_size": 8733164,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T176963359E42D9C26EE8534BD7D0543863D31387C5320E14B6511CB3EFFE3682EAAB9A4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:XQHJs4JJ2aVZXrWZJZUDgpQgChPuNapmhTcCc0pz+Gr9CM03W2/y:XQ6OSZ/fpQJPu3hIuZ+se3O",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.0% (.KMZ) Google Earth saved working session (6000/1/1)",
+  "40.0% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "ICICI",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.Coper.7.origin.7082.24633.UNOFFICIAL"
+  ],
+  "downloads": "324",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "SUSP_ZIP_Smuggling_Jun01",
+   "author": "delivr.to",
+   "description": "ZIP archives with data smuggled between last file record and the central directory.",
+   "reference": "https://github.com/Octoberfest7/zip_smuggling/"
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/95236ef71738807ce60ef7d042699decb7156931931682cf46e6adc991dc9ecb/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/95236ef71738807ce60ef7d042699decb7156931931682cf46e6adc991dc9ecb",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-l8v57afx3t/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-08 10:06:05",
+   "scanner_count": "38",
+   "scanner_match": "1",
+   "scanner_percent": "2.63"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fdb53b792fe2d217adc77f/reports/cca26e02-8968-4de6-9400-42b40d950d7e/overview"
+  },
+  "Kaspersky": {
+   "verdict": "NotCategorized",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/95236ef71738807ce60ef7d042699decb7156931931682cf46e6adc991dc9ecb/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

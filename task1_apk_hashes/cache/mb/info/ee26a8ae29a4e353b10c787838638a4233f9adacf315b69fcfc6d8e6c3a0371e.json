@@ -1,0 +1,120 @@
+{
+ "sha256_hash": "ee26a8ae29a4e353b10c787838638a4233f9adacf315b69fcfc6d8e6c3a0371e",
+ "sha3_384_hash": "5a08cf564e8a329cb0e96152a1836d9e52ae58f6032068ee0b4746bcfca51dedb4a8b4f62f918d9a7df43abfe32e9c5f",
+ "sha1_hash": "7c8b7b5866f5dba9a9ac858f5b627d96c69852e8",
+ "md5_hash": "4fa14f8459004366b6dcb15dbb60a4ee",
+ "first_seen": "2021-10-13 14:28:47",
+ "last_seen": "2021-10-14 13:05:06",
+ "file_name": "Android_Update_build_flow.apk",
+ "file_size": 205226,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T19414128B6F14701AE4AFF878A7A593784BB4939C73C315A6193B9438EC261F00F5DD19",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "6144:QykS1f4iZzI7iVLu07HU8tRJtF0b8qRJthR0R:QyB1ftz3Vp7zJtgJt3O",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.833.origin.13277.1390.UNOFFICIAL"
+  ],
+  "downloads": "309",
+  "uploads": "3",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1674402/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1677455/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ee26a8ae29a4e353b10c787838638a4233f9adacf315b69fcfc6d8e6c3a0371e/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/ee26a8ae29a4e353b10c787838638a4233f9adacf315b69fcfc6d8e6c3a0371e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/211013-rtknssedd3/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "https://senigomdumben.com"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.BiurtcAdpoet",
+   "status": "MALICIOUS",
+   "first_seen": "2021-10-13 14:29:21",
+   "scanner_count": "28",
+   "scanner_match": "9",
+   "scanner_percent": "32.14"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6166ed31fd35fe780c3d6de2/reports/13fd1bea-fd7e-48b4-96df-5f0df2d56d2a/overview"
+  }
+ },
+ "comments": null
+}

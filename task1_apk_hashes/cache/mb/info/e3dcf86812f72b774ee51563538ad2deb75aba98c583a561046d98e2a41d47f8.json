@@ -1,0 +1,129 @@
+{
+ "sha256_hash": "e3dcf86812f72b774ee51563538ad2deb75aba98c583a561046d98e2a41d47f8",
+ "sha3_384_hash": "6099d2d9ec8b075460be5d2b0cbca9e67f5f77af72ad025d9b64b9e6ea1ec7b19212f56c356264bd375317347ac085ff",
+ "sha1_hash": "1f3f0652c0d89c4907281d76de3c983373a5fcb2",
+ "md5_hash": "a32c36009a37893be90e4f385b26b5ee",
+ "first_seen": "2022-05-12 11:20:52",
+ "last_seen": null,
+ "file_name": "E3DCF86812F72B774EE51563538AD2DEB75ABA98C583A561046D98E2A41D47F8.apk",
+ "file_size": 1039000,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ni_fi_70",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T106252247FB2AD481E5F7CB304AA393F5A0B71C9A6E0342A75551BA6D28B77C09F47C80",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:V6961oNpt1wEEoSkzJkGVMDxb0a5Vl7/tEHFamK+:VQpt1dE5kzyF0sVl7VQ",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "408",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e3dcf86812f72b774ee51563538ad2deb75aba98c583a561046d98e2a41d47f8/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/e3dcf86812f72b774ee51563538ad2deb75aba98c583a561046d98e2a41d47f8",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/220512-nfzn1scec8/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Hydra Payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hydra",
+     "c2": "http://franciszekforster223.top"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2022-05-12 11:21:12",
+   "scanner_count": "26",
+   "scanner_match": "13",
+   "scanner_percent": "50.00"
+  },
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/627ced9f89dc6403e7782f3a/reports/0ce3154c-b5e6-4c13-9b19-e86506dafaa2/overview"
+  }
+ },
+ "comments": null
+}

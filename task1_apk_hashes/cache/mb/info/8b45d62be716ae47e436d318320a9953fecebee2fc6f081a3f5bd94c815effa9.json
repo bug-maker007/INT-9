@@ -1,0 +1,114 @@
+{
+ "sha256_hash": "8b45d62be716ae47e436d318320a9953fecebee2fc6f081a3f5bd94c815effa9",
+ "sha3_384_hash": "624ea56bf7a0c261f3ef470a0e36e4972e52bf25918d5033c85139c852d9511bb9253bb9893acd6b8fccc6a5f315ace3",
+ "sha1_hash": "10f18190c4293d7dc47832684e08717ba18e81b9",
+ "md5_hash": "75d9e274132bcc4d89b0222d9eb3ac42",
+ "first_seen": "2021-10-09 16:16:09",
+ "last_seen": null,
+ "file_name": "Chrome116378.apk",
+ "file_size": 3173963,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T107E52289FB959873F29264303546508775290E377601EC2B21E3B11F6B6BFB49F36CA2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:N5uV+FF/9wKNrANGJ8zwAA5jRA3/4sNmGH3MY+3szT0m8pFxtx5D2:NYV+b1wKNkNG+zKsRmO8Yb2px3D2",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "apk"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.10558.30070.6299.UNOFFICIAL"
+  ],
+  "downloads": "288",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1662373/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8b45d62be716ae47e436d318320a9953fecebee2fc6f081a3f5bd94c815effa9/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/8b45d62be716ae47e436d318320a9953fecebee2fc6f081a3f5bd94c815effa9",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/211009-trc72sfce7/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://64sz7gfovv39nlhwlhgr.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-10-09 16:16:19",
+   "scanner_count": "27",
+   "scanner_match": "8",
+   "scanner_percent": "29.63"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6161c080334ba92bd9234536/reports/4b60e295-65ba-49c4-b1c2-18bffbafc6cd/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,117 @@
+{
+ "sha256_hash": "e62dd5c6fe0d91734eee31aa71c6126bb86db61adf0bc631edf835e8a5d19901",
+ "sha3_384_hash": "fe5f13aca6b04f4a526649d1f30e0986b8f117db69c142f4ef4aae375cfcfa049423f2e013663876c15018f766c2ef53",
+ "sha1_hash": "7177b29d04360808c7f2da006d2c1d8072d3a27c",
+ "md5_hash": "24310fe710c8b8c0d1ac4d6422bebc51",
+ "first_seen": "2023-11-11 22:07:43",
+ "last_seen": null,
+ "file_name": "saham.apk",
+ "file_size": 2740415,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1F5C52353F37ABC1BD832C17221892376511A4E15CE01BB8B795877EA35BBEEC8B851C4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:HG/0QNUE+AxrvQirZtDrkEtvJOszk9a7jps+nGiATXWwGhAeggy7sbrY1khO+e:mcPhurvQirLHpJOszYYpXGiATGzhX/oN",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "editor",
+   "issuer_cn": "editor",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-01-10T08:03:09Z",
+   "valid_to": "2115-12-17T08:03:09Z",
+   "serial_number": "231bc320",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "6215f00baa4bf18bab5792fc796bfc5555917240f14f7c7e672d956888d75c96",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.5292.30799.29211.UNOFFICIAL"
+  ],
+  "downloads": "204",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e62dd5c6fe0d91734eee31aa71c6126bb86db61adf0bc631edf835e8a5d19901/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/e62dd5c6fe0d91734eee31aa71c6126bb86db61adf0bc631edf835e8a5d19901",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/231111-117lksce58/",
+   "tags": [
+    "family:irata",
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-11-11 22:08:06",
+   "scanner_count": "22",
+   "scanner_match": "12",
+   "scanner_percent": "54.55"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.25",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/654ffb42641154c7e3f33978/reports/70b0bef8-4706-4e88-a813-bb787c70bbb7/overview"
+  }
+ },
+ "comments": null
+}

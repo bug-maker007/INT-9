@@ -1,0 +1,161 @@
+{
+ "sha256_hash": "e9b41fd64d8702f974e63374a03ad914b6f1b24e8ddd96c29ff14ce81713676f",
+ "sha3_384_hash": "03e026523363375fbf90e77c843de250f28a7459cc373ea16385e2d1ba7b2c479fb8b8aa47d9bd07d836eeacd7b78ce6",
+ "sha1_hash": "e87c48bd6516203e95a8e13b05fb52351e644f9b",
+ "md5_hash": "1c705b18d3d7e5fa06c8719b0cab2411",
+ "first_seen": "2026-02-15 17:47:35",
+ "last_seen": null,
+ "file_name": "correios.apk",
+ "file_size": 8934662,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": "PixRevolution",
+ "imphash": null,
+ "tlsh": "T175962285BBE99E1FCC33403A4F4A573216499E27C742C347C9743A5C387BAE44E896E9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:scvhbp1qgj9mL7XrqEww/ii5tmFcSsW9ck9Iu3lwc00MDq44xdbU:HNfRj0HbqEww/F51Ss2ctOpOq4ydg",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "44.2% (.APK) Android Package (27000/1/5)",
+  "22.1% (.JAR) Java Archive (13500/1/2)",
+  "17.2% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.8% (.WMZ) Windows Media Player skin (6000/1/1)",
+  "6.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "109-110-184-242",
+  "200-9-154-125",
+  "apk",
+  "banker",
+  "correios-aplicativo-br-com",
+  "PixRevolution"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan.AndroidOS.Agent.9067.31992.UNOFFICIAL"
+  ],
+  "downloads": "191",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_sha256",
+   "value": "e7aa84c2b3ac31d3a948f0431cdbf7b28116fffb157b8e99e8efe455c92dd661"
+  },
+  {
+   "context": "dropping_md5",
+   "value": "f967267c0bf0ae354bc39aaf80d6b65f"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e9b41fd64d8702f974e63374a03ad914b6f1b24e8ddd96c29ff14ce81713676f/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/e9b41fd64d8702f974e63374a03ad914b6f1b24e8ddd96c29ff14ce81713676f",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/260215-wdgdnagw5f/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Checks known Qemu files.",
+     "score": "7"
+    },
+    {
+     "signature": "Checks known Qemu pipes.",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Checks the application is allowed to request package installs through the package installer",
+     "score": "6"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Requests allowing to install additional applications from unknown sources.",
+     "score": "6"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2026-02-15 01:17:18",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/699206db2ffccda097703ae5/reports/8cc7b1c1-533c-41bc-ae84-0d4ce45f2c32/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/e9b41fd64d8702f974e63374a03ad914b6f1b24e8ddd96c29ff14ce81713676f/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

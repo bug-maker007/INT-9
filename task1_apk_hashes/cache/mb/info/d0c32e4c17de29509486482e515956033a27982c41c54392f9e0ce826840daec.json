@@ -1,0 +1,121 @@
+{
+ "sha256_hash": "d0c32e4c17de29509486482e515956033a27982c41c54392f9e0ce826840daec",
+ "sha3_384_hash": "2fb393a1d36a992d1af1f7b077adb6705eabe8486ac1e5a8ed8da0cd8038a15f471cdbab7a0fe943679204fd1894c552",
+ "sha1_hash": "970cbcc272c9f03574444e376fa006b8df659e5f",
+ "md5_hash": "049f2ad5c6be4de18e03eacd94117746",
+ "first_seen": "2021-12-15 16:05:11",
+ "last_seen": null,
+ "file_name": "04.apk",
+ "file_size": 1888561,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T148953376C2412C6AC91F873361A59211B0F53C2C637B98D1FA2EB5B463FBB80576E760",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:B+F/2u1FUT2IYi5DgcUCCcxPxTbcRcTf/z2:wFXUSIYilKCCcPb/Ti",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Alien",
+  "alienrat",
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "453",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d0c32e4c17de29509486482e515956033a27982c41c54392f9e0ce826840daec/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/d0c32e4c17de29509486482e515956033a27982c41c54392f9e0ce826840daec",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/211215-tj34haahap/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://fiftiforfrisend.quest"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Phonzy",
+   "status": "MALICIOUS",
+   "first_seen": "2021-12-07 18:50:00",
+   "scanner_count": "45",
+   "scanner_match": "11",
+   "scanner_percent": "24.44"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61ba126e81d2323720033c5a/reports/50022b67-3838-43c2-ae9e-6aafa83b8ca9/overview"
+  }
+ },
+ "comments": null
+}

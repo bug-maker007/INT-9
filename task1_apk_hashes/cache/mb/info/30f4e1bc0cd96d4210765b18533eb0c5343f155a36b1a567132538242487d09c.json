@@ -1,0 +1,125 @@
+{
+ "sha256_hash": "30f4e1bc0cd96d4210765b18533eb0c5343f155a36b1a567132538242487d09c",
+ "sha3_384_hash": "426cd2dbe5d50efc6fb626fd10922647f5f476e5f66b062c57d1c9bb44d20cbbcb4be2e1ab4cbc4fa399fb19fcc21ad5",
+ "sha1_hash": "3a8138debf528361bf7093e3aa85a5f84105ebf6",
+ "md5_hash": "dfd9c7dee4f4a16d636917de35a510b7",
+ "first_seen": "2026-10-25 02:20:17",
+ "last_seen": null,
+ "file_name": "com.hagaseca.thost9.apk",
+ "file_size": 41681,
+ "file_type_mime": "application/vnd.android.package-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "tipo_deincognito",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1FD13E16B9B955667E336B7700AA0CBE27936CC5B33033B695841A3E16CF923BC710485",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "768:pUXoMlAGza+XLHaVm6ce7CV70WSmujunaMP5Cj181C:pooM4IHaVfce7CVtcjpMoj181C",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "Android dropper/loader (com.hagaseca.thost9), delivered through an ADB shell installer. The APK has no native libraries; encrypted assets/hg decrypts to a DEX loaded at runtime. Stage 2 uses package th9 and service com.hagaseca.thost9.Fore. C2 WebSocket endpoint https://test.hagaseca.com/ws over TLS with a trust-all TrustManager; sends hg-token (MD5) and hg-type: kita. Downloads tc9.dex and loads it through dalvik.system.InMemoryDexClassLoader. Accessibility service com.hagaseca.thost9.AS supports screen-content access and gestures.",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "dropper",
+  "hagaseca",
+  "loader",
+  "stage2"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.FileRepMalware.13384738.UNOFFICIAL"
+  ],
+  "downloads": "233",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/30f4e1bc0cd96d4210765b18533eb0c5343f155a36b1a567132538242487d09c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/261025-csnazagb87/",
+   "tags": [
+    "android",
+    "defense_evasion",
+    "evasion",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks Android system properties for emulator presence.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-01-21 05:39:25",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6add676b444fa5ac8ba500fd/reports/0c500cd8-5b74-4906-ab5b-1903ec662130/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-01-21T12:59:00Z",
+   "last_seen": "2026-10-26T02:56:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/30f4e1bc0cd96d4210765b18533eb0c5343f155a36b1a567132538242487d09c/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

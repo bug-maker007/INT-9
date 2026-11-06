@@ -1,0 +1,108 @@
+{
+ "sha256_hash": "d85cfb227e6955e3304ecb9fc6798829d682d94a38a27b24bf1b6d4402ba79db",
+ "sha3_384_hash": "f03938abe8554899eed472ae33b8e6d204c8b1c444e4727be43a7e21e204ac9266632a1ba5464274641b56a151ad3621",
+ "sha1_hash": "3dd40c3e3d966b919e478ac1d02fcc4da0da0bf1",
+ "md5_hash": "c233540e6ef50899d1953b84b9a963ce",
+ "first_seen": "2025-03-21 14:49:29",
+ "last_seen": null,
+ "file_name": "Interbank Seguridad.apk",
+ "file_size": 9415977,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "UA",
+ "anonymous": 1,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T1F396238AE745A61BC0FAC3794877A62451036C0A86A3D75BD13CB23C68BF7D48F85DE4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:G6Sqc64P48EwpWf34nGia1rNqqNAadnVQM+5xdiXn4VBH9yReRkYBqTLQaU:NSqc64Rk34KhqqtdnSM9n47H9TRR8jU",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": "spynote spymax",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SpyNote"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "203",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Suspicious_Latam_MSI_and_ZIP_Files",
+   "author": "eremit4, P4nd3m1cb0y",
+   "description": "Detects suspicious .msi and .zip files used in Latam banking trojan campaigns.",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d85cfb227e6955e3304ecb9fc6798829d682d94a38a27b24bf1b6d4402ba79db/"
+  },
+  "YOROI_YOMI": {
+   "detection": "SpyNote",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/d85cfb227e6955e3304ecb9fc6798829d682d94a38a27b24bf1b6d4402ba79db",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250321-r7slkavmy8/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "execution",
+    "persistence"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-03-21 14:50:30",
+   "scanner_count": "23",
+   "scanner_match": "11",
+   "scanner_percent": "47.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67dd7cc597863754dc6fddd9/reports/e14abbfd-1d19-45b7-8b06-e9e769ef2a63/overview"
+  }
+ },
+ "comments": null
+}

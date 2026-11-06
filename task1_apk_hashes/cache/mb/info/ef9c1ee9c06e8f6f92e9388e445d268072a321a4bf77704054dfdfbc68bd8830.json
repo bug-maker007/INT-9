@@ -1,0 +1,179 @@
+{
+ "sha256_hash": "ef9c1ee9c06e8f6f92e9388e445d268072a321a4bf77704054dfdfbc68bd8830",
+ "sha3_384_hash": "5f4a862b344282226f1895219c44116a21cfbc4529a99d5cbbb5d1851322ef9c84771031330495207bf7ebe7ef48528a",
+ "sha1_hash": "fb46397f5d1a37055cc5323d89681dc0d1da5b85",
+ "md5_hash": "c0b49d35aba26433370836dacc9d3007",
+ "first_seen": "2024-06-18 18:34:24",
+ "last_seen": null,
+ "file_name": "c0b49d35aba26433370836dacc9d3007",
+ "file_size": 2934135,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "zbetcheckin",
+ "origin_country": "FR",
+ "anonymous": 0,
+ "signature": "Hook",
+ "imphash": null,
+ "tlsh": "T12AD51281FBE92D2FCCB784364F9B863612568E13C686D7078894772D687B2D40F99BC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:R7gmZbnXsxJHCXVvEELV0AUgFw9EdFMVDvRXleFSl2Fu0cFUm4LpisVaQ/jazg/Z:FpbXsxNCXBEELrUgFw991VIYyuV6m4oo",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "44.6% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "34.0% (.WIDGET) Konfabulator widget (8000/1/2)",
+  "17.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "4.2% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hook",
+  "zip"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.Ermac.9.origin.15570.27680.UNOFFICIAL"
+  ],
+  "downloads": "400",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2895948/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ef9c1ee9c06e8f6f92e9388e445d268072a321a4bf77704054dfdfbc68bd8830/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ef9c1ee9c06e8f6f92e9388e445d268072a321a4bf77704054dfdfbc68bd8830",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hook",
+   "score": "10",
+   "link": "https://tria.ge/reports/240618-xkrzeavblb/",
+   "tags": [
+    "family:ermac",
+    "family:hook",
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hook",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about the current Wi-Fi connection",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Ermac",
+   "status": "MALICIOUS",
+   "first_seen": "2024-06-18 18:35:12",
+   "scanner_count": "23",
+   "scanner_match": "9",
+   "scanner_percent": "39.13"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6671d35921581a92819dc099/reports/c4776ccd-1dc6-4aa8-bfbf-0f239238fc40/overview"
+  }
+ },
+ "comments": [
+  {
+   "id": "95682",
+   "date_added": "2024-06-18 18:34:26",
+   "twitter_handle": "zbetcheckin",
+   "display_name": "zbet",
+   "comment": "url : hxxp://213.142.159.49:8082/getfile.php?download=YXBwLXJlbGVhc2UtMS5hcGs="
+  }
+ ]
+}

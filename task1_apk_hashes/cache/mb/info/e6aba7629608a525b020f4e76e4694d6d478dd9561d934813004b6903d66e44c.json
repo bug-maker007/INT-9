@@ -1,0 +1,144 @@
+{
+ "sha256_hash": "e6aba7629608a525b020f4e76e4694d6d478dd9561d934813004b6903d66e44c",
+ "sha3_384_hash": "ae4d86b126322bba4602f0bcf0ef8df11b7bb2570c60d0d6ebb364c8788989d618c501884bfa29e98a974434c1ced9f6",
+ "sha1_hash": "90320997c7dac34d4261eb38eb548910efc2b983",
+ "md5_hash": "39fca709b416d8da592de3a3f714dce8",
+ "first_seen": "2025-04-21 04:58:05",
+ "last_seen": null,
+ "file_name": "Skygofree_exploits.apk",
+ "file_size": 1355244,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "IndonesiaPeople",
+ "origin_country": "ID",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T176551242FAB9F62BC831C1722788573B115A5D15E646B70E3858B7FEB4B7E9807823C4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:ep/0vvEN4sK3akueOUD62ZxF/uk82OemGbobwV+b587:epIsi3akgUVZ7uBe7obwV+Vs",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "Apk",
+  "signed",
+  "Skygofree",
+  "Spyware",
+  "Trojan",
+  "Xploit"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "",
+   "issuer_cn": "",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2017-03-17T19:22:11Z",
+   "valid_to": "2042-03-11T19:22:11Z",
+   "serial_number": "38de02ab",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "6a6b79d0a9687203cdd3e156efaa713f113b57c37aeae9d5e71ad55df5cef7a9",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Hidden.4155.12975.11656.UNOFFICIAL"
+  ],
+  "downloads": "246",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/e6aba7629608a525b020f4e76e4694d6d478dd9561d934813004b6903d66e44c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/250421-k45y6axza1/",
+   "tags": [
+    "android",
+    "discovery",
+    "evasion",
+    "impact",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Android",
+   "status": "MALICIOUS",
+   "first_seen": "2017-09-29 16:52:40",
+   "scanner_count": "36",
+   "scanner_match": "17",
+   "scanner_percent": "47.22"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/68060b7b90767142c3dd8975/reports/91238ccd-e74a-4c6b-81ad-54c33b9d98c2/overview"
+  }
+ },
+ "comments": null
+}

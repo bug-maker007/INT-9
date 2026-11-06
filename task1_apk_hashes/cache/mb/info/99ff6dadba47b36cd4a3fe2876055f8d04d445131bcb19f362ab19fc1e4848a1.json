@@ -1,0 +1,135 @@
+{
+ "sha256_hash": "99ff6dadba47b36cd4a3fe2876055f8d04d445131bcb19f362ab19fc1e4848a1",
+ "sha3_384_hash": "031c66bb1d708b1f94b9f9c236df4e5029eb8ef4cb3b93c8406c108be69ee088d129dbadfaa632ea2f6e8f3c07a4d522",
+ "sha1_hash": "9576c75406362ad64b37395622b35a89d7393d60",
+ "md5_hash": "ba065741cc10c4cbb135b8c0a62b1fbe",
+ "first_seen": "2026-08-26 11:17:01",
+ "last_seen": null,
+ "file_name": "ir.aein.click.apk",
+ "file_size": 6711118,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "GB",
+ "anonymous": 1,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T107662382F6E3E577D4E1823100BF1178453A8EF5C716E9AA1D2033B94EB7DD81B45AE8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:TbCxpgHgECyMlBjwd2j/6NbzdDti4oAcjkS03DSOr/muH77bu:UpgAEsBjwd2+Nfd8wDSmuuH7e",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "IRATA",
+  "SHAPARAK",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "247",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/99ff6dadba47b36cd4a3fe2876055f8d04d445131bcb19f362ab19fc1e4848a1/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/260826-ndt1raxflf/",
+   "tags": [
+    "family:irata",
+    "android",
+    "infostealer",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-08-26 11:17:23",
+   "scanner_count": "24",
+   "scanner_match": "3",
+   "scanner_percent": "12.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a8ecb3ef63972455aa4c872/reports/cb08e862-2901-4cca-90f5-fccc29540b6c/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-26T09:26:00Z",
+   "last_seen": "2026-08-27T23:51:00Z",
+   "hitscount": 100,
+   "report_link": "https://opentip.kaspersky.com/99ff6dadba47b36cd4a3fe2876055f8d04d445131bcb19f362ab19fc1e4848a1/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

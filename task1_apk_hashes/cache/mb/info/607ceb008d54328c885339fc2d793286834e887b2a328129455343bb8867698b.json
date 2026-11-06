@@ -1,0 +1,94 @@
+{
+ "sha256_hash": "607ceb008d54328c885339fc2d793286834e887b2a328129455343bb8867698b",
+ "sha3_384_hash": "2c858721c8d23c9038a7ed70fd6744782e983b0aa775623f56290892590a862549c734e24c1124820f5b30bf4fb2e775",
+ "sha1_hash": "563551eeb18bd5c2889d3ce98462912148189d0f",
+ "md5_hash": "a45dc99d0d146524d608691f86d00d63",
+ "first_seen": "2021-09-29 21:14:41",
+ "last_seen": "2021-09-29 21:15:33",
+ "file_name": "DHL11.apk",
+ "file_size": 4469696,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Mosajjal",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "FluBot",
+ "imphash": null,
+ "tlsh": "T13D2623D6FE9FD41AE007E1B5D064D887481808AC4909F97B9A29929C1DFADC0EB47FCD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:r/KW9aS2qftu6uCFY/9RhP3ueI6EQGTgKnOHTlUETyh5JJ:r/zjiY49RR3DJRKOzGEA5r",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "flubot"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.10484.7591.23575.UNOFFICIAL"
+  ],
+  "downloads": "308",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropped_by_malware",
+   "value": "flubot"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "anubis",
+   "link": "https://mwdb.cert.pl/sample/607ceb008d54328c885339fc2d793286834e887b2a328129455343bb8867698b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/607ceb008d54328c885339fc2d793286834e887b2a328129455343bb8867698b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210929-z3wresfhb4/",
+   "tags": [
+    "android",
+    "obfuscation"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-09-29 21:15:07",
+   "scanner_count": "45",
+   "scanner_match": "11",
+   "scanner_percent": "24.44"
+  }
+ },
+ "comments": null
+}

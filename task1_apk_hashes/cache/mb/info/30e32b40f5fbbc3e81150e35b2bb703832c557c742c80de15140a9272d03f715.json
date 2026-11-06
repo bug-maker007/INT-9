@@ -1,0 +1,120 @@
+{
+ "sha256_hash": "30e32b40f5fbbc3e81150e35b2bb703832c557c742c80de15140a9272d03f715",
+ "sha3_384_hash": "61366384f2d2542d1515f19c5e98f5e9a5f55bea599d55b778d6bda8c0f0e5ca17b1d03b12aaa51630ec650f76f9ca66",
+ "sha1_hash": "03c06c39e1a6eddd2abceef19764d1b8d6e2da49",
+ "md5_hash": "233d1d9d464277a074d28a6bebab05bb",
+ "first_seen": "2024-03-29 01:12:36",
+ "last_seen": null,
+ "file_name": "KissLande.apk",
+ "file_size": 4039069,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1BF162307F76AA913C8F6C37220261831157B1E29CB53F24E25153BFA28BFDD80B856D9",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:4GZTSHh5MkkmXYHuPqSZFp7tzrNxNuUdD+nR2c8YW:4GZTSHMaIHuPqSxhz7diR2PYW",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "403",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/30e32b40f5fbbc3e81150e35b2bb703832c557c742c80de15140a9272d03f715/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/30e32b40f5fbbc3e81150e35b2bb703832c557c742c80de15140a9272d03f715",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240329-bk3v1sde8w/",
+   "tags": [
+    "family:irata",
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Backdoor.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2024-03-29 01:13:12",
+   "scanner_count": "23",
+   "scanner_match": "9",
+   "scanner_percent": "39.13"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6606159fec04992a87d1d1af/reports/3d59058c-9471-4150-a838-666add369512/overview"
+  }
+ },
+ "comments": null
+}

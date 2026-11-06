@@ -1,0 +1,117 @@
+{
+ "sha256_hash": "d787c7dd04ddb7ff7904970df06b24ffe4c5326581c1e273a00253bc0b9afae3",
+ "sha3_384_hash": "6cf9ab2b5f710764f0a622d4e8acb4acce14b93a80b17bdb8d60df46e1918fb10b4f5b1e0561a7a4fc819fe1071a67ee",
+ "sha1_hash": "21be91f8cb11884de53a25393c8d2eddd12c218e",
+ "md5_hash": "330a8b6408e1cfde185663e35da61554",
+ "first_seen": "2026-03-24 01:38:57",
+ "last_seen": null,
+ "file_name": "Daily Phone Cleaner_1.4.2.apk",
+ "file_size": 18457284,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "HK",
+ "anonymous": 1,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T19907226BEB24402FF4371F3954AF6230C9565C0F9C52DBD79924730859BBA843F6AB88",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:r7U2VQWke16FBVeEXoO8l8K49r4FJELPnDIq3DFB2HJ/:lKrVeEYOU2EQPnTFB2HJ/",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "36.9% (.APK) Android Package (27000/1/5)",
+  "17.1% (.VYM) VYM Mind Map (12500/1/3)",
+  "15.0% (.CATROBAT) Pocket Code/Catroid Catrobat Project (11000/1/2)",
+  "14.3% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "10.9% (.XPI) Mozilla Firefox browser extension (8000/1/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Joker",
+  "Malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "209",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://play.google.com/store/apps/details?id=com.mante.daily.cleaner"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d787c7dd04ddb7ff7904970df06b24ffe4c5326581c1e273a00253bc0b9afae3/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "0.80"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/d787c7dd04ddb7ff7904970df06b24ffe4c5326581c1e273a00253bc0b9afae3",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260324-b24tmsct4m/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-03-24 01:39:34",
+   "scanner_count": "38",
+   "scanner_match": "7",
+   "scanner_percent": "18.42"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69c1eb474ec2f522cc54b100/reports/786355c1-f93c-4de1-ac3b-4b6284f42202/overview"
+  },
+  "Kaspersky": {
+   "verdict": "NotCategorized",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/d787c7dd04ddb7ff7904970df06b24ffe4c5326581c1e273a00253bc0b9afae3/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

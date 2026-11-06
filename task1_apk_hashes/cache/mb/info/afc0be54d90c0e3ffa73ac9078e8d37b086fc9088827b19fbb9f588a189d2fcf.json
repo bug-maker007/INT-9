@@ -1,0 +1,171 @@
+{
+ "sha256_hash": "afc0be54d90c0e3ffa73ac9078e8d37b086fc9088827b19fbb9f588a189d2fcf",
+ "sha3_384_hash": "b5e4ac2fa0bfc7340bde7f7a6a664a26d2cc46b9779e3eaa6d687e3dd5bd3ee7ce6e3a2ea2d2ef121e9346325b24f5ad",
+ "sha1_hash": "bea47d604b92dd6e882020ce98ba1e74243152ba",
+ "md5_hash": "1fcf19789a0eacfbea44dfe155492ec9",
+ "first_seen": "2025-09-01 03:51:46",
+ "last_seen": null,
+ "file_name": "Core Cleaner.apk",
+ "file_size": 33663115,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "KR",
+ "anonymous": 1,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T12C77236BF32C543EC43740B74E7661BA21591D96DA42AB63B814B34C28F7AD48F4AFD0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "786432:6LFNQMd1tteHlerA0fusRsPVBIyGmpltbOiM4hF/Yu+GbIIw/HIFKrHvv1Ea83:6FNRLEkrAdAOVGyGET3YlGbYIKrn1EaQ",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "35.5% (.APK) Android Package (27000/1/5)",
+  "18.4% (.ZIP) Opera Widget (14000/1/2)",
+  "17.7% (.JAR) Java Archive (13500/1/2)",
+  "13.8% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "9.2% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Bill Fraud",
+  "Joker",
+  "Malware",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2025-08-25T07:32:58Z",
+   "valid_to": "2055-08-25T07:32:58Z",
+   "serial_number": "5495a190e0689c46925857cdc558003ab3fd2e23",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "175ab801e5571146b4f48b6d22d0fb62e04ed6f2801a25f0461a66b5781e683e",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "188",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://play.google.com/store/apps/details?id=com.bilcicore.cleaner"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "botnet_plaintext_c2",
+   "author": "cip",
+   "description": "Attempts to match at least some of the strings used in some botnet variants which use plaintext communication protocols.",
+   "reference": null
+  },
+  {
+   "rule_name": "CP_AllMal_Detector",
+   "author": "DiegoAnalytics",
+   "description": "CrossPlatform All Malwares Detector: Detect PE, ELF, Mach-O, scripts, archives; overlay, obfuscation, encryption, spoofing, hiding, high entropy, network communication",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  },
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/afc0be54d90c0e3ffa73ac9078e8d37b086fc9088827b19fbb9f588a189d2fcf",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/250901-efcd2szry5/",
+   "tags": [
+    "android",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2025-08-27 10:15:08",
+   "scanner_count": "35",
+   "scanner_match": "4",
+   "scanner_percent": "11.43"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68b518812eee5ca64cacb1d7/reports/e90703dd-add8-4728-b2ab-cd97aa39fee4/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Clean",
+   "file_type": "apk",
+   "first_seen": "2025-08-27T14:58:00Z",
+   "last_seen": "2025-08-27T14:58:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/afc0be54d90c0e3ffa73ac9078e8d37b086fc9088827b19fbb9f588a189d2fcf/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

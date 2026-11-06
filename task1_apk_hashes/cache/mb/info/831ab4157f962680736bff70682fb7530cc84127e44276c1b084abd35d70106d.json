@@ -1,0 +1,140 @@
+{
+ "sha256_hash": "831ab4157f962680736bff70682fb7530cc84127e44276c1b084abd35d70106d",
+ "sha3_384_hash": "e4fdd088a43c25bcfb2e8961b6adef113dfe5ba1619c5df8ae1cd62d53c794dfa0b440b37a22f4a389a36b9f497ffd64",
+ "sha1_hash": "8f05ddbb3d08244ad87c674f9b97d47fedd55d50",
+ "md5_hash": "3f89e642c0cfe7deab52b2ba63a09c3f",
+ "first_seen": "2026-02-01 13:42:12",
+ "last_seen": null,
+ "file_name": "com.faceai.video.facecreator.apk",
+ "file_size": 100018374,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "FR",
+ "anonymous": 1,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T11328335AEF94912EFF7BD53D4C96C251C4C9AC87C981DB87721C32185AB22844F6FAB0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:5rAVEOzLa+GUZVA3qj8Ufjx2anaWLMHWm3zrsS2sDH0AyDuRuXSi8mCSO4eOLl6c:5sOOhfN8qx2zWLkJPlyCYCFmCSKOMsdd",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "40.0% (.APK) Android Package (27000/1/5)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "18.5% (.VYM) VYM Mind Map (12500/1/3)",
+  "15.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Joker",
+  "Malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "262",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://play.google.com/store/apps/details?id=com.faceai.video.facecreator"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/831ab4157f962680736bff70682fb7530cc84127e44276c1b084abd35d70106d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/260201-qzyl6shz6g/",
+   "tags": [
+    "android",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about running processes on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-02-01 13:43:45",
+   "scanner_count": "24",
+   "scanner_match": "3",
+   "scanner_percent": "12.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/697f5847c9bfb60ece1a197a/reports/e6d4885f-0211-4c07-82cd-c783f8c4699d/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Clean",
+   "file_type": "Apk",
+   "first_seen": "2026-02-02T04:27:00Z",
+   "last_seen": "2026-02-02T04:35:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/831ab4157f962680736bff70682fb7530cc84127e44276c1b084abd35d70106d/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

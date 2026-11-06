@@ -1,0 +1,124 @@
+{
+ "sha256_hash": "0628ad6d1fd836b13b22e75fa169502d8ce78b7ad20f0261eb5151da98437bca",
+ "sha3_384_hash": "48eb88b456eff70b37c4668695f2fbd7c1571d7f6b680afb725079e02837d5380c9cd0ee465c548cf36a10028c84923a",
+ "sha1_hash": "5c9d9649b439b86cf18987865b32dab228ace037",
+ "md5_hash": "54d37f09251cbe283f42f64964083ca8",
+ "first_seen": "2026-03-15 08:26:08",
+ "last_seen": null,
+ "file_name": "duanj.me.apk",
+ "file_size": 26053444,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "CoinMiner",
+ "imphash": null,
+ "tlsh": "T18B472347FB84882BF4F753B241399761D44B4C668B439AC77A14353C28B7AD02F9AADC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "786432:Qi4HkZXQEAj5xfQLOmf+MjT4HecyY2M/XxM:+HktQEQORfjT4YY2M/u",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "33.3% (.APK) Android Package (27000/1/5)",
+  "16.6% (.JAR) Java Archive (13500/1/2)",
+  "16.6% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "15.4% (.VYM) VYM Mind Map (12500/1/3)",
+  "12.9% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "CoinMiner",
+  "Malware",
+  "Riskware",
+  "SpyAgent",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "505",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3796812/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "dependsonpythonailib",
+   "author": "Tim Brown",
+   "description": "Hunts for dependencies on Python AI libraries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/0628ad6d1fd836b13b22e75fa169502d8ce78b7ad20f0261eb5151da98437bca",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "xmrig",
+   "score": "10",
+   "link": "https://tria.ge/reports/260315-kbzxfags91/",
+   "tags": [
+    "family:xmrig",
+    "miner"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Linux.Coinminer.Generic",
+   "status": "MALICIOUS",
+   "first_seen": "2026-03-15 08:27:52",
+   "scanner_count": "24",
+   "scanner_match": "16",
+   "scanner_percent": "66.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69b66d2a2000fc76c3deb9fb/reports/a31336cd-e183-4f02-a5bd-bc0fc3094c80/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/0628ad6d1fd836b13b22e75fa169502d8ce78b7ad20f0261eb5151da98437bca/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

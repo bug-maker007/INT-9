@@ -1,0 +1,242 @@
+{
+ "sha256_hash": "5f3ccbc143370c214b2afcbbb3d54a0f9cdc8e9e09f266800700ea0532353957",
+ "sha3_384_hash": "a630409bdf33ccca9b0a02837fb4c41394b50cfda26b5a29f07991e360c9c69944deec068d259afd7cf1f5975e4508a0",
+ "sha1_hash": "ec69dce6c07a0ae90ee3660ca54e5ef3abde8f20",
+ "md5_hash": "dda5a2b4704f3869e142410458e49686",
+ "first_seen": "2023-01-08 08:30:43",
+ "last_seen": null,
+ "file_name": "update.apk",
+ "file_size": 2381042,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "SG",
+ "anonymous": 1,
+ "signature": "Octo",
+ "imphash": null,
+ "tlsh": "T1AEB533FADA8C1984FFC79A34A3EF224603AD17F805A4EF956ECD055029D7D82DE43146",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:zchq0WYe7H+1PRBLrdrsfajK8fLLCT7qjGXkUtFF4rvnHoOLoJ3:zVNYeazB9IiPfS7qy0UtUr/HRLoJ3",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "fakeapp",
+  "Octo",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.Coper.155.13609.3838.UNOFFICIAL"
+  ],
+  "downloads": "394",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://github[.]com/markgambino/file/raw/main/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/5f3ccbc143370c214b2afcbbb3d54a0f9cdc8e9e09f266800700ea0532353957/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/5f3ccbc143370c214b2afcbbb3d54a0f9cdc8e9e09f266800700ea0532353957",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/230108-kep7eage2y/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "ransomware",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://bestipscanworld.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://bestworldipscan.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://bestscanworldip.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://scanipbestworld.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://scanworldipbest.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://scanipworldbest.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://scanworldbestip.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://ipscanbestworld.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://ipscanworldbest.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://ipworldscanbest.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://ipworldbestscan.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://doublednscheck.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://dnscheckdouble.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://checkdoubledns.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://doublecheckdns.xyz/NmE0N2YwOWEzMTM3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://alldnsfastcheck.xyz/NmE0N2YwOWEzMTM3/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2023-01-08 08:31:08",
+   "scanner_count": "26",
+   "scanner_match": "14",
+   "scanner_percent": "53.85"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/63ba7f470e926711fd77b32d/reports/ffe50a65-7305-4ee7-be93-e43177241ff2/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,135 @@
+{
+ "sha256_hash": "795fecbf7fe157736c04ba2421c4792f02556d5e95a734d5a2f489757bd81878",
+ "sha3_384_hash": "8e4734d91adababe564dfd2525c501ddb528603f51cc9737872a372fea6fe7d6632da133a55ce2cbce109da86c6cfd72",
+ "sha1_hash": "d5ab78b667c183dd1a80a62f791b4629c902957b",
+ "md5_hash": "7237189074bf900fd8dec253b791eb9f",
+ "first_seen": "2026-08-14 10:34:08",
+ "last_seen": "2026-08-14 10:40:05",
+ "file_name": "7237189074bf900fd8dec253b791eb9f",
+ "file_size": 2516078,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": "DE",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T14EC533EA93DF6CE1D1A6C0B1B032FA48795E92F480C24D096E77A4D6987D3F90D0A395",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:tpgVjox/fl5fGmvQT15JOZFHbEQEAlI1KZmPNkFINH44ILVGYqbhvTaX4UP:eoxfl5fGmvpZJPEA21/NkF044ILOI1P",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "171",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/795fecbf7fe157736c04ba2421c4792f02556d5e95a734d5a2f489757bd81878/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260814-nqbd6ssybs/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-08-13 12:07:34",
+   "scanner_count": "38",
+   "scanner_match": "7",
+   "scanner_percent": "18.42"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "SUSPICIOUS",
+   "threatlevel": "0.5",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a7efbe37432a557c85c33c2/reports/c805809b-41c4-4cde-b860-638765a94bf1/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-13T05:52:00Z",
+   "last_seen": "2026-08-13T07:09:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/795fecbf7fe157736c04ba2421c4792f02556d5e95a734d5a2f489757bd81878/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

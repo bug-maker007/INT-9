@@ -1,0 +1,246 @@
+{
+ "sha256_hash": "2cb003e84f12842e0b9b69187cf7e8287906882d2a37fe58751c72688d896c67",
+ "sha3_384_hash": "2509a8bc8b6f048d4f3fdc33442c75f499b1c4be8db4f1a19b01e2e0e8f474ee8c820162af6ae9e23361a78b23267d05",
+ "sha1_hash": "0fb9d4324a8b48b37afe6e8e71342cdf3a03a171",
+ "md5_hash": "2bebc9bc898bb0c4095ec27458ee565f",
+ "first_seen": "2025-07-31 07:52:05",
+ "last_seen": null,
+ "file_name": "RESIT_ALTUG_Chrome.apk",
+ "file_size": 521323,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "kranxmob",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T1BAB42362E3EC7658EAEDB8B45CEFA985A61C34EE3E11335C3E41C1250F432D2792B581",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:9p0hneJ50OpH/NAeTUSDaGOb/zIxzfQBnz8ADT0572o+cR8KvpQ2EKT:fwneYeHlAeoSb8/qOzT05yo+cR8AiW",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "77.1% (.JAR) Java Archive (13500/1/2)",
+  "22.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Coper",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "206",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2cb003e84f12842e0b9b69187cf7e8287906882d2a37fe58751c72688d896c67/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.05"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/2cb003e84f12842e0b9b69187cf7e8287906882d2a37fe58751c72688d896c67",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/250731-jqkkma1wdx/",
+   "tags": [
+    "family:octo",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo family",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries the phone number (MSISDN for GSM devices)",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the unique device ID (IMEI, MEID, IMSI)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests accessing notifications (often used to intercept notifications before users become aware).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Requests modifying system settings.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kesmecekarpuz.site/NGE2Y2RjYjdmYjg3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kesmecekarpuz.com/NGE2Y2RjYjdmYjg3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kesmecekarpuz145.com/NGE2Y2RjYjdmYjg3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kesmecekarpuz878.com/NGE2Y2RjYjdmYjg3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kesmecekarpuz5446.com/NGE2Y2RjYjdmYjg3/"
+    },
+    {
+     "extraction": "c2",
+     "family": "octo",
+     "c2": "https://kesmecekarpuz8455.com/NGE2Y2RjYjdmYjg3/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Coper",
+   "status": "MALICIOUS",
+   "first_seen": "2024-07-29 01:36:48",
+   "scanner_count": "23",
+   "scanner_match": "12",
+   "scanner_percent": "52.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/688b20b613488cfd44e21bab/reports/8d33596a-2707-4094-bda2-4780138701cf/overview"
+  }
+ },
+ "comments": null
+}

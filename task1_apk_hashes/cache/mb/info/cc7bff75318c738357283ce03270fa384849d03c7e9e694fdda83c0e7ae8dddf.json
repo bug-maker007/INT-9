@@ -1,0 +1,99 @@
+{
+ "sha256_hash": "cc7bff75318c738357283ce03270fa384849d03c7e9e694fdda83c0e7ae8dddf",
+ "sha3_384_hash": "8cdbc3768db1c130c3bb0d3b08a3251079eacca1f28a1ae5ae2df1d39d23417246df0e4afa9c858a2f9aaea775fad497",
+ "sha1_hash": "8586a6f6573140658ebb05967fe8dc98f813989d",
+ "md5_hash": "ce24103b1b45c287b3501746f572d9db",
+ "first_seen": "2021-09-23 13:34:55",
+ "last_seen": null,
+ "file_name": "Android-Update.apk",
+ "file_size": 3449884,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1EFF53359CB034C15C2879A7B81E35842273511DD80D2AB2F3BBD08966FE7E945F1EDB2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:hUajFQtZ2hUa+SVgqNRNJnvjVsMDwS6K57Eb0y5m00mLUSOkIL:BjFQr0NVgqNRbnvRsMscx+m00QIkIL",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "250",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/cc7bff75318c738357283ce03270fa384849d03c7e9e694fdda83c0e7ae8dddf/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/cc7bff75318c738357283ce03270fa384849d03c7e9e694fdda83c0e7ae8dddf",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/210923-qvptgaeddq/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://162.55.21.188"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Cebruser",
+   "status": "MALICIOUS",
+   "first_seen": "2021-09-23 13:35:10",
+   "scanner_count": "28",
+   "scanner_match": "11",
+   "scanner_percent": "39.29"
+  }
+ },
+ "comments": null
+}

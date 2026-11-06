@@ -1,0 +1,113 @@
+{
+ "sha256_hash": "e40dc70d94e13e7fc1a58c9b940591bc01c1c37641f2ee61737c7625aa467c02",
+ "sha3_384_hash": "069af331bd6b777f57c154bbfc348d496ab285820304fa65024c5f49fb24358988324e2700b2a3d6a337c992e25045ba",
+ "sha1_hash": "916a6be7269dd465ad4e017dd9eb10d8170cbba3",
+ "md5_hash": "c1c87ded7d894017c31165387894d0d5",
+ "first_seen": "2025-02-10 17:48:28",
+ "last_seen": "2025-02-10 19:17:58",
+ "file_name": "67a7491b154ac_Agoda.apk",
+ "file_size": 5104244,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "TgToxic",
+ "imphash": null,
+ "tlsh": "T10536CF86F387AA5EC5BB42354AB949AD210B5C934B43EBCB6C44773C187B5D02EC86CD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:13mUMdkaoLKauoKPCGKyiruNyQENzOOPsAjbO8RDvfKM:13mUEpauoKx5RKrUAj6EfKM",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "87.0% (.APK) Android Package (27000/1/5)",
+  "12.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "IOC\r\nag0dadescargar.com\r\n",
+ "archive_pw": null,
+ "tags": [
+  "Agoda",
+  "android",
+  "apk",
+  "malware",
+  "TgToxic"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.FileRepMalware.24946.13866.UNOFFICIAL"
+  ],
+  "downloads": "331",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "RSharedStrings",
+   "author": "Katie Kleemola",
+   "description": "identifiers for remote and gmremote",
+   "reference": null
+  },
+  {
+   "rule_name": "Suspicious_Latam_MSI_and_ZIP_Files",
+   "author": "eremit4, P4nd3m1cb0y",
+   "description": "Detects suspicious .msi and .zip files used in Latam banking trojan campaigns.",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e40dc70d94e13e7fc1a58c9b940591bc01c1c37641f2ee61737c7625aa467c02/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/e40dc70d94e13e7fc1a58c9b940591bc01c1c37641f2ee61737c7625aa467c02",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "tgtoxic",
+   "score": "10",
+   "link": "https://tria.ge/reports/250210-wd3a5azqbn/",
+   "tags": [
+    "family:tgtoxic",
+    "android",
+    "defense_evasion",
+    "discovery"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Packed.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-02-09 13:54:15",
+   "scanner_count": "38",
+   "scanner_match": "6",
+   "scanner_percent": "15.79"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ]
+ },
+ "comments": null
+}

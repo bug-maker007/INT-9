@@ -1,0 +1,147 @@
+{
+ "sha256_hash": "7b44413023a95b795cf0541d775293023039c3378582d6e158cc628d21f03f82",
+ "sha3_384_hash": "68955c5a0a9452f08b1bae77e9f71c48566e4b1e45ff8f6924bc55bdafba099b97a640ce51d08d3c7c6813aebad2d732",
+ "sha1_hash": "0ce5c3a3c34f76ad75fe8defe50d666b65e5915f",
+ "md5_hash": "530b742362a95de120e79060dda73ba6",
+ "first_seen": "2026-08-15 05:30:54",
+ "last_seen": null,
+ "file_name": "Digikala-Job.apk",
+ "file_size": 8622752,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "GB",
+ "anonymous": 1,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T17B963347FE52AD9AC4F2C23114790B3576364D46C317638B6B71B3B8287BAEC8B861C5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:/RZNJyvdLO/k2fEgYfwjdLJ7Ee/Jd9pWzh3zjKf+fVZTBj:ZZNYVL/2fEbfML/JdWhfKf+fVZTV",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "IRATA",
+  "SHAPARAK",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "dpt",
+   "issuer_cn": "dpt",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2024-11-05T12:52:39Z",
+   "valid_to": "2049-10-30T12:52:39Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "b8d25b845f276e25851f7a86261fc9c98ed4802240c31b21d466958d5e25096c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "244",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7b44413023a95b795cf0541d775293023039c3378582d6e158cc628d21f03f82/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/260815-f7yxsszzfs/",
+   "tags": [
+    "family:irata",
+    "android",
+    "defense_evasion",
+    "discovery",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-08-15 05:31:50",
+   "scanner_count": "36",
+   "scanner_match": "4",
+   "scanner_percent": "11.11"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a7ff9b43de5dcbd206e349d/reports/cf818a6d-f4f2-411e-a369-4a14da06a13b/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-08-15T03:31:00Z",
+   "last_seen": "2026-08-15T14:21:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/7b44413023a95b795cf0541d775293023039c3378582d6e158cc628d21f03f82/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

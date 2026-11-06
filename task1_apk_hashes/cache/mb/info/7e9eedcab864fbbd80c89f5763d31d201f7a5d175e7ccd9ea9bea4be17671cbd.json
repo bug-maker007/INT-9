@@ -1,0 +1,123 @@
+{
+ "sha256_hash": "7e9eedcab864fbbd80c89f5763d31d201f7a5d175e7ccd9ea9bea4be17671cbd",
+ "sha3_384_hash": "aa8b49398bdbe3322bf1ae7ca95b394a941cf1326c3f19345dfa90f1802ab5625eeaa7e03c1ebe66fb180741c9d69057",
+ "sha1_hash": "b6f60809585bfca3338db04b9be38ad485cbb396",
+ "md5_hash": "6484817639802e406c03350a0dc3fd91",
+ "first_seen": "2026-09-17 17:09:58",
+ "last_seen": null,
+ "file_name": "GGTV.apk",
+ "file_size": 20629741,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "GB",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T169272357BB81D759F9F2023249B15672E1078C698F93D28B3824733C6D7B1E81F25ACA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:mp552tqlW5j/ugoCWSTnU9ZHJ0uZ50RgmSpCCxkHv/ob:mpeUAA1p9DTq5SICWwb",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "Dropper",
+  "Malware",
+  "Riskware",
+  "TikTok",
+  "Trojan"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "227",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "MoleBoxv20",
+   "author": "malware-lu",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": null,
+   "link": "https://tria.ge/reports/260917-vpwr2sgq2z/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-09-17 17:10:26",
+   "scanner_count": "38",
+   "scanner_match": "7",
+   "scanner_percent": "18.42"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6aac1effd3113632060ffe18/reports/b9c07fe1-2dd6-4c3d-91ca-fe8fdf16acb5/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-17T16:41:00Z",
+   "last_seen": "2026-09-17T17:44:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/7e9eedcab864fbbd80c89f5763d31d201f7a5d175e7ccd9ea9bea4be17671cbd/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

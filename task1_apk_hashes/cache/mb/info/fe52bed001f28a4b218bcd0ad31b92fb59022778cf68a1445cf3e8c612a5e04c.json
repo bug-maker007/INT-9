@@ -1,0 +1,110 @@
+{
+ "sha256_hash": "fe52bed001f28a4b218bcd0ad31b92fb59022778cf68a1445cf3e8c612a5e04c",
+ "sha3_384_hash": "98f5e24350c882d22a8c99a8c1e14c1bf2bf2aad7aefcd2df7a10eb7c4dfbb6982bfaacedd3456cd3334409f6132e33d",
+ "sha1_hash": "4714aaa5195da29c6e74aeee9e9f19678af5c15b",
+ "md5_hash": "37be18494cd03ea70a1fdd6270cef6e3",
+ "first_seen": "2021-07-06 09:49:40",
+ "last_seen": null,
+ "file_name": "Voicemail.apk",
+ "file_size": 4382628,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "FluBot",
+ "imphash": null,
+ "tlsh": "09162315BEEED426D40FD13890A2D9CB8C280DBD5524F97F5622516C2EBAC84DB43EEC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:ObOoMyx7cvw6sscAANEowsE/6spqR9HTUzFRUkLqQU1K2b:HHyx8BAeowsEyNR2zFRUYab",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": "Flubot v4.7",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Flubot",
+  "signed",
+  "v4.7"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.9305.19574.3880.UNOFFICIAL"
+  ],
+  "downloads": "289",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/alberto__segura/status/1412291656301400064?s=20"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/fe52bed001f28a4b218bcd0ad31b92fb59022778cf68a1445cf3e8c612a5e04c/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/fe52bed001f28a4b218bcd0ad31b92fb59022778cf68a1445cf3e8c612a5e04c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210706-aaqn6hrtfj/",
+   "tags": [
+    "android",
+    "obfuscation",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Bian",
+   "status": "MALICIOUS",
+   "first_seen": "2021-07-05 21:02:45",
+   "scanner_count": "29",
+   "scanner_match": "8",
+   "scanner_percent": "27.59"
+  }
+ },
+ "comments": null
+}

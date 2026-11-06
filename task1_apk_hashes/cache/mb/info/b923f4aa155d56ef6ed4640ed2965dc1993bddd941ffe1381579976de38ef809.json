@@ -1,0 +1,111 @@
+{
+ "sha256_hash": "b923f4aa155d56ef6ed4640ed2965dc1993bddd941ffe1381579976de38ef809",
+ "sha3_384_hash": "0993fcd777570bbbfe748e9d70bff22dd93ed12005f20e0b44ede66e142141ec17e32ada164309305f3614035d39f2c4",
+ "sha1_hash": "dfa3c48b8e9d81cc9c7835d0562000ad96ef60e0",
+ "md5_hash": "97d50d9bdd086616c6753d1cb30b69fc",
+ "first_seen": "2025-03-11 17:21:47",
+ "last_seen": null,
+ "file_name": "YO_3316_34.apk",
+ "file_size": 88501833,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T1A5180213E72C9FCBC4E3D2366A35C095106A5CAC434BD2AB2C2C797A07B74C79B1A9D5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:pa0M9andxULjzlXjKfobSquKs3S1g7xgtN8N2MdOsBolbabBPEE7vnl9:w0MMXClXugluKVgA2N2MhEbeB37vn",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "30.8% (.APK) Android Package (27000/1/5)",
+  "24.5% (.OXT) OpenOffice Extension (21500/1/3)",
+  "15.4% (.JAR) Java Archive (13500/1/2)",
+  "12.5% (.CATROBAT) Pocket Code/Catroid Catrobat Project (11000/1/2)",
+  "12.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)"
+ ],
+ "comment": "https://halfselftda.b-cdn.net/YO_3316_34.apk",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "Triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Niles Biao",
+   "issuer_cn": "Niles Biao",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2024-10-10T09:00:18Z",
+   "valid_to": "2049-10-04T09:00:18Z",
+   "serial_number": "01",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "787f274dd25c231a51f46ea9c963affc3f2859246484de7173fd46ebf843c210",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "818",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/250311-vnh5kayn14/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3474138/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/b923f4aa155d56ef6ed4640ed2965dc1993bddd941ffe1381579976de38ef809",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "triada",
+   "score": "10",
+   "link": "https://tria.ge/reports/250311-vxrhaszyby/",
+   "tags": [
+    "family:triada",
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Triada",
+   "status": "MALICIOUS",
+   "first_seen": "2025-03-11 17:23:24",
+   "scanner_count": "37",
+   "scanner_match": "3",
+   "scanner_percent": "8.11"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67d0715b4a3011c802cd78ae/reports/a127f2c9-76e4-4814-b62f-a7ebfcf86923/overview"
+  }
+ },
+ "comments": null
+}

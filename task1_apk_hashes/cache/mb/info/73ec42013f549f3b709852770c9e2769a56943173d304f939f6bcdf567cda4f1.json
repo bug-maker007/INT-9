@@ -1,0 +1,131 @@
+{
+ "sha256_hash": "73ec42013f549f3b709852770c9e2769a56943173d304f939f6bcdf567cda4f1",
+ "sha3_384_hash": "6f6de16b4a68acc6a1b081da6236aef4c6e6d4653d411b6905bd3727c4847443bf2301d4114974b111227daf471a78d2",
+ "sha1_hash": "fcd2ca98e3442463e1f13bba21656d47f2768caf",
+ "md5_hash": "688d79d738a74eaf7f2d9c6660f215b2",
+ "first_seen": "2022-05-24 10:04:35",
+ "last_seen": null,
+ "file_name": "EDALAT.apk",
+ "file_size": 2700318,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T10BC52393F7A6E52BC837C1322146163560574D2CC956FA4B3A06BBEE68B7DDC4F829C0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:pNjq6vl5qk6lkPvUDdEwp++LEyDamVJNB8buQGS3nyVUpdhpy7u:mmlok+QMhrLVUaQGS3yV21uu",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "Malware Phishing system of Electronic Judicial Services System Iran.",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "iran",
+  "malware",
+  "Phishing",
+  "signed",
+  "sms",
+  "smsspy",
+  "spy",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "editor",
+   "issuer_cn": "editor",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-01-10T08:03:09Z",
+   "valid_to": "2115-12-17T08:03:09Z",
+   "serial_number": "231bc320",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "6215f00baa4bf18bab5792fc796bfc5555917240f14f7c7e672d956888d75c96",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "560",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "smsspy"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/2209235/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/73ec42013f549f3b709852770c9e2769a56943173d304f939f6bcdf567cda4f1/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.45"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/73ec42013f549f3b709852770c9e2769a56943173d304f939f6bcdf567cda4f1",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220524-l4g3rsgga5/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Backdoor.Basdoor",
+   "status": "MALICIOUS",
+   "first_seen": "2022-05-23 21:23:12",
+   "scanner_count": "26",
+   "scanner_match": "11",
+   "scanner_percent": "42.31"
+  },
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/628cade26eb3ff3263272e30/reports/3366c594-6bdc-4fdb-80b5-cfb21de9d3e5/overview"
+  }
+ },
+ "comments": null
+}

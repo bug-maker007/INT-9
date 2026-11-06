@@ -1,0 +1,121 @@
+{
+ "sha256_hash": "a56dacc093823dc1d266d68ddfba04b2265e613dcc4b69f350873b485b9e1f1c",
+ "sha3_384_hash": "310a7a293f63c5ea5e4e7be755e68995492fc2f7b0854222d9a5e2d4515d7e9bf1382d4187c12c6ded14025b27a0b6be",
+ "sha1_hash": "512f378b8821064d5b48ceb0624dd17eca673667",
+ "md5_hash": "1f32aa3ad68eac774cfcaeb0cd84de4d",
+ "first_seen": "2022-11-24 08:00:42",
+ "last_seen": null,
+ "file_name": "SharkBot.apk",
+ "file_size": 14808743,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "SharkBot",
+ "imphash": null,
+ "tlsh": "T1DEE6128BFB98CA1EC8332132C92B063372970E155A4297B72615F72C2977DD14F56BCA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:lNIvvMaH5macX7X52NWdXJq2TNhUXwplpMrfum77:lNs0aZqgY5rNq7",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "44.6% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "34.0% (.XPI) Mozilla Firefox browser extension (8000/1/1)",
+  "17.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "4.2% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "SharkBot"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.DownLoader.1069.origin.18613.21769.UNOFFICIAL"
+  ],
+  "downloads": "275",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "yara_template",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a56dacc093823dc1d266d68ddfba04b2265e613dcc4b69f350873b485b9e1f1c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Suspicious File",
+   "score": "0.60"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/a56dacc093823dc1d266d68ddfba04b2265e613dcc4b69f350873b485b9e1f1c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "sharkbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/221124-jwj62sdb8v/",
+   "tags": [
+    "family:sharkbot",
+    "android",
+    "banker",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "sharkbot",
+     "c2": "http://statscodicefiscale.xyz/stats/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Sharkbot",
+   "status": "MALICIOUS",
+   "first_seen": "2022-03-04 14:33:09",
+   "scanner_count": "26",
+   "scanner_match": "17",
+   "scanner_percent": "65.38"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/637f24bf5be128ac718e9ea2/reports/330f3179-455e-4459-b289-8d0acb122de1/overview"
+  }
+ },
+ "comments": null
+}

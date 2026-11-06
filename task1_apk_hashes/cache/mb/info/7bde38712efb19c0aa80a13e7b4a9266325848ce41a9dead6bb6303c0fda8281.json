@@ -1,0 +1,89 @@
+{
+ "sha256_hash": "7bde38712efb19c0aa80a13e7b4a9266325848ce41a9dead6bb6303c0fda8281",
+ "sha3_384_hash": "7d7dde492f362e2bc7ec29b14a81a57d39e527197d22a5ae963e734b3a7f5e65abe3142490ae3bee22cce23a4e898ac1",
+ "sha1_hash": "c2a688fc8db609bfa67d8b5162b434244275abdc",
+ "md5_hash": "dab1b4ad7ca4da0abe15530b0e23e879",
+ "first_seen": "2021-08-19 14:58:57",
+ "last_seen": null,
+ "file_name": "Android_Guncelleme.apk",
+ "file_size": 103655,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T1CAA301A3D7625914E2F7B8F4C9F193268EF3803522A7B2D759221A30DCA56380F35F85",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1536:8+bgK8tagu4T0Bc/1fFLvJSXdB26buOZVGViM6ndvFvE0BQ4x8h8o1QZ8JZ8Hp:8+cKC6c/19lS5CotFvr8h8o1QZ8JZ8Hp",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.8705.10894.4008.UNOFFICIAL"
+  ],
+  "downloads": "234",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1546498/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/7bde38712efb19c0aa80a13e7b4a9266325848ce41a9dead6bb6303c0fda8281/"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/7bde38712efb19c0aa80a13e7b4a9266325848ce41a9dead6bb6303c0fda8281",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210819-m49kz6hvtj/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks Android system properties for emulator presence.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Cerberus",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-19 14:59:08",
+   "scanner_count": "28",
+   "scanner_match": "12",
+   "scanner_percent": "42.86"
+  }
+ },
+ "comments": null
+}

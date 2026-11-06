@@ -1,0 +1,153 @@
+{
+ "sha256_hash": "563bc028fac5f38f3849a3808bcba9cc41beeaf4b9ff771d383954beb1267e0b",
+ "sha3_384_hash": "92fc89081ded1bbc77a87e6119e8acb237ea8ba66c2cec74755212cc28c729055dcd44f9ae6bfc57b2fb122039a20940",
+ "sha1_hash": "854e0ba70f2775b45309612b354d8fdcceba15ff",
+ "md5_hash": "821123eba04ec3d967445fc21292ad15",
+ "first_seen": "2026-06-17 14:41:58",
+ "last_seen": null,
+ "file_name": "mParivahan .apk",
+ "file_size": 2394278,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1D9B5F689BB506C29D83F40F8079D1731A9874C856ED292277C78B788F57B2941FC8AE7",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:i4gITSl3aQsEe83xAHr5c45zElvoyjX2w6QadWt:UxafEd3i1dexjB6QadWt",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "Android",
+  "apk",
+  "GOI",
+  "Malware",
+  "mParivahan",
+  "signed",
+  "Trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Zomato",
+   "issuer_cn": "Zomato",
+   "algorithm": "sha512WithRSAEncryption",
+   "valid_from": "2026-05-26T13:29:44Z",
+   "valid_to": "2051-05-20T13:29:44Z",
+   "serial_number": "0f27edbd",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "cf41fe5decfa819955c15f2e614424fcd9bad22682bc9f6f0efd4ffb987f5d7f",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.PUA.Tool.Obfuscator.TrashCode.1.25341.30970.UNOFFICIAL",
+   "SecuriteInfo.com.PUA.Tool.Obfuscator.TrashCode.1.30118.22590.UNOFFICIAL"
+  ],
+  "downloads": "250",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/563bc028fac5f38f3849a3808bcba9cc41beeaf4b9ff771d383954beb1267e0b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260617-r2z4fshs5q/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Checks the application is allowed to request package installs through the package installer",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Requests allowing to install additional applications from unknown sources.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-06-17 14:42:52",
+   "scanner_count": "24",
+   "scanner_match": "5",
+   "scanner_percent": "20.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a32b23e9de4cf364c0d56f1/reports/2a160453-296f-4468-83a4-70093393b794/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-06-17T12:49:00Z",
+   "last_seen": "2026-06-18T18:08:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/563bc028fac5f38f3849a3808bcba9cc41beeaf4b9ff771d383954beb1267e0b/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

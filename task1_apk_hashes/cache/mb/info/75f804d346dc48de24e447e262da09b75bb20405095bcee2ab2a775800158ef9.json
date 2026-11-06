@@ -1,0 +1,130 @@
+{
+ "sha256_hash": "75f804d346dc48de24e447e262da09b75bb20405095bcee2ab2a775800158ef9",
+ "sha3_384_hash": "85b8dbeb9418a0a5c4531c44416528096b4511df3c631023f09e36f6353e84c1efb7b3a3f5a24883d0b3ade970e14190",
+ "sha1_hash": "cca091918c4b55d00dda82221a198023aff27dd6",
+ "md5_hash": "921ce55fa82f0025debcb7cb3cee27d8",
+ "first_seen": "2024-02-12 16:36:20",
+ "last_seen": null,
+ "file_name": "FMWA9.93_Official.apk",
+ "file_size": 73015720,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "e24111111154168",
+ "origin_country": "GR",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T1FCF712D3F754ECA9C0F393359735506675260CB42B13E6A32D0ABA3C5EB39C09689ED8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:tHMbZg+KOS73QTXvmpQWACjrXS0CYZZW+jApvoG+oQP1o3N:tHmhKOS739QWAGXgYZZW1toGq9mN",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "36.1% (.APK) Android Package (32500/1/6)",
+  "23.8% (.OXT) OpenOffice Extension (21500/1/3)",
+  "15.0% (.JAR) Java Archive (13500/1/2)",
+  "11.6% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "7.7% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)"
+ ],
+ "comment": "Distributed via: fmwa.app\r\nhttps://fmwa.app/wp-content/uploads/2023/08/FMWA9.93_Official.apk",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "fmwa.app",
+  "signed",
+  "triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "1521",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "malpedia",
+   "value": "https://malpedia.caad.fkie.fraunhofer.de/details/apk.triada"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "adonunix2",
+   "author": "Tim Brown @timb_machine",
+   "description": "AD on UNIX",
+   "reference": null
+  },
+  {
+   "rule_name": "BitcoinAddress",
+   "author": "Didier Stevens (@DidierStevens)",
+   "description": "Contains a valid Bitcoin address",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/75f804d346dc48de24e447e262da09b75bb20405095bcee2ab2a775800158ef9",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "triada",
+   "score": "10",
+   "link": "https://tria.ge/reports/240212-t4t2bsbh32/",
+   "tags": [
+    "family:triada",
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.PUA.WAMod",
+   "status": "MALICIOUS",
+   "first_seen": "2023-07-17 12:48:47",
+   "scanner_count": "38",
+   "scanner_match": "3",
+   "scanner_percent": "7.89"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65ca4932721c476da6b27ef8/reports/f96a1809-503e-490d-80ad-178320d1269b/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,108 @@
+{
+ "sha256_hash": "cf82b438c71b63c27ae731b5af2746ca1fef806c3aa5effb01a730cf0fc16c53",
+ "sha3_384_hash": "dd52774ed97daa25a7b0ee056fd0be6c499765cf3fe975a75951ea0fa7288585fb5e7f84769b2155ad1c391eccda7f0c",
+ "sha1_hash": "5bcfa32662d69595e9bcb5e43143981075d89084",
+ "md5_hash": "a8df862cf71ba703d08f7db7209d1004",
+ "first_seen": "2024-02-12 16:27:03",
+ "last_seen": null,
+ "file_name": "FMWhatsApp_2024.apk",
+ "file_size": 86534281,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "e24111111154168",
+ "origin_country": "GR",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T1291812D2E759EC55E0F3A335D67151666A168C708B23E7B31E01B13C2EF39C4AA19EC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:Vhi/z1c4sv0MmD/PwpJdhhHT6zrAb6MBQSEdB01mogZV9P++:Xi7a0rDnDzrC6zSiB0MD3B",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "28.6% (.APK) Android Package (32500/1/6)",
+  "18.9% (.OXT) OpenOffice Extension (21500/1/3)",
+  "11.8% (.JAR) Java Archive (13500/1/2)",
+  "11.0% (.VYM) VYM Mind Map (12500/1/3)",
+  "9.6% (.CATROBAT) Pocket Code/Catroid Catrobat Project (11000/1/2)"
+ ],
+ "comment": "Distributed via: gbapps.net\r\nhttps://dl.gbapps.net/FMWhatsApp_2024.apk",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "gbapps.net",
+  "signed",
+  "triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "da",
+   "issuer_cn": "da",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2023-08-11T01:19:25Z",
+   "valid_to": "2078-05-14T01:19:25Z",
+   "serial_number": "59dfc9a1",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c338a04d2267aa1ec918ace8b01ac2efa6e8ad07559f212a0caeee864d3268ce",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "1517",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "malpedia",
+   "value": "https://malpedia.caad.fkie.fraunhofer.de/details/apk.triada"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/cf82b438c71b63c27ae731b5af2746ca1fef806c3aa5effb01a730cf0fc16c53",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "triada",
+   "score": "10",
+   "link": "https://tria.ge/reports/240212-tynx5aab3y/",
+   "tags": [
+    "family:triada",
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Linux.Trojan.Triada",
+   "status": "MALICIOUS",
+   "first_seen": "2024-02-09 18:39:57",
+   "scanner_count": "38",
+   "scanner_match": "6",
+   "scanner_percent": "15.79"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65ca4716ac375bec15e534bd/reports/5f020c36-3bed-46c0-938d-25a066b9cdb7/overview"
+  }
+ },
+ "comments": null
+}

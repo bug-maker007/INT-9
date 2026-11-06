@@ -1,0 +1,133 @@
+{
+ "sha256_hash": "49c96c56a5b73d068e63edeacffaa1344a97c521d2eb15856db32fda1edc2bcd",
+ "sha3_384_hash": "a543cfba2e0fd5af282ad4fd4b41f4b3ced544e7c9ab28e0a0013ac47335f8f159fe43e798d1d240ee97729faf1eafea",
+ "sha1_hash": "a3f928ff0ce9590cbf2166c7c16e1887b04c1734",
+ "md5_hash": "2f405e59fa21dd98ef541b27b2e633c9",
+ "first_seen": "2022-06-30 12:01:57",
+ "last_seen": null,
+ "file_name": "ed(12).apk",
+ "file_size": 2708060,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1BFC52253FB2AEA2BC832C0332095437A10974D198A07EB4B3A5977FD39B7DD88B855D1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:SLw1kpi28E+EEoAZom01dlJ0sgyCdjy6DhXDyLb+HJfeoYTvP:Ss1k0a+EaPcdlepDdjDgLcKvP",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "60.1% (.APK) Android Package (38500/1/9)",
+  "21.0% (.JAR) Java Archive (13500/1/2)",
+  "10.9% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)",
+  "6.2% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.5% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "Apk.SMSspy.IranPhishing",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "iran",
+  "malware",
+  "signed",
+  "sms",
+  "smsspy",
+  "spy",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "multiple",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "614",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "spyware"
+  },
+  {
+   "context": "dropped_by_malware",
+   "value": "smsspy"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/49c96c56a5b73d068e63edeacffaa1344a97c521d2eb15856db32fda1edc2bcd/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/49c96c56a5b73d068e63edeacffaa1344a97c521d2eb15856db32fda1edc2bcd",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220630-n7fefschb2/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger.",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Realrat",
+   "status": "MALICIOUS",
+   "first_seen": "2022-06-30 12:02:30",
+   "scanner_count": "26",
+   "scanner_match": "11",
+   "scanner_percent": "42.31"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62bd90fa92576789c4933230/reports/8085d355-898a-46c3-a637-8d6b0e591c80/overview"
+  }
+ },
+ "comments": null
+}

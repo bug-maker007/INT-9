@@ -1,0 +1,121 @@
+{
+ "sha256_hash": "83380ae57698d2b13e0773969c68e2ea32d02ff1955be0f865cfaace62cf1917",
+ "sha3_384_hash": "ee583ecac21bb8d94cf0cb46df800f722c7a8448e6eed8eb4ff648a00fbf4e8144301abd317ada9cf350d91756c230fe",
+ "sha1_hash": "01b01d29b8b62e8152438740f8956c8a0ab730a4",
+ "md5_hash": "09c03c318ab6a1b5f201f81480de022f",
+ "first_seen": "2022-01-27 08:26:54",
+ "last_seen": null,
+ "file_name": "bawag-psk.apk",
+ "file_size": 7249640,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T1347633CFE9C098BDCB975E3188A2CD57A0204DC742A3951F19C93A640EB3F9963D7A53",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:GM6ePkMV3JKPaCalpxnz2A55eHKMeW2aNyeyrMhGyNL:GM5Pp5KSCaNnz9aK8G2L",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Hydra",
+  "signed",
+  "tor-hydra"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.SMS-10.UNOFFICIAL"
+  ],
+  "downloads": "338",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/83380ae57698d2b13e0773969c68e2ea32d02ff1955be0f865cfaace62cf1917/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.06"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/83380ae57698d2b13e0773969c68e2ea32d02ff1955be0f865cfaace62cf1917",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/220127-kcf6qahhel/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2022-01-27 08:27:43",
+   "scanner_count": "27",
+   "scanner_match": "8",
+   "scanner_percent": "29.63"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61f2575f8581cbffe088af33/reports/4cc8b096-45aa-41ae-96bd-225c33185932/overview"
+  }
+ },
+ "comments": null
+}

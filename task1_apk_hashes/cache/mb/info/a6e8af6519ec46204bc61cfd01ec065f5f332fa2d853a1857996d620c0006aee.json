@@ -1,0 +1,123 @@
+{
+ "sha256_hash": "a6e8af6519ec46204bc61cfd01ec065f5f332fa2d853a1857996d620c0006aee",
+ "sha3_384_hash": "88fb49e4b7f0b84ae976f6008c2293cd2a434d94cf470ee5c2ed03ecca856dba57fdf452f0c88d376a28d9d3feade867",
+ "sha1_hash": "94ef51088a7fa4937c0f4860256b7c0dc79537f7",
+ "md5_hash": "c5d00da17262165b5dcefef37f45a900",
+ "first_seen": "2023-05-27 09:46:08",
+ "last_seen": null,
+ "file_name": "com.arisina.miya.apk",
+ "file_size": 18529786,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "DE",
+ "anonymous": 1,
+ "signature": "Joker",
+ "imphash": null,
+ "tlsh": "T1E3173347E72AB45AD5EF1231C672844725DF8FF44A818381BD29F3AD06FBAC44B01AE5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:qSKP32esuoZrERzBTLML3UZUjHHZBgO3e/AHVQGOT/QgkPJeT+x7oyE:hKPJoRERtnMLEZUjDXwsVQT/QgkPJgEM",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "52.8% (.APK) Android Package (32500/1/6)",
+  "21.9% (.JAR) Java Archive (13500/1/2)",
+  "17.0% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "6.5% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.6% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "joker",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2023-05-10T02:46:40Z",
+   "valid_to": "2053-05-10T02:46:40Z",
+   "serial_number": "5f81725617fc8228116c65f1f8c29d0f0453d3e9",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "13164793daf916e44afebb3a5fb54f84bbaf479c0d81c845d66e3f6bcd522631",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "other",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan-Spy.AndroidOS.Joker.7614.28937.UNOFFICIAL"
+  ],
+  "downloads": "283",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "QbotStuff",
+   "author": "anonymous",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a6e8af6519ec46204bc61cfd01ec065f5f332fa2d853a1857996d620c0006aee/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/a6e8af6519ec46204bc61cfd01ec065f5f332fa2d853a1857996d620c0006aee",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/230527-lr7snabe28/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Downloader.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-05-27 09:47:08",
+   "scanner_count": "24",
+   "scanner_match": "3",
+   "scanner_percent": "12.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "INFORMATIONAL",
+   "threatlevel": "0.2",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6471d19850f80803b71f72c3/reports/b1fe6eff-aa18-4186-8605-12834f79685c/overview"
+  }
+ },
+ "comments": null
+}

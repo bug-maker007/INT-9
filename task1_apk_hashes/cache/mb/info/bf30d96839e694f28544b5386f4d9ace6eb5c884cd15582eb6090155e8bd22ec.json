@@ -1,0 +1,148 @@
+{
+ "sha256_hash": "bf30d96839e694f28544b5386f4d9ace6eb5c884cd15582eb6090155e8bd22ec",
+ "sha3_384_hash": "0ef921cd60e10a72534681d1fe19c2333c602bd49105adad23389683276bd6453bb96a114ea3908964f11cc609cbd8ec",
+ "sha1_hash": "b43548f8fc3e98da71b3815c2b2e483b3691fc4b",
+ "md5_hash": "beab2aa9591c442071107a4b94bc0f82",
+ "first_seen": "2025-08-07 20:21:39",
+ "last_seen": null,
+ "file_name": "mParivahan (2).apk",
+ "file_size": 2949650,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T1DFD533109565C1A1E63BD4F986BEC0F467E26D36AE6389FB7C03CC6C54D46A9889CCF0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:w3QsaNZwI+g5OV+JLJxNv5A35wyR8hw6XdS+FXq8zs2O30IxJl8L3DPRSwQGivsS:wArvwIl5OUVzx5KyOstF6t/30IxD8LTY",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "malware",
+  "mparivahan",
+  "SpyNote"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "250",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/bf30d96839e694f28544b5386f4d9ace6eb5c884cd15582eb6090155e8bd22ec/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/bf30d96839e694f28544b5386f4d9ace6eb5c884cd15582eb6090155e8bd22ec",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250807-y5sxwaer7s/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Checks the application is allowed to request package installs through the package installer",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "84.247.150.218:7771"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SpyNote",
+   "status": "MALICIOUS",
+   "first_seen": "2025-08-07 20:22:35",
+   "scanner_count": "24",
+   "scanner_match": "9",
+   "scanner_percent": "37.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/68950b059ef4d2ff7cf12251/reports/988d92da-cf91-4963-b112-4e6e8f04ed7e/overview"
+  }
+ },
+ "comments": null
+}

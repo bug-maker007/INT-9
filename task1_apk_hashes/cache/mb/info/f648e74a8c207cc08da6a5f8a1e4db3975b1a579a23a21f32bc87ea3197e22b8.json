@@ -1,0 +1,116 @@
+{
+ "sha256_hash": "f648e74a8c207cc08da6a5f8a1e4db3975b1a579a23a21f32bc87ea3197e22b8",
+ "sha3_384_hash": "d0fac9beb9aec573f55414cc9f4ab109b5aa0f7711e35c9780090a2e3700b159e4affa520709b9941bb15fe8f9e55cf8",
+ "sha1_hash": "3c2420595c84e8e4d3ac8b3898c9457c0489d8f1",
+ "md5_hash": "559c83195365a1c52b75e4a9eabb40de",
+ "first_seen": "2021-02-15 11:00:00",
+ "last_seen": null,
+ "file_name": "EBA.apk",
+ "file_size": 2573206,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "ensrsln",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "CCC533849A81D140C1A3BDB329FB62E7AF5346D82AEEE01F0DEE611D14671F103ADC8D",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:LllGApvtv4FSIB6d/PKAaUxOP6GAgv8X7YtdTbomR7lIKJ:h5tg5BYVabxv8+dvR5R",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": null,
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.7536.1401.27175.UNOFFICIAL"
+  ],
+  "downloads": "152",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "PM_Zip_with_js",
+   "author": null,
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/f648e74a8c207cc08da6a5f8a1e4db3975b1a579a23a21f32bc87ea3197e22b8/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": null,
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210215-ld9llzv5qs/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Suspicious use of android.app.ActivityManager.getRunningServices",
+     "score": "3"
+    },
+    {
+     "signature": "Suspicious use of android.telephony.TelephonyManager.getLine1Number",
+     "score": "3"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://uzunvekalinbirkabl00.com"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-02-15 11:00:09",
+   "scanner_count": "29",
+   "scanner_match": "8",
+   "scanner_percent": "27.59"
+  }
+ },
+ "comments": null
+}

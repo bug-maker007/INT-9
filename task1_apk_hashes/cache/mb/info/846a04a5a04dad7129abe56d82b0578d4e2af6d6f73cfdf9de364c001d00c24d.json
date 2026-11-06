@@ -1,0 +1,227 @@
+{
+ "sha256_hash": "846a04a5a04dad7129abe56d82b0578d4e2af6d6f73cfdf9de364c001d00c24d",
+ "sha3_384_hash": "1178cd9cdff9d5b0e2e2c638840a0397deb2540a8dab4eb2d14e46aa27372e819203807df7a338406c17043f13a13580",
+ "sha1_hash": "af654776384ece12c2274ae39acfebb6cc39f639",
+ "md5_hash": "e8663d7b3eec9509ed49d5a85d0c39d1",
+ "first_seen": "2023-09-25 19:46:39",
+ "last_seen": null,
+ "file_name": "ChromeUpdate.apk",
+ "file_size": 1489290,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "r3dbU7z",
+ "origin_country": "RU",
+ "anonymous": 0,
+ "signature": "Octo",
+ "imphash": null,
+ "tlsh": "T1AC6533B05F9A4D9CCEB52DB9D43E085B360F44886DCEFB9F39390A607D748C4B099869",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "24576:I+ldHt80bCRpsURse2h2q6oFU9Leazuoq/7t7gD09gFnCHzS+cNfS0:IYdH2aURQ2ZoALeAu1REw9fHO+cr",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "63.7% (.APK) Android Package (32500/1/6)",
+  "26.4% (.JAR) Java Archive (13500/1/2)",
+  "7.8% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.9% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Banker",
+  "Octo",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2013-12-31T22:35:04Z",
+   "valid_to": "2052-04-30T22:35:04Z",
+   "serial_number": "232eae62",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "fac61745dc0903786fb9ede62a962b399f7348f0bb6f899b8332667591033b9c",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.14923.14543.1640.UNOFFICIAL"
+  ],
+  "downloads": "257",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Lib_Packer",
+   "author": "R3R0K",
+   "description": "Android.Lib_Packer",
+   "reference": null
+  },
+  {
+   "rule_name": "Packer_Android",
+   "author": "R3R0K",
+   "description": "Android.Packer_Android",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/846a04a5a04dad7129abe56d82b0578d4e2af6d6f73cfdf9de364c001d00c24d/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/846a04a5a04dad7129abe56d82b0578d4e2af6d6f73cfdf9de364c001d00c24d",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/230925-yhh46ace26/",
+   "tags": [
+    "family:coper",
+    "family:octo",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "ransomware",
+    "rat",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Coper",
+     "score": "10"
+    },
+    {
+     "signature": "Coper payload",
+     "score": "10"
+    },
+    {
+     "signature": "Octo",
+     "score": "10"
+    },
+    {
+     "signature": "Octo payload",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://zaglefolki1.info/MTU2OWE0NzJjNGY5/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://passajire555.live/MTU2OWE0NzJjNGY5/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://majestike8ca.top/MTU2OWE0NzJjNGY5/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://jikugac818v.vip/MTU2OWE0NzJjNGY5/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://f2kic1nam25n81k.cc/MTU2OWE0NzJjNGY5/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://cleverk21da912mca.live/MTU2OWE0NzJjNGY5/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://zazarazgok7215vor1.pro/MTU2OWE0NzJjNGY5/"
+    },
+    {
+     "extraction": "c2",
+     "family": "coper",
+     "c2": "https://juf18ki1ca15ca1la.info/MTU2OWE0NzJjNGY5/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Fakeapp",
+   "status": "SUSPICIOUS",
+   "first_seen": "2023-09-17 05:54:00",
+   "scanner_count": "23",
+   "scanner_match": "10",
+   "scanner_percent": "43.48"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6511e3b783a0c6425dff4c93/reports/5813a5e8-3ced-4f42-9a74-4f5f106b04fb/overview"
+  }
+ },
+ "comments": null
+}

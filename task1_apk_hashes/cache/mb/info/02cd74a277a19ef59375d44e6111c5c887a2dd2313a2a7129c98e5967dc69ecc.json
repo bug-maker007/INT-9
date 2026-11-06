@@ -1,0 +1,168 @@
+{
+ "sha256_hash": "02cd74a277a19ef59375d44e6111c5c887a2dd2313a2a7129c98e5967dc69ecc",
+ "sha3_384_hash": "d016639a9818c6d1987afce5d1f55659486ce62d1fbb3fba2b3654bfb3dc51d0f492174b01fdd2b9f7844eafd0164f0a",
+ "sha1_hash": "fbbe80024951667d99d8ceacd7a3d34e11d6d214",
+ "md5_hash": "c3a986a3b5d32e2bd069fd24aaa64698",
+ "first_seen": "2025-12-30 12:25:15",
+ "last_seen": "2025-12-30 12:34:44",
+ "file_name": "Chrome.apk",
+ "file_size": 1014194,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "malwaress",
+ "origin_country": "TR",
+ "anonymous": 0,
+ "signature": "Coper",
+ "imphash": null,
+ "tlsh": "T1C2259E53F60D6B21EF747A342CEBD10E5B0AA9CA2C65030FC91E7BDB00815E35DBA55A",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:/Muq+CoqedaTWwXKNEUwwSIE3CA2zOH61MH25FHyWf2hA/OBunD3++UjwuDrhL0p:fM325F/fea/UjwuDc0Vk",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "chrome",
+  "Coper",
+  "HGS"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.PUA.Android.BaiduProtect-2.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Banker.AndroidOS.Octo-1.UNOFFICIAL",
+   "SecuriteInfo.com.Trojan-Dropper.AndroidOS.Agent.32672.1523.UNOFFICIAL"
+  ],
+  "downloads": "237",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "elf_arm_mips_ko_so",
+   "author": null,
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "enterpriseapps2",
+   "author": "Tim Brown @timb_machine",
+   "description": "Enterprise apps",
+   "reference": null
+  },
+  {
+   "rule_name": "F01_s1ckrule",
+   "author": "s1ckb017",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "ldpreload",
+   "author": "xorseed",
+   "description": null,
+   "reference": "https://stuff.rop.io/"
+  },
+  {
+   "rule_name": "MD5_Constants",
+   "author": "phoul (@phoul)",
+   "description": "Look for MD5 constants",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/02cd74a277a19ef59375d44e6111c5c887a2dd2313a2a7129c98e5967dc69ecc/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/02cd74a277a19ef59375d44e6111c5c887a2dd2313a2a7129c98e5967dc69ecc",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "octo",
+   "score": "10",
+   "link": "https://tria.ge/reports/251230-p3hjpaek9v/",
+   "tags": [
+    "family:octo"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Coper",
+   "status": "MALICIOUS",
+   "first_seen": "2025-03-25 12:00:00",
+   "scanner_count": "38",
+   "scanner_match": "22",
+   "scanner_percent": "57.89"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6953cac98d1aa9829e272f03/reports/ff3ffc77-8228-40fa-9405-f27bed26ebd4/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-02-24T10:41:00Z",
+   "last_seen": "2025-12-30T23:57:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/02cd74a277a19ef59375d44e6111c5c887a2dd2313a2a7129c98e5967dc69ecc/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

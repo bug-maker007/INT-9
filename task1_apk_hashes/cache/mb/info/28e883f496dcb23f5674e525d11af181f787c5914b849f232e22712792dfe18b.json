@@ -1,0 +1,208 @@
+{
+ "sha256_hash": "28e883f496dcb23f5674e525d11af181f787c5914b849f232e22712792dfe18b",
+ "sha3_384_hash": "d762bfcf396366e323933826c7e9c193129c4adb295d8d64471eac75f9d8eee5006a872ac0020b372fb6fb50b9312fe4",
+ "sha1_hash": "a0c3d931418049cbd462da12e3795a92501e5d18",
+ "md5_hash": "db462defe95057b340e17c916ccfcfc0",
+ "first_seen": "2025-06-12 20:05:41",
+ "last_seen": null,
+ "file_name": "111ready.apk",
+ "file_size": 2815451,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "iamaachum",
+ "origin_country": "ES",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T139D533CBA7028693CCB7813E43A2877A9A227D940A47877755C73A1D1C777E0AF0B6D4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:NbF1MIp8lMlTRaJdSIjAfZOb29BKN9dALbQ7R4ChN/3IKfkI2iPQ3wQ5bSYAX3p0:NbF7p86lNauU6ZOb290GLbdChh92+Qxv",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "40.6% (.APK) Android Package (27000/1/5)",
+  "20.3% (.JAR) Java Archive (13500/1/2)",
+  "17.2% (.SUBLIME-PACKAGE) Sublime Text Package (generic) (11500/1/3)",
+  "15.7% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "6.0% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "https://wdfiles.ru/1uc5b",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "SpyNote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Siggen.Susp.198.5190.22996.UNOFFICIAL",
+   "SecuriteInfo.com.Android.SpyMax.42.origin.5485.17990.UNOFFICIAL"
+  ],
+  "downloads": "9786",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "links",
+   "value": "https://tria.ge/250612-ymy16sdp7s/static1"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "botnet_plaintext_c2",
+   "author": "cip",
+   "description": "Attempts to match at least some of the strings used in some botnet variants which use plaintext communication protocols.",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "Spynote_generic_strings",
+   "author": "Alberto Segura",
+   "description": "Detects Spynote Android Malware",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/28e883f496dcb23f5674e525d11af181f787c5914b849f232e22712792dfe18b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.09"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/28e883f496dcb23f5674e525d11af181f787c5914b849f232e22712792dfe18b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/250612-yvgrvsylw3/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "execution",
+    "impact",
+    "persistence",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Performs UI accessibility actions on behalf of the user",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Schedules tasks to execute at a specified time",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "spynote",
+     "c2": "127.0.0.1:7771"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Anubis",
+   "status": "MALICIOUS",
+   "first_seen": "2025-06-12 20:06:36",
+   "scanner_count": "38",
+   "scanner_match": "13",
+   "scanner_percent": "34.21"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/684b3348171e01f9593ecc65/reports/ed306b06-5d93-4db1-81f0-3c9132700da5/overview"
+  }
+ },
+ "comments": null
+}

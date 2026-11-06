@@ -1,0 +1,147 @@
+{
+ "sha256_hash": "67530f6cc30ac3dc55717a8ff276b588acbd8849fbd79e821bca9727c20c249a",
+ "sha3_384_hash": "f4c507ee40241e363b2242ee3fe7354a30c7bbc7263ba66d2b668a9589fb9a9363704cde4a02b8e4e771965cd5f1516a",
+ "sha1_hash": "a57d8f915bed09fcf56b7f431117a4642b56fdb5",
+ "md5_hash": "2191424ce72d4b1bbe55fa317b44eee2",
+ "first_seen": "2024-07-29 18:42:47",
+ "last_seen": null,
+ "file_name": "app.apk",
+ "file_size": 2038633,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "NDA0E",
+ "origin_country": "NL",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1C1953342C62BE04BDC67A8774A050A92A1333E4DAC537F5397CB732D6A73795AF87204",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:MXF3Ow1l/vjd3bwCCEUwYIhyt/8hxKNR8xYAk/ISYVvj/45M47jjU:MXFewPvjdrw7EULIi/6K8uv6juM4Xw",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "65.0% (.APK) Android Package (32500/1/6)",
+  "27.0% (.JAR) Java Archive (13500/1/2)",
+  "8.0% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Anywhere Software",
+   "issuer_cn": "Anywhere Software",
+   "algorithm": "dsaWithSHA1",
+   "valid_from": "2016-08-24T08:23:07Z",
+   "valid_to": "2054-12-23T08:23:07Z",
+   "serial_number": "58118218",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "32752470a35a7bb0a2991180f02baff49a41b9d6b2b5e44e8aa7cb736752e003",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "318",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3077868/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/67530f6cc30ac3dc55717a8ff276b588acbd8849fbd79e821bca9727c20c249a/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/67530f6cc30ac3dc55717a8ff276b588acbd8849fbd79e821bca9727c20c249a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/240729-xcw86ayclg/",
+   "tags": [
+    "family:irata",
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Casdet",
+   "status": "MALICIOUS",
+   "first_seen": "2024-07-29 18:43:13",
+   "scanner_count": "23",
+   "scanner_match": "6",
+   "scanner_percent": "26.09"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/66a7e2bf78d5c73fb1c8b767/reports/abff529d-dbf8-400f-a4ed-f222bfc32bf8/overview"
+  }
+ },
+ "comments": null
+}

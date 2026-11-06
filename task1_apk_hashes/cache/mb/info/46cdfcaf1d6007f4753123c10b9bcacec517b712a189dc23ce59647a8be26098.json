@@ -1,0 +1,140 @@
+{
+ "sha256_hash": "46cdfcaf1d6007f4753123c10b9bcacec517b712a189dc23ce59647a8be26098",
+ "sha3_384_hash": "b2176707d99485b4a804daa14f8f3b4b4ce78dd47ac84bd7a5ff55c49a3459aa626d2a121e1e04219243aa30e2d93bc7",
+ "sha1_hash": "fc1756b3dcc4645cbf1aef4fc2748d9ab8fa26a8",
+ "md5_hash": "5706a3542f365ac6e6f503db131d5d73",
+ "first_seen": "2022-08-09 20:01:52",
+ "last_seen": null,
+ "file_name": "لایو سکسی.apk",
+ "file_size": 2155306,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "BRATA",
+ "imphash": null,
+ "tlsh": "T1F6A51283F365A81BC9E6C3376164663651774D28CB43FB8B2D4873B928F79D88B946C0",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:l/z55WzfO40QO50+/7lXKVgpBcEntWFR6aaz39NiLzhTNFF:9V5WzfoB0+zlogpB+FR61NiLzhTN3",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": "android.spyware.IranPhishing",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "iran",
+  "irata",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "multiple",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Spy.4521.3065.14692.UNOFFICIAL"
+  ],
+  "downloads": "336",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "spyware"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "android.spyware.IranPhishing"
+  },
+  {
+   "context": "dropped_by_malware",
+   "value": "smsspy"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/46cdfcaf1d6007f4753123c10b9bcacec517b712a189dc23ce59647a8be26098/"
+  },
+  "YOROI_YOMI": {
+   "detection": "SMSspy",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/46cdfcaf1d6007f4753123c10b9bcacec517b712a189dc23ce59647a8be26098",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "brata",
+   "score": "10",
+   "link": "https://tria.ge/reports/220809-yr4gfsfcgj/",
+   "tags": [
+    "family:brata",
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2022-08-09 20:02:22",
+   "scanner_count": "26",
+   "scanner_match": "14",
+   "scanner_percent": "53.85"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/62f2bdbe493dc2f89c92ffa2/reports/831211e1-c840-49ac-8e0f-486613ca05c5/overview"
+  }
+ },
+ "comments": null
+}

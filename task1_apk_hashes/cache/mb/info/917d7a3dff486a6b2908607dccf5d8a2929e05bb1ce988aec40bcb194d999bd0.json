@@ -1,0 +1,105 @@
+{
+ "sha256_hash": "917d7a3dff486a6b2908607dccf5d8a2929e05bb1ce988aec40bcb194d999bd0",
+ "sha3_384_hash": "f2395df2a0d5608e5cefc65ed16581909ea2da184af6e7d7fa99f387487500e60f2e622fd05149f350f7f175e5acf130",
+ "sha1_hash": "105707eb8dcc4819ba56573287f31e77f69c0082",
+ "md5_hash": "2e56a5dd927f20d9306c9d9656cc5aef",
+ "first_seen": "2022-03-24 06:22:08",
+ "last_seen": null,
+ "file_name": "Antivirus Y5 Cleaner Booster.apk",
+ "file_size": 14775170,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "500mk500",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "SharkBot",
+ "imphash": null,
+ "tlsh": "T16EE6128AFB98CA1FC8332132C927023372970E155A4297B76614F72C29B7DD15F56BCA",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:LgPFE+5macX7X52NWdXJq2TNR3Xw9pMrfum7d:LEE8qgY5STqd",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "sharkbot"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.DownLoader.1072.origin.20726.31392.UNOFFICIAL"
+  ],
+  "downloads": "383",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://twitter.com/_icebre4ker_/status/1506728296771461126"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "Android Sharkbot"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/917d7a3dff486a6b2908607dccf5d8a2929e05bb1ce988aec40bcb194d999bd0/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/917d7a3dff486a6b2908607dccf5d8a2929e05bb1ce988aec40bcb194d999bd0",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/220324-g5gq6shgej/",
+   "tags": [
+    "android",
+    "banker",
+    "ransomware"
+   ],
+   "signatures": [
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps).",
+     "score": "8"
+    },
+    {
+     "signature": "Uses Crypto APIs (Might try to encrypt user data).",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.SharkBot",
+   "status": "MALICIOUS",
+   "first_seen": "2022-03-24 06:23:34",
+   "scanner_count": "42",
+   "scanner_match": "5",
+   "scanner_percent": "11.90"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/623c0e1bb94fb38cb4dfaa76/reports/b87f489b-5e1d-41cc-80ea-95e1277f7763/overview"
+  }
+ },
+ "comments": null
+}

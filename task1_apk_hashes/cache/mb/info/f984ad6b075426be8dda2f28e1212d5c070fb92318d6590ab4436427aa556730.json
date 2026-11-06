@@ -1,0 +1,111 @@
+{
+ "sha256_hash": "f984ad6b075426be8dda2f28e1212d5c070fb92318d6590ab4436427aa556730",
+ "sha3_384_hash": "6f0005ef1adcf9d852d9c22707837bc79128f6915d74967f02bc9247a56d2b8b46e8c1b6710d91b92bfb59710a79f7c9",
+ "sha1_hash": "e3de3139ab8f352c125a76f53dddde919f3b4ed9",
+ "md5_hash": "4f618b5c8486c15bb859756eb092d9b2",
+ "first_seen": "2024-12-11 10:41:44",
+ "last_seen": null,
+ "file_name": "dropper.apk",
+ "file_size": 5071522,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "TgToxic",
+ "imphash": null,
+ "tlsh": "T17536D046F34A5ABAC8F253B74CFD5A7915076CE34B438683AC847B28B8775D40E46ACC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:m3mUMdkaoLKauowdapCAx/MV3REvmXbGH+wIsFKX5+:m3mUEpauowdwCApvmLOI0U+",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "87.0% (.APK) Android Package (27000/1/5)",
+  "12.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "cuenta-ntflx-com",
+  "TgToxic"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.FileRepMalware.9805.2516.UNOFFICIAL"
+  ],
+  "downloads": "220",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "RSharedStrings",
+   "author": "Katie Kleemola",
+   "description": "identifiers for remote and gmremote",
+   "reference": null
+  },
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/f984ad6b075426be8dda2f28e1212d5c070fb92318d6590ab4436427aa556730/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Malicious File",
+   "score": "1.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/f984ad6b075426be8dda2f28e1212d5c070fb92318d6590ab4436427aa556730",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "tgtoxic",
+   "score": "10",
+   "link": "https://tria.ge/reports/241211-mrnkfsyqfw/",
+   "tags": [
+    "family:tgtoxic",
+    "android",
+    "discovery",
+    "evasion"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.ScarletFlash",
+   "status": "MALICIOUS",
+   "first_seen": "2024-12-11 10:41:18",
+   "scanner_count": "24",
+   "scanner_match": "7",
+   "scanner_percent": "29.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67596c80f4b6d25bec603e9a/reports/cd1f0e49-3fee-4859-9a4a-d327e2aec92d/overview"
+  }
+ },
+ "comments": null
+}

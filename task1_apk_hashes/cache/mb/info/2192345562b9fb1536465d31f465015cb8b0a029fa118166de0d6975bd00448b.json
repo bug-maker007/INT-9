@@ -1,0 +1,126 @@
+{
+ "sha256_hash": "2192345562b9fb1536465d31f465015cb8b0a029fa118166de0d6975bd00448b",
+ "sha3_384_hash": "a8efbc4db15450e82787893d91499a3d0cdc8e07d718543f637ec8608dd9b308b68badd0272a3a1289ad4596e7250f2d",
+ "sha1_hash": "596ea1190a357e17169ad8d3b63fa31ee1cea3bc",
+ "md5_hash": "1fd53adfc1ff5f6262567592dfc88fd4",
+ "first_seen": "2022-06-04 13:44:43",
+ "last_seen": null,
+ "file_name": "Phish.apk",
+ "file_size": 20724209,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T158271256F38CE92AC4B79032CA553636A5564C24AF02D6D32D14B39C5DF3EF08B49BE8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:H0MN1xjIAbL4d73dW9HL3cd03LCd2jkMRjC4FbKLm9xjXZfL7:HxSAbL4d5qHLMd03OdZCC40Cpf/",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "35.0% (.APK) Android Package (38500/1/9)",
+  "27.2% (.SPE) SPSS Extension (30000/1/7)",
+  "12.2% (.JAR) Java Archive (13500/1/2)",
+  "11.3% (.VYM) VYM Mind Map (12500/1/3)",
+  "9.5% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)"
+ ],
+ "comment": "Apk.SMSspy.IranPhishing",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "cerberus",
+  "iran",
+  "malware",
+  "signed",
+  "spy",
+  "spyware"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Trojan.AndroidOS.Cerberus.13973.17040.UNOFFICIAL"
+  ],
+  "downloads": "818",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "smsspy"
+  },
+  {
+   "context": "dropping_malware",
+   "value": "spyware"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Cerberus",
+   "score": "0.90"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/2192345562b9fb1536465d31f465015cb8b0a029fa118166de0d6975bd00448b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/220604-q2dpsadhgl/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Listens for changes in the sensor environment (might be used to detect emulation).",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2022-06-02 23:23:21",
+   "scanner_count": "26",
+   "scanner_match": "1",
+   "scanner_percent": "3.85"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/629b621c89ccefd52e84ab04/reports/8353f8f6-d1eb-4aa0-9a09-2e0f167821f3/overview"
+  }
+ },
+ "comments": null
+}

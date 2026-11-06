@@ -1,0 +1,125 @@
+{
+ "sha256_hash": "ec033c13f06bcccb3d35b46c56003a60516339419ccc75a3738bbcf7f83e52b8",
+ "sha3_384_hash": "ec1b99eb003f3d0837ad9ce49d17737e9174a181173a3c1af73008c059c8a4f971188d12d16adeb59ec9d61885294064",
+ "sha1_hash": "5d3b255ed5ad81c4058ebfaad235fcb0ee53e827",
+ "md5_hash": "5280d654cd519c4ec6dfedb037cd13df",
+ "first_seen": "2026-03-18 20:27:56",
+ "last_seen": null,
+ "file_name": "update.apk",
+ "file_size": 15300630,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "CH",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T14AF62297FB45582AF0F783B2413A5321D50B4C668743CACB7914713C28B7AE06F9AADD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:WY2C4d+qUQ1Fv9wmQOmw3gM6c18J/kf8W:N2dGQLem5+MZGO",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "33.3% (.APK) Android Package (27000/1/5)",
+  "16.6% (.JAR) Java Archive (13500/1/2)",
+  "16.6% (.ZAN) BlueEyes Animation (13500/1/4)",
+  "15.4% (.VYM) VYM Mind Map (12500/1/3)",
+  "12.9% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker",
+  "btmob"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "210",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropped_by_sha256",
+   "value": "0a108cca92abc4326b5897466ed7c8f7f8737d3aab14f59a8d1e5eb4a48167b9"
+  },
+  {
+   "context": "dropped_by_md5",
+   "value": "12d0533a59606c38e5efe376288c803a"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "dependsonpythonailib",
+   "author": "Tim Brown",
+   "description": "Hunts for dependencies on Python AI libraries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ec033c13f06bcccb3d35b46c56003a60516339419ccc75a3738bbcf7f83e52b8/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/ec033c13f06bcccb3d35b46c56003a60516339419ccc75a3738bbcf7f83e52b8",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": null,
+   "link": "https://tria.ge/reports/260318-y852lsds3p/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Anubis",
+   "status": "MALICIOUS",
+   "first_seen": "2026-03-18 20:28:25",
+   "scanner_count": "38",
+   "scanner_match": "6",
+   "scanner_percent": "15.79"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69bb0ae44ec2f522cc4e66fb/reports/d8a5ac92-d1b0-4ca8-bcc6-ce14f1ad4702/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/ec033c13f06bcccb3d35b46c56003a60516339419ccc75a3738bbcf7f83e52b8/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

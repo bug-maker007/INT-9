@@ -1,0 +1,805 @@
+{
+ "tags": [
+  "apk",
+  "android"
+ ],
+ "size": 308747,
+ "times_submitted": 5,
+ "type_extension": "apk",
+ "first_submission_date": 1656703333,
+ "sha1": "207c74c638ea7350e7a89d2daeb35db6979fcb4a",
+ "total_votes": {
+  "harmless": 0,
+  "malicious": 0
+ },
+ "permhash": "226c31bcd758d808b48babaa2b1840bf7bfa8122c389444334b5c8bb3d0cb896",
+ "last_analysis_stats": {
+  "malicious": 39,
+  "suspicious": 0,
+  "undetected": 25,
+  "harmless": 0,
+  "timeout": 0,
+  "confirmed-timeout": 0,
+  "failure": 0,
+  "type-unsupported": 11
+ },
+ "magic": "Java archive data (JAR)",
+ "bundle_info": {
+  "highest_datetime": "2008-02-29 06:03:46",
+  "lowest_datetime": "2008-02-29 06:03:46",
+  "num_children": 36,
+  "extensions": {
+   "xml": 2,
+   "dex": 1,
+   "mf": 1,
+   "map": 3,
+   "RSA": 1,
+   "MF": 1,
+   "SF": 1,
+   "png": 4
+  },
+  "file_types": {
+   "XML": 2,
+   "DEX": 1,
+   "PNG": 4,
+   "unknown": 29
+  },
+  "type": "APK",
+  "uncompressed_size": 679979
+ },
+ "ssdeep": "6144:yFK1AFUO95WyK48ESVYRGKytIGSDdPpXtyz2cAzDU:4K1AFFnWyDMYBsCPpXtyiLzDU",
+ "reputation": 0,
+ "unique_sources": 3,
+ "last_modification_date": 1784966131,
+ "last_submission_date": 1784966131,
+ "md5": "5de51a3f86597b5265ef33484c73f735",
+ "last_analysis_date": 1688286114,
+ "type_description": "Android",
+ "type_tag": "android",
+ "trid": [
+  {
+   "file_type": "Android Package",
+   "probability": 63.7
+  },
+  {
+   "file_type": "Java Archive",
+   "probability": 26.4
+  },
+  {
+   "file_type": "ZIP compressed archive",
+   "probability": 7.8
+  },
+  {
+   "file_type": "PrintFox/Pagefox bitmap (640x800)",
+   "probability": 1.9
+  }
+ ],
+ "last_analysis_results": {
+  "Bkav": {
+   "method": "blacklist",
+   "engine_name": "Bkav",
+   "engine_version": "2.0.0.1",
+   "engine_update": "20230630",
+   "category": "undetected",
+   "result": null
+  },
+  "Lionic": {
+   "method": "blacklist",
+   "engine_name": "Lionic",
+   "engine_version": "7.5",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "Trojan.AndroidOS.Boogr.C!c"
+  },
+  "MicroWorld-eScan": {
+   "method": "blacklist",
+   "engine_name": "MicroWorld-eScan",
+   "engine_version": "14.0.409.0",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "Trojan.GenericKD.39916381"
+  },
+  "FireEye": {
+   "method": "blacklist",
+   "engine_name": "FireEye",
+   "engine_version": "35.24.1.0",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "Trojan.GenericKD.39916381"
+  },
+  "CAT-QuickHeal": {
+   "method": "blacklist",
+   "engine_name": "CAT-QuickHeal",
+   "engine_version": "22.00",
+   "engine_update": "20230701",
+   "category": "malicious",
+   "result": "Trojan.AndroidOS.GEN26762"
+  },
+  "McAfee": {
+   "method": "blacklist",
+   "engine_name": "McAfee",
+   "engine_version": "6.0.6.653",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "Artemis!5DE51A3F8659"
+  },
+  "Malwarebytes": {
+   "method": "blacklist",
+   "engine_name": "Malwarebytes",
+   "engine_version": "4.5.5.54",
+   "engine_update": "20230701",
+   "category": "undetected",
+   "result": null
+  },
+  "Zillya": {
+   "method": "blacklist",
+   "engine_name": "Zillya",
+   "engine_version": "2.0.0.4905",
+   "engine_update": "20230630",
+   "category": "malicious",
+   "result": "Trojan.Agent.Android.414051"
+  },
+  "Sangfor": {
+   "method": "blacklist",
+   "engine_name": "Sangfor",
+   "engine_version": "2.23.0.0",
+   "engine_update": "20230625",
+   "category": "undetected",
+   "result": null
+  },
+  "Trustlook": {
+   "method": "blacklist",
+   "engine_name": "Trustlook",
+   "engine_version": "1.0",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "Android.Malware.Trojan"
+  },
+  "BitDefender": {
+   "method": "blacklist",
+   "engine_name": "BitDefender",
+   "engine_version": "7.2",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "Trojan.GenericKD.39916381"
+  },
+  "K7GW": {
+   "method": "blacklist",
+   "engine_name": "K7GW",
+   "engine_version": "12.93.48805",
+   "engine_update": "20230630",
+   "category": "malicious",
+   "result": "Trojan ( 0057cc081 )"
+  },
+  "K7AntiVirus": {
+   "method": "blacklist",
+   "engine_name": "K7AntiVirus",
+   "engine_version": "12.94.48821",
+   "engine_update": "20230702",
+   "category": "undetected",
+   "result": null
+  },
+  "BitDefenderTheta": {
+   "method": "blacklist",
+   "engine_name": "BitDefenderTheta",
+   "engine_version": "7.2.37796.0",
+   "engine_update": "20230621",
+   "category": "undetected",
+   "result": null
+  },
+  "VirIT": {
+   "method": "blacklist",
+   "engine_name": "VirIT",
+   "engine_version": "9.5.481",
+   "engine_update": "20230630",
+   "category": "undetected",
+   "result": null
+  },
+  "Cyren": {
+   "method": "blacklist",
+   "engine_name": "Cyren",
+   "engine_version": "6.5.1.2",
+   "engine_update": "20230702",
+   "category": "undetected",
+   "result": null
+  },
+  "SymantecMobileInsight": {
+   "method": "blacklist",
+   "engine_name": "SymantecMobileInsight",
+   "engine_version": "2.0",
+   "engine_update": "20230119",
+   "category": "malicious",
+   "result": "Other:Android.Reputation.1"
+  },
+  "Symantec": {
+   "method": "blacklist",
+   "engine_name": "Symantec",
+   "engine_version": "1.20.0.0",
+   "engine_update": "20230701",
+   "category": "malicious",
+   "result": "Trojan.Gen.MBT"
+  },
+  "ESET-NOD32": {
+   "method": "blacklist",
+   "engine_name": "ESET-NOD32",
+   "engine_version": "27502",
+   "engine_update": "20230701",
+   "category": "malicious",
+   "result": "a variant of Android/TrojanSMS.Agent.CWR"
+  },
+  "Cynet": {
+   "method": "blacklist",
+   "engine_name": "Cynet",
+   "engine_version": "4.0.0.27",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "Malicious (score: 99)"
+  },
+  "TrendMicro-HouseCall": {
+   "method": "blacklist",
+   "engine_name": "TrendMicro-HouseCall",
+   "engine_version": "10.0.0.1040",
+   "engine_update": "20230702",
+   "category": "undetected",
+   "result": null
+  },
+  "Avast": {
+   "method": "blacklist",
+   "engine_name": "Avast",
+   "engine_version": "22.11.7701.0",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "Android:SMSThief-QU [Trj]"
+  },
+  "ClamAV": {
+   "method": "blacklist",
+   "engine_name": "ClamAV",
+   "engine_version": "1.1.0.0",
+   "engine_update": "20230702",
+   "category": "undetected",
+   "result": null
+  },
+  "Kaspersky": {
+   "method": "blacklist",
+   "engine_name": "Kaspersky",
+   "engine_version": "22.0.1.28",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "HEUR:Trojan-Spy.AndroidOS.SmsThief.tt"
+  },
+  "Alibaba": {
+   "method": "blacklist",
+   "engine_name": "Alibaba",
+   "engine_version": "0.3.0.5",
+   "engine_update": "20190527",
+   "category": "malicious",
+   "result": "TrojanSpy:Android/SmsThief.32aa3e81"
+  },
+  "NANO-Antivirus": {
+   "method": "blacklist",
+   "engine_name": "NANO-Antivirus",
+   "engine_version": "1.0.146.25785",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "Trojan.Android.Locker.ebcseb"
+  },
+  "ViRobot": {
+   "method": "blacklist",
+   "engine_name": "ViRobot",
+   "engine_version": "2014.3.20.0",
+   "engine_update": "20230701",
+   "category": "undetected",
+   "result": null
+  },
+  "Rising": {
+   "method": "blacklist",
+   "engine_name": "Rising",
+   "engine_version": "25.0.0.27",
+   "engine_update": "20230701",
+   "category": "undetected",
+   "result": null
+  },
+  "Sophos": {
+   "method": "blacklist",
+   "engine_name": "Sophos",
+   "engine_version": "2.3.1.0",
+   "engine_update": "20230701",
+   "category": "malicious",
+   "result": "Andr/Xgen-AEB"
+  },
+  "Baidu": {
+   "method": "blacklist",
+   "engine_name": "Baidu",
+   "engine_version": "1.0.0.2",
+   "engine_update": "20190318",
+   "category": "undetected",
+   "result": null
+  },
+  "F-Secure": {
+   "method": "blacklist",
+   "engine_name": "F-Secure",
+   "engine_version": "18.10.1137.128",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "Malware.ANDROID/SMS.Agent.PAU.Gen"
+  },
+  "DrWeb": {
+   "method": "blacklist",
+   "engine_name": "DrWeb",
+   "engine_version": "7.0.59.12300",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "Android.SmsSpy.7189"
+  },
+  "VIPRE": {
+   "method": "blacklist",
+   "engine_name": "VIPRE",
+   "engine_version": "6.0.0.35",
+   "engine_update": "20230701",
+   "category": "malicious",
+   "result": "Trojan.GenericKD.39916381"
+  },
+  "TrendMicro": {
+   "method": "blacklist",
+   "engine_name": "TrendMicro",
+   "engine_version": "11.0.0.1006",
+   "engine_update": "20230702",
+   "category": "undetected",
+   "result": null
+  },
+  "McAfee-GW-Edition": {
+   "method": "blacklist",
+   "engine_name": "McAfee-GW-Edition",
+   "engine_version": "v2021.2.0+4045",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "BehavesLike.Trojan.fc"
+  },
+  "CMC": {
+   "method": "blacklist",
+   "engine_name": "CMC",
+   "engine_version": "2.4.2022.1",
+   "engine_update": "20230619",
+   "category": "undetected",
+   "result": null
+  },
+  "Emsisoft": {
+   "method": "blacklist",
+   "engine_name": "Emsisoft",
+   "engine_version": "2022.6.0.32461",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "Trojan.GenericKD.39916381 (B)"
+  },
+  "Avast-Mobile": {
+   "method": "blacklist",
+   "engine_name": "Avast-Mobile",
+   "engine_version": "230630-00",
+   "engine_update": "20230630",
+   "category": "malicious",
+   "result": "Android:Evo-gen [Trj]"
+  },
+  "Jiangmin": {
+   "method": "blacklist",
+   "engine_name": "Jiangmin",
+   "engine_version": "16.0.100",
+   "engine_update": "20230630",
+   "category": "undetected",
+   "result": null
+  },
+  "Avira": {
+   "method": "blacklist",
+   "engine_name": "Avira",
+   "engine_version": "8.3.3.16",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "ANDROID/SMS.Agent.PAU.Gen"
+  },
+  "MAX": {
+   "method": "blacklist",
+   "engine_name": "MAX",
+   "engine_version": "2023.1.4.1",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "malware (ai score=99)"
+  },
+  "Antiy-AVL": {
+   "method": "blacklist",
+   "engine_name": "Antiy-AVL",
+   "engine_version": "3.0",
+   "engine_update": "20230701",
+   "category": "malicious",
+   "result": "Trojan/Generic.ASMalwAD.8"
+  },
+  "Microsoft": {
+   "method": "blacklist",
+   "engine_name": "Microsoft",
+   "engine_version": "1.1.23050.3",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "TrojanSpy:AndroidOS/SmsThief.B!MTB"
+  },
+  "Gridinsoft": {
+   "method": "blacklist",
+   "engine_name": "Gridinsoft",
+   "engine_version": "1.0.126.174",
+   "engine_update": "20230702",
+   "category": "undetected",
+   "result": null
+  },
+  "Xcitium": {
+   "method": "blacklist",
+   "engine_name": "Xcitium",
+   "engine_version": "35788",
+   "engine_update": "20230702",
+   "category": "undetected",
+   "result": null
+  },
+  "Arcabit": {
+   "method": "blacklist",
+   "engine_name": "Arcabit",
+   "engine_version": "2022.0.0.18",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "Trojan.Generic.D261135D"
+  },
+  "SUPERAntiSpyware": {
+   "method": "blacklist",
+   "engine_name": "SUPERAntiSpyware",
+   "engine_version": "5.6.0.1032",
+   "engine_update": "20230629",
+   "category": "undetected",
+   "result": null
+  },
+  "ZoneAlarm": {
+   "method": "blacklist",
+   "engine_name": "ZoneAlarm",
+   "engine_version": "1.0",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "HEUR:Trojan-Spy.AndroidOS.SmsThief.tt"
+  },
+  "GData": {
+   "method": "blacklist",
+   "engine_name": "GData",
+   "engine_version": "A:25.36137B:27.32263",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "Trojan.GenericKD.39916381"
+  },
+  "Google": {
+   "method": "blacklist",
+   "engine_name": "Google",
+   "engine_version": "1688281249",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "Detected"
+  },
+  "BitDefenderFalx": {
+   "method": "blacklist",
+   "engine_name": "BitDefenderFalx",
+   "engine_version": "2.0.936",
+   "engine_update": "20230626",
+   "category": "malicious",
+   "result": "Android.Trojan.SmsSpy.WS"
+  },
+  "AhnLab-V3": {
+   "method": "blacklist",
+   "engine_name": "AhnLab-V3",
+   "engine_version": "3.23.3.10396",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "Trojan/Android.SmsSpy.731346"
+  },
+  "Acronis": {
+   "method": "blacklist",
+   "engine_name": "Acronis",
+   "engine_version": "1.2.0.114",
+   "engine_update": "20230219",
+   "category": "undetected",
+   "result": null
+  },
+  "VBA32": {
+   "method": "blacklist",
+   "engine_name": "VBA32",
+   "engine_version": "5.0.0",
+   "engine_update": "20230630",
+   "category": "undetected",
+   "result": null
+  },
+  "ALYac": {
+   "method": "blacklist",
+   "engine_name": "ALYac",
+   "engine_version": "1.1.3.1",
+   "engine_update": "20230702",
+   "category": "undetected",
+   "result": null
+  },
+  "TACHYON": {
+   "method": "blacklist",
+   "engine_name": "TACHYON",
+   "engine_version": "2023-07-02.02",
+   "engine_update": "20230702",
+   "category": "undetected",
+   "result": null
+  },
+  "Zoner": {
+   "method": "blacklist",
+   "engine_name": "Zoner",
+   "engine_version": "2.2.2.0",
+   "engine_update": "20230702",
+   "category": "undetected",
+   "result": null
+  },
+  "Tencent": {
+   "method": "blacklist",
+   "engine_name": "Tencent",
+   "engine_version": "1.0.0.1",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "a.privacy.spiderbank.f"
+  },
+  "Yandex": {
+   "method": "blacklist",
+   "engine_name": "Yandex",
+   "engine_version": "5.5.2.24",
+   "engine_update": "20230702",
+   "category": "undetected",
+   "result": null
+  },
+  "Ikarus": {
+   "method": "blacklist",
+   "engine_name": "Ikarus",
+   "engine_version": "6.1.14.0",
+   "engine_update": "20230701",
+   "category": "malicious",
+   "result": "Trojan.AndroidOS.SmsSpy"
+  },
+  "MaxSecure": {
+   "method": "blacklist",
+   "engine_name": "MaxSecure",
+   "engine_version": "1.0.0.1",
+   "engine_update": "20230701",
+   "category": "malicious",
+   "result": "Android.smsthief.fh"
+  },
+  "Fortinet": {
+   "method": "blacklist",
+   "engine_name": "Fortinet",
+   "engine_version": "6.4.258.0",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "Android/Generic.AP.CEBFD00!tr"
+  },
+  "AVG": {
+   "method": "blacklist",
+   "engine_name": "AVG",
+   "engine_version": "22.11.7701.0",
+   "engine_update": "20230702",
+   "category": "malicious",
+   "result": "Android:SMSThief-QU [Trj]"
+  },
+  "Panda": {
+   "method": "blacklist",
+   "engine_name": "Panda",
+   "engine_version": "4.6.4.2",
+   "engine_update": "20230702",
+   "category": "undetected",
+   "result": null
+  },
+  "DeepInstinct": {
+   "method": "blacklist",
+   "engine_name": "DeepInstinct",
+   "engine_version": "3.1.0.15",
+   "engine_update": "20230702",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "tehtris": {
+   "method": "blacklist",
+   "engine_name": "tehtris",
+   "engine_version": null,
+   "engine_update": "20230702",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "APEX": {
+   "method": "blacklist",
+   "engine_name": "APEX",
+   "engine_version": "6.428",
+   "engine_update": "20230701",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "Paloalto": {
+   "method": "blacklist",
+   "engine_name": "Paloalto",
+   "engine_version": "0.9.0.1003",
+   "engine_update": "20230702",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "Trapmine": {
+   "method": "blacklist",
+   "engine_name": "Trapmine",
+   "engine_version": "4.0.14.446",
+   "engine_update": "20230412",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "Webroot": {
+   "method": "blacklist",
+   "engine_name": "Webroot",
+   "engine_version": "1.0.0.403",
+   "engine_update": "20230702",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "Cylance": {
+   "method": "blacklist",
+   "engine_name": "Cylance",
+   "engine_version": "2.0.0.0",
+   "engine_update": "20230628",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "SentinelOne": {
+   "method": "blacklist",
+   "engine_name": "SentinelOne",
+   "engine_version": "23.2.0.1",
+   "engine_update": "20230404",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "CrowdStrike": {
+   "method": "blacklist",
+   "engine_name": "CrowdStrike",
+   "engine_version": "1.0",
+   "engine_update": null,
+   "category": "type-unsupported",
+   "result": null
+  },
+  "Cybereason": {
+   "method": "blacklist",
+   "engine_name": "Cybereason",
+   "engine_version": "1.2.449",
+   "engine_update": "20210330",
+   "category": "type-unsupported",
+   "result": null
+  },
+  "Elastic": {
+   "method": "blacklist",
+   "engine_name": "Elastic",
+   "engine_version": "4.0.98",
+   "engine_update": "20230628",
+   "category": "type-unsupported",
+   "result": null
+  }
+ },
+ "vhash": "6920d833826d3b5f0aa02234b5760396",
+ "names": [
+  "Sex.apk"
+ ],
+ "type_tags": [
+  "executable",
+  "mobile",
+  "android",
+  "apk"
+ ],
+ "tlsh": "T14564125CAE89F45EEE6FD6BE07F0AC81154C0718E40CF997E832A9117D667812E02FE5",
+ "androguard": {
+  "Activities": [
+   "com.ApkEditors.HackingTelegram.MainActivity"
+  ],
+  "AndroidVersionCode": "1",
+  "VTAndroidInfo": 2.0,
+  "certificate": {
+   "Subject": {
+    "DN": "C:US, CN:Android, L:Mountain View, O:Android, ST:California, OU:Android, email:android@android.com",
+    "C": "US",
+    "CN": "Android",
+    "L": "Mountain View",
+    "O": "Android",
+    "ST": "California",
+    "OU": "Android",
+    "email": "android@android.com"
+   },
+   "validto": "2035-07-17 01:33:46",
+   "serialnumber": "936eacbe07f201df",
+   "thumbprint": "61ed377e85d386a8dfee6b864bd85b0bfaa5af81",
+   "validfrom": "2008-02-29 01:33:46",
+   "Issuer": {
+    "DN": "C:US, CN:Android, L:Mountain View, O:Android, ST:California, OU:Android, email:android@android.com",
+    "C": "US",
+    "CN": "Android",
+    "L": "Mountain View",
+    "O": "Android",
+    "ST": "California",
+    "OU": "Android",
+    "email": "android@android.com"
+   }
+  },
+  "Package": "com.ApkEditors.HackingTelegram",
+  "AndroidApplication": 1,
+  "AndroidApplicationError": false,
+  "AndroidVersionName": "1.0",
+  "RiskIndicator": {
+   "APK": {
+    "DEX": 1
+   },
+   "PERM": {
+    "MONEY": 1,
+    "NORMAL": 2,
+    "SMS": 3,
+    "PRIVACY": 3,
+    "INTERNET": 1
+   }
+  },
+  "MinSdkVersion": "14",
+  "AndroidApplicationInfo": "APK",
+  "TargetSdkVersion": "21",
+  "Receivers": [
+   "com.ApkEditors.HackingTelegram.IncomingSms"
+  ],
+  "AndroguardVersion": "4.0",
+  "main_activity": "com.ApkEditors.HackingTelegram.MainActivity",
+  "intent_filters": {
+   "Activities": {
+    "com.ApkEditors.HackingTelegram.MainActivity": {
+     "action": [
+      "android.intent.action.MAIN"
+     ],
+     "category": [
+      "android.intent.category.LAUNCHER"
+     ]
+    }
+   },
+   "Receivers": {
+    "com.ApkEditors.HackingTelegram.IncomingSms": {
+     "action": [
+      "android.provider.Telephony.SMS_RECEIVED"
+     ]
+    }
+   }
+  },
+  "permission_details": {
+   "android.permission.SEND_SMS": {
+    "permission_type": "dangerous",
+    "short_description": "send SMS messages",
+    "full_description": "Allows the app to send SMS messages.\n     This may result in unexpected charges. Malicious apps may cost you money by\n     sending messages without your confirmation."
+   },
+   "android.permission.READ_PHONE_STATE": {
+    "permission_type": "dangerous",
+    "short_description": "read phone status and identity",
+    "full_description": "Allows the app to access the phone\n      features of the device.  This permission allows the app to determine the\n      phone number and device IDs, whether a call is active, and the remote number\n      connected by a call."
+   },
+   "android.permission.ACCESS_NETWORK_STATE": {
+    "permission_type": "normal",
+    "short_description": "view network connections",
+    "full_description": "Allows the app to view\n      information about network connections such as which networks exist and are\n      connected."
+   },
+   "android.permission.ACCESS_WIFI_STATE": {
+    "permission_type": "normal",
+    "short_description": "view Wi-Fi connections",
+    "full_description": "Allows the app to view information\n      about Wi-Fi networking, such as whether Wi-Fi is enabled and name of\n      connected Wi-Fi devices."
+   },
+   "android.permission.INTERNET": {
+    "permission_type": "dangerous",
+    "short_description": "full network access",
+    "full_description": "Allows the app to create\n     network sockets and use custom network protocols. The browser and other\n     applications provide means to send data to the internet, so this\n     permission is not required to send data to the internet."
+   },
+   "android.permission.READ_SMS": {
+    "permission_type": "dangerous",
+    "short_description": "read your text messages (SMS or MMS)",
+    "full_description": "Allows the app to read SMS\n      messages stored on your phone or SIM card. This allows the app to read all\n      SMS messages, regardless of content or confidentiality."
+   },
+   "android.permission.RECEIVE_SMS": {
+    "permission_type": "dangerous",
+    "short_description": "receive text messages (SMS)",
+    "full_description": "Allows the app to receive and process SMS\n      messages. This means the app could monitor or delete messages sent to your\n      device without showing them to you."
+   }
+  }
+ },
+ "sha256": "04b4f6aefde0a647337e2000dfc18ae5c1b973bbe57571322eed408fb0ecee0a",
+ "meaningful_name": "Sex.apk"
+}

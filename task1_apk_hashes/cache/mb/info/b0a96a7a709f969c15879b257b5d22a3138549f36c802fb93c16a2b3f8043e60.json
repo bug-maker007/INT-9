@@ -1,0 +1,118 @@
+{
+ "sha256_hash": "b0a96a7a709f969c15879b257b5d22a3138549f36c802fb93c16a2b3f8043e60",
+ "sha3_384_hash": "119f268bff8ad01371aa485fc77bfb417f750e0b5d4ac1a138fd210c4b11f1466f0c90bb5b00e1a33824f9350d47219e",
+ "sha1_hash": "dc241e77978f33280f014579c7a9a64257389900",
+ "md5_hash": "b12e3d283f3bdbb1cc6391768ee9f5cd",
+ "first_seen": "2025-04-13 07:03:47",
+ "last_seen": null,
+ "file_name": "003.apk",
+ "file_size": 11118802,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T1AAB6128BF758992FC87700F645AE933126574C168A83DB87AD84361C79772E43F89BC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:BgD+mEgULOFrMwH3W9CeHadT0dzbLbsJ6Q7sDK59h9YNIGGCerJKZkZ8OF8:0ERqFrreCUdrbsJ6Q7Jn9YOfbdKZc8",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "40.0% (.APK) Android Package (27000/1/5)",
+  "20.0% (.JAR) Java Archive (13500/1/2)",
+  "18.5% (.VYM) VYM Mind Map (12500/1/3)",
+  "15.5% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "5.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "SpyNote"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Unknown",
+   "issuer_cn": "Unknown",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2025-04-11T16:37:12Z",
+   "valid_to": "2052-08-27T16:37:12Z",
+   "serial_number": "70f4ad729da962e1",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "933cd33603292b3c634bdef3052c35a1306106adffd5f8412c0a8d586d908f1b",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "205",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3509665/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Sus_Obf_Enc_Spoof_Hide_PE",
+   "author": "XiAnzheng",
+   "description": "Check for Overlay, Obfuscating, Encrypting, Spoofing, Hiding, or Entropy Technique(can create FP)",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/b0a96a7a709f969c15879b257b5d22a3138549f36c802fb93c16a2b3f8043e60/"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/b0a96a7a709f969c15879b257b5d22a3138549f36c802fb93c16a2b3f8043e60",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/250413-hvzpns1ks5/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Anubis",
+   "status": "MALICIOUS",
+   "first_seen": "2025-04-13 07:00:22",
+   "scanner_count": "24",
+   "scanner_match": "3",
+   "scanner_percent": "12.50"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/67fb61eb40adfb5162c11512/reports/2280d8d5-ecfe-48e0-9c41-da70fb9ece78/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,124 @@
+{
+ "sha256_hash": "073de9ade3a00c3c1624c7fac5696e7b8dcce402358458258513df31a8d9e1a3",
+ "sha3_384_hash": "d9ed6e7606629d9ad937ff42a9b07f156ac405e776b6a5cb90425219a7e8f63a9bc53d07e36591be24a9fe1701af6ec3",
+ "sha1_hash": "ecab4bc07eafe8ed9f7bafedb4e6ecee0007aca1",
+ "md5_hash": "158d091417dccd17a5c1761fd15bcd04",
+ "first_seen": "2023-12-03 14:34:16",
+ "last_seen": null,
+ "file_name": "app.apk",
+ "file_size": 4288305,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "onecert_ir",
+ "origin_country": "US",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1AE16BECBF794995BC4F39372817653A6510B4C268B83EBD36D04767C19BB9C02F4AAC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:JLtci79c8WdLqyXgDrhgLCr8Y+9pHAcAGKEdtL5:J5FhcLdJQv+Xw0dx5",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "40.1% (.APK) Android Package (32500/1/6)",
+  "16.6% (.JAR) Java Archive (13500/1/2)",
+  "15.4% (.VYM) VYM Mind Map (12500/1/3)",
+  "12.9% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "8.6% (.MAFF) Mozilla Archive Format (gen) (7000/1/1)"
+ ],
+ "comment": "IRATA",
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "IRATA",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Debug",
+   "issuer_cn": "Android Debug",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2016-10-23T20:10:05Z",
+   "valid_to": "2044-03-10T20:10:05Z",
+   "serial_number": "056c1a15",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "1e08a903aef9c3a721510b64ec764d01d3d094eb954161b62544ea8f187b5953",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.1095.origin.19041.16504.UNOFFICIAL"
+  ],
+  "downloads": "337",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_malware",
+   "value": "IRATA"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "irata",
+   "link": "https://mwdb.cert.pl/sample/073de9ade3a00c3c1624c7fac5696e7b8dcce402358458258513df31a8d9e1a3/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/073de9ade3a00c3c1624c7fac5696e7b8dcce402358458258513df31a8d9e1a3",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "irata",
+   "score": "10",
+   "link": "https://tria.ge/reports/231203-rxz8nace2v/",
+   "tags": [
+    "family:irata",
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Dabom",
+   "status": "MALICIOUS",
+   "first_seen": "2023-11-11 15:01:15",
+   "scanner_count": "23",
+   "scanner_match": "11",
+   "scanner_percent": "47.83"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/656c9217380413dc0c2e0d93/reports/955c6d38-45fb-49ed-bae9-b8963129b9e7/overview"
+  }
+ },
+ "comments": null
+}

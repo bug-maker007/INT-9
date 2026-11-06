@@ -1,0 +1,140 @@
+{
+ "sha256_hash": "fca04c73ad8c4626e4026faaac63fbe6c2a6404952e1c53d657b696480789553",
+ "sha3_384_hash": "f77d37c200b9335230a70c7b7947104c1c738bfcf03f61db8b16a465344ac99502158c96cf24ba3195032602a7ebf78f",
+ "sha1_hash": "d0365b494caea8f59819356468ac4936d7780c0b",
+ "md5_hash": "94fc04b52aa91ad133be46ab8c2bd878",
+ "first_seen": "2026-02-24 09:50:12",
+ "last_seen": null,
+ "file_name": "client.apk",
+ "file_size": 859958,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "joker651181",
+ "origin_country": "NL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T16305AE96F71AA866C9F7CB3643B9476A1646CC14474BE7930981B23C1DBF9C04B89FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "12288:4yDMUTYCnBh8wzHDrtq48O1m1JdiLaD26C9XgqRCIlNE8Z6GvhZ3:4y4UMCnB5zHtq4LmrdqaDnG5Zz",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "SpyNote",
+  "trojan"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "arshad ali",
+   "issuer_cn": "arshad ali",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2017-08-04T22:25:29Z",
+   "valid_to": "2044-12-19T22:25:29Z",
+   "serial_number": "b920c135a5030963",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a5b12c2ffe5e2773e24341f3a09c06e9520af08e9648a1fc7f4e303843362a2d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "Andr.Malware.Spyagent-6804567-0",
+   "SecuriteInfo.com.Android.Spy.516.origin.30296.12916.UNOFFICIAL"
+  ],
+  "downloads": "351",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/fca04c73ad8c4626e4026faaac63fbe6c2a6404952e1c53d657b696480789553/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.09"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/fca04c73ad8c4626e4026faaac63fbe6c2a6404952e1c53d657b696480789553",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "spynote",
+   "score": "10",
+   "link": "https://tria.ge/reports/260224-lt4h1shx4g/",
+   "tags": [
+    "family:spynote",
+    "android",
+    "defense_evasion",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Requests enabling of the accessibility settings.",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Spyware.Android",
+   "status": "MALICIOUS",
+   "first_seen": "2026-02-24 09:50:42",
+   "scanner_count": "38",
+   "scanner_match": "22",
+   "scanner_percent": "57.89"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/699d745e97feb4afd6566410/reports/2b2bc367-3deb-404c-a0ef-e70fafaef06f/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/fca04c73ad8c4626e4026faaac63fbe6c2a6404952e1c53d657b696480789553/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

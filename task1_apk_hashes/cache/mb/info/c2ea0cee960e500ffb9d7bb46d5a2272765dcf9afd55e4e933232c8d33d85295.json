@@ -1,0 +1,118 @@
+{
+ "sha256_hash": "c2ea0cee960e500ffb9d7bb46d5a2272765dcf9afd55e4e933232c8d33d85295",
+ "sha3_384_hash": "b417301c01139afd609f7c7994263c747658ca95f05f61c92fc30524ed1b0f8483a47ecbe569e456dcdac8a7cbae2267",
+ "sha1_hash": "87723c64205336b8d13859ceeb3be672d7a1f51c",
+ "md5_hash": "6365e05d01abc00295d40826ffec8388",
+ "first_seen": "2021-12-07 08:52:03",
+ "last_seen": null,
+ "file_name": "bundle.apk",
+ "file_size": 1937999,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "0x746f6d6669",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "T10E9533950C00A479F2F5C7312A978A52B0F8196843A2DDEC7DBF70560BB2B942FADC75",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:5CQXnOZAsxVh6bZkurB4gK88usQe7FY7WPteyY5:YhAMVouurBVK8PXe7C7WleyY5",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "alien",
+  "apk",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.11321.26070.24083.UNOFFICIAL"
+  ],
+  "downloads": "343",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/c2ea0cee960e500ffb9d7bb46d5a2272765dcf9afd55e4e933232c8d33d85295/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/c2ea0cee960e500ffb9d7bb46d5a2272765dcf9afd55e4e933232c8d33d85295",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/211207-ksrbmabda7/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://fiftiforfrisend.quest"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2021-12-07 08:53:18",
+   "scanner_count": "25",
+   "scanner_match": "14",
+   "scanner_percent": "56.00"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61af20b74d8e6f3a5e168e2e/reports/8356991e-1b04-48b5-8e62-a39edda0c4be/overview"
+  }
+ },
+ "comments": null
+}

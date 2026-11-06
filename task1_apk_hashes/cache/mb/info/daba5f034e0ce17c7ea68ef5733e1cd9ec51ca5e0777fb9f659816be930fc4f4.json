@@ -1,0 +1,107 @@
+{
+ "sha256_hash": "daba5f034e0ce17c7ea68ef5733e1cd9ec51ca5e0777fb9f659816be930fc4f4",
+ "sha3_384_hash": "9e94f1a7cb2a8642bc3dd5d3e34870d98f009a530f8714d4760e9401d63d888bb974c9035438d7ab8c2677ef10c78eb6",
+ "sha1_hash": "f1fd25ad41fe962801457af0987d0426dc862f3c",
+ "md5_hash": "8b5451d46cf8234364c8d926154470d4",
+ "first_seen": "2021-10-08 18:28:49",
+ "last_seen": null,
+ "file_name": "mervecanlishow.apk",
+ "file_size": 3336914,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T12DF533D78241E878FD967630D1A384F23A20054398A7676A312F4CB5EF3BDB1735ACA5",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:35XqL3I+d1qwRQOIIxKG3PpMUgN+Zi5WkkaW6mOCBT+O0LCex1EVtKpI5RNnf:JW37d1quQEPpMWZbOmjCO0/yjh",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.10945.1565.2851.UNOFFICIAL"
+  ],
+  "downloads": "288",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/daba5f034e0ce17c7ea68ef5733e1cd9ec51ca5e0777fb9f659816be930fc4f4/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/daba5f034e0ce17c7ea68ef5733e1cd9ec51ca5e0777fb9f659816be930fc4f4",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/211008-w4w7ssege2/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://51.132.239.47/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2021-10-08 18:29:05",
+   "scanner_count": "45",
+   "scanner_match": "7",
+   "scanner_percent": "15.56"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61608df0e3d213d202bc0b6a/reports/ed184ac8-29fe-4f04-b675-6e683ae257f7/overview"
+  }
+ },
+ "comments": null
+}

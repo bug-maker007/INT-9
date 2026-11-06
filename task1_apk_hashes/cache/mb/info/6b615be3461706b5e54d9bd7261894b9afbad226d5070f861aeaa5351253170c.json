@@ -1,0 +1,101 @@
+{
+ "sha256_hash": "6b615be3461706b5e54d9bd7261894b9afbad226d5070f861aeaa5351253170c",
+ "sha3_384_hash": "1cc5d1abf9cc58a60b889c7e7d37079473dd1f3b3eea8e71ab9565411883e11c28bc8d6d5cccf48e687132bba34aabd5",
+ "sha1_hash": "1714f02ec60a1f6332a5e189fd4c6561515e769a",
+ "md5_hash": "f9303b059ae1a24483e5d49dbc92e381",
+ "first_seen": "2021-08-30 16:04:33",
+ "last_seen": null,
+ "file_name": "playstore.apk",
+ "file_size": 3256325,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T195E53315FBA39859F9AB42F1C5133915389B24EC01D9B17F2AF1408A6CF3D90AB1BDB4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:NShcx/P8JH9F/Hg229ZkmbRH2nZT0OgFXiN2PgNv7gIVe0vI46qmEKFpOV9nujJ:cK8JdF8D7g4OAZ6gIQ346jEe02V",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.ArtemisF9303B059AE1.15723.31308.UNOFFICIAL"
+  ],
+  "downloads": "259",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/6b615be3461706b5e54d9bd7261894b9afbad226d5070f861aeaa5351253170c/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/6b615be3461706b5e54d9bd7261894b9afbad226d5070f861aeaa5351253170c",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/210830-zmpbeqtnb6/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "https://genclikbayramlari.com"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2021-08-30 16:05:13",
+   "scanner_count": "46",
+   "scanner_match": "6",
+   "scanner_percent": "13.04"
+  }
+ },
+ "comments": null
+}

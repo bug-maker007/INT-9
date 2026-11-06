@@ -1,0 +1,179 @@
+{
+ "sha256_hash": "724a56172f40177da76242ee169ac336b63d5df85889368d1531f593b658606b",
+ "sha3_384_hash": "c9b7b224efe6f2215419b89b48bd1538c4b5217d3c295dd2e2897616027961bc8bf71b7800c5b08d8e51ee2014fa2460",
+ "sha1_hash": "7e7c3a6eaf542db371ca38a1ad9d6728b5d13daf",
+ "md5_hash": "056d831fb3f4423ea395c02d68841887",
+ "first_seen": "2023-04-05 04:08:12",
+ "last_seen": null,
+ "file_name": "dump.apk",
+ "file_size": 6570308,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "anonymous",
+ "origin_country": "HK",
+ "anonymous": 1,
+ "signature": "Sova",
+ "imphash": null,
+ "tlsh": "T1EF66334BD54DEE0AC8D6C532575D456EEB10438B86B0FB62AA6C32CE18F7D854A0BFC4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:6tObNxGuckjHfKQ2OXa1m5l3AMZTn7KKGDaY/2gZ6gjFAYJErRKmkPS:6tObNZKQ2OK1m5l37Zr7KKGegqW8QzS",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "67.5% (.APK) Android Package (38500/1/9)",
+  "23.6% (.JAR) Java Archive (13500/1/2)",
+  "7.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "1.7% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "banker",
+  "nexus",
+  "signed",
+  "sova"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "ls",
+   "issuer_cn": "ls",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2023-04-04T07:07:21Z",
+   "valid_to": "2023-07-03T07:07:21Z",
+   "serial_number": "4f6cf6f6",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "69598b5984bce814b38106f127b66fcc2676308de37345e2f59ed4a46f1fbc76",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.14551.21485.24792.UNOFFICIAL",
+   "SecuriteInfo.com.Android.BankBot.992.origin.28463.4615.UNOFFICIAL"
+  ],
+  "downloads": "443",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "dropping_sha256",
+   "value": "376d13affcbfc5d5358d39aba16b814f711f2e81632059a4bce5af060e038ea4"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Suspicious_Macro_Presence",
+   "author": "Mehmet Ali Kerimoglu (CYB3RMX)",
+   "description": "This rule detects common malicious/suspicious implementations.",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/724a56172f40177da76242ee169ac336b63d5df85889368d1531f593b658606b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/724a56172f40177da76242ee169ac336b63d5df85889368d1531f593b658606b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "sova",
+   "score": "10",
+   "link": "https://tria.ge/reports/230405-eqsh1sbf77/",
+   "tags": [
+    "family:sova",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "SOVA_v5 payload",
+     "score": "10"
+    },
+    {
+     "signature": "Sova",
+     "score": "10"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service.",
+     "score": "8"
+    },
+    {
+     "signature": "Acquires the wake lock.",
+     "score": "7"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Looks up external IP address via web service",
+     "score": "6"
+    },
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "sova",
+     "c2": "http://193.42.32.84/"
+    },
+    {
+     "extraction": "c2",
+     "family": "sova",
+     "c2": "http://193.42.32.87/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2023-04-04 16:40:57",
+   "scanner_count": "24",
+   "scanner_match": "14",
+   "scanner_percent": "58.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/642cf45f2f938d3b4e0608fc/reports/ff4de038-b514-490e-b5c0-65a06b586cc7/overview"
+  }
+ },
+ "comments": [
+  {
+   "id": "69014",
+   "date_added": "2023-04-09 16:56:43",
+   "twitter_handle": "h4kb4n",
+   "display_name": "h4k",
+   "comment": "Nexus Android Trojan Analysis Report\nhttps://liansecurity.com/#/main/news/RWt_ZocBrFZDfCElFqw_/detail"
+  }
+ ]
+}

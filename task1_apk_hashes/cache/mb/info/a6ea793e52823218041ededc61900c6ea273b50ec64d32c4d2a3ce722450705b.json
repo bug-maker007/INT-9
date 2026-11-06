@@ -1,0 +1,177 @@
+{
+ "sha256_hash": "a6ea793e52823218041ededc61900c6ea273b50ec64d32c4d2a3ce722450705b",
+ "sha3_384_hash": "4fb3832979953e087ac7e3ab1a86783f45b9de0be6c758219c9359d2ffde849e1b43c5438828c4539986aba906b72cfb",
+ "sha1_hash": "4633a579726e424b7788bd46eb5ef9594ad2cc07",
+ "md5_hash": "2383d03af42cb24389c42f8f8c649bd9",
+ "first_seen": "2026-05-06 09:54:38",
+ "last_seen": null,
+ "file_name": "myapp(3).apk",
+ "file_size": 7152767,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": "GhostGrab",
+ "imphash": null,
+ "tlsh": "T1907601EBB3E95E59D83261B1846D17B6651F8D288F4B9A076D00331C79B71E42F88FC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:k4k+XmepvM/i9qj7junS7VthplJP8QYw+5rwIplN4I:vtcX/ngwIrw0lyI",
+ "magika": "jar",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "GhostGrab",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "291",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/a6ea793e52823218041ededc61900c6ea273b50ec64d32c4d2a3ce722450705b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/a6ea793e52823218041ededc61900c6ea273b50ec64d32c4d2a3ce722450705b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "ghostgrab",
+   "score": "10",
+   "link": "https://tria.ge/reports/260506-lynncsey9x/",
+   "tags": [
+    "family:ghostgrab",
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "impact",
+    "infostealer",
+    "persistence",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Family: GhostGrab",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "ghostgrab",
+     "c2": "http://api.uasecurity.org:8088/ads.html"
+    },
+    {
+     "extraction": "c2",
+     "family": "ghostgrab",
+     "c2": "https://accessor.pages.dev/"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Packed.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-05-06 09:55:56",
+   "scanner_count": "24",
+   "scanner_match": "7",
+   "scanner_percent": "29.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fb10292fcb905ec2827863/reports/0d80f7bf-7a28-404a-a7c7-ea18d1c59ae0/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-06T08:03:00Z",
+   "last_seen": "2026-05-08T02:50:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/a6ea793e52823218041ededc61900c6ea273b50ec64d32c4d2a3ce722450705b/results?tab=lookup",
+   "detections": [
+    "HEUR:Trojan-Dropper.AndroidOS.Banker.ab"
+   ]
+  }
+ },
+ "comments": null
+}

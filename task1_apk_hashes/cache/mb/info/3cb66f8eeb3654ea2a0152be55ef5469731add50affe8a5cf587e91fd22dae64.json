@@ -1,0 +1,108 @@
+{
+ "sha256_hash": "3cb66f8eeb3654ea2a0152be55ef5469731add50affe8a5cf587e91fd22dae64",
+ "sha3_384_hash": "1cf3d522793ddfe0ca249011a023ae26d1f8f875c32b76dd432678589a04cffe3cc1e3ee64d3d6bf2bede4ac59d223e4",
+ "sha1_hash": "d1174bee572c65f55a7f0b510c629a98a4bb3c04",
+ "md5_hash": "449705b78de3132e524001e8064168a3",
+ "first_seen": "2026-05-06 09:55:07",
+ "last_seen": null,
+ "file_name": "Axis Max Insurance.apk",
+ "file_size": 17987444,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T11C073312FB2AE759FCB295F9202A47758421EC37CB16AA871844772E207B9D84FD0FD1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:asqP7OF/d5461WKTpi3dF/vMh0Lsi65jV5P5g5qw04snZ7PikIj1CoMj4:asqDOF/dSKTpi3dF/vMri6LAsjjZOJCG",
+ "magika": "unknown",
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Axis",
+  "Bank",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "234",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/3cb66f8eeb3654ea2a0152be55ef5469731add50affe8a5cf587e91fd22dae64/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/3cb66f8eeb3654ea2a0152be55ef5469731add50affe8a5cf587e91fd22dae64",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260506-lypknaaw4l/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2025-12-03 15:13:21",
+   "scanner_count": "24",
+   "scanner_match": "6",
+   "scanner_percent": "25.00"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fb1028df14f1cb2acb7842/reports/53e4c99d-1dcb-476a-9c2f-e4e5443a83dd/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2025-12-03T09:14:00Z",
+   "last_seen": "2026-05-08T00:00:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/3cb66f8eeb3654ea2a0152be55ef5469731add50affe8a5cf587e91fd22dae64/results?tab=lookup",
+   "detections": [
+    "HEUR:Trojan-Dropper.AndroidOS.BeatBanker.a"
+   ]
+  }
+ },
+ "comments": null
+}

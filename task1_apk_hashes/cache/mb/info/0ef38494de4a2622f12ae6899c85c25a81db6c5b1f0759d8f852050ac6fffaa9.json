@@ -1,0 +1,189 @@
+{
+ "sha256_hash": "0ef38494de4a2622f12ae6899c85c25a81db6c5b1f0759d8f852050ac6fffaa9",
+ "sha3_384_hash": "0522377e5e98e62f29b6c190930b85515b0806b19f2eebe24d228887a0c391d609104896418c7b523bffc0d816a8c595",
+ "sha1_hash": "85b08fb9198442650fc7c83a0f81e3ef2ff54d40",
+ "md5_hash": "de3ad5e2039497fa72c1576478d81dfc",
+ "first_seen": "2026-10-26 17:58:07",
+ "last_seen": null,
+ "file_name": "0ef38494de4a2622f12ae6899c85c25a81db6c5b1f0759d8f852050ac6fffaa9.apk",
+ "file_size": 2764682,
+ "file_type_mime": "application/vnd.android.package-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "johnk3r",
+ "origin_country": "BR",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T183D5CFCAFBD8592FC8771076CAAE52B126574C128E839F836944361C6D776D80F8DBC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:foZaUaFRLAsAoNAzJC+z2JHTys6xMWkgHMEoTwrmfnCE6G:gYbAD2AzJCQ2BTmMUoTwrmfCBG",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "banker",
+  "matheuscooder-vps-kinghost-net",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Google LLC",
+   "issuer_cn": "Google LLC",
+   "algorithm": "sha384WithRSAEncryption",
+   "valid_from": "2025-11-24T21:27:17Z",
+   "valid_to": "2053-04-11T21:27:17Z",
+   "serial_number": "55b9899f5df2a1fc",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "e1756e3dc1118e0dd6078bedcd45a0ff473114b93829f7d61217fc6888972c87",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.1257.origin.26581.6606.UNOFFICIAL",
+   "SecuriteInfo.com.Android.BankBot.1257.origin.31968.10984.UNOFFICIAL"
+  ],
+  "downloads": "234",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "ANDROID_Sample_Unique_5be608a5",
+   "author": "Marjoriefort",
+   "description": "Specimen unique (soumission Bazaar) - strings distinctifs propres au sample",
+   "reference": "5be608a563a02c94dbf3b1812b3aa0685a6f8228b5dc74c773cc3c912adef7ba.apk"
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/0ef38494de4a2622f12ae6899c85c25a81db6c5b1f0759d8f852050ac6fffaa9/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/261026-wkavfsysfv/",
+   "tags": [
+    "android",
+    "banker",
+    "collection",
+    "credential_access",
+    "defense_evasion",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Checks known Qemu files.",
+     "score": "7"
+    },
+    {
+     "signature": "Checks known Qemu pipes.",
+     "score": "7"
+    },
+    {
+     "signature": "Makes use of the framework's Accessibility service",
+     "score": "7"
+    },
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Queries account information for other applications stored on the device",
+     "score": "7"
+    },
+    {
+     "signature": "Reads the contacts stored on the device.",
+     "score": "7"
+    },
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Makes use of the framework's foreground persistence service",
+     "score": "6"
+    },
+    {
+     "signature": "Requests disabling of battery optimizations (often used to enable hiding in the background).",
+     "score": "6"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-10-26 09:02:41",
+   "scanner_count": "36",
+   "scanner_match": "11",
+   "scanner_percent": "30.56"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6adf94b751bf42b985e52f53/reports/4e3b1be6-29d8-4872-8302-b9677916fc71/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-10-26T15:15:00Z",
+   "last_seen": "2026-10-27T06:51:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/0ef38494de4a2622f12ae6899c85c25a81db6c5b1f0759d8f852050ac6fffaa9/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

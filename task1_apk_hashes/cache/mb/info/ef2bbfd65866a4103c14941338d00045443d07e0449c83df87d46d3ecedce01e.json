@@ -1,0 +1,80 @@
+{
+ "sha256_hash": "ef2bbfd65866a4103c14941338d00045443d07e0449c83df87d46d3ecedce01e",
+ "sha3_384_hash": "a6de40d23536b7a6824b2fd2622717ac8472622d25ef55d4bdac3eb86efd34cf5a500c884d645af385f24f551ecfa4ad",
+ "sha1_hash": "50f4836c97093e40b41877437fe85562dfd8ddcb",
+ "md5_hash": "fb2b3423e114228575c92056d8ccdc98",
+ "first_seen": "2021-09-07 15:16:33",
+ "last_seen": null,
+ "file_name": "Android_Guncelleme.apk",
+ "file_size": 3036247,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T100E5331DE9D38406C27302B29196B3C63A637FAC4AE5E13F05B74845DCDE9948B26CF6",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:xwW2tgzlltuTcoX9WmHV9F5s2ydLNO6X1vg0XgtCdcfVIt4wvkP1zUfV2JuJuyW/:OKuTcotW2y2ydROixgvtkctRwvkP1zaW",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.ArtemisFB2B3423E114.4093.23620.UNOFFICIAL"
+  ],
+  "downloads": "285",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1600085/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/ef2bbfd65866a4103c14941338d00045443d07e0449c83df87d46d3ecedce01e/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/ef2bbfd65866a4103c14941338d00045443d07e0449c83df87d46d3ecedce01e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/210907-sn192agagj/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Cebruser",
+   "status": "MALICIOUS",
+   "first_seen": "2021-09-07 15:17:08",
+   "scanner_count": "45",
+   "scanner_match": "7",
+   "scanner_percent": "15.56"
+  }
+ },
+ "comments": null
+}

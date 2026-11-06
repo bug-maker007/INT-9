@@ -1,0 +1,101 @@
+{
+ "sha256_hash": "2d59d13c81deb0a756c202a9719e5e6886107e6f16691a3bac2ec7a7f6d19c4e",
+ "sha3_384_hash": "5f4c6d22acbf1d5324734dbee0ae71f29567dc47c08d93a0b48f05f41ece90c933c5a0f350791b0a48babb60536c7ead",
+ "sha1_hash": "d1a69e55726b0e6cf2cf9b3a5fe81dfacaac4035",
+ "md5_hash": "f8567f94a252a4956cbde1a225a42806",
+ "first_seen": "2021-08-19 20:26:03",
+ "last_seen": null,
+ "file_name": "Android build_obf.apk",
+ "file_size": 3308886,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Cerberus",
+ "imphash": null,
+ "tlsh": "T191E5331E9B43C908E2B706B18163BC23561A20AD9AF4657F903550D62CEFB548F7ACED",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:U6eWpuWxBhnvFRMkTyh9REUNAI75t1XVPv7r4O:FVpu0LvzMkURrWO5t1Xl75",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Cerberus"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.10117.24589.30078.UNOFFICIAL"
+  ],
+  "downloads": "223",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/2d59d13c81deb0a756c202a9719e5e6886107e6f16691a3bac2ec7a7f6d19c4e/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/2d59d13c81deb0a756c202a9719e5e6886107e6f16691a3bac2ec7a7f6d19c4e",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "cerberus",
+   "score": "10",
+   "link": "https://tria.ge/reports/210819-qsz1kq5ml6/",
+   "tags": [
+    "family:cerberus",
+    "android",
+    "banker",
+    "evasion",
+    "infostealer",
+    "obfuscation",
+    "rat",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Cerberus",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "cerberus",
+     "c2": "http://bahsatbayykxyz.xyz"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.PUA.Dbtes",
+   "status": "MALICIOUS",
+   "first_seen": "2021-08-19 20:27:06",
+   "scanner_count": "46",
+   "scanner_match": "10",
+   "scanner_percent": "21.74"
+  }
+ },
+ "comments": null
+}

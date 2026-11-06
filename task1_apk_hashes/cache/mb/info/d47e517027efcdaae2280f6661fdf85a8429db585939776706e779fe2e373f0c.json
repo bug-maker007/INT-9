@@ -1,0 +1,168 @@
+{
+ "sha256_hash": "d47e517027efcdaae2280f6661fdf85a8429db585939776706e779fe2e373f0c",
+ "sha3_384_hash": "ab08f7d9dca4b6d20dbc9f0eecffc749e5b36af2f63f9adcd6059e3f2be0e9f121db94ed739418b113bf366074a8aa72",
+ "sha1_hash": "4ad4e8f94f92ede193a15da11a0c9396df659880",
+ "md5_hash": "9d2e1f57325151dc12cfc6709230e688",
+ "first_seen": "2026-03-15 06:09:38",
+ "last_seen": null,
+ "file_name": "Korzinka Uz.apk",
+ "file_size": 1632740,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "jitesh",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T16B7533757AD26602CA5F99379316A6B27757ACCE0406F70B9340FF486DB264C8F07AC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:xQD1Fc2qSF3U4phruaehVtpbc56WZ0XB+T7sXoFWZ8:xQDTqS9pRu9hV/c5z2YQoFf",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "60.6% (.APK) Android Package (27000/1/5)",
+  "30.3% (.JAR) Java Archive (13500/1/2)",
+  "8.9% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "BirBir Uz",
+  "dropper",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "purox",
+   "issuer_cn": "purox",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2026-02-26T00:30:38Z",
+   "valid_to": "2053-07-14T00:30:38Z",
+   "serial_number": "019c975ad6f0",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "56307f799a99354850b5e0263b444bb20f9f183c25748428bae97431b058b191",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.MulDrop.254.origin.29507.27820.UNOFFICIAL"
+  ],
+  "downloads": "232",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "unixredflags3",
+   "author": "Tim Brown @timb_machine",
+   "description": "Hunts for UNIX red flags",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d47e517027efcdaae2280f6661fdf85a8429db585939776706e779fe2e373f0c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.05"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/d47e517027efcdaae2280f6661fdf85a8429db585939776706e779fe2e373f0c",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "8",
+   "link": "https://tria.ge/reports/260315-gw77rscw21/",
+   "tags": [
+    "android",
+    "banker",
+    "defense_evasion",
+    "discovery",
+    "evasion",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Checks if the Android device is rooted.",
+     "score": "8"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Queries a list of all the installed applications on the device (Might be used in an attempt to overlay legitimate apps)",
+     "score": "7"
+    },
+    {
+     "signature": "Checks the presence of a debugger",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-03-15 06:10:26",
+   "scanner_count": "24",
+   "scanner_match": "7",
+   "scanner_percent": "29.17"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69b64d4e493cb7d62dfdb7af/reports/6abe88e4-3f6b-4a73-9315-7099cc19af7b/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/d47e517027efcdaae2280f6661fdf85a8429db585939776706e779fe2e373f0c/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

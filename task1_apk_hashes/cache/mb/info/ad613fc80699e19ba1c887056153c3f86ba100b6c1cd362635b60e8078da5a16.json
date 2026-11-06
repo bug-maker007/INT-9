@@ -1,0 +1,110 @@
+{
+ "sha256_hash": "ad613fc80699e19ba1c887056153c3f86ba100b6c1cd362635b60e8078da5a16",
+ "sha3_384_hash": "e59e5d24e09051e058eb68ab02a4232385e35355d9d45a34a3974be246e9c3293a6cfb09e0ad5f28e7e31012e6841d55",
+ "sha1_hash": "920cb4f3776eee46281befe1fc4a6a3c2b81f6ec",
+ "md5_hash": "cbab133ebc17fc8285225b6452b493c6",
+ "first_seen": "2026-09-12 19:15:32",
+ "last_seen": null,
+ "file_name": "tax-refund.apk",
+ "file_size": 45694115,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "skocherhan",
+ "origin_country": "GB",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T178A7339BFB88987AC0F3937154365721608B8D358B439BC79A68717C65F32C02F8A6DD",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "786432:p0OqVuTexECIJ0ZWyO8HKm/OMHGjasBNWTzUEUtNlwLpo3gMg5nrxtPeghXrw6Qj:yRVTyCIJ0EOBIaYNWTpIwpvMgegRk",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "46.2% (.VYM) VYM Mind Map (12500/1/3)",
+  "38.8% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "14.8% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": "https://gdfhlsf.s3.us-east-1.amazonaws.com/e6a89e8ae07e/sched/109823/sch_2aa15934e9471499/tax-refund.apk\r\nhttps://kong06.s3.us-east-1.amazonaws.com/48cc7ae97785/sched/109823/sch_e3affab164a6f14e/tax-refund.apk",
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "gdfhlsf-s3-us-east-1-amazonaws-com",
+  "kong06-s3-us-east-1-amazonaws-com",
+  "poiwalsd-com"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "253",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "twitter",
+   "value": "https://x.com/skocherhan/status/2098849832588739056"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260912-xyzw6sdr2x/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-09-12 19:16:26",
+   "scanner_count": "38",
+   "scanner_match": "6",
+   "scanner_percent": "15.79"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "NO_THREAT",
+   "threatlevel": "0.25",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6aa5a505cd69a5b0a82fc249/reports/94b2f8f3-6ebe-4818-abf7-ae1dd04ddcb1/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-09-12T16:28:00Z",
+   "last_seen": "2026-09-12T17:52:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/ad613fc80699e19ba1c887056153c3f86ba100b6c1cd362635b60e8078da5a16/results?tab=lookup",
+   "detections": [
+    "HEUR:Trojan-Dropper.AndroidOS.Banker.gv",
+    "HEUR:Trojan-Dropper.AndroidOS.Banker.eu"
+   ]
+  }
+ },
+ "comments": null
+}

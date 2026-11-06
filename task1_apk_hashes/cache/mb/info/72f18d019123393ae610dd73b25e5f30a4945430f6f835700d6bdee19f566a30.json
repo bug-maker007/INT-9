@@ -1,0 +1,119 @@
+{
+ "sha256_hash": "72f18d019123393ae610dd73b25e5f30a4945430f6f835700d6bdee19f566a30",
+ "sha3_384_hash": "219ea39fe4283e208bbb6229ae6cab2f4c2a613eb9722b287b84cbe82a62f9119b775932c00c1c659c8dac7e2ea75d10",
+ "sha1_hash": "af62ca2c7e32e16474acdd46c311dbdb69664eb3",
+ "md5_hash": "50d360fa0767101e1409cf6d6708ee40",
+ "first_seen": "2026-07-02 21:15:42",
+ "last_seen": null,
+ "file_name": "output_0.apk",
+ "file_size": 56141487,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "BastianHein_",
+ "origin_country": "CL",
+ "anonymous": 0,
+ "signature": "SpyNote",
+ "imphash": null,
+ "tlsh": "T16AC70157FFC655BAFCF643360E3553692202AC358B67B28BA814327CA4B75D02E42DD8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:1q6eL7ACQ9GPjpZyp5eWR/XmU+2bDiUOBCw:QLcCQ6pZyplXmebD+4w",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "Spynote"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "386",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Android_Admin_And_Accessibility",
+   "author": "Buga :3",
+   "description": "This detects apps which request access to both device admin and the Android accessibility suite.",
+   "reference": null
+  },
+  {
+   "rule_name": "Android_ElectricityBill_Miner_APK",
+   "author": "ShriyaTiger",
+   "description": "Detects Electricity Bill themed Android malware and Miner.apk payload",
+   "reference": null
+  },
+  {
+   "rule_name": "DetectEncryptedVariants",
+   "author": "Zinyth",
+   "description": "Detects 'encrypted' in ASCII, Unicode, base64, or hex-encoded",
+   "reference": null
+  },
+  {
+   "rule_name": "Jeevan_Malware_Rewards",
+   "author": "ShriTiger",
+   "description": "Detects JeevanReward variants using Technical, Anti-Analysis, and Indian SE keywords",
+   "reference": null
+  },
+  {
+   "rule_name": "RANSOMWARE",
+   "author": "ToroGuitar",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260702-z4x1waez9z/",
+   "tags": [
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-07-02 21:21:11",
+   "scanner_count": "24",
+   "scanner_match": "4",
+   "scanner_percent": "16.67"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/6a46d5354661d2209ce2d1f0/reports/99f872bb-11b1-41ff-91e2-f0592b78a909/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-02T22:47:00Z",
+   "last_seen": "2026-07-04T17:06:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/72f18d019123393ae610dd73b25e5f30a4945430f6f835700d6bdee19f566a30/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

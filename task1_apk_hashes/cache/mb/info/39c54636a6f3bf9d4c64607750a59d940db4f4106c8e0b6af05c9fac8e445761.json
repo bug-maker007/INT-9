@@ -1,0 +1,115 @@
+{
+ "sha256_hash": "39c54636a6f3bf9d4c64607750a59d940db4f4106c8e0b6af05c9fac8e445761",
+ "sha3_384_hash": "1489b2b10673d0b9450127e47a5a04660253101b813d9f41b091ddbd3427aa1fcc8295c3eb184307b74ee225ec7c8b2b",
+ "sha1_hash": "8d580610e33065e4d585d22aae046ed2cb4f8ea8",
+ "md5_hash": "6e743f2d73f3863932889f65efa9c5f6",
+ "first_seen": "2026-05-08 09:40:27",
+ "last_seen": null,
+ "file_name": "iMobile Lite (47).apk",
+ "file_size": 17888847,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1C407CD23F50569A6DED6E135F5E707A136201D580793A22D271FF026FDF21CECA62AC2",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "393216:C4a3iPuOYYsFFVKMGRn31c5tZFMoTZ+UJTF8:OVOgLGRnqZFMSx8",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "72.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "27.5% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "ICICI",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "188",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "Jeevan_Malware_Rewards",
+   "author": "ShriTiger",
+   "description": "Detects JeevanReward variants using Technical, Anti-Analysis, and Indian SE keywords",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/39c54636a6f3bf9d4c64607750a59d940db4f4106c8e0b6af05c9fac8e445761/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/39c54636a6f3bf9d4c64607750a59d940db4f4106c8e0b6af05c9fac8e445761",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-lnpsnsft9x/",
+   "tags": [],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": null,
+   "status": "KNOWN",
+   "first_seen": "2026-05-08 09:41:44",
+   "scanner_count": "38",
+   "scanner_match": "6",
+   "scanner_percent": "15.79"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fdaf9886e92bda70243dc6/reports/375129a3-75a2-475f-88c0-38853c7f4c0a/overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-05-08T07:24:00Z",
+   "last_seen": "2026-05-08T16:42:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/39c54636a6f3bf9d4c64607750a59d940db4f4106c8e0b6af05c9fac8e445761/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

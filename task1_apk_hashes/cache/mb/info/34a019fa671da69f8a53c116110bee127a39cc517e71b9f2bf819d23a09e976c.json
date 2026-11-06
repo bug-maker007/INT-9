@@ -1,0 +1,111 @@
+{
+ "sha256_hash": "34a019fa671da69f8a53c116110bee127a39cc517e71b9f2bf819d23a09e976c",
+ "sha3_384_hash": "9901bd462b0e8c94abf267555177ff5dc80349fc68777f95f2331253f1a9f201a353c3ac6bd526a22e8e24e32eb5efa8",
+ "sha1_hash": "579f99a4c4bb7b5d3b4d5dde87400424a7004d44",
+ "md5_hash": "25dbb2e7c15f00d01a222c78cc96cb6d",
+ "first_seen": "2021-05-10 14:01:44",
+ "last_seen": null,
+ "file_name": "25dbb2e7_by_Libranalysis",
+ "file_size": 2526827,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Libranalysis",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Alien",
+ "imphash": null,
+ "tlsh": "E9C523DF6F568C69D6328A3235530492B4300F08BE94F26E13A5205A39B7F614976FBF",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:69L2L/LCjfCKLkWOMbmws71r0EP6VDueECwq35/Eh0F/:YyL/UlLmMbq7p0ECVCeECwqJs0F/",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": "Uploaded as part of the sample sharing project",
+ "archive_pw": null,
+ "tags": null,
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": [
+   "Sanesecurity.Foxhole.JS_Zip_18.UNOFFICIAL"
+  ],
+  "downloads": "150",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": "alien",
+   "link": "https://mwdb.cert.pl/sample/34a019fa671da69f8a53c116110bee127a39cc517e71b9f2bf819d23a09e976c/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Banker",
+   "score": "0.90"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/34a019fa671da69f8a53c116110bee127a39cc517e71b9f2bf819d23a09e976c",
+   "details": [
+    {
+     "category": "suspicious",
+     "title": "Base64 Encoded URL",
+     "description": "Detected an ANSI or UNICODE http:// or https:// base64 encoded URL prefix."
+    }
+   ]
+  },
+  "Triage": {
+   "malware_family": "alienbot",
+   "score": "10",
+   "link": "https://tria.ge/reports/210510-6ldkl1xzq6/",
+   "tags": [
+    "family:alienbot",
+    "android",
+    "banker",
+    "infostealer",
+    "obfuscation",
+    "stealth",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Alienbot",
+     "score": "10"
+    },
+    {
+     "signature": "Removes its main activity from the application launcher",
+     "score": "8"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Uses reflection",
+     "score": "3"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "alienbot",
+     "c2": "http://akpli.club"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Dropper.Hqwar",
+   "status": "MALICIOUS",
+   "first_seen": "2021-05-02 01:23:03",
+   "scanner_count": "29",
+   "scanner_match": "9",
+   "scanner_percent": "31.03"
+  }
+ },
+ "comments": null
+}

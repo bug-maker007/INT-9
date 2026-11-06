@@ -1,0 +1,127 @@
+{
+ "sha256_hash": "1bb3ac10b2cdd0a1edb3c730f766cb48e8173dbccea04a9afe44f3aef1060682",
+ "sha3_384_hash": "b02c95fe2239b9a52ab3837f7d38cc53111413ae64411c1e8fedff13a7ce2b5d1e340526ce38e4e16d5e5dcec5ae2f8f",
+ "sha1_hash": "e8a82a7a115a5805ff6a578bf7b1c2e84a426787",
+ "md5_hash": "4403836ac9af55e0dc0300cc58a3355c",
+ "first_seen": "2022-01-08 22:02:02",
+ "last_seen": null,
+ "file_name": "90621_Video_Oynatıcı.apk",
+ "file_size": 2620950,
+ "file_type_mime": "application/java-archive",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "unidentified0xc",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "Hydra",
+ "imphash": null,
+ "tlsh": "T172C52347BBD5E843C5E3D1310A6381A3553A8E9B86A26E17374D3A283F736E05F1B9C1",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:rNHeovqSJvJJHsIsk0MXcjmInGb8d0Bg+GYHCUdHOLiz/+X:rN+ovqSJv7sjk0bjmInGb8NHYHCUdHOX",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": null,
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "hydra",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android",
+   "issuer_cn": "Android",
+   "algorithm": "sha1WithRSAEncryption",
+   "valid_from": "2008-02-29T01:33:46Z",
+   "valid_to": "2035-07-17T01:33:46Z",
+   "serial_number": "936eacbe07f201df",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.BankBot.11325.24814.11393.UNOFFICIAL"
+  ],
+  "downloads": "621",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/1958555/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/1bb3ac10b2cdd0a1edb3c730f766cb48e8173dbccea04a9afe44f3aef1060682/"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/1bb3ac10b2cdd0a1edb3c730f766cb48e8173dbccea04a9afe44f3aef1060682",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "hydra",
+   "score": "10",
+   "link": "https://tria.ge/reports/220108-1xsm9adcd4/",
+   "tags": [
+    "family:hydra",
+    "android",
+    "banker",
+    "infostealer",
+    "trojan"
+   ],
+   "signatures": [
+    {
+     "signature": "Hydra",
+     "score": "10"
+    },
+    {
+     "signature": "Hydra Payload",
+     "score": "10"
+    },
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    },
+    {
+     "signature": "Reads information about phone network operator.",
+     "score": "6"
+    }
+   ],
+   "malware_config": [
+    {
+     "extraction": "c2",
+     "family": "hydra",
+     "c2": "http://mekhimccabe5573.website"
+    }
+   ]
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Multiverze",
+   "status": "MALICIOUS",
+   "first_seen": "2022-01-08 22:03:26",
+   "scanner_count": "28",
+   "scanner_match": "13",
+   "scanner_percent": "46.43"
+  },
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/61da0a1d02e388f9fdb79c56/reports/94dbf1e8-03a2-46f1-89bd-115bd283ae8d/overview"
+  }
+ },
+ "comments": null
+}

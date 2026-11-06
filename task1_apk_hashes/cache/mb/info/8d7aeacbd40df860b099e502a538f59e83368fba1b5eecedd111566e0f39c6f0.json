@@ -1,0 +1,134 @@
+{
+ "sha256_hash": "8d7aeacbd40df860b099e502a538f59e83368fba1b5eecedd111566e0f39c6f0",
+ "sha3_384_hash": "beefb9d2bc87739467b7b0816405d84a41ed58b536f6634fdb4e28383ea66b643dac3fec8c1e2d75e6478f636b52d512",
+ "sha1_hash": "50daebae62139e913fee8f21a5df3dedd4ea224a",
+ "md5_hash": "778e0b0178141095e2f0bd60f576632b",
+ "first_seen": "2026-05-08 08:58:47",
+ "last_seen": null,
+ "file_name": "arabianexchange.apk",
+ "file_size": 14743574,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "mohit",
+ "origin_country": "IN",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1BBE612B3F7684D2FD8BB04710CAAB122561A4E11CE93E34B6908776C7A779D41F88BD4",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "196608:vwPzqPR3F1LBTHSQL/NfqkFrrgRebsjRx5Vv2xU6ohps162TxX1orSSz2hEEcS4b:v8zGtF1VTX7pHaD1aU6oQTYSSKGEduUq",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "50.0% (.APK) Android Package (27000/1/5)",
+  "23.1% (.VYM) VYM Mind Map (12500/1/3)",
+  "19.4% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "android",
+  "apk",
+  "Bank",
+  "malware"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "149",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "CP_Script_Inject_Detector",
+   "author": "DiegoAnalytics",
+   "description": "Detects attempts to inject code into another process across PE, ELF, Mach-O binaries",
+   "reference": null
+  },
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  },
+  {
+   "rule_name": "test_Malaysia",
+   "author": "rectifyq",
+   "description": "Detects file containing malaysia string",
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/8d7aeacbd40df860b099e502a538f59e83368fba1b5eecedd111566e0f39c6f0/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.05"
+  },
+  "InQuest": {
+   "verdict": "UNKNOWN",
+   "url": "https://labs.inquest.net/dfi/sha256/8d7aeacbd40df860b099e502a538f59e83368fba1b5eecedd111566e0f39c6f0",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "6",
+   "link": "https://tria.ge/reports/260508-kxwf5sez9y/",
+   "tags": [
+    "android",
+    "discovery"
+   ],
+   "signatures": [
+    {
+     "signature": "Acquires the wake lock",
+     "score": "6"
+    },
+    {
+     "signature": "Queries information about active data network",
+     "score": "6"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Infostealer.Banbra",
+   "status": "SUSPICIOUS",
+   "first_seen": "2026-05-08 08:59:29",
+   "scanner_count": "38",
+   "scanner_match": "9",
+   "scanner_percent": "23.68"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1.0",
+   "confidence": "1.0",
+   "report_link": "https://www.filescan.io/uploads/69fda5e586e92bda70242ef3/reports/43dc6b49-e57a-40a7-9b25-dc1bdf4063fc/overview"
+  },
+  "Kaspersky": {
+   "verdict": "NotCategorized",
+   "file_type": "apk",
+   "first_seen": "",
+   "last_seen": "",
+   "hitscount": 0,
+   "report_link": "https://opentip.kaspersky.com/8d7aeacbd40df860b099e502a538f59e83368fba1b5eecedd111566e0f39c6f0/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}

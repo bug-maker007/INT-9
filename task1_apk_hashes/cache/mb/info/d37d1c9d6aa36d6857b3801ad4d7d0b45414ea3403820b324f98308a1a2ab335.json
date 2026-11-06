@@ -1,0 +1,156 @@
+{
+ "sha256_hash": "d37d1c9d6aa36d6857b3801ad4d7d0b45414ea3403820b324f98308a1a2ab335",
+ "sha3_384_hash": "c97f6ad93db302f9262f143f75d42815dfb71618a87582693fc355505ab2c6181ecacd88d99eda57cf2f015c74a1a8d7",
+ "sha1_hash": "ec28398a37c04a6aaa12ec69ad11d57ec00a3abc",
+ "md5_hash": "01a5dc2a28c0f38b95c344a41ebf5cd6",
+ "first_seen": "2024-07-29 19:10:16",
+ "last_seen": null,
+ "file_name": "Mellatv2.apk",
+ "file_size": 5443730,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "NDA0E",
+ "origin_country": "NL",
+ "anonymous": 0,
+ "signature": "IRATA",
+ "imphash": null,
+ "tlsh": "T1B846F1DAF7D8592FC8770072C96E92F126474D128A83DF47A948361C68B76D80F9DBC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:L3NCknvkYxtnI0K3s0l2A92DvDmG3k7cejvb9fqy6Ejb19xpLxo/KrAjzI:joUvkWtnfA92PmGLK99x+zI",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "44.5% (.APK) Android Package (32500/1/6)",
+  "18.4% (.JAR) Java Archive (13500/1/2)",
+  "17.1% (.VYM) VYM Mind Map (12500/1/3)",
+  "14.3% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "5.4% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "BankMellat",
+  "Geo",
+  "GossRAT",
+  "IRATA",
+  "Irn",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Alexhome",
+   "issuer_cn": "Alexhome",
+   "algorithm": "md5WithRSAEncryption",
+   "valid_from": "2024-07-11T16:10:09Z",
+   "valid_to": "2074-06-29T16:10:09Z",
+   "serial_number": "0190a28f29f6",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "df06a4aeeeb2af1f6a95a582aa4d0bca43d07c22c158b0032fb1744ae305e783",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "318",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3077934/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3077935/"
+  },
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3077941/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d37d1c9d6aa36d6857b3801ad4d7d0b45414ea3403820b324f98308a1a2ab335/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/d37d1c9d6aa36d6857b3801ad4d7d0b45414ea3403820b324f98308a1a2ab335",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/240729-xvxyeazcjc/",
+   "tags": [
+    "android",
+    "collection",
+    "credential_access",
+    "discovery",
+    "impact",
+    "persistence"
+   ],
+   "signatures": [
+    {
+     "signature": "Obtains sensitive information copied to the device clipboard",
+     "score": "7"
+    },
+    {
+     "signature": "Legitimate hosting services abused for malware hosting/C2",
+     "score": "6"
+    },
+    {
+     "signature": "Queries the mobile country code (MCC)",
+     "score": "6"
+    },
+    {
+     "signature": "Registers a broadcast receiver at runtime (usually for listening for system events)",
+     "score": "4"
+    },
+    {
+     "signature": "Checks CPU information",
+     "score": null
+    },
+    {
+     "signature": "Checks memory information",
+     "score": null
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.Generic",
+   "status": "SUSPICIOUS",
+   "first_seen": "2024-07-21 23:29:48",
+   "scanner_count": "23",
+   "scanner_match": "6",
+   "scanner_percent": "26.09"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/66a7e94778d5c73fb1c8bcff/reports/c09d6e38-347c-4d3f-bf22-a88ed66170ba/overview"
+  }
+ },
+ "comments": null
+}

@@ -1,0 +1,107 @@
+{
+ "sha256_hash": "6ff165ca75bba20201edb243adf6d4eaa0e663c479832c6f1fcd490bd823f88a",
+ "sha3_384_hash": "2f4975138fa2dc437eb6a088ccecd91c3301462af0b0f98855b086b5df980425e8318421a96628188af4992fc616f433",
+ "sha1_hash": "6bb4016ec576e4b08cb815f368708e2e04e0226e",
+ "md5_hash": "2b84407503f4acc17ad773c40d6b2636",
+ "first_seen": "2024-02-12 13:37:10",
+ "last_seen": null,
+ "file_name": "Important_update_16.apk",
+ "file_size": 80821491,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "e24111111154168",
+ "origin_country": "GR",
+ "anonymous": 0,
+ "signature": "Triada",
+ "imphash": null,
+ "tlsh": "T1370812D3F364ECA6C0F39335973198A2B9260CB55B23E6972D01B23D5DB39C09549EE8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "1572864:oChm9pOtLNjVD9uOUehYEc2qgMUUbdCgzIDfm/nMt6lLBuBKGa8TbY:o9pOtLN5983EBqDZVWfm/I6xGawY",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "28.6% (.APK) Android Package (32500/1/6)",
+  "18.9% (.OXT) OpenOffice Extension (21500/1/3)",
+  "11.8% (.JAR) Java Archive (13500/1/2)",
+  "11.0% (.VYM) VYM Mind Map (12500/1/3)",
+  "9.6% (.CATROBAT) Pocket Code/Catroid Catrobat Project (11000/1/2)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "signed",
+  "triada"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "da",
+   "issuer_cn": "da",
+   "algorithm": "sha256WithRSAEncryption",
+   "valid_from": "2023-08-11T01:19:25Z",
+   "valid_to": "2078-05-14T01:19:25Z",
+   "serial_number": "59dfc9a1",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c338a04d2267aa1ec918ace8b01ac2efa6e8ad07559f212a0caeee864d3268ce",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": null,
+  "downloads": "1505",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "malpedia",
+   "value": "https://malpedia.caad.fkie.fraunhofer.de/details/apk.triada"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/6ff165ca75bba20201edb243adf6d4eaa0e663c479832c6f1fcd490bd823f88a",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": "triada",
+   "score": "10",
+   "link": "https://tria.ge/reports/240212-qxefhseh4x/",
+   "tags": [
+    "family:triada",
+    "android"
+   ],
+   "signatures": [],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Linux.Trojan.Triada",
+   "status": "MALICIOUS",
+   "first_seen": "2024-02-10 06:00:04",
+   "scanner_count": "38",
+   "scanner_match": "7",
+   "scanner_percent": "18.42"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "LIKELY_MALICIOUS",
+   "threatlevel": "0.75",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/65ca1f40179f724a95500e0e/reports/9fbed532-491d-4fb5-a72c-15e7c3562e72/overview"
+  }
+ },
+ "comments": null
+}

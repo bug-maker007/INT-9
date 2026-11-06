@@ -1,0 +1,103 @@
+{
+ "sha256_hash": "d7bc1f5935f83370514f5df110997c804eb15dc2ba1ade0a7f3021940445e65b",
+ "sha3_384_hash": "2e94b306e14e02087226c85370deef81895b5709d73bd6f492bd57df5b41892149e6264080065d05b196ba414fc7aa34",
+ "sha1_hash": "8c05ac7a1e2b817de33ce8a3f018067d9a9d54dd",
+ "md5_hash": "c0e9ef82c0b38eedb1de079299ca99d0",
+ "first_seen": "2022-09-20 16:39:38",
+ "last_seen": "2022-09-23 10:29:15",
+ "file_name": "심플맨.apk",
+ "file_size": 3214201,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "Jagdtiger88mm",
+ "origin_country": null,
+ "anonymous": 0,
+ "signature": "BankBot",
+ "imphash": null,
+ "tlsh": "T1BFE5BF43E708E97AC5F7833259721A222677CD298B83D297180D767D18BB6DC0F59BC8",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "49152:gQyuuz9KLsrQSYQT8jeOWWqe54FZfwbQgduzfrCXSG2z1m23vFE2OEvuoi:gxKQcNX/4FGbqzfrCXh2/78",
+ "magika": null,
+ "dhash_icon": null,
+ "trid": [
+  "44.6% (.SH3D) Sweet Home 3D design (generic) (10500/1/3)",
+  "34.0% (.XPI) Mozilla Firefox browser extension (8000/1/1)",
+  "17.0% (.ZIP) ZIP compressed archive (4000/1)",
+  "4.2% (.PG/BIN) PrintFox/Pagefox bitmap (640x800) (1000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "BankBot",
+  "HEUR",
+  "PUP",
+  "SmsSpy"
+ ],
+ "code_sign": null,
+ "delivery_method": null,
+ "intelligence": {
+  "clamav": null,
+  "downloads": "513",
+  "uploads": "2",
+  "mail": null
+ },
+ "file_information": null,
+ "ole_information": [],
+ "yara_rules": null,
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/d7bc1f5935f83370514f5df110997c804eb15dc2ba1ade0a7f3021940445e65b/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "InQuest": {
+   "verdict": "MALICIOUS",
+   "url": "https://labs.inquest.net/dfi/sha256/d7bc1f5935f83370514f5df110997c804eb15dc2ba1ade0a7f3021940445e65b",
+   "details": []
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "5",
+   "link": "https://tria.ge/reports/220920-t6jy5shdbp/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Removes a system notification.",
+     "score": "5"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.BankBot",
+   "status": "MALICIOUS",
+   "first_seen": "2022-09-20 16:40:33",
+   "scanner_count": "39",
+   "scanner_match": "5",
+   "scanner_percent": "12.82"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": "MALICIOUS",
+   "threatlevel": "1",
+   "confidence": "1",
+   "report_link": "https://www.filescan.io/uploads/6329ecfd865ed83c011a4b1b/reports/80b3c2a6-c271-4a9c-8d99-3ac530ecd608/overview"
+  }
+ },
+ "comments": null
+}

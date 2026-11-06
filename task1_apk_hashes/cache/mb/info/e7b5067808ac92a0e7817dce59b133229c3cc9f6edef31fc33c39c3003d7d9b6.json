@@ -1,0 +1,132 @@
+{
+ "sha256_hash": "e7b5067808ac92a0e7817dce59b133229c3cc9f6edef31fc33c39c3003d7d9b6",
+ "sha3_384_hash": "55d4f61172d92c402438afa315166099be328fc0d1206ba1237a73785a236b7dfff9c2a35c1fc337407cd8faed251b13",
+ "sha1_hash": "24ecb2ec0afae6e48012f873b32c474b6a4067b9",
+ "md5_hash": "d961a947ac6976277fba19f6fa476ec7",
+ "first_seen": "2026-07-25 10:07:13",
+ "last_seen": null,
+ "file_name": "variant_19.apk",
+ "file_size": 3751253,
+ "file_type_mime": "application/zip",
+ "file_type": "apk",
+ "file_format": null,
+ "file_arch": null,
+ "reporter": "JAMESWT_WT",
+ "origin_country": "IT",
+ "anonymous": 0,
+ "signature": null,
+ "imphash": null,
+ "tlsh": "T1D906BE4AF748AB5AC0F7523A0C755A62515B8CE68F83D7837D64733C48BB9C01E5AACC",
+ "telfhash": null,
+ "gimphash": null,
+ "ssdeep": "98304:n1ij3XVsrRrEZ0CTWUSrAoSZd01KAQe9Z/yv/Ln2M:nj2ildYlq/6z",
+ "magika": "apk",
+ "dhash_icon": null,
+ "trid": [
+  "49.0% (.APK) Android Package (27000/1/5)",
+  "24.5% (.JAR) Java Archive (13500/1/2)",
+  "19.0% (.SH3D) Sweet Home 3D Design (generic) (10500/1/3)",
+  "7.2% (.ZIP) ZIP compressed archive (4000/1)"
+ ],
+ "comment": null,
+ "archive_pw": null,
+ "tags": [
+  "apk",
+  "semprecardsecure-com",
+  "signed"
+ ],
+ "code_sign": [
+  {
+   "subject_cn": "Android Developer",
+   "issuer_cn": "Android Developer",
+   "algorithm": "sha384WithRSAEncryption",
+   "valid_from": "2026-07-23T19:45:39Z",
+   "valid_to": "2053-12-08T19:45:39Z",
+   "serial_number": "4eaf0b33e4e6a05a",
+   "thumbprint_algorithm": "SHA256",
+   "thumbprint": "c7de5248064f3fc08476e390c69544b66dceae2aab60163cc36d4067347cbd4d",
+   "cscb_listed": false,
+   "cscb_reason": null
+  }
+ ],
+ "delivery_method": "web_download",
+ "intelligence": {
+  "clamav": [
+   "SecuriteInfo.com.Android.Banker.NGate.50.origin.32614.24435.UNOFFICIAL"
+  ],
+  "downloads": "130",
+  "uploads": "1",
+  "mail": null
+ },
+ "file_information": [
+  {
+   "context": "URLhaus",
+   "value": "https://urlhaus.abuse.ch/url/3891408/"
+  }
+ ],
+ "ole_information": [],
+ "yara_rules": [
+  {
+   "rule_name": "telebot_framework",
+   "author": "vietdx.mb",
+   "description": null,
+   "reference": null
+  }
+ ],
+ "vendor_intel": {
+  "CERT-PL_MWDB": {
+   "detection": null,
+   "link": "https://mwdb.cert.pl/sample/e7b5067808ac92a0e7817dce59b133229c3cc9f6edef31fc33c39c3003d7d9b6/"
+  },
+  "YOROI_YOMI": {
+   "detection": "Legit File",
+   "score": "0.00"
+  },
+  "Triage": {
+   "malware_family": null,
+   "score": "7",
+   "link": "https://tria.ge/reports/260725-l6892avfme/",
+   "tags": [
+    "android",
+    "evasion"
+   ],
+   "signatures": [
+    {
+     "signature": "Loads dropped Dex/Jar",
+     "score": "7"
+    }
+   ],
+   "malware_config": []
+  },
+  "ReversingLabs": {
+   "threat_name": "Android.Trojan.NGate",
+   "status": "MALICIOUS",
+   "first_seen": "2026-07-25 10:01:50",
+   "scanner_count": "24",
+   "scanner_match": "8",
+   "scanner_percent": "33.33"
+  },
+  "Spamhaus_HBL": [
+   {
+    "detection": "suspicious",
+    "link": "https://www.spamhaus.org/hbl/"
+   }
+  ],
+  "FileScan-IO": {
+   "verdict": null,
+   "threatlevel": null,
+   "confidence": null,
+   "report_link": "https://www.filescan.io/uploads/6a648bacfec66ddb125a2184/reports//overview"
+  },
+  "Kaspersky": {
+   "verdict": "Malware",
+   "file_type": "apk",
+   "first_seen": "2026-07-25T08:08:00Z",
+   "last_seen": "2026-07-25T08:49:00Z",
+   "hitscount": 10,
+   "report_link": "https://opentip.kaspersky.com/e7b5067808ac92a0e7817dce59b133229c3cc9f6edef31fc33c39c3003d7d9b6/results?tab=lookup",
+   "detections": []
+  }
+ },
+ "comments": null
+}
